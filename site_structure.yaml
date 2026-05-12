@@ -1,0 +1,18 @@
+name: Arena_Engine_Core
+version: 1.0.0
+build:
+  generator: hugo
+  deploy: cloudflare_pages
+  seo:
+    enable_faq_schema: true
+    auto_generate: true
+content_map:
+  - path: /anomaly-log
+    source: ./content/internal_logs/
+    template: anomaly_template.html
+  - path: /physics-faq
+    source: ./Shepherd-Wasteland-Phys-Validation/Research-Updates.md
+    template: faq_template.html
+  - path: /dashboard
+    source: ./Nexus_Core/sandbox/crypto_arena/
+    template: visual_template.html

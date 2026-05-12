@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "在《Shepherd's Wasteland》中，维度切变 (Dimension-Shearing) 是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "通过扭矩引发的时空原子级撕裂机制，是实现跨维移动的物理锚点。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "在《Shepherd's Wasteland》中，真空零点能泄露 (Vacuum Zero-Point Energy Leakage) 是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "数据真空本质上是零点能的局部泄露，表现为时空连续体的破裂。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "在《Shepherd's Wasteland》中，坐标置换 (Coordinate Displacement) 是什么？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "利用维度切变撕裂的时空裂隙，在不同坐标系间进行的物理物质映射。"
+      }
+    }
+  ]
+}
