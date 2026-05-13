@@ -1,6 +1,6 @@
 {
-    "dimension_shearing_probability": 0.8689,
-    "vacuum_leakage_rate": 1.27,
-    "shepherd_protocol_stability": 99.95,
+    "dimension_shearing_probability": 0.8525,
+    "vacuum_leakage_rate": 1.36,
+    "shepherd_protocol_stability": 99.93,
     "last_update": "2026-05-12T18:30:00Z"
 }
