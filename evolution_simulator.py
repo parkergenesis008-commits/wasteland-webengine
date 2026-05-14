@@ -137,33 +137,60 @@ class EvolutionaryGameEngine:
 
         return self.phenotypes
 
-if __name__ == "__main__":
-    state = ArenaState()
-    for _ in range(50):
-        status = state.apply_floquet_hammer()
-    print(f"Arena Status: {status}, Fidelity: {state.corner_state_fidelity}")
-    tmd = TMDChassis()
-    for _ in range(5):
-        tmd_status = tmd.apply_shear_strain(0.4)
-    print(f"TMD Status: {tmd_status}, Landau Levels: {tmd.landau_level_multiplex}, Flux Vortex: {tmd.flux_vortex_state}")
-    wafer = SiliconTinWafer()
-    wafer_status = wafer.deposit_tin_dust(0.333) # 精确 1/3 单层
-    print(f"Wafer Status: {wafer_status}, Void Integrity: {wafer.void_center_integrity}")
-    fabric = PlasmonicMoireFabric()
-    fabric_status = fabric.execute_topological_transition(0.6) # 大相位差扭曲
-    print(f"Fabric Status: {fabric_status}, Coordinate Fidelity: {fabric.arena_coordinate_fidelity}")
-    qah_armor = MnBi2Te4Armor()
-    armor_status = qah_armor.withstand_in_plane_emp(4.0) # 遭遇强平面磁暴攻击
-    print(f"Armor Status: {armor_status}, Cascade Level: {qah_armor.spin_flop_cascade_level}")
-    junk_lens = JunkLensArray()
-    lens_status = junk_lens.focus_hostile_light(chaotic_light_intensity=10.0, decoherence_noise=6.0) # 高噪强光照射
-    print(f"Lens Status: {lens_status}, Sensor Noise: {junk_lens.sensor_noise_level}")
 
-    # --- 群体演化博弈测试 ---
+
+
+
+if __name__ == "__main__":
+    import random
+    
     egt = EvolutionaryGameEngine()
-    hazards = ["GLOBAL_EMP_STORM", "CHAOTIC_LASER_SWEEP", "PRECISION_LOCK_ON", "GLOBAL_EMP_STORM"]
-    print("\n[Evolutionary Game Theory Matrix Initiated - 1M Agents]")
-    for hazard in hazards:
-        dist = egt.run_generation(hazard)
-        print(f"Gen {egt.generation} | Hazard: {hazard}")
-        print(f"  Tanks: {dist['MnBi2Te4_Tanks']:.2%} | Brawlers: {dist['TMD_Brawlers']:.2%} | Assassins: {dist['Plasmonic_Assassins']:.2%} | Scavengers: {dist['JunkLens_Scavengers']:.2%}")
+    hazards = ["EMP_STORM", "LASER_SWEEP", "PRECISION_LOCK_ON", "MELEE_AMBUSH"]
+    
+    history = {k: [] for k in egt.phenotypes.keys()}
+    
+    for i in range(5000):
+        hazard = random.choice(hazards)
+        egt.generation += 1
+        
+        # Base decay
+        for key in egt.phenotypes:
+            egt.phenotypes[key] *= 0.9
+            
+        if hazard == "EMP_STORM":
+            egt.phenotypes["MnBi2Te4_Tanks"] *= 2.0
+            egt.phenotypes["JunkLens_Scavengers"] *= 0.3
+        elif hazard == "LASER_SWEEP":
+            egt.phenotypes["JunkLens_Scavengers"] *= 2.0
+            egt.phenotypes["Plasmonic_Assassins"] *= 0.3
+        elif hazard == "PRECISION_LOCK_ON":
+            egt.phenotypes["Plasmonic_Assassins"] *= 2.0
+            egt.phenotypes["MnBi2Te4_Tanks"] *= 0.3
+        elif hazard == "MELEE_AMBUSH":
+            egt.phenotypes["TMD_Brawlers"] *= 2.0
+            egt.phenotypes["JunkLens_Scavengers"] *= 0.3
+            egt.phenotypes["Plasmonic_Assassins"] *= 0.3
+            
+        # Tiny mutation rate
+        for key in egt.phenotypes:
+            egt.phenotypes[key] += 0.01
+            
+        total = sum(egt.phenotypes.values())
+        for key in egt.phenotypes:
+            egt.phenotypes[key] /= total
+            history[key].append(egt.phenotypes[key])
+
+    steady_state = {}
+    for key in history:
+        steady_state[key] = sum(history[key][-1000:]) / 1000.0
+        
+    print("\n=== RED QUEEN DYNAMICS (5000 Generations) ===")
+    print("Steady State Averages (Last 1000 Gen):")
+    for k, v in steady_state.items():
+        print(f"  {k}: {v:.2%}")
+        
+    print("\nVolatility (Min - Max in last 1000 Gen):")
+    for k in history:
+        min_v = min(history[k][-1000:])
+        max_v = max(history[k][-1000:])
+        print(f"  {k}: {min_v:.2%} - {max_v:.2%}")
