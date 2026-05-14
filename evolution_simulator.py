@@ -80,6 +80,22 @@ class MnBi2Te4Armor:
             return f"SPIN_FLOP_CASCADE_TRIGGERED_DEFENSE_UP_TO_{self.qah_insulation_strength}"
         return "ARMOR_BREACH_QUANTUM_DECOHERENCE"
 
+
+class JunkLensArray:
+    def __init__(self):
+        self.lens_count = 12
+        self.meron_texture_robustness = 0.0
+        self.sensor_noise_level = 0.0
+
+    def focus_hostile_light(self, chaotic_light_intensity, decoherence_noise):
+        self.meron_texture_robustness = chaotic_light_intensity * 0.8
+        residual_noise = max(0, decoherence_noise - self.meron_texture_robustness)
+        self.sensor_noise_level = residual_noise
+        
+        if residual_noise == 0:
+            return "SPONTANEOUS_MERON_SHIELD_ACTIVE_NOISE_NULLIFIED"
+        return "PARTIAL_DECOHERENCE_SUSTAINED"
+
 if __name__ == "__main__":
     state = ArenaState()
     for _ in range(50):
@@ -98,3 +114,6 @@ if __name__ == "__main__":
     qah_armor = MnBi2Te4Armor()
     armor_status = qah_armor.withstand_in_plane_emp(4.0) # 遭遇强平面磁暴攻击
     print(f"Armor Status: {armor_status}, Cascade Level: {qah_armor.spin_flop_cascade_level}")
+    junk_lens = JunkLensArray()
+    lens_status = junk_lens.focus_hostile_light(chaotic_light_intensity=10.0, decoherence_noise=6.0) # 高噪强光照射
+    print(f"Lens Status: {lens_status}, Sensor Noise: {junk_lens.sensor_noise_level}")
