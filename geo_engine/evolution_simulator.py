@@ -25,14 +25,16 @@ def evolve_metrics():
     data["dirac_mass_override_ratio"] = round(min(100.0, max(0.0, data.get("dirac_mass_override_ratio", 98.5) + random.uniform(-0.5, 1.0))), 2)
     data["semi_dirac_anisotropic_inertia"] = round(max(10.0, data.get("semi_dirac_anisotropic_inertia", 5000.0) + random.uniform(-200.0, 500.0)), 1)
 
-    # 3. 弗洛凯工程 (Floquet Engineering Metrics)
-    # 磁场驱动节拍相干度 (100%为完美周期性，极难受物理打击影响)
+    # 3. 弗洛凯工程
     data["floquet_drive_coherence"] = round(min(100.0, max(0.0, data.get("floquet_drive_coherence", 99.9) + random.uniform(-0.2, 0.1))), 2)
-    # 动态物质拓扑相相移频率 (THz，相变切换速度)
     data["dynamic_phase_shift_freq_thz"] = round(max(1.0, data.get("dynamic_phase_shift_freq_thz", 450.0) + random.uniform(-5.0, 15.0)), 1)
+
+    # 4. 近藤晶格硬件底座 (Kondo Lattice Hardware Metrics)
+    # 拓扑零模钉扎偏移 (Topological Zero Mode Pinning Deviation，必须绝对接近 0 meV)
+    data["kondo_zero_mode_deviation_mev"] = round(max(0.0, data.get("kondo_zero_mode_deviation_mev", 0.001) + random.uniform(-0.0005, 0.001)), 4)
 
     with open(metrics_path, 'w') as f:
         json.dump(data, f, indent=4)
-    print("Metrics evolved successfully with Floquet Engineering parameters.")
+    print("Metrics evolved successfully with Kondo Lattice Hardware parameters.")
 
 evolve_metrics()

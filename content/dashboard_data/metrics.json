@@ -1,15 +1,16 @@
 {
-    "dimension_shearing_probability": 0.8837,
-    "vacuum_leakage_rate": 1.42,
-    "shepherd_protocol_stability": 99.92,
+    "dimension_shearing_probability": 0.9017,
+    "vacuum_leakage_rate": 1.62,
+    "shepherd_protocol_stability": 99.95,
     "last_update": "2026-05-12T18:30:00Z",
-    "kpz_noise_entropy": 0.0647,
-    "polariton_condensate_density": 85.29,
-    "anyonic_exchange_volatility": 0.01242,
-    "oam_topological_keys_intact": 16990,
-    "quantum_metric_gravity_bias": 1.227,
-    "dirac_mass_override_ratio": 99.03,
-    "semi_dirac_anisotropic_inertia": 5092.8,
-    "floquet_drive_coherence": 99.76,
-    "dynamic_phase_shift_freq_thz": 448.6
+    "kpz_noise_entropy": 0.0607,
+    "polariton_condensate_density": 85.19,
+    "anyonic_exchange_volatility": 0.01508,
+    "oam_topological_keys_intact": 16983,
+    "quantum_metric_gravity_bias": 1.296,
+    "dirac_mass_override_ratio": 98.71,
+    "semi_dirac_anisotropic_inertia": 4982.6,
+    "floquet_drive_coherence": 99.62,
+    "dynamic_phase_shift_freq_thz": 446.1,
+    "kondo_zero_mode_deviation_mev": 0.0015
 }
