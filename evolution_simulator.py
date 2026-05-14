@@ -32,6 +32,24 @@ class TMDChassis:
             return "SYMMETRY_SHATTERED_TRIPLE_DEFENSE_ACTIVE"
         return "STRAIN_INCREASING"
 
+
+class SiliconTinWafer:
+    def __init__(self):
+        self.tin_coverage = 0.0
+        self.chiral_spin_state = False
+        self.void_center_integrity = 0.0
+
+    def deposit_tin_dust(self, coverage_ratio):
+        self.tin_coverage = coverage_ratio
+        if 0.330 < self.tin_coverage < 0.336:
+            self.chiral_spin_state = True
+            self.void_center_integrity = 1.0
+            return "CHIRAL_FLOWER_BLOOM_SUCCESS"
+        else:
+            self.chiral_spin_state = False
+            self.void_center_integrity = 0.0
+            return "LATTICE_COLLAPSE"
+
 if __name__ == "__main__":
     state = ArenaState()
     for _ in range(50):
@@ -41,3 +59,6 @@ if __name__ == "__main__":
     for _ in range(5):
         tmd_status = tmd.apply_shear_strain(0.4)
     print(f"TMD Status: {tmd_status}, Landau Levels: {tmd.landau_level_multiplex}, Flux Vortex: {tmd.flux_vortex_state}")
+    wafer = SiliconTinWafer()
+    wafer_status = wafer.deposit_tin_dust(0.333) # 精确 1/3 单层
+    print(f"Wafer Status: {wafer_status}, Void Integrity: {wafer.void_center_integrity}")
