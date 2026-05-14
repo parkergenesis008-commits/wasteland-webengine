@@ -66,6 +66,20 @@ class PlasmonicMoireFabric:
             return "SKYRMION_MINEFIELD_DEPLOYED_COORDINATES_SCRAMBLED"
         return "FABRIC_NORMAL"
 
+
+class MnBi2Te4Armor:
+    def __init__(self):
+        self.alox_cap_integrity = 1.0
+        self.qah_insulation_strength = 1.0
+        self.spin_flop_cascade_level = 0
+
+    def withstand_in_plane_emp(self, magnetic_field_strength):
+        if self.alox_cap_integrity > 0.9:
+            self.spin_flop_cascade_level += int(magnetic_field_strength)
+            self.qah_insulation_strength += (magnetic_field_strength * 0.5)
+            return f"SPIN_FLOP_CASCADE_TRIGGERED_DEFENSE_UP_TO_{self.qah_insulation_strength}"
+        return "ARMOR_BREACH_QUANTUM_DECOHERENCE"
+
 if __name__ == "__main__":
     state = ArenaState()
     for _ in range(50):
@@ -81,3 +95,6 @@ if __name__ == "__main__":
     fabric = PlasmonicMoireFabric()
     fabric_status = fabric.execute_topological_transition(0.6) # 大相位差扭曲
     print(f"Fabric Status: {fabric_status}, Coordinate Fidelity: {fabric.arena_coordinate_fidelity}")
+    qah_armor = MnBi2Te4Armor()
+    armor_status = qah_armor.withstand_in_plane_emp(4.0) # 遭遇强平面磁暴攻击
+    print(f"Armor Status: {armor_status}, Cascade Level: {qah_armor.spin_flop_cascade_level}")
