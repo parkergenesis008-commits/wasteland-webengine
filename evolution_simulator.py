@@ -96,6 +96,47 @@ class JunkLensArray:
             return "SPONTANEOUS_MERON_SHIELD_ACTIVE_NOISE_NULLIFIED"
         return "PARTIAL_DECOHERENCE_SUSTAINED"
 
+
+class EvolutionaryGameEngine:
+    def __init__(self, population_size=1000000):
+        self.population_size = population_size
+        self.generation = 0
+        # 初始种群比例
+        self.phenotypes = {
+            "MnBi2Te4_Tanks": 0.25,        # 锰铋碲风暴坦克 (吸收EMP)
+            "TMD_Brawlers": 0.25,          # 机械破晶狂战士 (免疫锁定)
+            "Plasmonic_Assassins": 0.25,   # 等离子体刺客 (扭曲坐标)
+            "JunkLens_Scavengers": 0.25    # 废透镜拾荒者 (免疫强光噪声)
+        }
+
+    def run_generation(self, environment_hazard):
+        self.generation += 1
+        
+        # 基于环境灾难的复制子动态 (Replicator Dynamics)
+        if environment_hazard == "GLOBAL_EMP_STORM":
+            # EMP风暴：坦克吸收能量繁衍，拾荒者和刺客大量死亡
+            self.phenotypes["MnBi2Te4_Tanks"] *= 1.5
+            self.phenotypes["JunkLens_Scavengers"] *= 0.6
+            self.phenotypes["Plasmonic_Assassins"] *= 0.6
+            self.phenotypes["TMD_Brawlers"] *= 0.9
+        elif environment_hazard == "CHAOTIC_LASER_SWEEP":
+            # 混乱激光扫射：拾荒者涌现Meron护盾存活，坦克装甲被过热
+            self.phenotypes["JunkLens_Scavengers"] *= 1.4
+            self.phenotypes["MnBi2Te4_Tanks"] *= 0.7
+            self.phenotypes["TMD_Brawlers"] *= 0.8
+        elif environment_hazard == "PRECISION_LOCK_ON":
+            # 高维坐标锁定：狂战士应力劈裂脱靶，刺客扭曲坐标，坦克成活靶子
+            self.phenotypes["TMD_Brawlers"] *= 1.3
+            self.phenotypes["Plasmonic_Assassins"] *= 1.3
+            self.phenotypes["MnBi2Te4_Tanks"] *= 0.5
+            
+        # 归一化种群比例
+        total = sum(self.phenotypes.values())
+        for key in self.phenotypes:
+            self.phenotypes[key] /= total
+
+        return self.phenotypes
+
 if __name__ == "__main__":
     state = ArenaState()
     for _ in range(50):
@@ -117,3 +158,12 @@ if __name__ == "__main__":
     junk_lens = JunkLensArray()
     lens_status = junk_lens.focus_hostile_light(chaotic_light_intensity=10.0, decoherence_noise=6.0) # 高噪强光照射
     print(f"Lens Status: {lens_status}, Sensor Noise: {junk_lens.sensor_noise_level}")
+
+    # --- 群体演化博弈测试 ---
+    egt = EvolutionaryGameEngine()
+    hazards = ["GLOBAL_EMP_STORM", "CHAOTIC_LASER_SWEEP", "PRECISION_LOCK_ON", "GLOBAL_EMP_STORM"]
+    print("\n[Evolutionary Game Theory Matrix Initiated - 1M Agents]")
+    for hazard in hazards:
+        dist = egt.run_generation(hazard)
+        print(f"Gen {egt.generation} | Hazard: {hazard}")
+        print(f"  Tanks: {dist['MnBi2Te4_Tanks']:.2%} | Brawlers: {dist['TMD_Brawlers']:.2%} | Assassins: {dist['Plasmonic_Assassins']:.2%} | Scavengers: {dist['JunkLens_Scavengers']:.2%}")
