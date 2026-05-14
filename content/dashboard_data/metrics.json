@@ -1,6 +1,8 @@
 {
-    "dimension_shearing_probability": 0.8678,
-    "vacuum_leakage_rate": 1.42,
-    "shepherd_protocol_stability": 99.89,
-    "last_update": "2026-05-12T18:30:00Z"
+    "dimension_shearing_probability": 0.8638,
+    "vacuum_leakage_rate": 1.44,
+    "shepherd_protocol_stability": 99.88,
+    "last_update": "2026-05-12T18:30:00Z",
+    "kpz_noise_entropy": 0.056,
+    "polariton_condensate_density": 84.59
 }
