@@ -57,38 +57,86 @@ def extract_title_from_md(md):
     return "Untitled"
 
 def md_to_html(md, slug):
-    """Minimal MD → HTML conversion for lore body content."""
+    """Robust MD → HTML conversion for lore body content."""
     html = []
     in_code = False
+    in_list = False
     for line in md.split('\n'):
         s = line.rstrip()
-        # Skip frontmatter
+        # Skip YAML frontmatter lines completely
         if s == '---':
             continue
-        # Headers
-        if s.startswith('### '):
-            html.append(f'<h3>{s[4:]}</h3>')
-        elif s.startswith('## '):
-            html.append(f'<h2>{s[3:]}</h2>')
-        elif s.startswith('# '):
-            html.append(f'<h1>{s[2:]}</h1>')
+        
         # Code blocks
-        elif s.startswith('```'):
+        if s.startswith('```'):
             if in_code:
                 html.append('</code></pre>')
                 in_code = False
             else:
                 html.append('<pre><code>')
                 in_code = True
-        elif in_code:
+            in_list = False
+            continue
+        if in_code:
             html.append(s)
-        # Bold/italic
-        elif s.strip():
+            continue
+        
+        # Close list if not a list item
+        stripped = s.lstrip()
+        
+        # Headers
+        if s.startswith('### '):
+            if in_list:
+                html.append('</ul>')
+                in_list = False
+            html.append(f'<h3>{s[4:]}</h3>')
+        elif s.startswith('## '):
+            if in_list:
+                html.append('</ul>')
+                in_list = False
+            html.append(f'<h2>{s[3:]}</h2>')
+        elif s.startswith('# '):
+            if in_list:
+                html.append('</ul>')
+                in_list = False
+            html.append(f'<h1>{s[2:]}</h1>')
+        # Ordered list
+        elif stripped and stripped[0].isdigit() and '. ' in stripped[:4]:
+            if not in_list:
+                html.append('<ol>')
+                in_list = True
+            content = stripped.split('. ', 1)[1] if '. ' in stripped else stripped
+            content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+            content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+            html.append(f'  <li>{content}</li>')
+        # Unordered list (starting with - or *)
+        elif stripped.startswith('- ') or stripped.startswith('* '):
+            if not in_list:
+                html.append('<ul>')
+                in_list = True
+            content = stripped[2:]
+            content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
+            content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+            html.append(f'  <li>{content}</li>')
+        # Empty line
+        elif not s.strip():
+            if in_list:
+                html.append('</ul>')
+                in_list = False
+            html.append('')
+        # Regular paragraph
+        else:
+            if in_list:
+                html.append('</ul>')
+                in_list = False
             s_processed = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
             s_processed = re.sub(r'\*(.+?)\*', r'<em>\1</em>', s_processed)
             html.append(f'<p>{s_processed}</p>')
-        else:
-            html.append('')
+    
+    # Close any open list
+    if in_list:
+        html.append('</ul>')
+    
     return '\n'.join(html)
 
 def build_schema_graph(slug, en_title, zh_title, description):
