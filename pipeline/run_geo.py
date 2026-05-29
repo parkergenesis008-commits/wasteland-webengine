@@ -61,21 +61,21 @@ def log_deploy():
 
 
 def should_run():
-    \"\"\"Weekly 15-20 random schedule: ~3 runs/day avg, but bound weekly.\"\"\"
+    """Weekly 15-20 random schedule: ~3 runs/day avg, but bound weekly."""
     now = datetime.datetime.now()
     # Only between 8AM-11PM (wider window)
     if now.hour < 8 or now.hour > 23:
-        print(\"[SILENT] Off-hours\")
+        print("[SILENT] Off-hours")
         return False
     
     # Max 3 deploys per day (scatter across day; cron triggers 1x/d but gives us room)
     if get_todays_deploy_count() >= 3:
-        print(\"[SILENT] Daily cap reached (3/day)\")
+        print("[SILENT] Daily cap reached (3/day)")
         return False
     
-    # 17.5/7 ≈ 2.5x per day on avg. Each cron trigger has ~83% chance to run.
+    # 17.5/7 approx = 2.5x per day on avg. Each cron trigger has ~83% chance to run.
     if random.random() > 0.83:
-        print(\"[SILENT] Random skip\")
+        print("[SILENT] Random skip")
         return False
     
     return True
