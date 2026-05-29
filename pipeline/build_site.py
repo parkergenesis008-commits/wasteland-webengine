@@ -47,6 +47,8 @@ ARXIV_REFS = {
         {"id": "1910.04763", "title": "Topological Kondo Insulators", "authors": "Dzero et al.", "year": "2019"},
         {"id": "2007.02914", "title": "Quantum Simulation of the Kondo Lattice Model with Ultracold Fermions", "authors": "Nakagawa et al.", "year": "2020"},
         {"id": "1608.03247", "title": "Interplay between Topology and Correlations in the Kondo Lattice Model", "authors": "Alexandrov et al.", "year": "2016"},
+        {"id": "2508.14666", "title": "Field Re-Entrant Superconductivity in Eu-Doped Infinite-Layer Nickelates", "authors": "Yang, Tang, Li et al.", "year": "2026"},
+        {"id": "2601.19473", "title": "Paramagnetically Driven Superconducting Re-Entrance in Eu-Doped Infinite Layer Nickelates", "authors": "Varbaro et al.", "year": "2026"},
     ],
     "floquet-temporal-matter": [
         {"id": "1705.02449", "title": "Floquet Topological Phases in One-Dimensional Strongly Correlated Systems", "authors": "Mikami et al.", "year": "2017"},
@@ -107,6 +109,8 @@ ARXIV_REFS = {
         {"id": "1907.03199", "title": "Collective Superradiance in Quantum Systems", "authors": "Gross et al.", "year": "2019"},
         {"id": "2011.10580", "title": "Dicke Superradiance in Solid-State Systems", "authors": "Parra-Murillo et al.", "year": "2020"},
         {"id": "1803.07643", "title": "Subradiance and Superradiance in Quantum Optics", "authors": "Asenjo-Garcia et al.", "year": "2018"},
+        {"id": "2508.14666", "title": "Field Re-Entrant Superconductivity in Eu-Doped Infinite-Layer Nickelates", "authors": "Yang, Tang, Li et al.", "year": "2026"},
+        {"id": "2601.19473", "title": "Paramagnetically Driven Superconducting Re-Entrance in Eu-Doped Infinite Layer Nickelates", "authors": "Varbaro et al.", "year": "2026"},
         {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
         {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
         {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},

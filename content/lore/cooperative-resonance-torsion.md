@@ -11,6 +11,10 @@ date: 2026-05-14
 ## 1. Physical Introduction: From NV Centers to Topological Nodes
 In early condensed matter physics, the "Cooperative Quantum Resonance" exhibited by Nitrogen-Vacancy (NV) centers at extremely low temperatures and high magnetic fields (>4T)—where independent quantum defects synchronize into Superradiance and Squeezed States by sharing a virtual photon field—provided decisive empirical support for the gravitational shielding and mass modulation technologies in the *Shepherd's Wasteland* project.
 
+**Historical Context and the Nickelate Demonstration.** The NV-center re-entrant coherence was limited to a narrow angular window: the field direction had to be aligned within 2–10° of the defect axis, or the effect vanished. This fragility was long assumed to be a universal feature of field-driven quantum coherence. That assumption was shattered in 2026. Li et al. (Nature 653, 1052) and Varbaro et al. (arXiv:2601.19473) demonstrated **field-induced re-entrant superconductivity in infinite-layer nickelates** that remains stable across a **full 90° rotation** of the applied field. The topological protection supplied by the infinite-layer geometry (Ni¹⁺ 3d⁹ confined to atomically precise NiO₂ planes) yields a level of angular robustness that exceeds the NV-center regime by an order of magnitude.
+
+This is the experimental validation of the principle that drives the Kagome-Torsion engine: **geometric confinement of the active electronic states is the source of topological protection, not a specific choice of constituent elements.** The Kagome lattice's 15.23° notch chirality and the infinite-layer nickelate's planar confinement are two manifestations of the same underlying architecture—structured defect geometry that permits magnetic exchange fields to *stabilize* rather than destroy quantum coherence.
+
 We recognized that the absolute symmetry of a "perfect lattice" limits the macroscopic emergence of energy. The true leverage of physics lies hidden within precisely controllable "topological defects."
 
 ## 2. Superradiant Mass Repulsion in the Kagome Lattice
