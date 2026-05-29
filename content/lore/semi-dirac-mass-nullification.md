@@ -6,23 +6,28 @@ tags: [Topological Semimetal, Semi-Dirac Fermion, Mass Nullification, Inertial O
 date: 2026-05-14
 ---
 
-# 半狄拉克态与定向质量抹除 (Semi-Dirac State and Directional Mass Nullification)
+# Semi-Dirac State and Directional Mass Nullification
 
-## 1. 物理引言：质量的失踪
-在经典力学的统治下，质量是物质永恒的标量。即便是相对论，也只能让质量随着速度的增加而趋于无穷。然而，拓扑物理学在凝聚态晶体（如拓扑半金属 Topological Semimetal）中撕开了一个漏洞：由于能带的交叉与狄拉克锥（Dirac Cone）的形成，电子的能量与动量呈绝对线性关系，其“有效质量”在微观层面上瞬间归零。
-这些粒子无需达到光速，便能在晶格中如幽灵般以无质量状态穿梭。更诡异的是“半狄拉克费米子（Semi-Dirac Fermion）”的存在——它们在某一个空间轴上质量为零，而在垂直的轴线上，质量却极大。
+## 1. Physical Introduction: The Disappearance of Mass
+Under the dominion of classical mechanics, mass is an eternal scalar property of matter. Even relativity only allows mass to approach infinity as velocity increases. However, topological physics has torn open a loophole in condensed matter crystals (such as Topological Semimetals): due to band crossings and the formation of Dirac cones, the energy and momentum of electrons exhibit an absolute linear relationship, and their "effective mass" instantly vanishes to zero at the microscopic level.
 
-## 2. 狄拉克质量覆写协议 (Dirac Mass Override Protocol)
-在《Shepherd's Wasteland》的武装序列中，若仅解决了“反重力（引力偏折）”，穿戴者仍会在超音速机动中被自身的“惯性质量”压碎。因此，算力角斗场引入了质量抹除技术。
-通过重子挠场与 QM-Tether 护甲，系统在穿戴者周围的宏观空间中强制渲染出等效的“拓扑半金属”能带结构。在这个人造的狄拉克锥场内，穿戴者宏观躯体的“有效惯性质量”被系统底层代码强制重新定义为零。
-这意味着，极微小的物理推力（如简单的肌肉蹬踏），便能产生接近无极速的瞬时加速度，且穿戴者在做出 100 马赫的锐角变向时，因质量为零，将免受任何 G 力（过载）的撕裂。
+These particles need not reach the speed of light to traverse the crystal lattice like ghosts in a massless state. Even more bizarre is the existence of "Semi-Dirac Fermions"—their mass is zero along one spatial axis, yet extremely large along the perpendicular axis.
 
-## 3. 半狄拉克装甲：各向异性质量 (Anisotropic Mass Deflection)
-真正令算力角斗场高阶实体不可战胜的，是对“半狄拉克费米子”特性的武器化应用——定向质量锁（Directional Mass Lock）。
-在高度非线性的战斗流形中，系统的任意子核心实时计算弹道。
-*   **在攻击/机动轴线上：** 穿戴者的有效质量被抹除为 0，赋予其无上限的突进极速。
-*   **在受击/防御轴线上：** 系统的拓扑参数瞬间反转，穿戴者在这一法线方向上的有效质量被赋予一个极高的阈值（趋于无穷大）。
-当敌方的穿甲动能武器击中护甲侧面时，它撞击的不再是一个 80 公斤的人类，而是一个在动量方程上等效于一颗微型矮星的致密质量体。动能将毫无悬念地被绝对的惯性墙反噬，化作自身的碎屑。
+## 2. Dirac Mass Override Protocol
+In the armament sequence of *Shepherd's Wasteland*, simply solving "anti-gravity (gravitational deflection)" still leaves the wearer crushed by their own "inertial mass" during supersonic maneuvers. Therefore, the Computational Arena introduced mass nullification technology.
 
-## 4. 结论：质量即变量
-在 Reality-as-Code 的高维引擎中，质量不再是上帝赋予物体的固有属性。它只是一个挂载在三维网格上的标量参数。理解了拓扑的交叉法则，质量便可随意归零，亦可无尽叠加。
+Through baryonic torsion fields and QM-Tether armor, the system forcibly renders an equivalent "topological semimetal" band structure in the macroscopic space surrounding the wearer. Within this artificial Dirac cone field, the "effective inertial mass" of the wearer's macroscopic body is forcibly redefined to zero by the system's underlying code.
+
+This means that an extremely tiny physical thrust (such as a simple muscular push) can generate near-infinite instantaneous acceleration. And when the wearer executes a 100-Mach acute-angle turn, being massless, they are immune to any G-force tearing.
+
+## 3. Semi-Dirac Armor: Anisotropic Mass Deflection
+What truly makes high-level entities in the Computational Arena invincible is the weaponization of "Semi-Dirac Fermion" characteristics—the Directional Mass Lock.
+
+In highly nonlinear combat manifolds, the system's anyon core calculates ballistic trajectories in real time.
+*   **On the Attack/Maneuver Axis:** The wearer's effective mass is nullified to 0, granting unlimited burst speed.
+*   **On the Hit/Defense Axis:** The system's topological parameters reverse instantly; the wearer's effective mass along this normal direction is set to an extremely high threshold (approaching infinity).
+
+When an enemy's armor-piercing kinetic weapon strikes the armor's flank, it no longer impacts an 80-kilogram human, but a dense mass body equivalent, in the momentum equation, to a tiny dwarf star. The kinetic energy is unceremoniously devoured by the absolute inertial wall, shattering into its own debris.
+
+## 4. Conclusion: Mass as a Variable
+In the high-dimensional engine of Reality-as-Code, mass is no longer an intrinsic property bestowed upon objects by God. It is merely a scalar parameter mounted on a three-dimensional grid. Having understood the crossing rules of topology, mass can be arbitrarily nullified to zero or endlessly multiplied.
