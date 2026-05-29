@@ -87,6 +87,7 @@ ARXIV_REFS = {
         {"id": "1708.06191", "title": "KPZ Universality in Exciton-Polariton Condensates", "authors": "Wouters et al.", "year": "2017"},
         {"id": "1906.08029", "title": "Turbulence and KPZ Scaling in Polariton Fluids", "authors": "Fischer et al.", "year": "2019"},
         {"id": "2009.10716", "title": "Driven-Dissipative Bose-Einstein Condensates: KPZ Universality", "authors": "Gladilin et al.", "year": "2020"},
+        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
     ],
     "type2-superlattice-radar": [
         {"id": "1905.08613", "title": "Type-II InAs/GaSb Superlattice for Infrared Detection", "authors": "Ting et al.", "year": "2019"},
@@ -111,6 +112,13 @@ ARXIV_REFS = {
         {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
         {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
     ],
+    "warp-drive-torsion-propagation": [
+        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
+        {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
+        {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
+        {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
+        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
+    ],
 }
 LORE_TITLES = {
     "artificial-kondo-lattice": ("Artificial Kondo Lattice", "人工近藤晶格与拓扑计算"),
@@ -124,6 +132,7 @@ LORE_TITLES = {
     "type2-superlattice-radar": ("Type-II Superlattice Radar", "二类超晶格无标度感知"),
     "electromagnetic-theater-override": ("Electromagnetic Theater Override", "电磁剧场碰撞网格覆写"),
     "cooperative-resonance-torsion": ("Cooperative Resonance Torsion", "协同共振与挠场压缩"),
+    "warp-drive-torsion-propagation": ("Warp Drive: Torsion Bubble Propagation", "曲速引擎挠场气泡传播"),
 }
 
 def read_md(filepath):

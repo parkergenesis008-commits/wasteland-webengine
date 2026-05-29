@@ -18,6 +18,13 @@ This low-energy anti-gravity is extremely dependent on the interface's "topologi
 
 The mathematically unsupported quantum metric undergoes violent fracture rebound (Metric Collapse). Those unsettled Riemann tensors transform into micro-black-hole-level spatial shear forces, cleanly severing the wearer's limbs within milliseconds. This is the physics backlash one must endure for stealing divine permissions.
 
+### 2.5 Warp-Assisted Metric Stabilization
+The warp-bubble propagation mechanism described in *Cooperative Resonance and Torsion Compression* (§4) provides a direct solution to the Metric Collapse vulnerability. When a warp bubble is generated around the QM-Tether exosuit, the ambient spacetime foliation is locally decoupled—meaning that even if a Dimensional Bias Weapon modifies the tunneling bias and triggers a topological symmetry break, the shearing force cannot propagate to the wearer's body.
+
+The bubble acts as a topological isolation layer: the metric fracture rebounds inside the bubble boundary, but the bubble's own Alcubierre-style curvature gradient (Bobrick & Martire 2021) prevents the Riemann tensor from entering the interior volume. This is analogous to a hydrodynamic cavitation bubble absorbing a shockwave—the metric collapse energy is dissipated as thermal phonons in the bubble wall rather than as micro-black-hole shear at the exosuit surface.
+
+At the power supply level, this creates a critical design constraint. The warp bubble requires brief but intense energy pulses (supplied by the Kagome-Torsion engine's superradiant discharge), while the QM-Tether's metric override fabric uses only microwatt continuous input. The system therefore operates in a hybrid mode: **continuous low-power metric override for sustained anti-gravity**, with **on-demand warp-bubble pulses for defensive metric stabilization** triggered by threat detection.
+
 ## 3. Real-World Dimensional Reduction Validation: Macroscopic Topological Phononic Metamaterial (MTPM)
 Descending from high-dimensional sci-fi settings to 21st-century Earth laboratories, the core physical logic of QM-Tether—"using low-energy computational signals to modify the medium's metric, thereby deflecting macroscopic destructive force"—is entirely feasible to fabricate as a physical prototype and verify in reality.
 
