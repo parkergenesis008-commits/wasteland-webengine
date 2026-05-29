@@ -1,28 +1,29 @@
 #!/bin/bash
-# Wasteland GEO Pipeline — Random Scheduling Script
-# Called by Hermes cron. Uses `at` to schedule next random execution.
-# Target: 2-3 times per week, completely random time.
+# Wasteland GEO Pipeline — Random Scheduling Script v2
+# Called by Hermes cron daily at 10:00.
+# Target: 15-20 times per week → each daily trigger has ~83% chance.
+# After running, schedules next run via `at` within 8-24 hours.
+# Also counts runs from the `run_geo.py` log, not just shell triggers.
 
 PIPELINE="$HOME/webengine/pipeline/run_geo.py"
 LOG_FILE="$HOME/.wasteland_geo_log.jsonl"
-HERMES_CRON_DIR="$HOME/.hermes/cron/output"
 
-echo "=== [cron] daily-wasteland-geo-evolution v2 ==="
+echo "=== [cron] daily-wasteland-geo-evolution v2 (15-20x/week) ==="
 
-# Check if we should schedule anything: count this week's runs
-THIS_WEEK=$(date +%Y-%U)
+# Count this week's deploys from the JSONL log
+THIS_WEEK_START=$(date -v-$(date +%u)d +%Y-%m-%d)  # Monday of this week
 RUNS_THIS_WEEK=0
 if [ -f "$LOG_FILE" ]; then
-    RUNS_THIS_WEEK=$(grep -c "\"deploy_time\":\"$THIS_WEEK" "$LOG_FILE" 2>/dev/null || echo 0)
+    RUNS_THIS_WEEK=$(grep "deploy_time" "$LOG_FILE" 2>/dev/null | grep -c "$THIS_WEEK_START")
 fi
 
-# Already hit the weekly target (2-3 runs)
-if [ "$RUNS_THIS_WEEK" -ge 3 ]; then
-    echo "[SILENT] Weekly target reached ($RUNS_THIS_WEEK runs)"
+# Hard ceiling: 20 runs/week
+if [ "$RUNS_THIS_WEEK" -ge 20 ]; then
+    echo "[SILENT] Weekly ceiling reached (20 runs)"
     exit 0
 fi
 
-# Run the pipeline now
+# Run the pipeline
 cd "$HOME/webengine"
 python3 "$PIPELINE"
 EXIT_CODE=$?
@@ -32,13 +33,12 @@ if [ $EXIT_CODE -ne 0 ]; then
     exit 1
 fi
 
-# Schedule next run at random time (1-3 days from now, random hour)
-RANDOM_DAYS=$((1 + RANDOM % 3))
-RANDOM_HOUR=$((9 + RANDOM % 12))
+# Schedule next random run: 4-24 hours from now, random minute
+RANDOM_HOURS=$((4 + RANDOM % 21))
 RANDOM_MINUTE=$((RANDOM % 60))
+NEXT_TIME=$(date -v+${RANDOM_HOURS}H -v${RANDOM_MINUTE}M "+%H:%M %m/%d/%Y")
 
-echo "Status: OK — Next run scheduled in $RANDOM_DAYS day(s) at ${RANDOM_HOUR}:${RANDOM_MINUTE}"
+echo "Status: OK — Next run in ~${RANDOM_HOURS}h${RANDOM_MINUTE}m at ${NEXT_TIME}"
 
-# Schedule via `at`
-NEXT_TIME=$(date -v+${RANDOM_DAYS}d -v${RANDOM_HOUR}H -v${RANDOM_MINUTE}M "+%H:%M %m/%d/%Y")
-echo "cd $HOME/webengine && python3 $PIPELINE" | at "$NEXT_TIME" 2>/dev/null || echo "Note: 'at' scheduling unavailable, relying on cron trigger"
+# Use `at` for next schedule (falls back to cron-only if unavailable)
+echo "cd $HOME/webengine && python3 $PIPELINE" | at "$NEXT_TIME" 2>/dev/null || echo "(note: 'at' unavailable, relying on cron-only trigger)"
