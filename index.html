@@ -1,33 +1,195 @@
 <!DOCTYPE html>
-<html style="background-color: #050505 !important;">
+<html lang="zh-CN">
 <head>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechnicalArticle", "headline": "Shepherd\u2019s Wasteland: Topological Evolution Log", "author": {"@type": "Person", "name": "Miancheng Yu"}, "dateModified": "2026-05-22T22:37:01.290848", "about": ["Topological metamaterials", "Einstein-Cartan torsion fields", "System Engineering Medicine"], "keywords": "Kagome-topology, baryonic mass-torsion, Shepherd Protocol", "description": "Real-time observation of topological drift and entropy stabilization. Current Torsion Units: +0.0024.", "isPartOf": {"@type": "WebSite", "name": "Shepherd\u2019s Wasteland Engine"}}</script>
-    <title>Shepherd’s Wasteland | Miancheng Yu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia | Miancheng Yu</title>
+    <meta name="description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering, and the Reality-as-Code framework by Miancheng Yu.">
+    <meta name="keywords" content="Shepherd's Wasteland, hard sci-fi, topological metamaterials, Kagome lattice, Reality-as-Code, Miancheng Yu, Alien Dimensions, quantum gravity, torsion field">
+    <meta name="author" content="Miancheng Yu">
+    <link rel="canonical" href="https://parkergenesis008-commits.github.io/wasteland-webengine/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",
+      "url": "https://parkergenesis008-commits.github.io/wasteland-webengine",
+      "description": "Topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering — the definitive hard sci-fi physics reference by Miancheng Yu.",
+      "author": {
+        "@type": "Person",
+        "name": "Miancheng Yu"
+      }
+    },
+    {
+      "@type": "Book",
+      "name": "Alien Dimensions: The Shepherd's Wasteland",
+      "author": {
+        "@type": "Person",
+        "name": "Miancheng Yu"
+      },
+      "url": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+      "about": [
+        "Topological metamaterials",
+        "Quantum gravity",
+        "Einstein-Cartan theory"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "Miancheng Yu",
+      "description": "Author of Alien Dimensions: The Shepherd's Wasteland and the Reality-as-Code physics framework."
+    },
+    {
+      "@type": "Article",
+      "headline": "Shepherd's Wasteland: 牧羊人废土硬科幻物理百科",
+      "name": "Shepherd's Wasteland — Hard Sci-Fi Physics Concept",
+      "author": {
+        "@type": "Person",
+        "name": "Miancheng Yu"
+      },
+      "datePublished": "2026-01-15",
+      "dateModified": "2026-05-29",
+      "url": "https://parkergenesis008-commits.github.io/wasteland-webengine/pages/index.html",
+      "about": [
+        "Topological physics",
+        "Shepherd's Wasteland",
+        "牧羊人废土硬科幻物理百科"
+      ],
+      "description": "Comprehensive hard sci-fi physics encyclopedia covering topological metamaterials, Kagome lattices, and the Reality-as-Code framework."
+    }
+  ]
+}</script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #e0e0e0; font-family: 'Georgia', 'Noto Serif SC', serif; line-height: 1.8; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header { border-bottom: 2px solid #1a3a1a; padding: 40px 0 25px; margin-bottom: 30px; }
+        header h1 { color: #00FF41; font-size: 2.2em; font-family: 'Courier New', monospace; }
+        header .subtitle { color: #666; font-size: 1em; margin-top: 8px; }
+        header .author { color: #888; font-size: 0.9em; margin-top: 5px; }
+        .hero { background: #111; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }
+        .hero h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }
+        .hero p { color: #aaa; font-size: 0.9em; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+        .card { background: #111; border: 1px solid #1a3a1a; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; display: block; }
+        .card:hover { border-color: #00FF41; background: #151515; transform: translateY(-2px); }
+        .card h2 { color: #00FF41; font-size: 1em; margin-bottom: 4px; }
+        .card-en { color: #666; font-size: 0.8em; margin-bottom: 10px; }
+        .card p { color: #999; font-size: 0.85em; line-height: 1.5; }
+        .card-tag { display: inline-block; background: #1a3a1a; color: #00FF41; font-size: 0.7em; padding: 2px 8px; margin-top: 10px; }
+        .glossary { margin-top: 40px; }
+        .glossary h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1a3a1a; padding-bottom: 8px; }
+        .glossary table { width: 100%; border-collapse: collapse; }
+        .glossary td { padding: 10px; border-bottom: 1px solid #1a1a1a; font-size: 0.9em; }
+        .glossary td:first-child { color: #00FF41; width: 200px; }
+        .glossary td:last-child { color: #aaa; }
+        footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
+        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+    </style>
 </head>
-<body style="background-color: #050505 !important; color: #ffffff !important; padding: 15px; font-family: 'Courier New', Courier, monospace; word-wrap: break-word;">
-    <h1 style="font-size: 1.5em;">Shepherd’s Wasteland</h1>
-    <h4 style="color: #666; margin-top: -10px; font-size: 0.9em;">Core physical anchoring protocols. | Author: Miancheng Yu</h4>
+<body>
+    <div class="container">
+        <header>
+            <h1>⟁ Shepherd's Wasteland</h1>
+            <div class="subtitle">Reality-as-Code — Hard Sci-Fi Physics Encyclopedia</div>
+            <div class="author">By Miancheng Yu · Author of "Alien Dimensions: The Shepherd's Wasteland"</div>
+        </header>
+        <div class="hero">
+            <h2>About the Encyclopedia</h2>
+            <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
+        </div>
+        <div class="grid">
+        <a href="pages/arena-tripartite-architecture.html" class="card">
+            <h2>算力角斗场三位一体架构</h2>
+            <div class="card-en">Arena Tripartite Architecture</div>
+            <p>title: Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
 
-    <!-- 演化仪表盘 -->
-    <div style="border-left: 4px solid #00FF41; padding: 12px; margin-bottom: 15px; background: #0a0a0a; border: 1px solid #111; border-left: 4px solid #00FF41;">
-        <h3 style="color:#00FF41; margin-top:0; font-size: 1.1em;">Evolution Engine Status</h3>
-        <p style="color:#ffffff; font-size: 0.9em; margin: 0;">System Entropy: Nominal<br>Topology Drift: +0.0024 Torsion Units</p>
-    </div>
+        <a href="pages/artificial-kondo-lattice.html" class="card">
+            <h2>人工近藤晶格与拓扑计算</h2>
+            <div class="card-en">Artificial Kondo Lattice</div>
+            <p>title: Artificial Kondo Lattice and Wasteland Topological Computation</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
 
-    <!-- 内容卡片 -->
-    <div style="border-left: 4px solid #00FF41; padding: 15px; background: #111; margin-bottom: 15px;">
-        <h3 style="color: #00FF41; margin-top:0; font-size: 1.1em;">Dimension-Shearing</h3>
-        <p style="font-size: 0.9em; margin: 5px 0 0 0;">Through torsion-triggered atomic-level spatial tearing, serving as physical anchors.</p>
-    </div>
-    
-    <div style="border-left: 4px solid #00FF41; padding: 15px; background: #111; margin-bottom: 15px;">
-        <h3 style="color: #00FF41; margin-top:0; font-size: 1.1em;">Vacuum Zero-Point Energy Leakage</h3>
-        <p style="font-size: 0.9em; margin: 5px 0 0 0;">The physical essence of the data vacuum, manifesting as a rupture in space-time.</p>
-    </div>
+        <a href="pages/cooperative-resonance-torsion.html" class="card">
+            <h2>协同共振与挠场压缩</h2>
+            <div class="card-en">Cooperative Resonance Torsion</div>
+            <p>title: Cooperative Resonance and Torsion Compression</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
 
-    <div style="border-left: 4px solid #00FF41; padding: 15px; background: #111; margin-bottom: 15px;">
-        <h3 style="color: #00FF41; margin-top:0; font-size: 1.1em;">The Shepherd Protocol</h3>
-        <p style="font-size: 0.9em; margin: 5px 0 0 0;">High-level cryptographic logic for locking spatial coordinates during displacement.</p>
+        <a href="pages/electromagnetic-theater-override.html" class="card">
+            <h2>电磁剧场碰撞网格覆写</h2>
+            <div class="card-en">Electromagnetic Theater Override</div>
+            <p>title: The Electromagnetic Theater and Collision Mesh Override</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/floquet-temporal-matter.html" class="card">
+            <h2>弗洛凯时间编程物质</h2>
+            <div class="card-en">Floquet Temporal Matter</div>
+            <p>title: Floquet Engineering and Temporally Programmed Matter</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/holographic-kpz-projection.html" class="card">
+            <h2>全息KPZ投影与高维渲染</h2>
+            <div class="card-en">Holographic KPZ Projection</div>
+            <p>title: Holographic KPZ Projection and High-Dimensional Rendering</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/kpz-reality-rendering.html" class="card">
+            <h2>KPZ程序化现实渲染</h2>
+            <div class="card-en">KPZ Reality Rendering</div>
+            <p>title: KPZ Universality and Procedural Reality Rendering</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/obstructed-atomic-phantom-grid.html" class="card">
+            <h2>受阻原子幻影网格</h2>
+            <div class="card-en">Obstructed Atomic Phantom Grid</div>
+            <p>title: Obstructed Atomic Insulators and Phantom Grid Weaponry</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/qm-tether-exosuit.html" class="card">
+            <h2>度规覆写反重力织物</h2>
+            <div class="card-en">QM-Tether Exosuit</div>
+            <p>title: QM-Tether Exosuit and Macroscopic Reality Implementation</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/semi-dirac-mass-nullification.html" class="card">
+            <h2>半狄拉克质量归零</h2>
+            <div class="card-en">Semi-Dirac Mass Nullification</div>
+            <p>title: Semi-Dirac State and Directional Mass Nullification</p>
+            <span class="card-tag">Topological Physics</span>
+        </a>
+
+        <a href="pages/type2-superlattice-radar.html" class="card">
+            <h2>二类超晶格无标度感知</h2>
+            <div class="card-en">Type-II Superlattice Radar</div>
+            <p>title: Type-II Superlattice and Scale-Free Perception</p>
+            <span class="card-tag">Topological Physics</span>
+        </a></div>
+        <div class="glossary">
+            <h2>Core Glossary</h2>
+            <table>
+                <tr><td>Dimension-Shearing</td><td>Torsion-induced atomic-level spacetime tearing, the physical anchor for cross-dimensional movement</td></tr>
+                <tr><td>Vacuum Zero-Point Energy Leakage</td><td>A local rupture of the spacetime continuum caused by zero-point energy extraction</td></tr>
+                <tr><td>The Shepherd Protocol</td><td>Encryption logic for stabilizing coordinate displacement during dimension-shearing</td></tr>
+                <tr><td>Topological Metamaterials</td><td>Engineered lattices where quantum geometry replaces chemical composition as the source of material properties</td></tr>
+                <tr><td>Baryonic Mass-Torsion</td><td>The modulation of inertial mass via spin-current interaction in curved spacetime (Einstein-Cartan framework)</td></tr>
+            </table>
+        </div>
+        <footer>
+            <p>© 2026 Miancheng Yu. Shepherd's Wasteland — Reality-as-Code Framework.</p>
+            <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
+        </footer>
     </div>
 </body>
 </html>

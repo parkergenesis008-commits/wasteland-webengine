@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parkergenesis008-commits.github.io/wasteland-webengine/sitemap.xml
