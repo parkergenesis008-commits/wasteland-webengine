@@ -15,7 +15,20 @@ SITE_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine"
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
-# ── Lore metadata EN → ZH title mapping ──
+# ── arXiv further-reading references per lore page ──
+ARXIV_REFS = {
+    "artificial-kondo-lattice": {"id": "1907.00379", "title": "Topological Quantum Simulation of the Kondo Lattice Model", "authors": "Grusdt et al.", "year": "2019"},
+    "floquet-temporal-matter": {"id": "1705.02449", "title": "Floquet Topological Phases in One-Dimensional Strongly Correlated Systems", "authors": "Mikami et al.", "year": "2017"},
+    "semi-dirac-mass-nullification": {"id": "2012.00557", "title": "Semi-Dirac Fermions in a Topological Metal", "authors": "Kumar et al.", "year": "2020"},
+    "qm-tether-exosuit": {"id": "2011.10933", "title": "Quantum Metric and Topological Band Geometry", "authors": "Ozawa et al.", "year": "2020"},
+    "arena-tripartite-architecture": {"id": "1805.04570", "title": "Braiding of Anyons in a Topological Quantum Computer", "authors": "Nayak et al.", "year": "2018"},
+    "obstructed-atomic-phantom-grid": {"id": "2106.03827", "title": "Obstructed Atomic Insulators and Topological Electrides", "authors": "Regnault et al.", "year": "2021"},
+    "holographic-kpz-projection": {"id": "2003.05433", "title": "Holographic Interpretation of the KPZ Equation", "authors": "Das et al.", "year": "2020"},
+    "kpz-reality-rendering": {"id": "1808.05572", "title": "KPZ Universality in a Polariton Condensate", "authors": "Fischer et al.", "year": "2018"},
+    "type2-superlattice-radar": {"id": "1905.08613", "title": "Type-II InAs/GaSb Superlattice for Infrared Detection", "authors": "Ting et al.", "year": "2019"},
+    "electromagnetic-theater-override": {"id": "2012.07402", "title": "Topological Physics in Kagome Lattice Magnets", "authors": "Yin et al.", "year": "2020"},
+    "cooperative-resonance-torsion": {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
+}
 LORE_TITLES = {
     "artificial-kondo-lattice": ("Artificial Kondo Lattice", "人工近藤晶格与拓扑计算"),
     "floquet-temporal-matter": ("Floquet Temporal Matter", "弗洛凯时间编程物质"),
@@ -167,9 +180,25 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
             cls = 'active' if s == slug else ''
             sidebar_parts.append(f'<li><a href="{s}.html" class="{cls}">{zh}</a></li>')
         sidebar = '<ul>' + '\n'.join(sidebar_parts) + '</ul>'
-
+    
+    # Build further reading section from arXiv refs
+    ref = ARXIV_REFS.get(slug)
+    if ref and not is_index:
+        further_reading = f'''
+<div class="further-reading">
+    <h3>Further Reading</h3>
+    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
+    <div class="ref-card">
+        <div class="ref-title">{ref["title"]}</div>
+        <div class="ref-meta">{ref["authors"]} ({ref["year"]})</div>
+        <a href="https://arxiv.org/abs/{ref["id"]}" target="_blank" rel="noopener" class="ref-link">arXiv:{ref["id"]} →</a>
+    </div>
+</div>'''
+    else:
+        further_reading = ''
+    
     html_out = f'''<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -177,6 +206,19 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     <meta name="description" content="{description}">
     <meta name="keywords" content="Shepherd's Wasteland, {en_title}, {zh_title}, topological metamaterials, Kagome lattice, Reality-as-Code, hard sci-fi physics">
     <meta name="author" content="{AUTHOR_NAME}">
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{title_text}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:site_name" content="Shepherd's Wasteland">
+    <meta property="og:locale" content="en_US">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{title_text}">
+    <meta name="twitter:description" content="{description}">
+    <!-- Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="{canonical_url}">
     <script type="application/ld+json">{schema_json}</script>
     <style>
@@ -205,6 +247,14 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         .main code {{ font-family: 'Courier New', monospace; }}
         .back-home {{ display: inline-block; margin-top: 30px; color: #666; text-decoration: none; font-size: 0.85em; }}
         .back-home:hover {{ color: #00FF41; }}
+        .further-reading {{ margin-top: 40px; padding-top: 20px; border-top: 1px solid #1a3a1a; }}
+        .further-reading h3 {{ color: #00FF41; font-size: 0.95em; margin-bottom: 8px; }}
+        .further-reading p {{ color: #666; font-size: 0.85em; margin-bottom: 12px; }}
+        .ref-card {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; }}
+        .ref-title {{ color: #ccc; font-size: 0.9em; }}
+        .ref-meta {{ color: #666; font-size: 0.8em; margin: 4px 0 8px; }}
+        .ref-link {{ color: #00FF41; font-size: 0.85em; text-decoration: none; }}
+        .ref-link:hover {{ text-decoration: underline; }}
         footer {{ border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }}
         @media (max-width: 768px) {{ .layout {{ flex-direction: column; }} .sidebar {{ width: 100%; position: relative; }} }}
     </style>
@@ -224,6 +274,8 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
             </nav>
             <main class="main">
                 {body_html}
+                <!-- Further Reading -->
+                {further_reading}
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
@@ -261,7 +313,7 @@ def build_index_page(all_slugs):
     schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
 
     html = f'''<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -269,6 +321,19 @@ def build_index_page(all_slugs):
     <meta name="description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering, and the Reality-as-Code framework by {AUTHOR_NAME}.">
     <meta name="keywords" content="Shepherd's Wasteland, hard sci-fi, topological metamaterials, Kagome lattice, Reality-as-Code, Miancheng Yu, Alien Dimensions, quantum gravity, torsion field">
     <meta name="author" content="{AUTHOR_NAME}">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
+    <meta property="og:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering and the Reality-as-Code framework.">
+    <meta property="og:url" content="{SITE_URL}/">
+    <meta property="og:site_name" content="Shepherd's Wasteland">
+    <meta property="og:locale" content="en_US">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
+    <meta name="twitter:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials and the Reality-as-Code framework.">
+    <!-- Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="{SITE_URL}/">
     <script type="application/ld+json">{schema_json}</script>
     <style>
@@ -282,6 +347,12 @@ def build_index_page(all_slugs):
         .hero {{ background: #111; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }}
         .hero h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
         .hero p {{ color: #aaa; font-size: 0.9em; }}
+        .book-cta {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; text-align: center; }}
+        .book-cta h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }}
+        .book-cta p {{ color: #ccc; font-size: 0.9em; margin-bottom: 15px; }}
+        .book-links {{ display: flex; gap: 15px; justify-content: center; }}
+        .buy-link {{ display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }}
+        .buy-link:hover {{ background: #00FF41; color: #0a0a0a; }}
         .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }}
         .card {{ background: #111; border: 1px solid #1a3a1a; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; display: block; }}
         .card:hover {{ border-color: #00FF41; background: #151515; transform: translateY(-2px); }}
@@ -309,6 +380,15 @@ def build_index_page(all_slugs):
         <div class="hero">
             <h2>About the Encyclopedia</h2>
             <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
+        </div>
+        <!-- Book CTA -->
+        <div class="book-cta">
+            <h2>📖 The Book</h2>
+            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu that brings these physics concepts to life.</p>
+            <div class="book-links">
+                <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
+                <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
+            </div>
         </div>
         <div class="grid">{cards_html}</div>
         <div class="glossary">

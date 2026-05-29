@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,19 @@
     <meta name="description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering, and the Reality-as-Code framework by Miancheng Yu.">
     <meta name="keywords" content="Shepherd's Wasteland, hard sci-fi, topological metamaterials, Kagome lattice, Reality-as-Code, Miancheng Yu, Alien Dimensions, quantum gravity, torsion field">
     <meta name="author" content="Miancheng Yu">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
+    <meta property="og:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering and the Reality-as-Code framework.">
+    <meta property="og:url" content="https://parkergenesis008-commits.github.io/wasteland-webengine/">
+    <meta property="og:site_name" content="Shepherd's Wasteland">
+    <meta property="og:locale" content="en_US">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
+    <meta name="twitter:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials and the Reality-as-Code framework.">
+    <!-- Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="https://parkergenesis008-commits.github.io/wasteland-webengine/">
     <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -71,6 +84,12 @@
         .hero { background: #111; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }
         .hero h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }
         .hero p { color: #aaa; font-size: 0.9em; }
+        .book-cta { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; text-align: center; }
+        .book-cta h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }
+        .book-cta p { color: #ccc; font-size: 0.9em; margin-bottom: 15px; }
+        .book-links { display: flex; gap: 15px; justify-content: center; }
+        .buy-link { display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }
+        .buy-link:hover { background: #00FF41; color: #0a0a0a; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
         .card { background: #111; border: 1px solid #1a3a1a; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; display: block; }
         .card:hover { border-color: #00FF41; background: #151515; transform: translateY(-2px); }
@@ -98,6 +117,15 @@
         <div class="hero">
             <h2>About the Encyclopedia</h2>
             <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
+        </div>
+        <!-- Book CTA -->
+        <div class="book-cta">
+            <h2>📖 The Book</h2>
+            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu that brings these physics concepts to life.</p>
+            <div class="book-links">
+                <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
+                <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
+            </div>
         </div>
         <div class="grid">
         <a href="pages/arena-tripartite-architecture.html" class="card">
