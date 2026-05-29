@@ -119,10 +119,15 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
     body_html = md_to_html(md_body, slug)
     
-    # Extract first paragraph for description
-    desc_match = re.search(r'<p>(.+?)</p>', body_html)
-    description = desc_match.group(1) if desc_match else f"{en_title}: {zh_title}"
-    description = re.sub(r'<[^>]+>', '', description)[:300]
+    # Extract best paragraph for description (skip short <p>s)
+    desc_matches = re.findall(r'<p>(.+?)</p>', body_html)
+    description = f"{en_title}: {zh_title}"
+    for p in desc_matches:
+        clean = re.sub(r'<[^>]+>', '', p).strip()
+        if len(clean) > 30:  # Skip short/title-like paragraphs
+            description = clean[:300]
+            break
+    description = description[:300]
 
     # Backlinks nav
     if is_index:
