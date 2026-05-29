@@ -117,6 +117,14 @@ def build_schema_graph(slug, en_title, zh_title, description):
 
 def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=False):
     md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
+    # Skip YAML frontmatter
+    md_lines = md_body.split('\n')
+    if md_lines and md_lines[0].strip() == '---':
+        for i in range(1, len(md_lines)):
+            if md_lines[i].strip() == '---':
+                md_body = '\n'.join(md_lines[i+1:])
+                break
+    
     body_html = md_to_html(md_body, slug)
     
     # Extract best paragraph for description (skip short <p>s)
