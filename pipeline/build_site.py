@@ -194,6 +194,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         <div class="ref-meta">{ref["authors"]} ({ref["year"]})</div>
         <a href="https://arxiv.org/abs/{ref["id"]}" target="_blank" rel="noopener" class="ref-link">arXiv:{ref["id"]} →</a>
     </div>
+    <img src="{ASSETS_URL}/hero-image.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code concept art" class="lore-illustration" loading="lazy">
 </div>'''
     else:
         further_reading = ''
@@ -256,6 +257,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         .ref-meta {{ color: #666; font-size: 0.8em; margin: 4px 0 8px; }}
         .ref-link {{ color: #00FF41; font-size: 0.85em; text-decoration: none; }}
         .ref-link:hover {{ text-decoration: underline; }}
+        .lore-illustration {{ width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }}
         footer {{ border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }}
         @media (max-width: 768px) {{ .layout {{ flex-direction: column; }} .sidebar {{ width: 100%; position: relative; }} }}
     </style>
@@ -349,6 +351,7 @@ def build_index_page(all_slugs):
         .hero h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
         .hero p {{ color: #aaa; font-size: 0.9em; }}
         .book-cta {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; text-align: center; }}
+        .book-cover-img {{ width: 200px; height: auto; margin-bottom: 12px; border: 1px solid #1a3a1a; }}
         .book-cta h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }}
         .book-cta p {{ color: #ccc; font-size: 0.9em; margin-bottom: 15px; }}
         .book-links {{ display: flex; gap: 15px; justify-content: center; }}
