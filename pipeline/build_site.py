@@ -194,7 +194,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         <div class="ref-meta">{ref["authors"]} ({ref["year"]})</div>
         <a href="https://arxiv.org/abs/{ref["id"]}" target="_blank" rel="noopener" class="ref-link">arXiv:{ref["id"]} →</a>
     </div>
-    <img src="{ASSETS_URL}/hero-image.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code concept art" class="lore-illustration" loading="lazy">
+    <img src="{ASSETS_URL}/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>'''
     else:
         further_reading = ''
