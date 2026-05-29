@@ -68,12 +68,14 @@ ARXIV_REFS = {
         {"id": "2009.10382", "title": "Band Geometry and Topological Order", "authors": "Bzdusek et al.", "year": "2020"},
     ],
     "arena-tripartite-architecture": [
+        {"id": "cond-mat/0506438", "title": "Anyons in an Exactly Solved Model and Beyond", "authors": "Kitaev", "year": "2005"},
         {"id": "1805.04570", "title": "Braiding of Anyons in a Topological Quantum Computer", "authors": "Nayak et al.", "year": "2018"},
         {"id": "1810.00843", "title": "Scalable Design for Topological Quantum Computation with Majorana Fermions", "authors": "Karzig et al.", "year": "2018"},
         {"id": "2101.10720", "title": "Anyon Braiding in Topological Quantum Computing: A Review", "authors": "Lahtinen et al.", "year": "2021"},
         {"id": "1501.02815", "title": "Topological Quantum Computing with Majorana Zero Modes", "authors": "Sarma et al.", "year": "2015"},
     ],
     "obstructed-atomic-phantom-grid": [
+        {"id": "cond-mat/0411737", "title": "Quantum Spin Hall Effect in Graphene", "authors": "Kane & Mele", "year": "2005"},
         {"id": "2106.03827", "title": "Obstructed Atomic Insulators and Topological Electrides", "authors": "Regnault et al.", "year": "2021"},
         {"id": "1706.07317", "title": "Topological Quantum Chemistry", "authors": "Vergniory et al.", "year": "2017"},
         {"id": "1807.01371", "title": "Fragile Topology in Insulators", "authors": "Po et al.", "year": "2018"},
@@ -105,6 +107,9 @@ ARXIV_REFS = {
         {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
     ],
     "cooperative-resonance-torsion": [
+        {"id": "1903.05468", "title": "Superradiance and Subradiance in Atomic Arrays", "authors": "Kirton et al.", "year": "2019"},
+        {"id": "0810.0668", "title": "Torsion Gravity", "authors": "Hammond", "year": "2009"},
+        {"id": "gr-qc/0606062", "title": "Einstein-Cartan Theory", "authors": "Hehl et al.", "year": "2006"},
         {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
         {"id": "1907.03199", "title": "Collective Superradiance in Quantum Systems", "authors": "Gross et al.", "year": "2019"},
         {"id": "2011.10580", "title": "Dicke Superradiance in Solid-State Systems", "authors": "Parra-Murillo et al.", "year": "2020"},
@@ -117,6 +122,7 @@ ARXIV_REFS = {
         {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
     ],
     "warp-drive-torsion-propagation": [
+        {"id": "gr-qc/0110086", "title": "Warp Drive With Zero Expansion", "authors": "Natário", "year": "2001"},
         {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
         {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
         {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},

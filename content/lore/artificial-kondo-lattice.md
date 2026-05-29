@@ -21,9 +21,9 @@ When electrons engage in strongly correlated screening collaboration with magnet
 
 The ultimate reorganization of garbage is the miracle of computation.
 
-## 3. Absolute Pinning: Immunity to Physical-Level Perturbations
-The energy of topological zero modes is always anchored at zero, granting them extraordinary "perturbation immunity."
-During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences zero phase error. This artificial topological state, based on magnetic interactions, allows the logic core of high-dimensional warships to maintain zero-error computation in environments as harsh as the core of a star.
+## 3. Absolute Pinning: Resilience to Physical-Level Perturbations
+The energy of topological zero modes is always anchored at zero, granting them extraordinary "perturbation resilience."
+During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences phase error below topological fault-tolerance thresholds (~10⁻¹² per operation for non-Abelian anyons). This artificial topological state, based on magnetic interactions, allows the logic core of high-dimensional warships to maintain zero-error computation in environments as harsh as the core of a star.
 
 ### 3.5 The 2026 Breakthrough: Magnetic Field as Catalyst, Not Killer
 A seemingly unrelated discovery in Earth laboratories in 2026 has profound implications for the Kondo-lattice computing architecture. Li et al. (Nature 653, 1052, 2026) and Varbaro et al. (arXiv:2601.19473) independently observed **field-induced re-entrant superconductivity** in Eu-doped infinite-layer nickelates—a material system whose electronic structure (Ni¹⁺ 3d⁹) is isoelectronic to the Cu²⁺ in high-Tc cuprates.
