@@ -11,6 +11,7 @@ BASE_DIR = os.path.expanduser("~/webengine")
 LORES_DIR = os.path.join(BASE_DIR, "content/lore")
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
 SITE_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine"
+ASSETS_URL = f"{SITE_URL}/assets"
 
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
@@ -383,6 +384,7 @@ def build_index_page(all_slugs):
         </div>
         <!-- Book CTA -->
         <div class="book-cta">
+            <img src="{ASSETS_URL}/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy">
             <h2>📖 The Book</h2>
             <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu that brings these physics concepts to life.</p>
             <div class="book-links">
