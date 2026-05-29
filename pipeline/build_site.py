@@ -98,12 +98,18 @@ ARXIV_REFS = {
         {"id": "1904.04759", "title": "Kagome Magnets: A New Frontier in Topological Materials", "authors": "Yin et al.", "year": "2019"},
         {"id": "2101.01067", "title": "Quantum Kagome Materials: From Spin Liquids to Topological Magnets", "authors": "Broholm et al.", "year": "2021"},
         {"id": "2008.12412", "title": "Topological Magnons in Kagome Lattice Ferromagnets", "authors": "Mook et al.", "year": "2020"},
+        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
+        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
     ],
     "cooperative-resonance-torsion": [
         {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
         {"id": "1907.03199", "title": "Collective Superradiance in Quantum Systems", "authors": "Gross et al.", "year": "2019"},
         {"id": "2011.10580", "title": "Dicke Superradiance in Solid-State Systems", "authors": "Parra-Murillo et al.", "year": "2020"},
         {"id": "1803.07643", "title": "Subradiance and Superradiance in Quantum Optics", "authors": "Asenjo-Garcia et al.", "year": "2018"},
+        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
+        {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
+        {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
+        {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
     ],
 }
 LORE_TITLES = {

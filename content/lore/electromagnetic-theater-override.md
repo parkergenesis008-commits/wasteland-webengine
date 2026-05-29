@@ -20,6 +20,11 @@ By combining the "cooperative quantum resonance" of the Kagome lattice, the Bary
 
 The result is obvious: the obstructive property of macroscopic matter is stripped away, achieving a physics-level Phasing effect. When a high-energy kinetic weapon (such as an armor-piercing projectile) strikes armor protected by the torsion field, its electron cloud is forcibly decoupled, preventing macroscopic transfer of kinetic energy, ultimately passing through like a phantom.
 
+### 2.5 Warp-Assisted Collision Bypass
+The baryonic torsion field does more than neutralize electromagnetic repulsion at the atomic scale—extended to a warp-bubble domain (see *Cooperative Resonance and Torsion Compression*, §4), it decouples the entire target object from the ambient spacetime foliation. This is the qualitative difference between a "quantum phase" (tunneling analog) and full "dimensional shearing" (Alcubierre bypass).
+
+Within a torsion-sustained warp bubble, ambient inertial frame-drag is eliminated entirely. The override field propagates non-locally through the bubble interior, meaning the collision-mesh rewrite is no longer limited to surface contact but applies to the full volume of the shielded object simultaneously. This volume-phase capability is the direct precursor to the "Shepherd Protocol"—a spacetime-encrypted bypass that, at full power, renders any macroscopic collision event optional.
+
 ## 3. Ambient Local Degenerate Compression
 Surpassing conventional electromagnetic constraints, when the system output exceeds a critical threshold, the engine can even simulate extreme gravitational curvature equivalent to that inside a neutron star at room temperature.
 
