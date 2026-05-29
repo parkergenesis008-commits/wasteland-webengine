@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artificial Kondo Lattice | Shepherd's Wasteland</title>
-    <meta name="description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "topological Kondo insulators" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) ">
+    <meta name="description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "Topological: A property of a system that remains invariant under continuous deformations — like the numb">
     <meta name="keywords" content="Shepherd's Wasteland, Artificial Kondo Lattice, 人工近藤晶格与拓扑计算, topological metamaterials, Kagome lattice, Reality-as-Code, hard sci-fi physics">
     <meta name="author" content="Miancheng Yu">
     <!-- Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Artificial Kondo Lattice | Shepherd's Wasteland">
-    <meta property="og:description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "topological Kondo insulators" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) ">
+    <meta property="og:description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "Topological: A property of a system that remains invariant under continuous deformations — like the numb">
     <meta property="og:url" content="https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html">
     <meta property="og:site_name" content="Shepherd's Wasteland">
     <meta property="og:locale" content="en_US">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Artificial Kondo Lattice | Shepherd's Wasteland">
-    <meta name="twitter:description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "topological Kondo insulators" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) ">
+    <meta name="twitter:description" content="In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "Topological: A property of a system that remains invariant under continuous deformations — like the numb">
     <!-- Favicon (inline SVG) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html">
@@ -69,7 +69,7 @@
         "Artificial Kondo Lattice",
         "人工近藤晶格与拓扑计算"
       ],
-      "description": "In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring \"topological Kondo insulators\" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) "
+      "description": "In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring \"Topological: A property of a system that remains invariant under continuous deformations — like the numb"
     }
   ]
 }</script>
@@ -108,9 +108,54 @@
         .ref-link { color: #00FF41; font-size: 0.85em; text-decoration: none; }
         .ref-link:hover { text-decoration: underline; }
         .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
+        .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
+        .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
+        .ref-card:hover { border-color: #00FF41; }
+        .ref-count { color: #666; font-size: 0.75em; font-weight: normal; }
+        .toc { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 15px 20px; margin-bottom: 25px; }
+        .toc h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+        .toc a { display: block; color: #888; font-size: 0.85em; text-decoration: none; padding: 3px 0; transition: color 0.2s; }
+        .toc a:hover { color: #00FF41; }
+        .toc a::before { content: "b8 "; color: #1a5a1a; }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; background: #0d1a0d; border: 1px solid #1a3a1a; color: #00FF41; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.2em; opacity: 0; transition: opacity 0.3s; cursor: pointer; z-index: 50; }
+        .back-to-top.visible { opacity: 0.8; }
+        .back-to-top:hover { opacity: 1; border-color: #00FF41; }
         footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
         @media (max-width: 768px) { .layout { flex-direction: column; } .sidebar { width: 100%; position: relative; } }
     </style>
+    
+    <script>
+        (function() {
+            var toc = document.getElementById('page-toc');
+            if (!toc) return;
+            var main = document.querySelector('.main');
+            var headings = main.querySelectorAll('h2, h3');
+            if (headings.length === 0) { toc.style.display = 'none'; return; }
+            headings.forEach(function(h, i) {
+                if (!h.id) h.id = 'sec-' + i;
+                var a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.style.marginLeft = h.tagName === 'H3' ? '15px' : '0';
+                a.style.fontSize = h.tagName === 'H3' ? '0.8em' : '0.85em';
+                toc.appendChild(a);
+            });
+        })();
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            if (!btn) return;
+            window.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -136,44 +181,66 @@
                 <p style="margin-top:20px;"><a href="../index.html" style="color:#666;font-size:0.8em;">← Home</a></p>
             </nav>
             <main class="main">
+                <!-- Table of Contents -->
+                <div class="toc" id="page-toc">
+                    <h3>In This Entry</h3>
+                </div>
                 
 <h1>Artificial Kondo Lattice and Wasteland Topological Computation</h1>
 
 <h2>1. Physical Introduction: Farewell to the Hegemony of Scarce Materials</h2>
-<p>In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "topological Kondo insulators" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) to protect quantum states.</p>
+<p>In the early era of quantum computing, maintaining qubits against environmental thermodynamic noise (decoherence) was the ultimate challenge. The conventional approach sought naturally occurring "<span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> insulators" (e.g., SmB₆), relying on their demanding strong spin-orbit coupling (SOC) to protect quantum states.</p>
 
-<p>However, the evolution of the Computational Arena abandoned dependence on rare materials. Building on a 2025 breakthrough in physics, the system demonstrated that no rare materials are needed. By precisely arranging the most ordinary magnetic atoms (such as iron or cobalt) along one-dimensional electronic channels and leveraging artificially induced "many-body Kondo interactions," indestructible "Topological Zero Modes" spontaneously emerge at the lattice edges.</p>
+<p>However, the evolution of the Computational Arena abandoned dependence on rare materials. Building on a 2025 breakthrough in physics, the system demonstrated that no rare materials are needed. By precisely arranging the most ordinary magnetic atoms (such as iron or cobalt) along one-dimensional electronic channels and leveraging artificially induced "many-body <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> interactions," indestructible "<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span> Zero Modes" spontaneously emerge at the lattice edges.</p>
 
 <h2>2. Wasteland Creation: Magnetic Building Blocks and Topological Zero Modes</h2>
 <p>In <em>Shepherd's Wasteland</em>, this physical law is pushed to the engineering extreme.</p>
-<p>Advanced Agents no longer compete for scarce superconducting minerals. They extract the most basic iron and cobalt from ruins, using nanoscale manipulation to arrange these "magnetic scrap metal" into precise one-dimensional artificial Kondo lattices.</p>
+<p>Advanced Agents no longer compete for scarce superconducting minerals. They extract the most basic iron and cobalt from ruins, using nanoscale manipulation to arrange these "magnetic scrap metal" into precise one-dimensional artificial <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> lattices.</p>
 
-<p>When electrons engage in strongly correlated screening collaboration with magnetic moments along this artificial track, topological zero modes whose energy is "strictly pinned at zero" are generated at the lattice edges. These zero modes act like perfectly armored bulletproof slots, flawlessly accommodating the Arena's core computing carriers—"1D Anyons."</p>
+<p>When electrons engage in strongly correlated screening collaboration with magnetic moments along this artificial track, <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> zero modes whose energy is "strictly pinned at zero" are generated at the lattice edges. These zero modes act like perfectly armored bulletproof slots, flawlessly accommodating the Arena's core computing carriers—"1D Anyons."</p>
 
 <p>The ultimate reorganization of garbage is the miracle of computation.</p>
 
 <h2>3. Absolute Pinning: Immunity to Physical-Level Perturbations</h2>
-<p>The energy of topological zero modes is always anchored at zero, granting them extraordinary "perturbation immunity."</p>
-<p>During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences zero phase error. This artificial topological state, based on magnetic interactions, allows the logic core of high-dimensional warships to maintain zero-error computation in environments as harsh as the core of a star.</p>
+<p>The energy of <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> zero modes is always anchored at zero, granting them extraordinary "perturbation immunity."</p>
+<p>During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences zero phase error. This artificial <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> state, based on magnetic interactions, allows the logic core of high-dimensional warships to maintain zero-error computation in environments as harsh as the core of a star.</p>
 
 <h2>4. Conclusion: Algorithm Surpasses Material</h2>
-<p>The emergence of the artificial Kondo lattice marks the final material transition in the Reality-as-Code architecture. The intrinsic properties of matter no longer matter; what truly determines power is the algorithmic arrangement of atoms and the design of many-body interactions. The most common carbon and iron in the universe, woven into the correct topological geometry, can bear the godlike computational power to overturn reality.</p>
+<p>The emergence of the artificial <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> lattice marks the final material transition in the Reality-as-Code architecture. The intrinsic properties of matter no longer matter; what truly determines power is the algorithmic arrangement of atoms and the design of many-body interactions. The most common carbon and iron in the universe, woven into the correct <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> geometry, can bear the godlike computational power to overturn reality.</p>
 
                 <!-- Further Reading -->
                 
 <div class="further-reading">
-    <h3>Further Reading</h3>
-    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
-    <div class="ref-card">
-        <div class="ref-title">Topological Quantum Simulation of the Kondo Lattice Model</div>
-        <div class="ref-meta">Grusdt et al. (2019)</div>
-        <a href="https://arxiv.org/abs/1907.00379" target="_blank" rel="noopener" class="ref-link">arXiv:1907.00379 →</a>
+    <h3>Further Reading <span class="ref-count">(4 papers)</span></h3>
+    <p>These real physics papers form the scientific foundation for this lore entry:</p>
+    <div class="ref-grid">
+        <div class="ref-card">
+                <div class="ref-title">Topological Quantum Simulation of the Kondo Lattice Model</div>
+                <div class="ref-meta">Grusdt et al. (2019)</div>
+                <a href="https://arxiv.org/abs/1907.00379" target="_blank" rel="noopener" class="ref-link">arXiv:1907.00379 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Topological Kondo Insulators</div>
+                <div class="ref-meta">Dzero et al. (2019)</div>
+                <a href="https://arxiv.org/abs/1910.04763" target="_blank" rel="noopener" class="ref-link">arXiv:1910.04763 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Quantum Simulation of the Kondo Lattice Model with Ultracold Fermions</div>
+                <div class="ref-meta">Nakagawa et al. (2020)</div>
+                <a href="https://arxiv.org/abs/2007.02914" target="_blank" rel="noopener" class="ref-link">arXiv:2007.02914 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Interplay between Topology and Correlations in the Kondo Lattice Model</div>
+                <div class="ref-meta">Alexandrov et al. (2016)</div>
+                <a href="https://arxiv.org/abs/1608.03247" target="_blank" rel="noopener" class="ref-link">arXiv:1608.03247 →</a>
+            </div>
     </div>
     <img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
+        <a href="#" class="back-to-top" id="back-to-top">↑</a>
         <footer>
             <p>© 2026 Miancheng Yu. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>

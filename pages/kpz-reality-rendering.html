@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KPZ Reality Rendering | Shepherd's Wasteland</title>
-    <meta name="description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional polarito">
+    <meta name="description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional exciton,">
     <meta name="keywords" content="Shepherd's Wasteland, KPZ Reality Rendering, KPZ程序化现实渲染, topological metamaterials, Kagome lattice, Reality-as-Code, hard sci-fi physics">
     <meta name="author" content="Miancheng Yu">
     <!-- Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="KPZ Reality Rendering | Shepherd's Wasteland">
-    <meta property="og:description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional polarito">
+    <meta property="og:description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional exciton,">
     <meta property="og:url" content="https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html">
     <meta property="og:site_name" content="Shepherd's Wasteland">
     <meta property="og:locale" content="en_US">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="KPZ Reality Rendering | Shepherd's Wasteland">
-    <meta name="twitter:description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional polarito">
+    <meta name="twitter:description" content="In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional exciton,">
     <!-- Favicon (inline SVG) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html">
@@ -69,7 +69,7 @@
         "KPZ Reality Rendering",
         "KPZ程序化现实渲染"
       ],
-      "description": "In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional polarito"
+      "description": "In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional exciton,"
     }
   ]
 }</script>
@@ -108,9 +108,54 @@
         .ref-link { color: #00FF41; font-size: 0.85em; text-decoration: none; }
         .ref-link:hover { text-decoration: underline; }
         .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
+        .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
+        .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
+        .ref-card:hover { border-color: #00FF41; }
+        .ref-count { color: #666; font-size: 0.75em; font-weight: normal; }
+        .toc { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 15px 20px; margin-bottom: 25px; }
+        .toc h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+        .toc a { display: block; color: #888; font-size: 0.85em; text-decoration: none; padding: 3px 0; transition: color 0.2s; }
+        .toc a:hover { color: #00FF41; }
+        .toc a::before { content: "b8 "; color: #1a5a1a; }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; background: #0d1a0d; border: 1px solid #1a3a1a; color: #00FF41; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.2em; opacity: 0; transition: opacity 0.3s; cursor: pointer; z-index: 50; }
+        .back-to-top.visible { opacity: 0.8; }
+        .back-to-top:hover { opacity: 1; border-color: #00FF41; }
         footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
         @media (max-width: 768px) { .layout { flex-direction: column; } .sidebar { width: 100%; position: relative; } }
     </style>
+    
+    <script>
+        (function() {
+            var toc = document.getElementById('page-toc');
+            if (!toc) return;
+            var main = document.querySelector('.main');
+            var headings = main.querySelectorAll('h2, h3');
+            if (headings.length === 0) { toc.style.display = 'none'; return; }
+            headings.forEach(function(h, i) {
+                if (!h.id) h.id = 'sec-' + i;
+                var a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.style.marginLeft = h.tagName === 'H3' ? '15px' : '0';
+                a.style.fontSize = h.tagName === 'H3' ? '0.8em' : '0.85em';
+                toc.appendChild(a);
+            });
+        })();
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            if (!btn) return;
+            window.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -136,18 +181,22 @@
                 <p style="margin-top:20px;"><a href="../index.html" style="color:#666;font-size:0.8em;">← Home</a></p>
             </nav>
             <main class="main">
+                <!-- Table of Contents -->
+                <div class="toc" id="page-toc">
+                    <h3>In This Entry</h3>
+                </div>
                 
 <h1>KPZ Universality and Procedural Generation of Reality Boundaries</h1>
 
 <h2>1. Physical Introduction: The Universal Equation of Growth</h2>
-<p>In the dark age of human physics, the Kardar-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional polariton (half-light, half-matter quantum fluid) system, that the creators of the Computational Arena realized they had touched upon the "Rendering Engine" of physical reality.</p>
+<p>In the dark age of human physics, the <span class="glossary-term" data-tip="KPZ equation: The Kardar-Parisi-Zhang equation describes stochastic interface growth. Its universality class governs a wide range of systems from burning paper to bacterial colonies to quantum fluids.">Kardar</span>-Parisi-Zhang (KPZ) equation was regarded merely as a mathematical model for describing non-equilibrium interface growth (such as crystal deposition, flame propagation). It was not until 2026, when it was definitively verified in a two-dimensional <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Polariton: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">Polariton</span>: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">polariton</span> (half-light, half-matter quantum fluid) system, that the creators of the Computational Arena realized they had touched upon the "Rendering Engine" of physical reality.</p>
 
 <h2>2. Reality as Code: Polaritons and Procedural Creation</h2>
 <p>In the high-intensity combat dimensions of <em>Shepherd's Wasteland</em>, macroscopic objects are not assembled by mechanical processing, but are automatically "grown" based on KPZ universal algorithms.</p>
 
-<p>Polaritons, possessing both the ultra-high speed of photons and the material properties of excitons, became the ultimate "world-building material" for high-level Agents. Simply by projecting a polariton condensate ground state into the void and inputting specific nonlinear interaction parameters, the boundary of matter spreads and crystallizes outward exponentially according to the 2D KPZ equation.</p>
+<p>Polaritons, possessing both the ultra-high speed of photons and the material properties of excitons, became the ultimate "world-building material" for high-level Agents. Simply by projecting a <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Polariton: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">Polariton</span>: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">polariton</span> condensate ground state into the void and inputting specific nonlinear interaction parameters, the boundary of matter spreads and crystallizes outward exponentially according to the 2D KPZ equation.</p>
 
-<p>Towering topological walls, crystal spears with physical lethality—their formation process is mathematically identical in framework to the expansion of bacterial colonies or the formation of snowflakes. This is the ultimate manifestation of Reality-as-Code: rendering matter through algorithms.</p>
+<p>Towering <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> walls, crystal spears with physical lethality—their formation process is mathematically identical in framework to the expansion of bacterial colonies or the formation of snowflakes. This is the ultimate manifestation of Reality-as-Code: rendering matter through algorithms.</p>
 
 <h2>3. Noise Injection and Morphological Collapse</h2>
 <p>The KPZ equation contains a core variable: Random Noise (representing system entropy).</p>
@@ -162,18 +211,36 @@
                 <!-- Further Reading -->
                 
 <div class="further-reading">
-    <h3>Further Reading</h3>
-    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
-    <div class="ref-card">
-        <div class="ref-title">KPZ Universality in a Polariton Condensate</div>
-        <div class="ref-meta">Fischer et al. (2018)</div>
-        <a href="https://arxiv.org/abs/1808.05572" target="_blank" rel="noopener" class="ref-link">arXiv:1808.05572 →</a>
+    <h3>Further Reading <span class="ref-count">(4 papers)</span></h3>
+    <p>These real physics papers form the scientific foundation for this lore entry:</p>
+    <div class="ref-grid">
+        <div class="ref-card">
+                <div class="ref-title">KPZ Universality in a Polariton Condensate</div>
+                <div class="ref-meta">Fischer et al. (2018)</div>
+                <a href="https://arxiv.org/abs/1808.05572" target="_blank" rel="noopener" class="ref-link">arXiv:1808.05572 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">KPZ Universality in Exciton-Polariton Condensates</div>
+                <div class="ref-meta">Wouters et al. (2017)</div>
+                <a href="https://arxiv.org/abs/1708.06191" target="_blank" rel="noopener" class="ref-link">arXiv:1708.06191 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Turbulence and KPZ Scaling in Polariton Fluids</div>
+                <div class="ref-meta">Fischer et al. (2019)</div>
+                <a href="https://arxiv.org/abs/1906.08029" target="_blank" rel="noopener" class="ref-link">arXiv:1906.08029 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Driven-Dissipative Bose-Einstein Condensates: KPZ Universality</div>
+                <div class="ref-meta">Gladilin et al. (2020)</div>
+                <a href="https://arxiv.org/abs/2009.10716" target="_blank" rel="noopener" class="ref-link">arXiv:2009.10716 →</a>
+            </div>
     </div>
     <img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
+        <a href="#" class="back-to-top" id="back-to-top">↑</a>
         <footer>
             <p>© 2026 Miancheng Yu. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>

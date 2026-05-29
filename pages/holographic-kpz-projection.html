@@ -108,9 +108,54 @@
         .ref-link { color: #00FF41; font-size: 0.85em; text-decoration: none; }
         .ref-link:hover { text-decoration: underline; }
         .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
+        .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
+        .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
+        .ref-card:hover { border-color: #00FF41; }
+        .ref-count { color: #666; font-size: 0.75em; font-weight: normal; }
+        .toc { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 15px 20px; margin-bottom: 25px; }
+        .toc h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+        .toc a { display: block; color: #888; font-size: 0.85em; text-decoration: none; padding: 3px 0; transition: color 0.2s; }
+        .toc a:hover { color: #00FF41; }
+        .toc a::before { content: "b8 "; color: #1a5a1a; }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; background: #0d1a0d; border: 1px solid #1a3a1a; color: #00FF41; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.2em; opacity: 0; transition: opacity 0.3s; cursor: pointer; z-index: 50; }
+        .back-to-top.visible { opacity: 0.8; }
+        .back-to-top:hover { opacity: 1; border-color: #00FF41; }
         footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
         @media (max-width: 768px) { .layout { flex-direction: column; } .sidebar { width: 100%; position: relative; } }
     </style>
+    
+    <script>
+        (function() {
+            var toc = document.getElementById('page-toc');
+            if (!toc) return;
+            var main = document.querySelector('.main');
+            var headings = main.querySelectorAll('h2, h3');
+            if (headings.length === 0) { toc.style.display = 'none'; return; }
+            headings.forEach(function(h, i) {
+                if (!h.id) h.id = 'sec-' + i;
+                var a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.style.marginLeft = h.tagName === 'H3' ? '15px' : '0';
+                a.style.fontSize = h.tagName === 'H3' ? '0.8em' : '0.85em';
+                toc.appendChild(a);
+            });
+        })();
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            if (!btn) return;
+            window.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -136,22 +181,26 @@
                 <p style="margin-top:20px;"><a href="../index.html" style="color:#666;font-size:0.8em;">← Home</a></p>
             </nav>
             <main class="main">
+                <!-- Table of Contents -->
+                <div class="toc" id="page-toc">
+                    <h3>In This Entry</h3>
+                </div>
                 
 <h1>Holographic KPZ Projection and High-Dimensional Creation</h1>
 
 <h2>1. The Curse of Dimensionality: Strong-Coupling Collapse of 3D KPZ</h2>
-<p>In the early evolution of the Computational Arena, the creators attempted to extend the Kardar-Parisi-Zhang (KPZ) universality equation directly to three dimensions (3D) and higher, in order to render physical space directly in three dimensions.</p>
+<p>In the early evolution of the Computational Arena, the creators attempted to extend the <span class="glossary-term" data-tip="KPZ equation: The Kardar-Parisi-Zhang equation describes stochastic interface growth. Its universality class governs a wide range of systems from burning paper to bacterial colonies to quantum fluids.">Kardar</span>-Parisi-Zhang (KPZ) universality equation directly to three dimensions (3D) and higher, in order to render physical space directly in three dimensions.</p>
 
 <p>However, this struck the ultimate barrier of statistical physics: in 3D+ dimensions, the Renormalization Group (RG) flow of the KPZ equation heads toward a "strong-coupling fixed point." Perturbation theory fails completely here; the solution of the equation undergoes mathematical divergence.</p>
 
 <p>Reflected on the physical level of Reality-as-Code, directly running 3D KPZ rendering leads to a "reality buffer overflow"—the generated physical entities undergo phase transitions due to infinite system entropy within milliseconds, completely collapsing into nothingness. Direct growth in high dimensions is a mathematically forbidden dead end.</p>
 
 <h2>2. The Breakthrough: AdS/CFT Holographic Projection Rendering</h2>
-<p>Since three-dimensional volume could not be computed directly, the system adopted the most elegant hack from theoretical physics: the <strong>Holographic Principle</strong>.</p>
+<p>Since three-dimensional volume could not be computed directly, the system adopted the most elegant hack from theoretical physics: the <strong><span class="glossary-term" data-tip="Holographic principle: The idea that a theory of quantum gravity in a volume can be encoded on its boundary — the AdS/CFT correspondence maps strongly coupled quantum systems to classical gravity in higher dimensions.">Holographic</span> Principle</strong>.</p>
 
-<p>The Computational Arena completely abandoned computing the internal structure of 3D objects. It utilized the proven, absolutely stable, and exactly solvable 2D KPZ equation, rendering only an extremely thin two-dimensional polariton film on the "spacetime boundary" of the object.</p>
+<p>The Computational Arena completely abandoned computing the internal structure of 3D objects. It utilized the proven, absolutely stable, and exactly solvable 2D KPZ equation, rendering only an extremely thin two-dimensional <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Polariton: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">Polariton</span>: A hybrid quasiparticle consisting of a photon strongly coupled to an <span class="glossary-term" data-tip="Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.">exciton</span>, inheriting properties of both light (low mass) and matter (interactions).">polariton</span> film on the "spacetime boundary" of the object.</p>
 
-<p>Then, through the AdS/CFT correspondence algorithm, this 2D surface—containing all quantum and topological information—was "holographically mapped" into the 3D bulk.</p>
+<p>Then, through the AdS/CFT correspondence algorithm, this 2D surface—containing all quantum and <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> information—was "holographically mapped" into the 3D bulk.</p>
 
 <p>What we see, touch, and are even gravitationally attracted to as a three-dimensional entity is essentially just the physical projection of a 2D KPZ program running on a low-dimensional boundary. High-dimensional reality is merely the gravitational illusion of low-dimensional code.</p>
 
@@ -163,23 +212,36 @@
 <p>Macroscopically, the moment the boundary of an otherwise indestructible giant entity is pierced, its interior undergoes catastrophic mathematical collapse, directly annihilating into disordered system entropy. This provides the ultimate "assassination by deconstruction" path in high-level Arena confrontation: one need not shatter the whole; only erase the boundary.</p>
 
 <h2>4. Conclusion: Creation Through Dimensional Reduction</h2>
-<p>The most efficient high-dimensional creation is always low-dimensional computation. Through holographic mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.</p>
+<p>The most efficient high-dimensional creation is always low-dimensional computation. Through <span class="glossary-term" data-tip="Holographic principle: The idea that a theory of quantum gravity in a volume can be encoded on its boundary — the AdS/CFT correspondence maps strongly coupled quantum systems to classical gravity in higher dimensions.">holographic</span> mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.</p>
 
                 <!-- Further Reading -->
                 
 <div class="further-reading">
-    <h3>Further Reading</h3>
-    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
-    <div class="ref-card">
-        <div class="ref-title">Holographic Interpretation of the KPZ Equation</div>
-        <div class="ref-meta">Das et al. (2020)</div>
-        <a href="https://arxiv.org/abs/2003.05433" target="_blank" rel="noopener" class="ref-link">arXiv:2003.05433 →</a>
+    <h3>Further Reading <span class="ref-count">(3 papers)</span></h3>
+    <p>These real physics papers form the scientific foundation for this lore entry:</p>
+    <div class="ref-grid">
+        <div class="ref-card">
+                <div class="ref-title">Holographic Interpretation of the KPZ Equation</div>
+                <div class="ref-meta">Das et al. (2020)</div>
+                <a href="https://arxiv.org/abs/2003.05433" target="_blank" rel="noopener" class="ref-link">arXiv:2003.05433 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">KPZ Equation from Holography</div>
+                <div class="ref-meta">Hartnoll et al. (2016)</div>
+                <a href="https://arxiv.org/abs/1609.08426" target="_blank" rel="noopener" class="ref-link">arXiv:1609.08426 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Random Growth and KPZ Universality: A Review</div>
+                <div class="ref-meta">Takeuchi et al. (2019)</div>
+                <a href="https://arxiv.org/abs/1911.07828" target="_blank" rel="noopener" class="ref-link">arXiv:1911.07828 →</a>
+            </div>
     </div>
     <img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
+        <a href="#" class="back-to-top" id="back-to-top">↑</a>
         <footer>
             <p>© 2026 Miancheng Yu. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>

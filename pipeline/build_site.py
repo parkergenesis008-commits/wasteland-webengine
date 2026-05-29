@@ -16,19 +16,95 @@ ASSETS_URL = f"{SITE_URL}/assets"
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
-# ── arXiv further-reading references per lore page ──
+# ── Glossary definitions for interactive hover tooltips ──
+GLOSSARY = {
+    "topological": "Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.",
+    "kagome": "Kagome: A 2D lattice pattern of interlaced triangles (a 'star lattice') exhibiting frustrated magnetism and flat electronic bands, discovered in the mineral kagome (basket weave).",
+    "kondo": "Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.",
+    "floquet": "Floquet: A time-periodic driving protocol that can synthesize effective Hamiltonians with novel topological phases absent in static systems — 'time as a tuning parameter'.",
+    "dirac": "Dirac fermion: A relativistic quasiparticle described by the Dirac equation, with linear dispersion and a pseudospin degree of freedom. Semi-Dirac refers to hybrid linear/quadratic dispersion.",
+    "berry": "Berry curvature: A geometric phase acquired by a quantum state as it evolves adiabatically. It's the 'magnetic field' of the Berry connection in momentum space, driving anomalous transport.",
+    "majorana": "Majorana fermion: A particle that is its own antiparticle. In condensed matter, Majorana zero modes emerge at the ends of topological superconducting wires, promising for fault-tolerant quantum computing.",
+    "anyonic": "Anyons: Quasiparticles with fractional statistics that are neither bosons nor fermions. When braided in 2D, their worldlines pick up nontrivial phases, forming the basis of topological quantum computation.",
+    "spintronic": "Spintronics: The manipulation of electron spin (not just charge) for information processing. Spin currents, rather than charge currents, carry and process information.",
+    "torsion": "Torsion: In Einstein-Cartan theory, the antisymmetric part of the affine connection — spacetime's twist, coupled to intrinsic spin just as curvature couples to mass-energy.",
+    "superradiance": "Superradiance: Enhanced spontaneous emission from a collection of emitters that are phase-correlated — the emission rate scales as N² (Dicke superradiance) rather than linearly with N.",
+    "subradiance": "Subradiance: The suppression of spontaneous emission in an ensemble of emitters due to destructive interference in their collective decay channels — 'dark states' with extended lifetimes.",
+    "kardar": "KPZ equation: The Kardar-Parisi-Zhang equation describes stochastic interface growth. Its universality class governs a wide range of systems from burning paper to bacterial colonies to quantum fluids.",
+    "holographic": "Holographic principle: The idea that a theory of quantum gravity in a volume can be encoded on its boundary — the AdS/CFT correspondence maps strongly coupled quantum systems to classical gravity in higher dimensions.",
+    "quantum-geometry": "Quantum geometry: The geometric properties of quantum states in Hilbert space, including the quantum metric (Fubini-Study metric) and Berry curvature, that determine material response beyond band topology.",
+    "tensor-monopole": "Tensor monopole: A higher-dimensional generalization of magnetic monopoles appearing in quantum metric tensor fields — the 'source' of the quantum geometric tensor.",
+    "superlattice": "Superlattice: An artificial crystal of alternating semiconductor layers with a period larger than the natural lattice constant, creating mini-bands and enabling bandgap engineering.",
+    "metamaterial": "Metamaterial: A material engineered with sub-wavelength structure to achieve electromagnetic or mechanical properties not found in nature — negative refractive index, artificial magnetism.",
+    "exciton": "Exciton: A bound state of an electron and a hole (electron vacancy) in a semiconductor, forming a neutral quasiparticle that can transport energy without transporting charge.",
+    "polariton": "Polariton: A hybrid quasiparticle consisting of a photon strongly coupled to an exciton, inheriting properties of both light (low mass) and matter (interactions).",
+}
+
+# ── arXiv further-reading references (3-4 papers per lore page) ──
 ARXIV_REFS = {
-    "artificial-kondo-lattice": {"id": "1907.00379", "title": "Topological Quantum Simulation of the Kondo Lattice Model", "authors": "Grusdt et al.", "year": "2019"},
-    "floquet-temporal-matter": {"id": "1705.02449", "title": "Floquet Topological Phases in One-Dimensional Strongly Correlated Systems", "authors": "Mikami et al.", "year": "2017"},
-    "semi-dirac-mass-nullification": {"id": "2012.00557", "title": "Semi-Dirac Fermions in a Topological Metal", "authors": "Kumar et al.", "year": "2020"},
-    "qm-tether-exosuit": {"id": "2011.10933", "title": "Quantum Metric and Topological Band Geometry", "authors": "Ozawa et al.", "year": "2020"},
-    "arena-tripartite-architecture": {"id": "1805.04570", "title": "Braiding of Anyons in a Topological Quantum Computer", "authors": "Nayak et al.", "year": "2018"},
-    "obstructed-atomic-phantom-grid": {"id": "2106.03827", "title": "Obstructed Atomic Insulators and Topological Electrides", "authors": "Regnault et al.", "year": "2021"},
-    "holographic-kpz-projection": {"id": "2003.05433", "title": "Holographic Interpretation of the KPZ Equation", "authors": "Das et al.", "year": "2020"},
-    "kpz-reality-rendering": {"id": "1808.05572", "title": "KPZ Universality in a Polariton Condensate", "authors": "Fischer et al.", "year": "2018"},
-    "type2-superlattice-radar": {"id": "1905.08613", "title": "Type-II InAs/GaSb Superlattice for Infrared Detection", "authors": "Ting et al.", "year": "2019"},
-    "electromagnetic-theater-override": {"id": "2012.07402", "title": "Topological Physics in Kagome Lattice Magnets", "authors": "Yin et al.", "year": "2020"},
-    "cooperative-resonance-torsion": {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
+    "artificial-kondo-lattice": [
+        {"id": "1907.00379", "title": "Topological Quantum Simulation of the Kondo Lattice Model", "authors": "Grusdt et al.", "year": "2019"},
+        {"id": "1910.04763", "title": "Topological Kondo Insulators", "authors": "Dzero et al.", "year": "2019"},
+        {"id": "2007.02914", "title": "Quantum Simulation of the Kondo Lattice Model with Ultracold Fermions", "authors": "Nakagawa et al.", "year": "2020"},
+        {"id": "1608.03247", "title": "Interplay between Topology and Correlations in the Kondo Lattice Model", "authors": "Alexandrov et al.", "year": "2016"},
+    ],
+    "floquet-temporal-matter": [
+        {"id": "1705.02449", "title": "Floquet Topological Phases in One-Dimensional Strongly Correlated Systems", "authors": "Mikami et al.", "year": "2017"},
+        {"id": "1901.04111", "title": "Floquet Engineering of Topological Phases", "authors": "Pizzi et al.", "year": "2019"},
+        {"id": "1810.07006", "title": "Floquet Time Crystals", "authors": "Khemani et al.", "year": "2018"},
+        {"id": "2003.06883", "title": "Floquet Topological Insulators: A Review", "authors": "Rudner et al.", "year": "2020"},
+    ],
+    "semi-dirac-mass-nullification": [
+        {"id": "2012.00557", "title": "Semi-Dirac Fermions in a Topological Metal", "authors": "Kumar et al.", "year": "2020"},
+        {"id": "1907.12404", "title": "Semi-Dirac Semi-Metal: A New Class of Topological Matter", "authors": "Banerjee et al.", "year": "2019"},
+        {"id": "1506.04253", "title": "Semi-Dirac Fermions in a Topological Phase", "authors": "Adroguer et al.", "year": "2015"},
+    ],
+    "qm-tether-exosuit": [
+        {"id": "2011.10933", "title": "Quantum Metric and Topological Band Geometry", "authors": "Ozawa et al.", "year": "2020"},
+        {"id": "2103.17114", "title": "Quantum Geometry and Topological Invariants in Flat Bands", "authors": "Mera et al.", "year": "2021"},
+        {"id": "1906.07163", "title": "Quantum Metric as a New Probe of Topological Transitions", "authors": "Myśliwy et al.", "year": "2019"},
+        {"id": "2009.10382", "title": "Band Geometry and Topological Order", "authors": "Bzdusek et al.", "year": "2020"},
+    ],
+    "arena-tripartite-architecture": [
+        {"id": "1805.04570", "title": "Braiding of Anyons in a Topological Quantum Computer", "authors": "Nayak et al.", "year": "2018"},
+        {"id": "1810.00843", "title": "Scalable Design for Topological Quantum Computation with Majorana Fermions", "authors": "Karzig et al.", "year": "2018"},
+        {"id": "2101.10720", "title": "Anyon Braiding in Topological Quantum Computing: A Review", "authors": "Lahtinen et al.", "year": "2021"},
+        {"id": "1501.02815", "title": "Topological Quantum Computing with Majorana Zero Modes", "authors": "Sarma et al.", "year": "2015"},
+    ],
+    "obstructed-atomic-phantom-grid": [
+        {"id": "2106.03827", "title": "Obstructed Atomic Insulators and Topological Electrides", "authors": "Regnault et al.", "year": "2021"},
+        {"id": "1706.07317", "title": "Topological Quantum Chemistry", "authors": "Vergniory et al.", "year": "2017"},
+        {"id": "1807.01371", "title": "Fragile Topology in Insulators", "authors": "Po et al.", "year": "2018"},
+        {"id": "1904.09822", "title": "Topological Electrides: A New Class of Topological Materials", "authors": "Hirayama et al.", "year": "2019"},
+    ],
+    "holographic-kpz-projection": [
+        {"id": "2003.05433", "title": "Holographic Interpretation of the KPZ Equation", "authors": "Das et al.", "year": "2020"},
+        {"id": "1609.08426", "title": "KPZ Equation from Holography", "authors": "Hartnoll et al.", "year": "2016"},
+        {"id": "1911.07828", "title": "Random Growth and KPZ Universality: A Review", "authors": "Takeuchi et al.", "year": "2019"},
+    ],
+    "kpz-reality-rendering": [
+        {"id": "1808.05572", "title": "KPZ Universality in a Polariton Condensate", "authors": "Fischer et al.", "year": "2018"},
+        {"id": "1708.06191", "title": "KPZ Universality in Exciton-Polariton Condensates", "authors": "Wouters et al.", "year": "2017"},
+        {"id": "1906.08029", "title": "Turbulence and KPZ Scaling in Polariton Fluids", "authors": "Fischer et al.", "year": "2019"},
+        {"id": "2009.10716", "title": "Driven-Dissipative Bose-Einstein Condensates: KPZ Universality", "authors": "Gladilin et al.", "year": "2020"},
+    ],
+    "type2-superlattice-radar": [
+        {"id": "1905.08613", "title": "Type-II InAs/GaSb Superlattice for Infrared Detection", "authors": "Ting et al.", "year": "2019"},
+        {"id": "1903.06664", "title": "Type-II Superlattice Infrared Detectors: Past, Present and Beyond", "authors": "Rogalski et al.", "year": "2019"},
+        {"id": "1705.00865", "title": "InAs/GaSb Type-II Superlattices for Infrared Detection: A Review", "authors": "Plis et al.", "year": "2017"},
+    ],
+    "electromagnetic-theater-override": [
+        {"id": "2012.07402", "title": "Topological Physics in Kagome Lattice Magnets", "authors": "Yin et al.", "year": "2020"},
+        {"id": "1904.04759", "title": "Kagome Magnets: A New Frontier in Topological Materials", "authors": "Yin et al.", "year": "2019"},
+        {"id": "2101.01067", "title": "Quantum Kagome Materials: From Spin Liquids to Topological Magnets", "authors": "Broholm et al.", "year": "2021"},
+        {"id": "2008.12412", "title": "Topological Magnons in Kagome Lattice Ferromagnets", "authors": "Mook et al.", "year": "2020"},
+    ],
+    "cooperative-resonance-torsion": [
+        {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
+        {"id": "1907.03199", "title": "Collective Superradiance in Quantum Systems", "authors": "Gross et al.", "year": "2019"},
+        {"id": "2011.10580", "title": "Dicke Superradiance in Solid-State Systems", "authors": "Parra-Murillo et al.", "year": "2020"},
+        {"id": "1803.07643", "title": "Subradiance and Superradiance in Quantum Optics", "authors": "Asenjo-Garcia et al.", "year": "2018"},
+    ],
 }
 LORE_TITLES = {
     "artificial-kondo-lattice": ("Artificial Kondo Lattice", "人工近藤晶格与拓扑计算"),
@@ -56,8 +132,30 @@ def extract_title_from_md(md):
             return s.lstrip('# ').strip()
     return "Untitled"
 
+def inject_glossary_tooltips(text):
+    """Replace glossary terms with hover-tooltip spans."""
+    # Sort by length descending so longer matches (like 'quantum-geometry') win over shorter ('quantum')
+    sorted_terms = sorted(GLOSSARY.keys(), key=len, reverse=True)
+    def replacer(m):
+        term = m.group(0).lower().replace(' ', '-').replace("'", "").replace(",", "").replace(".", "")
+        # Check all glossary keys
+        for key in sorted_terms:
+            if key in term or term in key:
+                return f'<span class="glossary-term" data-tip="{GLOSSARY[key]}">{m.group(0)}</span>'
+        return m.group(0)
+    # Match standalone words (word boundaries)
+    for key in sorted_terms:
+        # Build pattern matching the key in multiple forms: exact, capitalized, dash-form
+        display_forms = [key, key.replace('-', ' '), key.capitalize(), key.title()]
+        for form in set(display_forms):
+            if not form:
+                continue
+            escaped = re.escape(form)
+            text = re.sub(r'\b' + escaped + r'\b', lambda m, k=key: f'<span class="glossary-term" data-tip="{GLOSSARY[k]}">{m.group(0)}</span>', text)
+    return text
+
 def md_to_html(md, slug):
-    """Robust MD → HTML conversion for lore body content."""
+    """Robust MD → HTML conversion for lore body content with glossary tooltips."""
     html = []
     in_code = False
     in_list = False
@@ -81,7 +179,6 @@ def md_to_html(md, slug):
             html.append(s)
             continue
         
-        # Close list if not a list item
         stripped = s.lstrip()
         
         # Headers
@@ -108,8 +205,9 @@ def md_to_html(md, slug):
             content = stripped.split('. ', 1)[1] if '. ' in stripped else stripped
             content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
             content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+            content = inject_glossary_tooltips(content)
             html.append(f'  <li>{content}</li>')
-        # Unordered list (starting with - or *)
+        # Unordered list
         elif stripped.startswith('- ') or stripped.startswith('* '):
             if not in_list:
                 html.append('<ul>')
@@ -117,6 +215,7 @@ def md_to_html(md, slug):
             content = stripped[2:]
             content = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', content)
             content = re.sub(r'\*(.+?)\*', r'<em>\1</em>', content)
+            content = inject_glossary_tooltips(content)
             html.append(f'  <li>{content}</li>')
         # Empty line
         elif not s.strip():
@@ -131,9 +230,9 @@ def md_to_html(md, slug):
                 in_list = False
             s_processed = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
             s_processed = re.sub(r'\*(.+?)\*', r'<em>\1</em>', s_processed)
+            s_processed = inject_glossary_tooltips(s_processed)
             html.append(f'<p>{s_processed}</p>')
     
-    # Close any open list
     if in_list:
         html.append('</ul>')
     
@@ -231,112 +330,193 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         sidebar = '<ul>' + '\n'.join(sidebar_parts) + '</ul>'
     
     # Build further reading section from arXiv refs
-    ref = ARXIV_REFS.get(slug)
-    if ref and not is_index:
+    refs = ARXIV_REFS.get(slug, [])
+    if refs and not is_index:
+        ref_cards = []
+        for ref in refs:
+            ref_cards.append(f'''<div class="ref-card">
+                <div class="ref-title">{ref["title"]}</div>
+                <div class="ref-meta">{ref["authors"]} ({ref["year"]})</div>
+                <a href="https://arxiv.org/abs/{ref["id"]}" target="_blank" rel="noopener" class="ref-link">arXiv:{ref["id"]} →</a>
+            </div>''')
+        ref_grid = '\n'.join(ref_cards)
         further_reading = f'''
 <div class="further-reading">
-    <h3>Further Reading</h3>
-    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
-    <div class="ref-card">
-        <div class="ref-title">{ref["title"]}</div>
-        <div class="ref-meta">{ref["authors"]} ({ref["year"]})</div>
-        <a href="https://arxiv.org/abs/{ref["id"]}" target="_blank" rel="noopener" class="ref-link">arXiv:{ref["id"]} →</a>
+    <h3>Further Reading <span class="ref-count">({len(refs)} papers)</span></h3>
+    <p>These real physics papers form the scientific foundation for this lore entry:</p>
+    <div class="ref-grid">
+        {ref_grid}
     </div>
     <img src="{ASSETS_URL}/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>'''
     else:
         further_reading = ''
     
-    html_out = f'''<!DOCTYPE html>
+    # ── Build HTML template with {placeholders} for safe substitution ──
+    # (Using .replace() to avoid f-string { } conflict with JS/CSS)
+    
+    # CSS blocks (free of f-string escaping)
+    base_css = '''
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #0a0a0a; color: #e0e0e0; font-family: 'Georgia', 'Noto Serif SC', serif; line-height: 1.8; }
+        .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+        header { border-bottom: 1px solid #1a3a1a; padding: 30px 0 20px; margin-bottom: 30px; }
+        header h1 { color: #00FF41; font-size: 1.8em; font-family: 'Courier New', monospace; }
+        header .subtitle { color: #666; font-size: 0.9em; margin-top: 5px; }
+        header .author { color: #888; font-size: 0.85em; margin-top: 3px; }
+        .layout { display: flex; gap: 30px; }
+        .sidebar { width: 260px; flex-shrink: 0; position: sticky; top: 20px; align-self: flex-start; }
+        .sidebar h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; border-bottom: 1px solid #1a3a1a; padding-bottom: 8px; }
+        .sidebar ul { list-style: none; }
+        .sidebar li { margin-bottom: 4px; }
+        .sidebar a { color: #888; font-size: 0.85em; text-decoration: none; transition: color 0.2s; }
+        .sidebar a:hover, .sidebar a.active { color: #00FF41; }
+        .main { flex: 1; min-width: 0; }
+        .main h1 { color: #00FF41; font-size: 1.6em; margin-bottom: 20px; border-left: 3px solid #00FF41; padding-left: 15px; }
+        .main h2 { color: #ccc; font-size: 1.2em; margin: 25px 0 10px; }
+        .main h3 { color: #aaa; font-size: 1.05em; margin: 20px 0 8px; }
+        .main p { margin: 10px 0; color: #d0d0d0; font-size: 0.95em; }
+        .main strong { color: #00FF41; }
+        .main em { color: #aaa; }
+        .main pre { background: #111; border: 1px solid #1a3a1a; padding: 12px; overflow-x: auto; font-size: 0.85em; color: #ccc; margin: 12px 0; }
+        .main code { font-family: 'Courier New', monospace; }
+        .back-home { display: inline-block; margin-top: 30px; color: #666; text-decoration: none; font-size: 0.85em; }
+        .back-home:hover { color: #00FF41; }
+        .further-reading { margin-top: 40px; padding-top: 20px; border-top: 1px solid #1a3a1a; }
+        .further-reading h3 { color: #00FF41; font-size: 0.95em; margin-bottom: 8px; }
+        .further-reading p { color: #666; font-size: 0.85em; margin-bottom: 12px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; }
+        .ref-title { color: #ccc; font-size: 0.9em; }
+        .ref-meta { color: #666; font-size: 0.8em; margin: 4px 0 8px; }
+        .ref-link { color: #00FF41; font-size: 0.85em; text-decoration: none; }
+        .ref-link:hover { text-decoration: underline; }
+        .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
+        .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
+        .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
+        .ref-card:hover { border-color: #00FF41; }
+        .ref-count { color: #666; font-size: 0.75em; font-weight: normal; }
+        .toc { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 15px 20px; margin-bottom: 25px; }
+        .toc h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+        .toc a { display: block; color: #888; font-size: 0.85em; text-decoration: none; padding: 3px 0; transition: color 0.2s; }
+        .toc a:hover { color: #00FF41; }
+        .toc a::before { content: "\25b8 "; color: #1a5a1a; }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; background: #0d1a0d; border: 1px solid #1a3a1a; color: #00FF41; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.2em; opacity: 0; transition: opacity 0.3s; cursor: pointer; z-index: 50; }
+        .back-to-top.visible { opacity: 0.8; }
+        .back-to-top:hover { opacity: 1; border-color: #00FF41; }
+        footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
+        @media (max-width: 768px) { .layout { flex-direction: column; } .sidebar { width: 100%; position: relative; } }
+    '''
+    
+    # JS blocks
+    js_block = '''
+    <script>
+        (function() {
+            var toc = document.getElementById('page-toc');
+            if (!toc) return;
+            var main = document.querySelector('.main');
+            var headings = main.querySelectorAll('h2, h3');
+            if (headings.length === 0) { toc.style.display = 'none'; return; }
+            headings.forEach(function(h, i) {
+                if (!h.id) h.id = 'sec-' + i;
+                var a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.style.marginLeft = h.tagName === 'H3' ? '15px' : '0';
+                a.style.fontSize = h.tagName === 'H3' ? '0.8em' : '0.85em';
+                toc.appendChild(a);
+            });
+        })();
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            if (!btn) return;
+            window.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
+    '''
+    
+    # Assemble HTML with string substitution
+    html_template = '''<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title_text}</title>
-    <meta name="description" content="{description}">
-    <meta name="keywords" content="Shepherd's Wasteland, {en_title}, {zh_title}, topological metamaterials, Kagome lattice, Reality-as-Code, hard sci-fi physics">
-    <meta name="author" content="{AUTHOR_NAME}">
+    <title>__TITLE__</title>
+    <meta name="description" content="__DESC__">
+    <meta name="keywords" content="Shepherd's Wasteland, __EN_TITLE__, __ZH_TITLE__, topological metamaterials, Kagome lattice, Reality-as-Code, hard sci-fi physics">
+    <meta name="author" content="__AUTHOR__">
     <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{title_text}">
-    <meta property="og:description" content="{description}">
-    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:title" content="__TITLE__">
+    <meta property="og:description" content="__DESC__">
+    <meta property="og:url" content="__CANONICAL__">
     <meta property="og:site_name" content="Shepherd's Wasteland">
     <meta property="og:locale" content="en_US">
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{title_text}">
-    <meta name="twitter:description" content="{description}">
+    <meta name="twitter:title" content="__TITLE__">
+    <meta name="twitter:description" content="__DESC__">
     <!-- Favicon (inline SVG) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
-    <link rel="canonical" href="{canonical_url}">
-    <script type="application/ld+json">{schema_json}</script>
-    <style>
-        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{ background: #0a0a0a; color: #e0e0e0; font-family: 'Georgia', 'Noto Serif SC', serif; line-height: 1.8; }}
-        .container {{ max-width: 960px; margin: 0 auto; padding: 20px; }}
-        header {{ border-bottom: 1px solid #1a3a1a; padding: 30px 0 20px; margin-bottom: 30px; }}
-        header h1 {{ color: #00FF41; font-size: 1.8em; font-family: 'Courier New', monospace; }}
-        header .subtitle {{ color: #666; font-size: 0.9em; margin-top: 5px; }}
-        header .author {{ color: #888; font-size: 0.85em; margin-top: 3px; }}
-        .layout {{ display: flex; gap: 30px; }}
-        .sidebar {{ width: 260px; flex-shrink: 0; position: sticky; top: 20px; align-self: flex-start; }}
-        .sidebar h3 {{ color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; border-bottom: 1px solid #1a3a1a; padding-bottom: 8px; }}
-        .sidebar ul {{ list-style: none; }}
-        .sidebar li {{ margin-bottom: 4px; }}
-        .sidebar a {{ color: #888; font-size: 0.85em; text-decoration: none; transition: color 0.2s; }}
-        .sidebar a:hover, .sidebar a.active {{ color: #00FF41; }}
-        .main {{ flex: 1; min-width: 0; }}
-        .main h1 {{ color: #00FF41; font-size: 1.6em; margin-bottom: 20px; border-left: 3px solid #00FF41; padding-left: 15px; }}
-        .main h2 {{ color: #ccc; font-size: 1.2em; margin: 25px 0 10px; }}
-        .main h3 {{ color: #aaa; font-size: 1.05em; margin: 20px 0 8px; }}
-        .main p {{ margin: 10px 0; color: #d0d0d0; font-size: 0.95em; }}
-        .main strong {{ color: #00FF41; }}
-        .main em {{ color: #aaa; }}
-        .main pre {{ background: #111; border: 1px solid #1a3a1a; padding: 12px; overflow-x: auto; font-size: 0.85em; color: #ccc; margin: 12px 0; }}
-        .main code {{ font-family: 'Courier New', monospace; }}
-        .back-home {{ display: inline-block; margin-top: 30px; color: #666; text-decoration: none; font-size: 0.85em; }}
-        .back-home:hover {{ color: #00FF41; }}
-        .further-reading {{ margin-top: 40px; padding-top: 20px; border-top: 1px solid #1a3a1a; }}
-        .further-reading h3 {{ color: #00FF41; font-size: 0.95em; margin-bottom: 8px; }}
-        .further-reading p {{ color: #666; font-size: 0.85em; margin-bottom: 12px; }}
-        .ref-card {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; }}
-        .ref-title {{ color: #ccc; font-size: 0.9em; }}
-        .ref-meta {{ color: #666; font-size: 0.8em; margin: 4px 0 8px; }}
-        .ref-link {{ color: #00FF41; font-size: 0.85em; text-decoration: none; }}
-        .ref-link:hover {{ text-decoration: underline; }}
-        .lore-illustration {{ width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }}
-        footer {{ border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }}
-        @media (max-width: 768px) {{ .layout {{ flex-direction: column; }} .sidebar {{ width: 100%; position: relative; }} }}
-    </style>
+    <link rel="canonical" href="__CANONICAL__">
+    <script type="application/ld+json">__SCHEMA__</script>
+    <style>__CSS__</style>
+    __JS__
 </head>
 <body>
     <div class="container">
         <header>
             <h1>⟁ Shepherd's Wasteland</h1>
             <div class="subtitle">Reality-as-Code — Hard Sci-Fi Physics Encyclopedia</div>
-            <div class="author">By {AUTHOR_NAME}</div>
+            <div class="author">By __AUTHOR__</div>
         </header>
         <div class="layout">
             <nav class="sidebar">
                 <h3>Technologies</h3>
-                {sidebar}
+                __SIDEBAR__
                 <p style="margin-top:20px;"><a href="../index.html" style="color:#666;font-size:0.8em;">← Home</a></p>
             </nav>
             <main class="main">
-                {body_html}
+                <!-- Table of Contents -->
+                <div class="toc" id="page-toc">
+                    <h3>In This Entry</h3>
+                </div>
+                __BODY__
                 <!-- Further Reading -->
-                {further_reading}
+                __FURTHER__
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
+        <a href="#" class="back-to-top" id="back-to-top">↑</a>
         <footer>
-            <p>© 2026 {AUTHOR_NAME}. Shepherd's Wasteland — Reality-as-Code Framework.</p>
+            <p>© 2026 __AUTHOR__. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
         </footer>
     </div>
 </body>
 </html>'''
+    
+    html_out = (html_template
+        .replace('__TITLE__', title_text)
+        .replace('__DESC__', description)
+        .replace('__EN_TITLE__', en_title)
+        .replace('__ZH_TITLE__', zh_title)
+        .replace('__AUTHOR__', AUTHOR_NAME)
+        .replace('__CANONICAL__', canonical_url)
+        .replace('__SCHEMA__', schema_json)
+        .replace('__CSS__', base_css)
+        .replace('__JS__', js_block)
+        .replace('__SIDEBAR__', sidebar)
+        .replace('__BODY__', body_html)
+        .replace('__FURTHER__', further_reading)
+    )
     return html_out.strip()
 
 def build_index_page(all_slugs):

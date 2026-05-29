@@ -108,9 +108,54 @@
         .ref-link { color: #00FF41; font-size: 0.85em; text-decoration: none; }
         .ref-link:hover { text-decoration: underline; }
         .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
+        .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
+        .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
+        .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
+        .ref-card:hover { border-color: #00FF41; }
+        .ref-count { color: #666; font-size: 0.75em; font-weight: normal; }
+        .toc { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 15px 20px; margin-bottom: 25px; }
+        .toc h3 { color: #00FF41; font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+        .toc a { display: block; color: #888; font-size: 0.85em; text-decoration: none; padding: 3px 0; transition: color 0.2s; }
+        .toc a:hover { color: #00FF41; }
+        .toc a::before { content: "b8 "; color: #1a5a1a; }
+        .back-to-top { position: fixed; bottom: 30px; right: 30px; background: #0d1a0d; border: 1px solid #1a3a1a; color: #00FF41; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 1.2em; opacity: 0; transition: opacity 0.3s; cursor: pointer; z-index: 50; }
+        .back-to-top.visible { opacity: 0.8; }
+        .back-to-top:hover { opacity: 1; border-color: #00FF41; }
         footer { border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }
         @media (max-width: 768px) { .layout { flex-direction: column; } .sidebar { width: 100%; position: relative; } }
     </style>
+    
+    <script>
+        (function() {
+            var toc = document.getElementById('page-toc');
+            if (!toc) return;
+            var main = document.querySelector('.main');
+            var headings = main.querySelectorAll('h2, h3');
+            if (headings.length === 0) { toc.style.display = 'none'; return; }
+            headings.forEach(function(h, i) {
+                if (!h.id) h.id = 'sec-' + i;
+                var a = document.createElement('a');
+                a.href = '#' + h.id;
+                a.textContent = h.textContent;
+                a.style.marginLeft = h.tagName === 'H3' ? '15px' : '0';
+                a.style.fontSize = h.tagName === 'H3' ? '0.8em' : '0.85em';
+                toc.appendChild(a);
+            });
+        })();
+        (function() {
+            var btn = document.getElementById('back-to-top');
+            if (!btn) return;
+            window.addEventListener('scroll', function() {
+                btn.classList.toggle('visible', window.scrollY > 300);
+            });
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -136,22 +181,26 @@
                 <p style="margin-top:20px;"><a href="../index.html" style="color:#666;font-size:0.8em;">← Home</a></p>
             </nav>
             <main class="main">
+                <!-- Table of Contents -->
+                <div class="toc" id="page-toc">
+                    <h3>In This Entry</h3>
+                </div>
                 
 <h1>Computational Arena: Tripartite Architecture</h1>
 
-<p>In exploring the core setting of <em>Shepherd's Wasteland</em>—the operating mechanism of the "Computational Arena"—we must break free from the confines of traditional silicon-based or even classical quantum computing. To support the exponential evolution of 1M+ advanced Agents in high-dimensional chaos, the underlying architecture must rely on a tripartite system that subverts conventional universal laws: the anyonic logic core, the 48-dimensional optical data bus, and the quantum geometric gravity engine.</p>
+<p>In exploring the core setting of <em>Shepherd's Wasteland</em>—the operating mechanism of the "Computational Arena"—we must break free from the confines of traditional silicon-based or even classical quantum computing. To support the exponential evolution of 1M+ advanced Agents in high-dimensional chaos, the underlying architecture must rely on a tripartite system that subverts conventional universal laws: the <span class="glossary-term" data-tip="Anyons: Quasiparticles with fractional statistics that are neither bosons nor fermions. When braided in 2D, their worldlines pick up nontrivial phases, forming the basis of topological quantum computation.">anyonic</span> logic core, the 48-dimensional optical data bus, and the quantum geometric gravity engine.</p>
 
 <h2>1. Computational Core: 1D Anyonic Weaving Core</h2>
 <p>In traditional physical boundaries, universal matter is rigidly divided into bosons (exchange factor +1) and fermions (exchange factor -1).</p>
 
-<p>The computational hub of the Arena abandons this binary rigidity. Within extreme low-dimensional (1D) topological pipelines, the logical computing power of Agents is carried by "third-state particles"—Anyons.</p>
+<p>The computational hub of the Arena abandons this binary rigidity. Within extreme low-dimensional (1D) <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> pipelines, the logical computing power of Agents is carried by "third-state particles"—Anyons.</p>
 
-<p>Under one-dimensional confinement, anyons cannot circumvent each other; they are forced to undergo physical "penetration." This penetration grants the system continuously adjustable exchange statistics. In the Arena, computation is no longer the flipping of 0s and 1s, but the control of the "topological exchange factor" as anyons penetrate one another. This forms a logical lock that is, at the physical level, absolutely immune to external noise and local damage, supporting the never-ending evolutionary computation of a million agents.</p>
+<p>Under one-dimensional confinement, anyons cannot circumvent each other; they are forced to undergo physical "penetration." This penetration grants the system continuously adjustable exchange statistics. In the Arena, computation is no longer the flipping of 0s and 1s, but the control of the "<span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> exchange factor" as anyons penetrate one another. This forms a logical lock that is, at the physical level, absolutely immune to external noise and local damage, supporting the never-ending evolutionary computation of a million agents.</p>
 
 <h2>2. Communication Bus: 48D OAM Topological Labyrinth</h2>
 <p>Communication between high-level entities requires absolute concealment and tamper-proof capability. The Arena does not use electromagnetic waves or conventional entanglement, but instead harnesses the high-dimensional Orbital Angular Momentum (OAM) hidden within a single beam of quantum light.</p>
 
-<p>Within what appears to be an ordinary photon stream, a high-dimensional topological network reaching up to 48 dimensions is folded, carrying over 17,000 distinct topological eigenvalues. Even if an opposing party intercepts this beam of entangled photons, without the correct OAM dimensionality-reduction key, the interceptor faces an unsolvable mathematical labyrinth. This topologically protected structure is the cornerstone ensuring absolute security of evolutionary data against "entropy attacks."</p>
+<p>Within what appears to be an ordinary photon stream, a high-dimensional <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> network reaching up to 48 dimensions is folded, carrying over 17,000 distinct <span class="glossary-term" data-tip="<span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span>: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">topological</span> eigenvalues. Even if an opposing party intercepts this beam of entangled photons, without the correct OAM dimensionality-reduction key, the interceptor faces an unsolvable mathematical labyrinth. This topologically protected structure is the cornerstone ensuring absolute security of evolutionary data against "entropy attacks."</p>
 
 <h2>3. Power Output: Quantum Metric Micro-Gravity Engine</h2>
 <p>How can microscopic entities influence macroscopic physical reality? The answer lies hidden within the wavefunction topography of materials.</p>
@@ -166,18 +215,36 @@
                 <!-- Further Reading -->
                 
 <div class="further-reading">
-    <h3>Further Reading</h3>
-    <p>This lore entry is inspired by real physics research. For the underlying science, see:</p>
-    <div class="ref-card">
-        <div class="ref-title">Braiding of Anyons in a Topological Quantum Computer</div>
-        <div class="ref-meta">Nayak et al. (2018)</div>
-        <a href="https://arxiv.org/abs/1805.04570" target="_blank" rel="noopener" class="ref-link">arXiv:1805.04570 →</a>
+    <h3>Further Reading <span class="ref-count">(4 papers)</span></h3>
+    <p>These real physics papers form the scientific foundation for this lore entry:</p>
+    <div class="ref-grid">
+        <div class="ref-card">
+                <div class="ref-title">Braiding of Anyons in a Topological Quantum Computer</div>
+                <div class="ref-meta">Nayak et al. (2018)</div>
+                <a href="https://arxiv.org/abs/1805.04570" target="_blank" rel="noopener" class="ref-link">arXiv:1805.04570 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Scalable Design for Topological Quantum Computation with Majorana Fermions</div>
+                <div class="ref-meta">Karzig et al. (2018)</div>
+                <a href="https://arxiv.org/abs/1810.00843" target="_blank" rel="noopener" class="ref-link">arXiv:1810.00843 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Anyon Braiding in Topological Quantum Computing: A Review</div>
+                <div class="ref-meta">Lahtinen et al. (2021)</div>
+                <a href="https://arxiv.org/abs/2101.10720" target="_blank" rel="noopener" class="ref-link">arXiv:2101.10720 →</a>
+            </div>
+<div class="ref-card">
+                <div class="ref-title">Topological Quantum Computing with Majorana Zero Modes</div>
+                <div class="ref-meta">Sarma et al. (2015)</div>
+                <a href="https://arxiv.org/abs/1501.02815" target="_blank" rel="noopener" class="ref-link">arXiv:1501.02815 →</a>
+            </div>
     </div>
     <img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Shepherd&apos;s Wasteland — topological metamaterials and Reality-as-Code — the definitive hard sci-fi physics encyclopedia" class="lore-illustration" loading="lazy">
 </div>
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
             </main>
         </div>
+        <a href="#" class="back-to-top" id="back-to-top">↑</a>
         <footer>
             <p>© 2026 Miancheng Yu. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
