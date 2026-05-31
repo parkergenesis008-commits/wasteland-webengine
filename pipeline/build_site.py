@@ -91,6 +91,9 @@ ARXIV_REFS = {
         {"id": "1708.06191", "title": "KPZ Universality in Exciton-Polariton Condensates", "authors": "Wouters et al.", "year": "2017"},
         {"id": "1906.08029", "title": "Turbulence and KPZ Scaling in Polariton Fluids", "authors": "Fischer et al.", "year": "2019"},
         {"id": "2009.10716", "title": "Driven-Dissipative Bose-Einstein Condensates: KPZ Universality", "authors": "Gladilin et al.", "year": "2020"},
+        {"id": "1811.03116", "title": "A Postquantum Theory of Classical Gravity?", "authors": "Oppenheim", "year": "2023"},
+        {"id": "gr-qc/9412007", "title": "On Gravity's Role in Quantum State Reduction", "authors": "Penrose", "year": "1996"},
+        {"id": "quant-ph/9412009", "title": "A Universal Master Equation for the Gravitational Violation of Quantum Mechanics", "authors": "Diósi", "year": "1994"},
         {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
     ],
     "type2-superlattice-radar": [
