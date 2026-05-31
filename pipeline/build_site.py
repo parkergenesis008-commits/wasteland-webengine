@@ -578,7 +578,7 @@ def build_index_page(all_slugs):
     <meta name="keywords" content="Shepherd's Wasteland, hard sci-fi, topological metamaterials, Kagome lattice, Reality-as-Code, Miancheng Yu, Alien Dimensions, quantum gravity, torsion field">
     <meta name="author" content="{AUTHOR_NAME}">
     <!-- Google Search Console verification -->
-    <meta name="google-site-verification" content="fXF57dNEUDmt5KfSfsoHYX-02ide0GZcW9Ko_RmoanI">
+    <meta name="google-site-verification" content="Fv0VnknT4HV64X5p3phBFitifk5WKSvRFb9XcdQdtII" />
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
