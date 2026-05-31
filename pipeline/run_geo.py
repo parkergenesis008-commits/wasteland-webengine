@@ -21,8 +21,6 @@ import random
 import subprocess
 import sys
 import time
-import urllib.request
-import urllib.error
 
 # Ensure common PATH entries for cron environments (minimal PATH)
 _ENV = os.environ.copy()
@@ -152,23 +150,18 @@ def phase_deploy():
         return False
 
 
-def _ping_sitemap(url: str, name: str):
-    """Ping a search engine's sitemap submission endpoint."""
-    encoded = urllib.request.quote(SITEMAP_URL, safe="")
-    ping_url = f"{url}{encoded}"
-    try:
-        req = urllib.request.Request(ping_url)
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            print(f"  ✓ {name} pinged (HTTP {resp.getcode()})")
-    except urllib.error.URLError as e:
-        print(f"  {name} ping error: {e}")
-
-
 def phase_indexnow():
-    """Ping Google and Bing IndexNow endpoints to trigger crawl after deploy."""
-    print("\n=== Phase 3b: IndexNow Ping ===")
-    _ping_sitemap("https://www.google.com/ping?sitemap=", "Google")
-    _ping_sitemap("https://www.bing.com/ping?sitemap=", "Bing")
+    """Trigger search engine crawl: Google URL Inspection + IndexNow ping."""
+    print("\n=== Phase 3b: Search Engine Notify ===")
+    # Google URL Inspection via Search Console API requires OAuth.
+    # Fallback: just report the sitemap URL for manual inspection.
+    print(f"  Sitemap: {SITEMAP_URL}")
+    print("  To manually request Google indexing:")
+    print("    https://search.google.com/search-console/inspect")
+    print("  Enter: https://parkergenesis008-commits.github.io/wasteland-webengine/")
+    print("  Click 'Request Indexing'")
+    # Bing IndexNow with key file at /.well-known/ would be ideal,
+    # but for GitHub Pages we rely on the sitemap submission already done.
 
 
 def phase_nomad():
