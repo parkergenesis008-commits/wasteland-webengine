@@ -128,6 +128,7 @@ ARXIV_REFS = {
         {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
         {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
         {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
+        {"id": "2605.20443", "title": "Interpreting Bohm Quantum Potentials: Computing Quantum Waves Exactly from Classical Action", "authors": "Lohmiller & Slotine", "year": "2026"},
     ],
 }
 LORE_TITLES = {
