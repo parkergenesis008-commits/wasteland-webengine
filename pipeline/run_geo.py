@@ -5,6 +5,7 @@ Phases:
   1. Random content update (pick 1-2 lore pages, add timestamp freshness)
   2. Build site (generate all pages + sitemap + robots)
   3. Git commit & push to GitHub Pages
+  3b. IndexNow ping (Google + Bing) to trigger crawl
   4. Optional: Nomad traffic visit (safe: Amazon/Apple direct only)
   
 Usage:
@@ -20,6 +21,8 @@ import random
 import subprocess
 import sys
 import time
+import urllib.request
+import urllib.error
 
 # Ensure common PATH entries for cron environments (minimal PATH)
 _ENV = os.environ.copy()
@@ -36,6 +39,7 @@ PAGES_DIR = os.path.join(BASE_DIR, "pages")
 LOG_FILE = os.path.expanduser("~/.wasteland_geo_log.jsonl")
 BUILD_SCRIPT = os.path.join(BASE_DIR, "pipeline/build_site.py")
 NOMAD_SCRIPT = os.path.join(BASE_DIR, "pipeline/nomad_gui_agent.py")
+SITEMAP_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine/sitemap.xml"
 
 LORES = [
     "artificial-kondo-lattice", "floquet-temporal-matter",
@@ -148,6 +152,25 @@ def phase_deploy():
         return False
 
 
+def _ping_sitemap(url: str, name: str):
+    """Ping a search engine's sitemap submission endpoint."""
+    encoded = urllib.request.quote(SITEMAP_URL, safe="")
+    ping_url = f"{url}{encoded}"
+    try:
+        req = urllib.request.Request(ping_url)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            print(f"  ✓ {name} pinged (HTTP {resp.getcode()})")
+    except urllib.error.URLError as e:
+        print(f"  {name} ping error: {e}")
+
+
+def phase_indexnow():
+    """Ping Google and Bing IndexNow endpoints to trigger crawl after deploy."""
+    print("\n=== Phase 3b: IndexNow Ping ===")
+    _ping_sitemap("https://www.google.com/ping?sitemap=", "Google")
+    _ping_sitemap("https://www.bing.com/ping?sitemap=", "Bing")
+
+
 def phase_nomad():
     """Optionally run nomad traffic (20% probability per deploy)."""
     if random.random() > 0.20:
@@ -189,6 +212,8 @@ def main():
         sys.exit(1)
     if not phase_deploy():
         sys.exit(1)
+    
+    phase_indexnow()
     
     # Small delay before nomad
     time.sleep(random.uniform(5, 30))
