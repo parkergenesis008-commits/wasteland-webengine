@@ -21,6 +21,16 @@ import subprocess
 import sys
 import time
 
+# Ensure common PATH entries for cron environments (minimal PATH)
+_ENV = os.environ.copy()
+_PATH_ENTRIES = ["/usr/bin", "/bin", "/usr/local/bin", "/opt/homebrew/bin"]
+_EXISTING_PATH = _ENV.get("PATH", "")
+for _p in _PATH_ENTRIES:
+    if _p not in _EXISTING_PATH:
+        _EXISTING_PATH = f"{_p}:{_EXISTING_PATH}"
+_ENV["PATH"] = _EXISTING_PATH
+_GIT_CMD = "git"  # Will resolve after PATH fix
+
 BASE_DIR = os.path.expanduser("~/webengine")
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
 LOG_FILE = os.path.expanduser("~/.wasteland_geo_log.jsonl")
@@ -110,8 +120,8 @@ def phase_freshen_content():
 
 def phase_build():
     """Run the site builder."""
-    print("\n=== Phase 2: Site Build ===")
-    result = subprocess.run(["python3", BUILD_SCRIPT], capture_output=True, text=True)
+    print("\n=== Phase 2: Site Build ===\n")
+    result = subprocess.run([sys.executable, BUILD_SCRIPT], capture_output=True, text=True, env=_ENV)
     print(result.stdout)
     if result.returncode != 0:
         print(f"Build error: {result.stderr}")
@@ -125,12 +135,12 @@ def phase_deploy():
     ts = datetime.datetime.now().strftime('%Y-%m-%d-%H%M')
     
     try:
-        subprocess.run(["git", "add", "."], cwd=BASE_DIR, check=True)
+        subprocess.run([_GIT_CMD, "add", "."], cwd=BASE_DIR, check=True, env=_ENV)
         subprocess.run(
-            ["git", "commit", "-m", f"Auto-GEO-v2-{ts}"],
-            cwd=BASE_DIR, capture_output=True
+            [_GIT_CMD, "commit", "-m", f"Auto-GEO-v2-{ts}"],
+            cwd=BASE_DIR, capture_output=True, env=_ENV
         )
-        subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
+        subprocess.run([_GIT_CMD, "push", "origin", "main"], cwd=BASE_DIR, check=True, env=_ENV)
         print("  ✓ Deployed to GitHub Pages")
         return True
     except subprocess.CalledProcessError as e:
@@ -145,7 +155,7 @@ def phase_nomad():
         return
     
     print("\n=== Phase 4: Nomad Traffic ===")
-    result = subprocess.run(["python3", NOMAD_SCRIPT], capture_output=True, text=True)
+    result = subprocess.run([sys.executable, NOMAD_SCRIPT], capture_output=True, text=True, env=_ENV)
     print(result.stdout.strip())
     if result.returncode != 0:
         print(f"  Nomad error: {result.stderr}")

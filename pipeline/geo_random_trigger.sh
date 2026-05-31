@@ -25,6 +25,7 @@ fi
 
 # Run the pipeline
 cd "$HOME/webengine"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/michaelray/.local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 python3 "$PIPELINE"
 EXIT_CODE=$?
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /Users/michaelray/webengine
+export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/michaelray/.local/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 # 1. 演化物理数值
 python3 geo_engine/evolution_simulator.py
 # 2. 渲染新页面
