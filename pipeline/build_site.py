@@ -527,6 +527,16 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         <footer>
             <p>© 2026 __AUTHOR__. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
+            <div class="backlinks" style="margin-top:12px; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
+                <span style="color:#555; font-size:0.75em;">References: </span>
+                <a href="https://arxiv.org/abs/2103.17114" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Quantum Geometry (arXiv)</a>
+                <a href="https://arxiv.org/abs/1907.00379" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Kondo Lattice (arXiv)</a>
+                <a href="https://arxiv.org/abs/2003.06883" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Floquet Insulators (arXiv)</a>
+                <a href="https://arxiv.org/abs/cond-mat/0411737" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">QSHE Graphene (arXiv)</a>
+                <a href="https://arxiv.org/abs/1811.03116" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Postquantum Gravity (arXiv)</a>
+                <a href="https://www.nature.com/articles/s41467-021-22229-y" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Nature Comms (Topological)</a>
+                <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">GitHub Repository</a>
+            </div>
         </footer>
     </div>
 </body>
