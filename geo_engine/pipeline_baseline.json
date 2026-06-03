@@ -1,0 +1,19 @@
+{
+  "baseline_captured_at": "2026-06-03",
+  "arena_integration_score": 0.6309,
+  "arena_priority_label": "P1",
+  "curvature_conversion_score": 0.3552,
+  "delta_g_log10": -59.76,
+  "mode_a_gravity_deflection": 0.5376,
+  "mode_b_collision_override": 0.3132,
+  "mode_c_mass_nullification": 0.4005,
+  "mode_d_dimensional_bias": 0.2329,
+  "sandbox_exploit_score": 0.3257,
+  "sandbox_escape_label": "A",
+  "chan_a_engine_introspection": 0.2095,
+  "chan_b_state_corruption": 0.1631,
+  "chan_c_boundary_transgression": 0.3881,
+  "chan_d_hotpatch_injection": 0.3790,
+  "n_sync_nodes_log10": 6.01,
+  "lattice_area_cm2": 1.133
+}
