@@ -1,0 +1,42 @@
+{
+  "A1_\u5b9e\u9a8c\u5ba4\u5355\u6676_1cm2": {
+    "score": 0.0307,
+    "grade": "D",
+    "delta_g": "4.80e-146",
+    "D_ab": 0.5,
+    "J_s": 31207545372303.824,
+    "mode_effect": 0.0,
+    "bottleneck": "Metric perturbation \u03b4g",
+    "amplification": "1.00e+94"
+  },
+  "A2_\u5927\u5355\u6676_100cm2": {
+    "score": 0.0315,
+    "grade": "D",
+    "delta_g": "4.80e-138",
+    "D_ab": 1.0,
+    "J_s": 6.226723922403925e+16,
+    "mode_effect": 0.0,
+    "bottleneck": "Metric perturbation \u03b4g",
+    "amplification": "1.00e+94"
+  },
+  "A3_\u8d85\u5927\u89c4\u6a21_1e6cm2": {
+    "score": 0.0315,
+    "grade": "D",
+    "delta_g": "4.80e-122",
+    "D_ab": 1.0,
+    "J_s": 6.226723922403926e+17,
+    "mode_effect": 0.0,
+    "bottleneck": "Metric perturbation \u03b4g",
+    "amplification": "1.00e+94"
+  },
+  "A4_\u7406\u8bba\u6781\u9650_N1e18": {
+    "score": 0.0315,
+    "grade": "D",
+    "delta_g": "4.80e-98",
+    "D_ab": 1.0,
+    "J_s": 6.226723922403925e+18,
+    "mode_effect": 0.0,
+    "bottleneck": "Metric perturbation \u03b4g",
+    "amplification": "2.09e+91"
+  }
+}

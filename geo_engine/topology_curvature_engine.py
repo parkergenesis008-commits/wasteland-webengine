@@ -74,8 +74,8 @@ def analyze_lattice_type(lattice_description: str) -> Dict:
 
     desc = lattice_description.lower()
 
-    # Kagome家族
-    if "kagome" in desc:
+    # Kagome家族 (排除 "non-kagome" 误匹配)
+    if "kagome" in desc and "non-kagome" not in desc and "non kagome" not in desc:
         result["type"] = "kagome"
         result["chern_number_max"] = 2  # Chern number up to |C|=2 in Kagome
         result["flat_band_width_mev"] = 10.0  # 典型Kagome平带带宽~10meV
@@ -491,8 +491,15 @@ def full_assessment(
 ) -> Dict:
     """
     完整评估流程：晶格类型 → 贝利曲率 → 自旋流 → 挠率 → 度规 → 反引力模式。
-
     这是VAP物理论证后调用的主入口。
+
+    ⚠️ 必须使用关键字参数调用！位置参数顺序为:
+    (lattice_description, mode, N_coherent, B_field_T, E_field_Vm, area_cm2, title)
+    用位置传参时第5个float会变成area_cm2而不是E_field_Vm。
+
+    推荐用法:
+        full_assessment(lattice_description=..., mode=..., N_coherent=1e6,
+                       B_field_T=1.0, E_field_Vm=1e3, area_cm2=1.0, title=...)
     """
     lattice = analyze_lattice_type(lattice_description)
 
