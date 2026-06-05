@@ -1,0 +1,113 @@
+{
+  "arena_feasibility": {
+    "nmee": {
+      "title": "NMEE — Nonlinear Magnetoelectric Edelstein Effect (PRL 136, 226302)",
+      "integration_score": 0.6617,
+      "priority": {
+        "tier": "P1",
+        "reason": "建议整合 — 需桥接接口或代理模型"
+      },
+      "dimension_scores": {
+        "computability": 0.6666666666666666,
+        "parameterizability": 0.9,
+        "competitive_asymmetry": 0.0,
+        "topological_compatibility": 1.0,
+        "anti_gravity_potential": 0.6,
+        "empirical_anchoring": 1.0
+      },
+      "dimension_details": {
+        "computability": "中等可演算性：需简化或构建代理模型",
+        "parameterizability": "参数数量7，演化空间丰富",
+        "competitive_asymmetry": "低竞争不对称性：策略空间趋近于零和博弈",
+        "topological_compatibility": "高度兼容：直接与现有Kagome/EPR-Torsion架构咬合",
+        "anti_gravity_potential": "中等反引力潜力：间接影响，需耦合放大机制",
+        "empirical_anchoring": "强烈经验锚定：有直接实验或已发表论文支撑"
+      },
+      "suggested_fitness_function": "f(J_s, N, δg) → metric_perturbation / energy_budget",
+      "recommended_parameters": [
+        "E_field_V_per_m",
+        "B_field_T",
+        "spin_orbit_coupling_meV",
+        "magnetoelectric_tensor_au",
+        "temperature_K",
+        "carrier_density_cm3",
+        "spin_relaxation_time_ps"
+      ]
+    },
+    "crossed_surface_flat_bands": {
+      "title": "Crossed Surface Flat Bands — 3D SC Altermagnets (PRL 136, 226001)",
+      "integration_score": 0.5783,
+      "priority": {
+        "tier": "P1",
+        "reason": "建议整合 — 需桥接接口或代理模型"
+      },
+      "dimension_scores": {
+        "computability": 0.3333333333333333,
+        "parameterizability": 0.9,
+        "competitive_asymmetry": 0.4,
+        "topological_compatibility": 1.0,
+        "anti_gravity_potential": 0.0,
+        "empirical_anchoring": 0.8
+      },
+      "dimension_details": {
+        "computability": "低可演算性：需大幅抽象，可能丢失物理保真度",
+        "parameterizability": "参数数量7，演化空间丰富",
+        "competitive_asymmetry": "中等竞争不对称性：可能导致单调优化问题",
+        "topological_compatibility": "高度兼容：直接与现有Kagome/EPR-Torsion架构咬合",
+        "anti_gravity_potential": "低反引力潜力：与时空曲率无直接关联",
+        "empirical_anchoring": "强烈经验锚定：有直接实验或已发表论文支撑"
+      },
+      "suggested_fitness_function": "f(E_0, Γ_pin, T) → 1 / (E_deviation + Γ_leakage)",
+      "recommended_parameters": [
+        "altermagnetic_splitting_meV",
+        "superconducting_gap_meV",
+        "chemical_potential_meV",
+        "temperature_K",
+        "pairing_symmetry_index",
+        "surface_orientation_index",
+        "magnetic_anisotropy"
+      ]
+    }
+  },
+  "sandbox_exploit": {
+    "nmee": {
+      "title": "NMEE — Nonlinear Magnetoelectric Edelstein Effect (PRL 136, 226302)",
+      "sandbox_exploit_score": 0.1667,
+      "escape_level": {
+        "tier": "D",
+        "description": "论文关键词与沙盒架构层无显著重叠——完全在沙盒物理规则内运作"
+      },
+      "channel_scores": {
+        "A_engine_introspection": 0.08333333333333333,
+        "B_state_corruption": 0.08333333333333333,
+        "C_boundary_transgression": 0.3333333333333333,
+        "D_hotpatch_injection": 0.16666666666666666
+      },
+      "channel_details": {
+        "A_engine_introspection": {
+          "score": 0.08333333333333333,
+          "plausibility": "○ 弱引擎内省信号",
+          "analysis": "该机制与渲染引擎实现层无明显关联"
+        },
+        "B_state_corruption": {
+          "score": 0.08333333333333333,
+          "plausibility": "○ 弱状态污染信号",
+          "analysis": "该机制高度稳定，不产生状态泄漏"
+        },
+        "C_boundary_transgression": {
+          "score": 0.3333333333333333,
+          "plausibility": "○ 弱边界越界信号",
+          "analysis": "该机制在沙盒内部完全封闭——不提供跨层级通道"
+        },
+        "D_hotpatch_injection": {
+          "score": 0.16666666666666666,
+          "plausibility": "○ 弱热补丁注入信号",
+          "analysis": "该机制只能被动观察而不能主动修改沙盒参数"
+        }
+      },
+      "dominant_channel": "C: Boundary Transgression (边界越界)",
+      "recommended_path": "单通道突破: 单通道: 仅边界越界 — 提供通信通道但缺乏利用手段",
+      "sandbox_analogy": "沙盒 IPC / 跨实例通信 (Sandbox IPC Channel)"
+    }
+  }
+}
