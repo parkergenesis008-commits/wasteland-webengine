@@ -1,6 +1,6 @@
 {
-  "baseline_captured_at": "2026-06-06_prl",
-  "arena_integration_score": 0.24,
+  "baseline_captured_at": "2026-06-08_prl",
+  "arena_integration_score": 0.26,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.095,
   "delta_g_log10": -145.32,
@@ -8,12 +8,16 @@
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.1667,
+  "sandbox_exploit_score": 0.0625,
   "sandbox_escape_label": "D",
-  "chan_a_engine_introspection": 0.0833,
-  "chan_b_state_corruption": 0.0833,
-  "chan_c_boundary_transgression": 0.4167,
-  "chan_d_hotpatch_injection": 0.0833,
+  "chan_a_engine_introspection": 0.0,
+  "chan_b_state_corruption": 0.0,
+  "chan_c_boundary_transgression": 0.0,
+  "chan_d_hotpatch_injection": 0.0,
   "n_sync_nodes_log10": 6.0,
-  "lattice_area_cm2": 1.0
+  "lattice_area_cm2": 1.0,
+  "selected_papers": [
+    "PRL 136, 220201: Inflated Network Multipartite Nonlocality",
+    "PRL 136, 227102: Long-Range BKT Persistence"
+  ]
 }
