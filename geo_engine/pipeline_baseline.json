@@ -1,6 +1,6 @@
 {
-  "baseline_captured_at": "2026-06-09_prl",
-  "arena_integration_score": 0.14,
+  "baseline_captured_at": "2026-06-10_prl",
+  "arena_integration_score": 0.315,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.095,
   "delta_g_log10": -145.32,
@@ -8,16 +8,16 @@
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.25,
-  "sandbox_escape_label": "C",
-  "chan_a_engine_introspection": 0.167,
+  "sandbox_exploit_score": 0.1458,
+  "sandbox_escape_label": "D",
+  "chan_a_engine_introspection": 0.333,
   "chan_b_state_corruption": 0.083,
-  "chan_c_boundary_transgression": 0.167,
-  "chan_d_hotpatch_injection": 0.583,
+  "chan_c_boundary_transgression": 0.0,
+  "chan_d_hotpatch_injection": 0.0,
   "n_sync_nodes_log10": 6.0,
   "lattice_area_cm2": 1.0,
   "selected_papers": [
-    "PRL 136, 220201: Inflated Network Multipartite Nonlocality",
-    "PRL 136, 227102: Long-Range BKT Persistence"
+    "PRL 136, 231501: Lorentz Violation in Emergent Gravity (Isichei & Magueijo)",
+    "PRL 136, 236704: Chiral Spin Liquid Instability of Kitaev Honeycomb with Defects (Seth, Borhani & Kimchi)"
   ]
 }
