@@ -1,0 +1,39 @@
+{
+  "title": "Inflated Network Multipartite Nonlocality",
+  "sandbox_exploit_score": 0.25,
+  "escape_level": {
+    "tier": "C",
+    "description": "论文20%以上关键词指向沙盒架构层——微弱信号，仅暗示而非确认"
+  },
+  "channel_scores": {
+    "A_engine_introspection": 0.16666666666666666,
+    "B_state_corruption": 0.08333333333333333,
+    "C_boundary_transgression": 0.16666666666666666,
+    "D_hotpatch_injection": 0.5833333333333334
+  },
+  "channel_details": {
+    "A_engine_introspection": {
+      "score": 0.16666666666666666,
+      "plausibility": "○ 弱引擎内省信号",
+      "analysis": "该机制与渲染引擎实现层无明显关联"
+    },
+    "B_state_corruption": {
+      "score": 0.08333333333333333,
+      "plausibility": "○ 弱状态污染信号",
+      "analysis": "该机制高度稳定，不产生状态泄漏"
+    },
+    "C_boundary_transgression": {
+      "score": 0.16666666666666666,
+      "plausibility": "○ 弱边界越界信号",
+      "analysis": "该机制在沙盒内部完全封闭——不提供跨层级通道"
+    },
+    "D_hotpatch_injection": {
+      "score": 0.5833333333333334,
+      "plausibility": "⚡ 部分热补丁注入信号",
+      "analysis": "可调节部分运行时参数——但尚未达到直接代码修改的粒度"
+    }
+  },
+  "dominant_channel": "D: Hotpatch Injection (热补丁注入)",
+  "recommended_path": "推荐路径: Hotpatch → Introspection (先注射后观察)\n直接注入修改物理常数，观察沙盒的响应模式，从而推断引擎的架构。",
+  "sandbox_analogy": "渲染网格 / 空间离散化 (Rendering Grid Resolution)"
+}
