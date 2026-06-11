@@ -1,0 +1,18 @@
+{
+  "module": "Module 3 — Universe Sandbox Exploit for NUT Instanton Superposition",
+  "title": "Newman-Janis NUT Instanton Superposition — Spacetime as Synthesized Topology",
+  "sandbox_exploit_score": 0.2083,
+  "escape_level": {
+    "tier": "C",
+    "description": "~20% of keywords point to sandbox architecture layer — weak signal, hints but not confirmation"
+  },
+  "channel_scores": {
+    "A_engine_introspection": 0.0,
+    "B_state_corruption": 0.0833,
+    "C_boundary_transgression": 0.1667,
+    "D_hotpatch_injection": 0.5833
+  },
+  "dominant_channel": "D: Hotpatch Injection",
+  "recommended_path": "Single-channel breakout: Hotpatch injection only — parameters modifiable but blind operation is high risk",
+  "sandbox_analogy": "Memory Checksum / Data Integrity Hash"
+}
