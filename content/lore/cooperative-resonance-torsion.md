@@ -97,4 +97,4 @@ Switching between modes requires recalibrating the torsion oscillator's phase-lo
 ## 6. Conclusion: Defect as the Engine
 The hardest topological cage confines the most violent gravitational fluctuations. Systemic imperfections are the longest levers for prying apart the physical laws of the universe within the Reality-as-Code architecture.
 
-<!-- Last fresh: 2026-06-04 10:00 UTC -->
+<!-- Last fresh: 2026-06-12 10:00 UTC -->
