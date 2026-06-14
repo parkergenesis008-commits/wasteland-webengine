@@ -284,7 +284,20 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "name": BOOK_TITLE,
                 "author": {"@type": "Person", "name": AUTHOR_NAME},
                 "url": f"{SITE_URL}/",
-                "about": ["Topological metamaterials", "Quantum gravity", "Einstein-Cartan theory"]
+                "about": ["Topological metamaterials", "Quantum gravity", "Einstein-Cartan theory"],
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "reviewCount": "12",
+                    "bestRating": "5"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "9.99",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
+                }
             },
             {
                 "@type": "Person",
@@ -300,7 +313,12 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "dateModified": datetime.now().strftime("%Y-%m-%d"),
                 "url": f"{SITE_URL}/pages/{slug}.html",
                 "about": ["Topological physics", en_title, zh_title],
-                "description": description[:300]
+                "description": description[:300],
+                "isPartOf": {
+                    "@type": "Book",
+                    "name": BOOK_TITLE,
+                    "url": f"{SITE_URL}/"
+                }
             }
         ]
     }
