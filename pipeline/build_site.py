@@ -317,15 +317,22 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     
     body_html = md_to_html(md_body, slug)
     
-    # Extract best paragraph for description (skip short <p>s)
-    desc_matches = re.findall(r'<p>(.+?)</p>', body_html)
-    description = f"{en_title}: {zh_title}"
-    for p in desc_matches:
-        clean = re.sub(r'<[^>]+>', '', p).strip()
-        if len(clean) > 30:  # Skip short/title-like paragraphs
-            description = clean[:300]
-            break
-    description = description[:300]
+    # SEO-optimized meta descriptions per page
+    SEO_DESCRIPTIONS = {
+        "artificial-kondo-lattice": "Discover how Kondo lattice quantum simulation unlocks fault-tolerant qubits for next-gen computation in this hard sci-fi physics breakdown.",
+        "floquet-temporal-matter": "Explore Floquet time crystals and how periodic driving fields create programmable matter — reality engineering meets condensed matter physics.",
+        "semi-dirac-mass-nullification": "Can mass be canceled by topology? This article explores semi-Dirac fermion physics and the future of inertia reduction technology.",
+        "qm-tether-exosuit": "A quantum metric exosuit that modifies spacetime curvature — the cutting edge of general relativity engineering in hard sci-fi.",
+        "arena-tripartite-architecture": "How a computational arena bridges anyons, Majorana fermions, and topological qubits for reality-scale simulation architecture.",
+        "obstructed-atomic-phantom-grid": "Radar stealth meets topological insulators. Learn how obstructed atomic phases enable electromagnetic cloaking at the atomic level.",
+        "holographic-kpz-projection": "The KPZ equation meets holographic duality — simulating 3D reality from 2D boundary dynamics in this advanced physics concept.",
+        "kpz-reality-rendering": "KPZ universality in polariton condensates: how random interface growth equations could programmatically render physical reality.",
+        "type2-superlattice-radar": "Type-II superlattice infrared detection pushes beyond passive thermal sensing. The physics behind next-gen radar and imaging technology.",
+        "electromagnetic-theater-override": "Kagome lattice magnets and topological spin currents enable macroscopic electromagnetic field override — from theory to application.",
+        "cooperative-resonance-torsion": "Kagome torsion engine: superradiant mass repulsion via topological defect arrays. A practical path to Einstein-Cartan gravity manipulation.",
+        "warp-drive-torsion-propagation": "Alcubierre drive reimagined: positive-energy warp bubbles via Einstein-Cartan torsion coupling. The physics of realistic warp travel.",
+    }
+    description = SEO_DESCRIPTIONS.get(slug, f"{en_title}: {zh_title} — explore the hard sci-fi physics behind this Shepherd's Wasteland technology.")
 
     # Backlinks nav
     if is_index:
@@ -492,8 +499,19 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="__TITLE__">
     <meta name="twitter:description" content="__DESC__">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        'page_title': '__TITLE__',
+        'page_path': '__CANONICAL__'
+      });
+    </script>
     <!-- Favicon (inline SVG) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⧁</text></svg>">
     <link rel="canonical" href="__CANONICAL__">
     <script type="application/ld+json">__SCHEMA__</script>
     <style>__CSS__</style>
@@ -604,6 +622,17 @@ def build_index_page(all_slugs):
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
     <meta name="twitter:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials and the Reality-as-Code framework.">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {{
+        'page_title': "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",
+        'page_path': '{SITE_URL}/'
+      }});
+    </script>
     <!-- Favicon (inline SVG) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
     <link rel="canonical" href="{SITE_URL}/">
