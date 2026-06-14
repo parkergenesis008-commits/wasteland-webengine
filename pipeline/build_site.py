@@ -500,12 +500,12 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     <meta name="twitter:title" content="__TITLE__">
     <meta name="twitter:description" content="__DESC__">
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERCP39C12Y"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX', {
+      gtag('config', 'G-ERCP39C12Y', {
         'page_title': '__TITLE__',
         'page_path': '__CANONICAL__'
       });
@@ -623,12 +623,12 @@ def build_index_page(all_slugs):
     <meta name="twitter:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
     <meta name="twitter:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials and the Reality-as-Code framework.">
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERCP39C12Y"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){{dataLayer.push(arguments);}}
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX', {{
+      gtag('config', 'G-ERCP39C12Y', {{
         'page_title': "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",
         'page_path': '{SITE_URL}/'
       }});
