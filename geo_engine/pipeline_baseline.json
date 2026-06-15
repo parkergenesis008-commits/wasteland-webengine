@@ -1,5 +1,5 @@
 {
-  "baseline_captured_at": "2026-06-14_prl",
+  "baseline_captured_at": "2026-06-15_prl",
   "arena_integration_score": 0.155,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.095,
@@ -8,15 +8,16 @@
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.0417,
-  "sandbox_escape_label": "D",
-  "chan_a_engine_introspection": 0.0,
-  "chan_b_state_corruption": 0.0,
-  "chan_c_boundary_transgression": 0.0,
-  "chan_d_hotpatch_injection": 0.167,
+  "sandbox_exploit_score": 0.2292,
+  "sandbox_escape_label": "C",
+  "chan_a_engine_introspection": 0.083,
+  "chan_b_state_corruption": 0.167,
+  "chan_c_boundary_transgression": 0.083,
+  "chan_d_hotpatch_injection": 0.583,
   "n_sync_nodes_log10": 6.0,
   "lattice_area_cm2": 1.0,
   "selected_papers": [
-    "PRL 136, 231402: Primordial-Black-Hole-Based Pathways to Little Red Dots (De Luca, Del Grosso, Franciolini, Kritos, Berti, D'Orazio, Silk)"
+    "PRL 136, 231402: Primordial-Black-Hole-Based Pathways to Little Red Dots (De Luca, Del Grosso, Franciolini, Kritos, Berti, D'Orazio, Silk)",
+    "PRL 136, 230803: Efficient Implementation of a Single-Qutrit Gate Set via Coherent Control (Yu, Deng, Zheng, Xin, Zhang, Che, Zhou, Zhou, Ge, Zhang, Huang, Cai, Li, Zhao, Tan, Zhang, Li, Yu)"
   ]
 }
