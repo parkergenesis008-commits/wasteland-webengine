@@ -1,23 +1,23 @@
 {
-  "baseline_captured_at": "2026-06-18_prl",
-  "arena_integration_score": 0.2217,
+  "baseline_captured_at": "2026-06-19_prl",
+  "arena_integration_score": 0.2950,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.1099,
-  "delta_g_log10": -138,
+  "delta_g_log10": -145,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.1042,
+  "sandbox_exploit_score": 0.0833,
   "sandbox_escape_label": "D",
-  "chan_a_engine_introspection": 0.083,
-  "chan_b_state_corruption": 0.083,
-  "chan_c_boundary_transgression": 0.083,
-  "chan_d_hotpatch_injection": 0.0,
+  "chan_a_engine_introspection": 0.167,
+  "chan_b_state_corruption": 0.0,
+  "chan_c_boundary_transgression": 0.0,
+  "chan_d_hotpatch_injection": 0.167,
   "n_sync_nodes_log10": 10.0,
   "lattice_area_cm2": 1.0,
   "selected_papers": [
-    "PRL 136, 240801: Memory-Assisted Nonlocal Interferometer toward Long-Baseline Telescopes (Wang, Luo, Gao et al.)",
-    "PRL 136, 242302: Evidence of Spin-Interference Effects in Exclusive J/psi→e+e- Photoproduction in Ultraperipheral Heavy-Ion Collisions (STAR Collaboration)"
+    "PRL 136, 241001: Quantum Semiconductor Heterostructures for meV Axion Dark Matter Detection (Mehrani, Xu, Baydin et al.)",
+    "PRL 136, 241803: Standard Model Baryon Number Violation at Zero Temperature from Higgs Bubble Collisions (Bhusal, Blasi, Cataldi et al.)"
   ]
 }
