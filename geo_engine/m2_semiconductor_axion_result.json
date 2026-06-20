@@ -1,0 +1,22 @@
+{
+  "title": "Quantum Semiconductor Axion Detector Heterostructure",
+  "curvature_conversion_score": 0.1099,
+  "grade": {
+    "tier": "D",
+    "description": "\u4e0d\u53ef\u884c \u2014 \u03b4g\u8ddd\u5de5\u7a0b\u9608\u503c10\u207b\u2076\u5dee>50\u4e2a\u91cf\u7ea7"
+  },
+  "delta_g": 4.8e-146,
+  "delta_g_log10": -145.3187587626244,
+  "torsion_magnitude": 1.09e-69,
+  "J_s_A_per_m2": 1245344784480785.2,
+  "D_ab_angstrom": 19.95,
+  "bottleneck": {
+    "name": "Metric perturbation \u03b4g",
+    "amplification_factor": "1.00e+94",
+    "suggestion": "N\u00b2\u8d85\u8f90\u5c04\u653e\u5927 1.0e+94\u00d7\uff0c\u7b49\u4ef7\u4e8e\u6676\u683c\u9762\u79ef\u653e\u59271.0e+47\u00d7"
+  },
+  "optimal_N_sync": 1e+53,
+  "lattice_type": "kagome",
+  "lattice_symmetry": "P6/mmm",
+  "chern_max": 2
+}
