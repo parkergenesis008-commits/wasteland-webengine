@@ -1,9 +1,9 @@
 {
-  "baseline_captured_at": "2026-06-23_prl",
-  "arena_integration_score": 0.1600,
+  "baseline_captured_at": "2026-06-24_prl",
+  "arena_integration_score": 0.2217,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.0307,
-  "delta_g_log10": -146,
+  "delta_g_log10": -170,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
@@ -17,7 +17,7 @@
   "n_sync_nodes_log10": 10.0,
   "lattice_area_cm2": 0.01,
   "selected_papers": [
-    "PRL 136, 240602: Nonstabilizerness and Error Resilience in Noisy Quantum Circuits (Ballar Trigueros, Marín Guzmán)",
-    "PRL 136, 251601: Strings from Almost Nothing (Cheung, Remmen, Sciotti, Tarquini)"
+    "PRL 136, 250801: Squeezing-Enhanced Sensing at an Exceptional Point (Wang, Hu, Zorzetti, Grassellino, Romanenko, Zhang)",
+    "PRL 136, 250802: Clifford Hierarchy Stabilizer Codes: Transversal Non-Clifford Gates and Magic States (Kobayashi, Zhu, Hsin)"
   ]
 }
