@@ -1,8 +1,8 @@
 {
-  "baseline_captured_at": "2026-06-24_prl",
-  "arena_integration_score": 0.2217,
+  "baseline_captured_at": "2026-06-25_prl",
+  "arena_integration_score": 0.1800,
   "arena_priority_label": "P3",
-  "curvature_conversion_score": 0.0307,
+  "curvature_conversion_score": 0.0950,
   "delta_g_log10": -170,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
@@ -14,10 +14,10 @@
   "chan_b_state_corruption": 0.0833,
   "chan_c_boundary_transgression": 0.0833,
   "chan_d_hotpatch_injection": 0.0833,
-  "n_sync_nodes_log10": 10.0,
-  "lattice_area_cm2": 0.01,
+  "n_sync_nodes_log10": 1.0,
+  "lattice_area_cm2": 1e-10,
   "selected_papers": [
-    "PRL 136, 250801: Squeezing-Enhanced Sensing at an Exceptional Point (Wang, Hu, Zorzetti, Grassellino, Romanenko, Zhang)",
-    "PRL 136, 250802: Clifford Hierarchy Stabilizer Codes: Transversal Non-Clifford Gates and Magic States (Kobayashi, Zhu, Hsin)"
+    "PRL 136, 251405: Thermodynamics of Black Holes, Far from Equilibrium (Ashtekar, Paraizo, Shu)",
+    "PRL 136, 251602: Nonperturbative S-Matrix Renormalization (Freidel, Padua-Argüelles, Schander, Schiffer)"
   ]
 }

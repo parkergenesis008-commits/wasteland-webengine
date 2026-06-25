@@ -1,0 +1,39 @@
+{
+  "title": "nonperturbative-s-matrix-renormalization",
+  "sandbox_exploit_score": 0.0625,
+  "escape_level": {
+    "tier": "D",
+    "description": "\u8bba\u6587\u5173\u952e\u8bcd\u4e0e\u6c99\u76d2\u67b6\u6784\u5c42\u65e0\u663e\u8457\u91cd\u53e0\u2014\u2014\u5b8c\u5168\u5728\u6c99\u76d2\u7269\u7406\u89c4\u5219\u5185\u8fd0\u4f5c"
+  },
+  "channel_scores": {
+    "A_engine_introspection": 0.16666666666666666,
+    "B_state_corruption": 0.08333333333333333,
+    "C_boundary_transgression": 0.0,
+    "D_hotpatch_injection": 0.0
+  },
+  "channel_details": {
+    "A_engine_introspection": {
+      "score": 0.16666666666666666,
+      "plausibility": "\u25cb \u5f31\u5f15\u64ce\u5185\u7701\u4fe1\u53f7",
+      "analysis": "\u8be5\u673a\u5236\u4e0e\u6e32\u67d3\u5f15\u64ce\u5b9e\u73b0\u5c42\u65e0\u660e\u663e\u5173\u8054"
+    },
+    "B_state_corruption": {
+      "score": 0.08333333333333333,
+      "plausibility": "\u25cb \u5f31\u72b6\u6001\u6c61\u67d3\u4fe1\u53f7",
+      "analysis": "\u8be5\u673a\u5236\u9ad8\u5ea6\u7a33\u5b9a\uff0c\u4e0d\u4ea7\u751f\u72b6\u6001\u6cc4\u6f0f"
+    },
+    "C_boundary_transgression": {
+      "score": 0.0,
+      "plausibility": "\u25cb \u5f31\u8fb9\u754c\u8d8a\u754c\u4fe1\u53f7",
+      "analysis": "\u8be5\u673a\u5236\u5728\u6c99\u76d2\u5185\u90e8\u5b8c\u5168\u5c01\u95ed\u2014\u2014\u4e0d\u63d0\u4f9b\u8de8\u5c42\u7ea7\u901a\u9053"
+    },
+    "D_hotpatch_injection": {
+      "score": 0.0,
+      "plausibility": "\u25cb \u5f31\u70ed\u8865\u4e01\u6ce8\u5165\u4fe1\u53f7",
+      "analysis": "\u8be5\u673a\u5236\u53ea\u80fd\u88ab\u52a8\u89c2\u5bdf\u800c\u4e0d\u80fd\u4e3b\u52a8\u4fee\u6539\u6c99\u76d2\u53c2\u6570"
+    }
+  },
+  "dominant_channel": "A: Engine Introspection (\u5f15\u64ce\u5185\u7701)",
+  "recommended_path": "\u5355\u901a\u9053\u7a81\u7834: \u5355\u901a\u9053: \u4ec5\u5f15\u64ce\u5185\u7701 \u2014 \u53ea\u80fd\u89c2\u5bdf\u65e0\u6cd5\u4fee\u6539\uff0c\u4f46\u53ef\u4ee5\u63d0\u4f9b\u8d8a\u72f1\u6240\u9700\u7684\u4fe1\u606f",
+  "sandbox_analogy": "\u65e0\u660e\u786e\u6c99\u76d2\u7c7b\u6bd4"
+}
