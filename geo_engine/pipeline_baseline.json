@@ -1,9 +1,9 @@
 {
-  "baseline_captured_at": "2026-06-25_prl",
-  "arena_integration_score": 0.1800,
+  "baseline_captured_at": "2026-06-27_prl",
+  "arena_integration_score": 0.2833,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.0950,
-  "delta_g_log10": -170,
+  "delta_g_log10": -146,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
@@ -11,13 +11,13 @@
   "sandbox_exploit_score": 0.0833,
   "sandbox_escape_label": "D",
   "chan_a_engine_introspection": 0.0833,
-  "chan_b_state_corruption": 0.0833,
-  "chan_c_boundary_transgression": 0.0833,
+  "chan_b_state_corruption": 0.0,
+  "chan_c_boundary_transgression": 0.1667,
   "chan_d_hotpatch_injection": 0.0833,
   "n_sync_nodes_log10": 1.0,
   "lattice_area_cm2": 1e-10,
   "selected_papers": [
-    "PRL 136, 251405: Thermodynamics of Black Holes, Far from Equilibrium (Ashtekar, Paraizo, Shu)",
-    "PRL 136, 251602: Nonperturbative S-Matrix Renormalization (Freidel, Padua-Argüelles, Schander, Schiffer)"
+    "PRL 136, 256708: Curvature-Induced Magnon Frequency Combs (Zhao, Zheng, Yan)",
+    "PRL 136, 256709: Antiferroaxial Altermagnetism (Liu, Liu)"
   ]
 }
