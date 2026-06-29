@@ -1,0 +1,51 @@
+{
+  "title": "PT-Symmetric Time Crystal (Spin Ensemble)",
+  "lattice_analysis": {
+    "type": "unknown",
+    "dimension": 2,
+    "chern_number_max": 0,
+    "flat_band_width_mev": 0,
+    "symmetry_group": null,
+    "has_strong_soc": false,
+    "has_frustration": false,
+    "node_density_cm2": 0,
+    "description": ""
+  },
+  "curvature_conversion_score": 0.0307,
+  "grade": {
+    "tier": "D",
+    "description": "不可行 — δg距工程阈值10⁻⁶差>50个量级"
+  },
+  "layer_results": {
+    "layer1_berry_curvature": {
+      "D_ab_angstrom": 0.5,
+      "reasoning": "常规晶格D_ab较小 ~0.5Å"
+    },
+    "layer2_spin_current": {
+      "J_s_A_per_m2": 31207545372303.824,
+      "reasoning": "σ_SH ≈ 1.00e-02 S/m (Kagome晶格基准); L_char ≈ 1.00e-04 m (特征路径长度); J_s ≈ 3.12e+13 A/m² (3.12e+17 μA/cm²); 自旋累积 ~5.92e+38 spins/m³"
+    },
+    "layer3_torsion_and_metric": {
+      "torsion_magnitude_m_inv": "1.09e-69",
+      "delta_g_metric_perturbation": "4.80e-146",
+      "reasoning": "节点密度 ~1.00e+10 nodes/m²; 自旋极化密度 ~5.27e-27 J·s/m³; 挠率场 |T| ≈ 1.09e-69 m⁻¹; 理论度规扰动 δg ≈ 4.80e-146; 工程目标 δg_target = 1e-06; 当前偏离工程目标 1.0e+94×，需N²超辐射放大至N_critical ≈ 1.00e+53; 等价于晶格面积 3.16e+23 cm²"
+    }
+  },
+  "mode_evaluation": {
+    "requested_mode": "gravity_deflection",
+    "mode_effect": 0.0,
+    "all_modes": {
+      "gravity_deflection": 0.0,
+      "collision_override": 0.0,
+      "mass_nullification": 0.0,
+      "dimensional_bias": 0.0
+    },
+    "reasoning": "Mode A: Gravity Deflection; δg/δg_threshold = 4.80e-140; N²放大因子 = 1.00e+00; 模式效率 = 1.00; ❌ 暂不可行：需10×以上的晶格面积或新材料体系"
+  },
+  "bottleneck": {
+    "name": "Metric perturbation δg",
+    "amplification_factor": "1.00e+94",
+    "suggestion": "N²超辐射放大 1.0e+94×，等价于晶格面积放大1.0e+47×"
+  },
+  "optimal_N_sync": 1e+53
+}

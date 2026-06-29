@@ -1,23 +1,23 @@
 {
-  "baseline_captured_at": "2026-06-27_prl",
-  "arena_integration_score": 0.2833,
+  "baseline_captured_at": "2026-06-29_prl",
+  "arena_integration_score": 0.1217,
   "arena_priority_label": "P3",
-  "curvature_conversion_score": 0.0950,
-  "delta_g_log10": -146,
+  "curvature_conversion_score": 0.095,
+  "delta_g_log10": -170,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.0833,
+  "sandbox_exploit_score": 0.125,
   "sandbox_escape_label": "D",
-  "chan_a_engine_introspection": 0.0833,
+  "chan_a_engine_introspection": 0.25,
   "chan_b_state_corruption": 0.0,
   "chan_c_boundary_transgression": 0.1667,
-  "chan_d_hotpatch_injection": 0.0833,
-  "n_sync_nodes_log10": 1.0,
+  "chan_d_hotpatch_injection": 0.25,
+  "n_sync_nodes_log10": 0.0,
   "lattice_area_cm2": 1e-10,
   "selected_papers": [
-    "PRL 136, 256708: Curvature-Induced Magnon Frequency Combs (Zhao, Zheng, Yan)",
-    "PRL 136, 256709: Antiferroaxial Altermagnetism (Liu, Liu)"
+    "PRL 136, 250405: Crystalline Spectral Form Factors (Trunin, Huse)",
+    "PRL 136, 251002: Transient Large-Scale Anisotropy in TeV Cosmic Rays (LHAASO)"
   ]
 }

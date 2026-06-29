@@ -1,0 +1,41 @@
+{
+  "title": "Continuous Time Crystals as a PT Symmetric State (PRL 136, 250404)",
+  "sandbox_exploit_score": 0.3333,
+  "escape_level": {
+    "tier": "C",
+    "description": "论文20%以上关键词指向沙盒架构层——微弱信号，仅暗示而非确认"
+  },
+  "channel_scores": {
+    "A_engine_introspection": 0.5,
+    "B_state_corruption": 0.25,
+    "C_boundary_transgression": 0.16666666666666666,
+    "D_hotpatch_injection": 0.4166666666666667
+  },
+  "channel_details": {
+    "A_engine_introspection": {
+      "score": 0.5,
+      "plausibility": "⚡ 部分引擎内省信号",
+      "analysis": "该机制与渲染实现层有间接关联——需进一步实验确认最小单元"
+    },
+    "B_state_corruption": {
+      "score": 0.25,
+      "plausibility": "○ 弱状态污染信号",
+      "analysis": "该机制高度稳定，不产生状态泄漏"
+    },
+    "C_boundary_transgression": {
+      "score": 0.16666666666666666,
+      "plausibility": "○ 弱边界越界信号",
+      "analysis": "该机制在沙盒内部完全封闭——不提供跨层级通道"
+    },
+    "D_hotpatch_injection": {
+      "score": 0.4166666666666667,
+      "plausibility": "⚡ 部分热补丁注入信号",
+      "analysis": "可调节部分运行时参数——但尚未达到直接代码修改的粒度"
+    }
+  },
+  "dominant_channel": "A: Engine Introspection (引擎内省)",
+  "recommended_path": "推荐路径: Introspection → Hotpatch (间接越狱)\n先通过引擎内省理解沙盒的数据结构和渲染管线，再使用热补丁注入修改底层代码。这是最可控的突破路径。",
+  "sandbox_analogy": "模拟时钟周期 / 引擎心跳 (Simulation Clock Tick)",
+  "paper_id": 2,
+  "assessment_type": "M3_Universe_Sandbox_Exploit"
+}
