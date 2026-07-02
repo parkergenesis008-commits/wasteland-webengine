@@ -1,0 +1,57 @@
+{
+  "assessment_title": "Dissipation-Enhanced Topological Valley Transport Phononic",
+  "paper_ref": "PRL 137, 016301",
+  "module": "M2 Topology → Curvature Engine",
+  "lattice_description": "2D hexagonal phononic crystal with engineered dissipation channels; PT-symmetric imaginary on-site potentials creating valley-polarized topological transport; hexagonal symmetry with broken parity-time symmetry via controlled material absorption and leakage",
+  "parameters": {
+    "mode": "gravity_deflection",
+    "N_coherent": 1e6,
+    "B_field_T": 1.0,
+    "E_field_Vm": 1e3,
+    "area_cm2": 1.0
+  },
+  "results": {
+    "lattice_analysis": {
+      "type": "unknown",
+      "dimension": 2,
+      "chern_number_max": 0,
+      "flat_band_width_mev": 0,
+      "symmetry_group": null,
+      "node_density_cm2": 0
+    },
+    "layer1_berry_curvature": {
+      "D_ab_angstrom": 0.5,
+      "reasoning": "Conventional lattice D_ab ~0.5Å (no specific phononic crystal branch in analyzer)"
+    },
+    "layer2_spin_current": {
+      "J_s_A_per_m2": 3.1207545372303824e+13,
+      "reasoning": "σ_SH ≈ 1.00e-02 S/m (Kagome baseline); L_char ≈ 1.00e-04 m; J_s ≈ 3.12e+13 A/m² (3.12e+17 μA/cm²); spin accumulation ~5.92e+38 spins/m³"
+    },
+    "layer3_torsion_and_metric": {
+      "torsion_magnitude_m_inv": "1.09e-69",
+      "delta_g_metric_perturbation": "4.80e-146",
+      "reasoning": "Node density ~1.00e+10 nodes/m²; spin polarization density ~5.27e-27 J·s/m³; torsion field |T| ≈ 1.09e-69 m⁻¹; theoretical δg ≈ 4.80e-146; target δg = 1e-06; gap 1.0e+94×; requires N² superradiance to N_critical ≈ 1.00e+53; equivalent area 3.16e+23 cm²"
+    },
+    "mode_evaluation": {
+      "requested_mode": "gravity_deflection",
+      "mode_effect": 0.0,
+      "all_modes": {
+        "gravity_deflection": 0.0,
+        "collision_override": 0.0,
+        "mass_nullification": 0.0,
+        "dimensional_bias": 0.0
+      }
+    },
+    "curvature_conversion_score": 0.0307,
+    "grade": {
+      "tier": "D",
+      "description": "Infeasible — δg distance from engineering threshold 10⁻⁶ exceeds 50 orders of magnitude"
+    },
+    "bottleneck": {
+      "name": "Metric perturbation δg",
+      "amplification_factor": "1.00e+94",
+      "suggestion": "N² superradiance amplification 1.0e+94×, equivalent to lattice area amplification 1.0e+47×"
+    },
+    "optimal_N_sync": 1e+53
+  }
+}

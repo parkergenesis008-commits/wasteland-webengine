@@ -1,0 +1,39 @@
+{
+  "title": "Dual-FEL Isomer Control in Superfluid He Nanodroplets — PRL 137, 013001",
+  "sandbox_exploit_score": 0.0833,
+  "escape_level": {
+    "tier": "D",
+    "description": "论文关键词与沙盒架构层无显著重叠——完全在沙盒物理规则内运作"
+  },
+  "channel_scores": {
+    "A_engine_introspection": 0.0,
+    "B_state_corruption": 0.0,
+    "C_boundary_transgression": 0.0,
+    "D_hotpatch_injection": 0.3333333333333333
+  },
+  "channel_details": {
+    "A_engine_introspection": {
+      "score": 0.0,
+      "plausibility": "○ 弱引擎内省信号",
+      "analysis": "该机制与渲染引擎实现层无明显关联"
+    },
+    "B_state_corruption": {
+      "score": 0.0,
+      "plausibility": "○ 弱状态污染信号",
+      "analysis": "该机制高度稳定，不产生状态泄漏"
+    },
+    "C_boundary_transgression": {
+      "score": 0.0,
+      "plausibility": "○ 弱边界越界信号",
+      "analysis": "该机制在沙盒内部完全封闭——不提供跨层级通道"
+    },
+    "D_hotpatch_injection": {
+      "score": 0.3333333333333333,
+      "plausibility": "○ 弱热补丁注入信号",
+      "analysis": "该机制只能被动观察而不能主动修改沙盒参数"
+    }
+  },
+  "dominant_channel": "D: Hotpatch Injection (热补丁注入)",
+  "recommended_path": "推荐路径: Hotpatch → Introspection (先注射后观察)\n直接注入修改物理常数，观察沙盒的响应模式，从而推断引擎的架构。",
+  "sandbox_analogy": "无明确沙盒类比"
+}
