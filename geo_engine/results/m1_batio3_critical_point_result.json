@@ -1,0 +1,32 @@
+{
+  "title": "BaTiO3 Critical Point Structural Disorder Amplification",
+  "integration_score": 0.385,
+  "priority": {
+    "tier": "P2",
+    "reason": "\u89c2\u5bdf\u5019\u9009 \u2014 \u7b49\u5b9e\u9a8c\u8bc1\u636e\u6216\u7406\u8bba\u7a81\u7834\u518d\u6574\u5408"
+  },
+  "dimension_scores": {
+    "computability": 0.5,
+    "parameterizability": 0.8,
+    "competitive_asymmetry": 0.2,
+    "topological_compatibility": 0.4,
+    "anti_gravity_potential": 0.0,
+    "empirical_anchoring": 0.2
+  },
+  "dimension_details": {
+    "computability": "\u4e2d\u7b49\u53ef\u6f14\u7b97\u6027\uff1a\u9700\u7b80\u5316\u6216\u6784\u5efa\u4ee3\u7406\u6a21\u578b",
+    "parameterizability": "\u53c2\u6570\u6570\u91cf5\uff0c\u6f14\u5316\u7a7a\u95f4\u7406\u60f3",
+    "competitive_asymmetry": "\u4f4e\u7ade\u4e89\u4e0d\u5bf9\u79f0\u6027\uff1a\u7b56\u7565\u7a7a\u95f4\u8d8b\u8fd1\u4e8e\u96f6\u548c\u535a\u5f08",
+    "topological_compatibility": "\u90e8\u5206\u517c\u5bb9\uff1a\u9700\u63a5\u53e3\u8f6c\u6362\u6216\u6865\u63a5\u673a\u5236",
+    "anti_gravity_potential": "\u4f4e\u53cd\u5f15\u529b\u6f5c\u529b\uff1a\u4e0e\u65f6\u7a7a\u66f2\u7387\u65e0\u76f4\u63a5\u5173\u8054",
+    "empirical_anchoring": "\u5f31\u7ecf\u9a8c\u951a\u5b9a\uff1a\u7eaf\u7406\u8bba\u63a8\u6d4b\u6216\u8de8\u9886\u57df\u8fc1\u79fb"
+  },
+  "suggested_fitness_function": "f(Tc, alpha, beta, zeta, applied_field_Vm) \u2192 composite_fitness / energy_cost",
+  "recommended_parameters": [
+    "Tc",
+    "alpha",
+    "beta",
+    "zeta",
+    "applied_field_Vm"
+  ]
+}

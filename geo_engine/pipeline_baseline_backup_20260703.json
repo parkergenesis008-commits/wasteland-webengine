@@ -1,0 +1,24 @@
+{
+  "baseline_captured_at": "2026-07-02",
+  "arena_integration_score": 0.1600,
+  "arena_priority_label": "P3",
+  "curvature_conversion_score": 0.0307,
+  "delta_g_log10": -146,
+  "mode_a_gravity_deflection": 0.0,
+  "mode_b_collision_override": 0.0,
+  "mode_c_mass_nullification": 0.0,
+  "mode_d_dimensional_bias": 0.0,
+  "sandbox_exploit_score": 0.0625,
+  "sandbox_escape_label": "D",
+  "chan_a_engine_introspection": 0.0833,
+  "chan_b_state_corruption": 0.0,
+  "chan_c_boundary_transgression": 0.0,
+  "chan_d_hotpatch_injection": 0.1667,
+  "n_sync_nodes_log10": 6.0,
+  "lattice_area_cm2": 1.0,
+  "selected_papers": [
+    "PRL 137, 013401: Microscopic Rydberg Electron Orbit Manipulation with Optical Tweezers (Rivera-Rodríguez, Eiles, Pfau, Meinert)",
+    "PRL 137, 013001: Controlling Isomer Population Using a Dual-Oscillator Infrared Free-Electron Laser (Torres-Boy, Ghosh, Osenton, Behera, et al.)"
+  ],
+  "topology_curvature_score": 0.0307
+}
