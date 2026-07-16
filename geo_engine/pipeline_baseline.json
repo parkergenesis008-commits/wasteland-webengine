@@ -1,24 +1,24 @@
 {
-  "baseline_captured_at": "2026-07-14",
-  "arena_integration_score": 0.175,
+  "baseline_captured_at": "2026-07-15",
+  "arena_integration_score": 0.2,
   "arena_priority_label": "P3",
   "curvature_conversion_score": 0.0307,
-  "delta_g_log10": -170,
+  "delta_g_log10": -146,
   "mode_a_gravity_deflection": 0.0,
   "mode_b_collision_override": 0.0,
   "mode_c_mass_nullification": 0.0,
   "mode_d_dimensional_bias": 0.0,
-  "sandbox_exploit_score": 0.0417,
+  "sandbox_exploit_score": 0.0833,
   "sandbox_escape_label": "D",
   "chan_a_engine_introspection": 0.0833,
-  "chan_b_state_corruption": 0.0,
-  "chan_c_boundary_transgression": 0.0,
+  "chan_b_state_corruption": 0.0833,
+  "chan_c_boundary_transgression": 0.0833,
   "chan_d_hotpatch_injection": 0.0833,
   "n_sync_nodes_log10": 4.0,
-  "lattice_area_cm2": 1e-10,
+  "lattice_area_cm2": 1.0,
   "selected_papers": [
-    "PRL 137, 030402: Planckian Bound on Quantum Dynamical Entropy (Cao)",
-    "PRL 137, 030801: Volume-Law Protection of Metrological Advantage (Wysocki, Chwedeńczuk, Płodzień)"
+    "PRL 137, 033601: Truncated Photon (Rukan, Gulla, Skaar)",
+    "PRL 137, 033801: Optical Soliton Cooper Pairs in Mamyshev Oscillators (Hao, Xian, Chang, Du, Zhan)"
   ],
   "topology_curvature_score": 0.0307
 }
