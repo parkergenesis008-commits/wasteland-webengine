@@ -1,0 +1,32 @@
+{
+  "title": "Hidden Chiral Ferroelectricity AgNbO3",
+  "integration_score": 0.2833,
+  "priority": {
+    "tier": "P3",
+    "reason": "暂不整合 — 贡献度或兼容性不足"
+  },
+  "dimension_scores": {
+    "computability": 0.3333,
+    "parameterizability": 0.8,
+    "competitive_asymmetry": 0.0,
+    "topological_compatibility": 0.2,
+    "anti_gravity_potential": 0.0,
+    "empirical_anchoring": 0.4
+  },
+  "dimension_details": {
+    "computability": "低可演算性：需大幅抽象，可能丢失物理保真度",
+    "parameterizability": "参数数量5，演化空间理想",
+    "competitive_asymmetry": "低竞争不对称性：策略空间趋近于零和博弈",
+    "topological_compatibility": "低兼容性：需新建架构层，成本高",
+    "anti_gravity_potential": "低反引力潜力：与时空曲率无直接关联",
+    "empirical_anchoring": "部分经验锚定：理论框架内存在，但缺乏直接实验证据"
+  },
+  "suggested_fitness_function": "f(θ, κ, N_sync) → chirality_gradient / entropy_cost",
+  "recommended_parameters": [
+    "tilt_angle_deg",
+    "Nb_offset_Angstrom",
+    "domain_wall_energy_mJm2",
+    "switching_field_MVm",
+    "chiral_order_param"
+  ]
+}
