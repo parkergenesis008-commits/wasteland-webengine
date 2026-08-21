@@ -1,13 +1,13 @@
 ---
-title: "黑洞远平衡态热力学 — 动态视界作为沙盒热力学接口"
+title: "Black Hole Far-from-Equilibrium Thermodynamics — Dynamical Horizons as Sandbox Thermodynamic Interfaces"
 date: "2026-06-25"
 tags: [thermodynamics, black-hole, dynamical-horizon, non-equilibrium, sandbox-boundary]
 arxiv_ref: "PRL 136, 251405 (Ashtekar, Paraizo, Shu)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 想象一个巨大的锅炉，你以为它只能在稳定状态下燃烧。Ashtekar 团队发现：就算锅炉在爆炸、在拆解、在疯狂摇晃——热力学定律依然成立。这不是锅炉的稳定态热力学，而是锅炉的"燃烧中的热力学"。黑洞就像这个锅炉——即使在合并、在吞噬星体、在被撕裂——它的"温度"、"熵"、"能量"都有实时定义。这等于说：宇宙中任何动态边界，都自带一套运行时热力学状态变量。
+> Imagine a massive boiler that you think can only burn in a steady state. The Ashtekar team discovered: even if the boiler is exploding, breaking apart, or shaking violently — the laws of thermodynamics still hold. This is not the boiler's steady-state thermodynamics, but the boiler's "thermodynamics during combustion." A black hole is like this boiler — even when merging, devouring stars, or being torn apart — its "temperature," "entropy," and "energy" all have real-time definitions. This means: any dynamic boundary in the universe comes with its own set of runtime thermodynamic state variables.
 
 ## Phenomenon
 
@@ -31,11 +31,12 @@ holds on *dynamical* horizons, using expansion scalars $\theta_{(l)}$ and $\thet
 
 | Module | Score | Tier | Note |
 |--------|-------|------|------|
-| **M1 Arena Feasibility** | **0.1800** | P3 | 可参数化性高(0.80)，但可计算性(0.00)和竞争不对称性(0.00)为零——适合概念化但暂不编码 |
-| **M2 曲率转化** | **0.0950** | D | δg ≈ 10⁻¹⁷⁰，距工程阈值 >50 量级。引擎误分类为 Kagome（非晶格系统限制） |
-| **M3 沙盒突破** | **0.0833** | D | 主导通道: Boundary Transgression(0.167)。完全在沙盒规则内运行 |
+| **M1 Arena Feasibility** | **0.1800** | P3 | High parameterizability (0.80), but computability (0.00) and competitive asymmetry (0.00) are zero — suitable for conceptualization but not yet for coding |
+| **M2 Curvature Conversion** | **0.0950** | D | δg ≈ 10⁻¹⁷⁰, more than 50 orders of magnitude from engineering threshold. Engine misclassified as Kagome (non-lattice system limitation) |
+| **M3 Sandbox Breakthrough** | **0.0833** | D | Dominant channel: Boundary Transgression (0.167). Operates entirely within sandbox rules |
 
 ## Cross-References
 
 - *Cooperative Resonance and Torsion Compression*, §3 (horizon thermodynamics as boundary condition)
 - *Desitter Edge Mode Memory Buffer*, §2 (dynamic horizon as memory interface)
+---

@@ -1,5 +1,5 @@
 ---
-title: "希格斯气泡碰撞与重子数违反 — 零温相变沙盒越狱"
+title: "Higgs Bubble Collisions and Baryon Number Violation — Zero-Temperature Phase Transition Sandbox Jailbreak"
 date: "2026-06-20"
 tags:
   - higgs-bubble
@@ -12,9 +12,9 @@ tags:
 arxiv_ref: "PRL 136, 241803 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-*想象一下烧开水时气泡形成的过程。在宇宙早期，希格斯场就像一锅开水，气泡碰撞的时候会搅动量子的旋涡——这些旋涡能改写宇宙中物质和反物质的比例，相当于在宇宙的操作系统里跑了一段重写原子ID的代码。*
+*Imagine the formation of bubbles when boiling water. In the early universe, the Higgs field behaves like a pot of boiling water; when bubbles collide, they stir up quantum vortices — these vortices can rewrite the ratio of matter and antimatter in the universe, equivalent to running a piece of code in the universe's operating system that rewrites atomic IDs.*
 
 ## Phenomenon
 

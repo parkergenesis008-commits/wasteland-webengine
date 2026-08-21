@@ -1,5 +1,5 @@
 ---
-title: "PBH视界晶格与小红点异常"
+title: "PBH Horizon Lattice and Little Red Dot Anomaly"
 date: "2026-06-14"
 tags:
   - primordial-black-hole
@@ -11,11 +11,11 @@ tags:
 arxiv_ref: "Phys. Rev. Lett. 136, 231402 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *"这就好比宇宙早期撒了一把'微型黑洞种子'，这些种子像癌细胞一样疯狂吞噬周围物质，在短短几亿年内长成超大质量黑洞。JWST看到的那些诡异的'小红点'，就是这些黑洞还在狼吞虎咽时的婴儿照——而标准模型告诉我们，它们根本不应该长这么快。"*
+> *"This is like the early universe scattering a handful of 'micro black hole seeds,' which, like cancer cells, frantically devour surrounding matter and grow into supermassive black holes within just a few hundred million years. The bizarre 'Little Red Dots' seen by JWST are the baby pictures of these black holes still in the midst of gorging themselves — yet the standard model tells us they should not have grown this fast."*
 
-更精确地说：想象在宇宙大爆炸后的汤里，某些区域的密度刚好足够高，直接坍缩成微型黑洞(10⁴-10⁶倍太阳质量)。这些微小黑洞就像引力锚点，吸引暗物质晕中的气体，以超过爱丁顿极限数倍的速度疯狂吸积——相当于一个人每分钟吃掉自己体重100倍的食物。结果就是，原本需要10亿年才能长大的超大质量黑洞，在不到5亿年内就成熟了。
+More precisely: imagine that in the soup right after the Big Bang, certain regions had densities just high enough to collapse directly into micro black holes (10⁴-10⁶ solar masses). These micro black holes act as gravitational anchors, pulling in gas from dark matter halos and accreting at rates several times the Eddington limit — equivalent to a person consuming 100 times their body weight in food every minute. The result is that supermassive black holes, which would normally require a billion years to grow, mature in less than 500 million years.
 
 ## Phenomenon
 
@@ -69,7 +69,7 @@ The super-Eddington parameter Γ is the critical lever: it represents the rate a
 ### M3 — Sandbox Exploit (0.042, Grade D)
 - Dominant channel: Hotpatch Injection (D, 0.167)
 - All other channels: 0.0
-- Assessment: "完全在沙盒物理规则内运作"
+- Assessment: "Operates entirely within the sandbox's physical rules"
 
 ## Cross-References
 

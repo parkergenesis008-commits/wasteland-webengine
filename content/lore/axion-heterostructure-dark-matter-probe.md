@@ -11,11 +11,11 @@ tags:
 arxiv_ref: "PRL 136, 241001 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *想象你在一个黑暗的房间里，知道有人可能在用极其微弱的信号灯给你发消息（轴子暗物质），但你的手机收不到这个频率。现在有人发明了一种"量子天线"——把一堆半导体材料叠成千层饼（量子阱异质结构），通过调节每层的间隙，让这个天线的"接收频率"刚好对准暗物质的信号。*
+> *Imagine you are in a dark room, knowing someone might be sending you messages with an extremely faint signal light (axion dark matter), but your phone cannot receive that frequency. Now someone has invented a "quantum antenna" — stacking a bunch of semiconductor materials into a mille-feuille (quantum well heterostructure), and by tuning the spacing of each layer, the antenna's "reception frequency" is precisely aligned with the dark matter signal.*
 >
-> *这个天线的神奇之处在于：它不需要巨大的磁铁（传统轴子探测器需要几特斯拉的磁场），而是利用半导体内部的"虚拟磁场"——相当于用材料本身的电子结构代替了笨重的电磁铁。用芯片级别的器件，去捕获整个银河系最神秘的信号。*
+> *The magic of this antenna: it does not require a huge magnet (traditional axion detectors need several Tesla of magnetic field), but instead exploits the "virtual magnetic field" inside the semiconductor — essentially replacing the bulky electromagnet with the material's own electronic structure. A chip-scale device captures the most mysterious signal in the entire galaxy.*
 
 ## Phenomenon
 
@@ -55,12 +55,13 @@ The quantum well's 2DEG provides a **weak topological resonance** that the M2 en
 
 | Module | Score | Tier |
 |--------|-------|------|
-| M1: Arena Integration | 0.18 | P3 — 暂不整合 |
+| M1: Arena Integration | 0.18 | P3 — Not integrated for now |
 | M2: Curvature Conversion | 0.095 | D — Kagome false positive, δg negligible |
-| M3: Sandbox Exploit | 0.0833 | D — 完全在沙盒规则内，纯被动探测 |
+| M3: Sandbox Exploit | 0.0833 | D — Fully within sandbox rules, purely passive detection |
 
 ## Cross-References
 
 - *Kagome Flat Band Topological Superconductivity*, §3 — flat band width (10 meV) matches axion mass window
 - *Baryonic Torsion Field Framework*, §2 — axion-photon coupling via torsion field
 - *Cooperative Resonance and Torsion Compression*, §5 — resonant cavity analog for axion conversion
+---

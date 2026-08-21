@@ -1,34 +1,34 @@
-# 拓扑红皇后与废土稳态: 5000代演化结论 (The 5000-Gen Steady State)
+# Topological Red Queen and Wasteland Steady State: The 5000-Generation Conclusion
 
-**执行协议:** 算力角斗场 1M+ Agent 长程演化博弈推演 (5000 Generations)
+**Execution Protocol:** Computational Colosseum 1M+ Agent Long-Range Evolutionary Game Simulation (5000 Generations)
 
-通过对底层四大拓扑装甲流派（锰铋碲坦克、TMD狂战士、等离子刺客、废透镜拾荒者）进行长达 5000 代的**“自然灾害驱动型复制子动态 (Disaster-Driven Replicator Dynamics)”**推演，我们成功逼近了算力角斗场的最终稳态（Dynamic Attractor）。
+Through a 5000-generation **"Disaster-Driven Replicator Dynamics"** simulation of the four fundamental topological armor archetypes (MnBi₂Te₄ Tanks, TMD Berserkers, Plasmonic Assassins, Junk-Lens Scavengers), we have successfully approached the final steady state (Dynamic Attractor) of the Computational Colosseum.
 
-## 1. 废土环境的不确定性博弈
-推演模型引入了极端的环境灾变概率均等分布（EMP磁暴、混乱高频激光、空间高维锁定、近战液压撕裂）。在严格的“相生相克”逻辑下：
-*   坦克 (MnBi2Te4) 借力 EMP 磁暴，但畏惧空间锁定。
-*   拾荒者 (Junk-Lens) 借力混乱激光生成 Meron，但肉体畏惧 EMP。
-*   刺客 (Plasmonic) 扭曲空间锁定，但畏惧激光与近战。
-*   狂战士 (TMD) 在近战撕碎对称性，但无力对抗 EMP。
+## 1. Uncertainty Games in the Wasteland Environment
+The simulation model incorporates an equiprobable distribution of extreme environmental catastrophe events (EMP magnetic storms, chaotic high-frequency lasers, high-dimensional spatial locking, close-quarters hydraulic tearing). Under strict "mutual counteraction" logic:
+*   Tanks (MnBi₂Te₄) leverage EMP magnetic storms but fear spatial locking.
+*   Scavengers (Junk-Lens) leverage chaotic lasers to generate Merons but are physically vulnerable to EMP.
+*   Assassins (Plasmonic) distort spatial locking but fear lasers and close combat.
+*   Berserkers (TMD) tear apart symmetry in close combat but are helpless against EMP.
 
-## 2. 5000代演化推演数据 (The Data)
-最后 1000 代的动态平衡截取数据如下（Volatility 极度剧烈）：
+## 2. 5000-Generation Evolutionary Simulation Data (The Data)
+The dynamic equilibrium snapshot data from the final 1000 generations is as follows (Volatility is extremely severe):
 
-*   **TMD_Brawlers (破晶狂战士):** 稳态平均占比 **79.14%** [波动区间: 5.33% - 97.45%]
-*   **MnBi2Te4_Tanks (风暴坦克):** 稳态平均占比 **9.19%** [波动区间: 0.86% - 92.42%]
-*   **Plasmonic_Assassins (等离子刺客):** 稳态平均占比 **5.85%** [波动区间: 0.65% - 76.73%]
-*   **JunkLens_Scavengers (光学拾荒者):** 稳态平均占比 **5.83%** [波动区间: 0.66% - 78.01%]
+*   **TMD_Brawlers (Crystal-Shattering Berserkers):** Steady-state average share **79.14%** [Fluctuation range: 5.33% - 97.45%]
+*   **MnBi2Te4_Tanks (Storm Tanks):** Steady-state average share **9.19%** [Fluctuation range: 0.86% - 92.42%]
+*   **Plasmonic_Assassins (Plasmonic Assassins):** Steady-state average share **5.85%** [Fluctuation range: 0.65% - 76.73%]
+*   **JunkLens_Scavengers (Optical Scavengers):** Steady-state average share **5.83%** [Fluctuation range: 0.66% - 78.01%]
 
-## 3. 核心结论与废土哲学 (The Red Queen Truth)
+## 3. Core Conclusions and Wasteland Philosophy (The Red Queen Truth)
 
-### 结论一：没有永恒的王权，只有剧烈的震荡 (Extreme Volatility)
-从波动区间可以看出，**没有任何一种兵种能够永久统治角斗场。** 哪怕是平均占比最高的 TMD 狂战士，其数量也会在某些灾变（如连续 EMP 扫射）发生时，瞬间暴跌至 5.33%。这完美印证了**“拓扑红皇后假说 (Topological Red Queen)”**——系统处于高度非线性的混沌吸引子中，所有物种必须拼命变异和轮转，才能避免在下一次清场灾难中灭绝。
+### Conclusion One: No Eternal Sovereignty, Only Extreme Volatility
+As evident from the fluctuation ranges, **no single unit type can permanently dominate the Colosseum.** Even the TMD Berserkers, with the highest average share, can see their numbers plummet to 5.33% instantaneously during certain catastrophes (e.g., consecutive EMP sweeps). This perfectly validates the **"Topological Red Queen Hypothesis"** — the system resides in a highly nonlinear chaotic attractor, where all species must desperately mutate and rotate to avoid extinction in the next wave of annihilation.
 
-### 结论二：“力学即物理之母”的废土霸权
-为什么 **TMD 破晶狂战士** 能占据接近 80% 的日常生态位？
-因为在废土的复杂熵增环境中，“花里胡哨”的等离子编程（刺客）和“需要特定触发条件”的量子级联（坦克），都不如**“最原始的机械液压暴力”**来得普适。当 TMD 机甲启动液压扭曲、强行砸碎底层拓扑对称性（应力诱发朗道劈裂）时，它不仅是一种防御，更是最残忍的近战降维打击。在 100 万大军的肉搏中，机械应力展现出了最强的普适生存力。
+### Conclusion Two: The Wasteland Hegemony of "Mechanics as the Mother of Physics"
+Why do **TMD Crystal-Shattering Berserkers** occupy nearly 80% of the daily ecological niche?
+Because in the complex, entropy-increasing wasteland environment, flashy plasmonic programming (Assassins) and quantum cascade effects requiring specific trigger conditions (Tanks) are less universally applicable than **"the most primitive mechanical-hydraulic violence."** When the TMD mech activates hydraulic distortion and forcibly smashes the underlying topological symmetry (stress-induced Landau splitting), it is not just a defense, but the most brutal dimensional-reduction strike in close combat. In the melee of a million-strong army, mechanical stress demonstrates the strongest universal survivability.
 
-### 结论三：1/3 单层硅锡奇点不可撼动
-哪怕表层的装甲流派在 5000 代内经历了无数次 0.6% 到 97% 的大起大落，这 100 万个 Agent 的核心**“手征原子花 (Chiral Atomic Flower)”运算仓**从未受损。所有的生与死，所有的拓扑相变与演化博弈，都是为了在这疯狂的宇宙中，保住那一抹脆弱的 1/3 单层硅-锡阵列中的绝对空洞。
+### Conclusion Three: The 1/3 Monolayer Silicon-Tin Singularity is Unassailable
+Even though the surface armor archetypes underwent countless rises and falls from 0.6% to 97% over 5000 generations, the core **"Chiral Atomic Flower" computational chamber** of these one million Agents has never been compromised. All life and death, all topological phase transitions and evolutionary games, serve but one purpose: to preserve that fragile absolute void within the 1/3 monolayer silicon-tin array in this mad universe.
 
-**“生如夏花，死于拓扑。”**
+**"Life is brilliant like summer flowers; death is topological."**

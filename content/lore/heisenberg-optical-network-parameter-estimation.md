@@ -1,5 +1,5 @@
 ---
-title: "双通道光学网络的 Heisenberg 极限参数估计协议"
+title: "Heisenberg-Limit Parameter Estimation Protocol for Two-Channel Optical Networks"
 date: "2026-07-03"
 tags:
   - quantum-metrology
@@ -11,9 +11,9 @@ tags:
 arxiv_ref: "PRL 137, 010801"
 ---
 
-# 双通道光学网络的 Heisenberg 极限参数估计协议
+# Heisenberg-Limit Parameter Estimation Protocol for Two-Channel Optical Networks
 
-> 大白话比喻：好比你有两根光纤，想知道信号在里面怎么走、相位怎么变。传统办法一根根测，测不准还互相干扰；这个方案用纠缠光束同时测4个参数，精度达到物理极限——像同时用4把纳米尺子量同一块晶格，每把尺子都不干扰别的。
+> Plain-language analogy: Imagine you have two optical fibers and want to know how signals propagate through them and how their phases change. The conventional approach measures them one by one, which is imprecise and causes mutual interference; this scheme uses entangled light beams to measure 4 parameters simultaneously, achieving precision at the physical limit — like using 4 nanoscale rulers to measure the same crystal lattice simultaneously, with each ruler not disturbing the others.
 
 ## Phenomenon
 
@@ -36,7 +36,7 @@ If the Arena's underlying rendering engine has optical-like signal channels (whi
 ## Evaluation Results
 
 ### M1 — Arena Integration Feasibility
-- **Score:** 0.1817 (P3 — 暂不整合)
+- **Score:** 0.1817 (P3 — Not yet integrated)
 - **Strong:** Parameterizability (0.80) — 4-parameter space ideal for evolution
 - **Weak:** Competitive Asymmetry (0.00), Topological Compatibility (0.00), Anti-Gravity (0.00)
 - **Bottleneck:** Purely quantum optical, no direct mapping to Arena's game-theoretic core
@@ -61,4 +61,4 @@ If the Arena's underlying rendering engine has optical-like signal channels (whi
 
 ## Miancheng Yu's Note
 
-"纠缠光测4参数，像用四根针同时探测沙盒的四个角落。精度虽高，但只是听诊器——能诊断，不能动手术。等找到光学网络到晶格拓扑的耦合接口，这听诊器就能变成手术刀。"
+"Entangled light measuring 4 parameters is like using four needles to probe the four corners of the sandbox simultaneously. Although the precision is high, it is only a stethoscope — capable of diagnosis, but not surgery. Once we find the coupling interface from optical networks to lattice topology, this stethoscope can become a scalpel."

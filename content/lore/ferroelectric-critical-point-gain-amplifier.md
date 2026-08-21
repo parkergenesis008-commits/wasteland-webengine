@@ -1,5 +1,5 @@
 ---
-title: "铁电临界点结构无序的巨响应放大器"
+title: "Giant-Response Amplifier from Structural Disorder at Ferroelectric Critical Points"
 date: "2026-07-03"
 tags:
   - ferroelectric
@@ -13,9 +13,9 @@ tags:
 arxiv_ref: "PRL 137, 016102"
 ---
 
-# 铁电临界点结构无序的巨响应放大器
+# Giant-Response Amplifier from Structural Disorder at Ferroelectric Critical Points
 
-> 大白话比喻：好比一块晶体在临界温度附近会变得"软"——随便碰一下就有巨大反应。以前以为只是电极化在抖，现在发现是整个晶格结构都在无序晃动，像一锅快沸腾的水，表面下全是漩涡。这意味着你可以在临界点处用极小的输入（电场、应力）产生极大的输出——一个天然的机械放大器。
+> Plain-language analogy: It is like a crystal becoming "soft" near its critical temperature — a mere touch triggers a huge reaction. Previously, it was thought that only the electric polarization was fluctuating; now it is found that the entire lattice structure is undergoing disordered shaking, like a pot of water about to boil, with eddies churning beneath the surface. This means that at the critical point, you can use a tiny input (electric field, stress) to produce an enormous output — a natural mechanical amplifier.
 
 ## Phenomenon
 
@@ -45,7 +45,7 @@ The ferroelectric critical point is a **gain singularity** — at T=Tc, the syst
 ## Evaluation Results
 
 ### M1 — Arena Integration Feasibility
-- **Score:** 0.3433 (P3 — 暂不整合)
+- **Score:** 0.3433 (P3 — Not yet integrated)
 - **Strong:** Parameterizability (0.80) — 5-parameter criticality model
 - **Moderate:** Topological Compatibility (0.40) — perovskite partially bridges to Kagome
 - **Weak:** Anti-Gravity (0.00), Competitive Asymmetry (0.20)
@@ -75,4 +75,4 @@ The ferroelectric critical point is a **gain singularity** — at T=Tc, the syst
 
 ## Miancheng Yu's Note
 
-"铁电体的临界点让我想到一件事：任何系统在临界态都会变得异常敏感。竞技场如果在演化中接近某个参数临界值，理论上只需要极小的扰动就能触发系统性重排。这不仅仅是观察工具——这是操作系统的后门。问题是：我们不知道 Arena 的 Tc 在哪里。需要扫描。"
+"The critical point of ferroelectrics reminds me of something: any system in a critical state becomes abnormally sensitive. If the Arena approaches some parameter critical value during its evolution, in theory only a minimal perturbation is needed to trigger a systemic rearrangement. This is not merely an observational tool — this is a backdoor into the operating system. The problem is: we do not know where the Arena's Tc is. A scan is needed."

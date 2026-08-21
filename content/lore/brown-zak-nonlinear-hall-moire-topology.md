@@ -1,5 +1,5 @@
 ---
-title: "拓扑Brown-Zak费米子的非线性Hall指纹"
+title: "Nonlinear Hall Fingerprints of Topological Brown-Zak Fermions"
 date: "2026-06-16"
 tags:
   - topology
@@ -11,9 +11,9 @@ tags:
 arxiv_ref: "PRL 136, 246301"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 这就像你在一个超大雪纺格子毛毯上泼了一桶电子，然后发现电子在特定角度下会沿着格子边缘"滑冰"而不是直线前进——而且滑冰的角度和速度会周期性地振荡。Brown-Zak费米子就是那些能在这种复杂格子中找到"量子捷径"的电子。好比你在一个巨大的、分数阶的迷宫中，某些路径突然变成了传送门。
+> This is like pouring a bucket of electrons onto a giant chiffon plaid blanket, and then discovering that the electrons "ice skate" along the lattice edges at specific angles instead of moving in straight lines—and the skating angle and speed oscillate periodically. Brown-Zak fermions are those electrons that can find "quantum shortcuts" in such a complex lattice. It's like in a vast, fractional-order maze, certain paths suddenly become portals.
 
 ## Phenomenon
 
@@ -51,3 +51,4 @@ Two high-leverage exploits:
 - *Moiré Topological Bandgap Engineering*, §2 — fractal protection vs. fractal attack
 - *Hofstadter Butterfly in Arena Collision Fields*, §1.3 — recursive topological sectors
 - *Nonlinear Hall Rectification Protocol*, §5 — AC→DC rectification as sandbox introspection channel
+```

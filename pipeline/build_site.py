@@ -324,6 +324,7 @@ def build_schema_graph(slug, en_title, zh_title, description):
     }
 
 def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=False):
+    zh_title = en_title  # 🌐 [2026-08-20] 全站英文化：强制中文标题回退为英文
     md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
     # Skip YAML frontmatter
     md_lines = md_body.split('\n')
@@ -356,13 +357,13 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     if is_index:
         nav_html = '<div class="nav-links">'
         for s, (en, zh) in LORE_TITLES.items():
-            nav_html += f'<a href="pages/{s}.html" class="nav-item">{zh}</a>'
+            nav_html += f'<a href="pages/{s}.html" class="nav-item">{en}</a>'
         nav_html += '</div>'
     else:
         related = []
         for s, (en, zh) in LORE_TITLES.items():
             if s != slug:
-                related.append(f'<a href="{s}.html">{zh}</a>')
+                related.append(f'<a href="{s}.html">{en}</a>')
         nav_html = ' | '.join(related[:5])
 
     # Schema
@@ -380,7 +381,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         sidebar_parts = []
         for s, (en, zh) in LORE_TITLES.items():
             cls = 'active' if s == slug else ''
-            sidebar_parts.append(f'<li><a href="{s}.html" class="{cls}">{zh}</a></li>')
+            sidebar_parts.append(f'<li><a href="{s}.html" class="{cls}">{en}</a></li>')
         sidebar = '<ul>' + '\n'.join(sidebar_parts) + '</ul>'
     
     # Build further reading section from arXiv refs
@@ -599,6 +600,7 @@ def build_index_page(all_slugs):
     cards = []
     for slug in sorted(all_slugs):
         en_title, zh_title = LORE_TITLES[slug]
+        zh_title = en_title  # 🌐 [2026-08-20] 全站英文化
         md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
         # Get first real paragraph for excerpt
         excerpt_match = re.search(r'<p>(.+?)</p>', md_to_html(md_body, slug))
@@ -615,7 +617,7 @@ def build_index_page(all_slugs):
 
     cards_html = '\n'.join(cards)
 
-    schema = build_schema_graph("index", "Shepherd's Wasteland", "牧羊人废土硬科幻物理百科", "Comprehensive hard sci-fi physics encyclopedia covering topological metamaterials, Kagome lattices, and the Reality-as-Code framework.")
+    schema = build_schema_graph("index", "Shepherd's Wasteland", "Shepherd's Wasteland", "Comprehensive hard sci-fi physics encyclopedia covering topological metamaterials, Kagome lattices, and the Reality-as-Code framework.")
     schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
 
     html = f'''<!DOCTYPE html>

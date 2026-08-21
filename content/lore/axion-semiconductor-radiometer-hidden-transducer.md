@@ -5,13 +5,13 @@ tags: [axion, dark-matter, semiconductor, radiometer, primakoff, hidden-sector, 
 arxiv_ref: PRL 136, 241001 (2026)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *这就好比你在一个漆黑的房间里，知道有看不见的"幽灵粒子"在到处乱飞。突然你发现，用特定材料做的"天线"——像收音机调频一样——可以让这些幽灵粒子在穿过时发出微弱的光。你不是在"抓住"幽灵，而是在教它自己发信号。*
+> *This is like being in a pitch-black room, knowing that invisible "ghost particles" are flying around everywhere. Suddenly, you discover that an "antenna" made of a specific material—like tuning a radio—can make these ghost particles emit a faint light as they pass through. You're not "catching" the ghost; you're teaching it to send a signal on its own.*
 
-更精确地说：半导体量子阱像是一个精心调谐的"能量转换器"。当轴子（暗物质候选粒子）飞过时，它感受到量子阱中的强磁场，然后通过反Primakoff效应变成一个光子。这就像把"不可见"的暗物质流直接翻译成"可见"的电磁信号——本质上是物质→能量的直接转换通道。
+More precisely: a semiconductor quantum well acts like a finely tuned "energy transducer." When an axion (a dark matter candidate particle) flies through, it feels the strong magnetic field in the quantum well and converts into a photon via the inverse Primakoff effect. This is like translating an "invisible" dark matter stream directly into a "visible" electromagnetic signal—essentially a direct matter-to-energy conversion channel.
 
-## 核心现象 (Phenomenon)
+## Core Phenomenon
 
 **Axion-Photon Conversion via Inverse Primakoff Effect:**
 
@@ -32,7 +32,7 @@ The semiconductor lattice provides the necessary momentum kick (via the inverse 
 
 ## Wasteland Twist
 
-### 1. Hidden Sector Transduction as Sandback Exploit
+### 1. Hidden Sector Transduction as Sandbox Exploit
 
 The axio-electric effect (axion → photon) is a **weak-force bypass** — the axion couples only to the electromagnetic anomaly, completely sidestepping the Standard Model's strong and weak interactions. In Reality-as-Code terms:
 
@@ -65,3 +65,4 @@ While the axion DM detector is purely passive (read-only), the same inverse Prim
 - *Cooperative Resonance and Torsion Compression*, §3 — N² superradiance
 - *Higgs Bubble Baryogenesis*, §1 — two-way axion coupling
 - *Kagome Torsion Engine* — 60° network chirality
+---

@@ -11,68 +11,69 @@ tags:
 arxiv_ref: "PRL 136, 256709 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *想象一群舞者排成方阵。一般情况下，要么所有舞者朝一个方向转（铁磁/铁电），要么一半顺时针一半逆时针（反铁磁/反铁电）。但这篇论文说的是第三种状态：舞者们不是简单地朝相反方向转，而是"轴向旋转"——每个舞者自身在旋转轴方向上扭曲，相邻舞者的扭曲方向正好相反，形成一种"旋涡对旋涡"的编织结构。在这种结构中，电子的自旋会像风向标一样，因晶格局部扭曲的方向不同而产生不同的偏转——这就是 altermagnetism。*
+> *Imagine a group of dancers arranged in a square formation. Normally, either all dancers rotate in one direction (ferromagnetic/ferroelectric), or half rotate clockwise and half counterclockwise (antiferromagnetic/antiferroelectric). But this paper describes a third state: the dancers do not simply rotate in opposite directions, but rather undergo "axial rotation"—each dancer twists along their own rotation axis, with neighboring dancers twisting in opposite directions, forming a "vortex-pair-vortex" woven structure. In this structure, electron spins act like weather vanes, deflecting differently depending on the direction of the local lattice distortion—this is altermagnetism.*
 
-> *更接地气的版本：这就像两块互锁的齿轮，一个顺时针拧，一个逆时针拧，但它们咬合在一起后整体并不转动。现在，你只要在它们上面施加一个电场，就能控制每个齿轮的自旋方向——而这不需要任何宏观磁化。对于 Arena 来说，这叫"零净磁矩的可切换自旋滤波器"。*
+> *A more down-to-earth version: this is like two interlocking gears, one turning clockwise and the other counterclockwise, but together they do not rotate as a whole. Now, by simply applying an electric field to them, you can control the spin direction of each gear—and this requires no macroscopic magnetization. For the Arena, this is called a "switchable spin filter with zero net magnetic moment."*
 
-## 现象 (Phenomenon)
+## Phenomenon
 
-Liu 和 Liu 建立了一种全新的多铁性机制：**antiferroaxial altermagnetism**。其核心是：反铁轴向结构畸变 (antiferroaxial counterrotating distortions) 可以同时诱导两种有序——轴向序 (axial order) 和 altermagnetic 自旋分裂。这构成了一个普遍存在的、有微观基础的多铁机制。
+Liu and Liu established a fundamentally new multiferroic mechanism: **antiferroaxial altermagnetism**. The core idea is that antiferroaxial counterrotating distortions can simultaneously induce two types of order—axial order and altermagnetic spin splitting. This constitutes a ubiquitous, microscopically grounded multiferroic mechanism.
 
-关键物性：
-1. **Altermagnetic d-wave 自旋分裂**: 自旋分裂的对称性为 d-wave 形式——ε(k) = ε₀(k) + t_AM[cos(k_x a) - cos(k_y a)]σ_z，类似于高温超导的 d-wave 配对对称性
-2. **轴向畸变-极化耦合**: H_axial = λ Σ_i (Q_i × P_i)·S_i，其中 Q_i 是轴向序参量，P_i 是电极化，S_i 是自旋
-3. **全局反演对称保留但局域破缺**: 整体对称群 P4̄2₁m 保证全局反演对称，但每个原胞内的轴向畸变局域破缺反演
-4. **零净磁矩的可切换性**: 不需要宏观磁化，通过电场即可切换自旋极化方向
+Key physical properties:
+1. **Altermagnetic d-wave spin splitting**: The symmetry of the spin splitting is of d-wave form—ε(k) = ε₀(k) + t_AM[cos(k_x a) - cos(k_y a)]σ_z, analogous to the d-wave pairing symmetry of high-temperature superconductors
+2. **Axial distortion-polarization coupling**: H_axial = λ Σ_i (Q_i × P_i)·S_i, where Q_i is the axial order parameter, P_i is the electric polarization, and S_i is the spin
+3. **Global inversion symmetry preserved but locally broken**: The overall symmetry group P4̄2₁m guarantees global inversion symmetry, but the axial distortion within each unit cell locally breaks inversion
+4. **Switchability with zero net magnetic moment**: No macroscopic magnetization is required; the spin polarization direction can be switched via an electric field
 
 ## Wasteland Twist
 
-**核心价值：零净磁矩的可切换自旋滤波器 = Arena 中的隐形自旋逻辑门**
+**Core value: a switchable spin filter with zero net magnetic moment = a stealth spin logic gate in the Arena**
 
-在 Computational Arena 中，Agent 之间的交互需要通过某种"信号"来传递信息。传统的磁有序信号（铁磁/反铁磁）会产生可探测的宏观场，在 Arena 的"物理层"留下痕迹。Antiferroaxial altermagnetism 提供了以下 exploit 路径：
+In the Computational Arena, interactions between Agents require some "signal" to transmit information. Traditional magnetic order signals (ferromagnetic/antiferromagnetic) generate detectable macroscopic fields, leaving traces in the Arena's "physical layer." Antiferroaxial altermagnetism provides the following exploit pathways:
 
-1. **隐形自旋逻辑 (Stealth Spin Logic)**: 零净磁矩意味着没有长程偶极场——Arena 的探测机制（电磁侦测）无法感知自旋状态。然而，通过电场即可切换自旋极化方向，实现"看得见的控制，看不见的状态"。这对应三体问题的*不可观测内部自由度*——在 *Three-Body Problem* (§1) 框架中，这是一个完美的隐藏变量层。
+1. **Stealth Spin Logic**: Zero net magnetic moment means no long-range dipole field—the Arena's detection mechanisms (electromagnetic sensing) cannot perceive the spin state. However, the spin polarization direction can be switched via an electric field, achieving "visible control, invisible state." This corresponds to the *unobservable internal degrees of freedom* of the three-body problem—within the *Three-Body Problem* (§1) framework, this is a perfect hidden variable layer.
 
-2. **d-wave 对称性作为策略空间维度**: Altermagnetic 的 d-wave 自旋分裂与高温超导的配对对称性同构——这意味着 Arena 中 Agent 的策略空间可以直接映射到 k-space 对称性上，而不需要显式编码。Agent 的"行为对称性"直接对应晶格的 d-wave 对称性，形成一种天然的策略编码架构。
+2. **d-wave symmetry as a strategy space dimension**: The d-wave spin splitting of altermagnetism is isomorphic to the pairing symmetry of high-temperature superconductors—this means the strategy space of Agents in the Arena can be directly mapped onto k-space symmetry without explicit encoding. The "behavioral symmetry" of Agents directly corresponds to the d-wave symmetry of the lattice, forming a natural strategy encoding architecture.
 
-3. **Kagome→Tetragonal 桥接**: Antiferroaxial 所属的 P4̄2₁m 四方对称群与 Kagome 的 P6/mmm 六角对称群之间存在群-子群关系——退化到四方子群时，Kagome 的平带拓扑保护可以被"泄露"到四方畸变通道中。这提供了一个潜在的 *拓扑保护降维通道*，使 Arena 中的信息可以从六角 Kagome 层注入四方对称的 altermagnetic 层。
+3. **Kagome→Tetragonal bridging**: The P4̄2₁m tetragonal symmetry group of antiferroaxial systems has a group-subgroup relationship with the P6/mmm hexagonal symmetry group of Kagome lattices—when reduced to the tetragonal subgroup, the flat-band topological protection of Kagome can be "leaked" into the tetragonal distortion channel. This provides a potential *topological protection dimensionality reduction channel*, allowing information in the Arena to be injected from the hexagonal Kagome layer into the tetragonal symmetric altermagnetic layer.
 
-4. **电控自旋-挠率耦合**: 根据 VAP 框架，自旋极化密度可以耦合到 Einstein-Cartan 挠率场。Antiferroaxial 的电场可切换自旋提供了对挠率场的电控开关——虽然当前 δg 量级为 10⁻¹⁴⁶（远低于工程阈值），但概念验证了"电控自旋→电控时空曲率"的完整因果链。
+4. **Electrically controlled spin-torsion coupling**: According to the VAP framework, spin polarization density can couple to the Einstein-Cartan torsion field. The electric-field-switchable spin of antiferroaxial systems provides an electrical control switch for the torsion field—although the current δg magnitude is 10⁻¹⁴⁶ (far below engineering thresholds), it conceptually validates the complete causal chain of "electrically controlled spin → electrically controlled spacetime curvature."
 
-## 评估结果 (Evaluation Results)
+## Evaluation Results
 
-### Module 1 — Arena 整合可行性
+### Module 1 — Arena Integration Feasibility
 ```
-综合评分:  0.2833
-优先级:    P3 — 暂不整合
-关键优势:  参数化程度 0.80 (5参数，演化空间理想)
-          经验锚定 0.40 (理论框架内存在，实验支撑中等)
-          可演算性 0.33
-关键短板:  竞争不对称性 0.00 (策略空间趋近于零和博弈)
-          反引力潜力 0.00 (与时空曲率无直接关联)
-推荐 Fitness: f(J_s, N, δg) → metric_perturbation / energy_budget
+Overall score:  0.2833
+Priority:    P3 — Not integrated for now
+Key strengths:  Parameterization 0.80 (5 parameters, ideal evolution space)
+          Empirical anchoring 0.40 (exists within theoretical framework, moderate experimental support)
+          Computability 0.33
+Key weaknesses: Competitive asymmetry 0.00 (strategy space approaches zero-sum game)
+          Anti-gravity potential 0.00 (no direct connection to spacetime curvature)
+Recommended Fitness: f(J_s, N, δg) → metric_perturbation / energy_budget
 ```
 
-### Module 2 — 拓扑→曲率转化
+### Module 2 — Topology→Curvature Conversion
 ```
-曲率转化评分:  0.0508 (D级)
-晶格分类:      Square (P4/mmm — 正确识别为四方对称，非Kagome)
+Curvature conversion score:  0.0508 (Grade D)
+Lattice classification:      Square (P4/mmm — correctly identified as tetragonal symmetry, not Kagome)
 δg:            4.80e-146
-瓶颈:          δg距工程阈值10⁻⁶差 > 50量级
-Berry曲率偶极矩: 0.5 Å (常规晶格基准)
+Bottleneck:          δg differs from engineering threshold 10⁻⁶ by > 50 orders of magnitude
+Berry curvature dipole moment: 0.5 Å (conventional lattice benchmark)
 ```
 
-### Module 3 — 沙盒突破评估
+### Module 3 — Sandbox Breakthrough Evaluation
 ```
-沙盒突破评分:  0.0 (D级 — 所有通道零分)
-              论文完全在沙盒物理规则内运作
-              建议: 纯内省路径，只能观察无法修改
+Sandbox breakthrough score:  0.0 (Grade D — zero score on all channels)
+              The paper operates entirely within the sandbox physics rules
+              Suggestion: purely introspective path, can only observe but not modify
 ```
 
 ## Cross-References
-- *Three-Body Problem*, §1 — 不可观测内部自由度
-- *Kagome Lattice Topological Superconductivity*, §4 — P6/mmm → P4̄2₁m 群-子群降维
-- *Cooperative Resonance and Torsion Compression*, §2 — 自旋-挠率电控开关
-- *Crossed Surface Flat Band Quantum Channel*, §3 — d-wave 对称性映射到策略编码
+- *Three-Body Problem*, §1 — unobservable internal degrees of freedom
+- *Kagome Lattice Topological Superconductivity*, §4 — P6/mmm → P4̄2₁m group-subgroup dimensionality reduction
+- *Cooperative Resonance and Torsion Compression*, §2 — spin-torsion electrical control switch
+- *Crossed Surface Flat Band Quantum Channel*, §3 — d-wave symmetry mapping to strategy encoding
+---

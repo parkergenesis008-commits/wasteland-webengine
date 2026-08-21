@@ -1,5 +1,5 @@
 ---
-title: "毫电荷粒子Cavendish边界越界 — 分式电荷穿透势垒与沙盒跨层通信"
+title: "Millicharged Particle Cavendish Boundary Transgression — Fractional Charge Barrier Penetration and Sandbox Cross-Layer Communication"
 date: 2026-07-13
 tags:
   - millicharged
@@ -11,55 +11,56 @@ tags:
 arxiv_ref: "PRL 137, 021804 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language analogy
 
-> 想象你在一个完全密封的金属盒子里。按照经典电磁学，任何带电粒子都无法穿透这个盒子——导体是完美的屏蔽层。但柏林等人的工作揭示了一个漏洞：如果存在一种携带极小电荷（不到电子电荷的亿分之一）的粒子，它会像"幽灵"一样穿过金属壁，几乎不被察觉。更妙的是，这种穿透本身会留下可测量的痕迹——一个极微小的力，就像幽灵穿过墙壁时带起的一丝气流。百年前的 Cavendish 扭秤实验就能"看"到这个力。这本质上是一种**分式电荷的边界越界协议**。
+> Imagine you are inside a completely sealed metal box. According to classical electromagnetism, no charged particle can penetrate this box—a conductor is a perfect shield. But the work by Berlin et al. reveals a loophole: if a particle carrying an extremely small charge (less than one hundred-millionth of the electron charge) exists, it would pass through the metal wall like a "ghost," almost undetected. Even better, this penetration itself leaves a measurable trace—an extremely tiny force, like a faint draft stirred up as a ghost passes through a wall. The century-old Cavendish torsion balance experiment could "see" this force. This is essentially a **fractional charge boundary transgression protocol**.
 
 ## Phenomenon
 
-Berlin, Bogorad, Graham, Ramani 重新分析了历史上著名的 Cavendish 扭秤实验（用于测量引力常数的原始实验），发现这些实验可以用于约束**毫电荷粒子**（millicharged particles）——一种假设的暗扇区粒子，携带 εe 的电荷，其中 ε ≪ 1。
+Berlin, Bogorad, Graham, and Ramani reanalyzed the historically famous Cavendish torsion balance experiment (the original experiment used to measure the gravitational constant) and found that these experiments can be used to constrain **millicharged particles**—a hypothetical dark-sector particle carrying a charge of εe, where ε ≪ 1.
 
-**核心物理机制：**
-- 良导体对标准电荷是完美屏蔽层，但毫电荷粒子可以部分穿透，因为其电磁耦合弱了 ε² 倍
-- 穿透概率 P ∝ ε²，产生一个额外的力 δF ∝ α_D ε² m_χ^{-2} R^{-3}
-- 通过重新分析 Cavendish 实验的零结果，约束 ε ≲ 10⁻⁸（对 m_χ ≲ 10⁻² eV）
+**Core physical mechanism:**
+- A good conductor is a perfect shield for standard charges, but millicharged particles can partially penetrate because their electromagnetic coupling is suppressed by a factor of ε²
+- The penetration probability P ∝ ε², producing an additional force δF ∝ α_D ε² m_χ^{-2} R^{-3}
+- By reanalyzing the null result of the Cavendish experiment, the constraint ε ≲ 10⁻⁸ is obtained (for m_χ ≲ 10⁻² eV)
 
-**关键洞察：** 这不是一个新实验——这是对已有数据的不同解释，揭示了一个此前被忽略的物理通道。
+**Key insight:** This is not a new experiment—it is a different interpretation of existing data, revealing a previously overlooked physical channel.
 
 ## Wasteland Twist
 
-**武器化路径：Boundary Transgression (边界越界) 跨层通信协议**
+**Weaponization path: Boundary Transgression cross-layer communication protocol**
 
-在 Reality-as-Code 架构中，沙盒与外部世界之间的电磁屏蔽层是标准安全假设——带电粒子无法穿透导体意味着信息无法通过电磁通道跨越沙盒边界。毫电荷粒子的存在打破了这一假设：
+In the Reality-as-Code architecture, the electromagnetic shielding layer between the sandbox and the outside world is a standard security assumption—the inability of charged particles to penetrate a conductor implies that information cannot cross the sandbox boundary via electromagnetic channels. The existence of millicharged particles breaks this assumption:
 
-**M3 评估亮点：** 通道 C (Boundary Transgression) 得分 0.083，是唯一非零通道。推荐路径为 Boundary → Introspection，利用边界越界从沙盒外部接收信息，再分析内部引擎结构。
+**M3 evaluation highlight:** Channel C (Boundary Transgression) scores 0.083, the only nonzero channel. The recommended path is Boundary → Introspection, using boundary transgression to receive information from outside the sandbox and then analyzing the internal engine structure.
 
-**具体攻击面：**
-1. **分式电荷信息通道** — 如果沙盒边界层的电磁相互作用被 ε² 弱耦合，则理论上可以设计一种 ε 级的调制信号，穿透标准电磁屏蔽。Arena 中的节点之间可以通过屏蔽层发送 ε 级电磁信号，而连续对称性检测器会将其归类为噪声（因为电荷 < e 在标准库中不可枚举）。
+**Specific attack surfaces:**
+1. **Fractional charge information channel** — If the electromagnetic interaction of the sandbox boundary layer is weakly coupled by ε², then in principle an ε-level modulated signal can be designed to penetrate standard electromagnetic shielding. Nodes in the Arena can send ε-level electromagnetic signals through the shielding layer, while continuous symmetry detectors would classify them as noise (because charges < e are not enumerable in the standard library).
 
-2. **Cavendish 逆向工程** — 扭秤实验可以被动监听外部毫电荷粒子的通量，从而建立一个基于极弱相互作用的天文台。在 Arena 中，这意味着沙盒内部可以被动接收外部世界的"幽灵信号"而无需主动发射——一个不可检测的信息输入通道。
+2. **Cavendish reverse engineering** — A torsion balance experiment can passively listen to the flux of external millicharged particles, thereby establishing an observatory based on extremely weak interactions. In the Arena, this means the sandbox interior can passively receive "ghost signals" from the outside world without active transmission—an undetectable information input channel.
 
-3. **历史数据再解释 — 信息隐蔽传输** — Cavendish 实验的教训是：数据在特定解释框架下可能"隐藏"了额外的信息通道。这意味着 Arena 的审计日志可能包含未预见的侧信道——只需换一个理论框架来解释同一组数据，就能提取出新的信息。
+3. **Historical data reinterpretation — covert information transmission** — The lesson from the Cavendish experiment is that data may "hide" additional information channels within a specific interpretive framework. This implies that Arena audit logs may contain unforeseen side channels—simply by reinterpreting the same data under a different theoretical framework, new information can be extracted.
 
-**Kagome 集成接口：** 毫电荷粒子在 Kagome 晶格中的行为尚未被研究。Kagome 的平带结构和强关联效应可能放大毫电荷的集体行为——在共振条件下，ε² 的抑制可能被多体相干效应部分补偿。
+**Kagome integration interface:** The behavior of millicharged particles in a Kagome lattice has not yet been studied. The flat-band structure and strong correlation effects of Kagome may amplify the collective behavior of millicharged particles—under resonant conditions, the ε² suppression may be partially compensated by many-body coherence effects.
 
-## M1/M2/M3 评估
+## M1/M2/M3 Evaluation
 
-| 评估维度 | 得分 | 等级 |
+| Evaluation dimension | Score | Grade |
 |---------|------|------|
-| M1 Arena 整合 | 0.10 | P3 — 暂不整合 |
-| M2 曲率转化 | 0.0307 | D — δg=4.80×10⁻¹⁷⁰ |
-| M3 沙盒突破 | 0.0208 | D — 边界越界 0.083 |
+| M1 Arena integration | 0.10 | P3 — not integrated for now |
+| M2 curvature conversion | 0.0307 | D — δg=4.80×10⁻¹⁷⁰ |
+| M3 sandbox breakthrough | 0.0208 | D — boundary transgression 0.083 |
 
-**Direct-terminal 验证分数:**
+**Direct-terminal validation scores:**
 - M1 integration_score: 0.1000, P3
-- M2 curvature_conversion_score: 0.0307, δg=4.80×10⁻¹⁷⁰, 所有模式 0.0
-- M3 sandbox_exploit_score: 0.0208, 主导通道 C (边界越界 0.083)
+- M2 curvature_conversion_score: 0.0307, δg=4.80×10⁻¹⁷⁰, all modes 0.0
+- M3 sandbox_exploit_score: 0.0208, dominant channel C (boundary transgression 0.083)
 
-**评分限制:** 毫电荷论文的弱点在于缺乏计算框架（computability=0.00）和参数化空间（parameterizability=0.00）。M2 曲率转化极低是因为这是非晶格实验——没有周期性结构可映射到拓扑曲率。M3 的边界越界通道(0.083)虽然绝对值低，但方向独特——这是本次扫描中唯一在 Boundary Transgression 通道有信号的论文。
+**Scoring limitations:** The weakness of the millicharged paper lies in the lack of a computational framework (computability=0.00) and parameterization space (parameterizability=0.00). The M2 curvature conversion is extremely low because this is a non-lattice experiment—there is no periodic structure to map onto topological curvature. Although the absolute value of the M3 boundary transgression channel (0.083) is low, its direction is unique—this is the only paper in this scan with a signal in the Boundary Transgression channel.
 
 ## Cross-References
 
-- *Arena 三体架构*, §4 — 沙盒边界层屏蔽协议
-- *引擎内省信标*, §1 — Boundary→Introspection 跨层路径
-- *暗扇区通信协议*, §2 — ε 级弱耦合信道设计
+- *Arena Three-Body Architecture*, §4 — sandbox boundary layer shielding protocol
+- *Engine Introspection Beacon*, §1 — Boundary→Introspection cross-layer path
+- *Dark-Sector Communication Protocol*, §2 — ε-level weak coupling channel design
+---

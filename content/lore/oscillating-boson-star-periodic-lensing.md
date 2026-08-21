@@ -1,5 +1,5 @@
 ---
-title: "振荡玻色星周期透镜 — 时空编译器的锁相中断"
+title: "Oscillating Boson Star Periodic Lensing — Phase-Lock Interruption of the Spacetime Compiler"
 date: 2026-07-19
 tags:
   - boson-star
@@ -11,9 +11,9 @@ tags:
 arxiv_ref: PRL 137, 031403 (2026)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *想象一口钟，它的钟摆不只是摆动，而是整个钟的空间本身在伸缩。光线穿过这口钟时，不是被折射一次，而是每半次钟摆就重新聚焦一次，像心跳一样规律。更可怕的是：如果你知道这口钟的节奏，你可以算准每一步光线的出现和消失，就像是拿着时空的节拍器在指挥。*
+> *Imagine a bell whose pendulum does not merely swing, but the very space of the entire bell expands and contracts. Light passing through this bell is not refracted once, but refocused every half-swing, as regular as a heartbeat. More unsettling: if you know the rhythm of this bell, you can calculate precisely when each light ray appears and disappears, as if conducting with a metronome of spacetime.*
 
 ## Phenomenon
 

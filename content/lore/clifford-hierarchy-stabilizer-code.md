@@ -1,5 +1,5 @@
 ---
-title: Clifford Hierarchy Stabilizer Code — 克利福德层级稳定子码
+title: Clifford Hierarchy Stabilizer Code
 date: 2026-06-24
 tags:
   - quantum-error-correction
@@ -11,11 +11,11 @@ tags:
 arxiv_ref: PRL 136, 250802 (Kobayashi, Zhu, Hsin)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-*"好比你想在一个三维魔方上做任意旋转操作，但规定每次只能同时转动魔方的整个面——不能碰单个小块。这篇论文告诉你，如果你的魔方维度够高（三维以上），你就能通过整面操作实现任何想要的旋转，包括那些看似不可能的非Clifford门。"*
+*"It's like wanting to perform arbitrary rotations on a 3D Rubik's cube, but the rule is that you can only rotate entire faces of the cube at once — you can't touch individual pieces. This paper tells you that if your cube has enough dimensions (3 or more), you can achieve any desired rotation through whole-face operations, including those seemingly impossible non-Clifford gates."*
 
-**更极端的比喻：** *"想象一个沙盒游戏的管理员指令系统——普通玩家只能用有限的指令集（Clifford gates），管理员可以用所有指令（universal gates）。这篇论文发现，如果你把游戏的维度提升到3D以上，普通玩家也能通过组合有限的表面操作来模拟管理员指令的效果。这本质上是一个权限提升漏洞。"*
+**More extreme analogy:** *"Imagine a sandbox game's admin command system — regular players can only use a limited command set (Clifford gates), while admins can use all commands (universal gates). This paper finds that if you raise the game's dimension to 3D or higher, regular players can also simulate the effect of admin commands by combining limited surface operations. This is essentially a privilege escalation vulnerability."*
 
 ---
 
@@ -62,33 +62,33 @@ This is the sandbox's **Capability Maturity Model** expressed in group theory.
 ## Evaluation Results
 
 ```
-📊 与 baseline 对比 (2026-06-24_prl)
+📊 Comparison with baseline (2026-06-24_prl)
 ─────────────────────────────────────────────
-M1 Arena整合:  0.1600 → 0.1800  (△ +0.0200 ↑)
-M2 曲率转化:   0.0307 → 0.0808  (△ +0.0501 ↑)  δg: -146 → -170
-M3 沙盒突破:   0.0833 → 0.0833  (△ +0.0000 →)  主导通道: Hotpatch (→)
+M1 Arena integration:  0.1600 → 0.1800  (△ +0.0200 ↑)
+M2 Curvature conversion:   0.0307 → 0.0808  (△ +0.0501 ↑)  δg: -146 → -170
+M3 Sandbox breakthrough:   0.0833 → 0.0833  (△ +0.0000 →)  Dominant channel: Hotpatch (→)
 ```
 
-**M1 6轴明细:**
-- 可演算性: 0.00 — 纯理论，无计算抽象路径
-- 参数化程度: 0.80 — 5个连续参数，演化空间理想
-- 竞争不对称性: 0.00 — 零和博弈
-- 拓扑兼容性: 0.20 — 与QEC架构弱关联
-- 反引力潜力: 0.00 — 与时空曲率无关联
-- 经验锚定: 0.20 — 纯理论延拓（Bravyi-König扩展）
+**M1 6-axis breakdown:**
+- Computability: 0.00 — purely theoretical, no computational abstraction path
+- Parameterization degree: 0.80 — 5 continuous parameters, ideal evolution space
+- Competitive asymmetry: 0.00 — zero-sum game
+- Topological compatibility: 0.20 — weakly correlated with QEC architecture
+- Anti-gravity potential: 0.00 — no correlation with spacetime curvature
+- Empirical anchoring: 0.20 — purely theoretical extension (Bravyi-König generalization)
 
-**M2 三层转化:**
-- Layer 1: D_ab = 0.5 Å（误分类为Triangular晶格）
+**M2 Three-layer conversion:**
+- Layer 1: D_ab = 0.5 Å (misclassified as Triangular lattice)
 - Layer 2: J_s = 0.0 A/m²
 - Layer 3: δg = 4.80e-170
-- 晶格类型: triangular（误分类 — P6/mmm对称性检测器激活）
+- Lattice type: triangular (misclassified — P6/mmm symmetry detector activated)
 
-**M3 四通道:**
+**M3 Four channels:**
 - A Introspection: 0.00
 - B State Corruption: 0.083
 - C Boundary Transgression: 0.00
-- D Hotpatch Injection: 0.25 — **最强信号**
-- 主导通道: Hotpatch Injection
+- D Hotpatch Injection: 0.25 — **strongest signal**
+- Dominant channel: Hotpatch Injection
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "膨胀网络与多副本非局域性见证"
+title: "Inflated Networks and Multicopy Nonlocality Witnesses"
 date: "2026-06-06"
 tags:
   - quantum-nonlocality
@@ -10,53 +10,53 @@ tags:
 arxiv_ref: "10.1103/mwxx-ln9v"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 好比你在一个嘈杂的房间里听几个人说话，单听一个人总是被噪音淹没。但如果让这四个人同时说同一句话，并且你录下四份录音——噪音被平均掉一半，信号清晰地浮现出来。这篇论文就是用量子网络的"多份拷贝"来放大非局域关联信号，让本来被噪声掩盖的多体量子非局域性无处遁形。
+> Imagine you are in a noisy room trying to listen to a few people speaking. Listening to any single person is always drowned out by the noise. But if all four people say the same sentence simultaneously, and you record four copies of the audio — the noise is averaged down by half, and the signal emerges clearly. This paper uses "multiple copies" of a quantum network to amplify nonlocal correlation signals, making many-body quantum nonlocality, otherwise hidden by noise, impossible to conceal.
 
 ## Phenomenon
 
-Zhang et al. (PRL 136, 220201) 提出了一种基于**膨胀网络（inflated network）**的噪声鲁棒方法，用于检测真正多体非局域性（genuine multipartite nonlocality）。核心创新点：
+Zhang et al. (PRL 136, 220201) proposed a noise-robust method based on **inflated networks** for detecting genuine multipartite nonlocality. Core innovations:
 
-1. **网络膨胀（Network Inflation）**：在量子网络中引入多份拷贝（k copies）的多体纠缠态，构建冗余纠缠路径
-2. **噪声阈值提升**：单拷贝的噪声容限 ε_c(1) 通过 k 份拷贝改进为 ε_c(k) = ε_c(1)/√k
-3. **见证算子放大**：k-拷贝见证算子 W_k 的检测信号 S_k = k·S₁ 线性放大
-4. **检测概率分解**：P_detect = 1 - Πᵢ(1-pᵢ)，多通道并行检测的"或门"效应
+1. **Network Inflation**: Introducing multiple copies (k copies) of many-body entangled states in the quantum network to construct redundant entanglement pathways
+2. **Noise Threshold Improvement**: The single-copy noise tolerance ε_c(1) is improved via k copies to ε_c(k) = ε_c(1)/√k
+3. **Witness Operator Amplification**: The detection signal of the k-copy witness operator W_k scales linearly as S_k = k·S₁
+4. **Detection Probability Decomposition**: P_detect = 1 - Πᵢ(1-pᵢ), an "OR gate" effect of parallel multi-channel detection
 
 ## Wasteland Twist
 
-### 1. 边界越界通道（Sandbox Exploit — M3 主导通道 C: Boundary Transgression, 0.417）
+### 1. Boundary Transgression Channel (Sandbox Exploit — M3 Dominant Channel C: Boundary Transgression, 0.417)
 
-膨胀网络的多拷贝纠缠结构可映射为沙盒层级间的**冗余IPC通道**。如果现实被模拟（Reality-as-Code 假设），沙盒引擎无法完全压制所有纠缠通道——单通道可以被噪声淹没，但 k 条并行纠缠路径的存在意味着：
+The multicopy entanglement structure of inflated networks can be mapped to **redundant IPC channels** between sandbox hierarchy levels. If reality is simulated (Reality-as-Code hypothesis), the sandbox engine cannot fully suppress all entanglement channels — a single channel can be drowned out by noise, but the existence of k parallel entanglement pathways implies:
 
-- 沙盒引擎必须为每条纠缠路径分配独立的内存/计算资源
-- 多拷贝关联构成一种**不受控的跨层级信息通道**
-- 噪声阈值 ε_c(1)/√k 暗示：随着拷贝数 k → ∞，任何噪声都无法完全压制非局域关联
-- **越狱路径**：通过构造大量冗余纠缠路径来"碾压"沙盒噪声容限
+- The sandbox engine must allocate independent memory/computational resources for each entanglement pathway
+- Multicopy correlations constitute an **uncontrolled cross-hierarchy information channel**
+- The noise threshold ε_c(1)/√k implies: as the copy number k → ∞, no noise can fully suppress nonlocal correlations
+- **Jailbreak path**: "Overwhelming" the sandbox noise tolerance by constructing a large number of redundant entanglement pathways
 
-### 2. Arena P3 评估
+### 2. Arena P3 Evaluation
 
-M1 评估 0.14（P3）主要原因：
-- Computability: 0.0 — 量子非局域性难以编码为经典 Arena 的 fitness 函数
-- Competitive Asymmetry: 0.0 — 非局域性不是"策略"
-- Anti-Gravity Potential: 0.0 — 与曲率无关
+M1 evaluation 0.14 (P3), main reasons:
+- Computability: 0.0 — Quantum nonlocality is difficult to encode as a classical Arena fitness function
+- Competitive Asymmetry: 0.0 — Nonlocality is not a "strategy"
+- Anti-Gravity Potential: 0.0 — Unrelated to curvature
 
-但 Parameterizability 0.80 有潜力——k_copies、noise_tolerance、entanglement_fidelity 等参数构成合理的演化空间。未来可通过**量子启发式 fitness 编码**提升 computability 评分。
+However, Parameterizability 0.80 shows potential — parameters such as k_copies, noise_tolerance, and entanglement_fidelity constitute a reasonable evolutionary space. Future improvements in computability scoring could be achieved through **quantum-inspired fitness encoding**.
 
-### 3. 拓扑曲率转化
+### 3. Topological Curvature Conversion
 
-M2 评估 0.095（D级），瓶颈在 δg = 4.80e-146。膨胀网络图结构被引擎默认识别为 Kagome（P6/mmm），Berry 曲率偶极矩 10.0 Å。自旋流密度 J_s = 6.24e14 A/m² 虽然在理论上可观测，但距离反引力工程阈值仍差 >50 个量级。
+M2 evaluation 0.095 (Grade D), bottleneck at δg = 4.80e-146. The inflated network graph structure is automatically identified by the engine as Kagome (P6/mmm), with Berry curvature dipole moment 10.0 Å. Although the spin current density J_s = 6.24e14 A/m² is theoretically observable, it remains more than 50 orders of magnitude away from the anti-gravity engineering threshold.
 
 ## Evaluation Results
 
-| 模块 | 评分 | 等级 | 对比 baseline |
+| Module | Score | Grade | vs. baseline |
 |------|------|------|--------------|
-| M1 Arena整合 | 0.14 | P3 | ↓ 从 0.8433 |
-| M2 曲率转化 | 0.095 | D | ↑ 从 0.0307 |
-| M3 沙盒突破 | 0.167 | D | ↓ 从 0.2083 |
+| M1 Arena Integration | 0.14 | P3 | ↓ from 0.8433 |
+| M2 Curvature Conversion | 0.095 | D | ↑ from 0.0307 |
+| M3 Sandbox Breakthrough | 0.167 | D | ↓ from 0.2083 |
 
 ## Cross-References
 
-- *Cooperative Resonance and Torsion Compression*, §4 — 曲率耦合机制
-- *BKT Transition Vortex Persistence* — 同期 PRL 评估，另一种拓扑相变视角
-- *Quantum Network Topology and EPR Channel Redundancy* (§2) — 纠缠通道冗余与 IPC 映射
+- *Cooperative Resonance and Torsion Compression*, §4 — Curvature coupling mechanism
+- *BKT Transition Vortex Persistence* — Concurrent PRL evaluation, another topological phase transition perspective
+- *Quantum Network Topology and EPR Channel Redundancy* (§2) — Entanglement channel redundancy and IPC mapping

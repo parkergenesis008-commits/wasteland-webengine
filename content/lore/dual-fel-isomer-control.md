@@ -1,49 +1,50 @@
 ---
-title: "双振荡器FEL异构体种群操控"
+title: "Two-Oscillator FEL Isomer Population Manipulation"
 date: "2026-07-02"
 tags: ["free-electron-laser", "superfluid-helium", "isomer-control", "vibrational-selection", "quantum-steering"]
 arxiv_ref: "PRL 137, 013001"
 ---
 
-# 双振荡器FEL异构体种群操控
+# Two-Oscillator FEL Isomer Population Manipulation
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *好比用两把调谐到不同频率的音叉，同时敲击一个悬浮在超冷氦液滴中的分子——分子像个小机器人，不同的频率让它"折叠"成不同的形状（异构体）。超流体环境就像冰水浴，每次振动后迅速冷却，锁住分子在某个形状下不变回去。用两束光精确控制分子"变身"的比例。*
+> *Imagine using two tuning forks tuned to different frequencies, simultaneously striking a molecule suspended in an ultracold helium droplet—the molecule acts like a tiny robot, and different frequencies cause it to "fold" into different shapes (isomers). The superfluid environment acts like an ice-water bath, rapidly cooling after each vibration and locking the molecule into a given shape without reverting. Two light beams precisely control the ratio of the molecule's "transformations."*
 
-## Phenomenon（物理机制）
+## Phenomenon (Physical Mechanism)
 
-双振荡器红外自由电子激光器（FEL）产生两束独立可调谐、高度同步的色光（ω₁, ω₂），分别驱动嵌入超流体氦纳米液滴（~10⁴ He 原子，温度 0.4 K）中的分子的不同振动模式。超流体环境具有极快的振动弛豫（τ_relax ~ ps），在每次振动激发后将分子"冻结"在特定的构象异构体势阱中。
+A two-oscillator infrared free-electron laser (FEL) produces two independently tunable, highly synchronized color beams (ω₁, ω₂), which respectively drive different vibrational modes of molecules embedded in superfluid helium nanodroplets (~10⁴ He atoms, temperature 0.4 K). The superfluid environment provides extremely fast vibrational relaxation (τ_relax ~ ps), "freezing" the molecule into specific conformational isomer potential wells after each vibrational excitation.
 
-数学框架：
-- 含时哈密顿量：H(t) = H_mol + E₁(t)·μ cos(ω₁t) + E₂(t)·μ cos(ω₂t)
-- 种群转移概率：P_i(t) = |⟨ψ_i|U(t,0)|ψ_0⟩|²
-- 稳态种群比：R_i/j = k_ij(T_He) × Γ_ij(ω₁,ω₂)
+Mathematical framework:
+- Time-dependent Hamiltonian: H(t) = H_mol + E₁(t)·μ cos(ω₁t) + E₂(t)·μ cos(ω₂t)
+- Population transfer probability: P_i(t) = |⟨ψ_i|U(t,0)|ψ_0⟩|²
+- Steady-state population ratio: R_i/j = k_ij(T_He) × Γ_ij(ω₁,ω₂)
 
-## Wasteland Twist（Reality-as-Code 利用方向）
+## Wasteland Twist (Reality-as-Code Exploitation Directions)
 
-**方向 A — 状态污染 (State Corruption 0.0):**
-双色激发通过"选择性态叠加"污染分子构象空间的纯净态。超流体氦的快速冷却相当于沙盒的"自动垃圾回收机制"——每次能量注入后自动稳定到势阱底部。操控异构体种群比例相当于在 Arena 中调整"策略分布的平衡点"。
+**Direction A — State Corruption (0.0):**
+Two-color excitation contaminates the pure states of the molecular conformational space via "selective state superposition." The rapid cooling of superfluid helium acts as the sandbox's "automatic garbage collection mechanism"—each energy injection automatically stabilizes to the bottom of the potential well. Manipulating the isomer population ratio is equivalent to adjusting the "equilibrium point of strategy distribution" in the Arena.
 
-**方向 B — 热补丁注入 (Hotpatch Injection 0.250):**
-双 FEL 脉冲的延迟和频率组合相当于在运行时向分子"注射"串行指令序列。每个异构体对应不同的"物理状态寄存器值"。通过脉冲定时（~ps 精度）和频率组合，可以实现**多步骤分子编程**——将分子从状态 A 经由中间态 B 转移到目标态 C。
+**Direction B — Hotpatch Injection (0.250):**
+The delay and frequency combinations of the dual FEL pulses correspond to injecting a serial instruction sequence into the molecule at runtime. Each isomer corresponds to a different "physical state register value." Through pulse timing (~ps precision) and frequency combinations, **multi-step molecular programming** can be achieved—transferring the molecule from state A via intermediate state B to target state C.
 
-**方向 C — 引擎内省 (Engine Introspection 0.0):**
-异构体种群比例 R_i/j 的测量结果为底层势能面提供了间接观测通道。每个种群比读数是"沙盒分子的内部存储快照"，但当前框架中缺乏反馈路径来利用这些信息探知沙盒结构。
+**Direction C — Engine Introspection (0.0):**
+The measured isomer population ratio R_i/j provides an indirect observation channel for the underlying potential energy surface. Each population ratio reading is a "snapshot of the internal storage of the sandbox molecule," but the current framework lacks a feedback path to exploit this information for probing the sandbox structure.
 
-**方向 D — 边界越界 (Boundary Transgression 0.0):**
-超流体环境作为"能量扩散屏障"阻止分子穿越相空间边界。即使在双色激发下，分子仍被限在构象势阱的离散集合中，未体现连续谱逃逸。
+**Direction D — Boundary Transgression (0.0):**
+The superfluid environment acts as an "energy diffusion barrier" preventing the molecule from crossing phase-space boundaries. Even under two-color excitation, the molecule remains confined to a discrete set of conformational potential wells, with no evidence of continuum escape.
 
-## M1/M2/M3 评估结果
+## M1/M2/M3 Evaluation Results
 
-| 模块 | 分数 | 等级 | 说明 |
+| Module | Score | Grade | Description |
 |------|------|------|------|
-| M1 Arena 整合可行性 | 0.1400 | P3 | 高参数化 (0.8)，弱实证锚定 (0.2)，零拓扑/反引力 |
-| M2 拓扑→曲率转化 | 0.0307 | D | 无晶格结构，δg=4.80×10⁻¹⁷⁰ |
-| M3 沙盒突破 | 0.0625 | D | 主导通道 Hotpatch (0.25)，其他通道为零 |
+| M1 Arena Integration Feasibility | 0.1400 | P3 | High parameterization (0.8), weak empirical anchoring (0.2), zero topology/anti-gravity |
+| M2 Topology → Curvature Conversion | 0.0307 | D | No lattice structure, δg=4.80×10⁻¹⁷⁰ |
+| M3 Sandbox Breakthrough | 0.0625 | D | Dominant channel Hotpatch (0.25), other channels zero |
 
 ## Cross-References
 
-- *Floquet Temporal Matter*, §2 — 双频驱动与时间晶体的类比
-- *Molecular Programming and Strategy Evolution* — 异构体种群编程与 Arena 策略演化
-- *Superfluid Vortex Rectifier*, §1 — 超流体环境作为计算基质
+- *Floquet Temporal Matter*, §2 — Analogy between two-frequency driving and time crystals
+- *Molecular Programming and Strategy Evolution* — Isomer population programming and Arena strategy evolution
+- *Superfluid Vortex Rectifier*, §1 — Superfluid environment as a computational substrate
+---

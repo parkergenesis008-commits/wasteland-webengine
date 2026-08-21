@@ -12,11 +12,11 @@ tags:
 arxiv_ref: "PRL 136, 231401"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 好比你以为一个旋转的黑洞是某种神秘物体的复杂结构，结果发现它只是两个更简单的东西——一个左旋陀螺和一个右旋陀螺——完美叠在一起。就像用两块乐高拼出一架飞机：不神奇，但没人想到可以这么简单。
+> Imagine you thought a rotating black hole was the complex structure of some mysterious object, only to discover it is just two simpler things—a left-spinning top and a right-spinning top—perfectly stacked together. Like building an airplane from two Lego blocks: not magical, but no one thought it could be this simple.
 >
-> 更准确地说：这就像是你一直以为"旋转"是一种独立存在的基本性质，结果发现旋转其实是两个不旋转但有"扭曲电荷"的东西反向叠出来的。每一个单个的NUT instanton（陶伯-NUT瞬子）本身不旋转，但它携带一个叫做"NUT电荷"的拓扑标记——就像螺丝的螺纹方向。把一个左螺纹和一个右螺纹的瞬子叠在一起，它们之间产生一个旋转效应，这就是Kerr度规。整个广义相对论里描述的旋转黑洞，可能只是拓扑合成的产物。
+> More precisely: it is as if you always believed "rotation" was an independent fundamental property, only to find that rotation is actually the reverse superposition of two non-rotating objects carrying a "twist charge." Each individual NUT instanton (Taub-NUT instanton) does not rotate by itself, but it carries a topological marker called "NUT charge"—like the thread direction of a screw. Stacking a left-threaded and a right-threaded instanton together produces a rotational effect between them, and that is the Kerr metric. The rotating black hole described throughout general relativity may simply be a product of topological synthesis.
 
 ## Phenomenon
 
@@ -54,11 +54,11 @@ With electromagnetism added, the SD/ASD superposition naturally carries charge. 
 ## Evaluation Results
 
 ```
-📊 M1/M2/M3 评估 (2026-06-11)
+📊 M1/M2/M3 Evaluation (2026-06-11)
 ─────────────────────────────────────────────
-M1 Arena整合:    0.315 → 0.195  (△ -0.120 ↓)  P3
-M2 曲率转化:     0.095 → 0.031  (△ -0.064 ↓)  Grade D, δg: 4.80e-146
-M3 沙盒突破:     0.146 → 0.125  (△ -0.021 ↓)  Tier D, 主导通道: Hotpatch (0.25)
+M1 Arena Integration:    0.315 → 0.195  (△ -0.120 ↓)  P3
+M2 Curvature Conversion: 0.095 → 0.031  (△ -0.064 ↓)  Grade D, δg: 4.80e-146
+M3 Sandbox Breakthrough: 0.146 → 0.125  (△ -0.021 ↓)  Tier D, Dominant Channel: Hotpatch (0.25)
 ```
 
 ### Analysis

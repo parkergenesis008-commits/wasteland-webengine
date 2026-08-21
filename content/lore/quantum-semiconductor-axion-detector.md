@@ -1,5 +1,5 @@
 ---
-title: "量子半导体异质结构轴子暗物质探测器"
+title: "Quantum Semiconductor Heterostructure Axion Dark Matter Detector"
 date: "2026-06-20"
 tags:
   - axion
@@ -11,9 +11,9 @@ tags:
 arxiv_ref: "PRL 136, 241001 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language analogy
 
-*这就好比在半导体芯片上织了一张精密的网，专门捕捉宇宙中最飘忽的幽灵粒子——轴子撞到这张网上的特定频率，就会变成能被探测到的光子。像收音机调频，但调的频道是暗物质的电台。*
+*This is akin to weaving a precision net on a semiconductor chip, specifically designed to capture the most elusive ghost particles in the universe—when an axion strikes this net at a specific frequency, it transforms into a detectable photon. Like tuning a radio, but the channel being tuned is the dark matter station.*
 
 ## Phenomenon
 
@@ -45,3 +45,4 @@ The conversion cross-section scales as $\sigma_{a \rightarrow \gamma} \propto g^
 
 - *Cooperative Resonance and Torsion Compression*, §3 — Axion coupling to torsion fields
 - *Kagome Vacancy Engineering*, §2 — Heterostructure bandgap engineering parallels
+---

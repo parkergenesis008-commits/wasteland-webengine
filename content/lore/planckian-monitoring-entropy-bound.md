@@ -5,11 +5,11 @@ tags: [quantum-thermodynamics, entropy, measurement, planckian-bound, arena-feas
 arxiv_ref: "PRL 137, 030402"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-想象你在黑暗中摸一个保险柜的密码锁——每次拨动一个数字，你都"获得"了一点关于正确密码的信息。但这个信息获取不是免费的：每拨一次，你就消耗一点能量，产生一点"熵"（混乱度）。普朗克极限告诉你的就是：无论你的手法多高明，每秒能获取的信息量存在一个天花板——就像你拨密码的速度不能超过体温乘以某个宇宙常数。
+Imagine you are fumbling for a safe's combination lock in the dark—each time you turn a dial, you "gain" a bit of information about the correct code. But this information gain is not free: with each turn, you expend a little energy and generate a little "entropy" (disorder). The Planckian limit tells you this: no matter how skillful your technique, there is a ceiling on how much information you can acquire per second—just as the speed at which you turn the dial cannot exceed body temperature times some universal constant.
 
-那么，如果你不是摸密码锁，而是在"观测"一个量子系统的初始状态呢？每观测一次，你就不可逆地获得了信息——测量本身就在创造熵。这个框架告诉我们：**观察即生产信息，信息即生产熵**。
+Now, what if instead of fumbling with a combination lock, you are "observing" the initial state of a quantum system? Each observation irreversibly acquires information—the measurement itself creates entropy. This framework tells us: **observation produces information, and information produces entropy**.
 
 ## Phenomenon
 

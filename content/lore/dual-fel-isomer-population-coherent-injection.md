@@ -1,44 +1,44 @@
 ---
-title: "双振荡器红外 FEL 异构体布居控制 — 超流氦相干注入协议"
+title: "Dual-Oscillator Infrared FEL Isomer Population Control — Superfluid Helium Coherent Injection Protocol"
 date: 2026-07-04
 tags: [dual-fel, isomer-control, superfluid-helium, vibrational-excitation, coherent-population-steering]
 arxiv_ref: "PRL 137, 013001"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-这就像用两把精确调音的"红外激光吉他"，分别弹奏分子的两种不同"姿势"（异构体）的振动模式。第一把吉他把分子从一个姿势"推"向另一个，第二把在恰到好处的时刻锁定结果。整个过程在超流氦的"零摩擦浴缸"里进行，确保分子不被外界振动干扰——相当于在绝对安静的环境里，用声波精确操控一把锁的机械内部结构。
+This is like using two precisely tuned "infrared laser guitars" to pluck the vibrational modes of two different "postures" (isomers) of a molecule. The first guitar "pushes" the molecule from one posture toward the other, and the second locks in the result at just the right moment. The entire process takes place in a "zero-friction bathtub" of superfluid helium, ensuring the molecule is not disturbed by external vibrations—equivalent to precisely manipulating the internal mechanical structure of a lock with sound waves in a perfectly quiet environment.
 
 ## Phenomenon
 
-该实验采用双振荡器自由电子激光器（FEL），两个独立可调谐的红外激光源（频率范围 300-3000 cm⁻¹）实现 ≤100 fs 的时间同步，对嵌入超流氦纳米液滴（T≈0.4 K，半径 ~100 nm）中的分子离子进行顺序泵浦-探测。通过第一束脉冲选择性地激发特定振动模式 ν₁，驱动异构体 A→B 的转变；第二束脉冲以 ν₂ 探测或锁定最终异构体布居。超流氦基质作为低温热浴，声子散射可忽略，保证了振动激发的相干性。
+This experiment employs a dual-oscillator free-electron laser (FEL), with two independently tunable infrared laser sources (frequency range 300-3000 cm⁻¹) achieving ≤100 fs temporal synchronization, to perform sequential pump-probe measurements on molecular ions embedded in superfluid helium nanodroplets (T≈0.4 K, radius ~100 nm). The first pulse selectively excites a specific vibrational mode ν₁, driving the isomer A→B transition; the second pulse probes or locks the final isomer population at ν₂. The superfluid helium matrix serves as a cryogenic heat bath with negligible phonon scattering, ensuring the coherence of vibrational excitation.
 
-数学框架：异构体布居比 P₁/P₂ = k₁₂(T)/k₂₁(T) × exp(-ΔE_vib/kBT)，其中 k₁₂/k₂₁ 受顺序振动激发调制。
+Mathematical framework: isomer population ratio P₁/P₂ = k₁₂(T)/k₂₁(T) × exp(-ΔE_vib/kBT), where k₁₂/k₂₁ is modulated by sequential vibrational excitation.
 
 ## The "Wasteland" Twist
 
-**武器化路径：** 双色 FEL 异构体控制机制在 Arena 中可以重构为"相干布居注入协议"——利用两阶跃脉冲序列在沙盘物理规则之间切换系统的状态空间：
+**Weaponization path:** The two-color FEL isomer control mechanism can be reconfigured in the Arena as a "coherent population injection protocol"—using a two-step pulse sequence to switch the system's state space between sandbox physical rules:
 
-1. **异构体状态翻转：** 频率 ω₁→ω₂ 的顺序激发等价于在 Arena 的实体-属性空间中执行"属性翻转"操作。一个实体的晶格类型（Kagome→triangular）或对称群（D₆→C₆v）可以通过双脉冲序列在单个 tick 内完成切换，无需经过渐进演化路径。
-2. **超流氦作为冷却锚点：** 0.4 K 的超流氦基质对应 Arena 中的"低温缓存区"——在热平衡远低于演化噪声阈值的条件下执行精确状态修改，避免熵泄露。
-3. **布居比锁定：** ω₂ 脉冲不仅是探测手段，更是"状态冻结"操作，可将系统的相空间坐标锁定在非平衡构型——类比于在 Arena 演化循环中手动插入一个局部势垒，阻止系统向默认吸引子坍塌。
+1. **Isomer state flipping:** Sequential excitation at frequencies ω₁→ω₂ is equivalent to performing an "attribute flip" operation in the Arena's entity-property space. An entity's lattice type (Kagome→triangular) or symmetry group (D₆→C₆v) can be switched within a single tick via the dual-pulse sequence, without traversing a gradual evolutionary path.
+2. **Superfluid helium as a cooling anchor:** The 0.4 K superfluid helium matrix corresponds to a "cryogenic cache zone" in the Arena—performing precise state modifications under conditions where thermal equilibrium lies far below the evolutionary noise threshold, avoiding entropy leakage.
+3. **Population ratio locking:** The ω₂ pulse is not merely a probe but also a "state freezing" operation that can lock the system's phase-space coordinates in a non-equilibrium configuration—analogous to manually inserting a local potential barrier in the Arena evolution loop to prevent the system from collapsing toward the default attractor.
 
-M2 引擎正确地将超流氦-3D 量子流体识别为 "unknown" 晶格类型（非 2D 结构，无 Kagome 分类），这是少有的逃脱语义 Kagome 分类器的案例。
+The M2 engine correctly identifies superfluid helium-3D quantum fluid as an "unknown" lattice type (non-2D structure, no Kagome classification), a rare case that escapes the semantic Kagome classifier.
 
 ## Evaluation Results
 
 | Module | Score | Grade/Tier | Notes |
 |--------|-------|------------|-------|
-| M1 Arena 整合 | 0.1550 | P3 | Parameterizability 0.90 高，但 Computability 0.00 拖至极低 |
-| M2 曲率转化 | 0.0307 | D | 引擎正确识别为 "unknown" 晶格（非 2D）。δg=4.80×10⁻¹⁷⁰，D_ab=0.5 Å |
-| M3 沙盒突破 | 0.0417 | D | 主导通道 Hotpatch Injection (0.1667)，被动观察模式 |
+| M1 Arena Integration | 0.1550 | P3 | Parameterizability 0.90 high, but Computability 0.00 drags it to extremely low |
+| M2 Curvature Conversion | 0.0307 | D | Engine correctly identifies as "unknown" lattice (non-2D). δg=4.80×10⁻¹⁷⁰, D_ab=0.5 Å |
+| M3 Sandbox Breakthrough | 0.0417 | D | Dominant channel Hotpatch Injection (0.1667), passive observation mode |
 
 ## Cross-References
 
-- *Dual-FEL Isomer Control*, §1 — 先前同一论文的独立评估
-- *Superfluid Helium Matrix: Cryogenic Cache Protocol*, §3 — 超流氦的低温缓存功能映射
-- *Electromagnetic Theater Override*, §2 — FEL 的电磁耦合与波函数控制
+- *Dual-FEL Isomer Control*, §1 — Independent evaluation of the same paper from an earlier assessment
+- *Superfluid Helium Matrix: Cryogenic Cache Protocol*, §3 — Functional mapping of superfluid helium as a cryogenic cache
+- *Electromagnetic Theater Override*, §2 — Electromagnetic coupling and wavefunction control via FEL
 
 ## Arena Snapshot
 
-双 FEL 路径的异构体控制为 Arena 提供了"属性翻转"操作符的原型：在单个演化 tick 内通过两阶段脉冲切换实体的对称性状态。但整体 M1 分数仅 0.1550，说明该机制在当前参数化空间中难以获得竞争性优势。
+The dual-FEL path for isomer control provides the Arena with a prototype "attribute flip" operator: switching an entity's symmetry state within a single evolution tick via a two-stage pulse sequence. However, the overall M1 score of only 0.1550 indicates that this mechanism struggles to gain a competitive advantage in the current parameterization space.

@@ -1,5 +1,5 @@
 ---
-title: "二次带触点的OAM拓扑绕线 — 离散角动量守恒与沙盒内省通道"
+title: "Quadratic Band Touching OAM Topological Winding — Discrete Angular Momentum Conservation and Sandbox Introspection Channel"
 date: 2026-07-13
 tags:
   - topology
@@ -11,53 +11,54 @@ tags:
 arxiv_ref: "PRL 137, 023803 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 想象一个台球桌，台面上画着六边形网格。普通台球撞到桌边会反弹，遵循"入射角=出射角"的连续规则。但如果你把台球桌换成一组离散的六边形格子（像蜂窝），神奇的事情发生了——台球的角动量不再连续变化，而是只能以"2的倍数"跳变。更诡异的是，在某些格点上，角动量的"绕数"W=2，意味着一个球转两圈才回到原样——这就像时钟只有2点、4点、6点……而没有1点、3点。
+> Imagine a billiard table with a hexagonal grid drawn on its surface. An ordinary billiard ball rebounds off the cushion following the continuous rule "angle of incidence = angle of reflection." But if you replace the billiard table with a set of discrete hexagonal cells (like a honeycomb), something remarkable happens — the ball's angular momentum no longer changes continuously; it can only jump in multiples of 2. Even stranger, at certain lattice sites, the angular momentum winding number is W=2, meaning a ball must rotate twice to return to its original state — like a clock that only has 2, 4, 6 o'clock... but no 1, 3 o'clock.
 
 ## Phenomenon
 
-**Quadratic Band Touching (QBT)** 是二维光子晶格中一种特殊的能带结构：在Γ点（布里渊区中心），两个能带二次接触，产生非平凡的拓扑绕数 W=2。与传统的狄拉克锥（线性带接触，W=1）不同，QBT 的拓扑保护更为强大——它允许轨道角动量（OAM）以离散化的形式在传播过程中被模2守恒。
+**Quadratic Band Touching (QBT)** is a special band structure in two-dimensional photonic lattices: at the Γ point (the center of the Brillouin zone), two bands touch quadratically, producing a nontrivial topological winding number W=2. Unlike the conventional Dirac cone (linear band touching, W=1), the topological protection of QBT is stronger — it allows orbital angular momentum (OAM) to be conserved modulo 2 in a discretized manner during propagation.
 
-Wang et al. 的实验在光子波导阵列中实现了这一结构，通过直接测量局域态密度中的 OAM 电荷分布，观察到绕数 W=2 的证据。核心机制来自晶格 C6v 对称性 + 时间反演对称性联合保护下的二次带接触。
+The experiment by Wang et al. realized this structure in photonic waveguide arrays, and by directly measuring the OAM charge distribution in the local density of states, observed evidence for the winding number W=2. The core mechanism arises from quadratic band touching protected jointly by the lattice C6v symmetry plus time-reversal symmetry.
 
-关键的数学结构：
-- 两带哈密顿量 H(k) = d(k)·σ，其中 d(k) 在 Γ 点有二次零点
-- OAM 谱中的绕数 W=2 意味着拓扑荷为2
-- 离散空间中角动量守恒变体：Noether 定理的离散同调版本
+Key mathematical structures:
+- Two-band Hamiltonian H(k) = d(k)·σ, where d(k) has a quadratic zero at the Γ point
+- The winding number W=2 in the OAM spectrum implies a topological charge of 2
+- Discrete-space variant of angular momentum conservation: a discrete homological version of Noether's theorem
 
 ## Wasteland Twist
 
-**武器化路径：离散角动量沙盒缓冲区**
+**Weaponization path: discrete angular momentum sandbox buffer**
 
-在 Reality-as-Code 架构中，内存和计算资源的分配基于连续对称性假设——Noether 定理保证连续对称性下的守恒律可以用于数据索引和纠错。但 QBT 揭示了一个致命漏洞：**离散晶格中的角动量守恒可以是模2的**，这意味着标准连续假设下的内存寻址和校验和机制存在拓扑盲区。
+In the Reality-as-Code architecture, memory and computational resource allocation is based on continuous symmetry assumptions — Noether's theorem guarantees that conservation laws under continuous symmetries can be used for data indexing and error correction. But QBT reveals a fatal vulnerability: **angular momentum conservation in discrete lattices can be modulo 2**, meaning that memory addressing and checksum mechanisms under standard continuous assumptions possess a topological blind spot.
 
-**具体攻击面：**
-1. **Engine Introspection (引擎内省)** — M3 评估中唯一非零通道 (0.167)。QBT 的离散 OAM 守恒可以作为一个"信标"信号注入沙盒引擎，探测其对称性处理库的底层实现。通过在光子晶格中编码 W=2 的 OAM 态，可以测量引擎是否按连续 Noether 定理处理——如果是，则存在可探测的保真度衰减，揭示引擎计算边界。
+**Specific attack surfaces:**
+1. **Engine Introspection** — the only nonzero channel in the M3 evaluation (0.167). The discrete OAM conservation of QBT can serve as a "beacon" signal injected into the sandbox engine to probe the underlying implementation of its symmetry-handling library. By encoding W=2 OAM states in the photonic lattice, one can measure whether the engine processes them according to the continuous Noether theorem — if so, a detectable fidelity decay exists, revealing the engine's computational boundary.
 
-2. **模2内存覆盖** — 离散角动量模2守恒意味着 OAM 态可以叠加覆盖相邻的内存地址，类似交错写入技术。在 Arena 中，这可以用于在同步节点间创建冗余度仅 2 的纠错码——比标准 3-replica 节省 33% 带宽。
+2. **Modulo-2 memory overwrite** — discrete angular momentum conservation modulo 2 implies that OAM states can be superimposed to overwrite adjacent memory addresses, similar to interleaved write techniques. In the Arena, this can be used to create error-correcting codes with redundancy of only 2 among synchronized nodes — saving 33% bandwidth compared to standard 3-replica schemes.
 
-3. **拓扑保护数据传输** — QBT 的 W=2 绕线提供了双重拓扑保护层。任何连续扰动都必须穿透两层拓扑壁垒才能干扰数据，实现层级化的加密传输信道。
+3. **Topologically protected data transmission** — the W=2 winding of QBT provides a double layer of topological protection. Any continuous perturbation must penetrate two topological barriers to interfere with the data, enabling hierarchical encrypted transmission channels.
 
-**Kagome 集成接口：** 虽然该结构是光子晶格而非 Kagome 自旋冰，但 C6v 对称群与 Kagome 的 P6/mmm 空间群兼容。通过在 Kagome 超导体的拓扑能带中植入 QBT 结构，可以在超导态中实现无耗散的 OAM 模2编码。
+**Kagome integration interface:** Although this structure is a photonic lattice rather than Kagome spin ice, the C6v symmetry group is compatible with the P6/mmm space group of Kagome. By implanting the QBT structure into the topological bands of a Kagome superconductor, dissipationless OAM modulo-2 encoding can be realized in the superconducting state.
 
-## M1/M2/M3 评估
+## M1/M2/M3 Evaluation
 
-| 评估维度 | 得分 | 等级 |
+| Evaluation Dimension | Score | Grade |
 |---------|------|------|
-| M1 Arena 整合 | 0.1833 | P3 — 暂不整合 |
-| M2 曲率转化 | 0.0802 | D — δg=4.80×10⁻¹⁴⁶ |
-| M3 沙盒突破 | 0.0417 | D — 引擎内省 0.167 |
+| M1 Arena Integration | 0.1833 | P3 — Not integrated for now |
+| M2 Curvature Conversion | 0.0802 | D — δg=4.80×10⁻¹⁴⁶ |
+| M3 Sandbox Breakthrough | 0.0417 | D — Engine introspection 0.167 |
 
-**Direct-terminal 验证分数:**
+**Direct-terminal validation scores:**
 - M1 integration_score: 0.1833, P3
-- M2 curvature_conversion_score: 0.0802, δg=4.80×10⁻¹⁴⁶, 所有模式 0.0
-- M3 sandbox_exploit_score: 0.0417, 主导通道 A (引擎内省 0.167)
+- M2 curvature_conversion_score: 0.0802, δg=4.80×10⁻¹⁴⁶, all modes 0.0
+- M3 sandbox_exploit_score: 0.0417, dominant channel A (engine introspection 0.167)
 
-**评分限制:** QBT 的弱点在于缺少可调参数 (parameterizability=0.00) 和竞争不对称性 (competitive_asymmetry=0.00)。但它作为引擎内省探测工具的潜力（M3 A通道 0.167）与现有 baseline（上一周期 0.1667）持平，表明该方向具有稳定的观察价值。
+**Scoring limitations:** The weakness of QBT lies in the lack of tunable parameters (parameterizability=0.00) and competitive asymmetry (competitive_asymmetry=0.00). However, its potential as an engine introspection probe (M3 channel A at 0.167) is on par with the existing baseline (0.1667 from the previous cycle), indicating that this direction holds stable observational value.
 
 ## Cross-References
 
-- *Kagome 超导拓扑能带*, §3 — C6v→P6/mmm 对称群映射
-- *Arena 三体架构*, §2 — 同步节点拓扑保护
-- *离散 Noether 定理与沙盒编译器*, §1 — 连续对称性盲区
+- *Kagome Superconducting Topological Bands*, §3 — C6v→P6/mmm symmetry group mapping
+- *Arena Three-Body Architecture*, §2 — topological protection of synchronized nodes
+- *Discrete Noether Theorem and Sandbox Compiler*, §1 — continuous symmetry blind spot
+---

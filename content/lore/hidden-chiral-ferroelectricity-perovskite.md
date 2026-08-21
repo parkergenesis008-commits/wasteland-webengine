@@ -1,5 +1,5 @@
 ---
-title: "隐藏手性铁电 — 3D钙钛矿中的极化域编译"
+title: "Hidden Chiral Ferroelectricity — Polarization Domain Compilation in 3D Perovskites"
 date: 2026-07-19
 tags:
   - chiral-ferroelectricity
@@ -11,9 +11,9 @@ tags:
 arxiv_ref: PRL 137, 036102 (2026)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *想象一堆积木，每块看起来一模一样，但内部每块都有一个微小的旋钮可以左右拧。当你把所有旋钮都向左拧时，整堆积木表面看起来还是中性的——但每个积木内部已经划分了左旋和右旋的区域。更妙的是，你用一个外部磁场扫过去，这些隐藏的旋钮区域可以整体翻转，像围棋棋盘一次性翻面。这就是AgNbO₃——表面中性的"隐藏手性铁电体"。*
+> *Imagine a stack of building blocks, each looking identical, but inside each block there is a tiny knob that can be turned left or right. When you turn all knobs to the left, the entire stack still appears neutral on the surface — but inside each block, left-handed and right-handed regions have already been partitioned. Even better, when you sweep an external magnetic field across, these hidden knob regions can flip as a whole, like a Go board flipping over in one move. This is AgNbO₃ — a "hidden chiral ferroelectric" with a neutral surface.*
 
 ## Phenomenon
 
@@ -50,3 +50,4 @@ The **hidden chiral ferroelectricity** mechanism maps to a **compile-time polari
 - *Cooperative Resonance and Torsion Compression*, §2 (octahedral tilt → torsion)
 - *Chiral Phonon Tellurium Helical*, §1 (chirality as information carrier)
 - *Antiferroaxial Altermagnetism*, §3 (hidden order parameters)
+---

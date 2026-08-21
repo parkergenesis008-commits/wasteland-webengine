@@ -1,5 +1,5 @@
 ---
-title: "碲晶体中的手性声子动量解析"
+title: "Momentum-Resolved Chiral Phonons in Tellurium Crystals"
 date: "2026-06-16"
 tags:
   - phonon
@@ -10,9 +10,9 @@ tags:
 arxiv_ref: "PRL 136, 246101"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 想象一台由原子组成的螺旋滑梯——电子可以顺着滑梯的螺旋方向更顺畅地"滑"，而逆着螺旋方向则受阻。手性声子就是原子晶格本身在做这种螺旋振动，而这种振动携带角动量，像陀螺一样可以传递给电子自旋。碲晶体就是天生的螺旋滑梯，它的原子排列本身就是左旋或右旋的。
+> Imagine a helical slide made of atoms — electrons can "slide" more easily along the helix's winding direction, while moving against the winding is hindered. Chiral phonons are the atomic lattice itself undergoing such helical vibrations, and these vibrations carry angular momentum, like a gyroscope, which can be transferred to electron spins. Tellurium crystals are naturally occurring helical slides — their atomic arrangement is intrinsically left-handed or right-handed.
 
 ## Phenomenon
 
@@ -45,3 +45,4 @@ Three exploit vectors:
 - *Baryonic Torsion and Kagome Compression*, §5 — spin-phonon coupling as torsion injection channel
 - *Helical Lattice Thermodynamics*, §2 — Te's P3₁21 space group and its chiral properties
 - *Phonon Vortex Beam Generation*, future protocol — coherent chirality focusing
+---

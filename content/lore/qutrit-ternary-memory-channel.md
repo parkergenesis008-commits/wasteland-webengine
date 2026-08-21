@@ -1,5 +1,5 @@
 ---
-title: "Qutrit三元隐藏内存通道与热补丁注入"
+title: "Qutrit Ternary Hidden Memory Channel and Hotpatch Injection"
 date: "2026-06-15"
 tags:
   - qutrit
@@ -13,11 +13,11 @@ tags:
 arxiv_ref: "Phys. Rev. Lett. 136, 230803 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *"想象一个普通的电灯开关（二进制 qubit）：只能开或关。现在换成一个三档旋钮（qutrit）：关、弱光、强光。多了一个挡位，就意味着你能在同一个物理器件里编码更多信息——而且这个'第三挡'对只检查开关的人是完全不可见的。"*
+> *"Imagine an ordinary light switch (binary qubit): it can only be on or off. Now replace it with a three-position knob (qutrit): off, dim, bright. The extra position means you can encode more information in the same physical device — and this 'third position' is completely invisible to someone who only checks the switch."*
 
-更精确地说：这就像给每个计算单元偷塞了一个"隐藏寄存器"。在标准的量子计算架构里，每个超导transmon本来就有三个能级 |0⟩、|1⟩、|2⟩，但人们通常只用前两个。这篇论文发现，通过精心调制的微波脉冲，可以精确操控第三个能级——在多出整整一倍的希尔伯特空间中进行运算，同时用DRAG技术阻止信息泄漏到更高的非计算能级 |3⟩。这意味着：每个量子元件的"内存"凭空增加了50%。
+More precisely: this is like secretly stashing a "hidden register" in every computational unit. In standard quantum computing architectures, each superconducting transmon inherently has three energy levels |0⟩, |1⟩, |2⟩, but people typically use only the first two. This paper finds that, through carefully shaped microwave pulses, the third level can be precisely controlled — performing operations in a Hilbert space that is twice as large, while using DRAG techniques to prevent information leakage into the higher non-computational level |3⟩. This means: the "memory" of each quantum element increases by 50% out of thin air.
 
 ## Phenomenon
 
@@ -90,7 +90,7 @@ The qutrit ternary memory channel is the computational equivalent of **writing d
 
 ## Cross-References
 
-- *PBH视界晶格与小红点异常*, §3 — horizon lattice as segfault boundary, compare with Hilbert space overflow
+- *PBH Horizon Lattice and Little Red Dot Anomaly*, §3 — horizon lattice as segfault boundary, compare with Hilbert space overflow
 - *Ternary Quantum Computation: SU(3) Gate Synthesis* — DRAG leakage suppression mathematics
 - *Reality-as-Code: Simulation Architecture*, §5 — monitoring layers and register allocation
 - *Su(11) Optomechanical Subshot-Noise Lattice*, §2 — transmon/photon coupling interfaces

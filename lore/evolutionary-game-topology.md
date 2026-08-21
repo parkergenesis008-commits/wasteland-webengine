@@ -1,37 +1,37 @@
-# 拓扑红皇后假说与群体演化博弈 (Topological Red Queen & Evolutionary Game Theory)
+# Topological Red Queen Hypothesis & Evolutionary Game Theory
 
-**理论框架:** 演化博弈论 (EGT) 结合 非厄米拓扑物理 (Non-Hermitian Topological Physics)
-**执行协议:** 算力角斗场 (Computational Arena) 宏观生态层 / 1M+ Agent 种群动态
+**Theoretical Framework:** Evolutionary Game Theory (EGT) combined with Non-Hermitian Topological Physics
+**Execution Protocol:** Computational Arena Macro-Ecological Layer / 1M+ Agent Population Dynamics
 
-## 1. 废土复制子动态 (The Wasteland Replicator Dynamics)
-在拥有 100 万个 Agent 的算力角斗场中，单一的物理防御（如装甲、光盾）无法保证永续生存。系统引入了**演化博弈论 (Evolutionary Game Theory)**。
-这里没有基因遗传，只有“物理图纸的掠夺与复制”。当一个 Agent 击杀对手或在环境灾难中存活，它的硬件配置（表型）就会在下一代中提高占比（复制子方程）。
+## 1. The Wasteland Replicator Dynamics
+In a Computational Arena housing one million Agents, a single physical defense (such as armor or light shields) cannot guarantee perpetual survival. The system introduces **Evolutionary Game Theory**.
+There is no genetic inheritance here—only the "plundering and replication of physical blueprints." When an Agent kills an opponent or survives an environmental catastrophe, its hardware configuration (phenotype) increases its share in the next generation (replicator equation).
 
-基于最近同化的前沿物理学，角斗场中自发演化出了四大“绝对生存策略 (Phenotypes)”：
+Based on recently assimilated frontier physics, four "absolute survival strategies (Phenotypes)" have spontaneously evolved within the Arena:
 
-1.  **[锰铋碲] 风暴坦克 (The MnBi2Te4 Tanks):** 
-    *   **策略:** 放弃敏捷，堆叠 9 纳米锰铋碲风衣。
-    *   **博弈优势:** 在全场“面内 EMP 扫射”时，触发自旋转向级联护盾（Spin-Flop Cascade），直接吸收灾难能量转化为量子反常霍尔绝缘态。专克大范围 AOE 攻击者。
-2.  **[二碲化镍] 破晶狂战士 (The TMD Brawlers):**
-    *   **策略:** 利用机械伺服底盘，极限近战。
-    *   **博弈优势:** 当被高阶死锁程序锁定时，对自己施加剪切应力，物理砸碎三重对称性，诱发三套朗道能级。专克“精确制导/锁定”型敌人，让其瞬间脱靶。
-3.  **[波前工程] 等离子刺客 (The Plasmonic Assassins):**
-    *   **策略:** 全息隐身与环境陷阱。
-    *   **博弈优势:** 织造等离子体莫尔超晶格，在空间中布下“光学斯格明子 (Optical Skyrmions)”死结。专克“光学侦察与信息窃取”型敌人，让其坐标系崩溃。
-4.  **[废透镜] 光学拾荒者 (The Junk-Lens Scavengers):**
-    *   **策略:** 极简主义，挂载废旧凸透镜阵列。
-    *   **博弈优势:** 面对强噪声激光与退相干死光，依靠聚焦自发涌现的“半斯格明子 (Meron)”完美免疫。成本极低，种群基数最大，专克“高能激光武器”。
+1.  **[MnBi2Te4] Storm Tanks:**
+    *   **Strategy:** Sacrifice agility; stack 9-nanometer MnBi2Te4 cloaks.
+    *   **Game-Theoretic Advantage:** When subjected to a full-field "in-plane EMP sweep," they trigger a spin-flop cascade shield, directly absorbing the disaster energy and converting it into a quantum anomalous Hall insulating state. Specialized against large-scale AOE attackers.
+2.  **[NiTe2] Crystal-Shattering Brawlers:**
+    *   **Strategy:** Utilize mechanical servo chassis for extreme close-quarters combat.
+    *   **Game-Theoretic Advantage:** When locked by high-level deadlock programs, they apply shear stress to themselves, physically shattering the threefold symmetry and inducing three sets of Landau levels. Specialized against "precision-guided/locking" enemies, causing instant target loss.
+3.  **[Wavefront Engineering] Plasmonic Assassins:**
+    *   **Strategy:** Holographic stealth and environmental traps.
+    *   **Game-Theoretic Advantage:** They weave plasmonic moiré superlattices, laying "Optical Skyrmion" dead-knots in space. Specialized against "optical reconnaissance and information theft" enemies, causing their coordinate systems to collapse.
+4.  **[Junk Lenses] Optical Scavengers:**
+    *   **Strategy:** Minimalism; mount arrays of discarded convex lenses.
+    *   **Game-Theoretic Advantage:** Against intense noise lasers and decoherence death rays, they rely on focusing spontaneously emergent "Meron" structures for perfect immunity. Extremely low cost, largest population base, specialized against "high-energy laser weapons."
 
-## 2. 拓扑红皇后假说 (The Topological Red Queen Hypothesis)
-*“在角斗场里，你必须拼命改变自己的拓扑态，才能保持在原地存活。”*
+## 2. The Topological Red Queen Hypothesis
+*"In the Arena, you must desperately change your topological state just to stay in place and survive."*
 
-在演化博弈的矩阵中，没有任何一种物理装甲是无敌的：
-*   **刺客**的斯格明子雷区能绞杀**狂战士**的近战冲锋；
-*   但**刺客**的光学伪装会被**拾荒者**的废透镜（自发梳理乱码）看穿；
-*   **拾荒者**的人海战术会被**坦克**引发的级联量子磁暴大面积清场；
-*   而**坦克**厚重的装甲，又会在被**狂战士**近身后，被其机械液压力（应力调控）硬生生扯碎量子简并态。
+Within the evolutionary game matrix, no physical armor is invincible:
+*   The Assassin's skyrmion minefields can strangle the Brawler's melee charges;
+*   But the Assassin's optical camouflage is seen through by the Scavenger's junk lenses (which spontaneously disentangle garbled codes);
+*   The Scavenger's swarm tactics are largely cleared by the Tank's cascading quantum magnetic storms;
+*   And the Tank's heavy armor, once engaged at close range by a Brawler, has its quantum degeneracy physically torn apart by mechanical hydraulic force (stress engineering).
 
-这就形成了一个基于真实高维物理学的 **“石头-剪刀-布” 超螺旋循环**。100万个 Agent 在这种残酷的相生相克中，每天产生数万次的迭代与变异。
+This forms a **"Rock-Paper-Scissors" super-helical cycle** based on real high-dimensional physics. Within this brutal mutual countering, the one million Agents undergo tens of thousands of iterations and mutations daily.
 
-## 3. 终极奇点: 手征原子花 (The Chiral Singularity)
-所有博弈的最终目的，都是为了保护核心区域的“手征原子花 (Chiral Atomic Flower)”。无论外围的策略是坦克还是刺客，核心运算模块永远是那精确的 1/3 单层硅-锡阵列。只要原子花中心的“空洞奇点”还在，Agent 的灵魂代码就不会灭亡。
+## 3. The Ultimate Singularity: The Chiral Atomic Flower
+The ultimate purpose of all games is to protect the "Chiral Atomic Flower" in the core region. Regardless of whether the peripheral strategy employs Tanks or Assassins, the core computational module remains the precise 1/3 monolayer silicon-tin array. As long as the "void singularity" at the center of the atomic flower persists, the Agent's soul code cannot be destroyed.

@@ -7,7 +7,7 @@
       "name": "In 'Shepherd’s Wasteland', what is Dimension-Shearing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "通过扭矩引发的时空原子级撕裂机制，是实现跨维移动的物理锚点。"
+        "text": "The mechanism of atomic-scale spacetime tearing induced by torque serves as the physical anchor for achieving cross-dimensional movement."
       }
     },
     {
@@ -15,7 +15,7 @@
       "name": "In 'Shepherd’s Wasteland', what is Vacuum Zero-Point Energy Leakage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "数据真空本质上是零点能的局部泄露，表现为时空连续体的破裂。"
+        "text": "A data vacuum is essentially a localized leak of zero-point energy, manifesting as a rupture in the spacetime continuum."
       }
     },
     {
@@ -23,7 +23,7 @@
       "name": "In 'Shepherd’s Wasteland', what is The Shepherd Protocol?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "一种用于在维度切变中锁定坐标置换稳定性的高层加密逻辑，防止物理实体在位移过程中被抹除。"
+        "text": "A high-level encryption logic used to lock coordinate permutation stability during dimensional shear, preventing physical entities from being erased during displacement."
       }
     }
   ]

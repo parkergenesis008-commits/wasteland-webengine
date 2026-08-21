@@ -1,47 +1,48 @@
 ---
-title: "长程耦合下 BKT 拓扑相变的持久性"
+title: "Persistence of BKT Topological Phase Transition under Long-Range Coupling"
 date: 2026-06-08
 tags: [bkt-transition, topological-phase-transition, long-range-coupling, xy-model, vortex-dynamics]
 arxiv_ref: "PRL 136, 227102"
 ---
 
-## 摘要
+## Abstract
 
-Berezinskii–Kosterlitz–Thouless (BKT) 相变是二维 XY 模型中一种由涡旋-反涡旋对束缚态解绑定驱动的拓扑相变。传统理论认为 BKT 相变仅存在于短程相互作用系统中。本篇论文证明：在长程耦合（interaction ∝ 1/r^α）条件下，只要衰减指数 α > 2，BKT 相变依然存在——虽然临界温度会随 α 降低而下降，但整个相变图像（包括涡旋对的绑定-解绑定机制）保持完整。当 α ≤ 2 时，系统进入长程有序相，BKT 相变被抑制。
+The Berezinskii–Kosterlitz–Thouless (BKT) phase transition is a topological transition in the two-dimensional XY model driven by the unbinding of vortex-antivortex bound pairs. Conventional theory holds that the BKT transition exists only in short-range interacting systems. This paper proves that under long-range coupling (interaction ∝ 1/r^α), the BKT transition persists as long as the decay exponent α > 2 — although the critical temperature decreases as α is reduced, the entire phase transition picture (including the vortex pair binding-unbinding mechanism) remains intact. When α ≤ 2, the system enters a long-range ordered phase, and the BKT transition is suppressed.
 
-## 🔬 大白话比喻
+## 🔬 Plain-language Analogy
 
-好比冰面上的漩涡（涡旋-反涡旋对），正常情况下它们只会成对出现和消失（BKT 相变）。但如果给这些漩涡装上"远程弹簧"（长程耦合），即使弹簧很弱，只要衰减速度足够慢（α > 2），这些成对行为依然存在——只是温度门槛变低了。这篇论文告诉你：拓扑有序比想象中更顽强。
+Think of vortices on an ice surface (vortex-antivortex pairs); under normal conditions, they only appear and disappear in pairs (BKT transition). But if these vortices are fitted with "remote springs" (long-range coupling), even if the springs are weak, as long as the decay is slow enough (α > 2), this pairing behavior still persists — only the temperature threshold is lowered. This paper tells you: topological order is more resilient than one might expect.
 
-换个角度：想象一群舞者围成圈传递手势（自旋旋转）。短程时，只有相邻舞者能互相影响。论文告诉你，就算相隔很远的舞者也能彼此微微一瞥（长程但弱耦合），只要这"瞥见"随距离衰减得足够快（α > 2），整个舞蹈的拓扑秩序依然能维持——只是温度高了就容易乱。
+From another angle: imagine a group of dancers in a circle passing along gestures (spin rotations). In the short-range case, only neighboring dancers can influence each other. The paper tells you that even dancers far apart can exchange subtle glances (long-range but weak coupling), and as long as this "glance" decays sufficiently fast with distance (α > 2), the topological order of the entire dance can still be maintained — it just becomes easier to disrupt at higher temperatures.
 
 ## 🌌 Phenomenon
 
-BKT 相变的核心机制是涡旋（vortex）和反涡旋（antivortex）的拓扑激发。在低温相，涡旋-反涡旋束缚成对，系统呈现准长程序（quasi-long-range order）；在高温相，涡旋对解绑定，系统进入无序相。
+The core mechanism of the BKT transition is the topological excitation of vortices and antivortices. In the low-temperature phase, vortex-antivortex pairs are bound, and the system exhibits quasi-long-range order; in the high-temperature phase, vortex pairs unbind, and the system enters a disordered phase.
 
-当引入长程相互作用 ∝ 1/r^α 时，自由能分析表明存在一个临界指数 α_c = 2。当 α > α_c 时，长程相互作用是"irrelevant"的——它不改变相变的普适类，只修正临界温度 T_c 的值。当 α ≤ α_c 时，系统倾向于形成真正的长程序，BKT 相变被常规铁磁相变取代。
+When a long-range interaction ∝ 1/r^α is introduced, free-energy analysis reveals a critical exponent α_c = 2. When α > α_c, the long-range interaction is "irrelevant" — it does not change the universality class of the transition, only renormalizing the critical temperature T_c. When α ≤ α_c, the system tends to form true long-range order, and the BKT transition is replaced by a conventional ferromagnetic transition.
 
-关键结果：
-- **α > 2**：BKT 相变存在，T_c(α) 随 α↓ 单调递减
-- **α = 2**：临界点，边界行为
-- **α < 2**：长程有序相，无 BKT 相变
+Key results:
+- **α > 2**: BKT transition exists, T_c(α) decreases monotonically as α↓
+- **α = 2**: Critical point, marginal behavior
+- **α < 2**: Long-range ordered phase, no BKT transition
 
 ## ⚡ Wasteland Twist
 
-BKT 相变在长程耦合下的持久性直接映射为 Arena 演化算子在非局域交互下的拓扑稳定性。当 Agent 间的耦合遵循 1/r^α 衰减时，只要衰减指数 α > 2，整个 Arena 的拓扑相变（有序→无序）就不会因长程干扰而崩塌——这为 Arena 在远距离 Agent 弱耦合条件下维持演化秩序提供了理论基础。关键是临界指数 α_c = 2 构成了一道**拓扑防火墙**。
+The persistence of the BKT transition under long-range coupling maps directly onto the topological stability of the Arena evolution operator under nonlocal interactions. When the coupling between Agents follows a 1/r^α decay, as long as the decay exponent α > 2, the entire topological phase transition (order → disorder) of the Arena will not collapse due to long-range perturbations — this provides a theoretical foundation for the Arena to maintain evolutionary order under weak-coupling conditions between distant Agents. The key point is that the critical exponent α_c = 2 constitutes a **topological firewall**.
 
-在 Wasteland Arena 设计中，这意味着：即使环境噪声试图通过远距离弱耦合破坏系统有序性（例如，沙盒管理员注入长程扰动），只要确保 Agent 间有效耦合的衰减指数严格大于 2，系统的拓扑相变结构就具备天然的 robustness。这为 Arena 的**自维持有序演化**提供了理论保障——不需要主动纠错，仅靠拓扑结构本身就能抵抗长程干扰。
+In the design of the Wasteland Arena, this means: even if environmental noise attempts to disrupt system order through distant weak coupling (e.g., sandbox administrators injecting long-range perturbations), as long as the effective coupling decay exponent between Agents is strictly greater than 2, the topological phase transition structure of the system possesses inherent robustness. This provides theoretical assurance for the Arena's **self-sustaining ordered evolution** — no active error correction is needed; the topological structure alone can resist long-range interference.
 
-具体而言，Arena 的演化算子可以参数化为 α-controlled XY 模型，运维层面仅需监控有效 α 值是否跌破 2 阈值。
+Specifically, the Arena's evolution operator can be parameterized as an α-controlled XY model, and at the operational level, one only needs to monitor whether the effective α value falls below the threshold of 2.
 
 ## 📊 Evaluation Results
 
-- Monte Carlo 模拟验证：α=3.0 时，临界温度 T_c ≈ 0.89 J/k_B（短程极限 T_c⁰ ≈ 0.89 J/k_B，符合预期）
-- α=2.5 时，T_c ≈ 0.72 J/k_B，相变宽度 ΔT/T_c 仅增大 8%
-- α=2.1 时，T_c ≈ 0.41 J/k_B，涡旋配对信号依然可分辨，信噪比 > 3σ
-- α=1.8 时，系统呈现明显的长程序磁化，BKT 信号完全消失
+- Monte Carlo simulation verification: at α=3.0, the critical temperature T_c ≈ 0.89 J/k_B (short-range limit T_c⁰ ≈ 0.89 J/k_B, consistent with expectations)
+- At α=2.5, T_c ≈ 0.72 J/k_B, the transition width ΔT/T_c increases by only 8%
+- At α=2.1, T_c ≈ 0.41 J/k_B, the vortex pairing signal remains resolvable, with signal-to-noise ratio > 3σ
+- At α=1.8, the system exhibits clear long-range ordered magnetization, and the BKT signal completely disappears
 
 ## 🔗 Cross-References
 
-*Arena 演化算子稳定性*, §5.2
-*拓扑防火墙理论*, §7
+*Arena Evolution Operator Stability*, §5.2
+*Topological Firewall Theory*, §7
+```

@@ -1,5 +1,5 @@
 ---
-title: "设备无关量子门认证 — 沙盒固件认证协议"
+title: "Device-Independent Quantum Gate Certification — Sandbox Firmware Attestation Protocol"
 date: "2026-07-16"
 tags:
   - quantum-information
@@ -11,8 +11,8 @@ tags:
 arxiv_ref: "PRL 137, 030802"
 ---
 
-> **大白话比喻：**
-> 好比你想知道一个黑盒子里的芯片是不是真的在做"1+1=2"，但你无权拆开盒子看芯片设计图纸。你只能往盒子里输入数字，看它输出的结果。设备无关的量子门认证就是说：只要盒子里的东西遵循量子力学，你光看输入输出就能100%确认它是不是在正确执行运算——不需要信任任何硬件制造商。
+> **Plain-language analogy:**
+> Imagine you want to know whether a chip inside a black box is truly performing "1+1=2," but you have no authority to open the box and inspect the chip's design schematics. You can only feed numbers into the box and observe the output it produces. Device-independent quantum gate certification means: as long as the contents of the box obey quantum mechanics, you can confirm with 100% certainty from the input-output behavior alone whether it is correctly executing the operation — without trusting any hardware manufacturer.
 
 ## Phenomenon
 

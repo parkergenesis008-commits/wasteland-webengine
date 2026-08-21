@@ -1,13 +1,13 @@
 ---
-title: "非微扰 S-矩阵重整化 — 在壳散射振幅作为沙盒引擎内省 API"
+title: "Nonperturbative S-Matrix Renormalization — On-Shell Scattering Amplitudes as Sandbox Engine Introspection API"
 date: "2026-06-25"
 tags: [renormalization, s-matrix, rg-flow, on-shell, sandbox-introspection]
 arxiv_ref: "PRL 136, 251602 (Freidel, Padua-Argüelles, Schander, Schiffer)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 传统的量子场论重整化就像：你要修一辆车的引擎，但必须先拆掉整辆车，检查每个零件（off-shell 有效作用量）。Freidel 团队发现：你其实可以在引擎运行时直接听它的声音来判断哪里需要调校（on-shell S-矩阵）。他们提出了一个"运行时调音方程"——$\partial_k S_k = \frac{1}{2} \text{Tr}[(S_k^{(2)} + R_k)^{-1} \partial_k R_k]$——直接在物理观测值（散射振幅）上做重整化群流。等于说：宇宙的源代码编译器（S-矩阵）可以在不反编译的情况下直接优化。
+> Traditional quantum field theory renormalization is like: to fix a car's engine, you must first disassemble the entire car and inspect every part (off-shell effective action). The Freidel team found: you can actually listen to the engine while it runs to determine where adjustments are needed (on-shell S-matrix). They proposed a "runtime tuning equation" — $\partial_k S_k = \frac{1}{2} \text{Tr}[(S_k^{(2)} + R_k)^{-1} \partial_k R_k]$ — which applies the renormalization group flow directly to physical observables (scattering amplitudes). In other words: the universe's source-code compiler (S-matrix) can be optimized directly without decompilation.
 
 ## Phenomenon
 
@@ -31,11 +31,12 @@ applies a nonperturbative RG flow directly to physical observables (scattering a
 
 | Module | Score | Tier | Note |
 |--------|-------|------|------|
-| **M1 Arena Feasibility** | **0.1617** | P3 | 可参数化性高(0.80)，但纯理论论文无经验锚定(0.00)和反引力潜力(0.00) |
-| **M2 曲率转化** | **0.0950** | D | 动量空间 QFT 系统，引擎误分类为 Kagome（非晶格系统限制）。δg ≈ 10⁻¹⁷⁰ |
-| **M3 沙盒突破** | **0.0625** | D | 主导通道: Engine Introspection(0.167)。纯理论工具，只能观察无法修改 |
+| **M1 Arena Feasibility** | **0.1617** | P3 | High parameterizability (0.80), but purely theoretical paper with no empirical anchoring (0.00) and no antigravity potential (0.00) |
+| **M2 Curvature Conversion** | **0.0950** | D | Momentum-space QFT system; engine misclassified as Kagome (non-lattice system limitation). δg ≈ 10⁻¹⁷⁰ |
+| **M3 Sandbox Breakthrough** | **0.0625** | D | Dominant channel: Engine Introspection (0.167). Purely theoretical tool; can only observe, cannot modify |
 
 ## Cross-References
 
 - *Desitter Edge Mode Memory Buffer*, §2 (on-shell observables as sandbox API)
 - *KPZ Reality Rendering*, §1 (renormalization flow as rendering resolution tuning)
+---

@@ -1,5 +1,5 @@
 ---
-title: Exceptional Point Squeezing Amplifier — 奇异点压缩传感放大器
+title: Exceptional Point Squeezing Amplifier
 date: 2026-06-24
 tags:
   - non-hermitian
@@ -11,11 +11,11 @@ tags:
 arxiv_ref: PRL 136, 250801 (Wang, Hu, Zorzetti, Grassellino, Romanenko, Zhang)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-*"好比你把一个摆锤放在刀刃上——稍微碰一下它就疯狂摆动，因为平衡点本身就是一个奇点。现在再戴上放大镜（压缩光），连最微弱的振动都看得清清楚楚。用这个组合，你可以探测到理论上不可能察觉的微小信号。"*
+*"It's like placing a pendulum on a knife's edge—a slight touch makes it swing wildly because the equilibrium point itself is a singularity. Now add a magnifying glass (squeezed light), and even the faintest vibrations become clearly visible. With this combination, you can detect minuscule signals that would otherwise be theoretically impossible to perceive."*
 
-**更极端的比喻：** *"想象你在一个计算机沙盒里找到了一个浮点数溢出漏洞——除以零的时候整个渲染器都在颤抖。这个论文告诉你，物理世界也有类似的'除法零点'（exceptional point），而且你还可以用压缩光当放大镜来看清楚它的细部结构。"*
+**More extreme analogy:** *"Imagine finding a floating-point overflow bug in a computer sandbox—when you divide by zero, the entire renderer trembles. This paper tells you that the physical world has similar 'division-by-zero points' (exceptional points), and you can use squeezed light as a magnifying glass to resolve their fine structure."*
 
 ---
 
@@ -58,33 +58,33 @@ When eigenvectors coalesce, the sandbox's **state representation format** breaks
 ## Evaluation Results
 
 ```
-📊 与 baseline 对比 (2026-06-24_prl)
+📊 Comparison with baseline (2026-06-24_prl)
 ─────────────────────────────────────────────
-M1 Arena整合:  0.1600 → 0.2217  (△ +0.0617 ↑)
-M2 曲率转化:   0.0307 → 0.0307  (△ +0.0000 →)  δg: -146 → -170
-M3 沙盒突破:   0.0833 → 0.0833  (△ +0.0000 →)  主导通道: Introspection (→)
+M1 Arena integration:  0.1600 → 0.2217  (△ +0.0617 ↑)
+M2 Curvature conversion:   0.0307 → 0.0307  (△ +0.0000 →)  δg: -146 → -170
+M3 Sandbox breakthrough:   0.0833 → 0.0833  (△ +0.0000 →)  Dominant channel: Introspection (→)
 ```
 
-**M1 6轴明细:**
-- 可演算性: 0.167 — 低，需大幅抽象
-- 参数化程度: 0.80 — 理想演化空间（5参数）
-- 竞争不对称性: 0.00 — 零和博弈策略空间
-- 拓扑兼容性: 0.00 — 与Kagome/EPR-Torsion无关联
-- 反引力潜力: 0.20 — 间接关联
-- 经验锚定: 0.40 — 部分实验支撑
+**M1 6-axis breakdown:**
+- Computability: 0.167 — low, requires substantial abstraction
+- Parameterization degree: 0.80 — ideal evolution space (5 parameters)
+- Competitive asymmetry: 0.00 — zero-sum game strategy space
+- Topological compatibility: 0.00 — no connection to Kagome/EPR-Torsion
+- Anti-gravity potential: 0.20 — indirect connection
+- Empirical anchoring: 0.40 — partial experimental support
 
-**M2 三层转化:**
-- Layer 1: D_ab = 0.5 Å（非晶格系统默认值）
+**M2 Three-layer conversion:**
+- Layer 1: D_ab = 0.5 Å (default value for non-lattice systems)
 - Layer 2: J_s = 0.0 A/m²
-- Layer 3: δg = 4.80e-170（距离工程阈值 1.0e+94×）
-- 晶格类型: unknown（正确识别为非晶格）
+- Layer 3: δg = 4.80e-170 (distance from engineering threshold 1.0e+94×)
+- Lattice type: unknown (correctly identified as non-lattice)
 
-**M3 四通道:**
-- A Introspection: 0.083 — 无引擎内省信号
-- B State Corruption: 0.083 — 高度稳定，不产生泄漏
-- C Boundary Transgression: 0.083 — 完全封闭
-- D Hotpatch Injection: 0.083 — 不能主动修改
-- 主导通道: Engine Introspection
+**M3 Four channels:**
+- A Introspection: 0.083 — no engine introspection signal
+- B State Corruption: 0.083 — highly stable, no leakage
+- C Boundary Transgression: 0.083 — fully closed
+- D Hotpatch Injection: 0.083 — cannot actively modify
+- Dominant channel: Engine Introspection
 
 ---
 
@@ -98,3 +98,4 @@ M3 沙盒突破:   0.0833 → 0.0833  (△ +0.0000 →)  主导通道: Introspec
 ---
 
 *Miancheng Yu, Arena Observation Log 2026-06-24: "The universe's rendering engine has division points where its matrix inverter hits NaN. We're learning to read the error messages."*
+```

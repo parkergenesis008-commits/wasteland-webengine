@@ -1,5 +1,5 @@
 ---
-title: "超辐射参量穆斯堡尔辐射源 — N²核能相干注入"
+title: "Superradiant Parametric Mössbauer Radiation Source — N² Nuclear Coherent Injection"
 date: "2026-07-16"
 tags:
   - nuclear-quantum-optics
@@ -11,8 +11,8 @@ tags:
 arxiv_ref: "PRL 137, 035001"
 ---
 
-> **大白话比喻：**
-> 好比用一把特制的梳子（微结构电子束）有节奏地敲打一排音叉（原子核），当梳子的齿距和音叉的固有频率完全匹配时，所有音叉会齐声共鸣，发出震耳欲聋的响声。这比一个一个敲音叉响一万亿倍。SPMR就是用电子束的"梳子"让原子核齐声发光，产生极度集中、纯色的X射线。
+> **Plain-language analogy:**
+> Imagine using a specially crafted comb (microstructured electron beam) to rhythmically strike a row of tuning forks (atomic nuclei). When the comb's tooth spacing perfectly matches the tuning forks' natural frequency, all the forks resonate in unison, producing a thunderous sound. This is a trillion times louder than striking the forks one by one. SPMR uses the electron beam's "comb" to make atomic nuclei emit light in concert, generating extremely concentrated, monochromatic X-rays.
 
 ## Phenomenon
 

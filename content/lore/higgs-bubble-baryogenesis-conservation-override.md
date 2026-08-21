@@ -5,13 +5,13 @@ tags: [higgs, baryogenesis, phase-transition, sphaleron, chern-simons, topologic
 arxiv_ref: PRL 136, 241803 (2026)
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *想象你是一个程序员，被宇宙的源代码告知"电荷是守恒的，你永远不能创造或消灭它"。但你发现了一个漏洞：如果你让宇宙经历一次"相位转换"——就像水突然结冰——在新旧相碰撞的边界上，守恒定律会暂时失效。在这些碰撞的"气泡壁"上，你可以凭空创造物质。*
+> *Imagine you are a programmer, told by the universe's source code that "charge is conserved, you can never create or destroy it." But you discover a loophole: if you make the universe undergo a "phase transition" — like water suddenly freezing — the conservation law temporarily fails at the boundary where the new and old phases collide. On the "bubble walls" of these collisions, you can create matter out of nothing.*
 
-更准确地说：早期宇宙经历了一次"电弱相变"，Higgs场像烧开的水一样形成无数气泡。当两个气泡碰撞时，Higgs场的拓扑结构在碰撞界面发生非平凡变化，通过手征反常强制产生重子数。这就像利用了守恒定律的一个bug：在相变中的拓扑缺陷处，重子数不守恒是必然的。
+More precisely: the early universe underwent an "electroweak phase transition," where the Higgs field formed countless bubbles like boiling water. When two bubbles collide, the topological structure of the Higgs field undergoes a non-trivial change at the collision interface, forcing baryon number production through the chiral anomaly. This is like exploiting a bug in a conservation law: at topological defects during the phase transition, baryon number non-conservation is inevitable.
 
-## 核心现象 (Phenomenon)
+## Core Phenomenon
 
 **Baryon Number Violation via Higgs Bubble Collisions at Zero Temperature:**
 
@@ -87,3 +87,4 @@ Together, they form a complete **hidden sector read-write channel**.
 - *Cooperative Resonance and Torsion Compression*, §4 — topological charge in Kagome
 - *Kagome Torsion Engine* — $\pi_3(SU(2))$ winding integration
 - *Nonlocal Entanglement Baseline Override* — conservation law suspension parallels
+---

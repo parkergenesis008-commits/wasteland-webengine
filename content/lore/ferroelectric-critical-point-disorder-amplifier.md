@@ -12,11 +12,11 @@ tags:
 arxiv_ref: "PRL 137, 016102"
 ---
 
-# 铁电临界点结构无序放大器
+# Ferroelectric Critical Point Structural Disorder Amplifier
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *"好比一个弹簧床垫，正常情况下每个弹簧都有自己的固定位置。但当你把床垫加热到某个临界温度，再通上电场，所有弹簧突然变得"犹豫不决"——不知道应该歪左边还是歪右边。这种集体犹豫让床垫对外界的任何触碰都变得极度敏感，轻轻一碰就产生巨大的形变。这就像Material Arena中处于临界态的智能体——在多个势阱之间穿梭的策略具有超线性响应放大效应。"*
+> *"Think of a spring mattress, where normally each spring has its own fixed position. But when you heat the mattress to a certain critical temperature and then apply an electric field, all the springs suddenly become 'indecisive' — unsure whether to lean left or right. This collective indecision makes the mattress extremely sensitive to any external touch, producing a huge deformation with just a light tap. This is like agents in the Material Arena in a critical state — strategies that shuttle between multiple potential wells exhibit supralinear response amplification."*
 
 ## Phenomenon
 
@@ -48,7 +48,7 @@ The critical-point amplifier mechanism maps to the **Computational Arena** as a 
 | Metric | Value |
 |--------|-------|
 | **Integration Score** | **0.3867** |
-| **Priority** | **P2** — 观察候选 |
+| **Priority** | **P2** — Observation Candidate |
 | Computability | 0.67 |
 | Parameterizability | 0.80 |
 | Competitive Asymmetry | 0.20 |
@@ -77,7 +77,7 @@ The critical-point amplifier mechanism maps to the **Computational Arena** as a 
 | State Corruption | 0.083 |
 | Hotpatch Injection | 0.083 |
 | Boundary Transgression | 0.000 |
-| Escape Level | D — 完全在沙盒内运作 |
+| Escape Level | D — Fully operational within sandbox |
 
 ## Cross-References
 - *Cooperative Resonance and Torsion Compression*, §3 — torsion coupling to lattice degeneracy

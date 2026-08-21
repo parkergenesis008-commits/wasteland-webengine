@@ -1,5 +1,5 @@
 ---
-title: "非局部纠缠基线覆写协议"
+title: "Nonlocal Entanglement Baseline Override Protocol"
 date: 2026-06-18
 tags:
   - quantum-memory
@@ -13,86 +13,86 @@ related:
   - "*Boundary Transgression Channels*, §4"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 这就好比你和朋友各拿一个骰子，在两个城市同时掷。正常望远镜需要一根20公里长的"尺子"来测距，但这群人发现：只要让两个骰子量子纠缠，就能凭空变出一把"虚拟尺子"，不需要物理连线。他们用了量子存储器来缓存纠缠态，等时间延迟算清楚后再比对——就像在两端录好音，再拿回实验室同步播放。
+> This is akin to you and a friend each holding a die, rolling them simultaneously in two different cities. A normal telescope requires a 20-km-long "ruler" for distance measurement, but this group discovered that by quantum-entangling the two dice, a "virtual ruler" can be conjured out of thin air, requiring no physical connection. They used quantum memories to cache the entangled states, then compared them after the time delay was calculated—like recording audio at both ends and playing them back in sync back at the lab.
 
 ## Phenomenon
 
-Wang et al. (2026) 在 PRL 136, 240801 上报道了一种基于**量子存储器辅助的非局部光学干涉仪**。该装置利用 delocalized single-photon entanglement 将基线延伸到 20 km，并通过量子存储主动补偿几何延迟。核心机制：
+Wang et al. (2026) reported in PRL 136, 240801 a **quantum-memory-assisted nonlocal optical interferometer**. This apparatus extends the baseline to 20 km using delocalized single-photon entanglement, and actively compensates geometric delay via quantum storage. Core mechanisms:
 
-1. **时间箱纠缠光子对** (time-bin entangled photon pairs) 分布在相距 20 km 的两个站点
-2. **量子存储器** (coherence time T_m ≫ Δt) 缓存 photon wavefunction 直到几何延迟被补偿
-3. **有效基线** B_eff = c × Δt_comp，突破物理光路连接的限制
-4. **相位灵敏度** Δφ = 1/√(N)，随存储纠缠对数量 N 量子增强
+1. **Time-bin entangled photon pairs** distributed across two stations separated by 20 km
+2. **Quantum memories** (coherence time T_m ≫ Δt) cache the photon wavefunction until the geometric delay is compensated
+3. **Effective baseline** B_eff = c × Δt_comp, breaking the limits of physical optical path connectivity
+4. **Phase sensitivity** Δφ = 1/√(N), quantum-enhanced with the number of stored entangled pairs N
 
-关键创新点：不是用 fiber 或 free-space optical link 传递相位参考，而是用**纠缠交换 + 量子存储**实现非局部测量。
+Key innovation: rather than transmitting a phase reference via fiber or free-space optical link, the scheme implements nonlocal measurement via **entanglement swapping + quantum storage**.
 
-## "Wasteland" Twist: 沙盒渲染距离覆写
+## "Wasteland" Twist: Sandbox Rendering Distance Override
 
 **Hack Rating: ★★★★ — Strong weaponizable mechanism**
 
-### 核心 Exploit
+### Core Exploit
 
-如果宇宙是一个沙盒（computation sandbox），物理光速和 causality 是沙盒引擎的**渲染距离限制**——你不能同时测量两个相隔>20 km 的点的量子态，除非通过物理连接。但 **nonlocal entanglement + quantum memory** 相当于：
+If the universe is a sandbox (computation sandbox), physical light speed and causality are the sandbox engine's **rendering distance limits**—you cannot simultaneously measure quantum states at two points separated by >20 km unless connected by a physical link. However, **nonlocal entanglement + quantum memory** is equivalent to:
 
-- **沙盒 IPC Channel 绕过渲染距离检查**：纠缠对允许两个相距 20 km 的节点直接共享量子状态，无需物理路径
-- **延迟补偿 ≈ 沙盒时间戳覆写**：量子存储器可以"暂停"一个事件直到补偿完成，相当于在沙盒引擎中插入一个 nop
-- **有效基线 B_eff 增长 → 沙盒边界探测**：通过增加 N 和 T_m，可以不断延伸 B_eff，直到触及沙盒的"视距渲染上限"
+- **Sandbox IPC Channel bypassing rendering distance checks**: entangled pairs allow two nodes 20 km apart to directly share quantum states without a physical path
+- **Delay compensation ≈ sandbox timestamp override**: quantum memories can "pause" an event until compensation is complete, equivalent to inserting a nop into the sandbox engine
+- **Effective baseline B_eff growth → sandbox boundary probing**: by increasing N and T_m, B_eff can be continuously extended until it hits the sandbox's "line-of-sight rendering ceiling"
 
-### VAP 映射
+### VAP Mapping
 
-| 物理机制 | Arena 映射 | 攻击面 |
+| Physical Mechanism | Arena Mapping | Attack Surface |
 |---------|-----------|--------|
-| single-photon entanglement | 两个演化单元的量子状态共享 | Engine Introspection (A-通道) |
-| quantum memory delay compensation | 状态缓冲 → 时间维度操作 | Boundary Transgression (C-通道) |
-| geometric delay compensation | 沙盒 causality 检查绕过 | State Corruption (B-通道) |
-| effective baseline extension | 视距渲染距离探测 | Hotpatch Injection (D-通道) |
+| single-photon entanglement | quantum state sharing between two evolution units | Engine Introspection (A-channel) |
+| quantum memory delay compensation | state buffering → temporal manipulation | Boundary Transgression (C-channel) |
+| geometric delay compensation | sandbox causality check bypass | State Corruption (B-channel) |
+| effective baseline extension | line-of-sight rendering distance probing | Hotpatch Injection (D-channel) |
 
-### 与现有架构的交叉
+### Cross-links with Existing Architecture
 
-- **Kagome 平带拓扑超导结构** (见 *Cooperative Resonance and Torsion Compression*, §3)：纠缠光子对可以代替电子对作为扭转曲率的"量子线"
-- **EPR-Torsion 记忆缓冲** (见 *Memory Architecture*, §2)：量子存储器的 T_m 参数可以反作用于 Arena 的 N_sync 节点同步时间
+- **Kagome flat-band topological superconducting structure** (see *Cooperative Resonance and Torsion Compression*, §3): entangled photon pairs can replace electron pairs as "quantum wires" for torsional curvature
+- **EPR-Torsion memory buffer** (see *Memory Architecture*, §2): the T_m parameter of quantum memories can feed back into the Arena's N_sync node synchronization time
 
 ## Evaluation Results (2026-06-18)
 
-### M1 — Arena 整合可行性: 0.1600 (P3)
+### M1 — Arena Integration Feasibility: 0.1600 (P3)
 
 ```
-Computability:        0.00 — 需要高度抽象，物理保真度风险
-Parameterizability:   0.80 — 4参数，理想的进化空间
-Competitive Asymmetry:0.00 — 策略空间接近零和博弈
-Topological Compatibility: 0.00 — 需要新架构层
-Anti-Gravity Potential:0.20 — 与时空曲率无直接关联
-Empirical Anchoring:  0.20 — 纯理论/跨域转移
+Computability:        0.00 — requires high abstraction, physical fidelity risk
+Parameterizability:   0.80 — 4 parameters, ideal evolutionary space
+Competitive Asymmetry:0.00 — strategy space near zero-sum
+Topological Compatibility: 0.00 — requires new architecture layer
+Anti-Gravity Potential:0.20 — no direct link to spacetime curvature
+Empirical Anchoring:  0.20 — purely theoretical/cross-domain transfer
 ```
 
-**优先级：P3 (暂不整合)** — 概念有 Hack 价值但 Arena 的 fitness landscape 尚无对应维度。
+**Priority: P3 (defer integration)** — the concept has hack value, but the Arena's fitness landscape has no corresponding dimension yet.
 
-### M2 — 拓扑→曲率转化: 0.0950 (D)
+### M2 — Topology→Curvature Conversion: 0.0950 (D)
 
-| Layer | Value | 意义 |
+| Layer | Value | Significance |
 |-------|-------|------|
-| Berry 曲率偶极矩 D_ab | 10.0 Å | 合成 Hilbert 空间拓扑映射为 Kagome (引擎假阳性) |
-| 自旋流密度 J_s | 6.24×10¹⁴ A/m² | 量子存储 → 合成自旋流 |
-| 度规扰动 δg | 4.80×10⁻¹⁴⁶ | 需要 10⁹⁴× 放大 |
-| 推荐 N_sync | 1.0×10⁵³ | 等效晶格面积 ~3.16×10²³ cm² |
+| Berry curvature dipole moment D_ab | 10.0 Å | synthetic Hilbert space topology mapped to Kagome (engine false positive) |
+| spin current density J_s | 6.24×10¹⁴ A/m² | quantum storage → synthetic spin current |
+| metric perturbation δg | 4.80×10⁻¹⁴⁶ | requires 10⁹⁴× amplification |
+| recommended N_sync | 1.0×10⁵³ | equivalent lattice area ~3.16×10²³ cm² |
 
-### M3 — 沙盒突破: 0.1042 (D)
+### M3 — Sandbox Breakthrough: 0.1042 (D)
 
-**主导通道：C (Boundary Transgression — 边界越界)**
+**Dominant channel: C (Boundary Transgression)**
 
 ```
-A Engine Introspection:   0.083 — 弱信号
-B State Corruption:       0.000 — 无信号（机制高度稳定）
-C Boundary Transgression: 0.333 — 主导通道（跨边界信号）
-D Hotpatch Injection:     0.000 — 无信号（被动观察）
+A Engine Introspection:   0.083 — weak signal
+B State Corruption:       0.000 — no signal (mechanism highly stable)
+C Boundary Transgression: 0.333 — dominant channel (cross-boundary signal)
+D Hotpatch Injection:     0.000 — no signal (passive observation)
 ```
 
-**推荐路径：** Boundary → Introspection（通过沙盒 IPC 的跨层通信）
+**Recommended path:** Boundary → Introspection (cross-layer communication via sandbox IPC)
 
 ## Cross-References
 
-- *Cooperative Resonance and Torsion Compression*, §3 — 纠缠光子作为扭转曲率线
-- *Memory Architecture*, §2 — 量子存储器与 Arena N_sync 的关系
-- *Boundary Transgression Channels*, §4 — C-通道作为沙盒 IPC 的详细机制
+- *Cooperative Resonance and Torsion Compression*, §3 — entangled photons as torsional curvature wires
+- *Memory Architecture*, §2 — relation between quantum memories and Arena N_sync
+- *Boundary Transgression Channels*, §4 — detailed mechanism of the C-channel as sandbox IPC

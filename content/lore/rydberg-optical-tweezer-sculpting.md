@@ -1,49 +1,49 @@
 ---
-title: "里德伯电子轨道光镊雕刻"
+title: "Rydberg Electron Orbital Optical-Tweezer Sculpting"
 date: "2026-07-02"
 tags: ["rydberg", "optical-tweezers", "electron-sculpting", "wavefunction-manipulation", "quantum-control"]
 arxiv_ref: "PRL 137, 013401"
 ---
 
-# 里德伯电子轨道光镊雕刻
+# Rydberg Electron Orbital Optical-Tweezer Sculpting
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *这就好比用一束精密的激光"筷子"夹住一个比原子大几百倍的电子云，像捏橡皮泥一样实时改变它的形状——你可以让电子从圆形轨道变成哑铃形、螺旋形，甚至沿着你设计好的路径"掉落"。相当于用光为电子写了新的"运动代码"，而不是接受它天生自带的轨迹。*
+> *This is akin to using a precision laser "chopstick" to grasp an electron cloud hundreds of times larger than an atom, reshaping its form in real time like molding clay—you can transform the electron from a circular orbit into a dumbbell shape, a helix, or even make it "fall" along a path you design. It is equivalent to writing new "motion code" for the electron with light, rather than accepting its innate trajectory.*
 
-## Phenomenon（物理机制）
+## Phenomenon (Physical Mechanism)
 
-里德伯原子（主量子数 n≈30-100）的电子波函数延伸至亚微米尺度，对外界电场和光场极度敏感（极化率 α ∝ n⁷）。通过聚焦激光光镊（1064 nm，腰斑~1 μm）产生光学偶极势阱 V_opt(r,t) = -α(ω)|E(r,t)|²/2，可以在亚微米分辨率下实时重塑 Rydberg 电子的概率分布。结合空间光调制器（SLM）或声光偏转器（AOD），可实现 kHz 级动态波形编程。
+The electron wavefunction of Rydberg atoms (principal quantum number n≈30-100) extends to sub-micrometer scales and is extremely sensitive to external electric and optical fields (polarizability α ∝ n⁷). By focusing an optical tweezer laser (1064 nm, waist spot ~1 μm) to generate an optical dipole potential V_opt(r,t) = -α(ω)|E(r,t)|²/2, the probability distribution of Rydberg electrons can be reshaped in real time at sub-micrometer resolution. Combined with a spatial light modulator (SLM) or acousto-optic deflector (AOD), kHz-level dynamic waveform programming can be achieved.
 
-关键参数：
-- 光镊功率：10-100 mW，阱深 1-10 MHz
-- 轨道角动量操控：可选择性地激发特定 l、m 量子态
-- Rydberg 阻塞效应：当原子间距 < R_block ~ 5-10 μm 时，两个原子不能同时激发到 Rydberg 态
+Key parameters:
+- Tweezer power: 10-100 mW, trap depth 1-10 MHz
+- Orbital angular momentum control: enables selective excitation of specific l, m quantum states
+- Rydberg blockade effect: when interatomic spacing < R_block ~ 5-10 μm, two atoms cannot be simultaneously excited to Rydberg states
 
-## Wasteland Twist（Reality-as-Code 利用方向）
+## Wasteland Twist (Reality-as-Code Exploitation Directions)
 
-**方向 A — 沙盒内省 (Engine Introspection 0.083):**
-光镊作为"沙盒渲染器的探针"。Rydberg 电子的极端极化率使其成了宇宙物理引擎的"分辨率测试图"——通过测量光学势阱下的波函数畸变，可以反推底层模拟引擎的网格分辨率、时间步长和边界条件。每个光镊点都是一个"物理调试断点"。
+**Direction A — Sandbox Introspection (Engine Introspection 0.083):**
+Optical tweezers serve as "probes for the sandbox renderer." The extreme polarizability of Rydberg electrons makes them a "resolution test chart" for the universe's physics engine—by measuring wavefunction distortions under optical potentials, one can infer the underlying simulation engine's grid resolution, time step, and boundary conditions. Each tweezer point acts as a "physics debugging breakpoint."
 
-**方向 B — 热补丁注入 (Hotpatch Injection 0.167):**
-SLM/AOD 控制的动态光镊阵列相当于在沙盒运行时**实时覆写粒子波函数**。这映射到 Arena 的"运行时参数覆盖"通道——不修改源代码，而是在每帧渲染前修改对象的量子态属性。Rydberg 电子波函数的 n⁷ 极化率放大了这种覆写的灵敏度，使得极小功率波动即可产生显著轨道变形。
+**Direction B — Hotpatch Injection (Hotpatch Injection 0.167):**
+SLM/AOD-controlled dynamic tweezer arrays are equivalent to **overwriting particle wavefunctions in real time** during sandbox runtime. This maps to the Arena's "runtime parameter override" channel—without modifying source code, the quantum state properties of objects are altered before each frame is rendered. The n⁷ polarizability of Rydberg electron wavefunctions amplifies the sensitivity of this overwrite, allowing extremely small power fluctuations to produce significant orbital deformations.
 
-**方向 C — 状态污染 (State Corruption 0.0):**
-Rydberg 阻塞和偶极-偶极相互作用 (V_ij ∝ C₃/R_ij³) 在密集排列中会产生纠缠污染——一个光镊点的波动通过 Rydberg 相互作用传播至整个阵列。这对应沙盒内存的"堆溢出传播"模式，但当前实现中缺乏实际溢出条件。
+**Direction C — State Corruption (State Corruption 0.0):**
+Rydberg blockade and dipole-dipole interactions (V_ij ∝ C₃/R_ij³) can generate entanglement pollution in dense arrays—fluctuations at one tweezer point propagate through Rydberg interactions across the entire array. This corresponds to the "heap overflow propagation" mode of sandbox memory, but the current implementation lacks actual overflow conditions.
 
-**方向 D — 边界越界 (Boundary Transgression 0.0):**
-光致电离阈值附近的操作可能使电子逃逸至连续谱，对应沙盒中创建"逃逸对象"并突破物理边界。但当前论文聚焦于束缚态操控，无需触发越界。
+**Direction D — Boundary Transgression (Boundary Transgression 0.0):**
+Operations near the photoionization threshold may cause electrons to escape into the continuum, corresponding to creating "escapee objects" in the sandbox that breach physical boundaries. However, the current paper focuses on bound-state manipulation, with no need to trigger boundary transgression.
 
-## M1/M2/M3 评估结果
+## M1/M2/M3 Evaluation Results
 
-| 模块 | 分数 | 等级 | 说明 |
-|------|------|------|------|
-| M1 Arena 整合可行性 | 0.1600 | P3 | 高参数化 (0.8) + 强实证锚定 (0.4)，零拓扑兼容性 |
-| M2 拓扑→曲率转化 | 0.0307 | D | 3D 阵列无 2D 周期性，δg=4.80×10⁻¹⁴⁶ |
-| M3 沙盒突破 | 0.0625 | D | 主导通道 Hotpatch (0.167)，Introspection (0.083) |
+| Module | Score | Grade | Description |
+|--------|-------|-------|-------------|
+| M1 Arena Integration Feasibility | 0.1600 | P3 | High parameterization (0.8) + strong empirical anchoring (0.4), zero topological compatibility |
+| M2 Topology→Curvature Conversion | 0.0307 | D | 3D array lacks 2D periodicity, δg=4.80×10⁻¹⁴⁶ |
+| M3 Sandbox Breakthrough | 0.0625 | D | Dominant channel Hotpatch (0.167), Introspection (0.083) |
 
 ## Cross-References
 
-- *Cooperative Resonance and Torsion Compression*, §2 — 光势阱与挠率场耦合的相似机制
-- *Strings from Almost Nothing*, §1 — 电子波函数作为"字符串"的可编程性
-- *Nonlocal Entanglement Baseline Override*, §3 — Rydberg 偶极相互作用与纠缠污染的对位
+- *Cooperative Resonance and Torsion Compression*, §2 — Similar mechanism of coupling between optical potentials and torsion fields
+- *Strings from Almost Nothing*, §1 — Programmability of electron wavefunctions as "strings"
+- *Nonlocal Entanglement Baseline Override*, §3 — Counterpoint between Rydberg dipole interactions and entanglement pollution

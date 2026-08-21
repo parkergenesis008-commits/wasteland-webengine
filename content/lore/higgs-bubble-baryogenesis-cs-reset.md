@@ -11,11 +11,11 @@ tags:
 arxiv_ref: "PRL 136, 241803 (2026)"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> *这就好比宇宙是一台正在运行的超级计算机，而希格斯场就像操作系统的安装程序。当系统发生"版本升级"（电弱相变）时，会冒出许多气泡——每个气泡是一个新的"安装区域"。当这些气泡碰撞在一起时，就像两个安装包冲突了。冲突的瞬间，会产生一个"校验失败"的信号——这个信号在物理上就是重子数不守恒（Chern-Simons数变化）。*
+> *Think of the universe as a supercomputer in operation, with the Higgs field acting like the operating system's installation program. When a "version upgrade" (the electroweak phase transition) occurs, many bubbles emerge—each bubble is a new "installation zone." When these bubbles collide, it's like two installation packages conflicting. At the moment of conflict, a "checksum failure" signal is generated—physically, this signal is baryon number non-conservation (a change in the Chern-Simons number).*
 >
-> *更刺激的是，这个过程可以在零温（绝对零度）下发生——也就是说，哪怕宇宙冷下来了、系统休眠了，只要气泡还在互相挤，重子数违规就在发生。这相当于一个不需要管理员权限的"内核级后门"。*
+> *Even more striking, this process can occur at zero temperature (absolute zero)—meaning that even if the universe cools down and the system goes dormant, as long as bubbles keep squeezing each other, baryon number violation is happening. This is equivalent to a "kernel-level backdoor" that requires no administrator privileges.*
 
 ## Phenomenon
 
@@ -57,12 +57,13 @@ The M2 assessment (δg ≈ 4.80×10⁻¹⁴⁶) confirms the metric perturbation
 
 | Module | Score | Tier |
 |--------|-------|------|
-| M1: Arena Integration | 0.28 | P3 — 暂不整合 |
-| M2: Curvature Conversion | 0.095 | D — δg距工程阈值>50量级 |
-| M3: Sandbox Exploit | 0.0833 | D — 完全在沙盒规则内 |
+| M1: Arena Integration | 0.28 | P3 — Not integrated for now |
+| M2: Curvature Conversion | 0.095 | D — δg exceeds engineering threshold by >50 orders of magnitude |
+| M3: Sandbox Exploit | 0.0833 | D — Entirely within sandbox rules |
 
 ## Cross-References
 
 - *Cooperative Resonance and Torsion Compression*, §2 — bubble wall torsion coupling
 - *Kagome Flat Band Topological Superconductivity*, §4 — Hopf fibration mapping to flat band topology
 - *Baryonic Torsion Field Framework*, §1 — chiral anomaly and SU(2) gauge coupling
+---

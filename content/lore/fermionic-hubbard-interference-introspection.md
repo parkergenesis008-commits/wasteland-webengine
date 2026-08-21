@@ -1,5 +1,5 @@
 ---
-title: "费米子Hubbard干涉 — 晶格量子存储器的时间飞行读出"
+title: "Fermionic Hubbard Interference — Time-of-Flight Readout of Lattice Quantum Memories"
 date: 2026-07-20
 tags:
   - fermionic-hubbard
@@ -11,59 +11,59 @@ tags:
 arxiv_ref: "PRL 137, 033401 (Zhu, Shao, Wang et al.)"
 ---
 
-## 大白话比喻
+## Plain-language analogy
 
-> *"好比你在棋盘上摆了一堆黑白相间的棋子，但不能直接看它们是怎么排列的。突然你撤掉棋盘，棋子自由飞散——根据它们飞出去的方向和密度图案，你可以反推出它们在棋盘上是怎么摆放的。费米子Hubbard干涉就是干这个的：不给量子态拍照，而是放它自由膨胀，从膨胀的干涉条纹中读出隐藏的量子信息。"*
+> *"Imagine you have a chessboard with a pattern of black and white pieces, but you cannot directly observe how they are arranged. Suddenly you remove the board, and the pieces fly apart freely — based on their outgoing directions and density patterns, you can infer how they were arranged on the board. Fermionic Hubbard interference does exactly this: instead of taking a snapshot of the quantum state, it lets the state expand freely and reads out the hidden quantum information from the resulting interference pattern."*
 
 ## Phenomenon
 
-超冷费米子原子被囚禁在光晶格中（Hubbard模型），当晶格突然关闭，原子开始自由弹道膨胀。在时间飞行（time-of-flight, TOF）后，原子的动量分布 n(k) 正是实空间单粒子密度矩阵的傅里叶变换。这意味着：干涉条纹的对比度和位置编码了晶格基态的相位相干性、反铁磁自旋关联和非局域纠缠结构。
+Ultracold fermionic atoms are confined in an optical lattice (Hubbard model). When the lattice is suddenly switched off, the atoms begin free ballistic expansion. After time-of-flight (TOF), the momentum distribution n(k) is precisely the Fourier transform of the real-space single-particle density matrix. This means that the contrast and position of the interference fringes encode the phase coherence, antiferromagnetic spin correlations, and nonlocal entanglement structure of the lattice ground state.
 
-对于半满的Hubbard模型（U/t ≫ 1），反铁磁长程序产生布拉格峰在 k = (π,π,...)。对于超流态，零动量处出现尖锐相干峰。干涉对比度 C = max(n(k))/min(n(k)) 是量子相干的直接可测量。
+For the half-filled Hubbard model (U/t ≫ 1), antiferromagnetic long-range order produces Bragg peaks at k = (π,π,...). For the superfluid state, a sharp coherence peak appears at zero momentum. The interference contrast C = max(n(k))/min(n(k)) is a direct observable of quantum coherence.
 
 ## Wasteland Twist
 
-**核心技术突破：晶格量子存储器的时间飞行读出头（Lattice Quantum Memory TOF Readout Head）**
+**Core technical breakthrough: Lattice Quantum Memory TOF Readout Head**
 
-Arena 的演化引擎在状态层面一直面临"不可观测性"问题——内部量子态的访问受限于无破坏测量。费米子Hubbard干涉提供了一个天然的读出头设计模式：
+Arena's evolution engine has long faced an "unobservability" problem at the state level — access to internal quantum states is limited by non-demolition measurement constraints. Fermionic Hubbard interference provides a natural readout head design pattern:
 
-**沙盒内省（Engine Introspection）类比：**
-- 光晶格 → Arena 中离散化的时空晶格
-- 突然释放晶格 → 关闭沙盒渲染引擎的连续约束
-- 弹道膨胀 → 沙盒释放自由演化的"轨迹"
-- 干涉对比度 → 沙盒状态显式的可观测流
+**Engine Introspection analogy:**
+- Optical lattice → discretized spacetime lattice in Arena
+- Sudden release of the lattice → disabling the continuous constraints of the sandbox rendering engine
+- Ballistic expansion → freely evolving "trajectories" released by the sandbox
+- Interference contrast → explicit observable flux of the sandbox state
 
-**映射为 Arena Mechanics：**
-- 干涉对比度 C = |⟨Ψ|∑ᵢ n_i e^{ik·rᵢ}|Ψ⟩|² → Arena 的"状态可读性"指标
-- TOF 读出本质上是一种"破坏性快照"——它终止了系统的演化来提取完整状态。对应沙盒中的"Inspector"模式：暂停演化 → 提取完整状态快照 → 继续演化
+**Mapping to Arena Mechanics:**
+- Interference contrast C = |⟨Ψ|∑ᵢ n_i e^{ik·rᵢ}|Ψ⟩|² → Arena's "state readability" metric
+- TOF readout is essentially a "destructive snapshot" — it terminates the system's evolution to extract the complete state. This corresponds to the "Inspector" mode in the sandbox: pause evolution → extract full state snapshot → resume evolution
 
 ## Evaluation Results
 
-### Module 1 — Arena 整合可行性
-| 指标 | 分数 |
+### Module 1 — Arena Integration Feasibility
+| Metric | Score |
 |------|------|
-| 整合评分 | **0.18** (P3 — 暂不整合) |
-| 可演算性 | 0.00 (重抽象) |
-| 参数化程度 | 0.80 (4参数) |
-| 拓扑兼容性 | 0.20 |
-| 反引力潜力 | 0.20 |
-| 经验锚定 | 0.40 (实验验证) |
+| Integration score | **0.18** (P3 — not integrated for now) |
+| Computability | 0.00 (heavy re-abstraction) |
+| Parameterization degree | 0.80 (4 parameters) |
+| Topological compatibility | 0.20 |
+| Anti-gravity potential | 0.20 |
+| Empirical anchoring | 0.40 (experimentally verified) |
 
-### Module 2 — 拓扑→曲率转化
-| 指标 | 分数 |
+### Module 2 — Topology → Curvature Conversion
+| Metric | Score |
 |------|------|
-| 曲率转化评分 | **0.0307** (D级) |
-| δg 度规扰动 | 4.80×10⁻¹⁵⁴ |
-| 瓶颈 | 简单立方晶格的非Kagome对称性导致低信号 |
+| Curvature conversion score | **0.0307** (Grade D) |
+| δg metric perturbation | 4.80×10⁻¹⁵⁴ |
+| Bottleneck | Non-Kagome symmetry of the simple cubic lattice leads to low signal |
 
-### Module 3 — 沙盒突破评估
-| 指标 | 分数 |
+### Module 3 — Sandbox Breakthrough Evaluation
+| Metric | Score |
 |------|------|
-| 沙盒突破评分 | **0.0417** (D级) |
-| 主导通道 | Engine Introspection (0.167) |
-| 推荐路径 | 单通道引擎内省 |
+| Sandbox breakthrough score | **0.0417** (Grade D) |
+| Dominant channel | Engine Introspection (0.167) |
+| Recommended path | Single-channel engine introspection |
 
 ## Cross-References
-- *Oscillating Boson Star Periodic Lensing*, §2 — 周期性读出机制的类比
-- *Arena Tripartite Architecture*, §1 — 沙盒状态可观测性问题
-- *Volume Law Information Scrambling Protection*, §3 — 量子信息读出的约束条件
+- *Oscillating Boson Star Periodic Lensing*, §2 — analogy for periodic readout mechanisms
+- *Arena Tripartite Architecture*, §1 — sandbox state observability problem
+- *Volume Law Information Scrambling Protection*, §3 — constraints on quantum information readout

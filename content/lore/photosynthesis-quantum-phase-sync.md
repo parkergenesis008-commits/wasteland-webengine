@@ -30,7 +30,7 @@ This model was incomplete. Critically, it treated the protein as a passive backg
 
 The Institute of Physics, Chinese Academy of Sciences — the Weng Yuxiang group — published the resolving observation: **the protein scaffold actively suppresses decoherence through engineered energy dissipation channels.**
 
-Working on allophycocyanin (APC) and cryptophyte phycoerythrin (PE545) light-harvesting antenna proteins, they identified a universal mechanism they termed **quantum phase synchronization** (量子相位同步). In this mechanism:
+Working on allophycocyanin (APC) and cryptophyte phycoerythrin (PE545) light-harvesting antenna proteins, they identified a universal mechanism they termed **quantum phase synchronization**. In this mechanism:
 
 1. **Exciton Pairs Form**: Two or more chlorophyll pigment molecules couple through their excited states to form delocalized exciton pairs (Frenkel excitons with a coherence length spanning multiple pigments).
 

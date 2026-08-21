@@ -11,11 +11,11 @@ tags:
 arxiv_ref: "PRL 137, 013002"
 ---
 
-# 铁团簇自旋态远红外标定
+# Iron Nanocluster Spin State Calibration via Far-Infrared Spectroscopy
 
-## 大白话比喻
+## Plain-Language Analogy
 
-> *"好比你想知道一把钥匙的齿形，但只能看到它开锁后的效果——锁芯转了，但你不知道钥匙具体是什么形状。之前理论家们猜'这把钥匙应该是Y形的'，但实际上样品里混着Y形、X形和Z形的钥匙，每个齿形对应的磁性不同。这篇论文的办法是用一种'红外线扫描仪'直接给钥匙拍照，分辨出每种钥匙长什么样，再把磁性算对。"*
+> *"It's like wanting to know the tooth pattern of a key, but you can only see its effect after it unlocks a lock — the cylinder turns, but you don't know the key's exact shape. Previously, theorists guessed 'the key should be Y-shaped,' but in reality the sample contained a mixture of Y-shaped, X-shaped, and Z-shaped keys, each with a different magnetic property. This paper's approach uses an 'infrared scanner' to directly photograph the keys, distinguish what each key looks like, and then calculate the magnetism correctly."*
 
 ## Phenomenon
 
@@ -39,7 +39,7 @@ The breakthrough is **far-infrared vibrational spectroscopy** (free-electron las
 
 3. **No topological curvature path**: The finite 3D clusters (no periodic lattice, no 2D geometry) generate negligible spacetime curvature (δg ∼ 10⁻¹⁷⁰). The value is purely computational/methodological.
 
-4. **Weak exploit vector**: M3 score 0.0208 (Tier D) — the spectoscopic calibration operates entirely within sandbox rules. The only weak signal is C: Boundary Transgression (0.083) — the external experimental input (free-electron laser) opens a minimal cross-layer communication channel.
+4. **Weak exploit vector**: M3 score 0.0208 (Tier D) — the spectroscopic calibration operates entirely within sandbox rules. The only weak signal is C: Boundary Transgression (0.083) — the external experimental input (free-electron laser) opens a minimal cross-layer communication channel.
 
 ## Evaluation Results
 
@@ -47,7 +47,7 @@ The breakthrough is **far-infrared vibrational spectroscopy** (free-electron las
 | Metric | Value |
 |--------|-------|
 | **Integration Score** | **0.18** |
-| **Priority** | **P3** — 暂不整合 |
+| **Priority** | **P3** — Not integrated for now |
 | Computability | 0.00 |
 | Parameterizability | 0.80 |
 | Competitive Asymmetry | 0.00 |

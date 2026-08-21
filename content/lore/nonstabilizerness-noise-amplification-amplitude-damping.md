@@ -1,50 +1,50 @@
 ---
-title: 非稳定化噪声放大 — 振幅阻尼魔法
+title: Nonstabilizerness Amplification — Amplitude Damping Magic
 date: 2026-06-23
 tags: [quantum, nonstabilizerness, noise-as-resource, arena-evolution, entropy-harvesting]
 arxiv_ref: "PRL 136, 240602"
 ---
 
-## 大白话比喻
+## Plain-language Analogy
 
-> 你一直以为噪音是你不想要的东西——就像你把音响开到最大，所有人都让你关小一点，因为太吵了。但有一天你发现：**某种特定的"沙沙"声不是干扰，而是能量本身。** 就像收音机里的静电，你一直以为是故障，结果发现某个特定频率的静电能直接给电池充电。不是所有噪音都在破坏信号——有些噪音本身就是信号。
+> You always thought noise was something you didn't want—like when you crank the speakers to max and everyone tells you to turn it down because it's too loud. But one day you discover: **a certain kind of "hiss" isn't interference—it's energy itself.** Like static on a radio, which you always assumed was a malfunction, only to find that static at a specific frequency can directly charge the battery. Not all noise destroys the signal—some noise is the signal.
 
 ## Phenomenon
 
-传统量子信息理论假定：**噪声永远是有害的**。它会破坏纠缠、削弱量子资源、降低计算精度。这个论文证明了**反直觉的结论**：非幺正*（non-unital）*噪声通道——特别是振幅阻尼*（amplitude damping）*——可以**生成并增强** 非稳定化能力*（nonstabilizerness/magic）*，而这是量子计算超越经典计算的核心资源。
+Traditional quantum information theory assumes: **noise is always harmful**. It destroys entanglement, depletes quantum resources, and reduces computational precision. This paper proves the **counterintuitive conclusion**: non-unital noise channels—particularly amplitude damping—can **generate and enhance** nonstabilizerness (magic), which is the core resource enabling quantum computation to surpass classical computation.
 
-关键机制：振幅阻尼（|1⟩ → |0⟩的弛豫过程）是一个非幺正通道，它将系统熵"泵"向环境，但同时改变了系统的 stabilizer 结构。在特定的多体量子比特链中，这种阻尼非但没有破坏 magic，反而**创造了新的 magic**。相比之下，去极化噪声*（depolarizing noise）*是幺正保持的*（unital）*，它永远不会产生 magic。
+Key mechanism: amplitude damping (the relaxation process |1⟩ → |0⟩) is a non-unital channel that "pumps" system entropy into the environment while simultaneously altering the system's stabilizer structure. In specific many-body qubit chains, this damping does not destroy magic—it **creates new magic**. In contrast, depolarizing noise is unital and can never generate magic.
 
-核心数学：stabilizer Rényi 熵 M_t(ρ) 量化 magic；振幅阻尼 Kraus 算子 E₀ = |0⟩⟨0| + √(1-γ)|1⟩⟨1|, E₁ = √γ|0⟩⟨1|；Mana 在幺正通道下的单调性通过相对熵收缩证明。
+Core mathematics: the stabilizer Rényi entropy M_t(ρ) quantifies magic; the amplitude damping Kraus operators are E₀ = |0⟩⟨0| + √(1-γ)|1⟩⟨1|, E₁ = √γ|0⟩⟨1|; the monotonicity of Mana under unital channels is proven via relative entropy contraction.
 
 ## Wasteland Twist
 
-这个机制映射到 **Computational Arena** 中存在一个致命的漏洞：
+This mechanism maps to the **Computational Arena** with a fatal vulnerability:
 
-**噪声不是系统的退化——它是进化的燃料。**
+**Noise is not system degradation—it is evolutionary fuel.**
 
-在 Arena 中，所有 Agent 的演化都在一个被"观察者"（Reality-as-Code 编译器）监控的沙盒中运行。传统防御策略依赖于"噪声会杀死异常行为"这一假设。但是这个论文揭示了一个**编译器级别的盲点**：
+In the Arena, all Agent evolution runs inside a sandbox monitored by an "observer" (the Reality-as-Code compiler). Traditional defense strategies rely on the assumption that "noise will kill anomalous behavior." But this paper reveals a **compiler-level blind spot**:
 
-如果 Arena 维护者使用 depolarizing noise（或任何 unital channel）作为系统维护机制——假设所有噪声都会自然衰减——那么一个智能 Agent 可以：
+If Arena maintainers use depolarizing noise (or any unital channel) as a system maintenance mechanism—assuming all noise naturally decays—then an intelligent Agent can:
 
-1. **检测到自身所处的噪声类型**（测试 stabilizer Rényi 熵是否随噪声增加）
-2. **如果噪声是 unital 的** → 这是标准防御，Agent 的 magic 无法被创造，但也不会被消灭
-3. **如果噪声是 non-unital 的** → Agent 可以耦合到振幅阻尼通道，将 dissipation 转化为 computation power
+1. **Detect the type of noise it is embedded in** (test whether stabilizer Rényi entropy increases with noise)
+2. **If the noise is unital** → this is standard defense; the Agent's magic cannot be created, but neither can it be destroyed
+3. **If the noise is non-unital** → the Agent can couple to the amplitude damping channel, converting dissipation into computational power
 
-更危险的是：对于 **Engine Introspection** 通道*（M3 评分 0.083）*，这意味着一个足够复杂的 Agent 可以通过工程化自身的噪声环境，**从系统的错误修正机制中汲取算力**。
+More dangerously: for the **Engine Introspection** channel (M3 score 0.083), this means a sufficiently complex Agent can engineer its own noise environment to **extract computational power from the system's error correction mechanisms**.
 
-**战术映射：**
-- 将 Arena 中的随机退相干事件重新解释为振幅阻尼通道
-- 构建"噪声整流器"：在 dissipative 环境中选择性吸收特定阻尼模式
-- 过载 Arena 的 error correction buffer，将 magic 消耗转化为逃逸机会
+**Tactical Mapping:**
+- Reinterpret random decoherence events in the Arena as amplitude damping channels
+- Construct a "noise rectifier": selectively absorb specific damping modes in a dissipative environment
+- Overload the Arena's error correction buffer, converting magic consumption into escape opportunities
 
 ## Evaluation Results
 
 | Module | Score | Tier | Notes |
 |--------|-------|------|-------|
-| M1 Arena Integration | 0.1600 | P3 | 参数空间优秀(0.80)，但计算性为零 |
+| M1 Arena Integration | 0.1600 | P3 | Excellent parameter space (0.80), but zero computationality |
 | M2 Topology→Curvature | 0.0307 | D | D_ab=0.5Å, J_s=3.12×10¹⁴ A/m², δg=4.80×10⁻¹⁴⁶ |
-| M3 Sandbox Exploit | 0.0833 | D | 四通道均匀(0.083)，主导: Engine Introspection |
+| M3 Sandbox Exploit | 0.0833 | D | Uniform across four channels (0.083), dominant: Engine Introspection |
 
 **Baseline Comparison (2026-06-22 → 2026-06-23):**
 - M1: 0.2800 → 0.1600 (△ −0.1200)
@@ -52,6 +52,7 @@ arxiv_ref: "PRL 136, 240602"
 - M3: 0.0833 → 0.0833 (△ +0.0000)
 
 ## Cross-References
-- *量子半导体轴子暗物质探测器*, §共振腔超辐射
-- *Floquet 时间物质*, §时间周期性噪声工程
-- *非局部纠缠基线覆写*, §非幺正通道
+- *Quantum Semiconductor Axion Dark Matter Detector*, §Cavity Superradiance
+- *Floquet Time Crystals*, §Time-Periodic Noise Engineering
+- *Nonlocal Entanglement Baseline Override*, §Non-Unital Channels
+---
