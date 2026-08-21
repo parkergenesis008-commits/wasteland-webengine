@@ -135,18 +135,18 @@ ARXIV_REFS = {
     ],
 }
 LORE_TITLES = {
-    "artificial-kondo-lattice": ("Artificial Kondo Lattice", "人工近藤晶格与拓扑计算"),
-    "floquet-temporal-matter": ("Floquet Temporal Matter", "弗洛凯时间编程物质"),
-    "semi-dirac-mass-nullification": ("Semi-Dirac Mass Nullification", "半狄拉克质量归零"),
-    "qm-tether-exosuit": ("QM-Tether Exosuit", "度规覆写反重力织物"),
-    "arena-tripartite-architecture": ("Arena Tripartite Architecture", "算力角斗场三位一体架构"),
-    "obstructed-atomic-phantom-grid": ("Obstructed Atomic Phantom Grid", "受阻原子幻影网格"),
-    "holographic-kpz-projection": ("Holographic KPZ Projection", "全息KPZ投影与高维渲染"),
-    "kpz-reality-rendering": ("KPZ Reality Rendering", "KPZ程序化现实渲染"),
-    "type2-superlattice-radar": ("Type-II Superlattice Radar", "二类超晶格无标度感知"),
-    "electromagnetic-theater-override": ("Electromagnetic Theater Override", "电磁剧场碰撞网格覆写"),
-    "cooperative-resonance-torsion": ("Cooperative Resonance Torsion", "协同共振与挠场压缩"),
-    "warp-drive-torsion-propagation": ("Warp Drive: Torsion Bubble Propagation", "曲速引擎挠场气泡传播"),
+    "artificial-kondo-lattice": ("Artificial Kondo Lattice", ""),
+    "floquet-temporal-matter": ("Floquet Temporal Matter", ""),
+    "semi-dirac-mass-nullification": ("Semi-Dirac Mass Nullification", ""),
+    "qm-tether-exosuit": ("QM-Tether Exosuit", ""),
+    "arena-tripartite-architecture": ("Arena Tripartite Architecture", ""),
+    "obstructed-atomic-phantom-grid": ("Obstructed Atomic Phantom Grid", ""),
+    "holographic-kpz-projection": ("Holographic KPZ Projection", ""),
+    "kpz-reality-rendering": ("KPZ Reality Rendering", ""),
+    "type2-superlattice-radar": ("Type-II Superlattice Radar", ""),
+    "electromagnetic-theater-override": ("Electromagnetic Theater Override", ""),
+    "cooperative-resonance-torsion": ("Cooperative Resonance Torsion", ""),
+    "warp-drive-torsion-propagation": ("Warp Drive: Torsion Bubble Propagation", ""),
 }
 
 def read_md(filepath):
