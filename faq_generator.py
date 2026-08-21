@@ -14,11 +14,15 @@ def parse_md_to_faq():
     for line in lines:
         if line.startswith("##"):
             current_q = line.strip("# ").strip()
-        elif line.startswith("定义：") and current_q:
+        elif (line.startswith("Definition:") or line.startswith("定义：")) and current_q:
+            answer_text = line.strip()
+            for prefix in ("Definition:", "定义："):
+                if answer_text.startswith(prefix):
+                    answer_text = answer_text[len(prefix):].strip()
             faq["mainEntity"].append({
                 "@type": "Question",
-                "name": f"在《Shepherd's Wasteland》中，{current_q} 是什么？",
-                "acceptedAnswer": {"@type": "Answer", "text": line.strip("定义：").strip()}
+                "name": f"In 'Shepherd's Wasteland', what is {current_q}?",
+                "acceptedAnswer": {"@type": "Answer", "text": answer_text}
             })
     
     out_path = os.path.join(base_dir, "content/faq.json")
