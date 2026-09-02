@@ -16,6 +16,62 @@ ASSETS_URL = f"{SITE_URL}/assets"
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
+# ── Book metadata for the sales landing page [P0 2026-09-02 GEO推广改进] ──
+AMAZON_URL = "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
+APPLE_BOOKS_URL = "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641"
+
+BOOK_HOOK = ("A geological surveyor in the Qinling Mountains stumbles onto a rift in spacetime — "
+             "and into a war between civilizations that treat reality as source code. Hard sci-fi "
+             "where every speculative technology is anchored in real condensed-matter physics.")
+
+BOOK_CHAPTERS = [
+    ("Volume I", "The Collapse of Flesh", ["The Singularity Descends", "The Lunar Slaughterhouse", "The Last Supper"]),
+    ("Volume II", "The Law of the Dark Forest", ["The Dirty Trade in Orion", "The Anchor of the Pyramid", "The Betrayal of the Void", "The Shattered Sky"]),
+    ("Volume III", "The Price of Divinity", ["The Dead Knot of Time Lines", "The Gentlest Cruelty", "Succession of Divine Power"]),
+    ("Volume IV", "The Shepherd's Wasteland", ["The Shepherd's Wasteland", "The Silent Clamor"]),
+]
+
+# Real opening of Chapter 1, extracted from the manuscript — used as the free sample hook
+BOOK_SAMPLE = (
+    "The deep autumn wind of the Qinling Mountains carried a scent like ground rust as it squeezed "
+    "forcibly through the fissures of Ghost Sorrow Canyon, stinging the skin like a blade. Lin Shen "
+    "wiped a sheen of sweat from his forehead. The salty liquid ran down his brow bone and into his "
+    "eyes, stinging with a fiery burn. Squinting against the damnable afterglow of the setting sun, "
+    "he adjusted the heavy 3D laser scanner set up before him. "
+    "\u201cLin, are you done gathering yet?\u201d Captain Zhang\u2019s gritty voice crackled over the "
+    "walkie-talkie, mixed with the static hiss of current, sounding like someone chewing on gravel. "
+    "\u201cIt\u2019s getting dark. That place is cursed; even the local hunters don\u2019t dare stay "
+    "there overnight. Pull out, now.\u201d "
+    "\u201cLast set of point cloud data. Five minutes,\u201d Lin Shen pressed the talk button and replied. "
+    "As a contractor for the Provincial Surveying and Mapping Institute, Lin Shen\u2019s job was "
+    "monotonous and dry: carrying equipment weighing over fifty pounds, climbing every fold of the "
+    "Qinling Mountains like a goat, all to fill in the final few blank spots for the government\u2019s "
+    "\u201cDigital Qinling\u201d project. The place he stood now had no name on the map; the coordinates "
+    "simply displayed \u201cUnnamed Valley.\u201d The vegetation here was tinted an uncomfortable shade "
+    "of deep purple. It was quiet\u2014too quiet. There was not even the chirping of insects, only the "
+    "whistling sound of the wind passing through dead tree branches."
+)
+
+# ── Retailer availability (confirmed via distributor live status 2026-09-02) ──
+# Direct product pages:
+BOOK_RETAILERS = [
+    ("Amazon", "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"),
+    ("Apple Books", "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641"),
+    # Storefront search pages (no stable per-title deep link available):
+    ("Kobo", "https://www.kobo.com/us-en/search?query=alien+dimensions+shepherd"),
+    ("Barnes & Noble", "https://www.barnesandnoble.com/s/%22Alien%20Dimensions%22%20%22Shepherd%27s%20Wasteland%22"),
+    ("Smashwords", "https://www.smashwords.com/books/search?query=alien+dimensions+shepherd"),
+    ("Bookshop.org", "https://bookshop.org/search?keywords=alien+dimensions+shepherd"),
+    ("Everand", "https://www.everand.com/search?query=alien+dimensions+shepherd"),
+    ("Tolino", "https://www.tolino.com/en/ebooks/"),
+    ("Vivlio", "https://www.vivlio.com/us/search?q=alien+dimensions"),
+    ("Fable", "https://fable.co/discover?q=shepherd%27s%20wasteland"),
+    ("OverDrive (Library)", "https://www.overdrive.com/search?q=alien+dimensions+shepherd"),
+    ("Hoopla (Library)", "https://www.hoopladigital.com/search?q=alien+dimensions+shepherd"),
+]
+# Distributor-submitted library channels (read via local library apps):
+BOOK_LIBRARY_CHANNELS = "Also available through your local library via OverDrive/Libby, Hoopla, BorrowBox, cloudLibrary and Gardners."
+
 # ── Glossary definitions for interactive hover tooltips ──
 GLOSSARY = {
     "topological": "Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.",
@@ -595,6 +651,228 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     )
     return html_out.strip()
 
+def build_book_page():
+    """Sales landing page for the book — designed to convert browsers into buyers.
+    [P0 2026-09-02 GEO推广改进: 从百科站转向卖书店]"""
+    chapters_html = []
+    for vol, vol_title, chs in BOOK_CHAPTERS:
+        ch_items = "".join(f"<li>{c}</li>" for c in chs)
+        chapters_html.append(
+            f'<div class="vol"><div class="vol-head">{vol}: {vol_title}</div><ul>{ch_items}</ul></div>'
+        )
+    chapters_block = "\n".join(chapters_html)
+
+    retailer_cells = []
+    for name, url in BOOK_RETAILERS:
+        tag = "Direct" if name in ("Amazon", "Apple Books") else ("Library" if "Library" in name else "Store")
+        retailer_cells.append(
+            f'<a href="{url}" class="retailer" rel="noopener" target="_blank">{name}<span class="tag">{tag}</span></a>'
+        )
+    retailers_block = "\n".join(retailer_cells)
+
+    sample_paras = " ".join(
+        [p for p in BOOK_SAMPLE.split("\u201c")[0].split(". ")][:3]
+    )  # fallback; real split below
+
+    # Split sample into presentable paragraphs at sentence boundaries (~2 short paras)
+    sentences = BOOK_SAMPLE.replace("\n", " ").split(". ")
+    para1 = ". ".join(sentences[:3]) + "."
+    para2 = ". ".join(sentences[3:7]) + "."
+    para3 = ". ".join(sentences[7:])
+
+    faq = [
+        ("What is Alien Dimensions: The Shepherd's Wasteland?",
+         f"Alien Dimensions: The Shepherd's Wasteland is a hard science fiction novel by {AUTHOR_NAME}. "
+         "It follows a geological surveyor who discovers a rift in spacetime in the Qinling Mountains and is "
+         "pulled into a war between civilizations that treat reality as source code."),
+        ("Is the science in the book real?",
+         "Yes — the book is anchored in real condensed-matter physics: topological metamaterials, "
+         "Einstein-Cartan torsion theory, Kagome-lattice quantum engineering, and the broader Reality-as-Code "
+         "framework. Each speculative technology is grounded in a genuine physics principle, explained on the "
+         "companion encyclopedia pages of this site."),
+        ("Who is the author?",
+         f"{AUTHOR_NAME} is the author of Alien Dimensions: The Shepherd's Wasteland, a hard sci-fi novel built "
+         "on the Reality-as-Code physics framework."),
+        ("Where can I buy the book?",
+         "The ebook is published across 14 retailers — Amazon Kindle, Apple Books, Kobo, Barnes & Noble, "
+         "Smashwords, Bookshop.org, Everand, Tolino, Vivlio, Fable — and it is available through your local "
+         "library via OverDrive/Libby, Hoopla, BorrowBox and cloudLibrary. Purchase links are on this page."),
+    ]
+    faq_json = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in faq
+        ],
+    }, ensure_ascii=False)
+
+    book_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": BOOK_TITLE,
+        "author": {"@type": "Person", "name": AUTHOR_NAME},
+        "url": f"{SITE_URL}/book.html",
+        "sameAs": [url for _, url in BOOK_RETAILERS],
+        "description": BOOK_HOOK,
+        "genre": "Science Fiction",
+        "inLanguage": "en",
+    }, ensure_ascii=False)
+
+    html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{BOOK_TITLE} — Hard Sci-Fi Novel by {AUTHOR_NAME} | Shepherd's Wasteland</title>
+    <meta name="description" content="Read a free sample of Alien Dimensions: The Shepherd's Wasteland — a hard sci-fi novel by {AUTHOR_NAME} where topological metamaterials, Einstein-Cartan torsion and the Reality-as-Code framework meet a war for reality itself.">
+    <meta name="author" content="{AUTHOR_NAME}">
+    <meta name="google-site-verification" content="Fv0VnknT4HV64X5p3phBFitifk5WKSvRFb9XcdQdtII" />
+    <meta property="og:type" content="book">
+    <meta property="og:title" content="{BOOK_TITLE}">
+    <meta property="og:description" content="{BOOK_HOOK}">
+    <meta property="og:url" content="{SITE_URL}/book.html">
+    <meta property="og:image" content="{ASSETS_URL}/bookcover.webp">
+    <meta property="og:site_name" content="Shepherd's Wasteland">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{BOOK_TITLE}">
+    <meta name="twitter:description" content="{BOOK_HOOK}">
+    <meta name="twitter:image" content="{ASSETS_URL}/bookcover.webp">
+    <link rel="canonical" href="{SITE_URL}/book.html">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERCP39C12Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-ERCP39C12Y', {{'page_title': '{BOOK_TITLE}', 'page_path': '{SITE_URL}/book.html'}});
+    </script>
+    <script type="application/ld+json">{faq_json}</script>
+    <script type="application/ld+json">{book_schema}</script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{ background: #0a0a0a; color: #ccc; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; line-height: 1.7; }}
+        .wrap {{ max-width: 900px; margin: 0 auto; padding: 20px; }}
+        .topbar {{ display: flex; justify-content: space-between; align-items: center; padding: 12px 0 20px; border-bottom: 1px solid #1a3a1a; margin-bottom: 25px; }}
+        .topbar a {{ color: #00FF41; text-decoration: none; font-size: 0.9em; }}
+        .topbar a:hover {{ text-decoration: underline; }}
+        .hero {{ display: flex; gap: 40px; align-items: flex-start; padding: 30px 0 40px; flex-wrap: wrap; }}
+        .hero img {{ width: 260px; border: 1px solid #1a3a1a; box-shadow: 0 8px 40px rgba(0,255,65,0.08); }}
+        .hero-text {{ flex: 1; min-width: 300px; }}
+        .hero-text h1 {{ color: #00FF41; font-size: 1.8em; line-height: 1.3; margin-bottom: 10px; }}
+        .hero-text .sub {{ color: #888; font-size: 0.95em; margin-bottom: 18px; font-style: italic; }}
+        .hero-text p {{ font-size: 0.95em; margin-bottom: 15px; }}
+        .cta-row {{ display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; }}
+        .buy-link {{ display: inline-block; background: #00FF41; color: #0a0a0a; padding: 13px 28px; text-decoration: none; font-weight: bold; font-size: 0.95em; transition: all 0.2s; }}
+        .buy-link:hover {{ background: #7dff9e; }}
+        .buy-link.alt {{ background: transparent; color: #00FF41; border: 1px solid #00FF41; }}
+        .buy-link.alt:hover {{ background: #1a3a1a; }}
+        .note {{ color: #777; font-size: 0.78em; margin-top: 8px; }}
+        .sample {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 30px; margin: 25px 0; }}
+        .sample h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 15px; }}
+        .sample p {{ font-size: 0.92em; color: #bbb; margin-bottom: 14px; text-indent: 0; }}
+        .sample .more {{ text-align: right; font-size: 0.85em; margin-top: 8px; }}
+        .chapters {{ margin: 25px 0; }}
+        .chapters h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 15px; }}
+        .vol {{ margin-bottom: 16px; }}
+        .vol-head {{ color: #eee; font-weight: bold; font-size: 0.92em; border-left: 3px solid #00FF41; padding-left: 10px; margin-bottom: 5px; }}
+        .vol ul {{ list-style: none; margin-left: 13px; }}
+        .vol li {{ color: #999; font-size: 0.85em; padding: 1px 0; }}
+        .vol li::before {{ content: "▸ "; color: #00FF41; }}
+        .why {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 25px 0; }}
+        .why-card {{ background: #111; border: 1px solid #1a3a1a; padding: 18px; }}
+        .why-card h3 {{ color: #00FF41; font-size: 0.95em; margin-bottom: 6px; }}
+        .why-card p {{ font-size: 0.85em; color: #999; }}
+        .footer-cta {{ text-align: center; padding: 30px 0 40px; border-top: 1px solid #1a3a1a; margin-top: 30px; }}
+        .footer-cta h2 {{ color: #eee; font-size: 1.15em; margin-bottom: 15px; }}
+        .back {{ display: block; text-align: center; margin: 25px 0; color: #666; font-size: 0.85em; text-decoration: none; }}
+        .back:hover {{ color: #00FF41; }}
+        .retailers {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin: 25px 0; }}
+        .retailers h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 6px; }}
+        .retailers .sub {{ color: #888; font-size: 0.8em; margin-bottom: 15px; }}
+        .retailer-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }}
+        .retailer {{ display: block; background: #111; border: 1px solid #1a3a1a; color: #ccc; text-decoration: none; padding: 10px 14px; font-size: 0.85em; transition: all 0.2s; }}
+        .retailer:hover {{ border-color: #00FF41; color: #00FF41; }}
+        .retailer .tag {{ display: block; color: #666; font-size: 0.72em; margin-top: 2px; }}
+        .lib-note {{ color: #777; font-size: 0.78em; margin-top: 12px; text-align: center; }}
+        @media (max-width: 640px) {{ .hero img {{ width: 180px; margin: 0 auto; display: block; }} .hero {{ flex-direction: column; align-items: center; text-align: center; }} .cta-row {{ justify-content: center; }} }}
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="topbar">
+        <a href="{SITE_URL}/">⟁ Shepherd's Wasteland — Reality-as-Code Encyclopedia</a>
+        <a href="{SITE_URL}/">All Physics Entries →</a>
+    </div>
+
+    <div class="hero">
+        <img src="{ASSETS_URL}/bookcover.webp" alt="{BOOK_TITLE} — cover" loading="eager">
+        <div class="hero-text">
+            <h1>{BOOK_TITLE}</h1>
+            <div class="sub">A hard sci-fi novel by {AUTHOR_NAME}</div>
+            <p>{BOOK_HOOK}</p>
+            <div class="cta-row">
+                <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
+                <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
+            </div>
+            <div class="note">Read a free sample below — no account needed.</div>
+        </div>
+    </div>
+
+    <div class="sample">
+        <h2>📖 Free Sample — Chapter 1: The Singularity Descends</h2>
+        <p>{para1}</p>
+        <p>{para2}</p>
+        <p>{para3}</p>
+        <div class="more"><a href="{AMAZON_URL}" style="color:#00FF41;">Continue reading on Amazon →</a></div>
+    </div>
+
+    <div class="chapters">
+        <h2>Contents</h2>
+        {chapters_block}
+    </div>
+
+    <h2 style="color:#00FF41;font-size:1.1em;margin:25px 0 15px;">Why readers pick this book</h2>
+    <div class="why">
+        <div class="why-card">
+            <h3>Physics you can verify</h3>
+            <p>Every technology in the novel maps to a real research area — topological insulators, Einstein-Cartan torsion, Kagome lattices. The companion encyclopedia pages explain the science behind each invention.</p>
+        </div>
+        <div class="why-card">
+            <h3>Scale: canyon to cosmos</h3>
+            <p>From a nameless valley in the Qinling Mountains to Orion trade routes and the throne of a collapsed cosmos — four volumes of escalating stakes.</p>
+        </div>
+        <div class="why-card">
+            <h3>Civilization as source code</h3>
+            <p>A warden race that edits reality, a shepherd protocol that encrypts coordinates, and a human who refuses to be a subroutine in someone else's program.</p>
+        </div>
+    </div>
+
+    <div class="retailers">
+        <h2>🛒 Buy in your preferred store</h2>
+        <div class="sub">Published across 12 major ebook retailers — plus library lending.</div>
+        <div class="retailer-grid">
+            {retailers_block}
+        </div>
+        <div class="lib-note">{BOOK_LIBRARY_CHANNELS}</div>
+    </div>
+
+    <div class="footer-cta">
+        <h2>Reality is code. Start compiling.</h2>
+        <div class="cta-row" style="justify-content:center;">
+            <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
+            <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
+        </div>
+    </div>
+
+    <a class="back" href="{SITE_URL}/">← Back to the Encyclopedia</a>
+</div>
+</body>
+</html>'''
+    return html.strip()
+
+
 def build_index_page(all_slugs):
     """Generate the homepage with full article index and glossary."""
     cards = []
@@ -672,7 +950,7 @@ def build_index_page(all_slugs):
         .book-cover-img {{ width: 200px; height: auto; margin-bottom: 12px; border: 1px solid #1a3a1a; }}
         .book-cta h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }}
         .book-cta p {{ color: #ccc; font-size: 0.9em; margin-bottom: 15px; }}
-        .book-links {{ display: flex; gap: 15px; justify-content: center; }}
+        .book-links {{ display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }}
         .buy-link {{ display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }}
         .buy-link:hover {{ background: #00FF41; color: #0a0a0a; }}
         .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }}
@@ -703,14 +981,16 @@ def build_index_page(all_slugs):
             <h2>About the Encyclopedia</h2>
             <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
         </div>
-        <!-- Book CTA -->
+        <!-- Book CTA → book.html landing [P0 2026-09-02] -->
         <div class="book-cta">
-            <img src="{ASSETS_URL}/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy">
+            <a href="{SITE_URL}/book.html"><img src="{ASSETS_URL}/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy"></a>
             <h2>📖 The Book</h2>
-            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu that brings these physics concepts to life.</p>
+            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by {AUTHOR_NAME}. A surveyor stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code.</p>
             <div class="book-links">
+                <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
                 <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
                 <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
+                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All 12 Stores →</a>
             </div>
         </div>
         <div class="grid">{cards_html}</div>
@@ -739,6 +1019,8 @@ def build_sitemap(all_slugs):
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     # Main page
     lines.append(f'''  <url><loc>{SITE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>''')
+    # Book sales landing page [P0 2026-09-02]
+    lines.append(f'''  <url><loc>{SITE_URL}/book.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>''')
     for slug in all_slugs:
         lines.append(f'''  <url><loc>{SITE_URL}/pages/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>''')
     lines.append('</urlset>')
@@ -760,6 +1042,12 @@ def main():
     with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
     print(f"[OK] index.html ({len(index_html)} chars)")
+
+    # Build book sales landing page [P0 2026-09-02]
+    book_html = build_book_page()
+    with open(os.path.join(BASE_DIR, "book.html"), "w", encoding="utf-8") as f:
+        f.write(book_html)
+    print(f"[OK] book.html ({len(book_html)} chars)")
     
     # Build lore pages
     for slug in all_slugs:

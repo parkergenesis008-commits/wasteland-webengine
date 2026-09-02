@@ -119,7 +119,7 @@
         .book-cover-img { width: 200px; height: auto; margin-bottom: 12px; border: 1px solid #1a3a1a; }
         .book-cta h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }
         .book-cta p { color: #ccc; font-size: 0.9em; margin-bottom: 15px; }
-        .book-links { display: flex; gap: 15px; justify-content: center; }
+        .book-links { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
         .buy-link { display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }
         .buy-link:hover { background: #00FF41; color: #0a0a0a; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
@@ -150,14 +150,16 @@
             <h2>About the Encyclopedia</h2>
             <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
         </div>
-        <!-- Book CTA -->
+        <!-- Book CTA → book.html landing [P0 2026-09-02] -->
         <div class="book-cta">
-            <img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy">
+            <a href="https://parkergenesis008-commits.github.io/wasteland-webengine/book.html"><img src="https://parkergenesis008-commits.github.io/wasteland-webengine/assets/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy"></a>
             <h2>📖 The Book</h2>
-            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu that brings these physics concepts to life.</p>
+            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu. A surveyor stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code.</p>
             <div class="book-links">
+                <a href="https://parkergenesis008-commits.github.io/wasteland-webengine/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
                 <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
                 <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
+                <a href="https://parkergenesis008-commits.github.io/wasteland-webengine/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All 12 Stores →</a>
             </div>
         </div>
         <div class="grid">
@@ -171,7 +173,7 @@
         <a href="pages/artificial-kondo-lattice.html" class="card">
             <h2>Artificial Kondo Lattice</h2>
             <div class="card-en">Artificial Kondo Lattice</div>
-            <p>title: Artificial Kondo Lattice and Wasteland Topological Computation</p>
+            <p>title: Artificial Kondo Lattice and Wasteland topological phases are robust against local perturbations.">Topological Computation</p>
             <span class="card-tag">Topological Physics</span>
         </a>
 
