@@ -407,8 +407,17 @@ def simulate_google_search_route(browser):
     time.sleep(random.uniform(2, 5))
 
     # ── Step 2: Navigate to our site ──
-    # Simulate clicking a search result by typing our URL
-    target_page = random.choice(OUR_PAGES)
+    # 落地页取关键词映射(2026-09-09 修复:原为 random.choice 无视 kw_entry[1],
+    # 导致 "time crystal" 搜词点到 KPZ 页;书/购买意图词应落首页/书页)
+    fname = kw_entry[1] if len(kw_entry) > 1 else "index.html"
+    roots = [p["url"] for p in OUR_PAGES if "/pages/" not in p["url"]]
+    base = (roots[0] if roots else OUR_PAGES[0]["url"]).rstrip("/")
+    SPECIAL = {"index.html": {"name": "Home", "url": base + "/"},
+               "book.html": {"name": "Book", "url": base + "/book.html"}}
+    matched = [p for p in OUR_PAGES if p["url"].rstrip("/").endswith("/" + fname)]
+    target_page = (matched[0] if matched
+                   else SPECIAL.get(fname) if SPECIAL.get(fname) and SPECIAL.get(fname)["url"]
+                   else random.choice(OUR_PAGES))
     target_url = target_page["url"]
 
     nav_cmd = f'''
