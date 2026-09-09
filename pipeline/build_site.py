@@ -391,6 +391,14 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
                 break
     
     body_html = md_to_html(md_body, slug)
+
+    # 正文首段后注入书页内链(2026-09-09:文章页 → book.html 购买/阅读锚点,强化内链权重)
+    if not is_index and not slug.startswith('book'):
+        fp = body_html.find('</p>')
+        if fp != -1:
+            intext = (f'<p class="body-link"><a href="book.html" class="intext">📖 Read this concept in '
+                      f'<em>{BOOK_TITLE}</em></a> — the hard sci-fi novel where this physics becomes story.</p>')
+            body_html = body_html[:fp + 4] + intext + body_html[fp + 4:]
     
     # SEO-optimized meta descriptions per page
     SEO_DESCRIPTIONS = {

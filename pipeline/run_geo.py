@@ -18,9 +18,12 @@ import datetime
 import json
 import os
 import random
+import re
 import subprocess
 import sys
 import time
+import urllib.request
+import urllib.error
 
 # Ensure common PATH entries for cron environments (minimal PATH)
 _ENV = os.environ.copy()
@@ -38,6 +41,11 @@ LOG_FILE = os.path.expanduser("~/.wasteland_geo_log.jsonl")
 BUILD_SCRIPT = os.path.join(BASE_DIR, "pipeline/build_site.py")
 NOMAD_SCRIPT = os.path.join(BASE_DIR, "pipeline/nomad_gui_agent.py")
 SITEMAP_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine/sitemap.xml"
+SITE_HOST = "parkergenesis008-commits.github.io"
+SITE_PATH = "/wasteland-webengine"
+# Bing IndexNow key(2026-09-09 生成;key 文件随仓库部署在站内,keyLocation 指向子路径)
+INDEXNOW_KEY = "b816cd07e940228a2cc47203a94c093a"
+INDEXNOW_LOG = os.path.expanduser("~/.wasteland_indexnow.log")
 
 LORES = [
     "artificial-kondo-lattice", "floquet-temporal-matter",
@@ -151,25 +159,50 @@ def phase_deploy():
 
 
 def phase_indexnow():
-    """Trigger search engine crawl: Google URL Inspection + IndexNow ping."""
-    print("\n=== Phase 3b: Search Engine Notify ===")
-    # Google URL Inspection via Search Console API requires OAuth.
-    # Fallback: just report the sitemap URL for manual inspection.
-    print(f"  Sitemap: {SITEMAP_URL}")
-    print("  To manually request Google indexing:")
-    print("    https://search.google.com/search-console/inspect")
-    print("  Enter: https://parkergenesis008-commits.github.io/wasteland-webengine/")
-    print("  Click 'Request Indexing'")
-    # Bing IndexNow with key file at /.well-known/ would be ideal,
-    # but for GitHub Pages we rely on the sitemap submission already done.
+    """IndexNow 推送(2026-09-09 真实现:Bing/索引方即时爬取;无鉴权,POST urlList)。
+    key 文件部署于 https://<host>/wasteland-webengine/indexnow-<KEY>.txt,
+    用 keyLocation 指向该文件(GitHub Pages 项目页无法写 host 根)。"""
+    print("\n=== Phase 3b: IndexNow Notify ===")
+    urls = []
+    smap = os.path.join(BASE_DIR, "sitemap.xml")
+    try:
+        txt = open(smap, encoding="utf-8").read()
+        urls = re.findall(r"<loc>(.*?)</loc>", txt)
+    except Exception as e:
+        print(f"  sitemap read fail: {e}")
+    if not urls:
+        urls = [f"https://{SITE_HOST}{SITE_PATH}/", f"https://{SITE_HOST}{SITE_PATH}/book.html"]
+    payload = {
+        "host": SITE_HOST,
+        "key": INDEXNOW_KEY,
+        "keyLocation": f"https://{SITE_HOST}{SITE_PATH}/indexnow-{INDEXNOW_KEY}.txt",
+        "urlList": urls,
+    }
+    req = urllib.request.Request(
+        "https://api.indexnow.org/indexnow",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json; charset=utf-8"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            body = r.read().decode("utf-8", "ignore")
+            print(f"  IndexNow {r.status} OK · {len(urls)} URLs · resp={body[:80]}")
+            with open(INDEXNOW_LOG, "a") as f:
+                f.write(f"{datetime.datetime.now().isoformat()} status={r.status} urls={len(urls)}\n")
+    except urllib.error.HTTPError as e:
+        print(f"  IndexNow HTTP {e.code}: {e.read().decode('utf-8','ignore')[:120]}")
+        with open(INDEXNOW_LOG, "a") as f:
+            f.write(f"{datetime.datetime.now().isoformat()} HTTP {e.code} urls={len(urls)}\n")
+    except Exception as e:
+        print(f"  IndexNow error: {e}")
+        with open(INDEXNOW_LOG, "a") as f:
+            f.write(f"{datetime.datetime.now().isoformat()} error={e}\n")
 
 
 def phase_nomad():
-    """Optionally run nomad traffic (20% probability per deploy)."""
-    if random.random() > 0.20:
-        print("\n=== Phase 4: Nomad Traffic (skipped) ===")
-        return
-    
+    """Nomad traffic: 每天部署后必跑(原 20% 概率已按 2026-09-09 决策改为必跑;
+    google 搜索点击保底在 nomad_gui_agent.should_do_google_search 内保证 ≥1/天)。"""
     print("\n=== Phase 4: Nomad Traffic ===")
     result = subprocess.run([sys.executable, NOMAD_SCRIPT], capture_output=True, text=True, env=_ENV)
     print(result.stdout.strip())

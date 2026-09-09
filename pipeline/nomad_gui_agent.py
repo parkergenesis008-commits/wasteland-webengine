@@ -55,35 +55,31 @@ OUR_PAGES = [
 # Switched from ultra-long-tail physics jargon to queries real people search.
 # Sourced from Google Keyword Planner & "People Also Ask" analysis.
 GOOGLE_SEARCH_KEYWORDS = [
-    # Book / novel searches (high volume)
-    ("hard science fiction books 2025 2026", "index.html"),
+    # 书/购买意图(2026-09-09 v2:高月搜索量,直连可购页/书页)
+    ("books like Project Hail Mary", "index.html"),
+    ("books like The Three-Body Problem", "index.html"),
+    ("hard science fiction books 2026", "index.html"),
     ("best hard sci-fi novels physics based", "index.html"),
+    ("new sci-fi novels must read 2026", "index.html"),
+    ("Alien Dimensions Shepherd's Wasteland Miancheng Yu", "index.html"),
     ("sci-fi book about quantum gravity", "warp-drive-torsion-propagation.html"),
-    ("new hard sci-fi novel recommendations", "index.html"),
-    ("Alien Dimensions Shepherd's Wasteland review", "index.html"),
-    ("books like Project Hail Mary hard sci-fi", "cooperative-resonance-torsion.html"),
-    ("hard science fiction space opera 2025", "warp-drive-torsion-propagation.html"),
-    # Physics / space technology (medium volume)
+    ("hard sci-fi recommendations reddit", "index.html"),
+    ("Alcubierre drive book fiction", "book.html"),
+    ("hard science fiction space opera", "index.html"),
+    # 物理科普(中量;教育流量 → 文章页 → 侧栏/正文链回书页)
     ("how does Alcubierre warp drive work", "warp-drive-torsion-propagation.html"),
-    ("Alcubierre drive real physics explained", "warp-drive-torsion-propagation.html"),
-    ("Einstein-Cartan theory torsion explained simply", "cooperative-resonance-torsion.html"),
+    ("Einstein-Cartan theory explained simply", "cooperative-resonance-torsion.html"),
     ("what is a topological insulator simple", "obstructed-atomic-phantom-grid.html"),
-    ("quantum gravity explained for beginners", "kpz-reality-rendering.html"),
-    ("Kagome lattice what is it", "cooperative-resonance-torsion.html"),
     ("time crystal explained simply", "floquet-temporal-matter.html"),
     ("how do metamaterials work", "qm-tether-exosuit.html"),
-    ("superlattice infrared detector how it works", "type2-superlattice-radar.html"),
-    ("Floquet engineering quantum systems", "floquet-temporal-matter.html"),
-    ("Kondo effect in simple terms", "artificial-kondo-lattice.html"),
-    # Emerging tech / futurology (medium volume)
-    ("mass reduction technology physics 2025", "semi-dirac-mass-nullification.html"),
+    ("Kondo effect simple explanation", "artificial-kondo-lattice.html"),
+    ("warp drive positive energy solution", "warp-drive-torsion-propagation.html"),
+    # 新兴科技(中量)
+    ("mass reduction technology physics", "semi-dirac-mass-nullification.html"),
     ("radar stealth technology future", "type2-superlattice-radar.html"),
     ("topological quantum computing explained", "arena-tripartite-architecture.html"),
-    ("anyons and Majorana particles quantum computing", "arena-tripartite-architecture.html"),
-    ("warp drive positive energy solution", "warp-drive-torsion-propagation.html"),
-    ("semi-Dirac fermion massless electrons", "semi-dirac-mass-nullification.html"),
-    ("metamaterial cloaking real science", "obstructed-atomic-phantom-grid.html"),
-    ("how to reduce mass of an object physics", "semi-dirac-mass-nullification.html"),
+    ("superlattice infrared detector how it works", "type2-superlattice-radar.html"),
+    ("quantum gravity explained for beginners", "kpz-reality-rendering.html"),
 ]
 
 BROWSERS = ["Safari", "Google Chrome", "Firefox"]
@@ -162,7 +158,7 @@ def get_todays_google_search_count():
 
 
 def should_do_google_search():
-    """Daily 1-2 Google searches. Each call has ~50% chance, capped at 2/day."""
+    """Google 搜索点击:每天保底 1 次(当日 0 次 → 必做),≥1 后各次 50%,上限 2/天。"""
     today = datetime.date.today()
     today_str = today.isoformat()
     today_count = 0
@@ -178,6 +174,8 @@ def should_do_google_search():
             pass
     if today_count >= 2:
         return False  # Daily cap
+    if today_count == 0:
+        return True   # 当日尚无 → 保底执行
     return random.random() < 0.50
 
 
