@@ -341,12 +341,6 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "author": {"@type": "Person", "name": AUTHOR_NAME},
                 "url": f"{SITE_URL}/",
                 "about": ["Topological metamaterials", "Quantum gravity", "Einstein-Cartan theory"],
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.5",
-                    "reviewCount": "12",
-                    "bestRating": "5"
-                },
                 "offers": {
                     "@type": "Offer",
                     "price": "9.99",
@@ -358,7 +352,9 @@ def build_schema_graph(slug, en_title, zh_title, description):
             {
                 "@type": "Person",
                 "name": AUTHOR_NAME,
-                "description": "Author of Alien Dimensions: The Shepherd's Wasteland and the Reality-as-Code physics framework."
+                "url": f"{SITE_URL}/book.html",
+                "sameAs": [url for _, url in BOOK_RETAILERS[:10]],
+                "description": "Author of Alien Dimensions: The Shepherd's Wasteland — a hard sci-fi novel built on the Reality-as-Code physics framework (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering)."
             },
             {
                 "@type": "Article",
@@ -434,7 +430,24 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     schema = build_schema_graph(slug, en_title, zh_title, description)
     schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
 
-    title_text = "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia" if is_index else f"{en_title} | Shepherd's Wasteland"
+    # Hook 标题(2026-09-09 GEO:关键词开头 + 信息缺口悬念,单独成 title)
+    HOOK_TITLES = {
+        "artificial-kondo-lattice": "Can Kondo lattice simulation unlock fault-tolerant qubits?",
+        "floquet-temporal-matter": "Floquet time crystals: how light makes matter programmable",
+        "semi-dirac-mass-nullification": "Can topology cancel mass? The semi-Dirac path to inertia reduction",
+        "qm-tether-exosuit": "Quantum metric exosuit: engineering geometry that bends spacetime",
+        "arena-tripartite-architecture": "Anyons + Majorana qubits: the reality-scale computational arena",
+        "obstructed-atomic-phantom-grid": "Atomic-level radar stealth: obstructed atomic phases explained",
+        "holographic-kpz-projection": "Is 3D reality projected from a 2D boundary? KPZ + holography",
+        "kpz-reality-rendering": "When growth equations render reality: KPZ universality decoded",
+        "type2-superlattice-radar": "Type-II superlattices: physics of next-generation IR radar",
+        "electromagnetic-theater-override": "Kagome magnets: engineering a macroscopic EM field override",
+        "cooperative-resonance-torsion": "Kagome torsion engine: superradiant mass repulsion in practice",
+        "warp-drive-torsion-propagation": "Einstein-Cartan warp drive: real travel via positive-energy bubbles",
+    }
+    hook = HOOK_TITLES.get(slug)
+    title_text = ("Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia" if is_index
+                  else (hook or f"{en_title}") )
     page_path = "index.html" if is_index else f"pages/{slug}.html"
     canonical_url = f"{SITE_URL}/{page_path}"
 
@@ -954,6 +967,11 @@ def build_index_page(all_slugs):
         .hero {{ background: #111; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }}
         .hero h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
         .hero p {{ color: #aaa; font-size: 0.9em; }}
+        .author-card {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }}
+        .author-card h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
+        .author-card p {{ color: #aaa; font-size: 0.9em; margin-bottom: 10px; }}
+        .author-card a {{ color: #00FF41; }}
+        .author-links {{ display: flex; gap: 18px; flex-wrap: wrap; margin-top: 6px; }}
         .book-cta {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; text-align: center; }}
         .book-cover-img {{ width: 200px; height: auto; margin-bottom: 12px; border: 1px solid #1a3a1a; }}
         .book-cta h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }}
@@ -989,6 +1007,18 @@ def build_index_page(all_slugs):
             <h2>About the Encyclopedia</h2>
             <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
         </div>
+        <!-- About the Author (E-E-A-T 2026-09-09:真实可核验信息,不编造资历) -->
+        <div class="author-card">
+            <h2>About the Author</h2>
+            <p>{AUTHOR_NAME} is the author of <em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard science fiction novel where a geological surveyor discovers a rift in spacetime and is pulled into a war between civilizations that treat reality as source code.</p>
+            <p>This encyclopedia is the companion to the novel: every entry translates a real condensed-matter physics principle (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering) into speculative technology, and each page lists the genuine arXiv papers it is grounded in.</p>
+            <div class="author-links">
+                <a href="{SITE_URL}/book.html" target="_blank" rel="noopener">Read a Free Sample →</a>
+                <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener">Amazon</a>
+                <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener">Apple Books</a>
+                <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" target="_blank" rel="noopener">Source Repository (GitHub)</a>
+            </div>
+        </div>
         <!-- Book CTA → book.html landing [P0 2026-09-02] -->
         <div class="book-cta">
             <a href="{SITE_URL}/book.html"><img src="{ASSETS_URL}/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy"></a>
@@ -998,7 +1028,7 @@ def build_index_page(all_slugs):
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
                 <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
                 <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
-                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All 12 Stores →</a>
+                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All {len(BOOK_RETAILERS)} Stores →</a>
             </div>
         </div>
         <div class="grid">{cards_html}</div>
