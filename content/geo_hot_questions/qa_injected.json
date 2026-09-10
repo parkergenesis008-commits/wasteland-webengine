@@ -1,0 +1,16 @@
+{
+  "c9271c5a90": {
+    "slug": "qm-tether-exosuit",
+    "ts": "2026-09-10T17:03:12.950998",
+    "question": "What will robot soldiers really look like?",
+    "pruned": 0,
+    "src": "qa_2026-09-10.json"
+  },
+  "dd3876035e": {
+    "slug": "electromagnetic-theater-override",
+    "ts": "2026-09-10T17:03:12.951211",
+    "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
+    "pruned": 0,
+    "src": "qa_2026-09-10.json"
+  }
+}

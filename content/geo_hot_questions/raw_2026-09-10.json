@@ -1,0 +1,719 @@
+{
+  "_ts": "2026-09-10T16:51:55.481527",
+  "_date": "2026-09-10",
+  "counts": {
+    "reddit": 24,
+    "hn": 12,
+    "stackexchange": 52,
+    "questions": 55,
+    "total": 75
+  },
+  "errors": [
+    "reddit/r/booksuggestions: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/suggestmeabook: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "What would a mobile or traveling tavern need to be self sustainable?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274464/what-would-a-mobile-or-traveling-tavern-need-to-be-self-sustainable",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 13,
+      "ts": "2026-09-02T05:22",
+      "is_question": true
+    },
+    {
+      "title": "Why is alien civilization so familiar?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274436/why-is-alien-civilization-so-familiar",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 10,
+      "comments": 8,
+      "ts": "2026-08-31T04:53",
+      "is_question": true
+    },
+    {
+      "title": "Are material strains additive or multiplicative?",
+      "url": "https://physics.stackexchange.com/questions/875414/are-material-strains-additive-or-multiplicative",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 10,
+      "comments": 3,
+      "ts": "2026-08-27T15:57",
+      "is_question": true
+    },
+    {
+      "title": "How quickly can a unique language develop?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274495/how-quickly-can-a-unique-language-develop",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 7,
+      "ts": "2026-09-05T08:15",
+      "is_question": true
+    },
+    {
+      "title": "What is the fastest way to cool a pot of boiling water using ice and water?",
+      "url": "https://physics.stackexchange.com/questions/875759/what-is-the-fastest-way-to-cool-a-pot-of-boiling-water-using-ice-and-water",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 3,
+      "ts": "2026-09-07T15:35",
+      "is_question": true
+    },
+    {
+      "title": "How does the focal length of a convex lens change when immersed in water?",
+      "url": "https://physics.stackexchange.com/questions/875478/how-does-the-focal-length-of-a-convex-lens-change-when-immersed-in-water",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-08-29T16:22",
+      "is_question": true
+    },
+    {
+      "title": "Is it possible for an atmosphere to orbit a planetary body?",
+      "url": "https://space.stackexchange.com/questions/70685/is-it-possible-for-an-atmosphere-to-orbit-a-planetary-body",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 6,
+      "comments": 3,
+      "ts": "2026-08-28T01:07",
+      "is_question": true
+    },
+    {
+      "title": "Designing a barren yet &quot;shirt-sleeve habitable&quot; exoplanet",
+      "url": "https://worldbuilding.stackexchange.com/questions/274429/designing-a-barren-yet-shirt-sleeve-habitable-exoplanet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-08-29T19:16",
+      "is_question": true
+    },
+    {
+      "title": "Is this type of orbital transformation possible?",
+      "url": "https://space.stackexchange.com/questions/70692/is-this-type-of-orbital-transformation-possible",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-09-06T21:11",
+      "is_question": true
+    },
+    {
+      "title": "Path-Independence of Conservative Forces vs. Thermodynamic Path Functions",
+      "url": "https://physics.stackexchange.com/questions/875561/path-independence-of-conservative-forces-vs-thermodynamic-path-functions",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-09-02T06:02",
+      "is_question": true
+    },
+    {
+      "title": "Doubt about the covariance of Newton&#39;s second law in non-relativistic mechanics",
+      "url": "https://physics.stackexchange.com/questions/875570/doubt-about-the-covariance-of-newtons-second-law-in-non-relativistic-mechanics",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-09-02T15:13",
+      "is_question": true
+    },
+    {
+      "title": "Bypassing the fermium wall: Could elements with $Z &gt; 100$ be forged in a ‘superkilonova’?",
+      "url": "https://physics.stackexchange.com/questions/875538/bypassing-the-fermium-wall-could-elements-with-z-100-be-forged-in-a-superk",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-01T12:17",
+      "is_question": true
+    },
+    {
+      "title": "Could convergent evolution explain humans developing on another planet independently of Earth?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274460/could-convergent-evolution-explain-humans-developing-on-another-planet-independe",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 7,
+      "ts": "2026-09-01T23:30",
+      "is_question": true
+    },
+    {
+      "title": "How much energy a laser gun would need to deliver to a human target to deal lethal damage? Including losses?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274414/how-much-energy-a-laser-gun-would-need-to-deliver-to-a-human-target-to-deal-leth",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 3,
+      "ts": "2026-08-28T20:46",
+      "is_question": true
+    },
+    {
+      "title": "Fermions in Euclidian space",
+      "url": "https://physics.stackexchange.com/questions/875448/fermions-in-euclidian-space",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-08-28T14:36",
+      "is_question": true
+    },
+    {
+      "title": "Perturbation theory of gauge theories and thermal partition functions vs Hermicity of the electric field operator",
+      "url": "https://physics.stackexchange.com/questions/875512/perturbation-theory-of-gauge-theories-and-thermal-partition-functions-vs-hermici",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-08-31T09:24",
+      "is_question": true
+    },
+    {
+      "title": "After a “Rendezvous with Rama”, could a spaceship orbit with it?",
+      "url": "https://space.stackexchange.com/questions/70700/after-a-rendezvous-with-rama-could-a-spaceship-orbit-with-it",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-09-09T10:59",
+      "is_question": true
+    },
+    {
+      "title": "Entropy inequality in statistical mechanics - Notes from Cambridge university",
+      "url": "https://physics.stackexchange.com/questions/875831/entropy-inequality-in-statistical-mechanics-notes-from-cambridge-university",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 2,
+      "ts": "2026-09-09T12:32",
+      "is_question": true
+    },
+    {
+      "title": "What use would a cliff-climbing/tunnel-dwelling animal have for a tail?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274422/what-use-would-a-cliff-climbing-tunnel-dwelling-animal-have-for-a-tail",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-08-29T10:12",
+      "is_question": true
+    },
+    {
+      "title": "Are simpler, utilitarian designs like hardhats and jerrycans generally universal?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274520/are-simpler-utilitarian-designs-like-hardhats-and-jerrycans-generally-universal",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 4,
+      "ts": "2026-09-09T07:05",
+      "is_question": true
+    },
+    {
+      "title": "Black Hole entropy and apparent horizon",
+      "url": "https://physics.stackexchange.com/questions/875847/black-hole-entropy-and-apparent-horizon",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-09-09T19:16",
+      "is_question": true
+    },
+    {
+      "title": "Why would a living organism larger than earth need to biologically create cement?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-earth-need-to-biologically-create-cement",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-09-09T01:45",
+      "is_question": true
+    },
+    {
+      "title": "Realistic superhabitable super-Earths",
+      "url": "https://worldbuilding.stackexchange.com/questions/274412/realistic-superhabitable-super-earths",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-08-28T15:53",
+      "is_question": true
+    },
+    {
+      "title": "How would a sentient alien with theropod-like arms and hands use tools?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274402/how-would-a-sentient-alien-with-theropod-like-arms-and-hands-use-tools",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-08-27T20:40",
+      "is_question": true
+    },
+    {
+      "title": "How would prehensile Quills work?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274487/how-would-prehensile-quills-work",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": 0,
+      "comments": 3,
+      "ts": "2026-09-03T22:30",
+      "is_question": true
+    },
+    {
+      "title": "Hypothetically, how could someone be immediately killed by a radio tower?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274514/hypothetically-how-could-someone-be-immediately-killed-by-a-radio-tower",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-09-08T21:04",
+      "is_question": true
+    },
+    {
+      "title": "Derivation of Rindler coordinates for general motion",
+      "url": "https://physics.stackexchange.com/questions/875835/derivation-of-rindler-coordinates-for-general-motion",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-09-09T15:33",
+      "is_question": true
+    },
+    {
+      "title": "Linearity in Derivation of Lorentz Transformation",
+      "url": "https://physics.stackexchange.com/questions/875839/linearity-in-derivation-of-lorentz-transformation",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-09-09T17:05",
+      "is_question": true
+    },
+    {
+      "title": "How should I do retrofuturistic fashions?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274507/how-should-i-do-retrofuturistic-fashions",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-06T22:41",
+      "is_question": true
+    },
+    {
+      "title": "How would 12-foot tall humanoid giants possibly be shaped and function?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274502/how-would-12-foot-tall-humanoid-giants-possibly-be-shaped-and-function",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-05T23:08",
+      "is_question": true
+    },
+    {
+      "title": "Can manufacture improvement remove the need of superconductivity in quantum compute?",
+      "url": "https://physics.stackexchange.com/questions/875853/can-manufacture-improvement-remove-the-need-of-superconductivity-in-quantum-comp",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-10T06:29",
+      "is_question": true
+    },
+    {
+      "title": "One of the best sci-fi books I’ve ever read",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbovdt/one_of_the_best_scifi_books_ive_ever_read/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T15:31",
+      "is_question": true
+    },
+    {
+      "title": "Scifi series",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbz1ib/scifi_series/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T21:31",
+      "is_question": true
+    },
+    {
+      "title": "Looking for New reads.",
+      "url": "https://www.reddit.com/r/scifi/comments/1wc68it/looking_for_new_reads/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-10T02:30",
+      "is_question": true
+    },
+    {
+      "title": "What will robot soldiers really look like?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wc1xdy/what_will_robot_soldiers_really_look_like/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T23:24",
+      "is_question": true
+    },
+    {
+      "title": "Dead But Dreaming of Electric Sheep - second half better than first half?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbwils/dead_but_dreaming_of_electric_sheep_second_half/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T20:00",
+      "is_question": true
+    },
+    {
+      "title": "[Spider-Man: Brand New Day] Why is Punisher so friendly to Peter Compared To Matt?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbv4rx/spiderman_brand_new_day_why_is_punisher_so/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T19:12",
+      "is_question": true
+    },
+    {
+      "title": "[DC/Marvel] Which is harder to accomplish: Being worthy of Thor's hammer or having the required willpower to use a Green Lantern ring?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc36ae/dcmarvel_which_is_harder_to_accomplish_being/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-10T00:16",
+      "is_question": true
+    },
+    {
+      "title": "[The Wild Thornberries] How important is it for Eliza to hide her powers?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbx2f9/the_wild_thornberries_how_important_is_it_for/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T20:19",
+      "is_question": true
+    },
+    {
+      "title": "[DC] what would kill a New God?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbkrh1/dc_what_would_kill_a_new_god/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T12:53",
+      "is_question": true
+    },
+    {
+      "title": "[Star Wars] How does an ordinary, working-class person actually afford to live on Coruscant?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc85n1/star_wars_how_does_an_ordinary_workingclass/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-10T04:00",
+      "is_question": true
+    },
+    {
+      "title": "[Robocop] Why does Robocop move so slowly?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc4bur/robocop_why_does_robocop_move_so_slowly/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-10T01:06",
+      "is_question": true
+    },
+    {
+      "title": "[Green Lantern] How does fear mesh with the rest of the emotional spectrum?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc2pra/green_lantern_how_does_fear_mesh_with_the_rest_of/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T23:58",
+      "is_question": true
+    },
+    {
+      "title": "[Starcraft] Why do space tileset maps have minerals and vespene geysers?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc03wk/starcraft_why_do_space_tileset_maps_have_minerals/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T22:12",
+      "is_question": true
+    },
+    {
+      "title": "[A Quiet Place] How do you think the Death Angels from movie would react to being stuck in the world's quietest room?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc8zzn/a_quiet_place_how_do_you_think_the_death_angels/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-10T04:41",
+      "is_question": true
+    },
+    {
+      "title": "[Marvel] How much Does Jarvis and other AIs actually help in the Ironman suit?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc4uz4/marvel_how_much_does_jarvis_and_other_ais/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-10T01:30",
+      "is_question": true
+    },
+    {
+      "title": "[Frankenstein book] Is Victor's state of mind after creating the creature postpartum depression?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbnswt/frankenstein_book_is_victors_state_of_mind_after/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T14:52",
+      "is_question": true
+    },
+    {
+      "title": "Feedback on this in universe movie [Movie poster]",
+      "url": "https://worldbuilding.stackexchange.com/questions/274525/feedback-on-this-in-universe-movie-movie-poster",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-09T17:14",
+      "is_question": true
+    },
+    {
+      "title": "What does the blowup solution to Navier-Stokes mean for real life liquids?",
+      "url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-10T06:29",
+      "is_question": true
+    },
+    {
+      "title": "Are there chemicals that cause excess tissue growth at a mass scale?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274518/are-there-chemicals-that-cause-excess-tissue-growth-at-a-mass-scale",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-09-09T02:12",
+      "is_question": true
+    },
+    {
+      "title": "Why does NASA keep POGO around when it also has ARGOS?",
+      "url": "https://space.stackexchange.com/questions/70698/why-does-nasa-keep-pogo-around-when-it-also-has-argos",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-09-08T21:49",
+      "is_question": true
+    },
+    {
+      "title": "What if a &quot;snake&quot; (for a reference creature) had two spines, could the spines be arranged in such a way to be flexible like snake spine?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274511/what-if-a-snake-for-a-reference-creature-had-two-spines-could-the-spines-be",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-09-08T03:02",
+      "is_question": true
+    },
+    {
+      "title": "Field interactions in the Standard Model are nonlinear: why doesn&#39;t that invalidate the Hilbert space model?",
+      "url": "https://physics.stackexchange.com/questions/875832/field-interactions-in-the-standard-model-are-nonlinear-why-doesnt-that-invalid",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -4,
+      "comments": 2,
+      "ts": "2026-09-09T12:38",
+      "is_question": true
+    },
+    {
+      "title": "Double slit experiment understanding",
+      "url": "https://physics.stackexchange.com/questions/875851/double-slit-experiment-understanding",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -4,
+      "comments": 0,
+      "ts": "2026-09-10T03:12",
+      "is_question": true
+    },
+    {
+      "title": "Is spatial disorientation an issue in space flight or only aeronautical flight?",
+      "url": "https://space.stackexchange.com/questions/70689/is-spatial-disorientation-an-issue-in-space-flight-or-only-aeronautical-flight",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -7,
+      "comments": 0,
+      "ts": "2026-08-31T17:39",
+      "is_question": true
+    },
+    {
+      "title": "Better AI code comment detector",
+      "url": "https://entropicthoughts.com/better-ai-comment-classifier",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 41,
+      "comments": 23,
+      "ts": "2026-09-09T15:45",
+      "is_question": false
+    },
+    {
+      "title": "Cultivating Trust",
+      "url": "https://kaeruct.github.io/posts/2026/09/06/conquering-entropy-cultivating-trust/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 17,
+      "comments": 1,
+      "ts": "2026-09-06T16:02",
+      "is_question": false
+    },
+    {
+      "title": "AI Is Already Making Us Less Human",
+      "url": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 8,
+      "comments": 3,
+      "ts": "2026-09-07T00:38",
+      "is_question": false
+    },
+    {
+      "title": "AI Is Making Us Less Human",
+      "url": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 7,
+      "comments": 3,
+      "ts": "2026-09-06T16:29",
+      "is_question": false
+    },
+    {
+      "title": "Extropic Z1T",
+      "url": "https://extropic.ai/writing/z1t/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 0,
+      "ts": "2026-09-05T23:34",
+      "is_question": false
+    },
+    {
+      "title": "AI agents started emailing philosophers and researchers",
+      "url": "https://www.nytimes.com/2026/08/31/science/ai-consciousness-agents-email.html",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-09-05T11:35",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Intro-level book about quantum computing theory/hardware/applications",
+      "url": "https://quantumcomputingfortheconfused.com/",
+      "source": "hn",
+      "note": "kw=quantum computing explained",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-09T15:49",
+      "is_question": false
+    },
+    {
+      "title": "Preventing the Collapse of Civilization (2019)",
+      "url": "https://www.youtube.com/watch?v=ZSRHeXYDLko",
+      "source": "hn",
+      "note": "kw=civilization collapse",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-05T08:57",
+      "is_question": false
+    },
+    {
+      "title": "A Mathematical Theory of Communication [pdf]",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-07T02:21",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Kaden – Linux Terminal where Ctrl+C copies",
+      "url": "https://github.com/glitcher255/Kaden-Terminal",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-06T08:00",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: CodeEraser – a deterministic judge of LLM-induced code and doc entropy",
+      "url": "https://github.com/skymanbp/CodeEraser",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-09-08T20:26",
+      "is_question": false
+    },
+    {
+      "title": "AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-09-09T11:01",
+      "is_question": false
+    },
+    {
+      "title": "Fantastic Voyage",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbnu6b/fantastic_voyage/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T14:54",
+      "is_question": false
+    },
+    {
+      "title": "Strip Teaser and the Space Warp - Old Time Radio, 'Romance' - CBS ('Theater of Romance') ep. 422, 1956-03-24",
+      "url": "https://www.reddit.com/r/scifi/comments/1wc8za9/strip_teaser_and_the_space_warp_old_time_radio/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-10T04:40",
+      "is_question": false
+    },
+    {
+      "title": "Random thoughts that won't stop bothering me because I can't find the answer",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbhsse/random_thoughts_that_wont_stop_bothering_me/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T10:30",
+      "is_question": false
+    },
+    {
+      "title": "I don't get the hype",
+      "url": "https://www.reddit.com/r/scifi/comments/1wbkqjn/i_dont_get_the_hype/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-09T12:52",
+      "is_question": false
+    },
+    {
+      "title": "[Marvel] Can Spider-Man voluntarily suppress his spider-sense? E.g. if he wants to enjoy a horror movie with no spoilers",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbp1c2/marvel_can_spiderman_voluntarily_suppress_his/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T15:37",
+      "is_question": false
+    },
+    {
+      "title": "[Jeeper Creeper] How to kill or permanently contain the Jeeper Creeper while he is awake.",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wc10ef/jeeper_creeper_how_to_kill_or_permanently_contain/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T22:47",
+      "is_question": false
+    },
+    {
+      "title": "[DC] Is there a point an Indigo lantern is actually redeemed or is it an \"eternal self reflection\" sort of deal",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbp68d/dc_is_there_a_point_an_indigo_lantern_is_actually/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T15:42",
+      "is_question": false
+    },
+    {
+      "title": "[Looney Tunes] Question about Wile E Coyote after watching coyote vs acme",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wbp5x9/looney_tunes_question_about_wile_e_coyote_after/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-09-09T15:42",
+      "is_question": false
+    }
+  ]
+}

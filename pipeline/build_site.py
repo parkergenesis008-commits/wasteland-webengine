@@ -323,11 +323,38 @@ def md_to_html(md, slug):
     
     return '\n'.join(html)
 
+_QA_SCHEMA_CACHE = None
+
+
+def _qa_faq_nodes(slug):
+    """🎯 [2026-09-10 激进模式] 把当日注入的「延伸问答」暴露成 FAQPage 结构化数据。
+    数据源: content/geo_hot_questions/qa_schema.json (由 pipeline/geo_qa_inject.py 生成)"""
+    global _QA_SCHEMA_CACHE
+    try:
+        if _QA_SCHEMA_CACHE is None:
+            p = os.path.join(BASE_DIR, "content/geo_hot_questions/qa_schema.json")
+            if os.path.exists(p):
+                with open(p, encoding="utf-8") as f:
+                    _QA_SCHEMA_CACHE = json.load(f)
+            else:
+                _QA_SCHEMA_CACHE = {}
+        items = _QA_SCHEMA_CACHE.get(slug) or []
+        entities = [{"@type": "Question", "name": it.get("q", ""),
+                     "acceptedAnswer": {"@type": "Answer", "text": it.get("a", "")}}
+                    for it in items if it.get("q") and it.get("a")]
+        if not entities:
+            return []
+        return [{"@type": "FAQPage", "mainEntity": entities}]
+    except Exception:
+        return []
+
+
 def build_schema_graph(slug, en_title, zh_title, description):
     """Generate rich multi-entity JSON-LD."""
     return {
         "@context": "https://schema.org",
         "@graph": [
+            *_qa_faq_nodes(slug),
             {
                 "@type": "WebSite",
                 "name": "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",

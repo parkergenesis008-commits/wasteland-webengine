@@ -101,11 +101,44 @@ def should_run():
     return True
 
 
-def phase_freshen_content():
-    """Pick 1-2 random lore pages and add a freshness timestamp."""
+def phase_qa_inject():
+    """[激进模式 2026-09-10] 把当日热门问题注入对应 lore 页(延伸问答 + FAQ schema)。
+    幂等; 无当日 qa 文件时静默跳过, 不影响部署。"""
+    print("=== Phase 1a: Hot-Question Q&A Injection (激进模式) ===")
+    script = os.path.join(BASE_DIR, "pipeline/geo_qa_inject.py")
+    if not os.path.exists(script):
+        print("  (无注入器, 跳过)")
+        return []
+    try:
+        r = subprocess.run([sys.executable, script], capture_output=True, text=True,
+                           env=_ENV, cwd=BASE_DIR, timeout=120)
+        out = (r.stdout or "").strip()
+        if out:
+            print(out)
+        if r.returncode != 0:
+            print(f"  ⚠️ 注入器退出码 {r.returncode}: {(r.stderr or '')[:200]}")
+        # 解析注入了哪些 slug, 供 freshen 阶段优先刷新
+        slugs = re.findall(r"✓ 注入 (\S+)", out)
+        return slugs
+    except Exception as e:
+        print(f"  ⚠️ 注入器异常(不影响部署): {e}")
+        return []
+
+
+def phase_freshen_content(prefer_slugs=None):
+    """Pick 1-2 random lore pages and add a freshness timestamp.
+    prefer_slugs: 优先刷新这些页(通常是本轮刚注入问答的页, 让"内容真变了"的信号更强)。"""
     print("=== Phase 1: Content Freshening ===")
     count = random.randint(1, 2)
-    selected = random.sample(LORES, min(count, len(LORES)))
+    picked = []
+    for s in (prefer_slugs or []):
+        if s in LORES and s not in picked:
+            picked.append(s)
+    while len(picked) < min(count, len(LORES)):
+        cand = random.choice(LORES)
+        if cand not in picked:
+            picked.append(cand)
+    selected = picked
     
     for slug in selected:
         lore_path = os.path.join(BASE_DIR, "content/lore", f"{slug}.md")
@@ -233,7 +266,8 @@ def main():
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     print(f"=== Wasteland GEO Pipeline v2 — {timestamp} ===\n")
     
-    phase_freshen_content()
+    qa_slugs = phase_qa_inject()          # 激进模式: 先把当日热门问答注入 lore 页
+    phase_freshen_content(prefer_slugs=qa_slugs)
     if not phase_build():
         sys.exit(1)
     if not phase_deploy():

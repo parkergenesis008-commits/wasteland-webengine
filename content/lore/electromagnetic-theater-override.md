@@ -34,3 +34,14 @@ It forcibly presses the electrons outside the atomic nucleus into the protons wi
 At the evolutionary terminus of the Computational Arena, the hardness of matter is merely a rewritable variable. Breaking the fragile theater constructed by electromagnetic forces is the first true step toward controlling physical reality.
 
 <!-- Last fresh: 2026-09-05 10:00 UTC -->
+
+<!-- GEO-QA-START id=dd3876035e -->
+## Extended Q&A — Reader Question
+
+**Q: How much energy would a laser gun need to deliver to a human target to deal lethal damage?**
+<p><em>asked on worldbuilding.stackexchange.com · score 4 · 3 answers (worldbuilding SE, last 14 days)</em></p>
+
+Treat it as three separate numbers you must not confuse: the energy that reaches the tissue, the energy the emitter must produce, and the energy the whole system must get rid of. A few hundred joules deposited fast enough in a small spot is the ballpark where damage stops being cosmetic, but delivering that in a handheld package at any useful range runs into beam quality and atmospheric scattering long before it runs into the tissue. The dominant engineering term is usually waste heat: a device that is only a few percent efficient turns the rest of its input into a problem it must solve locally, which is why fiction's handheld beam weapons are more plausible as capacitor-fed single-shot tools than as sustained-fire rifles. In this project's electromagnetic-theater setting the same constraint is what the concept-design sections build on — beam propagation and thermal load first, dramatic effects second.
+
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/tagged/physics" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
