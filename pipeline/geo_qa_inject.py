@@ -127,7 +127,19 @@ def main():
         for e in (d.get("entries") or []):
             qid = _qa_id(e)
             if qid in injected:
-                continue
+                # 🛡️ 自愈: 状态文件记录已注入, 但 md 里已不存在(例如被 freshen 截断/手工编辑) → 重新注入
+                _slug = e.get("slug")
+                _mp = os.path.join(LORE_DIR, f"{_slug}.md")
+                _md = ""
+                try:
+                    if os.path.exists(_mp):
+                        with open(_mp, encoding="utf-8") as _f:
+                            _md = _f.read()
+                except Exception:
+                    _md = ""
+                if f"{START} id={qid}" in _md:
+                    continue
+                print(f"  ↩︎ 自愈: {_slug} 的问答块缺失 → 重新注入")
             if not e.get("slug") or not e.get("question") or not e.get("answer_md"):
                 continue
             e["_qa_id"] = qid
@@ -151,6 +163,18 @@ def main():
             injected[e["_qa_id"]] = {"slug": slug, "ts": datetime.now().isoformat(), "note": "already"}
             continue
         new_md = md.rstrip() + "\n\n" + _block(e, lore_titles)
+        # 🛡️ 注入位置: 若文件末尾已有 "<!-- Last fresh: -->" 时间戳, 插到它**之前**,
+        #    避免被 run_geo 的 freshen 逻辑或任何"截断到时间戳"的实现抹掉。
+        if new_md.count("<!-- Last fresh:") > 0:
+            blk_start = new_md.rindex(START)
+            blk_end = new_md.index(END, blk_start) + len(END)
+            block_txt = new_md[blk_start:blk_end]
+            head = new_md[:blk_start].rstrip()
+            # 去掉末尾空的 "<!-- Last fresh: -->" 行(可能有多行历史戳)
+            head = re.sub(r"(\n*<!-- Last fresh:.*?-->)+$", "", head, flags=re.S).rstrip()
+            stamps = re.findall(r"<!-- Last fresh:.*?-->", new_md[blk_start:], flags=re.S)
+            tail = ("\n\n" + stamps[-1]) if stamps else ""
+            new_md = head + "\n\n" + block_txt + tail + "\n"
         new_md, pruned = _prune_old_blocks(new_md)
         if args.dry_run:
             print(f"  [dry-run] 会注入 → content/lore/{slug}.md  Q: {e['question'][:70]}")

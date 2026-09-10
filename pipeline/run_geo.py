@@ -150,10 +150,11 @@ def phase_freshen_content(prefer_slugs=None):
         
         # Add/update freshness stamp in a comment format
         stamp = f"\n\n<!-- Last fresh: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} -->"
-        if "<!-- Last fresh:" in content:
-            content = content.split("<!-- Last fresh:")[0].rstrip() + stamp
-        else:
-            content += stamp
+        # ⚠️ [2026-09-10 修复] 旧实现用 content.split("<!-- Last fresh:")[0] 截断文件 —
+        #    会把标记之后的**所有内容**(含 geo_qa_inject 追加的「延伸问答」块)一并删除。
+        #    改为只替换时间戳本身, 保留正文与注入块。
+        content = re.sub(r"\n*<!-- Last fresh:.*?-->", "", content, flags=re.S).rstrip()
+        content += stamp
         
         with open(lore_path, "w", encoding="utf-8") as f:
             f.write(content)

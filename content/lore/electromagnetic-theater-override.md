@@ -33,8 +33,6 @@ It forcibly presses the electrons outside the atomic nucleus into the protons wi
 ## 4. Conclusion: Rewriting the Script
 At the evolutionary terminus of the Computational Arena, the hardness of matter is merely a rewritable variable. Breaking the fragile theater constructed by electromagnetic forces is the first true step toward controlling physical reality.
 
-<!-- Last fresh: 2026-09-05 10:00 UTC -->
-
 <!-- GEO-QA-START id=dd3876035e -->
 ## Extended Q&A — Reader Question
 
@@ -45,3 +43,5 @@ Treat it as three separate numbers you must not confuse: the energy that reaches
 
 <p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/tagged/physics" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-10 17:08 UTC -->
