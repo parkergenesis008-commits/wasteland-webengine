@@ -18,7 +18,12 @@ BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
 # ── Book metadata for the sales landing page [P0 2026-09-02 GEO推广改进] ──
 AMAZON_URL = "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
-# 🛒 [2026-09-11] Apple Books 深链 id6479860641 已 404（书已下架/换 id），故 CTA 改用已验证的 Everand 深链
+# 🍎 [2026-09-11] Apple Books 深链**换了 id**（旧 id6479860641 已 404）。
+#   新 id 通过 Apple 官方检索 API 取回: itunes.apple.com/search?term=…&entity=ebook&country=US
+#   → trackViewUrl = .../id6760573514。经海外出口实测 200 且页面含书名+作者。
+#   ⚠️ 直连（中国 IP）对该域返回 404 = Apple 地域拒绝，不代表链接失效。
+APPLE_BOOKS_URL = "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6760573514"
+# 📖 Everand（Scribd）深链，实测可用（原为搜索页，2026-09-11 升级）
 EVERAND_URL = "https://www.everand.com/book/1012259893/Alien-Dimensions-The-Shepherd-s-Wasteland"
 
 BOOK_HOOK = ("A geological surveyor in the Qinling Mountains stumbles onto a rift in spacetime — "
@@ -74,6 +79,7 @@ BOOK_SAMPLE = (
 BOOK_RETAILERS = [
     # Direct product pages (stable per-title deep links):
     ("Amazon", AMAZON_URL),
+    ("Apple Books", APPLE_BOOKS_URL),
     ("Everand", EVERAND_URL),
     # Storefront search pages（点进去即能看到本书，已实测）:
     ("Google Play", "https://play.google.com/store/search?q=alien%20dimensions%20shepherd%27s%20wasteland&c=books"),
@@ -873,7 +879,7 @@ def build_book_page():
             <p>{BOOK_HOOK}</p>
             <div class="cta-row">
                 <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-                <a href="{EVERAND_URL}" class="buy-link alt" rel="noopener" target="_blank">Read on Everand</a>
+                <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
             </div>
             <div class="note">Read a free sample below — no account needed.</div>
         </div>
@@ -921,7 +927,7 @@ def build_book_page():
         <h2>Reality is code. Start compiling.</h2>
         <div class="cta-row" style="justify-content:center;">
             <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-            <a href="{EVERAND_URL}" class="buy-link alt" rel="noopener" target="_blank">Read on Everand</a>
+            <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
         </div>
     </div>
 
@@ -1053,7 +1059,7 @@ def build_index_page(all_slugs):
             <div class="author-links">
                 <a href="{SITE_URL}/book.html" target="_blank" rel="noopener">Read a Free Sample →</a>
                 <a href="{AMAZON_URL}" target="_blank" rel="noopener">Amazon</a>
-                <a href="{EVERAND_URL}" target="_blank" rel="noopener">Everand</a>
+                <a href="{APPLE_BOOKS_URL}" target="_blank" rel="noopener">Apple Books</a>
                 <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" target="_blank" rel="noopener">Source Repository (GitHub)</a>
             </div>
         </div>
@@ -1065,7 +1071,7 @@ def build_index_page(all_slugs):
             <div class="book-links">
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
                 <a href="{AMAZON_URL}" target="_blank" rel="noopener" class="buy-link">Amazon</a>
-                <a href="{EVERAND_URL}" target="_blank" rel="noopener" class="buy-link">Everand</a>
+                <a href="{APPLE_BOOKS_URL}" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All {len(BOOK_RETAILERS)} Stores →</a>
             </div>
         </div>
