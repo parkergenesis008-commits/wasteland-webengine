@@ -12,5 +12,19 @@
     "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
     "pruned": 0,
     "src": "qa_2026-09-10.json"
+  },
+  "71b42c52c5": {
+    "slug": "qm-tether-exosuit",
+    "ts": "2026-09-11T10:00:17.733765",
+    "question": "What exactly would gravity-mediated entanglement prove?",
+    "pruned": 0,
+    "src": "qa_2026-09-11.json"
+  },
+  "8fcb4bf481": {
+    "slug": "arena-tripartite-architecture",
+    "ts": "2026-09-11T10:00:17.734118",
+    "question": "Is it possible for an atmosphere to orbit a planetary body?",
+    "pruned": 0,
+    "src": "qa_2026-09-11.json"
   }
 }

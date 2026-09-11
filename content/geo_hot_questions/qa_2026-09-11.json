@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-11",
+  "generator": "cron 8a30034f417e (GEO 每日热门引流问题)",
+  "entries": [
+    {
+      "slug": "qm-tether-exosuit",
+      "question": "What exactly would gravity-mediated entanglement prove?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove",
+      "heat": "physics.SE new thread, 5 votes / 1 answer (2026-09-10)",
+      "answer_md": "The proposal is narrower than the headline: two masses that interact only through gravity cannot be entangled by any classical mediator, so a measured entanglement signal would mean the gravitational interaction itself is quantum in the weakly-coupled regime probed. It would not \"prove quantum gravity\" — it would pin down one corner of it, while every serious experiment fights the same enemy, namely stray electromagnetic, vibrational and thermal couplings that are enormously stronger than gravity at laboratory scales. That is why the field is really a measurement problem: isolation, shielding and statistics rather than a single dramatic result. This project's QM-Tether exosuit is the speculative extrapolation of that idea — a tether-linked readout that treats the metric as the sensing channel instead of a classical frame bolted onto a suit — and it is fiction: the physics above is textbook, the metric-manipulation layer is the setting, not a demonstrated technology. The same quantum-gravity intuition is why this project also explores a boundary-encoded view of the readout in <a href='holographic-kpz-projection.html'>the holographic projection framework</a>.",
+      "links": [
+        "holographic-kpz-projection"
+      ]
+    },
+    {
+      "slug": "arena-tripartite-architecture",
+      "question": "Is it possible for an atmosphere to orbit a planetary body?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70685/is-it-possible-for-an-atmosphere-to-orbit-a-planetary-body",
+      "heat": "space.SE, 6 votes / 3 answers, still collecting replies",
+      "answer_md": "A persistent ring of *gas* in orbit is a different object from an atmosphere: orbital material has to be collisionless enough to keep its angular momentum, while gas spreads viscously, damps through collisions and is stripped by photoionisation and Jeans escape, so any such ring is short-lived against the age of a solar system. The real examples that do exist are hybrids — Saturn's rings are overwhelmingly water ice with only a trace atmosphere, and the Enceladus water-vapour torus feeding the E ring is replenished continuously from the moon's plumes rather than surviving on its own. So the honest answer is that a bound, long-lived gas ring is not a stable equilibrium configuration; it is a transient that needs a source. In this project's setting, the idea survives only as an engineered artefact — a habitat ring that has to be actively held, which is exactly the premise behind <a href='electromagnetic-theater-override.html'>the field-containment layer of this setting</a> (fiction, not a physical result).",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

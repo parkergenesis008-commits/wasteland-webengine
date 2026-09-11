@@ -1,0 +1,163 @@
+{
+  "_date": "2026-09-11",
+  "_generated": "cron 8a30034f417e (GEO 每日热门引流问题)",
+  "_site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "count_requested": 12,
+  "count": 12,
+  "source_health": {
+    "stackexchange": 54,
+    "reddit_rss": 30,
+    "hackernews": 11,
+    "questions_detected": 67,
+    "dedup_total": 80
+  },
+  "notes": "X/TikTok 今日抓取失败：web_search 后端返回 403/不可用，未获得可核验的 X/TikTok 热题，故不列入任何条目。源失败：reddit/r/suggestmeabook 与 reddit/r/physics 均 HTTP 429（限流），该两板块今日不可用；stackexchange(worldbuilding/space/physics) 与 reddit_rss 其余板块正常。",
+  "top3_for_today": [
+    {
+      "map_to": "qm-tether-exosuit",
+      "question": "What exactly would gravity-mediated entanglement prove?"
+    },
+    {
+      "map_to": "arena-tripartite-architecture",
+      "question": "Is it possible for an atmosphere to orbit a planetary body?"
+    },
+    {
+      "map_to": "book",
+      "question": "what's a book with a morally grey MC?"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "question": "What exactly would gravity-mediated entanglement prove?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove",
+      "heat": "physics.SE 新帖 5★ / 1 回答 (2026-09-10)；量子引力可测性话题簇",
+      "why": "量子引力能否在桌面实验被验证，是硬科幻读者最关心的前沿争议之一；且天然对应本项目“把度规本身当测量通道”的设定。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "先给真实测量学：经典中介无法产生纠缠，故正结果=引力场在所测弱耦合区被量子化（不等于“证明量子引力”），难点是杂散电磁/振动/热耦合的排除。再落到设定层：tether 式度规读出只是 fiction 层外推。",
+      "use": "已写入 qa_2026-09-11.json（QA-A，注入 qm-tether-exosuit 页），可再拆成 X/知乎科普短文。"
+    },
+    {
+      "n": 2,
+      "question": "Is it possible for an atmosphere to orbit a planetary body?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70685/is-it-possible-for-an-atmosphere-to-orbit-a-planetary-body",
+      "heat": "space.SE 6★ / 3 回答；真实行星科学常识型提问，长尾流量好",
+      "why": "问题形态极适合科普：真实土星环是冰不是气，Enceladus 水汽环/E 环是真实存在的气体-尘埃环，而纯气体环会因黏性扩散与逃逸在短时间尺度耗散。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层：束缚气体环缺压力支撑→黏性扩散、碰撞阻尼、光致电离与 Jeans 逃逸；对比真实环系统。设定层：主动场约束的长寿命气体环只存在于本项目 arena 设定。",
+      "use": "已写入 qa_2026-09-11.json（QA-B，注入 arena-tripartite-architecture 页）。"
+    },
+    {
+      "n": 3,
+      "question": "Are there stable orbits of point masses around a massive cylindrical object?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+      "heat": "space.SE 4★ / 1 回答",
+      "why": "圆环/圆柱质量分布的引力场与稳定性是经典力学硬题，也是环世界型设定的物理地基，读者提问即自带“硬科幻”标签。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层：环外场近似点质量，环内（空腔）近平坦/无净引力，稳定性取决于摄动与轨道共振；引用教科书结论，不给具体数值。设定层：tripartite 竞技场是被设计出的多体轨道架构。",
+      "use": "作为 arena 页 FAQ 扩展与长篇科普稿选题。"
+    },
+    {
+      "n": 4,
+      "question": "Bypassing the fermium wall: Could elements with $Z > 100$ be forged in a 'superkilonova'?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875538/bypassing-the-fermium-wall-could-elements-with-z-100-be-forged-in-a-superkilonova",
+      "heat": "physics.SE 6★ / 1 回答 (2026-09-01)",
+      "why": "核合成终点/自发裂变是“重元素从哪来”这一大众问题的尖端版本，能自然连接重费米子与晶格物理的跨界叙事。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层：r 过程沿中子滴线与自发裂变终止，Z>100 的长寿命核素不存在稳定岛证据；超千新星只是把条件推得更极端，不能绕开核物理约束。设定层：人工晶格平台讨论的是电子层面的“重”与受阻，不是核素合成。",
+      "use": "artificial-kondo-lattice 页引流 + 核合成科普稿。"
+    },
+    {
+      "n": 5,
+      "question": "Does this make Holographic universe a relevant theory",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875863/does-this-make-holographic-universe-a-relevant-theory",
+      "heat": "低分争议帖（负分、1 回答）；但“全息宇宙”话题簇在外部媒体正在升温（科普长文与物理学家访谈近期密集出现）",
+      "why": "话题需求真实存在，但原始提问本身质量低——正好用来示范“同一个话题如何被严谨地讲”。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层：全息原理是量子引力研究纲领（面积律、AdS/CFT 对偶），不是“宇宙是投影”的灵修结论；科普要区分对偶等价与字面解读。设定层：本项目的投影式渲染框架明确标注 fiction。",
+      "use": "不注入（提问质量低），作为“全息原理严谨科普”选题素材。"
+    },
+    {
+      "n": 6,
+      "question": "What is the fastest way to cool a pot of boiling water using ice and water?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875759/what-is-the-fastest-way-to-cool-a-pot-of-boiling-water-using-ice-and-water",
+      "heat": "physics.SE 9★ / 3 回答（当日最高分的物理问题）",
+      "why": "厨房物理学是最强的科普引流形态；内核是相变潜热、热容与换热面积，与装备热排（热预算）话题同源。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层：相变吸热 vs 显热、接触面积与对流边界层决定速率，定量结论按标准热力学给（不编造具体品牌/实验数据）。设定层：外骨骼的热排问题与厨房同源，但 tether 度规读出属 fiction。",
+      "use": "qm-tether 热预算科普短帖 + 关联页扩展。"
+    },
+    {
+      "n": 7,
+      "question": "How much energy a laser gun would need to deliver to a human target to deal lethal damage? Including losses?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274414/how-much-energy-a-laser-gun-would-need-to-deliver-to-a-human-target-to-deal-lethal-damage-including-losses",
+      "heat": "worldbuilding.SE 4★ / 3 回答",
+      "why": "定向能武器是硬科幻读者的高频问题，真实工程约束（反射率、等离子屏蔽、大气传输）比数值本身更有科普价值。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层：能量耦合受组织反射/散射、等离子屏蔽、束流质量与电源质量限制；只讲量级关系与瓶颈，不给虚构统计。设定层：电磁场主导战场属本项目 fiction 设定。",
+      "use": "electromagnetic-theater-override 页引流 + 定向能科普稿。"
+    },
+    {
+      "n": 8,
+      "question": "Why is alien civilization so familiar?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274436/why-is-alien-civilization-so-familiar",
+      "heat": "worldbuilding.SE 10★ / 8 回答（本次 SE 侧最高热度）",
+      "why": "“约束收敛”是最好讲的跨学科观点：物理与工程约束会把不同起点压到同一套解，正好对应本项目“同一物理、不同平台”的叙事骨架。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层：趋同演化、最优设计收敛、可观测性偏差（我们只能看到像我们的东西）。设定层：协同共振类机制是本项目设定层的虚构外推，不是已证实现象。",
+      "use": "头条科普稿选题（跨硬科幻与未来学受众）。"
+    },
+    {
+      "n": 9,
+      "question": "What does the blowup solution to Navier-Stokes mean for real life liquids?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+      "heat": "physics.SE 4★ / 1 回答 (2026-09-10)",
+      "why": "千年难题的大众入口；可顺势澄清“数学奇点≠水会炸”，并引到真实实验室的界面粗糙化统计。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层：光滑解存在性尚未解决；即便存在奇点也是方程在极限条件下的行为，真实液体受分子尺度截断。真实可测的是界面生长/粗糙化标度（KPZ 类）。设定层：把 KPZ 当“现实渲染”只是本项目 fiction 命名。",
+      "use": "kpz-reality-rendering 页科普 + 数学难题科普稿。"
+    },
+    {
+      "n": 10,
+      "question": "Why does a tape measure stay rigid when extended?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875868/why-does-a-tape-measure-stay-rigid-when-extended",
+      "heat": "physics.SE 5★ / 1 回答 (2026-09-10)",
+      "why": "“身边物体的几何力学”是零门槛爆款形态；内核是曲率诱导刚度与双稳态壳结构。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层：预弯曲截面把弯曲变形转为拉伸/压缩（膜刚化），只在特定曲率方向稳定，翻面后回弹。设定层：本项目“受阻晶格/幻影网格”是电子结构概念，与卷尺的几何稳定性只是类比，不可混为一谈。",
+      "use": "工程科普短帖 + obstructed-atomic-phantom-grid 页导流。"
+    },
+    {
+      "n": 11,
+      "question": "How does the focal length of a convex lens change when immersed in water?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875478/how-does-the-focal-length-of-a-convex-lens-change-when-immersed-in-water",
+      "heat": "physics.SE 8★ / 1 回答",
+      "why": "透镜成像是最普及的物理入门题，答案可直接引出“折射率对比度决定有效响应”这一与能带色散同构的思想。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层：用透镜制造者公式说明焦距随相对折射率变化（定性，不给虚构测量值）。设定层：半狄拉克/零有效质量是凝聚态色散工程，不是光学折射率的改写。",
+      "use": "semi-dirac-mass-nullification 页引流 + 光学科普短帖。"
+    },
+    {
+      "n": 12,
+      "question": "what's a book with a morally grey MC?",
+      "source": "reddit/r/booksuggestions",
+      "source_url": "https://www.reddit.com/r/booksuggestions/comments/1wccl7j/whats_a_book_with_a_morally_grey_mc/",
+      "heat": "r/booksuggestions 当日活跃提问（该板块侧 429 限流，本轮仅部分板块成功）",
+      "why": "最强购买意图：读者正在找书，可直接引导到 book.html 的 14 平台分销页。",
+      "map_to": "book",
+      "answer_angle": "真实层：只做诚实推荐（不编造评分、奖项、销量）。转化层：把提问者引到 book.html 看样章与全平台链接。",
+      "use": "book.html 转化（今日购买意图首选）。"
+    }
+  ]
+}

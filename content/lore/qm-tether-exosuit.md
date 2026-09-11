@@ -55,4 +55,15 @@ The honest engineering answer is that the bottleneck is rarely the shape of the 
 <p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/scifi/comments/1wc1xdy/what_will_robot_soldiers_really_look_like/" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-10 17:20 UTC -->
+<!-- GEO-QA-START id=71b42c52c5 -->
+## Extended Q&A — Reader Question
+
+**Q: What exactly would gravity-mediated entanglement prove?**
+<p><em>asked on stackexchange/physics · physics.SE new thread, 5 votes / 1 answer (2026-09-10)</em></p>
+
+The proposal is narrower than the headline: two masses that interact only through gravity cannot be entangled by any classical mediator, so a measured entanglement signal would mean the gravitational interaction itself is quantum in the weakly-coupled regime probed. It would not "prove quantum gravity" — it would pin down one corner of it, while every serious experiment fights the same enemy, namely stray electromagnetic, vibrational and thermal couplings that are enormously stronger than gravity at laboratory scales. That is why the field is really a measurement problem: isolation, shielding and statistics rather than a single dramatic result. This project's QM-Tether exosuit is the speculative extrapolation of that idea — a tether-linked readout that treats the metric as the sensing channel instead of a classical frame bolted onto a suit — and it is fiction: the physics above is textbook, the metric-manipulation layer is the setting, not a demonstrated technology. The same quantum-gravity intuition is why this project also explores a boundary-encoded view of the readout in <a href='holographic-kpz-projection.html'>the holographic projection framework</a>.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-11 10:00 UTC -->

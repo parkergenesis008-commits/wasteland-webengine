@@ -101,24 +101,58 @@ def should_run():
     return True
 
 
-def phase_qa_inject():
+def phase_qa_inject(dry_run: bool = False):
     """[激进模式 2026-09-10] 把当日热门问题注入对应 lore 页(延伸问答 + FAQ schema)。
-    幂等; 无当日 qa 文件时静默跳过, 不影响部署。"""
+    幂等; 无当日 qa 文件时静默跳过, 不影响部署。
+
+    🎯 [2026-09-11] 先由 pipeline/queue_top.py 从 QUEUE.md 当日段选出
+    「权重 + 相关性」最高的一条作为**当日主推**，优先注入 + 交给 freshen 优先刷新。
+    dry_run=True → 只走主推选题 + 注入器 --dry-run（不写任何文件，用于验证）。
+    """
     print("=== Phase 1a: Hot-Question Q&A Injection (激进模式) ===")
     script = os.path.join(BASE_DIR, "pipeline/geo_qa_inject.py")
     if not os.path.exists(script):
         print("  (无注入器, 跳过)")
         return []
+
+    # ── 🎯 当日主推选题（QUEUE.md 权重+相关性最高） ──────────────
+    priority = None
     try:
-        r = subprocess.run([sys.executable, script], capture_output=True, text=True,
+        sel = os.path.join(BASE_DIR, "pipeline/queue_top.py")
+        if os.path.exists(sel):
+            sr = subprocess.run([sys.executable, sel, "--json"], capture_output=True,
+                                text=True, env=_ENV, cwd=BASE_DIR, timeout=60)
+            line = (sr.stdout or "").strip().splitlines()
+            if sr.returncode == 0 and line:
+                top = json.loads(line[-1])
+                priority = top.get("slug")
+                print(f"  🎯 当日主推(权重+相关性最高): [{priority}] "
+                      f"score={top.get('score')} (权重 {top.get('weight')} + 相关性 {top.get('relevance')}) "
+                      f"rank#{top.get('rank')} — {str(top.get('question'))[:56]}")
+            else:
+                print(f"  (选题器无输出 rc={sr.returncode})")
+        else:
+            print("  (无选题器 queue_top.py, 按队列默认顺序)")
+    except Exception as e:
+        print(f"  ⚠️ 主推选题失败(不影响注入): {e}")
+
+    cmd = [sys.executable, script] + (["--priority", priority] if priority else []) \
+        + (["--dry-run"] if dry_run else [])
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True,
                            env=_ENV, cwd=BASE_DIR, timeout=120)
         out = (r.stdout or "").strip()
         if out:
             print(out)
         if r.returncode != 0:
             print(f"  ⚠️ 注入器退出码 {r.returncode}: {(r.stderr or '')[:200]}")
-        # 解析注入了哪些 slug, 供 freshen 阶段优先刷新
+        # 解析注入了哪些 slug, 供 freshen 阶段优先刷新；主推置顶
         slugs = re.findall(r"✓ 注入 (\S+)", out)
+        if not slugs:
+            # dry-run 形式: "[dry-run] 会注入 → content/lore/<slug>.md  Q: ..."
+            slugs = re.findall(r"会注入 → content/lore/([^./]+)\.md", out)
+        if priority and priority in slugs:
+            slugs = [priority] + [s for s in slugs if s != priority]
         return slugs
     except Exception as e:
         print(f"  ⚠️ 注入器异常(不影响部署): {e}")
@@ -248,10 +282,17 @@ def main():
     parser = argparse.ArgumentParser(description="Wasteland GEO Pipeline v2")
     parser.add_argument("--build-only", action="store_true", help="Build only, no deploy")
     parser.add_argument("--nomad-only", action="store_true", help="Nomad traffic only")
+    parser.add_argument("--qa-dry-run", action="store_true",
+                        help="只跑 Phase 1a 主推选题 + 注入器 dry-run（不写文件、不部署）")
     args = parser.parse_args()
     
     if args.nomad_only:
         phase_nomad()
+        return
+
+    if args.qa_dry_run:
+        slugs = phase_qa_inject(dry_run=True)
+        print(f"  (dry-run) 本会优先刷新的 slug 顺序: {slugs}")
         return
     
     if args.build_only:

@@ -102,6 +102,9 @@ def _prune_old_blocks(md, keep=MAX_BLOCKS_PER_PAGE):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    # 🎯 [2026-09-11] 当日主推（QUEUE.md 权重+相关性最高的一条）→ 优先注入，
+    #    并让 run_geo 的 freshen 阶段优先刷新它。由 pipeline/queue_top.py 选出。
+    ap.add_argument("--priority", default=None, help="优先注入的 slug（当日主推）")
     args = ap.parse_args()
 
     # lore 标题表(内链锚文本)
@@ -149,6 +152,15 @@ def main():
     if not pending:
         print("  QA 注入: 无待注入条目(幂等跳过)")
         return
+
+    # 🎯 当日主推置顶：优先注入、优先落 FAQ schema（run_geo 之后会优先 freshen 它）
+    if args.priority:
+        head = [e for e in pending if e.get("slug") == args.priority]
+        if head:
+            pending = head + [e for e in pending if e.get("slug") != args.priority]
+            print(f"  🎯 优先注入当日主推: [{args.priority}]")
+        else:
+            print(f"  ℹ️ 当日主推 [{args.priority}] 无待注入问答（可能已注入或未生成答案）")
 
     done, skipped = [], []
     for e in pending:
