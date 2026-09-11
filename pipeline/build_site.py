@@ -18,7 +18,8 @@ BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
 # ── Book metadata for the sales landing page [P0 2026-09-02 GEO推广改进] ──
 AMAZON_URL = "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
-APPLE_BOOKS_URL = "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641"
+# 🛒 [2026-09-11] Apple Books 深链 id6479860641 已 404（书已下架/换 id），故 CTA 改用已验证的 Everand 深链
+EVERAND_URL = "https://www.everand.com/book/1012259893/Alien-Dimensions-The-Shepherd-s-Wasteland"
 
 BOOK_HOOK = ("A geological surveyor in the Qinling Mountains stumbles onto a rift in spacetime — "
              "and into a war between civilizations that treat reality as source code. Hard sci-fi "
@@ -52,20 +53,30 @@ BOOK_SAMPLE = (
     "whistling sound of the wind passing through dead tree branches."
 )
 
-# ── Retailer availability (confirmed via distributor live status 2026-09-02) ──
-# Direct product pages:
+# ── Retailer availability ────────────────────────────────────────────────
+# 🛒 [2026-09-11 全量核查] 逐链实测（HTTP 状态 + 页面是否真含书名/作者）后重写本清单。
+#   保留（全部实测含本书）:
+#     · Amazon          深链 200，title 命中 "Alien Dimensions…Miancheng" ✅
+#     · Everand         深链 200，命中书名+作者（搜索页→深链，体验更好）✅
+#     · Google Play     搜索页 200，结果含本书 ✅（新增）
+#     · OverDrive       搜索页 200，页面显示 "1 results for alien dimensions shepherd" ✅
+#     · Hoopla          搜索页 200，含书名 ✅
+#   删除（实测失效，避免"点开是空/找不到书"）:
+#     · Apple Books     深链 **404**（id 已失效）
+#     · Barnes & Noble  搜索页 **404**
+#     · Vivlio          搜索页 **404**
+#     · Smashwords      搜索页 **302→登录页**（访客看不到结果）
+#     · Kobo            403 + 站内检索无本书收录
+#     · Bookshop.org    Cloudflare 拦截 + 无收录
+#     · Tolino          HTTP 500 且原链接只是商店首页（非本书页面）
+#     · Fable           200 但为纯 JS 壳，页面无本书信息
+#   复核脚本与原始输出: ~/Downloads/bookstore_link_audit_2026-09-11.md
 BOOK_RETAILERS = [
-    ("Amazon", "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"),
-    ("Apple Books", "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641"),
-    # Storefront search pages (no stable per-title deep link available):
-    ("Kobo", "https://www.kobo.com/us-en/search?query=alien+dimensions+shepherd"),
-    ("Barnes & Noble", "https://www.barnesandnoble.com/s/%22Alien%20Dimensions%22%20%22Shepherd%27s%20Wasteland%22"),
-    ("Smashwords", "https://www.smashwords.com/books/search?query=alien+dimensions+shepherd"),
-    ("Bookshop.org", "https://bookshop.org/search?keywords=alien+dimensions+shepherd"),
-    ("Everand", "https://www.everand.com/search?query=alien+dimensions+shepherd"),
-    ("Tolino", "https://www.tolino.com/en/ebooks/"),
-    ("Vivlio", "https://www.vivlio.com/us/search?q=alien+dimensions"),
-    ("Fable", "https://fable.co/discover?q=shepherd%27s%20wasteland"),
+    # Direct product pages (stable per-title deep links):
+    ("Amazon", AMAZON_URL),
+    ("Everand", EVERAND_URL),
+    # Storefront search pages（点进去即能看到本书，已实测）:
+    ("Google Play", "https://play.google.com/store/search?q=alien%20dimensions%20shepherd%27s%20wasteland&c=books"),
     ("OverDrive (Library)", "https://www.overdrive.com/search?q=alien+dimensions+shepherd"),
     ("Hoopla (Library)", "https://www.hoopladigital.com/search?q=alien+dimensions+shepherd"),
 ]
@@ -862,7 +873,7 @@ def build_book_page():
             <p>{BOOK_HOOK}</p>
             <div class="cta-row">
                 <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-                <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
+                <a href="{EVERAND_URL}" class="buy-link alt" rel="noopener" target="_blank">Read on Everand</a>
             </div>
             <div class="note">Read a free sample below — no account needed.</div>
         </div>
@@ -910,7 +921,7 @@ def build_book_page():
         <h2>Reality is code. Start compiling.</h2>
         <div class="cta-row" style="justify-content:center;">
             <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-            <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
+            <a href="{EVERAND_URL}" class="buy-link alt" rel="noopener" target="_blank">Read on Everand</a>
         </div>
     </div>
 
@@ -1041,8 +1052,8 @@ def build_index_page(all_slugs):
             <p>This encyclopedia is the companion to the novel: every entry translates a real condensed-matter physics principle (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering) into speculative technology, and each page lists the genuine arXiv papers it is grounded in.</p>
             <div class="author-links">
                 <a href="{SITE_URL}/book.html" target="_blank" rel="noopener">Read a Free Sample →</a>
-                <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener">Amazon</a>
-                <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener">Apple Books</a>
+                <a href="{AMAZON_URL}" target="_blank" rel="noopener">Amazon</a>
+                <a href="{EVERAND_URL}" target="_blank" rel="noopener">Everand</a>
                 <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" target="_blank" rel="noopener">Source Repository (GitHub)</a>
             </div>
         </div>
@@ -1053,8 +1064,8 @@ def build_index_page(all_slugs):
             <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by {AUTHOR_NAME}. A surveyor stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code.</p>
             <div class="book-links">
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
-                <a href="https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/" target="_blank" rel="noopener" class="buy-link">Amazon</a>
-                <a href="https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6479860641" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
+                <a href="{AMAZON_URL}" target="_blank" rel="noopener" class="buy-link">Amazon</a>
+                <a href="{EVERAND_URL}" target="_blank" rel="noopener" class="buy-link">Everand</a>
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All {len(BOOK_RETAILERS)} Stores →</a>
             </div>
         </div>
