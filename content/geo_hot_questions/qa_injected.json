@@ -26,5 +26,19 @@
     "question": "Is it possible for an atmosphere to orbit a planetary body?",
     "pruned": 0,
     "src": "qa_2026-09-11.json"
+  },
+  "f2d58a1f8f": {
+    "slug": "semi-dirac-mass-nullification",
+    "ts": "2026-09-12T10:52:35.282954",
+    "question": "Lorentz transformation of force",
+    "pruned": 0,
+    "src": "qa_2026-09-12.json"
+  },
+  "81f19f5026": {
+    "slug": "floquet-temporal-matter",
+    "ts": "2026-09-12T10:52:35.283838",
+    "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single p",
+    "pruned": 0,
+    "src": "qa_2026-09-12.json"
   }
 }

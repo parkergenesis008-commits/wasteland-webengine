@@ -38,4 +38,15 @@ When an enemy's armor-piercing kinetic weapon strikes the armor's flank, it no l
 ## 5. Conclusion: Mass as a Variable
 In the high-dimensional engine of Reality-as-Code, mass is no longer an intrinsic property bestowed upon objects by God. It is merely a scalar parameter mounted on a three-dimensional grid. Having understood the crossing rules of topology, mass can be arbitrarily nullified to zero or endlessly multiplied.
 
-<!-- Last fresh: 2026-09-07 10:00 UTC -->
+<!-- GEO-QA-START id=f2d58a1f8f -->
+## Extended Q&A — Reader Question
+
+**Q: Lorentz transformation of force**
+<p><em>asked on stackexchange/physics · physics.SE new thread, 7 votes / 2 answers (2026-09-10)</em></p>
+
+Force is not a four-vector, so it does not transform the way a displacement or a velocity does: what transforms cleanly is the momentum four-vector, and force is its derivative with respect to proper time. The practical consequence is that a boosted observer sees the **transverse and longitudinal parts of a force scale differently**, and for a body that is already moving the acceleration is in general *not* parallel to the applied force, because the relativistic factor gamma multiplies the inertial response. None of that is exotic: it is ordinary special relativity, and it is confirmed continuously in accelerator and particle-physics practice. This project's <a href='arena-tripartite-architecture.html'>quantum-metric architecture</a> is where the speculative layer begins, and the semi-Dirac setting it builds on turns that same intuition into fiction: an effective mass that vanishes along one axis, so that inertia becomes purely directional. The solid-state ingredient, an anisotropic effective mass with a semi-Dirac dispersion, is real condensed-matter physics; the directional mass nullification is the setting, not a demonstrated material.
+
+<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-12 10:52 UTC -->

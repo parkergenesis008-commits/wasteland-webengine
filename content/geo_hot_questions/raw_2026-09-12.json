@@ -1,0 +1,578 @@
+{
+  "_ts": "2026-09-12T02:35:12.429830",
+  "_date": "2026-09-12",
+  "counts": {
+    "stackexchange": 48,
+    "reddit_rss": 15,
+    "hackernews": 9,
+    "questions": 46,
+    "total": 59
+  },
+  "errors": [
+    "reddit/r/AskScienceFiction: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/physics: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "What would a mobile or traveling tavern need to be self sustainable?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274464/what-would-a-mobile-or-traveling-tavern-need-to-be-self-sustainable",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 13,
+      "ts": "2026-09-02T05:22",
+      "is_question": true
+    },
+    {
+      "title": "Why is alien civilization so familiar?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274436/why-is-alien-civilization-so-familiar",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 10,
+      "comments": 8,
+      "ts": "2026-08-31T04:53",
+      "is_question": true
+    },
+    {
+      "title": "How quickly can a unique language develop?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274495/how-quickly-can-a-unique-language-develop",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 7,
+      "ts": "2026-09-05T08:15",
+      "is_question": true
+    },
+    {
+      "title": "What is the fastest way to cool a pot of boiling water using ice and water?",
+      "url": "https://physics.stackexchange.com/questions/875759/what-is-the-fastest-way-to-cool-a-pot-of-boiling-water-using-ice-and-water",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 3,
+      "ts": "2026-09-07T15:35",
+      "is_question": true
+    },
+    {
+      "title": "What does the blowup solution to Navier-Stokes mean for real life liquids?",
+      "url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 4,
+      "ts": "2026-09-10T06:29",
+      "is_question": true
+    },
+    {
+      "title": "How does the focal length of a convex lens change when immersed in water?",
+      "url": "https://physics.stackexchange.com/questions/875478/how-does-the-focal-length-of-a-convex-lens-change-when-immersed-in-water",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-08-29T16:22",
+      "is_question": true
+    },
+    {
+      "title": "What exactly would gravity-mediated entanglement prove?",
+      "url": "https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-09-10T10:49",
+      "is_question": true
+    },
+    {
+      "title": "Lorentz transformation of force",
+      "url": "https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-09-10T19:22",
+      "is_question": true
+    },
+    {
+      "title": "Designing a barren yet &quot;shirt-sleeve habitable&quot; exoplanet",
+      "url": "https://worldbuilding.stackexchange.com/questions/274429/designing-a-barren-yet-shirt-sleeve-habitable-exoplanet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-08-29T19:16",
+      "is_question": true
+    },
+    {
+      "title": "Are simpler, utilitarian designs like hardhats and jerrycans generally universal?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274520/are-simpler-utilitarian-designs-like-hardhats-and-jerrycans-generally-universal",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-09-09T07:05",
+      "is_question": true
+    },
+    {
+      "title": "Is this type of orbital transformation possible?",
+      "url": "https://space.stackexchange.com/questions/70692/is-this-type-of-orbital-transformation-possible",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-09-06T21:11",
+      "is_question": true
+    },
+    {
+      "title": "Doubt about the covariance of Newton&#39;s second law in non-relativistic mechanics",
+      "url": "https://physics.stackexchange.com/questions/875570/doubt-about-the-covariance-of-newtons-second-law-in-non-relativistic-mechanics",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-09-02T15:13",
+      "is_question": true
+    },
+    {
+      "title": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?",
+      "url": "https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-09-09T12:01",
+      "is_question": true
+    },
+    {
+      "title": "Bypassing the fermium wall: Could elements with $Z &gt; 100$ be forged in a ‘superkilonova’?",
+      "url": "https://physics.stackexchange.com/questions/875538/bypassing-the-fermium-wall-could-elements-with-z-100-be-forged-in-a-superk",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-01T12:17",
+      "is_question": true
+    },
+    {
+      "title": "Hypothetically, how could someone be immediately killed by a radio tower?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274514/hypothetically-how-could-someone-be-immediately-killed-by-a-radio-tower",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 4,
+      "ts": "2026-09-08T21:04",
+      "is_question": true
+    },
+    {
+      "title": "How much energy a laser gun would need to deliver to a human target to deal lethal damage? Including losses?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274414/how-much-energy-a-laser-gun-would-need-to-deliver-to-a-human-target-to-deal-leth",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 3,
+      "ts": "2026-08-28T20:46",
+      "is_question": true
+    },
+    {
+      "title": "Are there stable orbits of point masses around a massive cylindrical object?",
+      "url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-09-09T10:59",
+      "is_question": true
+    },
+    {
+      "title": "Why would a living organism larger than earth need to biologically create cement?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-earth-need-to-biologically-create-cement",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 3,
+      "ts": "2026-09-09T01:45",
+      "is_question": true
+    },
+    {
+      "title": "What use would a cliff-climbing/tunnel-dwelling animal have for a tail?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274422/what-use-would-a-cliff-climbing-tunnel-dwelling-animal-have-for-a-tail",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-08-29T10:12",
+      "is_question": true
+    },
+    {
+      "title": "Reference request: Lorentzian Ricci flow",
+      "url": "https://physics.stackexchange.com/questions/875882/reference-request-lorentzian-ricci-flow",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-11T12:22",
+      "is_question": true
+    },
+    {
+      "title": "String Theory: light cone quantisation of the position operators",
+      "url": "https://physics.stackexchange.com/questions/875877/string-theory-light-cone-quantisation-of-the-position-operators",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-11T08:32",
+      "is_question": true
+    },
+    {
+      "title": "Could a Underwater Civilization develop into a 1970’s ‘surface’ race",
+      "url": "https://worldbuilding.stackexchange.com/questions/274529/could-a-underwater-civilization-develop-into-a-1970-s-surface-race",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-09-10T13:01",
+      "is_question": true
+    },
+    {
+      "title": "Calculating Power of a Fluid in a Pipe",
+      "url": "https://physics.stackexchange.com/questions/875885/calculating-power-of-a-fluid-in-a-pipe",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-11T13:06",
+      "is_question": true
+    },
+    {
+      "title": "How would prehensile Quills work?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274487/how-would-prehensile-quills-work",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": 0,
+      "comments": 3,
+      "ts": "2026-09-03T22:30",
+      "is_question": true
+    },
+    {
+      "title": "Breaking a four-vector into orthogonal components",
+      "url": "https://physics.stackexchange.com/questions/875892/breaking-a-four-vector-into-orthogonal-components",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-09-11T15:59",
+      "is_question": true
+    },
+    {
+      "title": "Are there chemicals that cause excess tissue growth at a mass scale?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274518/are-there-chemicals-that-cause-excess-tissue-growth-at-a-mass-scale",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 2,
+      "ts": "2026-09-09T02:12",
+      "is_question": true
+    },
+    {
+      "title": "How should I do retrofuturistic fashions?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274507/how-should-i-do-retrofuturistic-fashions",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-06T22:41",
+      "is_question": true
+    },
+    {
+      "title": "How would 12-foot tall humanoid giants possibly be shaped and function?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274502/how-would-12-foot-tall-humanoid-giants-possibly-be-shaped-and-function",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-05T23:08",
+      "is_question": true
+    },
+    {
+      "title": "Suggest some titles for my illiterate dad",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd4aga/suggest_some_titles_for_my_illiterate_dad/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T03:05",
+      "is_question": true
+    },
+    {
+      "title": "Books where the author doesn’t hold your hand and throws you in the deep end",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd2yvd/books_where_the_author_doesnt_hold_your_hand_and/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T02:04",
+      "is_question": true
+    },
+    {
+      "title": "I need a book to make me hopeful about love or life.",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd1hk4/i_need_a_book_to_make_me_hopeful_about_love_or/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T00:58",
+      "is_question": true
+    },
+    {
+      "title": "Non-fiction history books to understand today’s US a bit more",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd2j8v/nonfiction_history_books_to_understand_todays_us/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T01:44",
+      "is_question": true
+    },
+    {
+      "title": "Hard Sci-Fi about Parallel Universes?",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wcrtmw/hard_scifi_about_parallel_universes/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T18:40",
+      "is_question": true
+    },
+    {
+      "title": "Short but impactful reads for my son",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wcum26/short_but_impactful_reads_for_my_son/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T20:19",
+      "is_question": true
+    },
+    {
+      "title": "Books about a character (preferably a woman) living a double life?",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd59pc/books_about_a_character_preferably_a_woman_living/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T03:52",
+      "is_question": true
+    },
+    {
+      "title": "Books like Galeano’s Open Veins of Latin America",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wctrwg/books_like_galeanos_open_veins_of_latin_america/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T19:49",
+      "is_question": true
+    },
+    {
+      "title": "I lost my ability to read long books. I need a book reccomendation that can meet me where I am at.",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wcza5m/i_lost_my_ability_to_read_long_books_i_need_a/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T23:23",
+      "is_question": true
+    },
+    {
+      "title": "Need a novel by a “renowned” author",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wdkyzj/need_a_novel_by_a_renowned_author/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T16:23",
+      "is_question": true
+    },
+    {
+      "title": "What are some books your therapist recommended you that you found helpful?",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wdjs4v/what_are_some_books_your_therapist_recommended/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T15:40",
+      "is_question": true
+    },
+    {
+      "title": "Feedback on this in universe movie [Movie poster]",
+      "url": "https://worldbuilding.stackexchange.com/questions/274525/feedback-on-this-in-universe-movie-movie-poster",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-09T17:14",
+      "is_question": true
+    },
+    {
+      "title": "The 3D Slice Model: Higher-Dimensional Kinematics of Cosmic Expansion",
+      "url": "https://physics.stackexchange.com/questions/875887/the-3d-slice-model-higher-dimensional-kinematics-of-cosmic-expansion",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-11T14:44",
+      "is_question": true
+    },
+    {
+      "title": "Why does NASA keep POGO around when it also has ARGOS?",
+      "url": "https://space.stackexchange.com/questions/70698/why-does-nasa-keep-pogo-around-when-it-also-has-argos",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-09-08T21:49",
+      "is_question": true
+    },
+    {
+      "title": "Are we someone&#39;s time dilated twin?",
+      "url": "https://physics.stackexchange.com/questions/875883/are-we-someones-time-dilated-twin",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-09-11T12:31",
+      "is_question": true
+    },
+    {
+      "title": "What if a &quot;snake&quot; (for a reference creature) had two spines, could the spines be arranged in such a way to be flexible like snake spine?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274511/what-if-a-snake-for-a-reference-creature-had-two-spines-could-the-spines-be",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-09-08T03:02",
+      "is_question": true
+    },
+    {
+      "title": "Is it currently unknown what happened before the Big Bang?",
+      "url": "https://physics.stackexchange.com/questions/875896/is-it-currently-unknown-what-happened-before-the-big-bang",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-09-11T18:21",
+      "is_question": true
+    },
+    {
+      "title": "Is it easier to do amateur theorectical research in the age of AI?",
+      "url": "https://physics.stackexchange.com/questions/875873/is-it-easier-to-do-amateur-theorectical-research-in-the-age-of-ai",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-09-11T04:25",
+      "is_question": true
+    },
+    {
+      "title": "Better AI code comment detector",
+      "url": "https://entropicthoughts.com/better-ai-comment-classifier",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 42,
+      "comments": 23,
+      "ts": "2026-09-09T15:45",
+      "is_question": false
+    },
+    {
+      "title": "AI Is Already Making Us Less Human",
+      "url": "https://www.theatlantic.com/ideas/2026/09/open-ai-consciousness-morality/688535/",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 8,
+      "comments": 3,
+      "ts": "2026-09-07T00:38",
+      "is_question": false
+    },
+    {
+      "title": "Europe may have found a space entrepreneur who is meeting the moment",
+      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-09-10T09:58",
+      "is_question": false
+    },
+    {
+      "title": "Everyday Entrepreneurship (2016)",
+      "url": "https://journals.sagepub.com/doi/10.1111/etap.12258",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 0,
+      "ts": "2026-09-10T15:06",
+      "is_question": false
+    },
+    {
+      "title": "We Spoke with Entrepreneurs Living the \"7 Vibe 3\" Lifestyle",
+      "url": "https://cadence.moe/blog/2026-09-10-we-spoke-with-entrepreneurs-living-the-7-vibe-3-lifestyle",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 3,
+      "ts": "2026-09-10T12:56",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Intro-level book about quantum computing theory/hardware/applications",
+      "url": "https://quantumcomputingfortheconfused.com/",
+      "source": "hn",
+      "note": "kw=quantum computing explained",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-09T15:49",
+      "is_question": false
+    },
+    {
+      "title": "A Mathematical Theory of Communication [pdf]",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-07T02:21",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Pragma Twice – A dystopian sci-fi themed programming game",
+      "url": "https://www.bryanpg.com/pragma_twice/",
+      "source": "hn",
+      "note": "kw=hard sci-fi",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-10T13:00",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: CodeEraser – a deterministic judge of LLM-induced code and doc entropy",
+      "url": "https://github.com/skymanbp/CodeEraser",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-09-08T20:26",
+      "is_question": false
+    },
+    {
+      "title": "Take me out of this world please",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wcznro/take_me_out_of_this_world_please/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T23:39",
+      "is_question": false
+    },
+    {
+      "title": "Unsettling but not horror",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wczh6y/unsettling_but_not_horror/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-10T23:31",
+      "is_question": false
+    },
+    {
+      "title": "Complex, literary horror/Dark Fantasy",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd3ixp/complex_literary_horrordark_fantasy/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T02:29",
+      "is_question": false
+    },
+    {
+      "title": "Fiction under 400 pages but have incredible depth to them somehow.",
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1wd85ik/fiction_under_400_pages_but_have_incredible_depth/",
+      "source": "reddit/r/suggestmeabook",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-09-11T06:24",
+      "is_question": false
+    }
+  ]
+}

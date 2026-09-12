@@ -1,0 +1,163 @@
+{
+  "_date": "2026-09-12",
+  "_generated": "cron 8a30034f417e (GEO 每日热门引流问题)",
+  "_site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "count_requested": 12,
+  "count": 12,
+  "source_health": {
+    "stackexchange": 48,
+    "reddit_rss": 15,
+    "hackernews": 9,
+    "questions_detected": 46,
+    "dedup_total": 59
+  },
+  "notes": "X/TikTok 今日抓取失败：web_search 侧未返回任何可核验的当日 X/TikTok 帖子级热题（只得到若干二手趋势综述页，无原创帖链接与热度），故不列入任何条目，不做补写。源失败 3：reddit/r/AskScienceFiction、reddit/r/physics、reddit/r/AskPhysics 均 HTTP 429 限流，今日不可用；reddit 侧今日仅 r/suggestmeabook 通过 RSS 通道成功。与前一日(09-11)去重：已剔除重复出现的 5 条（gravity-mediated entanglement / 大气环 / 圆柱体稳定轨道 / 沸水冷却 / 激光枪能量）。lore 覆盖 9/11：未覆盖 artificial-kondo-lattice、obstructed-atomic-phantom-grid 之外的 kondo 页（今日无一问自然可挂 kondo 晶格）。",
+  "top3_for_today": [
+    {
+      "map_to": "semi-dirac-mass-nullification",
+      "question": "Lorentz transformation of force"
+    },
+    {
+      "map_to": "floquet-temporal-matter",
+      "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?"
+    },
+    {
+      "map_to": "book",
+      "question": "Hard Sci-Fi about Parallel Universes?"
+    }
+  ],
+  "items": [
+    {
+      "n": 1,
+      "question": "What would a mobile or traveling tavern need to be self sustainable?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274464/what-would-a-mobile-or-traveling-tavern-need-to-be-self-sustainable",
+      "heat": "worldbuilding.SE 8★ / 13 回答 (2026-09-02)；今日候选池互动最高帖",
+      "why": "移动+自持本质是闭环生命保障问题（水/气/食物/废热），是本项目封闭栖息地设定的真实工程地基；13 个回答说明讨论深度足够，长尾可引用度高。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层：闭环生命保障的瓶颈是质量与能量预算（水回收率、CO2 还原、食物热量密度、废热排放），现实参照是 ISS ECLSS 与潜艇/南极站经验；移动平台还要额外支付运输能耗。设定层：arena 的主动场约束自持属 fiction。",
+      "use": "长文素材（自持系统是硬科幻读者最爱的 B 面话题）；内链 arena-tripartite-architecture。"
+    },
+    {
+      "n": 2,
+      "question": "How quickly can a unique language develop?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274495/how-quickly-can-a-unique-language-develop",
+      "heat": "worldbuilding.SE 7★ / 7 回答 (2026-09-05)",
+      "why": "语言形成速度=信息编码在群体中稳定下来所需的时间，可与本项目“共享共振/同步通道”设定自然衔接；语言学+信息论交叉，科普受众广。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层：孤立语言可在数百年尺度内成型（真实案例：尼加拉瓜手语、希伯来语复兴），关键变量是世代传递与接触隔离，不编造具体数字。设定层：把“语言”外推为共振锁相的群体通信只是本项目 fiction。",
+      "use": "科普短文；内链 cooperative-resonance-torsion。"
+    },
+    {
+      "n": 3,
+      "question": "Lorentz transformation of force",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force",
+      "heat": "physics.SE 7★ / 2 回答 (2026-09-10)",
+      "why": "“力不是四维矢量、加速度一般不与力共线”是相对论力学最反直觉的教学难点，正对应 semi-Dirac 设定“有效质量沿某方向消失→响应各向异性”的核心意象。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层：F=dp/dt，p=γmv，因此力的横向/纵向变换尺度不同，加速度通常不平行于力。设定层：方向性质量归零是 fiction 外推。",
+      "use": "已写入 qa_2026-09-12.json（QA-A → 注入 semi-dirac-mass-nullification 页）。"
+    },
+    {
+      "n": 4,
+      "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does",
+      "heat": "physics.SE 6★ / 2 回答 (2026-09-09)；概念澄清型提问，长期搜索流量",
+      "why": "温度是系综统计量而非单体属性，这类“澄清误解”提问最容易被搜索到；且直接连到 Floquet 驱动系统里的“有效温度/驱动加热”真实研究。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层：温度只在（局域）热平衡下由分布定义，单粒子只有动能没有温度；3/2 kT 是统计关系，单体涨落量级为 1；周期驱动系统不处于平衡，只能定义有效温度。设定层：时间程序化物质是本项目 fiction。",
+      "use": "已写入 qa_2026-09-12.json（QA-B → 注入 floquet-temporal-matter 页）。"
+    },
+    {
+      "n": 5,
+      "question": "Designing a barren yet \"shirt-sleeve habitable\" exoplanet",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274429/designing-a-barren-yet-shirt-sleeve-habitable-exoplanet",
+      "heat": "worldbuilding.SE 5★ / 4 回答 (2026-08-29)",
+      "why": "“宜居但贫瘠”逼问大气保持与辐射屏蔽的真实条件，直接对接本项目场约束设定页；行星宜居性也是大众科普高频题。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层：shirt-sleeve 条件需要足够的气柱质量与磁场/大气屏蔽来抵挡宇宙线与紫外，并避免挥发分冻结；贫瘠意味着本地生物地球化学循环无法补充氧气。设定层：主动场约束只在本项目设定内。",
+      "use": "科普长文；内链 electromagnetic-theater-override。"
+    },
+    {
+      "n": 6,
+      "question": "Are simpler, utilitarian designs like hardhats and jerrycans generally universal?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274520/are-simpler-utilitarian-designs-like-hardhats-and-jerrycans-generally-universal",
+      "heat": "worldbuilding.SE 5★ / 4 回答 (2026-09-09)",
+      "why": "“设计收敛”可以科学化处理：约束越紧，最优解越唯一；与 obstructed atomic insulator 的“对称性强制唯一构型”形成漂亮的跨域类比，适合做设定页导流。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层：收敛来自约束（人体尺寸、材料、成本、可制造性）而非文化巧合；反例（坎儿井、斗笠）说明功能相同形态可不同。设定层：phantom grid 仅为 fiction 类比。",
+      "use": "轻量科普短帖；内链 obstructed-atomic-phantom-grid。"
+    },
+    {
+      "n": 7,
+      "question": "Hypothetically, how could someone be immediately killed by a radio tower?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274514/hypothetically-how-could-someone-be-immediately-killed-by-a-radio-tower",
+      "heat": "worldbuilding.SE 4★ / 4 回答 (2026-09-08)",
+      "why": "公众对“射频伤害”的误解极多（真实机制是诱导电流电击与介电加热，不是“辐射中毒”），澄清型内容传播好，且贴合 EM 设定页。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层：射频危害实务上分诱导电流/接触电击与介电加热两类，远场功率密度按平方反比衰减，不编造具体功率阈值。设定层：EM theater 的碰撞网格覆盖是 fiction。",
+      "use": "澄清型科普短文；内链 electromagnetic-theater-override。"
+    },
+    {
+      "n": 8,
+      "question": "Why would a living organism larger than earth need to biologically create cement?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-earth-need-to-biologically-create-cement",
+      "heat": "worldbuilding.SE 3★ / 3 回答 (2026-09-09)",
+      "why": "行星尺度的结构生长就是界面生长问题，真实物理里恰由 KPZ 类普适性描述（尺度无关的粗糙界面生长），映射天然不牵强。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层：KPZ 描述随机界面生长的普适标度，核心是尺度不变涨落；行星级生物靠沉积成矿构筑骨架要面对质量/热输运与自重的标度问题。设定层：把 KPZ 当“渲染层”是本项目 fiction。",
+      "use": "长文素材；内链 kpz-reality-rendering。"
+    },
+    {
+      "n": 9,
+      "question": "Reference request: Lorentzian Ricci flow",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875882/reference-request-lorentzian-ricci-flow",
+      "heat": "physics.SE 3★ / 0 回答 (2026-09-11)；当日新帖且无人回答",
+      "why": "信息缺口=可做“第一个给出答案的人”；Ricci 流是几何演化方程，与全息投影设定页“边界编码几何”同源。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层：Lorentzian Ricci flow 的双曲型病态性（冲击/奇点）与 Riemannian 情形不同，文献分布在几何分析与数值相对论交界；只指方向、不编造具体文献条目。设定层：holographic projection 是 fiction。",
+      "use": "抢答型长尾（该帖 0 回答）；内链 holographic-kpz-projection。"
+    },
+    {
+      "n": 10,
+      "question": "String Theory: light cone quantisation of the position operators",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875877/string-theory-light-cone-quantisation-of-the-position-operators",
+      "heat": "physics.SE 2★ / 1 回答 (2026-09-11)；当日新帖",
+      "why": "光锥量子化下的位置算符涉及“测量一个位置到底意味着什么”，与本项目把量子度量当读出通道的设定页直接对上。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层：光锥规范固定后仍有残余规范自由度，横向位置算符受限，局域化受光锥与弦尺度约束；不编造公式结论。设定层：量子度量读出（QM-Tether）是 fiction。",
+      "use": "深度科普短帖；内链 qm-tether-exosuit。"
+    },
+    {
+      "n": 11,
+      "question": "A Mathematical Theory of Communication [pdf]",
+      "source": "hackernews",
+      "source_url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "heat": "HN 2★ / 0 评论 (2026-09-07)；香农 1948 原文，被 HN 顶上首页",
+      "why": "“能传多少信息”比“能探测多灵敏”更根本，正是本项目 scale-free perception 设定页的底座；HN 首页出现说明 AI/工程读者仍在读原文。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层：香农的贡献是把通信与语义解耦——信道容量由带宽与信噪比决定（不编造具体数字）。设定层：type-II 超晶格的“尺度无关感知”是 fiction 外推。",
+      "use": "经典解说型内容；内链 type2-superlattice-radar。"
+    },
+    {
+      "n": 12,
+      "question": "Hard Sci-Fi about Parallel Universes?",
+      "source": "reddit/r/suggestmeabook",
+      "source_url": "https://www.reddit.com/r/suggestmeabook/comments/1wcrtmw/hard_scifi_about_parallel_universes/",
+      "heat": "r/suggestmeabook 当日活跃提问 (2026-09-10T18:40)；该板块为 RSS 抓取，平台侧无分数",
+      "why": "购买意图最明确的一类提问：hard sci-fi 标签 + 主题匹配，可直接对接 book.html 的 14 平台分销。",
+      "map_to": "book",
+      "answer_angle": "真实层：只做诚实推荐，不编造评分/奖项/销量；顺带讲清“硬”的分野（多世界诠释 vs 弦景观 vs 膜世界）。转化层：引到 book.html 看样章与全平台链接。",
+      "use": "购买转化首选（book.html）。"
+    }
+  ]
+}

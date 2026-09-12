@@ -1,0 +1,44 @@
+{
+  "slug": "semi-dirac-mass-nullification",
+  "question": "Lorentz transformation of force",
+  "rank": 1,
+  "source": "stackexchange/physics, 7★/2c, 2026-09-10",
+  "weight": 50,
+  "relevance": 40,
+  "score": 90,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 7 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(lorentz,transformation,force) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-12",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 90,
+      "weight": 50,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "floquet-temporal-matter",
+      "score": 80,
+      "weight": 40,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
+      "rank": 3
+    }
+  ]
+}
