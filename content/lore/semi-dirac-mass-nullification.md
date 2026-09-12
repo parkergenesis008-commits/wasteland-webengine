@@ -49,4 +49,4 @@ Force is not a four-vector, so it does not transform the way a displacement or a
 <p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-12 10:52 UTC -->
+<!-- Last fresh: 2026-09-12 22:24 UTC -->
