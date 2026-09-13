@@ -1,0 +1,43 @@
+{
+  "slug": "qm-tether-exosuit",
+  "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
+  "rank": 1,
+  "source": "source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（Reddit RSS 不回传票数，热度不可核验）",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(know,fiction,much) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-13",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "holographic-kpz-projection",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 20,
+      "weight": 10,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}

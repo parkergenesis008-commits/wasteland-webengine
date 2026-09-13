@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-13",
+  "entries": [
+    {
+      "slug": "qm-tether-exosuit",
+      "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wdyspe/i_know_its_fiction_but_how_much_of_egans_kozuch/",
+      "heat": "r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)",
+      "answer_md": "Real physics first: quantum theory and gravity are still written in incompatible languages, and the one hard clue that they must be joined is that entanglement entropy obeys area-like laws, which is exactly where holographic duality starts. Quantum information can be transferred, but only with a classical side channel, so the intuitive version of the fictional device does not survive translation into the present model, and nothing in it permits moving matter faster than light. I cannot verify the internal details of the fictional theory named in the thread, so I am deliberately not restating them as fact. The setting layer is separate and explicit: this project's <a href='qm-tether-exosuit.html'>quantum tether exosuit</a> treats an entanglement link as an engineered load-bearing channel, which is fiction and not a claim about any published theory. The same intuition shows up in the <a href='semi-dirac-mass-nullification.html'>mass-nullification setting</a>, where the fiction does the work and the textbook physics stays textbook.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    },
+    {
+      "slug": "holographic-kpz-projection",
+      "question": "How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1we4mn5/how_is_conservation_of_information_violated_when/",
+      "heat": "r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)",
+      "answer_md": "Start with why the paradox exists: if Hawking radiation is exactly thermal, it carries no record of what fell in, so the black hole's formation history appears to be erased even though quantum mechanics demands unitary, information-preserving evolution. Later work on the gravitational path integral computes the entropy of the radiation and finds it follows the Page curve, rising and then falling, which is what unitarity requires; the price is that the interior and the emitted radiation have to be treated together rather than separately. Ordinary mass-to-energy conversion does not create this problem because the underlying microstates remain trackable in principle, whereas a horizon removes access to them. The holographic reading of that accounting is real research, while this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where the boundary is treated as the storage medium itself. The related interface-growth picture is developed in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    }
+  ]
+}

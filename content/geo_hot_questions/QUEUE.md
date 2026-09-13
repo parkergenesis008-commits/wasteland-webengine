@@ -17,3 +17,9 @@
 1. **[semi-dirac-mass-nullification] Lorentz transformation of force** (stackexchange/physics, 7★/2c, 2026-09-10) — 相对论力学反直觉点（力非四维矢量），物理向受众精准；已写入 qa_2026-09-12.json（dry-run 确认可注入 semi-dirac 页，待管线执行）。
 2. **[floquet-temporal-matter] If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?** (stackexchange/physics, 6★/2c, 2026-09-09) — 温度=系综统计量的概念澄清题，搜索长尾好；已写入 qa_2026-09-12.json（dry-run 确认可注入 floquet 页，待管线执行）。
 3. **[book] Hard Sci-Fi about Parallel Universes?** (reddit/r/suggestmeabook, 2026-09-10) — 购买意图最强（hard sci-fi + 主题匹配），直接引 book.html 全 14 平台分销。
+
+## 2026-09-13
+1. **[qm-tether-exosuit] I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?** (source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（Reddit RSS 不回传票数，热度不可核验）) — 发问者自己把 fiction 与现有模型分开问，硬科幻读者精准命中；回答挂 book.html + qm-tether-exosuit 内链；已写入 qa_2026-09-13.json。
+2. **[holographic-kpz-projection] How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?** (source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（RSS 无票数）) — 黑洞信息悖论有 2019 年后的现代答案（Page 曲线），可讲清且不掺水；已写入 qa_2026-09-13.json，内链 holographic-kpz-projection + kpz-reality-rendering。
+3. **[cooperative-resonance-torsion] If everything stopped rotating everywhere** (source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（RSS 无票数）) — 守恒律压力测试型长文素材（角动量/大气/磁场发电机一次撞上），搜索长尾稳；内链 cooperative-resonance-torsion。
+

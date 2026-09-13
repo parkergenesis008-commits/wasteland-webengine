@@ -40,5 +40,19 @@
     "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single p",
     "pruned": 0,
     "src": "qa_2026-09-12.json"
+  },
+  "5c080da333": {
+    "slug": "qm-tether-exosuit",
+    "ts": "2026-09-13T08:33:27.215203",
+    "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
+    "pruned": 0,
+    "src": "qa_2026-09-13.json"
+  },
+  "11cab5b2a9": {
+    "slug": "holographic-kpz-projection",
+    "ts": "2026-09-13T08:33:27.216121",
+    "question": "How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mas",
+    "pruned": 0,
+    "src": "qa_2026-09-13.json"
   }
 }

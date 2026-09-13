@@ -34,4 +34,15 @@ Macroscopically, the moment the boundary of an otherwise indestructible giant en
 ## 4. Conclusion: Creation Through Dimensional Reduction
 The most efficient high-dimensional creation is always low-dimensional computation. Through holographic mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.
 
-<!-- Last fresh: 2026-09-09 12:13 UTC -->
+<!-- GEO-QA-START id=11cab5b2a9 -->
+## Extended Q&A — Reader Question
+
+**Q: How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?**
+<p><em>asked on reddit/r/AskPhysics · r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)</em></p>
+
+Start with why the paradox exists: if Hawking radiation is exactly thermal, it carries no record of what fell in, so the black hole's formation history appears to be erased even though quantum mechanics demands unitary, information-preserving evolution. Later work on the gravitational path integral computes the entropy of the radiation and finds it follows the Page curve, rising and then falling, which is what unitarity requires; the price is that the interior and the emitted radiation have to be treated together rather than separately. Ordinary mass-to-energy conversion does not create this problem because the underlying microstates remain trackable in principle, whereas a horizon removes access to them. The holographic reading of that accounting is real research, while this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where the boundary is treated as the storage medium itself. The related interface-growth picture is developed in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1we4mn5/how_is_conservation_of_information_violated_when/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-13 08:33 UTC -->

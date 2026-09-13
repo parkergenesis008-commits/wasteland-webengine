@@ -66,4 +66,15 @@ The proposal is narrower than the headline: two masses that interact only throug
 <p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-11 10:00 UTC -->
+<!-- GEO-QA-START id=5c080da333 -->
+## Extended Q&A — Reader Question
+
+**Q: I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?**
+<p><em>asked on reddit/r/AskPhysics · r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)</em></p>
+
+Real physics first: quantum theory and gravity are still written in incompatible languages, and the one hard clue that they must be joined is that entanglement entropy obeys area-like laws, which is exactly where holographic duality starts. Quantum information can be transferred, but only with a classical side channel, so the intuitive version of the fictional device does not survive translation into the present model, and nothing in it permits moving matter faster than light. I cannot verify the internal details of the fictional theory named in the thread, so I am deliberately not restating them as fact. The setting layer is separate and explicit: this project's <a href='qm-tether-exosuit.html'>quantum tether exosuit</a> treats an entanglement link as an engineered load-bearing channel, which is fiction and not a claim about any published theory. The same intuition shows up in the <a href='semi-dirac-mass-nullification.html'>mass-nullification setting</a>, where the fiction does the work and the textbook physics stays textbook.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wdyspe/i_know_its_fiction_but_how_much_of_egans_kozuch/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-13 08:33 UTC -->
