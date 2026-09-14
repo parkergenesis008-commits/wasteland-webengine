@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-14",
+  "entries": [
+    {
+      "slug": "artificial-kondo-lattice",
+      "question": "Is AI affecting Physics as it is affecting Mathematics?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875965/is-ai-affecting-physics-as-it-is-affecting-mathematics",
+      "heat": "stackexchange/physics 2026-09-13 new thread, 3 points 0 comments (fresh, low vote count)",
+      "answer_md": "AI is already used in physics for surrogate models, lattice and materials searches and data analysis, so the tools overlap heavily with mathematics. The difference is what counts as a finished result. A mathematical proof can be checked step by step by a proof assistant, which is why machine-checkable results appeared in mathematics first, while a physical claim is settled by independent measurement and reproducible simulation that agree, and no model can manufacture either. That contrast is my reading of the field's direction rather than a measured claim, and I have not surveyed the literature to support it. The project layer is separate and stays fiction: <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> treats a correlated-electron platform as an engineered substrate, which is not a claim about existing hardware. A neighbouring idea, order that cannot be removed by any smooth deformation, is developed in <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic grid setting</a>.",
+      "links": [
+        "obstructed-atomic-phantom-grid"
+      ]
+    },
+    {
+      "slug": "holographic-kpz-projection",
+      "question": "Physical interpretation of the focusing theorem",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem",
+      "heat": "stackexchange/physics 2026-09-05, 6 points 1 comment",
+      "answer_md": "The focusing theorem says that gravity makes a congruence of light rays or freely falling paths converge, because the expansion of those paths decreases along the flow once a positive energy condition holds, and this follows from the Raychaudhuri equation. The physical reading is blunt: focusing is why horizons and singularities are hard to avoid in general relativity, not a technical footnote. It is also where area and entropy enter the story, since the growth of a horizon area is governed by the same expansion, which is the thread that later work on holographic entropy follows. That accounting is real research; this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where boundary data is treated as a renderable store, and its growth-law counterpart is worked out in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    }
+  ]
+}

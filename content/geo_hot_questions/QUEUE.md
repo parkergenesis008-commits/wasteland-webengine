@@ -23,3 +23,8 @@
 2. **[holographic-kpz-projection] How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?** (source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（RSS 无票数）) — 黑洞信息悖论有 2019 年后的现代答案（Page 曲线），可讲清且不掺水；已写入 qa_2026-09-13.json，内链 holographic-kpz-projection + kpz-reality-rendering。
 3. **[cooperative-resonance-torsion] If everything stopped rotating everywhere** (source: reddit/r/AskPhysics, r/AskPhysics 2026-09-12 新帖（RSS 无票数）) — 守恒律压力测试型长文素材（角动量/大气/磁场发电机一次撞上），搜索长尾稳；内链 cooperative-resonance-torsion。
 
+
+## 2026-09-14
+1. **[artificial-kondo-lattice] Is AI affecting Physics as it is affecting Mathematics?** (source: stackexchange/physics, 2026-09-13 新帖 3 分 0 评论) — AI 与物理方法论之争命中 AI/未来学读者, 时效最新; 已写入 qa_2026-09-14.json, 注入 artificial-kondo-lattice 页, 内链 obstructed-atomic-phantom-grid。
+2. **[holographic-kpz-projection] Physical interpretation of the focusing theorem** (source: stackexchange/physics, 2026-09-05, 6 分 1 评论) — 聚焦定理一词讲清引力为何让光线汇聚, 直连面积律与熵; 已写入 qa_2026-09-14.json, 注入 holographic-kpz-projection 页, 内链 kpz-reality-rendering。
+3. **[book] Could convergent evolution explain humans developing on another planet independently of Earth?** (source: stackexchange/worldbuilding, 2026-09-01, 2 分 7 评论) — 购买意图轨最强, 直接引 book.html 全 14 平台分销, 物种设计话题与《Alien Dimensions》同调。

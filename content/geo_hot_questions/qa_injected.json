@@ -54,5 +54,19 @@
     "question": "How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mas",
     "pruned": 0,
     "src": "qa_2026-09-13.json"
+  },
+  "955a82ea71": {
+    "slug": "artificial-kondo-lattice",
+    "ts": "2026-09-14T08:11:38.263925",
+    "question": "Is AI affecting Physics as it is affecting Mathematics?",
+    "pruned": 0,
+    "src": "qa_2026-09-14.json"
+  },
+  "ff0ce9a7ea": {
+    "slug": "holographic-kpz-projection",
+    "ts": "2026-09-14T08:11:38.264767",
+    "question": "Physical interpretation of the focusing theorem",
+    "pruned": 0,
+    "src": "qa_2026-09-14.json"
   }
 }

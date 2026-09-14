@@ -45,4 +45,15 @@ Start with why the paradox exists: if Hawking radiation is exactly thermal, it c
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1we4mn5/how_is_conservation_of_information_violated_when/" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-13 08:33 UTC -->
+<!-- GEO-QA-START id=ff0ce9a7ea -->
+## Extended Q&A — Reader Question
+
+**Q: Physical interpretation of the focusing theorem**
+<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-05, 6 points 1 comment</em></p>
+
+The focusing theorem says that gravity makes a congruence of light rays or freely falling paths converge, because the expansion of those paths decreases along the flow once a positive energy condition holds, and this follows from the Raychaudhuri equation. The physical reading is blunt: focusing is why horizons and singularities are hard to avoid in general relativity, not a technical footnote. It is also where area and entropy enter the story, since the growth of a horizon area is governed by the same expansion, which is the thread that later work on holographic entropy follows. That accounting is real research; this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where boundary data is treated as a renderable store, and its growth-law counterpart is worked out in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-14 08:11 UTC -->
