@@ -1,0 +1,687 @@
+{
+  "_ts": "2026-09-15T02:35:43.927616",
+  "_date": "2026-09-15",
+  "counts": {
+    "stackexchange": 50,
+    "reddit_rss": 30,
+    "hackernews": 9,
+    "questions": 44,
+    "total": 73
+  },
+  "errors": [
+    "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/postapocalyptic: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
+      "url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 16,
+      "comments": 6,
+      "ts": "2026-09-10T06:29",
+      "is_question": true
+    },
+    {
+      "title": "What would a mobile or traveling tavern need to be self sustainable?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274464/what-would-a-mobile-or-traveling-tavern-need-to-be-self-sustainable",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 13,
+      "ts": "2026-09-02T05:22",
+      "is_question": true
+    },
+    {
+      "title": "What are ways that AI is affecting Physics similar to how it is affecting Mathematics?",
+      "url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 3,
+      "ts": "2026-09-13T15:40",
+      "is_question": true
+    },
+    {
+      "title": "What is the fastest way to cool a pot of boiling water using ice and water?",
+      "url": "https://physics.stackexchange.com/questions/875759/what-is-the-fastest-way-to-cool-a-pot-of-boiling-water-using-ice-and-water",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 4,
+      "ts": "2026-09-07T15:35",
+      "is_question": true
+    },
+    {
+      "title": "How quickly can a unique language develop?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274495/how-quickly-can-a-unique-language-develop",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 7,
+      "ts": "2026-09-05T08:15",
+      "is_question": true
+    },
+    {
+      "title": "Lorentz transformation of force",
+      "url": "https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 3,
+      "ts": "2026-09-10T19:22",
+      "is_question": true
+    },
+    {
+      "title": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?",
+      "url": "https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 2,
+      "ts": "2026-09-09T12:01",
+      "is_question": true
+    },
+    {
+      "title": "What exactly would gravity-mediated entanglement prove?",
+      "url": "https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-09-10T10:49",
+      "is_question": true
+    },
+    {
+      "title": "Would a bird get fried if it stood on a microwave-frequency power line?",
+      "url": "https://physics.stackexchange.com/questions/875982/would-a-bird-get-fried-if-it-stood-on-a-microwave-frequency-power-line",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 3,
+      "ts": "2026-09-13T23:58",
+      "is_question": true
+    },
+    {
+      "title": "Are simpler, utilitarian designs like hardhats and jerrycans generally universal?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274520/are-simpler-utilitarian-designs-like-hardhats-and-jerrycans-generally-universal",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 5,
+      "ts": "2026-09-09T07:05",
+      "is_question": true
+    },
+    {
+      "title": "How can a pre-industrial society fight underwater enemies?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274547/how-can-a-pre-industrial-society-fight-underwater-enemies",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 5,
+      "ts": "2026-09-14T06:53",
+      "is_question": true
+    },
+    {
+      "title": "Why would a living organism larger than earth need to biologically create cement?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-earth-need-to-biologically-create-cement",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 4,
+      "ts": "2026-09-09T01:45",
+      "is_question": true
+    },
+    {
+      "title": "Is this type of orbital transformation possible?",
+      "url": "https://space.stackexchange.com/questions/70692/is-this-type-of-orbital-transformation-possible",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 4,
+      "ts": "2026-09-06T21:11",
+      "is_question": true
+    },
+    {
+      "title": "Are there stable orbits of point masses around a massive cylindrical object?",
+      "url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-09T10:59",
+      "is_question": true
+    },
+    {
+      "title": "Bypassing the fermium wall: Could elements with $Z &gt; 100$ be forged in a ‘superkilonova’?",
+      "url": "https://physics.stackexchange.com/questions/875538/bypassing-the-fermium-wall-could-elements-with-z-100-be-forged-in-a-superk",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-01T12:17",
+      "is_question": true
+    },
+    {
+      "title": "Hypothetically, how could someone be immediately killed by a radio tower?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274514/hypothetically-how-could-someone-be-immediately-killed-by-a-radio-tower",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 4,
+      "ts": "2026-09-08T21:04",
+      "is_question": true
+    },
+    {
+      "title": "Could convergent evolution explain humans developing on another planet independently of Earth?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274460/could-convergent-evolution-explain-humans-developing-on-another-planet-independe",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 7,
+      "ts": "2026-09-01T23:30",
+      "is_question": true
+    },
+    {
+      "title": "Could a Underwater Civilization develop into a 1970’s ‘surface’ race",
+      "url": "https://worldbuilding.stackexchange.com/questions/274529/could-a-underwater-civilization-develop-into-a-1970-s-surface-race",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 3,
+      "ts": "2026-09-10T13:01",
+      "is_question": true
+    },
+    {
+      "title": "How does the bistable spring tape in a snap bracelet (or retractable tape measure) work?",
+      "url": "https://physics.stackexchange.com/questions/875999/how-does-the-bistable-spring-tape-in-a-snap-bracelet-or-retractable-tape-measur",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-14T14:59",
+      "is_question": true
+    },
+    {
+      "title": "Why can non-spontaneous processes happen if $\\delta G &gt; 0$ implies $\\delta S_{\\text{universe}}$ to decrease?",
+      "url": "https://physics.stackexchange.com/questions/875990/why-can-non-spontaneous-processes-happen-if-delta-g-0-implies-delta-s-t",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-14T11:02",
+      "is_question": true
+    },
+    {
+      "title": "Composition for a Superhabitable Super-Earth",
+      "url": "https://worldbuilding.stackexchange.com/questions/274546/composition-for-a-superhabitable-super-earth",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-13T16:57",
+      "is_question": true
+    },
+    {
+      "title": "Stable crossing orbit between these 2 smaller moons?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274543/stable-crossing-orbit-between-these-2-smaller-moons",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-13T03:54",
+      "is_question": true
+    },
+    {
+      "title": "How would prehensile Quills work?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274487/how-would-prehensile-quills-work",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": 0,
+      "comments": 3,
+      "ts": "2026-09-03T22:30",
+      "is_question": true
+    },
+    {
+      "title": "Why is GPS proof of Special Relativity",
+      "url": "https://physics.stackexchange.com/questions/876009/why-is-gps-proof-of-special-relativity",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-09-14T17:48",
+      "is_question": true
+    },
+    {
+      "title": "Are there chemicals that cause excess tissue growth at a mass scale?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274518/are-there-chemicals-that-cause-excess-tissue-growth-at-a-mass-scale",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 2,
+      "ts": "2026-09-09T02:12",
+      "is_question": true
+    },
+    {
+      "title": "How would 12-foot tall humanoid giants possibly be shaped and function?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274502/how-would-12-foot-tall-humanoid-giants-possibly-be-shaped-and-function",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-05T23:08",
+      "is_question": true
+    },
+    {
+      "title": "Doing a study on how mass affects the terminal velocity of a magnet falling through a copper pipe (Magnetic Induction). Need some help!",
+      "url": "https://physics.stackexchange.com/questions/876005/doing-a-study-on-how-mass-affects-the-terminal-velocity-of-a-magnet-falling-thro",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-14T16:26",
+      "is_question": true
+    },
+    {
+      "title": "Holonomic constraints, independent generalized coordinates",
+      "url": "https://physics.stackexchange.com/questions/876002/holonomic-constraints-independent-generalized-coordinates",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-14T15:56",
+      "is_question": true
+    },
+    {
+      "title": "Why was the very early universe not just a black hole?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wfnoqh/why_was_the_very_early_universe_not_just_a_black/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-13T23:55",
+      "is_question": true
+    },
+    {
+      "title": "If we could zoom in with a microscope far enough to see an atom with our eyes, what would we actually see?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg0vwr/if_we_could_zoom_in_with_a_microscope_far_enough/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T11:33",
+      "is_question": true
+    },
+    {
+      "title": "If I send a red photon North and I send another red photon South in a way that when they meet their waveforms destructively interfere, what happens to the photons ?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wfmwmu/if_i_send_a_red_photon_north_and_i_send_another/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-13T23:19",
+      "is_question": true
+    },
+    {
+      "title": "Does the recent Navier-Stokes counterexample mean fluid dynamics equations are \"broken\"?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg5mjb/does_the_recent_navierstokes_counterexample_mean/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T14:52",
+      "is_question": true
+    },
+    {
+      "title": "Article: How did a photon survive a journey of more than 2 billion light-years when, according to known physics, it should have been absorbed long before reaching Earth?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg212s/article_how_did_a_photon_survive_a_journey_of/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T12:28",
+      "is_question": true
+    },
+    {
+      "title": "Why aren't neo-Lorentzian interpretations (and preferred frames) used more often, given they make Bohmian mechanics more feasible?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wgbqaa/why_arent_neolorentzian_interpretations_and/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T18:28",
+      "is_question": true
+    },
+    {
+      "title": "English language translation of MM RUSINOV TECHNICAL OPTICS book?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg263g/english_language_translation_of_mm_rusinov/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T12:34",
+      "is_question": true
+    },
+    {
+      "title": "Does the Heisenberg uncertainty principle forbid the existence of a true rest frame?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wfpi1l/does_the_heisenberg_uncertainty_principle_forbid/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T01:18",
+      "is_question": true
+    },
+    {
+      "title": "Is it (theoretically) possible to measure something at and below the planck length?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg9x0s/is_it_theoretically_possible_to_measure_something/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T17:26",
+      "is_question": true
+    },
+    {
+      "title": "In the far future could quantum tunnelling lead to a replica of me being created?",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg040s/in_the_far_future_could_quantum_tunnelling_lead/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T10:54",
+      "is_question": true
+    },
+    {
+      "title": "Limits during deployment of anachronisms",
+      "url": "https://worldbuilding.stackexchange.com/questions/274553/limits-during-deployment-of-anachronisms",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-14T15:54",
+      "is_question": true
+    },
+    {
+      "title": "Feedback on this in universe movie [Movie poster]",
+      "url": "https://worldbuilding.stackexchange.com/questions/274525/feedback-on-this-in-universe-movie-movie-poster",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-09T17:14",
+      "is_question": true
+    },
+    {
+      "title": "Time dilation and energy–momentum are two orthogonal projections of the same boost?",
+      "url": "https://physics.stackexchange.com/questions/875993/time-dilation-and-energy-momentum-are-two-orthogonal-projections-of-the-same-boo",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-14T12:31",
+      "is_question": true
+    },
+    {
+      "title": "Why does NASA keep POGO around when it also has ARGOS?",
+      "url": "https://space.stackexchange.com/questions/70698/why-does-nasa-keep-pogo-around-when-it-also-has-argos",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-09-08T21:49",
+      "is_question": true
+    },
+    {
+      "title": "Why do humans and many moving organisms have a preferred forward direction",
+      "url": "https://physics.stackexchange.com/questions/876004/why-do-humans-and-many-moving-organisms-have-a-preferred-forward-direction",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -4,
+      "comments": 1,
+      "ts": "2026-09-14T16:24",
+      "is_question": true
+    },
+    {
+      "title": "Could the end of one universe be the beginning of another?",
+      "url": "https://physics.stackexchange.com/questions/875986/could-the-end-of-one-universe-be-the-beginning-of-another",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -8,
+      "comments": 1,
+      "ts": "2026-09-14T07:38",
+      "is_question": true
+    },
+    {
+      "title": "Spanda: Sub-microsecond LLM epistemic uncertainty in Rust",
+      "url": "https://news.ycombinator.com/item?id=49663329",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 17,
+      "comments": 2,
+      "ts": "2026-09-11T18:48",
+      "is_question": false
+    },
+    {
+      "title": "Europe may have found a space entrepreneur who is meeting the moment",
+      "url": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-09-10T09:58",
+      "is_question": false
+    },
+    {
+      "title": "Everyday Entrepreneurship (2016)",
+      "url": "https://journals.sagepub.com/doi/10.1111/etap.12258",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 0,
+      "ts": "2026-09-10T15:06",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Parallel Coding Agents on Mobile",
+      "url": "https://github.com/PlathsOven/maestro",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 4,
+      "comments": 0,
+      "ts": "2026-09-12T12:02",
+      "is_question": false
+    },
+    {
+      "title": "We Spoke with Entrepreneurs Living the \"7 Vibe 3\" Lifestyle",
+      "url": "https://cadence.moe/blog/2026-09-10-we-spoke-with-entrepreneurs-living-the-7-vibe-3-lifestyle",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 3,
+      "ts": "2026-09-10T12:56",
+      "is_question": false
+    },
+    {
+      "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity",
+      "url": "https://www.mdpi.com/2218-1997/12/5/132",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-09-13T00:30",
+      "is_question": false
+    },
+    {
+      "title": "Lifestyle Entrepreneurship: Literature Review and Future Research Agenda (2023)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/joms.13000",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-10T18:50",
+      "is_question": false
+    },
+    {
+      "title": "Dissolving the Fermi Paradox (2018)",
+      "url": "https://arxiv.org/abs/1806.02404",
+      "source": "hn",
+      "note": "kw=fermi paradox",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-12T06:25",
+      "is_question": false
+    },
+    {
+      "title": "Simulation Hypothesis",
+      "url": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+      "source": "hn",
+      "note": "kw=simulation hypothesis",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-09-14T18:02",
+      "is_question": false
+    },
+    {
+      "title": "I was listening to a podcast earlier about how time changes and the speed of something increases. I have a question on this.",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg62ut/i_was_listening_to_a_podcast_earlier_about_how/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T15:09",
+      "is_question": false
+    },
+    {
+      "title": "[URGENT] Textbook Suggestions for Relativistic Dynamica & Applications",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wfynz0/urgent_textbook_suggestions_for_relativistic/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T09:31",
+      "is_question": false
+    },
+    {
+      "title": "Question on physics",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg5p2c/question_on_physics/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T14:55",
+      "is_question": false
+    },
+    {
+      "title": "Question about formation of our planets",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wfv55e/question_about_formation_of_our_planets/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T06:00",
+      "is_question": false
+    },
+    {
+      "title": "I have a proper question",
+      "url": "https://www.reddit.com/r/AskPhysics/comments/1wg5k2p/i_have_a_proper_question/",
+      "source": "reddit/r/AskPhysics",
+      "note": "物理提问",
+      "ts": "2026-09-14T14:50",
+      "is_question": false
+    },
+    {
+      "title": "Trump reiterates no slowdown",
+      "url": "https://www.reddit.com/r/singularity/comments/1wg4cjk/trump_reiterates_no_slowdown/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T14:03",
+      "is_question": false
+    },
+    {
+      "title": "Astra notices user isn't paying attention, makes the Mac beep",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfnrqj/astra_notices_user_isnt_paying_attention_makes/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-13T23:59",
+      "is_question": false
+    },
+    {
+      "title": "Run! GPT-2 is gonna kill us all!!",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfyrcr/run_gpt2_is_gonna_kill_us_all/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T09:37",
+      "is_question": false
+    },
+    {
+      "title": "Following Trump, Mark Zuckerberg also made a statement on accelerating AI.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfm9np/following_trump_mark_zuckerberg_also_made_a/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-13T22:51",
+      "is_question": false
+    },
+    {
+      "title": "China says AI CEOs' call for a slowdown is 'fear mongering'",
+      "url": "https://www.reddit.com/r/singularity/comments/1wg1h2p/china_says_ai_ceos_call_for_a_slowdown_is_fear/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T12:02",
+      "is_question": false
+    },
+    {
+      "title": "Sam Altman on Where AI Is Headed",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfu7dt/sam_altman_on_where_ai_is_headed/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T05:09",
+      "is_question": false
+    },
+    {
+      "title": "BREAKING: The first naval battle in history between two unmanned surface drones has taken place in the Black Sea.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wffyhc/breaking_the_first_naval_battle_in_history/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-13T18:44",
+      "is_question": false
+    },
+    {
+      "title": "Anthropic tells investors it will be profitable for second straight quarter",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfm2ws/anthropic_tells_investors_it_will_be_profitable/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-13T22:42",
+      "is_question": false
+    },
+    {
+      "title": "China reponded to AI slowdown calls \"Fearmongering, confrontation and vicious competition will only disrupt the process of global AI governance, which serves no one's interest\"",
+      "url": "https://www.reddit.com/r/singularity/comments/1wg7hbw/china_reponded_to_ai_slowdown_calls_fearmongering/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T16:01",
+      "is_question": false
+    },
+    {
+      "title": "Gemini right now:",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfs65l/gemini_right_now/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T03:26",
+      "is_question": false
+    },
+    {
+      "title": "China's state-backed Global Times: true agenda of American safety regulation is 'Cold war playbook' to curb China's AI progress.",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfzjlf/chinas_statebacked_global_times_true_agenda_of/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T10:22",
+      "is_question": false
+    },
+    {
+      "title": "Xi says China will take lead to foster AI, tech cooperation among BRICS countries",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfm6zr/xi_says_china_will_take_lead_to_foster_ai_tech/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-13T22:47",
+      "is_question": false
+    },
+    {
+      "title": "Trump says AI danger is a HOAX",
+      "url": "https://www.reddit.com/r/singularity/comments/1wgaxla/trump_says_ai_danger_is_a_hoax/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T18:01",
+      "is_question": false
+    },
+    {
+      "title": "WE'D LIKE TO BUY THE WORLD SOME TIME",
+      "url": "https://www.reddit.com/r/singularity/comments/1wfxl9h/wed_like_to_buy_the_world_some_time/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T08:25",
+      "is_question": false
+    },
+    {
+      "title": "China's Xi Jinping proposes BRICS 'open-source AI zone'",
+      "url": "https://www.reddit.com/r/singularity/comments/1wg181t/chinas_xi_jinping_proposes_brics_opensource_ai/",
+      "source": "reddit/r/singularity",
+      "note": "AI/未来学",
+      "ts": "2026-09-14T11:50",
+      "is_question": false
+    }
+  ]
+}
