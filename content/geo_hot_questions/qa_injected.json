@@ -68,5 +68,19 @@
     "question": "Physical interpretation of the focusing theorem",
     "pruned": 0,
     "src": "qa_2026-09-14.json"
+  },
+  "fc002495d6": {
+    "slug": "electromagnetic-theater-override",
+    "ts": "2026-09-16T12:16:09.639478",
+    "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
+    "pruned": 0,
+    "src": "qa_2026-09-16.json"
+  },
+  "a97dc724e5": {
+    "slug": "type2-superlattice-radar",
+    "ts": "2026-09-16T12:16:09.640096",
+    "question": "How can a pre-industrial society fight underwater enemies?",
+    "pruned": 0,
+    "src": "qa_2026-09-16.json"
   }
 }

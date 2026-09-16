@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-16",
+ "entries": [
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875982/would-a-bird-get-fried-if-it-stood-on-a-microwave-frequency-power-line",
+   "heat": "stackexchange/physics 2026-09-13 new thread, 9 points 4 comments",
+   "answer_md": "A bird standing on a single conductor survives because both of its contact points sit at almost the same potential, and at power-line amplitudes microwave radiation is still non-ionizing, so it cannot ionize tissue the way an x-ray does. The real mechanism is geometry rather than raw power: once the spacing between contact points approaches a quarter wavelength the body becomes an efficient antenna and the induced current stops being negligible, which is why centimetre-band hardware is built as enclosed guides rather than as open wires. That is the textbook reasoning, not a measurement of my own. **The hazard is set by geometry and field strength, not by the name of the band.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override</a> treats that geometry condition as an engineering variable, and the sensing half of the same band is developed in <a href='type2-superlattice-radar.html'>the type-2 superlattice radar setting</a>.",
+   "links": [
+    "type2-superlattice-radar"
+   ]
+  },
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "How can a pre-industrial society fight underwater enemies?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274547/how-can-a-pre-industrial-society-fight-underwater-enemies",
+   "heat": "stackexchange/worldbuilding 2026-09-14 new thread, 7 points 9 comments",
+   "answer_md": "A pre-industrial defence against an underwater adversary is limited by the interface before any weapon matters: for sound crossing from air into water the acoustic impedance mismatch passes only about 0.1 percent of the intensity, roughly minus 30 dB, and radar in the usual sense does not work in salt water at all because the medium is conductive and the fields are absorbed within centimetres. What did work historically was passive listening, denial of access with nets and shore obstacles, and weapons that do not need to see the target. Those numbers are textbook acoustics and I have not measured them. <a href='type2-superlattice-radar.html'>The type-2 superlattice radar setting</a> takes the same mismatch as its design constraint and is fiction, not a claim about existing hardware, and <a href='electromagnetic-theater-override.html'>the electromagnetic override setting</a> covers the field-shaping side of the same problem.",
+   "links": [
+    "electromagnetic-theater-override"
+   ]
+  }
+ ]
+}
