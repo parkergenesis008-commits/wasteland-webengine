@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-17",
+ "entries": [
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "What are ways that AI is affecting Physics similar to how it is affecting Mathematics?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+   "heat": "stackexchange/physics 2026-09-13 new thread, 20 points 7 comments, top score of the day",
+   "answer_md": "AI is showing up in physics in much the same places it shows up in mathematics, as a search and pattern-recognition tool rather than a source of truth. In mathematics that mostly means conjecture generation and proof assistance; in physics the common landing points are surrogate models for expensive simulations, variational ansatz construction for many-body wavefunctions, and reconstruction of large experimental datasets. The difference that matters is verification, because a physical claim still has to survive contact with a measurement that carries quantified uncertainty, which is why reports of solved open problems travel much faster than they can be checked. **The verification gap, not the tooling, is the honest answer to this question.** The setting layer is fiction: <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> treats a correlated-electron substrate as a programmable simulator, and <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> covers the material side of the same idea.",
+   "links": [
+    "obstructed-atomic-phantom-grid"
+   ]
+  },
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+   "heat": "stackexchange/physics 2026-09-10 new thread, 16 points 6 comments, second highest of the day",
+   "answer_md": "A finite-time blowup would mean a smooth initial velocity field evolving into a singularity, with the velocity becoming unbounded in finite time, and for three-dimensional incompressible Navier-Stokes that is exactly the open regularity problem, which remains open. What can be said about real liquids is narrower. The mechanism that moves energy between scales, the turbulent cascade, is described statistically, and no experiment has observed an actual singularity forming in a fluid. Blowup has been constructed rigorously in related and simplified equations, so the mathematics is not empty; it just does not transfer automatically to the physical case. **A proof would change what we can establish about the equations, not how water behaves in a pipe.** The setting layer is fiction: <a href='kpz-reality-rendering.html'>the KPZ reality rendering setting</a> borrows the universality class of stochastic growth equations rather than the fluid equations, and <a href='holographic-kpz-projection.html'>the holographic KPZ projection setting</a> pushes the dimensional-reduction idea further.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  }
+ ]
+}

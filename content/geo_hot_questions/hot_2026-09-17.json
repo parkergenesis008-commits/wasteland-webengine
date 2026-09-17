@@ -1,0 +1,159 @@
+{
+ "_date": "2026-09-17",
+ "_generated": "cron 8a30034f417e (GEO 每日热门引流问题)",
+ "_site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "count_requested": 12,
+ "count": 12,
+ "source_health": {
+  "stackexchange": 54,
+  "reddit_rss": 15,
+  "hackernews": 10,
+  "questions": 39,
+  "total": 61,
+  "errors": [
+   "reddit/r/postapocalyptic: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/collapse: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/selfpublish: HTTPError HTTP Error 429: Too Many Requests"
+  ]
+ },
+ "notes": "X/TikTok 今日抓取失败: web_search 三次尝试 (X 物理话题帖、TikTok viral 物理、site:x.com 物理提问) 只返回二手趋势页、无日期旧视频与榜单页, 无可核验的当日原创提问帖, 因此不列任何条目, 不做补写。脚本源健康: stackexchange 54 / reddit_rss 15 / hackernews 10, 去重后 61 条, 问题形态 39。真失败源 3: reddit/r/postapocalyptic、reddit/r/collapse、reddit/r/selfpublish 均 HTTP 429 限流, 今日不可用。Reddit 仅 r/singularity 通道存活, 该板块当日热帖集中在 AI 攻数学与证明话题簇。与前一日去重: 已剔除 09-16 用过的 microwave power line bird、pre-industrial underwater、stochastic (dx)^2, 以及 09-11 至 09-14 用过的候选集。lore 覆盖 10/11: artificial-kondo-lattice、kpz-reality-rendering、qm-tether-exosuit、cooperative-resonance-torsion、floquet-temporal-matter、obstructed-atomic-phantom-grid、electromagnetic-theater-override、semi-dirac-mass-nullification、holographic-kpz-projection、arena-tripartite-architecture 各一条; 今日无 type2-superlattice-radar 的自然对应题, 不硬凑; 另有 2 条走 book 轨。qa 注入 2 条: artificial-kondo-lattice (当日最高分 20 分 7 评论) 与 kpz-reality-rendering (第二高分 16 分 6 评论)。",
+ "top3_for_today": [
+  1,
+  2,
+  3
+ ],
+ "items": [
+  {
+   "n": 1,
+   "question": "What are ways that AI is affecting Physics similar to how it is affecting Mathematics?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+   "heat": "2026-09-13 新帖, 20 分 7 评论 (当日全库最高分)",
+   "why": "当日抓取票数最高 (20 分 7 评论); AI 与物理方法论之争正命中 AI/未来学读者; 今日 r/singularity 热帖前 12 条里 5 条是 AI 攻数学与证明话题 (Aaronson 谈实验室被 Navier-Stokes 证明风波反噬、RSI 循环、science benchmark 缺陷), 同一话题簇正在发酵。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: AI 在物理里的常见落点是昂贵模拟的代理模型、多体波函数的变分拟设、实验数据重建与分析管线; 与数学里发现猜想不同, 物理结论仍要过带误差棒的量测; 设定层: 把关联电子基底当可编程模拟器属 fiction。",
+   "use": "当日头条, 已写入 qa_2026-09-17.json, 注入 artificial-kondo-lattice 页, 内链 obstructed-atomic-phantom-grid。"
+  },
+  {
+   "n": 2,
+   "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+   "heat": "2026-09-10 新帖, 16 分 6 评论 (当日第二高分)",
+   "why": "三维不可压 Navier-Stokes 正则性是 Clay 千禧年问题之一, blowup 讨论直连湍流与界面增长, 与 KPZ 普适类同属非线性 PDE; 今日 r/singularity 热帖围绕 AI 是否已解出 NS 证明的传闻, 话题簇外溢到 AI 读者群。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 有限时间 blowup 在相关与简化方程里可严格构造, 但三维不可压 NS 的全局正则性仍未解决; 真实液体里观察到的是湍流级串的统计行为, 从未观测到真正的奇点; 设定层: 把界面增长方程当现实渲染器属 fiction。",
+   "use": "已写入 qa_2026-09-17.json, 注入 kpz-reality-rendering 页, 内链 holographic-kpz-projection。"
+  },
+  {
+   "n": 3,
+   "question": "Why is GPS proof of Special Relativity?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876009/why-is-gps-proof-of-special-relativity",
+   "heat": "2026-09-14 新帖, 13 分 6 评论 (当日第三高分)",
+   "why": "用工程系统反证相对论是经典科普入口, 长尾搜索稳定; 卫星钟同时吃狭义 (速度) 与广义 (引力势) 两种效应且符号相反, 讲清这一点就能自然过渡到时空几何工程, 与 qm-tether 页同调。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 导航解算必须同时校正速度引起的钟慢与引力势引起的钟快, 两者符号相反, 系统按轨道参数把校正量写进模型; 这是工程一致性而非单次判决性实验; 设定层: 把度规当可编程硬件属 fiction。",
+   "use": "科普轨备选, 长尾词稳, 不注入。"
+  },
+  {
+   "n": 4,
+   "question": "How quickly can a unique language develop?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274495/how-quickly-can-a-unique-language-develop",
+   "heat": "2026-09-05 新帖, 7 分 7 评论 (worldbuilding 当日评论最多之一)",
+   "why": "语言从零分化是物种设计题, 《Alien Dimensions》读者群正是问这类问题的人; 真实案例 (尼加拉瓜手语、希伯来语复兴) 可核实, 不需掺水。",
+   "map_to": "book",
+   "answer_angle": "真实层: 语言诞生靠社群约定与代际传递, 孤立社群里会快速分化并语法化, 速度受人口规模与接触强度控制, 不是单人发明; 设定层: 小说允许压缩时间尺度, 属 fiction。",
+   "use": "走 book 轨, 附 book.html 全平台分销, 不进 lore 注入。"
+  },
+  {
+   "n": 5,
+   "question": "Are there stable orbits of point masses around a massive cylindrical object?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+   "heat": "2026-09-09 新帖, 7 分 1 评论",
+   "why": "轴对称引力场里的轨道稳定性由有效势与频率比决定, 与 torsion 页的旋转/共振骨架同源; space 板块读者与硬科幻阅读群重叠度高。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 轴对称场的角动量守恒给出有效势, 圆轨道稳定性取决于径向振荡频率与轨道频率之比; 圆柱外部场与点质量场不同, 近轴与远场行为需分别求解; 设定层: 把扭转自由度当可工程资源属 fiction。",
+   "use": "硬科幻轨备选, 不注入。"
+  },
+  {
+   "n": 6,
+   "question": "If the Block Universe Theory Is True, Where Are the Time Travelers?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876056/if-the-block-universe-theory-is-true-where-are-the-time-travelers",
+   "heat": "2026-09-15 新帖, -10 分 0 评论",
+   "why": "块宇宙与时间箭头是公共讨论高发点, 与 Floquet 页把时间当可驱动自由度的设定形成直接对照; 票数为负但话题搜索量高, 适合做时间类长尾。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 块宇宙是关于时间流逝的诠释框架, 不与时间旅行等价; 闭合类时曲线只在特定 GR 解里出现且需要特殊物质或拓扑, 目前没有可控回溯方案; 设定层: 把周期驱动当时间轴工程属 fiction。",
+   "use": "科普轨备选, 不注入。"
+  },
+  {
+   "n": 7,
+   "question": "Would it be plausible for a gas and ice belt to shield a planet from radiation?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274564/would-it-be-plausible-for-a-gas-and-ice-belt-to-shield-a-planet-from-radiation",
+   "heat": "2026-09-15 新帖, 0 分 2 评论",
+   "why": "屏蔽能力由柱密度与相互作用截面决定, 不是有冰就挡, 与 phantom-grid 页的遮挡阵列设定同构; 世界构建轨受众精准。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 带电粒子屏蔽看柱密度与磁场构型, 中性气体对高能宇宙线阻挡能力有限, 冰粒还受升华与轨道动力学限制; 设定层: 原子级遮挡阵列属 fiction。",
+   "use": "世界构建轨备选, 可做材料侧长尾。"
+  },
+  {
+   "n": 8,
+   "question": "If Space is Empty, Why Does it Have Electrical Properties?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876052/if-space-is-empty-why-does-it-have-electrical-properties",
+   "heat": "2026-09-15 新帖, -2 分 0 评论",
+   "why": "真空有介电常数是场论入门误解高发点, 与 EM override 页的场承载表述直接相关; 答案能顺带讲清真空极化, 不涉虚构数据。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 真空的电磁响应参数不是某种实体介质的属性, 其现代数值与光速绑定, 高能下有效耦合的变化来自量子场的真空极化; 设定层: 宏观场改写属 fiction。",
+   "use": "科普轨备选, 可做场论长尾词。"
+  },
+  {
+   "n": 9,
+   "question": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity",
+   "source": "hn",
+   "source_url": "https://www.mdpi.com/2218-1997/12/5/132",
+   "heat": "HN 2026-09-13, 3 分 1 评论",
+   "why": "曲速型时空是 Einstein 方程解空间里的正例题, 与 semi-Dirac 页质量/惯性可改性的设定走同一话题入口; HN 科技读者命中 AI/未来学轨。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 曲速型度规可以写下来并满足场方程, 但能量条件要求负能量密度, 公开估算的所需总量远超可得范围; 可写解与可工程是两件事; 设定层: 有效质量归零属 fiction。",
+   "use": "硬科幻轨备选, 不注入。"
+  },
+  {
+   "n": 10,
+   "question": "Simulation Hypothesis",
+   "source": "hn",
+   "source_url": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+   "heat": "HN 2026-09-14, 2 分 0 评论",
+   "why": "模拟假说是全息投影设定的公共入口, 与 holographic-kpz-projection 页低维边界生成高维现实的结构直接对应, 也接住 AI/未来学读者。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 全息对偶是具体可算的对应关系, 只在特定时空背景下成立, 不能外推成我们的宇宙是模拟; 信息容量受限是可讨论的物理约束; 设定层: 用边界动力学渲染三维现实属 fiction。",
+   "use": "科普轨备选, 不注入。"
+  },
+  {
+   "n": 11,
+   "question": "Why Six Millennium Problems May Be Hard for the Same Reason",
+   "source": "hn",
+   "source_url": "https://news.ycombinator.com/item?id=49724391",
+   "heat": "HN 2026-09-16, 1 分 0 评论",
+   "why": "把难题共性归因于同一结构是复杂性话题入口, 与 arena 页把难算问题映射到物理基底的设定同构; 与今日 AI 攻数学话题簇相邻, 时效最新。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 六个千禧年问题分属数论、几何、PDE 等不同领域, 目前没有公认的统一困难原因; 可谈的共同点是验证与构造之间的不对称性; 设定层: 三方拓扑基底做通用计算属 fiction。",
+   "use": "AI/数学轨备选, 不注入。"
+  },
+  {
+   "n": 12,
+   "question": "Dissolving the Fermi Paradox (2018)",
+   "source": "hn",
+   "source_url": "https://arxiv.org/abs/1806.02404",
+   "heat": "HN 2026-09-12, 2 分 0 评论",
+   "why": "该文把 Drake 式参数当分布抽样而不是点估计, 结论是我们可能并不孤独; 这是《Alien Dimensions》世界观的天然入口, 走购买意图轨。",
+   "map_to": "book",
+   "answer_angle": "真实层: 对参数不确定性做抽样会显著放宽无邻居的结论, 这属于模型敏感性分析而非观测证据; 设定层: 小说里文明密度与接触史属 fiction。",
+   "use": "走 book 轨, 附 book.html 全平台分销, 不进 lore 注入。"
+  }
+ ]
+}
