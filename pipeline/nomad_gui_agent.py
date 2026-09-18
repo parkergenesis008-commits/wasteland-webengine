@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """
-Nomad GUI Agent v4 — Human-like traffic simulation with Google search + store funnel.
-Every visit: random 10-60s dwell + scroll bar dragging.
-Every session ends with: Apple Books / Amazon book page visit + scroll + stay + pretend-click Buy.
+Nomad GUI Agent v5 — DISARMED (2026-09-18)
 
-Flow:
-  Route A (weekly 1-3x): Google keyword search → our site → store page → buy-click
-  Route B (default): Our site → store page → buy-click
-  Route C: Store page direct → buy-click (when re-visiting)
+变更（P0-2 演练）:
+  * 第三方商店（Amazon / Apple Books）自动化访问 + "模拟购买点击" **已永久移除**。
+    理由：对 Amazon/Apple 的自动化点击明确违反其条款，且对 SEO 零正向作用。
+  * 整条 nomad 默认关闭：NOMAD_ENABLED != "1" 时直接退出，不发任何网络请求。
+    理由：自访 + 自点 Google 结果属于操纵信号，且会把自访写进本地日志，
+          使"曝光"报告失真（历史周报/月报即为此产物）。
+
+保留：本站页面的人工化阅读模拟（滚动 / 停留），仅供显式 NOMAL_ENABLED=1 时使用。
+重新启用前必须先在 GA4 把本机 IP 设为 internal traffic 排除，否则自访污染真实数据。
 """
 import subprocess
 import time
@@ -19,6 +22,12 @@ import os
 LOG_FILE = os.path.expanduser("~/.wasteland_geo_log.jsonl")
 WEEKLY_LOG = os.path.expanduser("~/.wasteland_google_search_log.jsonl")
 SITE_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine"
+
+# ── 政策硬开关（2026-09-18, P0-2）─────────────────────────────
+# NOMAD_ENABLED 默认 "0"：不发任何网络请求。见文件头说明。
+NOMAD_ENABLED = os.environ.get("NOMAD_ENABLED", "0") == "1"
+# 第三方商店自动化：永久 False。以下两处代码仍被本开关挡住，双保险。
+STORE_AUTOMATION_ENABLED = False
 
 # ── Store book pages ──
 STORE_PAGES = [
@@ -337,6 +346,10 @@ def visit_store_page_and_simulate_purchase(browser):
       - Click around the button area (not actually buying — just mimicking)
     Returns (store_name, total_dwell)
     """
+    if not STORE_AUTOMATION_ENABLED:
+        print("  ⏭  商店漏斗已停用（第三方自动化访问 + 模拟购买点击已于 2026-09-18 移除）")
+        return None, 0
+
     store = random.choice(STORE_PAGES)
     store_name = store["name"]
     store_url = store["url"]
@@ -349,32 +362,7 @@ def visit_store_page_and_simulate_purchase(browser):
     scroll_count = random.randint(2, 4)
     dwell = simulate_page_reading(browser, scroll_count=scroll_count)
 
-    # ── Simulate purchase click ──
-    # Move mouse toward buy-button area (bottom-mid of window) and click
-    buy_x = random.randint(400, 700)
-    buy_y = random.randint(400, 600)
-    click_cmd = f'''
-    tell application "System Events"
-        -- Move mouse toward buy area
-        set position of first window of (first process whose frontmost is true) to {{{buy_x}, {buy_y}}}
-        delay {random.uniform(0.5, 1.5):.1f}
-        -- Click (simulating button press)
-        key code 36
-    end tell
-    '''
-    ascript(click_cmd)
-    time.sleep(random.uniform(1.0, 3.0))
-
-    # Second click attempt for realism (user often clicks twice)
-    if random.random() < 0.4:
-        click_cmd2 = f'''
-        tell application "System Events"
-            key code 36
-        end tell
-        '''
-        ascript(click_cmd2)
-        time.sleep(random.uniform(0.5, 1.5))
-
+    # 2026-09-18: "模拟购买点击"整段已物理删除（违反 Amazon/Apple 条款，且无 SEO 作用）。
     # Close the tab
     browser_close_tab()
 
@@ -441,16 +429,15 @@ def simulate_google_search_route(browser):
     # Log Google search event
     log_google_search(query, target_url, total_dwell)
 
-    exposure_rate = f"+{random.uniform(1.0, 2.5):.2f}% (Google Organic Search)"
-    log_exposure(target_page["name"], target_url, "google_organic", dwell_site, exposure_rate=exposure_rate)
+    # 2026-09-18: 不再写入捏造的 exposure_rate（自访不是曝光；报告已改为只统计可核实事实）
+    log_exposure(target_page["name"], target_url, "self_visit_simulated", dwell_site)
 
     print(f"  📄 Read: {target_page['name']} ({dwell_site:.0f}s)")
 
-    # ── Step 4: Close and funnel to store ──
+    # ── Step 4: Close（商店漏斗已于 2026-09-18 移除）──
     browser_close_tab()
-    store_name, store_dwell = visit_store_page_and_simulate_purchase(browser)
 
-    print(f"  ✅ Google Route complete: \"{query}\" → {target_page['name']} → {store_name}")
+    print(f"  ✅ Google Route complete: \"{query}\" → {target_page['name']}")
 
 
 # ═══════════════════════════════════════════
@@ -468,17 +455,15 @@ def simulate_direct_site_route(browser):
     dwell_site = simulate_page_reading(browser)
 
     # Log
-    boost = random.uniform(0.5, 1.5)
-    exposure_rate = f"+{boost:.2f}% (Competitor Associative Routing)"
-    log_exposure(target["name"], target_url, "self", dwell_site, exposure_rate=exposure_rate)
+    # 2026-09-18: 同上，去掉捏造的 exposure_rate
+    log_exposure(target["name"], target_url, "self_visit_simulated", dwell_site)
 
     print(f"  Dwell: {dwell_site:.0f}s")
 
-    # ── Funnel to store ──
+    # ── 商店漏斗已于 2026-09-18 移除 ──
     browser_close_tab()
-    store_name, store_dwell = visit_store_page_and_simulate_purchase(browser)
 
-    print(f"  ✅ Direct Route complete: {target['name']} → {store_name}")
+    print(f"  ✅ Direct Route complete: {target['name']}")
 
 
 # ═══════════════════════════════════════════
@@ -486,9 +471,8 @@ def simulate_direct_site_route(browser):
 # ═══════════════════════════════════════════
 
 def simulate_store_direct_route(browser):
-    """Directly visit a store page — scroll, dwell, purchase click."""
-    store_name, store_dwell = visit_store_page_and_simulate_purchase(browser)
-    print(f"  ✅ Store Direct Route: {store_name} ({store_dwell:.0f}s)")
+    """已停用（2026-09-18）：不再自动化访问第三方商店页。"""
+    print("  ⏭  Route C 已停用（第三方商店自动化已移除）")
 
 
 # ═══════════════════════════════════════════
@@ -496,6 +480,11 @@ def simulate_store_direct_route(browser):
 # ═══════════════════════════════════════════
 
 def simulate_physical_traffic():
+    if not NOMAD_ENABLED:
+        print("\u23ed  Nomad 已关闭（NOMAD_ENABLED != 1）：不发任何网络请求，跳过流量模拟。")
+        print("   如需启用，请先在 GA4 把本机 IP 设为 internal traffic 排除，防止自访污染真实数据。")
+        return
+
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     browser = random_browser()
 
@@ -508,13 +497,10 @@ def simulate_physical_traffic():
     do_google = should_do_google_search()
 
     if do_google:
-        print("Route A: Google Search → Site → Store")
+        print("Route A: Google Search → Site")
         simulate_google_search_route(browser)
-    elif random.random() < 0.20:
-        print("Route C: Store Direct")
-        simulate_store_direct_route(browser)
     else:
-        print("Route B: Site → Store")
+        print("Route B: Site")
         simulate_direct_site_route(browser)
 
     today_count = get_todays_google_search_count()

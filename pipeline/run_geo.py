@@ -6,7 +6,7 @@ Phases:
   2. Build site (generate all pages + sitemap + robots)
   3. Git commit & push to GitHub Pages
   3b. IndexNow ping (Google + Bing) to trigger crawl
-  4. Optional: Nomad traffic visit (safe: Amazon/Apple direct only)
+  4. Optional: Nomad traffic visit (2026-09-18 起默认关闭; 启用需 NOMAD_ENABLED=1, 且不含任何第三方商店自动化)
   
 Usage:
   python3 pipeline/run_geo.py                  # Full deploy
@@ -269,10 +269,24 @@ def phase_indexnow():
 
 
 def phase_nomad():
-    """Nomad traffic: 每天部署后必跑(原 20% 概率已按 2026-09-09 决策改为必跑;
-    google 搜索点击保底在 nomad_gui_agent.should_do_google_search 内保证 ≥1/天)。"""
+    """Nomad 流量模拟 — 2026-09-18 起默认关闭（P0-2）
+
+    关闭理由：
+      1. 自访 + 自点 Google 搜索结果属操纵信号，对排名非正向；对 Amazon/Apple
+         的自动化点击另有明确条款风险（已物理删除）。
+      2. 自访会被写进 ~/.wasteland_geo_log.jsonl，使"曝光"报告失真——历史周报/
+         月报统计的正是这些自访。
+    本阶段保留为显式可选项：只有 NOMAD_ENABLED=1 才执行，且永远不会再碰第三方页面。
+    """
     print("\n=== Phase 4: Nomad Traffic ===")
-    result = subprocess.run([sys.executable, NOMAD_SCRIPT], capture_output=True, text=True, env=_ENV)
+    if os.environ.get("NOMAD_ENABLED", "0") != "1":
+        print("  ⏭  跳过：NOMAD_ENABLED != 1（默认关闭，详见 phase_nomad docstring）")
+        return
+    # 2026-09-18: 显式透传 NOMAD_ENABLED，不用模块导入时的 _ENV 快照，
+    # 避免"父进程判为启用、子进程却看不到该变量"的两层不一致。
+    child_env = dict(_ENV)
+    child_env["NOMAD_ENABLED"] = os.environ.get("NOMAD_ENABLED", "0")
+    result = subprocess.run([sys.executable, NOMAD_SCRIPT], capture_output=True, text=True, env=child_env)
     print(result.stdout.strip())
     if result.returncode != 0:
         print(f"  Nomad error: {result.stderr}")

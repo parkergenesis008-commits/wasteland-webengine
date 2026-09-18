@@ -56,4 +56,4 @@ The focusing theorem says that gravity makes a congruence of light rays or freel
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-14 08:11 UTC -->
+<!-- Last fresh: 2026-09-18 19:37 UTC -->

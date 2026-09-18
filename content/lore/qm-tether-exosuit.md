@@ -77,4 +77,4 @@ Real physics first: quantum theory and gravity are still written in incompatible
 <p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wdyspe/i_know_its_fiction_but_how_much_of_egans_kozuch/" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-13 08:33 UTC -->
+<!-- Last fresh: 2026-09-18 19:37 UTC -->

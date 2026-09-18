@@ -41,4 +41,4 @@ Light carries momentum, so an intense beam does press on whatever absorbs or ref
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876096/if-light-can-bounce-around-inside-an-optical-fiber-can-a-high-intensity-light-c" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-18 08:46 UTC -->
+<!-- Last fresh: 2026-09-18 19:38 UTC -->

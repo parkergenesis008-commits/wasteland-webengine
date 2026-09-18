@@ -54,4 +54,4 @@ Spacecraft avoid debris mainly by prediction rather than by seeing an object and
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70705/how-do-new-spacecraft-navigate-around-debris-in-space" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-18 08:46 UTC -->
+<!-- Last fresh: 2026-09-18 19:38 UTC -->

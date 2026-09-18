@@ -234,27 +234,65 @@ def extract_title_from_md(md):
             return s.lstrip('# ').strip()
     return "Untitled"
 
+# ── glossary 单趟替换的编译缓存（2026-09-18）──
+_GLOSSARY_PAT = None
+_GLOSSARY_FORMS = None
+
+
 def inject_glossary_tooltips(text):
-    """Replace glossary terms with hover-tooltip spans."""
-    # Sort by length descending so longer matches (like 'quantum-geometry') win over shorter ('quantum')
+    """Replace glossary terms with hover-tooltip spans.
+
+    2026-09-18 修复（原实现的两个真实缺陷）:
+      1. 原实现对**整段 HTML** 做 re.sub，逐词循环时会把后续术语注入到刚生成的
+         data-tip="..." 属性值内部 —— 因为 GLOSSARY 的释义文本里本身就含其它术语词
+         （如 polariton 的释义里有 "exciton"）。结果产出
+         `data-tip="...<span class="glossary-term" ...>` 这种畸形嵌套：属性被内层引号
+         提前截断，HTML 非法。
+      2. 由此构建**非幂等**：每次部署 13 个页面的这些行都要重写一遍（+/- 数相同），
+         页面内容在两种形态之间来回震荡。
+    现改为只在"标签之外的文本节点"里替换，并跳过已处于 glossary span 内的文本，
+    保证输出合法且重复构建结果稳定。
+    """
     sorted_terms = sorted(GLOSSARY.keys(), key=len, reverse=True)
-    def replacer(m):
-        term = m.group(0).lower().replace(' ', '-').replace("'", "").replace(",", "").replace(".", "")
-        # Check all glossary keys
+    if not sorted_terms or not text:
+        return text
+
+    # 单趟替换：所有术语合成一条 alternation（长词优先），一次 re.sub 完成。
+    # 关键点：绝不能在循环里对"已插入的标记"再跑正则——否则后一个术语会落进
+    # 前一个术语 data-tip 的属性值里，产生畸形嵌套（本文件 2026-09-18 的根因）。
+    global _GLOSSARY_PAT, _GLOSSARY_FORMS
+    if _GLOSSARY_PAT is None:
+        forms = {}
         for key in sorted_terms:
-            if key in term or term in key:
-                return f'<span class="glossary-term" data-tip="{GLOSSARY[key]}">{m.group(0)}</span>'
-        return m.group(0)
-    # Match standalone words (word boundaries)
-    for key in sorted_terms:
-        # Build pattern matching the key in multiple forms: exact, capitalized, dash-form
-        display_forms = [key, key.replace('-', ' '), key.capitalize(), key.title()]
-        for form in set(display_forms):
-            if not form:
-                continue
-            escaped = re.escape(form)
-            text = re.sub(r'\b' + escaped + r'\b', lambda m, k=key: f'<span class="glossary-term" data-tip="{GLOSSARY[k]}">{m.group(0)}</span>', text)
-    return text
+            for form in {key, key.replace('-', ' '), key.capitalize(), key.title()}:
+                if form:
+                    forms.setdefault(form, key)
+        ordered = sorted(forms, key=len, reverse=True)
+        _GLOSSARY_PAT = re.compile(r'\b(?:' + '|'.join(re.escape(f) for f in ordered) + r')\b')
+        _GLOSSARY_FORMS = forms
+
+    def wrap_segment(seg):
+        return _GLOSSARY_PAT.sub(
+            lambda m: (
+                f'<span class="glossary-term" data-tip="{GLOSSARY[_GLOSSARY_FORMS[m.group(0)]]}">'
+                f'{m.group(0)}</span>'
+            ),
+            seg,
+        )
+
+    # 按标签切分：tag 原样透传，只有标签外的文本参与替换。
+    parts = re.split(r'(<[^>]*>)', text)
+    out, depth = [], 0
+    for part in parts:
+        if part.startswith('<') and part.endswith('>'):
+            if 'class="glossary-term"' in part:
+                depth += 1
+            elif part.startswith('</span>') and depth > 0:
+                depth -= 1
+            out.append(part)
+        else:
+            out.append(part if depth > 0 else wrap_segment(part))
+    return ''.join(out)
 
 def md_to_html(md, slug):
     """Robust MD → HTML conversion for lore body content with glossary tooltips."""

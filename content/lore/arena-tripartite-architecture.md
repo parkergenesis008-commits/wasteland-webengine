@@ -45,4 +45,4 @@ A persistent ring of *gas* in orbit is a different object from an atmosphere: or
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70685/is-it-possible-for-an-atmosphere-to-orbit-a-planetary-body" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-11 10:00 UTC -->
+<!-- Last fresh: 2026-09-18 19:36 UTC -->
