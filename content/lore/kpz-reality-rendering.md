@@ -39,4 +39,4 @@ A finite-time blowup would mean a smooth initial velocity field evolving into a 
 <p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-17 08:47 UTC -->
+<!-- Last fresh: 2026-09-18 15:10 UTC -->
