@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-18",
+ "entries": [
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "How do new spacecraft navigate around debris in space",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70705/how-do-new-spacecraft-navigate-around-debris-in-space",
+   "heat": "stackexchange/space 2026-09-17 new thread, 3 points 1 comment, the newest space question of the day",
+   "answer_md": "Spacecraft avoid debris mainly by prediction rather than by seeing an object and swerving: ground radar and optical telescopes maintain a catalogue of objects above a few centimetres, conjunctions are computed days in advance, and vehicles are steered by changing when they arrive rather than by reactive dodging. Returned signal strength depends strongly on target size and material, so the catalogue is biased toward large metal objects with simple shapes, which means the small untrackable fraction is handled by shielding and by choosing where the vehicle flies. **Avoidance is therefore mostly a prediction problem, not a detection problem.** The setting layer is fiction: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines a sensor that is not limited by the usual wavelength and size constraints, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.",
+   "links": [
+    "electromagnetic-theater-override"
+   ]
+  },
+  {
+   "slug": "obstructed-atomic-phantom-grid",
+   "question": "If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876096/if-light-can-bounce-around-inside-an-optical-fiber-can-a-high-intensity-light-c",
+   "heat": "stackexchange/physics 2026-09-17 new thread, 1 point 1 comment",
+   "answer_md": "Light carries momentum, so an intense beam does press on whatever absorbs or reflects it, and inside a medium an intense beam also changes the local refractive index, which is why self-focusing and filamentation are real laboratory effects rather than fiction. What the fibre does is different in kind: confinement there comes from total internal reflection at the step between core and cladding, not from light pushing on light, so it is not a precedent for a beam blocking a beam. Two beams crossing in vacuum essentially pass through each other, because photon-photon scattering needs energies far beyond anything a laser reaches. **A beam can push or bend another beam, but it cannot become an opaque wall.** The setting layer is fiction: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> treats displaced atomic sites as a barrier that blocks without mass, and the field-shaping version of the same premise is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.",
+   "links": [
+    "electromagnetic-theater-override"
+   ]
+  }
+ ]
+}

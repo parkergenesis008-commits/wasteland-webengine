@@ -96,5 +96,19 @@
     "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
     "pruned": 0,
     "src": "qa_2026-09-17.json"
+  },
+  "dba214ee7f": {
+    "slug": "type2-superlattice-radar",
+    "ts": "2026-09-18T08:46:03.113305",
+    "question": "How do new spacecraft navigate around debris in space",
+    "pruned": 0,
+    "src": "qa_2026-09-18.json"
+  },
+  "3fb1327682": {
+    "slug": "obstructed-atomic-phantom-grid",
+    "ts": "2026-09-18T08:46:03.114113",
+    "question": "If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world",
+    "pruned": 0,
+    "src": "qa_2026-09-18.json"
   }
 }

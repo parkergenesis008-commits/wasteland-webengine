@@ -1,0 +1,43 @@
+{
+  "slug": "type2-superlattice-radar",
+  "question": "How do new spacecraft navigate around debris in space",
+  "rank": 1,
+  "source": "source: stackexchange/space, 2026-09-17 新帖, 3 分 1 评论 (space 板块当日最新",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(spacecraft,navigate,around) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-18",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
+      "rank": 3
+    }
+  ]
+}
