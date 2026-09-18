@@ -4,7 +4,7 @@ Wasteland GEO Site Builder — v2
 Multi-page site generator with rich structured data.
 Converts 11 lore MD files into standalone HTML pages + sitemap + robots.txt.
 """
-import json, os, re, hashlib
+import json, os, re, hashlib, subprocess
 from datetime import datetime
 
 BASE_DIR = os.path.expanduser("~/webengine")
@@ -1133,16 +1133,43 @@ def build_index_page(all_slugs):
 </html>'''
     return html.strip()
 
+def git_lastmod(rel_path):
+    """该文件"内容最后一次真正变化"的日期（YYYY-MM-DD），用于 sitemap <lastmod>。
+
+    2026-09-18: 原 sitemap 完全没有 <lastmod>，爬虫拿不到任何新鲜度信号；
+    而每日重复推送同一批 URL 也无法表达"哪页变了"。
+    这里取 git 的最后一个触及该文件的提交日期；若文件当前有未提交改动（=本轮正要发布的变更），
+    则记今天。注意：<lastmod> 只有在"确实准确"时才被 Google 采信，所以绝不无脑写今天。
+    """
+    try:
+        dirty = subprocess.run(["git", "status", "--porcelain", "--", rel_path],
+                               cwd=BASE_DIR, capture_output=True, text=True, timeout=15)
+        if dirty.stdout.strip():
+            return datetime.now().strftime("%Y-%m-%d")
+        out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel_path],
+                             cwd=BASE_DIR, capture_output=True, text=True, timeout=15)
+        d = out.stdout.strip()
+        return d if re.match(r"^\d{4}-\d{2}-\d{2}$", d or "") else None
+    except Exception:
+        return None
+
+
+def _url_entry(loc, changefreq, priority, rel_path):
+    lastmod = git_lastmod(rel_path)
+    lm = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
+    return (f"  <url><loc>{loc}</loc>{lm}"
+            f"<changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>")
+
+
 def build_sitemap(all_slugs):
-    """Generate sitemap.xml covering all pages."""
+    """Generate sitemap.xml covering all pages（含准确 lastmod）。"""
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    # Main page
-    lines.append(f'''  <url><loc>{SITE_URL}/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>''')
-    # Book sales landing page [P0 2026-09-02]
-    lines.append(f'''  <url><loc>{SITE_URL}/book.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>''')
+    lines.append(_url_entry(f"{SITE_URL}/", "weekly", "1.0", "index.html"))
+    lines.append(_url_entry(f"{SITE_URL}/book.html", "weekly", "0.9", "book.html"))
     for slug in all_slugs:
-        lines.append(f'''  <url><loc>{SITE_URL}/pages/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>''')
+        lines.append(_url_entry(f"{SITE_URL}/pages/{slug}.html", "monthly", "0.8",
+                                f"pages/{slug}.html"))
     lines.append('</urlset>')
     return '\n'.join(lines)
 

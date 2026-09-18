@@ -207,6 +207,91 @@ def phase_build():
     return True
 
 
+# ═══════════════════════════════════════════
+#  内容驱动部署（2026-09-18）
+# ═══════════════════════════════════════════
+#  背景：过去每天把同一批 14 个 URL 重复 commit+push+IndexNow，页面内容其实没变，
+#  只是被刷新了 "Last fresh" 时间戳。既污染 git 历史，也让 IndexNow 推送失去意义
+#  （无法表达"哪一页真的变了"）。现改为：本轮无实质内容变更 → 不部署、不推送。
+_FRESH_RE = re.compile(r"<!--\s*Last fresh:.*?-->")
+
+
+def _git(*args):
+    return subprocess.run([_GIT_CMD, *args], cwd=BASE_DIR,
+                          capture_output=True, text=True, env=_ENV)
+
+
+def changed_files():
+    """工作树中被改动的文件 [(status, path)]（排除 __pycache__）。"""
+    out = _git("status", "--porcelain")
+    items = []
+    for line in out.stdout.splitlines():
+        if len(line) < 4:
+            continue
+        status, path = line[:2].strip(), line[3:].strip()
+        if "__pycache__" in path or path.endswith(".pyc"):
+            continue
+        items.append((status, path))
+    return items
+
+
+def _mask_freshness(text):
+    return _FRESH_RE.sub("", text)
+
+
+def is_freshness_only(path):
+    """该文件相对 HEAD 只有 "Last fresh" 戳变化 → True（不算实质变更）。
+
+    删除文件 / 新增文件 / 其它任何改动都算实质变更。
+    """
+    full = os.path.join(BASE_DIR, path)
+    if not os.path.exists(full):
+        return False
+    head = _git("show", f"HEAD:{path}")
+    if head.returncode != 0:
+        return False
+    try:
+        current = open(full, encoding="utf-8", errors="replace").read()
+    except Exception:
+        return False
+    return _mask_freshness(head.stdout) == _mask_freshness(current)
+
+
+def substantive_changes():
+    """返回 (全部改动, 实质改动)。"""
+    ch = changed_files()
+    return ch, [(s, p) for s, p in ch if not is_freshness_only(p)]
+
+
+def changed_urls(subs):
+    """把实质性改动的文件映射为站点 URL —— 只推送这些。
+
+    新页面/站点结构变化会让 sitemap.xml 变化，此时把 sitemap 自身也推给引擎
+    （IndexNow 接受 sitemap URL，等于告诉它"地图更新了"）。
+    """
+    urls = []
+    for _, path in subs:
+        if path == "index.html":
+            urls.append(f"https://{SITE_HOST}{SITE_PATH}/")
+        elif path == "book.html":
+            urls.append(f"https://{SITE_HOST}{SITE_PATH}/book.html")
+        elif path.startswith("pages/") and path.endswith(".html"):
+            urls.append(f"https://{SITE_HOST}{SITE_PATH}/{path}")
+        elif path == "sitemap.xml":
+            urls.append(f"https://{SITE_HOST}{SITE_PATH}/sitemap.xml")
+    return sorted(set(urls))
+
+
+def log_deploy_skipped(n_freshness):
+    with open(LOG_FILE, "a") as f:
+        f.write(json.dumps({
+            "type": "deploy_skipped",
+            "reason": "no_substantive_change",
+            "timestamp": datetime.datetime.now().isoformat(),
+            "freshness_only_files": n_freshness,
+        }) + "\n")
+
+
 def phase_deploy():
     """Git commit and push."""
     print("\n=== Phase 3: Git Deploy ===")
@@ -226,18 +311,29 @@ def phase_deploy():
         return False
 
 
-def phase_indexnow():
+def phase_indexnow(urls=None):
     """IndexNow 推送(2026-09-09 真实现:Bing/索引方即时爬取;无鉴权,POST urlList)。
+
+    2026-09-18: 支持只推"本轮真正变更"的 URL —— 全量重复推送无法表达哪页变了。
+      - urls=None  → 回退为 sitemap 全量（仅手动/调试用）
+      - urls=[]    → 本轮变更不涉及页面，直接跳过（不再误推全量）
+      - urls=[...] → 只推这些
+
     key 文件部署于 https://<host>/wasteland-webengine/indexnow-<KEY>.txt,
     用 keyLocation 指向该文件(GitHub Pages 项目页无法写 host 根)。"""
     print("\n=== Phase 3b: IndexNow Notify ===")
-    urls = []
-    smap = os.path.join(BASE_DIR, "sitemap.xml")
-    try:
-        txt = open(smap, encoding="utf-8").read()
-        urls = re.findall(r"<loc>(.*?)</loc>", txt)
-    except Exception as e:
-        print(f"  sitemap read fail: {e}")
+    if urls is None:
+        smap = os.path.join(BASE_DIR, "sitemap.xml")
+        try:
+            txt = open(smap, encoding="utf-8").read()
+            urls = re.findall(r"<loc>(.*?)</loc>", txt)
+        except Exception as e:
+            print(f"  sitemap read fail: {e}")
+    elif not urls:
+        print("  本轮变更不涉及页面 URL（如仅脚本/文档）→ 跳过 IndexNow 推送")
+        return
+    else:
+        print(f"  仅推送本轮变更的 {len(urls)} 个 URL")
     if not urls:
         urls = [f"https://{SITE_HOST}{SITE_PATH}/", f"https://{SITE_HOST}{SITE_PATH}/book.html"]
     payload = {
@@ -326,10 +422,27 @@ def main():
     phase_freshen_content(prefer_slugs=qa_slugs)
     if not phase_build():
         sys.exit(1)
+
+    # ── 内容驱动闸门（2026-09-18）─────────────────────────────
+    all_ch, subs = substantive_changes()
+    if not subs:
+        fresh = [p for _, p in all_ch]
+        print("\n=== Phase 3: Git Deploy ===")
+        print(f"  ⏭  跳过部署：本轮无实质内容变更（{len(fresh)} 个文件只是新鲜度戳变化）")
+        if fresh:
+            _git("checkout", "--", *fresh)
+            shown = ", ".join(fresh[:4]) + (" …" if len(fresh) > 4 else "")
+            print(f"     已回滚新鲜度戳改动，工作树保持干净：{shown}")
+        log_deploy_skipped(len(fresh))
+        print("\n✅ GEO Pipeline complete（无变更，未部署）。")
+        return
+    print(f"\n  实质变更 {len(subs)} 个文件：" +
+          ", ".join(p for _, p in subs[:6]) + (" …" if len(subs) > 6 else ""))
+
     if not phase_deploy():
         sys.exit(1)
-    
-    phase_indexnow()
+
+    phase_indexnow(urls=changed_urls(subs))
     
     # Small delay before nomad
     time.sleep(random.uniform(5, 30))
