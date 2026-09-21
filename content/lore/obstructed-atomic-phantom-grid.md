@@ -41,4 +41,15 @@ Light carries momentum, so an intense beam does press on whatever absorbs or ref
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876096/if-light-can-bounce-around-inside-an-optical-fiber-can-a-high-intensity-light-c" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-18 19:38 UTC -->
+<!-- GEO-QA-START id=e815afa1ba -->
+## Extended Q&A — Reader Question
+
+**Q: Experimental evidence of QM atomic orbitals shape**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-20, 2 points, 1 comment (newest physics question in the pool)</em></p>
+
+Atomic orbitals are solutions of a model Hamiltonian rather than photographs, and the shapes in textbooks are drawn from those same basis-dependent objects. What experiments deliver is one step downstream: momentum distributions from photoionization and photoelectron spectroscopy, charge density from diffraction and scanning tunnelling microscopy, and in the cleanest single-electron case the nodal structure of hydrogen in a dc electric field, resolved directly by photoionization microscopy (Stodolna et al., Physical Review Letters 110, 213001, 2013). The deeper point is that individual orbitals are not unique, because a unitary rotation of the occupied manifold leaves every observable unchanged, and that is why obstruction arguments are stated in terms of Wannier centres instead of orbital pictures. Obstructed atomic limits are established condensed-matter theory; the phantom grid weapon built on top of them is this project's speculative setting layer, not a claim about hardware.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-21 16:32 UTC -->

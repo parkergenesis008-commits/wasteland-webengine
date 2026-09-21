@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-19",
+ "entries": [
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876143/magnetization-v-s-polarization-why-are-they-weirdly-dissimilar",
+   "heat": "stackexchange/physics 2026-09-18 new thread, 2 points 1 comment, the newest E&M question in today's pool",
+   "answer_md": "Electric and magnetic responses look asymmetric because the sources are not symmetric. Isolated electric charge exists and can be separated, which is what polarisation is built from, while magnetic poles do not exist, so magnetisation has to be described as circulating bound current instead. That is also why each field is split into two versions, with the displacement field and the H field tracking only the free charge and free current you control while the polarisation and magnetisation fields carry the material response. **Polarisation is sourced by separated charge, and magnetisation is sourced by circulating current.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> treats field shaping as something that can be driven directly rather than inherited from material response, and <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a> puts that response into a lattice of displaceable sites.",
+   "links": [
+    "obstructed-atomic-phantom-grid"
+   ]
+  },
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "question": "Why is GPS confirmation of Special Relativity?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity",
+   "heat": "stackexchange/physics 2026-09-14, 15 points 5 comments, second highest physics score in today's candidate pool",
+   "answer_md": "GPS depends on two clock effects that pull in opposite directions, and the popular framing names only one of them. Because a satellite moves fast relative to the ground, the 1905 speed term would make its clock run slow, while the fact that it also sits higher in Earth's gravitational potential produces a blueshift term that makes the clock run fast. That second term is the larger of the two, so the net effect is a daily gain that the satellites are launched pre-offset to cancel. **That makes GPS a working operational check on the clock terms of general relativity rather than a clean single test of special relativity on its own.** The setting layer is fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass nullification setting</a> treats a relativistic dispersion relation as a tunable material property, and <a href='floquet-temporal-matter.html'>the Floquet temporal matter setting</a> pushes the same premise into a periodically driven lattice where time itself is the control knob.",
+   "links": [
+    "floquet-temporal-matter"
+   ]
+  }
+ ]
+}

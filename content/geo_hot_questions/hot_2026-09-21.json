@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-21",
+  "pool": {
+    "stackexchange": 64,
+    "reddit_rss": 26,
+    "hackernews": 12,
+    "total": 78,
+    "questions": 61
+  },
+  "source_errors": [
+    "reddit/r/scifi: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/suggestmeabook: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "external_platforms": {
+    "x": "无当日(2026-09-21)可核验热题。检索到的最近存档为 techtwitter 2026-09-08 至 09-12 快照: OpenAI Navier-Stokes 千禧年奖声明及后续 (09-08)、Altman 对室温超导玩笑的回复 'you know what, let's try' (09-08, 13,700+ 赞)、Fields 奖得主联名警告 AI 公司 (09-11)、Beff Jezos 物理 fooming 争议 (09-01)。均非当日。",
+    "tiktok": "未获得可核验的当日热题。检索仅返回创作者方法论页 (ScienceTok idea lists) 与一条 r/explainlikeimfive 转载 (空间为何有温度), 无发布日期可核验。"
+  },
+  "entries": [
+    {
+      "question": "Are astronauts permanently tethered during an EVA?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70714/are-astronauts-permanently-tethered-during-an-eva",
+      "heat": "space.SE new thread 2026-09-19, 6 points, 1 comment (newest space question in today's pool)",
+      "why": "The popular picture of a spacewalk is one permanent rope. The real procedure is a sequence of re-anchoring moves, and the free-flight alternative is a jetpack worn as a backup.",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "Separate three things: the safety tether clipped to handrails and D-rings, the hand-over-hand translation practice that keeps at least one attachment, and SAFER, the cold-gas self-rescue jetpack worn on spacewalks. Last untethered free flights used the MMU in 1984. Setting layer: the metric-readout tether of the QM-Tether exosuit is fiction.",
+      "use": "Held for a later qa injection. content/lore/qm-tether-exosuit.md already holds 6 QA blocks against a keep-3 cap, so injecting today would prune four."
+    },
+    {
+      "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star",
+      "heat": "worldbuilding.SE 2026-09-18, 5 points, 3 comments",
+      "why": "Locking is a timescale, not a rule. The estimate scales roughly as the sixth power of orbital separation and with tidal dissipation, so the setting has real knobs.",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "Tidal torque estimate, a^6 scaling, dissipation. Mercury sits in a 3:2 spin-orbit resonance rather than 1:1; thermal tides are one mechanism invoked for the slow retrograde spin of Venus; the final state is a competition between torque, resonance capture and atmospheric driving.",
+      "use": "qa injection. content/lore/cooperative-resonance-torsion.md currently holds 0 QA blocks, so this gives the page its first FAQ structure."
+    },
+    {
+      "question": "Experimental evidence of QM atomic orbitals shape",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape",
+      "heat": "physics.SE 2026-09-20, 2 points, 1 comment (newest physics question in today's pool)",
+      "why": "Evergreen long tail: readers ask whether orbitals have been photographed. The honest answer separates the basis-dependent orbital picture from the observables actually measured.",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "Photoionization microscopy on hydrogen in a dc field resolves nodal structure (Stodolna et al., PRL 110, 213001, 2013); measured objects are momentum and density distributions; orbitals are basis-dependent, which is why obstruction arguments are stated in Wannier centres.",
+      "use": "qa injection. content/lore/obstructed-atomic-phantom-grid.md holds 2 QA blocks, so a third fits under the keep-3 cap with no pruning. Strong SEO long tail."
+    },
+    {
+      "question": "Using magnetoreception as a very long-distance sense?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-dista",
+      "heat": "worldbuilding.SE 2026-09-20, newest thread in the board",
+      "why": "Magnetoreception is real and still contested, and the useful correction is that range is not the limit: static fields pass through tissue and hulls, resolution is the limit.",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "Radical-pair chemistry in cryptochrome plus magnetite-based candidates; the geomagnetic field is tens of microtesla and is not attenuated with distance the way light or sound is, so the constraint is sensitivity to field gradients and map resolution.",
+      "use": "Science-explainer long tail. Pairs with the perception page, which already holds 4 QA blocks."
+    },
+    {
+      "question": "Are there stable orbits of point masses around a massive cylindrical object?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-mas",
+      "heat": "space.SE 2026-09-09, 8 points, 1 comment (highest-scoring space question in today's pool)",
+      "why": "A non-Keplerian potential with a genuinely interesting answer: the exterior field of an infinite line mass falls as 1/r, so circular speed depends only on mass per unit length.",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "Exterior field goes as 1/r, giving a flat rotation curve; for the logarithmic potential the radial epicyclic frequency vanishes, so radial perturbations get no restoring force; motion along the axis is unbound for an infinite cylinder; a spinning cylinder adds frame dragging in the Lense-Thirring sense and finite length breaks the idealisation.",
+      "use": "Hard-SF search long tail. Second touch on the torsion page."
+    },
+    {
+      "question": "Did Earth's rotational slowing down contribute to its 23.5 deg axial tilt?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70708/did-earths-rotational-slowing-down-contribute-to-its",
+      "heat": "space.SE 2026-09-17, new thread posted inside the current 48h window",
+      "why": "Obliquity is routinely confused with spin rate. The tilt comes from formation history and is maintained by the Moon, while tidal braking removes spin, not tilt.",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "Giant impacts and late accretion set the initial obliquity; the Moon stabilises it; tidal friction transfers Earth spin into the lunar orbit, lengthening the day; Sun-Earth-Moon is a three-body angular momentum exchange problem.",
+      "use": "Science-explainer long tail. Gives the tripartite page a gravitational three-body angle."
+    },
+    {
+      "question": "Neuromorphic computing and Northpole chip",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876200/neuromorphic-computing-and-northpole-chip",
+      "heat": "physics.SE 2026-09-20, new thread in the current window",
+      "why": "AI-hardware question landing in a physics queue. The durable physics point is that compute-in-memory and spiking circuits buy energy with precision and device variability.",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "Real layer: analog crossbars and spiking circuits, energy per operation against precision, plus device variability and drift as the engineering constraints. No specs of the named chip were verified in this run, so the answer must stay generic. The lattice computation on the page is the setting layer.",
+      "use": "AI and futures reader track. Answer only after checking what the named chip is, or keep it generic."
+    },
+    {
+      "question": "What hard experimental evidence exists to prove classical electromagnetic gauge invariance?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876192/what-hard-experimental-evidence-exists-to-prove-c",
+      "heat": "physics.SE 2026-09-20, 0 points, 3 comments",
+      "why": "A clean conceptual trap: gauge invariance is a redundancy of the description, not a measurable effect, so the evidence is the total absence of an observable difference.",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "Potentials are not observables and E and B are unchanged by a gauge transformation; the sharpest quantum test comes from the Aharonov-Bohm phase; the field-collision mechanism on the lore page is fiction.",
+      "use": "Search long tail. The page already holds 4 QA blocks, so it is a queue item rather than a today injection."
+    },
+    {
+      "question": "Why would a living organism larger than earth need to biologically create cement?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-ear",
+      "heat": "worldbuilding.SE 2026-09-09, 6 points, 4 comments",
+      "why": "Planet-scale structure is a growth-front problem: transport limits, waste heat and surface-area scaling are all real constraints that a writer can use instead of hand-waving.",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "Biological calcification needs ion transport and energy; at planetary scale diffusion times and waste-heat removal dominate, and the growth interface behaves as a stochastic front with KPZ-type scaling; the procedural rendering engine is the setting layer.",
+      "use": "Worldbuilding track. The KPZ page holds 2 blocks and is a candidate for the next injection."
+    },
+    {
+      "question": "Why Six Millennium Problems May Be Hard for the Same Reason",
+      "source": "hackernews",
+      "source_url": "https://news.ycombinator.com/item?id=49724391",
+      "heat": "HN 2026-09-16, 1 point, 1 comment",
+      "why": "Barrier-style argument that hardness is one phenomenon rather than six. Sits directly on the AI and mathematics cluster this project has tracked since early September.",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "Real layer: relativisation and derandomisation barriers plus circuit lower bounds, with the honest caveat that one shared barrier is a conjecture and not a theorem. Do not extend this to any claim about the September 2026 Navier-Stokes announcement beyond what the announcing lab published.",
+      "use": "AI and frontier-physics cluster. Pairs with the neuromorphic item."
+    },
+    {
+      "question": "I so desperately want something similar to the expanse",
+      "source": "reddit/r/printSF",
+      "source_url": "https://www.reddit.com/r/printSF/comments/1wlpvr8/i_so_desperately_want_something_similar_to_the/",
+      "heat": "r/printSF 2026-09-20 new thread. Reddit RSS returns no vote counts, so heat is not verifiable",
+      "why": "Purchase intent at its strongest: a reader finishing a series and asking for the same texture, which is a recommendation the book pages can answer directly.",
+      "map_to": "book",
+      "answer_angle": "Name the real sub-genre markers: systems-thinking hard SF, multi-POV political scale, near-future solar-system settings.",
+      "use": "Book track. Points at book.html and the 14-platform distribution."
+    },
+    {
+      "question": "If you could start your reading journey over...",
+      "source": "reddit/r/booksuggestions",
+      "source_url": "https://www.reddit.com/r/booksuggestions/comments/1wl0ong/if_you_could_start_your_reading_journey_ov/",
+      "heat": "r/booksuggestions 2026-09-19 new thread. Reddit RSS returns no vote counts, so heat is not verifiable",
+      "why": "An entry-point request where the reply is a curated ladder from short fiction to novels, which is exactly where a first-contact hard-SF reader converts.",
+      "map_to": "book",
+      "answer_angle": "Offer a short ladder: short-story collections first, then one novel-length hard-SF entry point, with the book page as the destination.",
+      "use": "Book track. Pairs with the r/printSF item."
+    }
+  ]
+}

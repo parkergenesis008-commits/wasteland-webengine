@@ -110,5 +110,33 @@
     "question": "If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world",
     "pruned": 0,
     "src": "qa_2026-09-18.json"
+  },
+  "34bfb5959a": {
+    "slug": "cooperative-resonance-torsion",
+    "ts": "2026-09-21T16:32:22.527161",
+    "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
+    "pruned": 0,
+    "src": "qa_2026-09-21.json"
+  },
+  "3154f869e5": {
+    "slug": "electromagnetic-theater-override",
+    "ts": "2026-09-21T16:32:22.528078",
+    "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
+    "pruned": 0,
+    "src": "qa_2026-09-19.json"
+  },
+  "ee9aa3f603": {
+    "slug": "semi-dirac-mass-nullification",
+    "ts": "2026-09-21T16:32:22.528894",
+    "question": "Why is GPS confirmation of Special Relativity?",
+    "pruned": 0,
+    "src": "qa_2026-09-19.json"
+  },
+  "e815afa1ba": {
+    "slug": "obstructed-atomic-phantom-grid",
+    "ts": "2026-09-21T16:32:22.529510",
+    "question": "Experimental evidence of QM atomic orbitals shape",
+    "pruned": 0,
+    "src": "qa_2026-09-21.json"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-21",
+  "entries": [
+    {
+      "slug": "cooperative-resonance-torsion",
+      "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star",
+      "heat": "worldbuilding.SE 2026-09-18, 5 points, 3 comments",
+      "answer_md": "Tidal locking is a timescale rather than a rule, and the standard estimate scales roughly as the sixth power of the orbital separation and with how efficiently the body dissipates tidal energy, so moving the planet outward or making it less dissipative buys a great deal of time. Locking also does not have to finish at one rotation per orbit: Mercury sits in a 3:2 spin-orbit resonance, and eccentricity plus a permanent shape can capture a body into a higher-order resonance instead of synchronous rotation. A thick atmosphere can push the other way through thermal tides, one of the mechanisms invoked for the slow retrograde spin of Venus, so the honest answer is that the final rotation state is a competition between tidal torque, resonance capture and atmospheric driving. In this project's setting the same competition appears as cooperative resonance among coupled nodes under a torsion gradient, where the synchronous response is engineered instead of waited out; that layer is fiction, while the orbital mechanics above is not. The neighbouring idea of engineering the coupling rather than the orbit is developed on <a href=\"artificial-kondo-lattice.html\">the artificial Kondo lattice page</a>.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "question": "Experimental evidence of QM atomic orbitals shape",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape",
+      "heat": "physics.SE 2026-09-20, 2 points, 1 comment (newest physics question in the pool)",
+      "answer_md": "Atomic orbitals are solutions of a model Hamiltonian rather than photographs, and the shapes in textbooks are drawn from those same basis-dependent objects. What experiments deliver is one step downstream: momentum distributions from photoionization and photoelectron spectroscopy, charge density from diffraction and scanning tunnelling microscopy, and in the cleanest single-electron case the nodal structure of hydrogen in a dc electric field, resolved directly by photoionization microscopy (Stodolna et al., Physical Review Letters 110, 213001, 2013). The deeper point is that individual orbitals are not unique, because a unitary rotation of the occupied manifold leaves every observable unchanged, and that is why obstruction arguments are stated in terms of Wannier centres instead of orbital pictures. Obstructed atomic limits are established condensed-matter theory; the phantom grid weapon built on top of them is this project's speculative setting layer, not a claim about hardware.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

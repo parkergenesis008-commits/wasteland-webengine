@@ -1,0 +1,43 @@
+{
+  "slug": "cooperative-resonance-torsion",
+  "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
+  "rank": 1,
+  "source": "source: stackexchange/worldbuilding, 2026-09-18, 5 分 3 评论",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(avoid,having,planet) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-21",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 52,
+      "weight": 20,
+      "relevance": 32,
+      "rank": 2
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
+      "rank": 3
+    }
+  ]
+}

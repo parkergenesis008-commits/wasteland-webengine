@@ -1,0 +1,140 @@
+{
+ "date": "2026-09-19",
+ "pool": {
+  "stackexchange": 64,
+  "reddit_rss": 25,
+  "hackernews": 13,
+  "total": 81,
+  "questions": 50
+ },
+ "source_errors": [
+  "reddit/r/selfpublish: HTTPError 429",
+  "reddit/r/printSF: HTTPError 429"
+ ],
+ "external_platforms": {
+  "x": "搜到真实讨论但没有当日热题。9月上旬三个话题簇: Verdon (Beff Jezos) physics-fooming 争议 (2026-09-01); OpenAI Navier-Stokes 千禧年奖声明同日 Altman 'you know what, let's try' 室温超导梗 (2026-09-08, 单条 13,700+ 赞); FabinRasheed 'you never actually touch anything' 量子科普串 (2026-09-02)。均非 2026-09-19 当日。",
+  "tiktok": "未获得可核验的当日热题。仅搜到 StarTalk (@neildegrassetyson) 粉丝科学问答视频 (34.1K 赞, 无发布日期)。"
+ },
+ "entries": [
+  {
+   "question": "Why is GPS confirmation of Special Relativity?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity",
+   "heat": "stackexchange/physics 2026-09-14, 15 points 5 comments, second highest physics score in today's pool",
+   "why": "GPS is the one relativity result a lay reader can already picture, and the popular framing (special relativity) is wrong in an interesting way: the gravitational term dominates and the net is a gain, not a loss.",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "Separate the two clock terms. The 1905 speed term makes the satellite clock lose time; the gravitational blueshift of sitting higher in Earth's potential makes it gain more. The published offset is a design constant, so GPS is an operational check on the clock terms, not a clean single test of SR.",
+   "use": "qa-inject runner-up. Physics explainer paragraph for the relativity lore page; also a lead magnet for科普 audience."
+  },
+  {
+   "question": "Can the relativistic effects on Mercury's orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha",
+   "heat": "stackexchange/physics 2026-09-17 new thread, 9 points 3 comments, highest scoring question posted in the last 48h",
+   "why": "Freshest high-score question of the cycle. The honest answer is a real result: a velocity-dependent correction to the inverse-square law can be fitted to reproduce the observed perihelion advance, which is why the precession alone never proved general relativity.",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "Fitting an extra term and predicting an unmeasured effect are different claims. A modified force law with velocity dependence can be tuned to the precession number; what separated GR was its other predictions (light bending, gravitational redshift, Shapiro delay) coming out of the same one-parameter theory.",
+   "use": "Long-tail SEO. Answers the 'was Einstein even needed' family of queries; pairs with the GPS条目 to build a relativity cluster."
+  },
+  {
+   "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876143/magnetization-v-s-polarization-why-are-they-weirdly-dissimilar",
+   "heat": "stackexchange/physics 2026-09-18 new thread, 2 points 1 comment, the newest E&M question in the pool",
+   "why": "Clean conceptual asymmetry with a crisp cause: isolated electric charge exists, magnetic poles do not. No fabricated data needed and the answer maps straight onto the field-shaping lore page.",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "Polarization is sourced by separated charge; magnetization is sourced by circulating bound current. The D/H split exists so each field has a version that depends only on free sources. The asymmetry is a statement about sources, not about the fields.",
+   "use": "qa-inject primary. Fills the E&M slot on the field-control lore page, which has had no FAQ block for two cycles."
+  },
+  {
+   "question": "Can thermodynamics macrostates hide relevant quantum information?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876147/can-thermodynamics-macrostates-hide-relevant-quantum-information",
+   "heat": "stackexchange/physics 2026-09-18 new thread, 1 point 0 comments, newest question of the day",
+   "why": "Direct line into coarse-graining and information loss, which is exactly the fiction layer's premise, and the honest physics answer (entropy is counting, not erasure of a fact) is genuinely clarifying.",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "A macrostate is a coarse-grained description, so information is lost to the description, not from the system. Quantum correlations can survive coarse-graining as quantities that the macrostate does not track, which is why entanglement entropy and thermodynamic entropy are different counts.",
+   "use": "Lore-track long tail. Information and entropy queries feed the holography page; no injection this cycle."
+  },
+  {
+   "question": "Is maximizing quantum-speed-limit saturation a known clock-selection criterion in relational quantum mechanics?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876135/is-maximizing-quantum-speed-limit-saturation-a-known-clock-selection-criterion-i",
+   "heat": "stackexchange/physics 2026-09-18 new thread, 0 points 0 comments, unanswered",
+   "why": "The asker is proposing a criterion and asking whether it exists in the literature, which is the honest-answer shape: say what the speed limit is, then say the clock-selection proposal is not established.",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "The quantum speed limit bounds how fast a state can become distinguishable given an energy spread; that part is standard. Using its saturation to pick a preferred clock in a relational framework is not a settled criterion, so the answer separates the established bound from the speculative selection rule.",
+   "use": "Lore-track only. Good example of the two-layer rule; heat is zero so it must not be presented as popular."
+  },
+  {
+   "question": "High-altitude blimp on Venus: shortsleeves weather?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70710/high-altitude-blimp-on-venus-shortsleeves-weather",
+   "heat": "stackexchange/space 2026-09-17 new thread, 1 point 0 comments, newest space question of the day",
+   "why": "The habitable-layer idea is a real mission concept and the asker's naive framing invites a precise correction about pressure, temperature and sulphuric acid at altitude rather than a yes or no.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "At roughly 50 km the pressure and temperature are close to Earth surface values, which is why the concept is studied. The chemistry is not benign: the cloud deck is sulphuric acid, and the wind regime means a platform drifts with the super-rotating atmosphere. Do not quote a specific temperature or pressure figure unless sourced.",
+   "use": "Lore-track, strong for the layered-atmosphere fiction page. Also a clean科普 hook."
+  },
+  {
+   "question": "Did Earth's rotational slowing down contribute to its 23.5 degree axial tilt, or was it determined by early impacts?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70708/did-earths-rotational-slowing-down-contribute-to-its-23-5-circ-axial-tilt-o",
+   "heat": "stackexchange/space 2026-09-17 new thread, 0 points 0 comments, unanswered",
+   "why": "Removes a common misconception: tidal despinning changes spin rate, not the direction of the spin axis, so the tilt has to come from the formation and impact history.",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "Angular momentum is directional, so slowing the spin changes magnitude, not the axis orientation. Tidal friction transfers spin angular momentum to the Moon's orbit; the tilt is set by the accreted and impact history. Precession moves the axis around a cone without changing the tilt angle.",
+   "use": "Lore-track. Rotation, torque and resonance cluster for the torsion page."
+  },
+  {
+   "question": "Are there stable orbits of point masses around a massive cylindrical object?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+   "heat": "stackexchange/space 2026-09-09, 8 points 1 comment, second highest space score in the pool",
+   "why": "Real geometry question with a real answer class: the exterior field of an infinite cylinder differs from a point mass, so orbital behaviour changes qualitatively and no circular orbit is stable in the naive sense.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "The potential of an extended body is not the point-mass potential, so 'orbit' has to be redefined. Bound motion can exist around a cylinder, but the stability properties and the absence of closed planar orbits are what make the answer non-trivial. Keep the derivation qualitative.",
+   "use": "Lore-track, geometry-heavy. Good for the arena page and for hard-SF readers who check the mechanics."
+  },
+  {
+   "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star-so-quickly",
+   "heat": "stackexchange/worldbuilding 2026-09-18 new thread, 2 points 1 comment, freshest worldbuilding question of the day",
+   "why": "The locking timescale is set by a small number of physical levers (tidal dissipation, orbital distance, star mass), so the answer gives the author adjustable knobs instead of a verdict.",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "Locking time scales steeply with orbital distance and with the tidal dissipation factor, so a thicker crust, a larger orbit or a different dissipation efficiency all buy time. A resonance with another body can also pump eccentricity and delay the end state. No fabricated numbers.",
+   "use": "Lore-track and strong worldbuilding audience pull. Resonant spin-orbit states are the direct hook for the torsion page."
+  },
+  {
+   "question": "Would it be plausible for a gas and ice belt to shield a planet from radiation?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274564/would-it-be-plausible-for-a-gas-and-ice-belt-to-shield-a-planet-from-radiation",
+   "heat": "stackexchange/worldbuilding 2026-09-15, 0 points 2 comments",
+   "why": "Separation of concerns question: a belt can absorb some flux but a diffuse belt has little column density, so shielding depends on where the planet is relative to the belt and the source.",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "Attenuation depends on column density and material, so a thin diffuse belt is a poor shield while a dense inner torus could absorb a meaningful fraction of a directional flux. Geometry matters more than composition for an isotropic background. Avoid quoting attenuation figures without a source.",
+   "use": "Lore-track. Radiation and detection vocabulary feeds the sensing page."
+  },
+  {
+   "question": "Why Six Millennium Problems May Be Hard for the Same Reason",
+   "source": "hackernews",
+   "source_url": "https://news.ycombinator.com/item?id=49724391",
+   "heat": "hackernews 2026-09-16, 1 point 1 comment. Low HN score, but it sits in this month's live X argument about whether AI has actually produced millennium-problem results",
+   "why": "Ties the pool to the viral X discussion cycle around AI and open mathematics, where the real question is verification rather than capability. It is a discursive item, not a physics question.",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "A shared obstruction is a structural hypothesis about proof complexity, not an established result; say that plainly. The verifiable part is that machine-assisted work has been strongest where results are checkable, which is the same asymmetry noted in the physics-metadata question.",
+   "use": "AI/futurism audience bridge. Pairs with X-side AI-science chatter in the same report."
+  },
+  {
+   "question": "Looking for scifi recommendations for someone who is intimidated by scifi",
+   "source": "reddit/r/scifi",
+   "source_url": "https://www.reddit.com/r/scifi/comments/1wjjp7a/looking_for_scifi_recommendations_for_someone_who/",
+   "heat": "reddit/r/scifi 2026-09-18, reddit RSS does not return scores so heat is unverifiable",
+   "why": "Pure purchase-intent form: an explicit request for a starting point. Reddit RSS gives no vote counts, so this must not be presented as a trending thread.",
+   "map_to": "book",
+   "answer_angle": "Recommendation reply that answers the actual ask and lands book.html across the 14 distribution channels. Do not invent ratings, review counts or third-party citations.",
+   "use": "Book track, strongest conversion shape in today's pool. No lore injection."
+  }
+ ]
+}

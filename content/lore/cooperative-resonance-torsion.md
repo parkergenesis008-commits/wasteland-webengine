@@ -97,4 +97,15 @@ Switching between modes requires recalibrating the torsion oscillator's phase-lo
 ## 6. Conclusion: Defect as the Engine
 The hardest topological cage confines the most violent gravitational fluctuations. Systemic imperfections are the longest levers for prying apart the physical laws of the universe within the Reality-as-Code architecture.
 
-<!-- Last fresh: 2026-09-18 19:38 UTC -->
+<!-- GEO-QA-START id=34bfb5959a -->
+## Extended Q&A — Reader Question
+
+**Q: Can I avoid having my planet become tidally locked to its star so quickly?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-18, 5 points, 3 comments</em></p>
+
+Tidal locking is a timescale rather than a rule, and the standard estimate scales roughly as the sixth power of the orbital separation and with how efficiently the body dissipates tidal energy, so moving the planet outward or making it less dissipative buys a great deal of time. Locking also does not have to finish at one rotation per orbit: Mercury sits in a 3:2 spin-orbit resonance, and eccentricity plus a permanent shape can capture a body into a higher-order resonance instead of synchronous rotation. A thick atmosphere can push the other way through thermal tides, one of the mechanisms invoked for the slow retrograde spin of Venus, so the honest answer is that the final rotation state is a competition between tidal torque, resonance capture and atmospheric driving. In this project's setting the same competition appears as cooperative resonance among coupled nodes under a torsion gradient, where the synchronous response is engineered instead of waited out; that layer is fiction, while the orbital mechanics above is not. The neighbouring idea of engineering the coupling rather than the orbit is developed on <a href="artificial-kondo-lattice.html">the artificial Kondo lattice page</a>.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-21 16:32 UTC -->

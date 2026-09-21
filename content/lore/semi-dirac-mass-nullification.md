@@ -49,4 +49,15 @@ Force is not a four-vector, so it does not transform the way a displacement or a
 <p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-18 15:10 UTC -->
+<!-- GEO-QA-START id=ee9aa3f603 -->
+## Extended Q&A — Reader Question
+
+**Q: Why is GPS confirmation of Special Relativity?**
+<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-14, 15 points 5 comments, second highest physics score in today's candidate pool</em></p>
+
+GPS depends on two clock effects that pull in opposite directions, and the popular framing names only one of them. Because a satellite moves fast relative to the ground, the 1905 speed term would make its clock run slow, while the fact that it also sits higher in Earth's gravitational potential produces a blueshift term that makes the clock run fast. That second term is the larger of the two, so the net effect is a daily gain that the satellites are launched pre-offset to cancel. **That makes GPS a working operational check on the clock terms of general relativity rather than a clean single test of special relativity on its own.** The setting layer is fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass nullification setting</a> treats a relativistic dispersion relation as a tunable material property, and <a href='floquet-temporal-matter.html'>the Floquet temporal matter setting</a> pushes the same premise into a periodically driven lattice where time itself is the control knob.
+
+<p><strong>Related:</strong> <a href="floquet-temporal-matter.html">Floquet Engineering and Temporally Programmed Matter</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-21 16:32 UTC -->
