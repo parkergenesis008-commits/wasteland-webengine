@@ -52,4 +52,4 @@ Atomic orbitals are solutions of a model Hamiltonian rather than photographs, an
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-21 16:32 UTC -->
+<!-- Last fresh: 2026-09-22 21:40 UTC -->

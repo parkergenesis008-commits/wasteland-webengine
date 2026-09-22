@@ -1,0 +1,640 @@
+{
+  "_ts": "2026-09-22T02:35:11.854142",
+  "_date": "2026-09-22",
+  "counts": {
+    "stackexchange": 66,
+    "reddit_rss": 9,
+    "hackernews": 13,
+    "questions": 48,
+    "total": 64
+  },
+  "errors": [
+    "reddit/r/booksuggestions: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/suggestmeabook: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/AskScienceFiction: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "What are ways that AI is affecting physics similar to how it is affecting mathematics?",
+      "url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 23,
+      "comments": 7,
+      "ts": "2026-09-13T15:40",
+      "is_question": true
+    },
+    {
+      "title": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
+      "url": "https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 17,
+      "comments": 6,
+      "ts": "2026-09-10T06:29",
+      "is_question": true
+    },
+    {
+      "title": "Why is GPS confirmation of Special Relativity?",
+      "url": "https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 16,
+      "comments": 7,
+      "ts": "2026-09-14T17:48",
+      "is_question": true
+    },
+    {
+      "title": "Would a bird get fried if it stood on a microwave-frequency power line?",
+      "url": "https://physics.stackexchange.com/questions/875982/would-a-bird-get-fried-if-it-stood-on-a-microwave-frequency-power-line",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 13,
+      "comments": 4,
+      "ts": "2026-09-13T23:58",
+      "is_question": true
+    },
+    {
+      "title": "How can a pre-industrial society fight underwater enemies?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274547/how-can-a-pre-industrial-society-fight-underwater-enemies",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 8,
+      "ts": "2026-09-14T06:53",
+      "is_question": true
+    },
+    {
+      "title": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton&#39;s gravity force law?",
+      "url": "https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 10,
+      "comments": 4,
+      "ts": "2026-09-17T19:07",
+      "is_question": true
+    },
+    {
+      "title": "Merging Planets",
+      "url": "https://worldbuilding.stackexchange.com/questions/274569/merging-planets",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 6,
+      "ts": "2026-09-16T10:31",
+      "is_question": true
+    },
+    {
+      "title": "Lorentz transformation of force",
+      "url": "https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 3,
+      "ts": "2026-09-10T19:22",
+      "is_question": true
+    },
+    {
+      "title": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?",
+      "url": "https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 2,
+      "ts": "2026-09-09T12:01",
+      "is_question": true
+    },
+    {
+      "title": "Are there stable orbits of point masses around a massive cylindrical object?",
+      "url": "https://space.stackexchange.com/questions/70700/are-there-stable-orbits-of-point-masses-around-a-massive-cylindrical-object",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-09-09T10:59",
+      "is_question": true
+    },
+    {
+      "title": "Are astronauts permanently tethered during an EVA?",
+      "url": "https://space.stackexchange.com/questions/70714/are-astronauts-permanently-tethered-during-an-eva",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-09-19T10:25",
+      "is_question": true
+    },
+    {
+      "title": "What exactly would gravity-mediated entanglement prove?",
+      "url": "https://physics.stackexchange.com/questions/875858/what-exactly-would-gravity-mediated-entanglement-prove",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-09-10T10:49",
+      "is_question": true
+    },
+    {
+      "title": "Are simpler, utilitarian designs like hardhats and jerrycans generally universal?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274520/are-simpler-utilitarian-designs-like-hardhats-and-jerrycans-generally-universal",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 5,
+      "ts": "2026-09-09T07:05",
+      "is_question": true
+    },
+    {
+      "title": "Why would a living organism larger than earth need to biologically create cement?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274517/why-would-a-living-organism-larger-than-earth-need-to-biologically-create-cement",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 4,
+      "ts": "2026-09-09T01:45",
+      "is_question": true
+    },
+    {
+      "title": "Can I avoid having my planet become tidally locked to its star so quickly?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star-so-quickly",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-09-18T04:12",
+      "is_question": true
+    },
+    {
+      "title": "Hypothetically, how could someone be immediately killed by a radio tower?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274514/hypothetically-how-could-someone-be-immediately-killed-by-a-radio-tower",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-09-08T21:04",
+      "is_question": true
+    },
+    {
+      "title": "Snells law in electrostatics?",
+      "url": "https://physics.stackexchange.com/questions/876226/snells-law-in-electrostatics",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-21T06:40",
+      "is_question": true
+    },
+    {
+      "title": "Could a Underwater Civilization develop into a 1970’s ‘surface’ race",
+      "url": "https://worldbuilding.stackexchange.com/questions/274529/could-a-underwater-civilization-develop-into-a-1970-s-surface-race",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 3,
+      "ts": "2026-09-10T13:01",
+      "is_question": true
+    },
+    {
+      "title": "How do two batteries in series combine their voltages from a microscopic field perspective?",
+      "url": "https://physics.stackexchange.com/questions/876213/how-do-two-batteries-in-series-combine-their-voltages-from-a-microscopic-field-p",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 4,
+      "ts": "2026-09-21T00:37",
+      "is_question": true
+    },
+    {
+      "title": "High-altitude blimp on Venus: shortsleeves weather?",
+      "url": "https://space.stackexchange.com/questions/70710/high-altitude-blimp-on-venus-shortsleeves-weather",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-09-17T20:28",
+      "is_question": true
+    },
+    {
+      "title": "Stable crossing orbit between these 2 smaller moons?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274543/stable-crossing-orbit-between-these-2-smaller-moons",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-13T03:54",
+      "is_question": true
+    },
+    {
+      "title": "How do new spacecraft navigate around debris in space and what are other provisions to mitigate the risk of collision[s]",
+      "url": "https://space.stackexchange.com/questions/70705/how-do-new-spacecraft-navigate-around-debris-in-space-and-what-are-other-provisi",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-09-17T09:52",
+      "is_question": true
+    },
+    {
+      "title": "Using magnetoreception as a very long-distance sense?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-20T12:50",
+      "is_question": true
+    },
+    {
+      "title": "Path-integral measure",
+      "url": "https://physics.stackexchange.com/questions/876217/path-integral-measure",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-09-21T01:43",
+      "is_question": true
+    },
+    {
+      "title": "Composition for a Superhabitable Super-Earth",
+      "url": "https://worldbuilding.stackexchange.com/questions/274546/composition-for-a-superhabitable-super-earth",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-13T16:57",
+      "is_question": true
+    },
+    {
+      "title": "Communication between two ships while one of them is fully deactivated",
+      "url": "https://worldbuilding.stackexchange.com/questions/274583/communication-between-two-ships-while-one-of-them-is-fully-deactivated",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 6,
+      "ts": "2026-09-17T23:49",
+      "is_question": true
+    },
+    {
+      "title": "Unstable moon resonance",
+      "url": "https://worldbuilding.stackexchange.com/questions/274585/unstable-moon-resonance",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 3,
+      "ts": "2026-09-18T00:24",
+      "is_question": true
+    },
+    {
+      "title": "Filling a small container with LN2 in a single feed line",
+      "url": "https://space.stackexchange.com/questions/70706/filling-a-small-container-with-ln2-in-a-single-feed-line",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-09-17T13:23",
+      "is_question": true
+    },
+    {
+      "title": "Drawing Radiative Heat Circuits for different geometries",
+      "url": "https://physics.stackexchange.com/questions/876224/drawing-radiative-heat-circuits-for-different-geometries",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-09-21T06:11",
+      "is_question": true
+    },
+    {
+      "title": "Modelling a New Earth after a Metaphysical Catastrophe - The Shuffle Pt II",
+      "url": "https://worldbuilding.stackexchange.com/questions/274607/modelling-a-new-earth-after-a-metaphysical-catastrophe-the-shuffle-pt-ii",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-21T17:51",
+      "is_question": true
+    },
+    {
+      "title": "Modeling a New Earth after a Metaphysical Catastrophe - The Shuffle",
+      "url": "https://worldbuilding.stackexchange.com/questions/274606/modeling-a-new-earth-after-a-metaphysical-catastrophe-the-shuffle",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-21T17:05",
+      "is_question": true
+    },
+    {
+      "title": "Would radioactive Orichalcum be safe as house decorations?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274600/would-radioactive-orichalcum-be-safe-as-house-decorations",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-19T22:57",
+      "is_question": true
+    },
+    {
+      "title": "Can chemical hydrogen- and carbon-containing propellants be mixed with uranium fission fragments and a thermal-neutron environment?",
+      "url": "https://space.stackexchange.com/questions/70704/can-chemical-hydrogen-and-carbon-containing-propellants-be-mixed-with-uranium-f",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-16T19:28",
+      "is_question": true
+    },
+    {
+      "title": "Did Earth&#39;s rotational slowing down contribute to its $23.5^\\circ$ axial tilt, or was it was determined by early impacts?",
+      "url": "https://space.stackexchange.com/questions/70708/did-earths-rotational-slowing-down-contribute-to-its-23-5-circ-axial-tilt-o",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-17T14:37",
+      "is_question": true
+    },
+    {
+      "title": "How is bismuth vapor condensation managed in high-power vacuum arc thrusters (VAT) to prevent short-circuiting magnetic coils?",
+      "url": "https://space.stackexchange.com/questions/70712/how-is-bismuth-vapor-condensation-managed-in-high-power-vacuum-arc-thrusters-va",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-19T02:54",
+      "is_question": true
+    },
+    {
+      "title": "Electron-electron interactions in polyelectronic atoms",
+      "url": "https://physics.stackexchange.com/questions/876240/electron-electron-interactions-in-polyelectronic-atoms",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-21T18:20",
+      "is_question": true
+    },
+    {
+      "title": "The relationship between normal, mechanical and thermodynamic pressure",
+      "url": "https://physics.stackexchange.com/questions/876239/the-relationship-between-normal-mechanical-and-thermodynamic-pressure",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-21T18:08",
+      "is_question": true
+    },
+    {
+      "title": "Drawing Radiative Heat Circuits with External Power Source",
+      "url": "https://physics.stackexchange.com/questions/876221/drawing-radiative-heat-circuits-with-external-power-source",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-21T04:47",
+      "is_question": true
+    },
+    {
+      "title": "What's your favorite niche sci-fi concept?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wmah6b/whats_your_favorite_niche_scifi_concept/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T11:47",
+      "is_question": true
+    },
+    {
+      "title": "In my opinion, Stephen King's \"The Jaunt\" was one of the best sci-fi/horror crossover short stories ever. What other short stories fit that mold?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wmihrk/in_my_opinion_stephen_kings_the_jaunt_was_one_of/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T16:57",
+      "is_question": true
+    },
+    {
+      "title": "The movie Battle Los Angeles - why no sequels?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wm50nd/the_movie_battle_los_angeles_why_no_sequels/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T06:37",
+      "is_question": true
+    },
+    {
+      "title": "Could a Halo pelican actually work?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wlq8jo/could_a_halo_pelican_actually_work/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-20T19:23",
+      "is_question": true
+    },
+    {
+      "title": "What Do We Call Earth?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wlr3ky/what_do_we_call_earth/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-20T19:56",
+      "is_question": true
+    },
+    {
+      "title": "Anyone else think Sammy Hagar's Marching to Mars is kinda the unofficial theme to Starship Troopers?",
+      "url": "https://www.reddit.com/r/scifi/comments/1wlull7/anyone_else_think_sammy_hagars_marching_to_mars/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-20T22:13",
+      "is_question": true
+    },
+    {
+      "title": "technically valid sounding explanation for mutation that allows two usually incompatible humanoid species to interbreed",
+      "url": "https://worldbuilding.stackexchange.com/questions/274554/technically-valid-sounding-explanation-for-mutation-that-allows-two-usually-inco",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": -1,
+      "comments": 1,
+      "ts": "2026-09-14T18:43",
+      "is_question": true
+    },
+    {
+      "title": "Are there any spatial disorientation trainers that are more like spacecraft interiors than aircraft cockpits?",
+      "url": "https://space.stackexchange.com/questions/70717/are-there-any-spatial-disorientation-trainers-that-are-more-like-spacecraft-inte",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-09-20T14:13",
+      "is_question": true
+    },
+    {
+      "title": "How do spacecraft navigate around junk in space?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274578/how-do-spacecraft-navigate-around-junk-in-space",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -4,
+      "comments": 2,
+      "ts": "2026-09-17T08:43",
+      "is_question": true
+    },
+    {
+      "title": "If Time started at the Big Bang would the universe collapse if time stopped?",
+      "url": "https://physics.stackexchange.com/questions/876235/if-time-started-at-the-big-bang-would-the-universe-collapse-if-time-stopped",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -6,
+      "comments": 0,
+      "ts": "2026-09-21T14:53",
+      "is_question": true
+    },
+    {
+      "title": "DJ Shadow looks back at \"Entroducing\" and other early work",
+      "url": "https://www.msn.com/en-us/news/other/dj-shadow-spent-decades-digging-for-records-now-hes-digging-through-his-own-past/ar-AA2cuuKt",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 44,
+      "comments": 15,
+      "ts": "2026-09-18T12:59",
+      "is_question": false
+    },
+    {
+      "title": "My Thoughts on AI and LLMs",
+      "url": "https://news.ycombinator.com/item?id=49756902",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 13,
+      "comments": 24,
+      "ts": "2026-09-18T16:43",
+      "is_question": false
+    },
+    {
+      "title": "The Evidence for AI Consciousness, Today (2025)",
+      "url": "https://newsletter.ai-frontiers.org/p/the-evidence-for-ai-consciousness",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 7,
+      "comments": 4,
+      "ts": "2026-09-19T05:13",
+      "is_question": false
+    },
+    {
+      "title": "A Mathematical Theory of Communication [pdf]",
+      "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-09-17T22:47",
+      "is_question": false
+    },
+    {
+      "title": "Being a Responsible Human in the Loop",
+      "url": "https://raahelbaig.com/entry/responsible-human-in-the-loop/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 4,
+      "comments": 2,
+      "ts": "2026-09-19T06:14",
+      "is_question": false
+    },
+    {
+      "title": "Wafer-Scale Superconducting Transistors Cut Cryo Cables",
+      "url": "https://spectrum.ieee.org/superconducting-transistors",
+      "source": "hn",
+      "note": "kw=superconductor",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-09-18T15:35",
+      "is_question": false
+    },
+    {
+      "title": "AI Consciousness Is Not a Safety Property",
+      "url": "https://philippdubach.com/posts/ai-consciousness-is-not-a-safety-property/",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-09-17T15:16",
+      "is_question": false
+    },
+    {
+      "title": "Burned Out and Unemployed, Young People in China Are Launching AI Startups",
+      "url": "https://www.wsj.com/business/entrepreneurship/burned-out-and-unemployed-young-people-in-china-are-launching-ai-startups-c5ebcdc3",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-09-20T16:03",
+      "is_question": false
+    },
+    {
+      "title": "Conquering Entropy: Reducing Risk",
+      "url": "https://kaeruct.github.io/posts/2026/09/19/conquering-entropy-reducing-risk/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-20T14:17",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Website Auditor –> Test your brand's AI visibility, get growth plan",
+      "url": "https://website-auditor.io/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-20T06:44",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Race – Terminal Multiplexer on Infinite Canvas (macOS and Linux Beta)",
+      "url": "https://race-term.com/",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-21T09:52",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Combinators in Array Languages",
+      "url": "https://blog.softwarewrighter.com/2026/09/21/rabbit-hole-sage-y-combinator/",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-09-21T18:03",
+      "is_question": false
+    },
+    {
+      "title": "Microsoft AI chief calls out Anthropic's approach to AI consciousness",
+      "url": "https://www.yahoo.com/news/articles/microsoft-ai-chief-calls-anthropics-140542640.html",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-09-17T12:40",
+      "is_question": false
+    },
+    {
+      "title": "The Wayward Pines Trilogy",
+      "url": "https://www.reddit.com/r/scifi/comments/1wlyb8y/the_wayward_pines_trilogy/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T00:56",
+      "is_question": false
+    },
+    {
+      "title": "One year of r/scifi moderation: reviewing the rules, Part 2",
+      "url": "https://www.reddit.com/r/scifi/comments/1wlygcx/one_year_of_rscifi_moderation_reviewing_the_rules/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T01:02",
+      "is_question": false
+    },
+    {
+      "title": "Exodus Reminds Me of Old BioWare",
+      "url": "https://www.reddit.com/r/scifi/comments/1wm4bl9/exodus_reminds_me_of_old_bioware/",
+      "source": "reddit/r/scifi",
+      "note": "科幻泛受众",
+      "ts": "2026-09-21T05:58",
+      "is_question": false
+    }
+  ]
+}

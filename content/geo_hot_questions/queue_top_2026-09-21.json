@@ -15,7 +15,7 @@
   ],
   "has_answer": true,
   "date": "2026-09-21",
-  "fallback_date": false,
+  "fallback_date": true,
   "candidates": 3,
   "all": [
     {
