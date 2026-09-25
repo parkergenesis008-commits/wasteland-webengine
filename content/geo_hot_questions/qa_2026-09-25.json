@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-25",
+  "entries": [
+    {
+      "slug": "qm-tether-exosuit",
+      "question": "Are astronauts permanently tethered during an EVA?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70714/are-astronauts-permanently-tethered-during-an-eva",
+      "heat": "space.SE 2026-09-19, 13 points, 1 comment",
+      "answer_md": "**No.** An ISS spacewalk is done on the end of a **service umbilical** that supplies oxygen, power and cooling, and the crew member is additionally clipped to the structure by **one or two safety tethers** at all times, so a slip becomes a short swing rather than a departure. The tether is a mechanical restraint, not a life-support line, and the umbilical that carries consumables is a separate load-bearing item in its own right. If the astronaut does come free, the last resort is **SAFER**, a self-rescue jet backpack carried for exactly that case with a deliberately small propellant budget. Real engineering stops there: in the *Wasteland* setting the quantum tether exosuit keeps the wearer alive on an entanglement link instead of a physical line, so a severed link disables the suit rather than merely unclipping it, and that fiction draws its power budget from <a href='semi-dirac-mass-nullification.html'>the mass-nullification setting</a>. That layer is fiction; the physics above it is textbook.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    },
+    {
+      "slug": "kpz-reality-rendering",
+      "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1woqjpw/is_the_quantum_wavefunction_physically_real_or/",
+      "heat": "reddit AskPhysics 2026-09-24 新帖 (RSS 不回传票数, 热度不可核验)",
+      "answer_md": "There is no experiment that settles this, because the competing interpretations share the same predictions. **What is established** is that quantum theory survives extremely precise tests, and that the Bell-type experiments ruled out local hidden variables, so the wavefunction is not merely a bookkeeping device for ignorance of some classical state. The strongest technical result in that direction is the **PBR theorem**, published by Pusey, Barrett and Rudolph in 2012, which shows that if quantum predictions are correct then a broad class of purely epistemic readings of the state is untenable. What stays genuinely open is whether the state is ontic and how it connects to outcomes, which is why realist, relational and collapse readings still compete. In the *Wasteland* setting the rendering layer treats the underlying field as a substrate that must be computed, and the same substrate idea drives <a href='holographic-kpz-projection.html'>the holographic projection framework</a>; that framing is fiction and not a claim about quantum foundations.",
+      "links": [
+        "holographic-kpz-projection"
+      ]
+    }
+  ]
+}

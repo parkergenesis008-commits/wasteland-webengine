@@ -138,5 +138,47 @@
     "question": "Experimental evidence of QM atomic orbitals shape",
     "pruned": 0,
     "src": "qa_2026-09-21.json"
+  },
+  "ecbc6abd52": {
+    "slug": "qm-tether-exosuit",
+    "ts": "2026-09-25T08:41:40.068060",
+    "question": "Are astronauts permanently tethered during an EVA?",
+    "pruned": 1,
+    "src": "qa_2026-09-25.json"
+  },
+  "bf6f910b9b": {
+    "slug": "holographic-kpz-projection",
+    "ts": "2026-09-25T08:41:40.069094",
+    "question": "How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this uni",
+    "pruned": 0,
+    "src": "qa_2026-09-23.json"
+  },
+  "57872b0406": {
+    "slug": "type2-superlattice-radar",
+    "ts": "2026-09-25T08:41:40.070016",
+    "question": "Using magnetoreception as a very long-distance sense?",
+    "pruned": 0,
+    "src": "qa_2026-09-23.json"
+  },
+  "626f6a3115": {
+    "slug": "floquet-temporal-matter",
+    "ts": "2026-09-25T08:41:40.070612",
+    "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
+    "pruned": 0,
+    "src": "qa_2026-09-24.json"
+  },
+  "403112755b": {
+    "slug": "arena-tripartite-architecture",
+    "ts": "2026-09-25T08:41:40.071177",
+    "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?",
+    "pruned": 0,
+    "src": "qa_2026-09-24.json"
+  },
+  "9994193f29": {
+    "slug": "kpz-reality-rendering",
+    "ts": "2026-09-25T08:41:40.071643",
+    "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?",
+    "pruned": 0,
+    "src": "qa_2026-09-25.json"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-23",
+  "entries": [
+    {
+      "slug": "holographic-kpz-projection",
+      "question": "How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this universe?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876270",
+      "heat": "physics.SE new thread 2026-09-22, 0 points, 0 comments",
+      "answer_md": "Gravity is the only interaction that could plausibly couple our universe to another one, because it is mediated by spacetime geometry rather than by a field confined to a brane, and in extra-dimensional models gravity is the one force allowed to spread into the additional dimensions. What those models predict is measurable rather than mystical: the inverse-square law acquires a short-range correction, which is why sub-millimetre torsion-balance tests and lunar laser ranging are the standard ways a gravitational leak is bounded. That framing also explains why a satellite cannot settle the question: high-precision orbital tracking of range and precession can only turn an inter-universe coupling into an upper limit, and a null result bounds the coupling instead of proving its absence. **The honest reading of the question is that it asks for a measurement that no satellite experiment can deliver, only a constraint.** The setting layer is fiction: <a href='kpz-reality-rendering.html'>the KPZ reality rendering setting</a> treats such a leak as a rendering channel rather than a force, and this page carries the projection side of the same idea.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "question": "Using magnetoreception as a very long-distance sense?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense",
+      "heat": "worldbuilding.SE new thread 2026-09-20, 3 points, 2 comments",
+      "answer_md": "Magnetoreception is real, but it is a heading sense rather than a ranging one, and that distinction is what breaks the long-distance version. The geomagnetic field is a global background of roughly 25 to 65 microtesla, and animals that use it resolve changes of tens of nanotesla, which is a directional gradient read at the body, not a signal returning from a distant object. Two mechanisms are taken seriously, magnetite crystals acting as torque sensors and a radical-pair reaction in the cryptochrome protein whose outcome depends on field orientation, and both are local readings of a field that every object shares. **There is no emitted pulse and no echo, so distance and shape carry no information no matter how sensitive the detector gets.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> is where this page's own idea, an active fictive lattice that both emits and receives, departs from biology.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

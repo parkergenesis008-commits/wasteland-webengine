@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-24",
+  "entries": [
+    {
+      "slug": "floquet-temporal-matter",
+      "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
+      "source": "hackernews",
+      "source_url": "https://pubs.acs.org/jpclcd/article-abstract/16/5/1397/3742503/Deriving-the-Landauer-Principle-From-the-Quantum?redirectedFrom=fulltext",
+      "heat": "hackernews 2026-09-22, 1 point, 0 comments",
+      "answer_md": "**Landauer's principle** says that erasing one bit of information in a system at temperature T must dissipate at least kT ln 2 of heat. It was derived from classical statistical mechanics in 1961, and a single-bit experiment with a trapped colloidal particle confirmed the bound in 2012. The linked paper reaches the same floor by deriving it from quantum Shannon entropy instead of classical counting, which changes the derivation route rather than the bound. Two caveats matter: the bound applies to logically irreversible operations, and real hardware sits far above it because of switching energy, leakage and clocking overhead. In the *Wasteland* setting, this floor is why Floquet-programmed matter has to be held in place by an external metronomic drive rather than sustaining itself, so a disrupted drive rhythm, not the material, is the failure mode. That last part is fiction.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    },
+    {
+      "slug": "arena-tripartite-architecture",
+      "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876288/intuitive-analogy-for-the-kerr-metric-can-we-model-the-event-horizon-as-a-rotat",
+      "heat": "physics.SE 2026-09-23, -3 points, 0 comments",
+      "answer_md": "**Frame dragging is real**: general relativity predicts that a rotating mass drags local inertial frames around with it, and NASA's Gravity Probe B reported in 2011 a measurement consistent with that dragging together with the larger geodetic term. The rotating-magnet picture comes from **gravitomagnetism**, the weak-field limit in which Einstein's equations take a Maxwell-like form with mass currents acting as the source of a gravitomagnetic field; it is a useful mnemonic, not an identity. The analogy breaks in the strong field: a Kerr black hole is described by its mass and spin alone, has no magnetic structure, and its dragging defines an ergosphere inside which nothing can remain static, so treating the horizon as a magnetized body puts the effect in the wrong place. In the *Wasteland* setting, the Computational Arena's micro-gravity engine claims to manipulate the band-structure quantum metric to perturb the spacetime metric; that device is speculative fiction, and the real physics stops at the weak-field analogy above.",
+      "links": [
+        "cooperative-resonance-torsion"
+      ]
+    }
+  ]
+}

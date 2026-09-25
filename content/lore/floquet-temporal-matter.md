@@ -43,4 +43,15 @@ Temperature is not a property of a particle, it is a property of a *distribution
 <p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-18 19:37 UTC -->
+<!-- GEO-QA-START id=626f6a3115 -->
+## Extended Q&A — Reader Question
+
+**Q: Deriving the Landauer Principle from the Quantum Shannon Entropy**
+<p><em>asked on hackernews · hackernews 2026-09-22, 1 point, 0 comments</em></p>
+
+**Landauer's principle** says that erasing one bit of information in a system at temperature T must dissipate at least kT ln 2 of heat. It was derived from classical statistical mechanics in 1961, and a single-bit experiment with a trapped colloidal particle confirmed the bound in 2012. The linked paper reaches the same floor by deriving it from quantum Shannon entropy instead of classical counting, which changes the derivation route rather than the bound. Two caveats matter: the bound applies to logically irreversible operations, and real hardware sits far above it because of switching energy, leakage and clocking overhead. In the *Wasteland* setting, this floor is why Floquet-programmed matter has to be held in place by an external metronomic drive rather than sustaining itself, so a disrupted drive rhythm, not the material, is the failure mode. That last part is fiction.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://pubs.acs.org/jpclcd/article-abstract/16/5/1397/3742503/Deriving-the-Landauer-Principle-From-the-Quantum?redirectedFrom=fulltext" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-25 08:41 UTC -->

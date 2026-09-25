@@ -1,0 +1,158 @@
+{
+ "date": "2026-09-25",
+ "pool": {
+  "stackexchange": 64,
+  "reddit_rss": 27,
+  "hackernews": 8,
+  "total": 76,
+  "questions": 65
+ },
+ "source_errors": [
+  "reddit/r/physics: HTTPError HTTP Error 429: Too Many Requests",
+  "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests"
+ ],
+ "external_platforms": {
+  "x": "抓取失败。两次 web_search 均未返回 2026-09-25 当日 X 帖子级数据: 第一次只拿到趋势聚合导航页 (techtwitter 2026-09-23/24 索引页、globaltrendnews 首页) 与 arXiv cs.AI 列表页; 第二次只拿到一条 2026-08-04 的真实 X 帖 (@arshavsky, Zenno Astronautics 空间超导磁体, 22.3K views) 与 Cracked 2026-09-24 梗图合集, 均非当日热题, 不作条目。",
+  "tiktok": "抓取失败。两次 web_search: 第一次后端 403 Forbidden (Keyless Firecrawl 限流, 属环境故障); 第二次只返回常青内容 (2026-04-27 @iron.physics 28.4M 播放旧片、2026-09-14 @funistan77 536.8K 播放非提问题) 与 raivan.uk 泛论文章, 无当日热榜与票数, 不作条目。",
+  "secondary_topic_signal": "搜索侧出现的可核实题材线索, 仅作选题参考不作条目: ScienceDaily 2026-09 报道 Princeton 团队用 AI 在毫秒级监测并抑制聚变等离子体不稳定性 (提前约 200 ms 预警); ScienceDaily 2026-06 报道迁移学习加速新物理搜索, 但存在 negative transfer 风险 (不同物理过程可产生相似可观测信号); arXiv cs.AI 2609.03621 提出「可计算的物理实验室表示」以支持可验证工作流。"
+ },
+ "top3_for_today": [
+  {
+   "rank": 1,
+   "map_to": "qm-tether-exosuit",
+   "question": "Are astronauts permanently tethered during an EVA?"
+  },
+  {
+   "rank": 2,
+   "map_to": "kpz-reality-rendering",
+   "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?"
+  },
+  {
+   "rank": 3,
+   "map_to": "book",
+   "question": "What if Heat Death actually turns the whole universe back into one giant quantum superposition?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "Are astronauts permanently tethered during an EVA?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70714/are-astronauts-permanently-tethered-during-an-eva",
+   "heat": "space.SE 2026-09-19, 13 points, 1 comment",
+   "why": "当日 space 板块最高分且是提问形态, 也是全池唯一未被任何历史 qa 用过的 13 分题; 与 qm-tether-exosuit 页的字面主题「系绳」直接同题, 而该页最后一次注入是 09-13, 已 12 天, 为全站最陈旧页.",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: ISS 舱外活动靠供氧脐带加一到两条安全系绳, 系绳是机械约束而非生命线, 两者都失时靠 SAFER 自救援喷气背包; 不编造任何数字. 设定层: 量子系绳外骨骼把系绳换成纠缠链路, 断链即失能.",
+   "use": "qa 注入(今日主推)"
+  },
+  {
+   "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1woqjpw/is_the_quantum_wavefunction_physically_real_or/",
+   "heat": "reddit AskPhysics 2026-09-24 新帖 (RSS 不回传票数, 热度不可核验)",
+   "why": "常青高讨论度的解释问题; kpz-reality-rendering 页名里的 reality rendering 与「波函数是不是实在」天然同题, 该页最后一次注入是 09-17, 已 8 天未刷新.",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 量子预测精度极高且贝尔不等式违背已被实验确证, 但「波函数是实在还是认知」属解释层; PBR 定理 (Pusey-Barrett-Rudolph, 2012) 在量子理论预测正确的前提下排除了一大类纯认识论解释. 设定层: 渲染层把场当实体写. 不编造任何统计或第三方引用.",
+   "use": "qa 注入"
+  },
+  {
+   "question": "What are ways that AI is affecting physics similar to how it is affecting mathematics?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+   "heat": "physics.SE 2026-09-13, 24 points, 7 comments (全池最高分)",
+   "why": "全池最高分, 与搜索侧的 AI 加物理方法论题材同题; 但该页 09-14 与 09-17 已两次注入同题, 第三次会稀释页面并大概率被幂等跳过.",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: AI 在物理里集中在数据筛选、符号回归找守恒量、仿真加速与文献级推断; 数学侧是自动定理证明与反例搜索, 属另一条工具链. 设定层: 晶格集体计算. 不编造任何统计.",
+   "use": "只登记, 不注入"
+  },
+  {
+   "question": "Can the relativistic effects on Mercury's orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha",
+   "heat": "physics.SE 2026-09-17, 10 points, 4 comments",
+   "why": "高票且答案层能讲清近日点进动是时空几何效应而不是力项微调; 与 cooperative-resonance-torsion 的轨道共振设定同源.",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 水星近日点每世纪约 43 角秒的额外进动由广义相对论精确解释, 这是教科书值; 只改牛顿引力律会同时破坏其它行星轨道与强场行为, 因此可行形式被其它观测否掉. 设定层: 轨道共振可被工程化为武器.",
+   "use": "只登记 (cooperative 页 09-21 已有块)"
+  },
+  {
+   "question": "do we actually have any real evidence for the graviton?",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1woic7l/do_we_actually_have_any_real_evidence_for_the/",
+   "heat": "reddit AskPhysics 2026-09-23 新帖 (RSS 不回传票数, 热度不可核验)",
+   "why": "引力子是无质量自旋 2 量子, 与 semi-dirac-mass-nullification 的「质量清零」同题; 该页 09-19 后已 6 天未刷新, 可作 qa 备选.",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 引力子至今无直接探测; 引力波是经典辐射而不是单引力子计数; LIGO 一类观测给的是引力子质量上限; 量子引力理论仍未完成. 设定层: 方向性质量清零. 不编造任何统计.",
+   "use": "只登记 (qa 备选)"
+  },
+  {
+   "question": "How are black holes even rotating?",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wohpmx/how_are_black_holes_even_rotating/",
+   "heat": "reddit AskPhysics 2026-09-23 新帖 (RSS 不回传票数)",
+   "why": "大众常问而概念干净, 与 arena-tripartite-architecture 的 Kerr 与参考系拖拽设定同题.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 自旋来自前身星角动量守恒, 黑洞由质量与自旋两个参数描述, 参考系拖拽造出能层. 设定层: 旋转参考系即计算台.",
+   "use": "只登记 (arena 页 09-24 刚注入)"
+  },
+  {
+   "question": "Snell's law in electrostatics",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876226/snells-law-in-electrostatics",
+   "heat": "physics.SE 2026-09-21, 8 points, 1 comment",
+   "why": "静电学里出现类折射定律是干净的可澄清题; 与 electromagnetic-theater-override 的场塑形同题.",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 静电场在介质界面满足法向 D 连续与切向 E 连续, 组合出的场线偏折满足 tan 之比等于介电常数之比, 形式像 Snell 定律但物理量不同, 不能直接套折射率. 设定层: 场域重定向即战场屏蔽.",
+   "use": "只登记"
+  },
+  {
+   "question": "How to derive the optimal pinhole size balancing geometric blur and wave diffraction?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876334/how-to-derive-the-optimal-pinhole-size-balancing-geometric-blur-and-wave-diffrac",
+   "heat": "physics.SE 2026-09-24 新帖, 0 points, 0 comments (当日最新物理题)",
+   "why": "光阑孔径最优化是干净推导题; 与 obstructed-atomic-phantom-grid 的「阻挡结构决定什么能通过」同题.",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 几何模糊随孔径线性增大, 衍射模糊随孔径反比减小, 两者相等取极值, 最优孔径落在 sqrt(波长乘距离) 量级 (量级可靠, 前置系数依判据而定). 设定层: 幻影栅格只放行特定模式.",
+   "use": "只登记"
+  },
+  {
+   "question": "High-altitude blimp on Venus: shortsleeves weather?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70710/high-altitude-blimp-on-venus-shortsleeves-weather",
+   "heat": "space.SE 2026-09-17, 3 points, 1 comment",
+   "why": "金星云层高度温压接近地表条件是真实的工程甜点; 与 type2-superlattice-radar 的浮空平台与传感设定同题.",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 金星约 50 至 55 公里高度的气压与温度接近地球海平面条件, 因而被反复提出作为浮空平台高度, 但硫酸云气溶胶与本地资源约束仍在; 除该高度区间外不编造数字. 设定层: 浮空传感阵列.",
+   "use": "只登记 (type2 页 09-23 刚注入)"
+  },
+  {
+   "question": "Question about the twin paradox",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1woi32h/question_about_the_twin_paradox/",
+   "heat": "reddit AskPhysics 2026-09-23 新帖 (RSS 不回传票数)",
+   "why": "时间膨胀是大众入口题, 与 floquet-temporal-matter 的「时间是被驱动的量」同题.",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 双生子佯谬的解决依赖两条世界线长度不同即固有时不同, 加速度说明的是谁换了惯性系, 结论与狭义相对论自洽. 设定层: 时间作为可被周期性驱动的材料属性.",
+   "use": "只登记 (floquet 页 09-24 刚注入)"
+  },
+  {
+   "question": "Understanding the phase space and energy constraints of a composite system in the microcanonical ensemble",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876316/understanding-the-phase-space-and-energy-constrai",
+   "heat": "physics.SE 2026-09-24 新帖, 1 point, 1 comment (当日最新)",
+   "why": "系综定义是 holographic-kpz-projection 与 kpz-reality-rendering 两页共同的底座; holographic 页 09-23 注入后即将到期.",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 微正则系综固定能量体积粒子数, 复合系统靠态密度分配能量, 熵等于玻尔兹曼常数乘态密度对数, 其极大处给出温度, 系综等价性只在热力学极限严格成立. 设定层: 投影把高维相空间压成可渲染表面.",
+   "use": "只登记"
+  },
+  {
+   "question": "What if Heat Death actually turns the whole universe back into one giant quantum superposition?",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wp7vr7/what_if_heat_death_actually_turns_the_whole/",
+   "heat": "reddit AskPhysics 2026-09-24 新帖 (RSS 不回传票数, 热度不可核验)",
+   "why": "远未来宇宙学是硬科幻读者的天然入口, 也是《Alien Dimensions》的分销抓手; 走 book 轨.",
+   "map_to": "book",
+   "answer_angle": "真实层: 热寂是熵极大且不再有可用自由能的远期外推图景, 不是已验证结论; 量子叠加不是低熵库存, 不能用来逆转熵账. 设定层: 书中的荒原宇宙. 不编造任何统计.",
+   "use": "queue 第 3 条 (book 轨, 附 book.html)"
+  }
+ ]
+}

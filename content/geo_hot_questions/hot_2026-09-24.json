@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-24",
+  "pool": {
+    "stackexchange": 66,
+    "reddit_rss": 24,
+    "hackernews": 8,
+    "total": 72,
+    "questions": 56
+  },
+  "source_errors": [
+    "reddit/r/AskScienceFiction: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "external_platforms": {
+    "x": "抓取失败。两次 web_search 均未返回当日 X 帖子级数据: 只拿到趋势聚合站 (playersells / whatstrends / archive.twitter-trending) 的导航页, 以及 WIRED 2026-08-04 发布的 Brian Greene 问答视频与 Physics World 账号例行贴, 均无 2026-09-24 当日热度, 不作条目。",
+    "tiktok": "抓取失败。两次 web_search 只返回长期常青内容 (WIRED 2023-07 的 Michio Kaku 弦论片段, theoriesofeverything_ 的播客切片), 无当日热榜与票数数据, 不作条目。",
+    "secondary_topic_signal": "搜索侧出现的可核实题材线索, 仅作选题参考不作条目: phys.org 2026-09 报道原子干涉仪测得自由下落原子的量子相位与等效原理预言一致 (Folman / Vedral 等, 含 Penrose 署名); New Scientist 2026-07-02 报道 Oppenheim 的 post-quantum gravity 可检验化; npj Quantum Information 上 Kyushu/Waterloo/Stockholm 团队指出部分\"量子引力\"信号可用普通时空中的量子物质解释。"
+  },
+  "top3_for_today": [
+    {
+      "rank": 1,
+      "map_to": "floquet-temporal-matter",
+      "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy"
+    },
+    {
+      "rank": 2,
+      "map_to": "arena-tripartite-architecture",
+      "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?"
+    },
+    {
+      "rank": 3,
+      "map_to": "book",
+      "question": "Mundane post-apocalyptic survival NOT set in the early days"
+    }
+  ],
+  "entries": [
+    {
+      "question": "What are ways that AI is affecting physics similar to how it is affecting mathematics?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/875965/what-are-ways-that-ai-is-affecting-physics-similar-to-how-it-is-affecting-mathem",
+      "heat": "physics.SE 2026-09-13, 24 points, 7 comments (highest of the whole pool)",
+      "why": "全池最高分, 且与今日 X/新闻侧的量子引力方法之争同题; 但该页已由 09-14 与 09-17 两次注入同题, 再做第三次会稀释页面.",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层: AI 在物理里集中在数据筛选、符号回归找守恒量、仿真加速与文献级推断, 数学侧的自动定理证明/反例搜索是另一条工具链; 不编造任何统计. 设定层: 晶格集体计算.",
+      "use": "只登记, 不注入"
+    },
+    {
+      "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
+      "source": "hn",
+      "source_url": "https://pubs.acs.org/jpclcd/article-abstract/16/5/1397/3742503/Deriving-the-Landauer-Principle-From-the-Quantum?redirectedFrom=fulltext",
+      "heat": "hackernews 2026-09-22, 1 point, 0 comments (热度弱, 凭内容入选)",
+      "why": "信息与热力学接缝, 与\"驱动物质必须持续供能\"的设定同源, 且昨日已标记为次日首选; 该页最后一次注入是 09-12, 已 12 天未刷新.",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层: Landauer 1961 给出擦除一比特至少放热 kT ln2, 2012 年单比特胶体实验验证了下界; 从量子 Shannon 熵出发只是换推导路径, 不改下界, 且真实器件远高于下界. 设定层: 周期性驱动物质必须靠外部节拍维持.",
+      "use": "今日 QA 注入 (主推)"
+    },
+    {
+      "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876288/intuitive-analogy-for-the-kerr-metric-can-we-model-the-event-horizon-as-a-rotat",
+      "heat": "physics.SE 2026-09-23, -3 points, 0 comments (当日最新, 但被踩; 热度弱, 凭新鲜度与主题入选)",
+      "why": "当日最新的转动引力几何问题, 真实层有干净共识 (引力磁类比只在弱场成立, Kerr 无磁性结构); 该页最后一次注入是 09-11, 已 13 天未刷新, 是今日最陈旧的页之一.",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 参考系拖曳由 Lense-Thirring 1918 预言, Gravity Probe B 2011 报告了与效应一致的测量; 旋转磁铁类比来自引力磁学的弱场线性化形式, 强场失效 (Kerr 只有质量与自旋, 无磁场结构, 存在能层). 设定层: 量子度量微重力引擎为虚构.",
+      "use": "今日 QA 注入"
+    },
+    {
+      "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia",
+      "heat": "physics.SE 2026-09-23, 4 points, 1 comment (当日池中第三高, 最新鲜的高分物理题)",
+      "why": "公式分歧型提问, 真实层能讲清四极辐射功率的推导前提差异 (偏心率的平均方式与轨道演化联立与否), 不掺虚构数字; 与共振页的\"能量沿共振通道泄漏\"设定同调.",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 差异来自推导假设 (Peters 型四极公式 + 偏心率演化联立 vs 瞬时近似), 数值分歧随偏心率放大, 观测校准以 Hulse-Taylor 双星为基准. 设定层: 共振通道的能量耗散.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "The uniqueness theorem for electrostatics in case of infinite charge configurations",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876291/the-uniqueness-theorem-for-electrostatics-in-case-of-infinite-charge-configurati",
+      "heat": "physics.SE 2026-09-23, 3 points, 1 comment",
+      "why": "唯一性定理是静电学的边界条件问题, 真实层结论明确 (无限构型需补无穷远处的衰减条件, 否则解不唯一); 干净可讲, 便于挂电磁类长尾词.",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层: 唯一性依赖边界条件与无穷远衰减, 有限能量/有限电荷总量是常见充分条件; 不编造定理之外的结论. 设定层: 场域改写需以边界给定为前提.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Can 1 ton of stable exotic matter exist if Quantum Inequalities limit negative energy?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876298/can-1-ton-of-stable-exotic-matter-exist-if-quantum-inequalities-limit-negative-e",
+      "heat": "physics.SE 2026-09-23, 1 point, 1 comment (当日最新)",
+      "why": "负能量密度受量子不等式限时, 宏观稳定构型被否掉, 是\"质量清零\"设定最需要正视的真实物理约束; 该页此前未挂过此类约束型问题.",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层: 量子不等式给出负能量密度的时长-幅度折衷, 已观测的负能量效应 (Casimir) 都极微弱, 无已知的宏观稳定负能量物质. 设定层: 质量零化以量子不等式被绕过为虚构前提, 必须标注为设定.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Are astronauts permanently tethered during an EVA?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70714/are-astronauts-permanently-tethered-during-an-eva",
+      "heat": "space.SE 2026-09-19, 12 points, 1 comment (池中 space 板块最高分)",
+      "why": "系绳/脱离的工程细节与\"支撑式外骨骼链接\"设定直接同构, 真实层有确定答案 (ISS 出舱以安全绳为常态, SAFER 喷气背包为备份, 非永久系绳); 空天读者命中.",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层: 出舱作业默认系安全绳, 但并非物理上永久相连, 备份是 SAFER 自持推进单元; 不编造任务统计. 设定层: 量子系绳外骨骼为虚构.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Unstable moon resonance",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274585/unstable-moon-resonance",
+      "heat": "worldbuilding.SE 2026-09-18, 0 points, 3 comments",
+      "why": "轨道共振失稳是真实天体力学课题 (共振捕获、共振穿越、混沌边界), 且\"共振\"与设定页同名同题, 搜索长尾稳; 票数为 0, 热度弱.",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 共振可锁定也可失稳, 取决于耗散方向与迁移率, 太阳系有捕获与逃逸两类实例; 不编造具体数值. 设定层: 相干共振扭转为虚构装置.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Should I use AI in my undergraduate research?",
+      "source": "reddit/r/physics",
+      "source_url": "https://www.reddit.com/r/Physics/comments/1wo93t8/should_i_use_ai_in_my_undergraduate_research/",
+      "heat": "reddit/r/physics 2026-09-23 新帖, RSS 不回传票数, 热度不可核验",
+      "why": "AI 与科研方法论的决策型提问, 命中 AI/未来学读者, 比\"AI 是否影响物理\"更贴近实际使用场景; 与晶格计算页的\"人机协作\"设定同调.",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层: AI 适合文献梳理、代码与量纲检查、单位换算, 不适合替代推导与误差判断; 责任与署名规范由所在机构定, 不编造政策条文. 设定层: 集体计算晶格为虚构.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Do you believe in the butterfly effect?",
+      "source": "reddit/r/physics",
+      "source_url": "https://www.reddit.com/r/Physics/comments/1wnx221/do_you_believe_in_the_butterfly_effect/",
+      "heat": "reddit/r/physics 2026-09-23 新帖, RSS 不回传票数, 热度不可核验",
+      "why": "把混沌的\"敏感依赖\"说成\"蝴蝶效应\"是最常见的科普误解, 真实层能讲清 (李雅普诺夫指数、可预报时限, 与\"任意小扰动必然改变结局\"的差别); 与随机 PDE/渲染设定同题.",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 混沌系统有正的李雅普诺夫指数导致初值误差指数放大, 但这不等于任意小扰动都能改变宏观结局, 也不等于系统无规律; 不编造预测时限的具体天数. 设定层: 现实即渲染为虚构.",
+      "use": "科普轨, 不进今日注入"
+    },
+    {
+      "question": "Mundane post-apocalyptic survival NOT set in the early days",
+      "source": "reddit/r/suggestmeabook",
+      "source_url": "https://www.reddit.com/r/suggestmeabook/comments/1wnl4ed/mundane_postapocalyptic_survival_not_set_in_the_early/",
+      "heat": "reddit/r/suggestmeabook 2026-09-22 新帖, RSS 不回传票数, 热度不可核验",
+      "why": "最接近购买意图的读者求书形态, 且\"荒原/废墟生存\"与该站品牌同题; 走 book.html 全平台分销.",
+      "map_to": "book",
+      "answer_angle": "只做推荐入口, 不复述具体情节对比; 附 book.html 全平台链接.",
+      "use": "购买意图轨 (book), 不进 lore 注入"
+    },
+    {
+      "question": "Epic fantasy/SciFi recs!",
+      "source": "reddit/r/suggestmeabook",
+      "source_url": "https://www.reddit.com/r/suggestmeabook/comments/1wnxjwq/epic_fantasyscifi_recs/",
+      "heat": "reddit/r/suggestmeabook 2026-09-23 新帖, RSS 不回传票数, 热度不可核验",
+      "why": "同日求书簇中覆盖面最广的一条 (类型不限, 只要史诗感), 与《Alien Dimensions》的硬科幻定位可自然回答; 商业意图标签命中.",
+      "map_to": "book",
+      "answer_angle": "只做推荐入口, 讲清书的分销平台与入口页, 不编造评分或榜单.",
+      "use": "购买意图轨 (book), 不进 lore 注入"
+    }
+  ]
+}
