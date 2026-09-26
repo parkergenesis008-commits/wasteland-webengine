@@ -8,16 +8,16 @@
   },
   "dd3876035e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-10T17:03:12.951211",
+    "ts": "2026-09-26T22:42:28.718604",
     "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-10.json"
   },
   "71b42c52c5": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-11T10:00:17.733765",
+    "ts": "2026-09-26T22:42:28.720648",
     "question": "What exactly would gravity-mediated entanglement prove?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-11.json"
   },
   "8fcb4bf481": {
