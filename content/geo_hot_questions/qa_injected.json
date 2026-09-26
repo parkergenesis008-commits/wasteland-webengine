@@ -1,9 +1,9 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-10T17:08:31.354359",
+    "ts": "2026-09-26T08:42:05.474780",
     "question": "What will robot soldiers really look like?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-10.json"
   },
   "dd3876035e": {
@@ -180,5 +180,19 @@
     "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?",
     "pruned": 0,
     "src": "qa_2026-09-25.json"
+  },
+  "65f72ff33d": {
+    "slug": "artificial-kondo-lattice",
+    "ts": "2026-09-26T08:42:05.472801",
+    "question": "Does Newtonian mechanics make claims about how forces are created?",
+    "pruned": 0,
+    "src": "qa_2026-09-26.json"
+  },
+  "da8233b90e": {
+    "slug": "electromagnetic-theater-override",
+    "ts": "2026-09-26T08:42:05.476345",
+    "question": "Snell's law in electrostatics",
+    "pruned": 1,
+    "src": "qa_2026-09-26.json"
   }
 }

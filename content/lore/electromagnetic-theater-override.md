@@ -33,17 +33,6 @@ It forcibly presses the electrons outside the atomic nucleus into the protons wi
 ## 4. Conclusion: Rewriting the Script
 At the evolutionary terminus of the Computational Arena, the hardness of matter is merely a rewritable variable. Breaking the fragile theater constructed by electromagnetic forces is the first true step toward controlling physical reality.
 
-<!-- GEO-QA-START id=dd3876035e -->
-## Extended Q&A — Reader Question
-
-**Q: How much energy would a laser gun need to deliver to a human target to deal lethal damage?**
-<p><em>asked on worldbuilding.stackexchange.com · score 4 · 3 answers (worldbuilding SE, last 14 days)</em></p>
-
-Treat it as three separate numbers you must not confuse: the energy that reaches the tissue, the energy the emitter must produce, and the energy the whole system must get rid of. A few hundred joules deposited fast enough in a small spot is the ballpark where damage stops being cosmetic, but delivering that in a handheld package at any useful range runs into beam quality and atmospheric scattering long before it runs into the tissue. The dominant engineering term is usually waste heat: a device that is only a few percent efficient turns the rest of its input into a problem it must solve locally, which is why fiction's handheld beam weapons are more plausible as capacitor-fed single-shot tools than as sustained-fire rifles. In this project's electromagnetic-theater setting the same constraint is what the concept-design sections build on — beam propagation and thermal load first, dramatic effects second.
-
-<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/tagged/physics" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=fc002495d6 -->
 ## Extended Q&A — Reader Question
 
@@ -66,4 +55,15 @@ Electric and magnetic responses look asymmetric because the sources are not symm
 <p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876143/magnetization-v-s-polarization-why-are-they-weirdly-dissimilar" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-21 16:32 UTC -->
+<!-- GEO-QA-START id=da8233b90e -->
+## Extended Q&A — Reader Question
+
+**Q: Snell's law in electrostatics**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-21, 8 points, 1 comment</em></p>
+
+**The analogy is real, but the ratio is a tangent, not a sine.** At an interface between two dielectrics the tangential component of the electric field is continuous, and with no free surface charge the normal component of the displacement field is continuous as well; combining those two boundary conditions for a field line crossing at angles theta1 and theta2 to the surface normal gives tan(theta1) divided by tan(theta2) equal to the permittivity ratio, so field lines do bend like light entering glass while obeying a tangent law instead of Snell's sines. The reason for the mismatch is that refraction of light is a phase-matching condition on a travelling wave, whereas the electrostatic bending is a boundary condition on a static field, so the two laws agree only in form. That is why field lines of a charge near a water surface kink sharply and why field-line plots across dielectric interfaces are a standard teaching case. In the *Wasteland* setting the electromagnetic theater takes that boundary-condition logic and treats the ambient field as a surface whose local rules can be rewritten, which is fiction rather than an engineering proposal, and it is the same reasoning that the <a href='type2-superlattice-radar.html'>type-II superlattice detection layer</a> turns into a sensing problem.
+
+<p><strong>Related:</strong> <a href="type2-superlattice-radar.html">Type-II Superlattice and Scale-Free Perception</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876226/snells-law-in-electrostatics" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-26 08:42 UTC -->

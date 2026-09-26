@@ -1,0 +1,43 @@
+{
+  "slug": "artificial-kondo-lattice",
+  "question": "Does Newtonian mechanics make claims about how forces are created?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created, 2026-09-24 新帖, 9 points 5 comments",
+  "weight": 50,
+  "relevance": 33,
+  "score": 83,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 9 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8"
+  ],
+  "has_answer": true,
+  "date": "2026-09-26",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "artificial-kondo-lattice",
+      "score": 83,
+      "weight": 50,
+      "relevance": 33,
+      "rank": 1
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 73,
+      "weight": 40,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}
