@@ -1,0 +1,44 @@
+{
+  "slug": "cooperative-resonance-torsion",
+  "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia, 2026-09-23 新帖, 11 points 2 comments",
+  "weight": 50,
+  "relevance": 40,
+  "score": 90,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 11 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(there,different,formulas) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-27",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 90,
+      "weight": 50,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 27,
+      "weight": 10,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}

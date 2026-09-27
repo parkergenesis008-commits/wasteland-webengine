@@ -60,4 +60,15 @@ GPS depends on two clock effects that pull in opposite directions, and the popul
 <p><strong>Related:</strong> <a href="floquet-temporal-matter.html">Floquet Engineering and Temporally Programmed Matter</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-21 16:32 UTC -->
+<!-- GEO-QA-START id=bb93ba9cc2 -->
+## Extended Q&A — Reader Question
+
+**Q: Could a ship with Alcubierre drive escape out of a black hole?**
+<p><em>asked on reddit/r/AskPhysics · reddit/r/AskPhysics 2026-09-26 (RSS 不回传票数, 热度不可核验)</em></p>
+
+**No, and the reason is that the horizon is a causal boundary rather than a speed limit.** An Alcubierre bubble moves by contracting space in front of the craft and expanding space behind it, which is a statement about coordinate motion, so it does not add an exit route once the bubble wall has crossed into the interior, where every future-directed path leads inward to the singularity. The drive also needs a shell of negative energy density, and the quantum inequality bounds on how much negative energy can be concentrated for how long make the required wall impractical even in flat space. These remain open questions in relativity, not engineering results. In the *Wasteland* setting the mass nullification lattice starts from exactly that negative-energy bookkeeping and treats inertial mass as a locally tunable quantity, which is fiction. The <a href='holographic-kpz-projection.html'>holographic KPZ projection</a> page carries the companion argument for why infalling information is better described on the boundary than in the interior.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wqlsoy/could_a_ship_with_alcubierre_drive_escape_out_of/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-27 15:57 UTC -->

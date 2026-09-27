@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-27",
+  "generated": "2026-09-27T02:44:54",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "sources_health": {
+    "script_pool": {
+      "stackexchange": 66,
+      "reddit_rss": 30,
+      "hackernews": 8,
+      "dedup_total": 82,
+      "question_form": 56
+    },
+    "script_errors": [
+      "reddit/r/artificial: HTTP 429",
+      "reddit/r/postapocalyptic: HTTP 429",
+      "hn[AI consciousness]: SSL CERTIFICATE_VERIFY_FAILED",
+      "hn[self-publishing sci-fi]: SSL CERTIFICATE_VERIFY_FAILED"
+    ],
+    "x_search": "2 次检索, 命中若干 X 讨论串 (二级命中, 非平台抓取)",
+    "tiktok_search": "2 次检索, 1 次成功 1 次后端 403 失败; 仅得二手趋势汇总, 无平台级抓取",
+    "direct_url_recheck": "curl 直连 3 条源 URL 全部 403 (Cloudflare 挡非浏览器 UA), 与脚本 02:37 抓取成功不矛盾, 未用代理复测"
+  },
+  "lore_pages_staleness": {
+    "cooperative-resonance-torsion": "1 block, last 2026-09-21",
+    "semi-dirac-mass-nullification": "2 blocks, last 2026-09-21",
+    "obstructed-atomic-phantom-grid": "2 blocks, last 2026-09-21",
+    "floquet-temporal-matter": "2 blocks, last 2026-09-25",
+    "kpz-reality-rendering": "2 blocks, last 2026-09-25",
+    "arena-tripartite-architecture": "2 blocks, last 2026-09-25",
+    "holographic-kpz-projection": "3 blocks (full)",
+    "type2-superlattice-radar": "3 blocks (full)",
+    "artificial-kondo-lattice": "3 blocks (full)",
+    "electromagnetic-theater-override": "3 blocks (full)",
+    "qm-tether-exosuit": "3 blocks (full)"
+  },
+  "entries": [
+    {
+      "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia",
+      "heat": "physics.SE 2026-09-23 新帖, 11 points, 2 comments (当日 physics 票数最高非重复题)",
+      "why": "昨夜 QUEUE 已把它标为今日首选: 公式分歧不是互相矛盾, 而是口径不同 (圆轨道 vs 偏心率增强 f(e), 半长轴 vs 分离度 vs 平均运动), 有 Hulse-Taylor 双星这类实测检验锚点。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 四极辐射下分离度收缩, 偏心率把辐射集中在近星点故有增强因子; 1960 年代经典四极公式与 Hulse-Taylor 脉冲星实测一致, 该工作获 1993 年诺贝尔物理学奖。设定层: 该 lore 页把轨道/潮汐共振写成可设计的能量转移通道, 明确标 fiction。",
+      "use": "qa 注入 cooperative-resonance-torsion (该页 09-21 后 6 天未刷新, 仅 1 个问答块, 最陈旧)"
+    },
+    {
+      "question": "Could a ship with Alcubierre drive escape out of a black hole?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqlsoy/could_a_ship_with_alcubierre_drive_escape_out_of/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 (Reddit RSS 不回传票数, 热度不可核验)",
+      "why": "曲速舱被公众当成'绕开速度上限'的通解, 而事件视界是因果边界不是速度门限; 同时可讲 Alcubierre 1994 的负能量需求与量子不等式这类真实障碍。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层: 视界内所有未来导向路径都指向奇点, 没有可用的出射轨迹; 负能量密度的持续时长受量子不等式限制; 这属于相对论开放问题而非工程提案。设定层: 该页把惯性质量当作局部可调量, 属 fiction, 明写设定层。",
+      "use": "qa 注入 semi-dirac-mass-nullification (09-21 后 6 天未刷新)"
+    },
+    {
+      "question": "What would happen if size of Chip tech reaches atomic size?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqo5sv/what_would_happen_if_size_of_chip_tech_reaches/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 (票数不可核验)",
+      "why": "'缩到原子尺度'是公众对摩尔定律终点的直觉图像, 真实阻碍是隧穿泄漏、工艺变异度与散热, 行业答案已转向三维堆叠与新沟道材料; 与 obstructed-atomic-phantom-grid 页字面同题。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层: 沟道到几纳米量级后源漏隧穿与原子级涨落成为主约束, 器件不是'越小越好'而是受统计与热学夹击。设定层: 该页把原子级缺位晶格写成隐藏电子态的设计几何, 标 fiction。",
+      "use": "明日 qa 首选 (obstructed-atomic-phantom-grid 09-21 后 6 天未刷新, 2/3 块)"
+    },
+    {
+      "question": "Can Single Particles have Entropy?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+      "heat": "physics.SE 2026-09-26 新帖, 2 points, 3 comments",
+      "why": "'熵是单个态的性质还是系综的性质'是热力学定义边界, 量子侧有干净答案 (单一纯态 von Neumann 熵为零, 但与环境纠缠后子系统熵有定义), 科普可读性高。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 熵需要一组可及态或一次粗粒化, 单一孤立纯态给出零熵; Jaynes 主观熵与纠缠熵给出不同但自洽的读数。设定层: 该页把'渲染'读作粗粒化分辨率, 标 fiction。",
+      "use": "科普长答 / lore 内链, 不进今日注入"
+    },
+    {
+      "question": "Is mechanics still workable if we drop inertial frames and just add fictitious forces whenever needed?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876389/is-mechanics-still-workable-if-we-drop-inertial-frames-and-just-add-fictitious-f",
+      "heat": "physics.SE 2026-09-26 新帖, 1 point, 2 comments",
+      "why": "是否必须有惯性系, 决定'竞技场'设定是否有物理地基; 真实答案是可以局部改写但对全局守恒量 (角动量、能量记账) 仍要惯性系或等价结构。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 非惯性系里加惯性力可让 F=ma 局部成立, 但惯性力不满足牛顿第三定律、不产生反作用物体, 全局守恒量定义随之变复杂。设定层: 该页把参考系结构写成可编排的'竞技场', 标 fiction。",
+      "use": "科普长答 / arena 页内链, 不进今日注入"
+    },
+    {
+      "question": "Does Galileo's thought experiment suggest that we can not ever check if absolute space exists?",
+      "source": "stackexchange/physics (同日同题簇 3 帖)",
+      "source_url": "https://physics.stackexchange.com/questions/876386/does-galileos-thought-experiment-suggest-that-we-can-not-ever-check-if-absolute",
+      "heat": "physics.SE 2026-09-26, 同一日 3 帖同题 (876386 / 876393 / 876406), 0 至 -1 分",
+      "why": "同日三帖撞同一概念结, 说明'绝对空间能否被检验'正在回温; 真实层能同时讲清 SR 取消可观测绝对空间, 以及宇宙学里 CMB 静止系确实是一个优选参考系这一微妙处。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 伽利略船内实验说明匀速平移不可测, 狭义相对论把它升级为原理; 但'优选系'在宇宙学层面存在 (CMB 静止系) 且不违反相对性原理。设定层: 该页把参考系当作可切换的舞台, 标 fiction。",
+      "use": "集群追踪 + lore 内链, 若明日仍升温则入 qa"
+    },
+    {
+      "question": "Suche nach dem absoluten Ruhesystem: Warum weicht die moderne Physik der Äther-Frage aus?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqxu80/suche_nach_dem_absoluten_ruhesystem_warum_weicht/",
+      "heat": "reddit/r/AskPhysics 2026-09-26/27 最新帖 (票数不可核验)",
+      "why": "非英语提问, 说明'以太/绝对静止系'是跨语种长尾需求; 与上面三帖构成当日同一主题簇, 可用一个答案吃两个语言市场。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 迈克尔逊-莫雷类实验的零结果加上相对性原理, 使以太成为不可观测的附加结构; 现代物理不是回避问题而是判定该结构无可检验后果。设定层: 该页的参考系编排是 fiction。",
+      "use": "科普长答 (德英双语钩子), 不进今日注入"
+    },
+    {
+      "question": "How fast was the “speed” of cosmic inflation compared to the speed of light?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wq5hrq/how_fast_was_the_speed_of_cosmic_inflation/",
+      "heat": "reddit/r/AskPhysics 2026-09-25 (票数不可核验)",
+      "why": "把膨胀当成'物体在飞'是超光速误解的最大来源; 真实层只需讲清度规膨胀与局部速度上限的区别, 不需要任何虚构数字。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 宇宙膨胀是空间度规的整体标度变化, 退行速度随距离线性增长, 不构成局域超光速; 暴胀的结束机制属于开放研究。设定层: 该页把时空当作可渲染介质, 标 fiction。",
+      "use": "科普长答 / book 轨入口"
+    },
+    {
+      "question": "Does a black hole compress matter to the smallest size possible?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wq4bb3/does_a_black_hole_compress_matter_to_the_smallest/",
+      "heat": "reddit/r/AskPhysics 2026-09-25 (票数不可核验)",
+      "why": "黑洞被想象成'超级压缩器', 真实图景是视界处局部曲率并无异常、内部密度不是良好定义的量, 奇点标志广义相对论失效; 信息以面积计是干净的科普钩子。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层: 视界是因果结构而非物质压紧的结果, 内部奇点说明理论需量子引力修正, 霍金辐射与面积律是真实结果。设定层: 该页把全息投影写成工程化的边界编码, 标 fiction。",
+      "use": "科普长答 / holographic 页内链, 不进今日注入 (该页 3/3 块已满)"
+    },
+    {
+      "question": "Why must geostationary satellites be at the equator?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqmpic/why_must_geostationary_satellites_be_at_the/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 (票数不可核验)",
+      "why": "常见误解是'赤道上空信号更强', 真实原因是轨道平面几何: 倾斜轨道只能同步不能静止, 星下点画八字; 与卫星传感类 lore 页天然衔接。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层: 静止轨道要求轨道平面与赤道面重合、周期等于恒星日、方向与自转同向。设定层: 该页的星座/雷达几何属 fiction, 标设定层。",
+      "use": "科普长答 / type2 页内链"
+    },
+    {
+      "question": "Why is plasma considered the fourth state of matter?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqrw90/why_is_plasma_considered_the_fourth_state_of/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 14:27 (票数不可核验)",
+      "why": "入门常青题, 天然带出'集体行为与德拜屏蔽才是分界'这一真实判据; 与电磁场类 lore 页可自然互链。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层: 等离子体的判据不是'很热'而是准电中性下的集体响应与屏蔽长度尺度, 因此单列一态。设定层: 该页把环境电磁场写成可覆写的舞台, 标 fiction。",
+      "use": "科普长答 / em-theater 页内链 (该页 3/3 块已满, 不进注入)"
+    },
+    {
+      "question": "Could Earth survive two moons?",
+      "source": "tiktok (二手趋势汇总, 无平台级抓取)",
+      "source_url": "https://wokewaves.com/posts/gen-z-science-hypotheticals-what-if-two-moons",
+      "heat": "TikTok 无平台级抓取, 未核验; 该汇总页列出的短视频科学假设题簇 (两个月亮 / 太阳消失 / 地球停转 / 贯穿地心隧道) 常年循环传播",
+      "why": "TikTok 侧的物理假设题天生是引力共振与潮汐话题, 与共振/轨道类 lore 页同题; 但热度来自二手汇总, 不可当平台数据用。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 多卫星系统以共振/潮汐相互作用分配角动量, 额外大质量卫星会改变潮汐与地轴进动; 具体后果依赖质量与轨道参数, 不做无参数断言。设定层: 该页把共振当作可设计通道, 标 fiction。",
+      "use": "短视频引流脚本素材 (TikTok 轨), 不写进 qa 注入"
+    }
+  ],
+  "other_leads": [
+    {
+      "lead": "Probing picosecond depairing currents in type-II superconductors",
+      "source": "hackernews → nature.com",
+      "url": "https://www.nature.com/articles/s41567-026-03469-z",
+      "pts": 3,
+      "map_to": "cooperative-resonance-torsion",
+      "note": "超导库珀对在皮秒尺度被打散的电流实验, 是'相干性有时间上限'的真实证据链; 非提问形态, 作明日 answer_angle 弹药。"
+    },
+    {
+      "lead": "A kernel module for FreeBSD that uses GitHub's downtime as an entropy source",
+      "source": "hackernews → github.com",
+      "url": "https://github.com/DominoTree/ghrandom",
+      "pts": 2,
+      "map_to": "kpz-reality-rendering",
+      "note": "当日 HN 出现熵主题簇 (密码学 53 bits / 熵即备用容量 / Landauer 推导), 与'噪声即资源'设定同源; 非提问形态。"
+    },
+    {
+      "lead": "X 讨论串: Floquet-pumped space-time metamaterials 被当作 UAP 推进原理",
+      "source": "x.com (经 web_search 间接命中, 非平台抓取)",
+      "url": "https://x.com/JackSarfatti/status/1988472516877369356",
+      "pts": null,
+      "map_to": "floquet-temporal-matter",
+      "note": "讨论串把 Floquet 泵浦时空超材料、Poincaré 规范理论、torsion 真空串成 UAP 推进叙事; 是该 lore 页最直接的公众检索入口, 但帖子时间不在当日, 只作选题线索。"
+    },
+    {
+      "lead": "X/reddit 讨论: 轨道数据中心散热 (Stefan-Boltzmann 辐射面积)",
+      "source": "x.com (经 web_search 间接命中)",
+      "url": "https://x.com/XFreeze/status/2066611588761862510",
+      "pts": null,
+      "map_to": "type2-superlattice-radar",
+      "note": "太空算力散热是 2026 年硬科技热点, 物理层只有辐射定律一项, 工程量全在散热面积与液冷回路; 非提问形态。"
+    },
+    {
+      "lead": "reddit/r/singularity: 称某前沿模型独立完成九圈粒子物理计算",
+      "source": "reddit/r/singularity",
+      "url": "https://www.reddit.com/r/singularity/comments/1wqa2u2/claude_fable_51_completed_a_frontier_nineloop/",
+      "pts": null,
+      "map_to": "semi-dirac-mass-nullification",
+      "note": "线程主张, 未做任何第三方核验, 本文件不作事实引用; 仅记录 AI+物理读者关注度。引用时必须以'thread claims'表述。"
+    }
+  ]
+}
