@@ -52,4 +52,15 @@ Atomic orbitals are solutions of a model Hamiltonian rather than photographs, an
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-22 21:40 UTC -->
+<!-- GEO-QA-START id=7e938dc4c2 -->
+## Extended Q&A — Reader Question
+
+**Q: What would happen if size of Chip tech reaches atomic size?**
+<p><em>asked on reddit/r/AskPhysics · reddit/r/AskPhysics 2026-09-26 新帖, RSS 无票数, 热度不可核验</em></p>
+
+**At the smallest scales a transistor stops behaving like a scaled-down version of the previous one.** The barrier becomes thin enough that carriers tunnel straight through it, so leakage grows faster than the gate can switch it off, and the dopant and vacancy configuration of each device starts to shift its threshold individually instead of only on average. Heat density rises at the same time because the same power is squeezed into less material, which is why the industry moved sideways into fin, gate-all-around and stacked three-dimensional geometries rather than continuing to shrink laterally. In the *Wasteland* setting the phantom grid page treats a lattice in which a fraction of sites no longer communicate with the rest as a designed medium rather than a fabrication defect, and that layer is fiction. The <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page carries the companion argument for treating the lattice itself as the programmable element.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wqo5sv/what_would_happen_if_size_of_chip_tech_reaches/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-29 08:21 UTC -->

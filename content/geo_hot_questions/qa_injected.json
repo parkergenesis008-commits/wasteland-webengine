@@ -120,9 +120,9 @@
   },
   "3154f869e5": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-21T16:32:22.528078",
+    "ts": "2026-09-29T08:21:34.320378",
     "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-19.json"
   },
   "ee9aa3f603": {
@@ -141,7 +141,7 @@
   },
   "ecbc6abd52": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-25T08:41:40.068060",
+    "ts": "2026-09-29T08:21:34.321819",
     "question": "Are astronauts permanently tethered during an EVA?",
     "pruned": 1,
     "src": "qa_2026-09-25.json"
@@ -208,5 +208,47 @@
     "question": "Could a ship with Alcubierre drive escape out of a black hole?",
     "pruned": 0,
     "src": "qa_2026-09-27.json"
+  },
+  "69da7c73fd": {
+    "slug": "arena-tripartite-architecture",
+    "ts": "2026-09-29T08:21:34.318896",
+    "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force",
+    "pruned": 0,
+    "src": "qa_2026-09-29.json"
+  },
+  "7e938dc4c2": {
+    "slug": "obstructed-atomic-phantom-grid",
+    "ts": "2026-09-29T08:21:34.323016",
+    "question": "What would happen if size of Chip tech reaches atomic size?",
+    "pruned": 0,
+    "src": "qa_2026-09-28.json"
+  },
+  "6678e45d70": {
+    "slug": "kpz-reality-rendering",
+    "ts": "2026-09-29T08:21:34.324089",
+    "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+    "pruned": 0,
+    "src": "qa_2026-09-28.json"
+  },
+  "130d6a68cb": {
+    "slug": "floquet-temporal-matter",
+    "ts": "2026-09-29T08:21:34.325002",
+    "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
+    "pruned": 0,
+    "src": "qa_2026-09-28.json"
+  },
+  "ef71b325c3": {
+    "slug": "cooperative-resonance-torsion",
+    "ts": "2026-09-29T08:21:34.326780",
+    "question": "Unstable moon resonance",
+    "pruned": 0,
+    "src": "qa_2026-09-28.json"
+  },
+  "9f97b186e5": {
+    "slug": "cooperative-resonance-torsion",
+    "ts": "2026-09-29T08:21:34.327782",
+    "question": "Merging Planets",
+    "pruned": 1,
+    "src": "qa_2026-09-29.json"
   }
 }

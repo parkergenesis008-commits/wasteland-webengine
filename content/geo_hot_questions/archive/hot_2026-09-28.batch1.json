@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-28",
+  "generated": "2026-09-28T02:46:13",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "sources_health": {
+    "script_pool": {
+      "stackexchange": 66,
+      "reddit_rss": 24,
+      "hackernews": 9,
+      "questions": 55,
+      "total": 80
+    },
+    "script_errors": [
+      "reddit/r/singularity: HTTPError HTTP Error 429: Too Many Requests",
+      "reddit/r/collapse: HTTPError HTTP Error 429: Too Many Requests",
+      "hn[civilization collapse]: URLError <urlopen error timed out>"
+    ],
+    "x_search": "3 次检索: 命中 X 帖子均为 2026-07-16 至 2026-08-05 区间 (IonQ 量子引力、QuantumPapers 等) 或无日期串, 无 2026-09-27/28 当日可核验热帖, 不编造",
+    "tiktok_search": "2 次检索: 1 次返回泛化科普视频(无当日时间戳与播放数据), 第 2 次后端 403 失败; 无平台级抓取",
+    "direct_url_recheck": "SE 官方 API 复核 physics.SE 876407 存在(score 6, 0 答案); reddit 源 URL 直连与代理 7897 均 403 反爬壳(伪 ID 同码), 未判死, 与脚本 02:38 RSS 抓取成功不矛盾",
+    "dedupe_note": "12 条均未出现在历史 qa_*.json(历史已注入 URL 30 条); 今日池内票数最高的 GPS 题(876009, 17 分)因 09-19 已注入而剔除"
+  },
+  "lore_pages_staleness": {
+    "artificial-kondo-lattice": "1d since last injection (2026-09-26)",
+    "floquet-temporal-matter": "2d since last injection (2026-09-25)",
+    "semi-dirac-mass-nullification": "0d since last injection (2026-09-27)",
+    "qm-tether-exosuit": "0d since last injection (2026-09-27)",
+    "arena-tripartite-architecture": "2d since last injection (2026-09-25)",
+    "obstructed-atomic-phantom-grid": "6d since last injection (2026-09-21)",
+    "holographic-kpz-projection": "2d since last injection (2026-09-25)",
+    "kpz-reality-rendering": "2d since last injection (2026-09-25)",
+    "type2-superlattice-radar": "2d since last injection (2026-09-25)",
+    "electromagnetic-theater-override": "0d since last injection (2026-09-27)",
+    "cooperative-resonance-torsion": "0d since last injection (2026-09-27)"
+  },
+  "entries": [
+    {
+      "question": "Merging Planets",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274569/merging-planets",
+      "heat": "stackexchange/worldbuilding 2026-09-16 新帖, 9 points 6 comments",
+      "why": "行星合并是巨型撞击场景, 真实物理给的是角动量守恒、逃逸速度与撞击能量分配(熔化、喷出物、可能形成卫星), 不是\"两颗球黏在一起\"。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 撞击结果由角动量、撞击参数与引力束缚能共同决定; 月球形成的大碰撞假说是主流框架, 完全合并需要耗散掉大量轨道能量。设定层: 该页把轨道/潮汐共振写成可工程化的能量通道, fiction。",
+      "use": "备用 (cooperative-resonance-torsion 页 09-27 刚注入)"
+    },
+    {
+      "question": "The relationship between normal, mechanical and thermodynamic pressure",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876239/the-relationship-between-normal-mechanical-and-thermodynamic-pressure",
+      "heat": "stackexchange/physics 2026-09-21 新帖, 6 points 1 comments",
+      "why": "三个同名\"压力\"混用是典型概念题: 力学压强、热力学压强(状态方程)与各向异性应力张量在非平衡或稀薄流中不再相等。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层: 热力学压强由状态方程定义, 力学压强是应力张量的各向同性部分, 两者在非平衡/稀薄气体中会出现差异; 纳维-斯托克斯方程里的压强正是各向同性部分。设定层: 该页把周期驱动下的非平衡介质写成可制备材料, fiction。",
+      "use": "备用 (floquet-temporal-matter 页 09-25 后未刷新, 2 块, 有余量)"
+    },
+    {
+      "question": "How would the human body change after 500 years in a confined area with artificial light?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274623/how-would-the-human-body-change-after-500-years-in-a-confined-area-with-artifici",
+      "heat": "stackexchange/worldbuilding 2026-09-24 新帖, 5 points 3 comments",
+      "why": "长期封闭加人工光照的生理后果(昼夜节律授时、维生素 D、骨密度、微生物组漂移)在真实空间医学里有对应研究, 是\"设定需要真实依据\"的典型。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层: 昼夜节律靠光周期授时, 长期缺乏会导致睡眠与激素节律漂移; 封闭环境改变空气微生物组, 失重导致骨密度下降。设定层: 该页把系绳/外骨骼写成生命保障通道, fiction。",
+      "use": "备用 (qm-tether-exosuit 页 09-27 刚注入)"
+    },
+    {
+      "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+      "heat": "stackexchange/physics 2026-09-26 新帖, 4 points 2 comments",
+      "why": "牛顿力学的几何化表述把\"惯性系\"降级为仿射结构, 是理解绝对空间争议的现代讲法; 概念澄清题长尾稳。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 牛顿-嘉当型几何表述用伽利略结构给出无引力牛顿力学, 惯性系在该框架里不再是基本对象。设定层: 该页把时空几何当作可渲染的层, fiction。",
+      "use": "备用 (与今日 NS 题同页; kpz-reality-rendering 09-25 后未刷新)"
+    },
+    {
+      "question": "How can the heat death of the Universe be undone via random thermodynamic/quantum fluctuations?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876413/how-can-the-heat-death-of-the-universe-be-undone-via-random-thermodynamic-quantu",
+      "heat": "stackexchange/physics 2026-09-27 新帖, 3 points 1 comments",
+      "why": "\"热寂能否被涨落撤销\"在统计力学里有明确框架: 涨落定理、庞加莱回归与相空间是否有限; 属可讲透且不掺水的硬问题。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层: 微观可逆性与涨落定理允许局部熵减, 庞加莱回归只对有限相空间成立, 宇宙是否满足该前提尚无定论, 也无法量化到可操作时间。设定层: 该页把时空与信息写成可投影计算的边界描述, fiction。",
+      "use": "备用 (holographic-kpz-projection 页 09-25 后未刷新, 已满 3 块, 注入会淘汰最旧块)"
+    },
+    {
+      "question": "Probing picosecond depairing currents in type-II superconductors",
+      "source": "hn",
+      "source_url": "https://www.nature.com/articles/s41567-026-03469-z",
+      "heat": "hn 2026-09-24 新帖, 10 points 5 comments — 原始文献 nature.com, HN 讨论串",
+      "why": "配对破坏电流与临界电流密度是\"超导能否当雷达/武器电源\"这类设定的真实门槛, 皮秒级测量属实验前沿。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层: 电流密度超过临界值后库珀对被拆散, 材料回到有阻态; 该实验给出配对破坏的时间尺度, 是器件功率上限的物理依据。设定层: 该页把超晶格当成可编程探测阵列, fiction。",
+      "use": "备用 (type2-superlattice-radar 页 09-25 后未刷新, 已满 3 块)"
+    },
+    {
+      "question": "Could liquid sulfur dioxide oceans exist on a carbon based planet?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274617/could-liquid-sulfur-dioxide-oceans-exist-on-a-carbon-based-planet",
+      "heat": "stackexchange/worldbuilding 2026-09-23 新帖, 2 points 1 comments",
+      "why": "液态二氧化硫海洋的可行性由压强-温度剖面与挥发收支决定, 硫化学还会控制大气与表面分层, 是\"层状行星\"的真实素材。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 溶剂海洋的稳定由相图与大气收支决定; 硫氧化物在水中歧化, 故 SO2 海洋与液态水难以共存; 木卫一的 SO2 霜层与金星硫循环是真实参照。设定层: 该页把多层结构写成三方制衡的竞技场架构, fiction。",
+      "use": "备用 (arena-tripartite-architecture 页 09-25 后未刷新, 2 块, 有余量)"
+    },
+    {
+      "question": "Can chemical hydrogen- and carbon-containing propellants be mixed with uranium fission fragments and a thermal-neutron environment?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70704/can-chemical-hydrogen-and-carbon-containing-propellants-be-mixed-with-uranium-f",
+      "heat": "stackexchange/space 2026-09-16 新帖 (RSS 无票数, 热度不可核验) — 票数为 0, 热度低",
+      "why": "把裂变碎片动能直接混入化学推进剂是核热推进的变体问法, 真实约束是质量亏损对应的能量上限与中子环境材料学。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层: 裂变释能来自质量亏损, 碎片把能量沉积给工质; 混合化学推进剂会改变比冲、堆芯材料与产物污染约束。设定层: 该页把惯性质量写成局部可调量, fiction。",
+      "use": "备用 (semi-dirac-mass-nullification 页 09-27 刚注入; 热度低, 仅作素材)"
+    },
+    {
+      "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier",
+      "heat": "stackexchange/physics 2026-09-26 新帖, 6 points 0 comments — SE 官方 API 复核存在, score 6, 0 答案",
+      "why": "2026-09-08 两条流体奇点构造同日发布并附 Lean 形式化 (OpenAI 的带强迫 Clay 分支 C/D 情形, Buckmaster 与 Alpöge 的强迫 Euler/Boussinesq/多孔介质), 追问\"实际要多久\"正好引出量纲与尺度不变性。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 方程无内禀时间尺度, 时间由初值决定; 已公布构造均带光滑外力, 属 Clay 表述的 breakdown 分支, 无外力正则性问题仍未决且结果尚在独立复核; 真实流体在连续介质描述失效的分子尺度被黏性与平均自由程截断。设定层: 该页把随机增长方程当作现实渲染层, fiction。",
+      "use": "qa 注入 kpz-reality-rendering, 内链 floquet-temporal-matter"
+    },
+    {
+      "question": "What would happen if size of Chip tech reaches atomic size?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqo5sv/what_would_happen_if_size_of_chip_tech_reaches/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 新帖 (RSS 无票数; 今日轮转未含 r/AskPhysics, 该条取自 raw_2026-09-27.json)",
+      "why": "QUEUE 09-27 点名的今日注入首选: 原子尺度缩放的墙是隧穿泄漏、原子级变异度与散热, 行业已转三维堆叠, 属真实器件物理。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层: 势垒变薄后直接隧穿使泄漏增长快于栅控, 掺杂与空位涨落让每个器件阈值单独漂移, 功率密度同时上升, 故产业转向鳍式、环绕栅与三维堆叠。设定层: 该页把一部分格点不再与其余格点通信的晶格写成可设计介质, fiction。",
+      "use": "qa 注入 obstructed-atomic-phantom-grid (该页 09-21 后未刷新, 全站最陈旧), 内链 artificial-kondo-lattice"
+    },
+    {
+      "question": "What are chinese labs doing differently?",
+      "source": "reddit/r/artificial",
+      "source_url": "https://www.reddit.com/r/artificial/comments/1wrm4kg/what_are_chinese_labs_doing_differently/",
+      "heat": "reddit/r/artificial 2026-09-27 新帖 (RSS 无票数, 热度不可核验)",
+      "why": "AI/未来学受众精准, 但只能讲可核验差异(开源权重发布节奏、算力获取、训练数据处理), 不做国别优劣论断。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层: 可核验差别多在开源权重节奏、算力与数据管道, 具体归因要看论文与模型卡, 不能靠印象。设定层: 该页把晶格当作可编程计算基底, fiction。",
+      "use": "社交引流 (artificial-kondo-lattice 页 09-26 已注入, 2 天后可再用)"
+    },
+    {
+      "question": "What will you wear during the Zombie apocalypse?",
+      "source": "reddit/r/postapocalyptic",
+      "source_url": "https://www.reddit.com/r/postapocalyptic/comments/1wr6nw7/what_will_you_wear_during_the_zombie_apocalypse/",
+      "heat": "reddit/r/postapocalyptic 2026-09-27 新帖 (RSS 无票数, 热度不可核验)",
+      "why": "后启示录受众与书的读者群完全重叠, 服装/装备类问题互动率高, 是最直接的 book.html 引流面。",
+      "map_to": "book",
+      "answer_angle": "真实层: 低温、辐射与污染环境下的防护有真实标准(分层、化学防护、密封性), 但\"僵尸\"本身是虚构前提, 不当作真实讨论。设定层: 直接引 book.html, 不编造书中细节。",
+      "use": "社交引流 (book.html 直接转化)"
+    }
+  ]
+}

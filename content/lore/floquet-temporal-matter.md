@@ -54,4 +54,15 @@ Temperature is not a property of a particle, it is a property of a *distribution
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://pubs.acs.org/jpclcd/article-abstract/16/5/1397/3742503/Deriving-the-Landauer-Principle-From-the-Quantum?redirectedFrom=fulltext" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-25 08:41 UTC -->
+<!-- GEO-QA-START id=130d6a68cb -->
+## Extended Q&A — Reader Question
+
+**Q: A photon bouncing between two moving mirrors: does one mirror charge the other?**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-23 新帖, 7 points 3 answers 974 views (SE 官方 API 复核)</em></p>
+
+**A mirror never hands over electric charge; the only currency between light and a mirror is momentum and energy.** Reflection reverses the photon's momentum, so each bounce delivers twice the photon momentum to the mirror, the same radiation pressure that pushes a fully reflective sail with roughly 9 micronewtons per square metre at Earth's distance from the Sun. A moving mirror makes that exchange asymmetric in the lab frame, because the photon is Doppler shifted: a mirror advancing on the light gains energy from it, a receding one gives energy up, and an accelerated mirror can pull photons out of the vacuum as the dynamical Casimir effect, measured in a superconducting circuit in 2011 (Nature 479, 376). In the two carts of the question the mirrors and the photon share one conserved total momentum, so any force felt by one mirror is balanced by the other and neither accumulates charge. In the *Wasteland* setting the <a href='cooperative-resonance-torsion.html'>Cooperative Resonance and Torsion Compression</a> page extends driven media into a programming layer for matter, and that layer is fiction rather than a claim about laboratory mirrors.
+
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-29 08:21 UTC -->

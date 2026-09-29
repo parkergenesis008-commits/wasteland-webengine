@@ -1,0 +1,43 @@
+{
+  "slug": "arena-tripartite-architecture",
+  "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha, 2026-09-17 新帖, 10 points 4 answers 1150 views, SE API 复核",
+  "weight": 50,
+  "relevance": 32,
+  "score": 82,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 10 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "问题关键词命中 lore(relativistic,effects,mercury) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-09-29",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "arena-tripartite-architecture",
+      "score": 82,
+      "weight": 50,
+      "relevance": 32,
+      "rank": 1
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 65,
+      "weight": 40,
+      "relevance": 25,
+      "rank": 2
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}

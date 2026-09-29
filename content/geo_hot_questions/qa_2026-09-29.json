@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-29",
+  "entries": [
+    {
+      "slug": "arena-tripartite-architecture",
+      "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha",
+      "heat": "10 points, 4 answers, 1150 views",
+      "answer_md": "Most of the perihelion advance can be fitted inside Newtonian mechanics: add a small extra term to the force law, a 1/r^3 correction for instance, and a first-order perturbation of the orbit produces a steady precession whose size you can tune to the observed 43 arcseconds per century. **What such a fit cannot do is explain anything else.** The same curved spacetime that produces the Mercury precession also bends light by the observed amount, redshifts clocks and lets close binaries lose orbital energy to gravitational waves, while a modified Newtonian law has to introduce each of those effects separately and still cannot say what creates the extra term. It also keeps gravity instantaneous, which conflicts with a finite speed of light, and it gives no reason for the correction to have exactly the size Mercury needs. A modified force law is therefore a fit to one number, not a theory of the orbit. On this page the added term is written as an engineered correction to a synthetic metric, and that part is fiction.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "question": "Merging Planets",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274569/merging-planets",
+      "heat": "9 points, 6 answers, 1498 views",
+      "answer_md": "Two bodies merge when their relative speed at contact stays below the speed needed to escape each other; above that they part again or break up, so accretion between growing planets is a mix of merging and erosion rather than a clean weld. **Angular momentum decides the shape of the outcome.** A near head-on hit mostly deforms and heats the pair and can leave one body largely intact, while an off-center hit spreads the debris into a disk because the pair cannot shed its spin into a single object, which is the standard picture behind the Moon-forming giant impact. The energy is not lost in the merge: it goes into heat, deformation and orbital motion, so a merged planet arrives hot and re-differentiated rather than simply doubled in mass. On this page, draining orbital energy through a cooperative resonance channel instead of tides and impacts is described as an engineered effect, and that is fiction.",
+      "links": [
+        "arena-tripartite-architecture"
+      ]
+    }
+  ]
+}

@@ -97,17 +97,6 @@ Switching between modes requires recalibrating the torsion oscillator's phase-lo
 ## 6. Conclusion: Defect as the Engine
 The hardest topological cage confines the most violent gravitational fluctuations. Systemic imperfections are the longest levers for prying apart the physical laws of the universe within the Reality-as-Code architecture.
 
-<!-- GEO-QA-START id=34bfb5959a -->
-## Extended Q&A — Reader Question
-
-**Q: Can I avoid having my planet become tidally locked to its star so quickly?**
-<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-18, 5 points, 3 comments</em></p>
-
-Tidal locking is a timescale rather than a rule, and the standard estimate scales roughly as the sixth power of the orbital separation and with how efficiently the body dissipates tidal energy, so moving the planet outward or making it less dissipative buys a great deal of time. Locking also does not have to finish at one rotation per orbit: Mercury sits in a 3:2 spin-orbit resonance, and eccentricity plus a permanent shape can capture a body into a higher-order resonance instead of synchronous rotation. A thick atmosphere can push the other way through thermal tides, one of the mechanisms invoked for the slow retrograde spin of Venus, so the honest answer is that the final rotation state is a competition between tidal torque, resonance capture and atmospheric driving. In this project's setting the same competition appears as cooperative resonance among coupled nodes under a torsion gradient, where the synchronous response is engineered instead of waited out; that layer is fiction, while the orbital mechanics above is not. The neighbouring idea of engineering the coupling rather than the orbit is developed on <a href="artificial-kondo-lattice.html">the artificial Kondo lattice page</a>.
-
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274588/can-i-avoid-having-my-planet-become-tidally-locked-to-its-star" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=fe93a21260 -->
 ## Extended Q&A — Reader Question
 
@@ -119,4 +108,26 @@ Tidal locking is a timescale rather than a rule, and the standard estimate scale
 <p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-27 15:57 UTC -->
+<!-- GEO-QA-START id=ef71b325c3 -->
+## Extended Q&A — Reader Question
+
+**Q: Unstable moon resonance**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-18 新帖, 0 points 3 answers 113 views (SE 官方 API 复核)</em></p>
+
+**Resonance does not decide an orbit by itself; it decides how efficiently the two bodies can trade energy.** A mean-motion resonance can lock a system into a stable repeating pattern, as in the Laplace resonance of Io, Europa and Ganymede, or it can pump eccentricity until neighbouring resonances overlap and the orbit turns chaotic. Steady orbital decay is normally tidal rather than resonant: laser ranging to the retroreflectors left by Apollo measures the Moon receding at about 3.8 centimetres per year (Science 265, 482, 1994). The two effects compound, because eccentricity feeds tidal dissipation, so capture into a resonance can finish a decay that tides alone would take far longer to complete, which makes the plot device physically available. In the *Wasteland* setting the <a href='semi-dirac-mass-nullification.html'>Semi-Dirac State and Directional Mass Nullification</a> page follows mass modulation inside a crystal lattice, and that is fiction, not orbital mechanics.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274585/unstable-moon-resonance" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- GEO-QA-START id=9f97b186e5 -->
+## Extended Q&A — Reader Question
+
+**Q: Merging Planets**
+<p><em>asked on stackexchange/worldbuilding · 9 points, 6 answers, 1498 views</em></p>
+
+Two bodies merge when their relative speed at contact stays below the speed needed to escape each other; above that they part again or break up, so accretion between growing planets is a mix of merging and erosion rather than a clean weld. **Angular momentum decides the shape of the outcome.** A near head-on hit mostly deforms and heats the pair and can leave one body largely intact, while an off-center hit spreads the debris into a disk because the pair cannot shed its spin into a single object, which is the standard picture behind the Moon-forming giant impact. The energy is not lost in the merge: it goes into heat, deformation and orbital motion, so a merged planet arrives hot and re-differentiated rather than simply doubled in mass. On this page, draining orbital energy through a cooperative resonance channel instead of tides and impacts is described as an engineered effect, and that is fiction.
+
+<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274569/merging-planets" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-29 08:21 UTC -->

@@ -56,4 +56,15 @@ A persistent ring of *gas* in orbit is a different object from an atmosphere: or
 <p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876288/intuitive-analogy-for-the-kerr-metric-can-we-model-the-event-horizon-as-a-rotat" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-25 08:41 UTC -->
+<!-- GEO-QA-START id=69da7c73fd -->
+## Extended Q&A — Reader Question
+
+**Q: Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?**
+<p><em>asked on stackexchange/physics · 10 points, 4 answers, 1150 views</em></p>
+
+Most of the perihelion advance can be fitted inside Newtonian mechanics: add a small extra term to the force law, a 1/r^3 correction for instance, and a first-order perturbation of the orbit produces a steady precession whose size you can tune to the observed 43 arcseconds per century. **What such a fit cannot do is explain anything else.** The same curved spacetime that produces the Mercury precession also bends light by the observed amount, redshifts clocks and lets close binaries lose orbital energy to gravitational waves, while a modified Newtonian law has to introduce each of those effects separately and still cannot say what creates the extra term. It also keeps gravity instantaneous, which conflicts with a finite speed of light, and it gives no reason for the correction to have exactly the size Mercury needs. A modified force law is therefore a fit to one number, not a theory of the orbit. On this page the added term is written as an engineered correction to a synthetic metric, and that part is fiction.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-29 08:21 UTC -->

@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-28",
+  "entries": [
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "question": "What would happen if size of Chip tech reaches atomic size?",
+      "source": "reddit/r/AskPhysics",
+      "source_url": "https://www.reddit.com/r/AskPhysics/comments/1wqo5sv/what_would_happen_if_size_of_chip_tech_reaches/",
+      "heat": "reddit/r/AskPhysics 2026-09-26 新帖, RSS 无票数, 热度不可核验",
+      "answer_md": "**At the smallest scales a transistor stops behaving like a scaled-down version of the previous one.** The barrier becomes thin enough that carriers tunnel straight through it, so leakage grows faster than the gate can switch it off, and the dopant and vacancy configuration of each device starts to shift its threshold individually instead of only on average. Heat density rises at the same time because the same power is squeezed into less material, which is why the industry moved sideways into fin, gate-all-around and stacked three-dimensional geometries rather than continuing to shrink laterally. In the *Wasteland* setting the phantom grid page treats a lattice in which a fraction of sites no longer communicate with the rest as a designed medium rather than a fabrication defect, and that layer is fiction. The <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page carries the companion argument for treating the lattice itself as the programmable element.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "kpz-reality-rendering",
+      "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier",
+      "heat": "physics.SE 2026-09-26 新帖, 6 points 0 answers (SE 官方 API 复核存在)",
+      "answer_md": "**The equations carry no built-in clock, so the blowup time is set by the initial data rather than by the singularity itself.** In the constructions announced on 8 September 2026 the breakdown time is whatever the chosen smooth data dictate, and the Navier-Stokes results assume a smooth applied force, which is the breakdown branch of the Clay formulation rather than the harder unforced regularity question; that unforced case is still open and the claimed results are still going through independent review. In a physically real fluid the continuum description fails before the mathematics gets there, because viscosity together with the finite molecular scale regularise the flow at the smallest scales, so no real flow reaches infinite velocity. In the *Wasteland* setting the kpz reality rendering page uses a stochastic growth equation as the rendering layer for visible reality, which is fiction rather than a claim about fluid dynamics. The <a href='floquet-temporal-matter.html'>Floquet temporal matter</a> page is the companion page that treats driven non-equilibrium media in the same speculative register.",
+      "links": [
+        "floquet-temporal-matter"
+      ]
+    },
+    {
+      "slug": "floquet-temporal-matter",
+      "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other",
+      "heat": "physics.SE 2026-09-23 新帖, 7 points 3 answers 974 views (SE 官方 API 复核)",
+      "answer_md": "**A mirror never hands over electric charge; the only currency between light and a mirror is momentum and energy.** Reflection reverses the photon's momentum, so each bounce delivers twice the photon momentum to the mirror, the same radiation pressure that pushes a fully reflective sail with roughly 9 micronewtons per square metre at Earth's distance from the Sun. A moving mirror makes that exchange asymmetric in the lab frame, because the photon is Doppler shifted: a mirror advancing on the light gains energy from it, a receding one gives energy up, and an accelerated mirror can pull photons out of the vacuum as the dynamical Casimir effect, measured in a superconducting circuit in 2011 (Nature 479, 376). In the two carts of the question the mirrors and the photon share one conserved total momentum, so any force felt by one mirror is balanced by the other and neither accumulates charge. In the *Wasteland* setting the <a href='cooperative-resonance-torsion.html'>Cooperative Resonance and Torsion Compression</a> page extends driven media into a programming layer for matter, and that layer is fiction rather than a claim about laboratory mirrors.",
+      "links": [
+        "cooperative-resonance-torsion"
+      ]
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "question": "Unstable moon resonance",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274585/unstable-moon-resonance",
+      "heat": "worldbuilding.SE 2026-09-18 新帖, 0 points 3 answers 113 views (SE 官方 API 复核)",
+      "answer_md": "**Resonance does not decide an orbit by itself; it decides how efficiently the two bodies can trade energy.** A mean-motion resonance can lock a system into a stable repeating pattern, as in the Laplace resonance of Io, Europa and Ganymede, or it can pump eccentricity until neighbouring resonances overlap and the orbit turns chaotic. Steady orbital decay is normally tidal rather than resonant: laser ranging to the retroreflectors left by Apollo measures the Moon receding at about 3.8 centimetres per year (Science 265, 482, 1994). The two effects compound, because eccentricity feeds tidal dissipation, so capture into a resonance can finish a decay that tides alone would take far longer to complete, which makes the plot device physically available. In the *Wasteland* setting the <a href='semi-dirac-mass-nullification.html'>Semi-Dirac State and Directional Mass Nullification</a> page follows mass modulation inside a crystal lattice, and that is fiction, not orbital mechanics.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    }
+  ]
+}

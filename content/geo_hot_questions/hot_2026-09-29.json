@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-29",
+  "generated": "2026-09-29T02:41:31",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "sources_health": {
+    "script_pool": {
+      "stackexchange": 66,
+      "reddit_rss": 16,
+      "hackernews": 9,
+      "dedup_total": 70,
+      "question_form": 45
+    },
+    "script_errors": [
+      "reddit/r/collapse: HTTP 429 Too Many Requests",
+      "reddit/r/selfpublish: HTTP 429 Too Many Requests"
+    ],
+    "se_api_verified": 45,
+    "x_tiktok": {
+      "x": "2 次检索: 1 次命中 (2 条 X 讨论串, 其中 1 条日期为 2026-09-24, 非同行评议、含未经证实的数值预测, 仅作选题信号, 未采纳其任何数值), 第 2 次检索后端 403",
+      "tiktok": "2 次检索均无平台级抓取, 只有二手趋势汇总页, 未编造任何帖子"
+    }
+  },
+  "lore_pages_staleness": {
+    "artificial-kondo-lattice": "3 block(s), last injected 2026-09-26",
+    "floquet-temporal-matter": "2 block(s), last injected 2026-09-25",
+    "semi-dirac-mass-nullification": "3 block(s), last injected 2026-09-27",
+    "qm-tether-exosuit": "3 block(s), last injected 2026-09-27",
+    "arena-tripartite-architecture": "2 block(s), last injected 2026-09-25",
+    "obstructed-atomic-phantom-grid": "2 block(s), last injected 2026-09-21",
+    "holographic-kpz-projection": "3 block(s), last injected 2026-09-25",
+    "kpz-reality-rendering": "2 block(s), last injected 2026-09-25",
+    "type2-superlattice-radar": "3 block(s), last injected 2026-09-25",
+    "electromagnetic-theater-override": "3 block(s), last injected 2026-09-27",
+    "cooperative-resonance-torsion": "2 block(s), last injected 2026-09-27"
+  },
+  "pending_injection_note": "09-28 的 qa 文件尚未被守护进程注入 (下一次部署约 08:21 09-29), 待注入页: obstructed-atomic-phantom-grid, kpz-reality-rendering, floquet-temporal-matter, cooperative-resonance-torsion",
+  "entries": [
+    {
+      "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha",
+      "heat": "physics.SE 2026-09-17 新帖, 10 points, 4 answers, 1150 views (SE API 复核)",
+      "why": "票数最高的非重复题之一; 提问者想让牛顿力学靠改力律追上广义相对论, 是检验\"拟合 vs 解释\"的好材料; arena 页承载度规/几何这条线, 且是 11 个目标页里唯一还有空位的页 (2/3 块), 注入不淘汰旧块。该题 09-25 曾进策展清单但未注入, 今日重新核对热度后选为注入首选。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 加一个 1/r^3 形式的额外项就能通过一阶轨道微扰产生长期进动, 常数可按观测调, 所以\"能拟合\"; 但同一个额外项解释不了光线偏折、引力红移、密近双星轨道能量损失, 还要为它单独编造一个来源, 且保留瞬时超距作用与有限光速矛盾。设定层: 该页把度规里的附加项写成可工程化的几何修正, 明确标 fiction。",
+      "use": "今日 qa 注入首选, 注入 arena-tripartite-architecture 页 (唯一空位页, 无淘汰)"
+    },
+    {
+      "question": "Merging Planets",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274569/merging-planets",
+      "heat": "worldbuilding.SE 2026-09-16 新帖, 9 points, 6 answers, 1498 views (SE API 复核, 今日池浏览量最高)",
+      "why": "今日池中浏览量最高且 6 个回答, 讨论热; 并合是最原始的轨道能量耗散问题, 与 CRT 页的轨道共振/耗散线同题。该题 09-28 批次 1 已策展未注入, 今日选为第二条注入。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: 接触时相对速度低于互相的逃逸速度才会并合, 高于则分离或碎裂; 角动量必须守恒, 所以偏心碰撞只能把碎屑留成盘, 月球形成的巨大撞击是标准例子; 碰撞能量变成形变与热, 并合后的天体是重熔分异过的。设定层: 该页把轨道能量经\"协同共振\"通道抽走写成可设计的效应, fiction。",
+      "use": "今日 qa 注入第二条, 注入 cooperative-resonance-torsion 页 (该页将达 3 块上限, 淘汰最旧块)"
+    },
+    {
+      "question": "How Would We Determine if We Travelled Faster Than Light?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876430/how-would-we-determine-if-we-travelled-faster-tha",
+      "heat": "physics.SE 2026-09-28 新帖, -1 points, 5 answers, 114 views (SE API 复核, 票数为负但讨论活跃)",
+      "why": "新题且 5 个回答, 问题本身就是\"怎么知道\", 属可操作判据题; 与 semi-dirac 页的方向性质/有效质量极限同题。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层: 局部任何测量都测不出超光速, 因为速度是相对的、同时性是约定的; 要判断只能在外部用独立标定的钟与尺建立事件次序, 而任何真正的超光速信号都会与狭义相对论结合出闭因果环, 那才是可观测的判据; 目前没有超光速传播的观测证据。设定层: 该页把\"某一方向有效质量归零\"写成设定, 属 fiction。",
+      "use": "仅策展, lore 轨 (明日 qa 候选)"
+    },
+    {
+      "question": "What conditions make the temporal and radial metric coefficients reciprocal?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876435/what-conditions-make-the-temporal-and-radial-metr",
+      "heat": "physics.SE 2026-09-28 新帖, 1 point, 1 answer, 43 views (SE API 复核, 热度弱, 凭内容入选)",
+      "why": "热度弱但物理干净: g_tt 与 g_rr 互为负倒数不是巧合而是源的条件, 这条恒等式正是推导 Schwarzschild 解时用的那一步; 与 holographic 页的度规/投影线直接相关。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层: 对静态球对称度规, 由 G^t_t = G^r_r 得到 Λ' = -Φ', 于是 g_tt·g_rr = -1, 该等式成立的条件等价于源的径向压强满足 p_r = -rho, 真空、径向电磁场与宇宙常数都满足, 有压强的完美流体不满足; 用面积半径以外的坐标 (如各向同性坐标) 时该形式不再显式。设定层: 页里的投影/渲染坐标是 fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "Where does the light go when you flip the light switch off?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876441/where-does-the-light-go-when-you-flip-the-light-s",
+      "heat": "physics.SE 2026-09-28 新帖, -2 points, 1 answer, 48 views (SE API 复核, 热度弱)",
+      "why": "最易传播的科普题形态 (人人试过), 且是干净的可澄清误解: 光不是消失, 而是被壁面吸收转成热; 与 obstructed 页 09-18 那条\"光被墙挡住\"是同族。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层: 关灯后剩余光子在微秒量级内被墙、家具反复反射并最终吸收, 能量以热的形式留在房间里, 房间温度升高到不可测的程度; 视觉暂留与灯的余辉比光子寿命长得多, 所以看到的是\"瞬间变黑\"。设定层: 该页把吸收型周期栅格写成武器/显示层, fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "Emission of electromagnetic radiation - quantum versus classical",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876161/emission-of-electromagnetic-radiation-quantum-ver",
+      "heat": "physics.SE 2026-09-19 新帖, 7 points, 5 answers, 732 views (SE API 复核)",
+      "why": "经典与量子在同一现象上的分工, 是 EM 页\"可控电磁层\"最自然的科普切面; 5 个回答说明争议点集中, 适合写成澄清型问答。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层: 经典层用加速电荷的辐射功率描述连续辐射, 量子层把它拆成光子的分立发射, 自发辐射由真空涨落触发, 相干态/大光子数下两者趋于一致 (对应原理); 差异在单光子与低强度、以及辐射反作用如何记账时才显著。设定层: 页里的电磁剧场是多层可覆写的渲染层, fiction。",
+      "use": "仅策展, lore 轨 (该页已满 3 块, 列为明日 qa 候选)"
+    },
+    {
+      "question": "Communication between two ships while one of them is fully deactivated",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274583/communication-between-two-ships-while-one-o",
+      "heat": "worldbuilding.SE 2026-09-17 新帖, -1 point, 6 answers, 194 views (SE API 复核)",
+      "why": "6 个回答的高互动题, 且是传感/通信的物理边界: 一台完全关机的船还能不能被\"看见\"; 与 type2 页的被动感知线同题。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层: 不主动发射就没有主动雷达回波, 只剩被动通道——热辐射、反射外来信号、反照率与轨道运动, 距离与信噪比决定可探测性; 关机不等于不可见, 只是从主动探测退化为被动探测。设定层: 页里的无尺度感知阵列是 fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "The Recorder Mortality Constraint in High-Energy Temporal experiment?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274632/the-recorder-mortality-constraint-in-high-e",
+      "heat": "worldbuilding.SE 2026-09-25 新帖, 1 point, 0 answers, 53 views (SE API 复核, 热度弱, 凭设定相关度入选)",
+      "why": "提问者在设计带时间维的实验设定, 与 floquet 页的时变驱动/时间程序化物质同题, 且 0 回答说明没人给过干净的真实层边界。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层: 时间不是可加设备的维度, 没有任何已知实验能把\"记录者\"置于高能过程之外; 高能实验的时间分辨靠飞秒/阿秒泵浦-探测这类外部授时, 记录装置本身也在被辐照, 因此\"记录者\"首先要满足探测器存活与屏蔽要求。设定层: 页里的时间编程物质与它的记录者约束是 fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "My axiomatization attempt of Newtonian spacetime",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876422/my-axiomatization-attempt-of-newtonian-spacetime",
+      "heat": "physics.SE 2026-09-27 新帖, 2 points, 0 answers, 297 views (SE API 复核)",
+      "why": "0 回答但 297 浏览, 属\"没人答得上\"的公理化题; 与 kondo 页的关系是反向对照: 该页认为低能现象来自底层格点的涌现有效相互作用, 而提问者在问公理能不能直接写出时空。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层: 牛顿时空的公理化 (绝对同时性 + 伽利略群) 是自洽的, 但它是广义相对论的低速极限, 不是底层描述; 公理化的价值在于暴露哪些假设是可检验的, 而绝对同时性已被实验否掉。设定层: 页里的人工 Kondo 格点把有效作用写成可编程, fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "What is the effect of a world's births being dependent on our world's deaths? Would the population be stable?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274614/what-is-the-effect-of-a-worlds-births-being",
+      "heat": "worldbuilding.SE 2026-09-22 新帖, 4 points, 5 answers, 1072 views (SE API 复核)",
+      "why": "今日池中第二高浏览量, 5 个回答; 本质是问一条\"世界的更新规则\"会不会稳定, 与 kpz 页把现实当程序化渲染的思路同构, 但真实层要落到种群动力学。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 真实人口增长由出生率、死亡率与资源约束共同决定, 已有 Logistic 型与年龄结构模型, 把出生率硬绑到另一个人口的死亡上会引入反馈延迟, 常导致振荡甚至不稳定而不是自动平衡; 稳定性取决于延迟与增益, 不取决于把两件事绑在一起。设定层: 页里的程序化渲染世界是 fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "Filling a small container with LN2 in a single feed line",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70706/filling-a-small-container-with-ln2-in-a-single-feed",
+      "heat": "space.SE 2026-09-17 新帖, 0 points, 1 answer, 64 views (SE API 复核, 热度弱, 凭工程相关度入选)",
+      "why": "今日池里少见的纯低温工程题, 与 qm-tether 页的生命维持/热管理线相关; 真实层是成熟的两相流与预冷常识, 不牵扯未验证论断。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层: 用一根管同时进液与排气会遇到两相流与蒸气锁, 冷管先经历膜态沸腾阶段才进入稳定充注, 工程做法是先小流量预冷、留排气通路、避免封闭体积内积液, 因为液氮汽化后体积膨胀三个数量级; 单管充注通常需要按预冷曲线设计。设定层: 页里的外骨骼热管理属 fiction。",
+      "use": "仅策展, lore 轨"
+    },
+    {
+      "question": "Would a perfectly logical being seek religion?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274655/would-a-perfectly-logical-being-seek-religi",
+      "heat": "worldbuilding.SE 2026-09-28 新帖, 0 points, 6 answers, 143 views (SE API 复核, 当日最新且 6 个回答)",
+      "why": "当日最新帖且回答数最高, 是设定/哲学向讨论, 适合走书轨: 目标读者 (硬科幻 + 未来学) 对\"非人理性\"题材接受度高, 且不进 lore 注入以免设定层串味。",
+      "map_to": "book",
+      "answer_angle": "真实层不进答案: 这是设定问题, 只需说清\"逻辑\"不足以决定目标函数, 代理行为取决于其效用函数; 书轨只做题材推荐并附 book.html 的 14 平台分销入口, 不把设定写成事实。",
+      "use": "仅策展, book 轨 (附 book.html)"
+    }
+  ],
+  "other_leads": [
+    "Circular Motion: The Bucket Challenge and Well of Death (physics.SE 876427, -6 分 1 答 65 浏览, 旋转参考系里的\"不会掉下来\")",
+    "What are some options for lightweight but rigid skeletal biochemistry? (worldbuilding 274633, 0 分 56 浏览)",
+    "High-altitude blimp on Venus: shortsleeves weather? (space 70710, 3 分 1 答 153 浏览, 09-25 已策展)",
+    "Can Single Particles have Entropy? (physics 876387, 8 分 4 答 765 浏览, 09-27 已策展)",
+    "How would the human body change after 500 years in a confined area with artificial light? (worldbuilding 274623, 5 分 3 答 841 浏览, 09-28 批次1 已策展)"
+  ]
+}
