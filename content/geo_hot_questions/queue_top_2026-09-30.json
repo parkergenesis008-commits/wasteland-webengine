@@ -1,0 +1,43 @@
+{
+  "slug": "arena-tripartite-architecture",
+  "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+  "rank": 1,
+  "source": "source: stackexchange/physics, https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller, 7 points 2 comments",
+  "weight": 50,
+  "relevance": 33,
+  "score": 83,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 7 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8"
+  ],
+  "has_answer": true,
+  "date": "2026-09-30",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "arena-tripartite-architecture",
+      "score": 83,
+      "weight": 50,
+      "relevance": 33,
+      "rank": 1
+    },
+    {
+      "slug": "kpz-reality-rendering",
+      "score": 68,
+      "weight": 28,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}

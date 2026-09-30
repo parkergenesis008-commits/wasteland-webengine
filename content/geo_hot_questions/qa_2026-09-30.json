@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-30",
+  "entries": [
+    {
+      "slug": "kpz-reality-rendering",
+      "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876470/can-two-bodies-be-at-thermal-equilibrium-while-having-different-temperatures",
+      "heat": "2 points, 1 comment (脚本抓取计数; 本次未过 SE API 复核)",
+      "answer_md": "For two systems that can exchange energy freely, thermal equilibrium means one shared temperature, because equilibrium is set by equal values of dS/dE, not by each body being internally balanced on its own. **Different temperatures at the same time are a steady state, not an equilibrium.** A system can sit at a fixed temperature while energy flows through it whenever the coupling is selective, for example a narrow-band channel or an external drive, and two such reservoirs can hold different temperatures indefinitely as long as the driving is maintained. There is also a real exception to the intuition that temperature is always positive: a system with a bounded energy spectrum can reach a negative value of dS/dE, which behaves as hotter than infinite temperature, and when such a system touches an ordinary one the energy flows until both share a single positive temperature. On this page the random noise term of the growth equation is what the Arena tampers with, and that is fiction, projected in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/holographic-kpz-projection.html'>holographic KPZ projection</a>.",
+      "links": [
+        "holographic-kpz-projection"
+      ]
+    },
+    {
+      "slug": "arena-tripartite-architecture",
+      "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+      "heat": "7 points, 2 comments (脚本抓取计数; 本次未过 SE API 复核)",
+      "answer_md": "In the geometric formulation the axioms of Newtonian mechanics are replaced by structure on a four-dimensional manifold: an absolute time function, a flat spatial metric on every level set of that time, and a flat connection that decides which worldlines are force free. **Frames do not disappear, they are demoted.** Once the laws are written in terms of that structure, an inertial frame is only a convenient section of a bundle or a choice of coordinates, and no frame is privileged because the structure is invariant under Galilean transformations. The reformulation is empirically equivalent to the original laws, so it adds no new prediction; what it buys is clarity, since absolute space and absolute time stop being unnamed assumptions and become explicit structure. On this page the spacetime metric is written as an engineered substrate assembled in pieces, which is fiction, in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a>.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    }
+  ],
+  "notes": {
+    "se_api_verified": false,
+    "answer_rule": "两层表述: 真实物理共识 + 本页设定(fiction); 无 markdown 链接语法; 未引用任何未读论文数值",
+    "swap_reason": "原首选 Snell's law in electrostatics 与 qa_2026-09-26.json 重复(该条待自愈注入), 为避免同一问题在同一页出现两次而换题"
+  }
+}

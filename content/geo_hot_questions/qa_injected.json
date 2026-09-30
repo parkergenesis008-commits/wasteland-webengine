@@ -1,7 +1,7 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-26T08:42:05.474780",
+    "ts": "2026-09-30T08:06:54.156370",
     "question": "What will robot soldiers really look like?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -113,9 +113,9 @@
   },
   "34bfb5959a": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-09-21T16:32:22.527161",
+    "ts": "2026-09-30T08:06:54.158566",
     "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-21.json"
   },
   "3154f869e5": {
@@ -190,7 +190,7 @@
   },
   "da8233b90e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-26T08:42:05.476345",
+    "ts": "2026-09-30T08:06:54.159723",
     "question": "Snell's law in electrostatics",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
@@ -250,5 +250,19 @@
     "question": "Merging Planets",
     "pruned": 1,
     "src": "qa_2026-09-29.json"
+  },
+  "1b6cbd960a": {
+    "slug": "arena-tripartite-architecture",
+    "ts": "2026-09-30T08:06:54.155034",
+    "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+    "pruned": 1,
+    "src": "qa_2026-09-30.json"
+  },
+  "23df36b23d": {
+    "slug": "kpz-reality-rendering",
+    "ts": "2026-09-30T08:06:54.160765",
+    "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
+    "pruned": 1,
+    "src": "qa_2026-09-30.json"
   }
 }

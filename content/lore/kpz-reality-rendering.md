@@ -28,17 +28,6 @@ Once the physical maintenance code (growth equation) of an enemy mech or defensi
 ## 4. Conclusion: The Equation that Governs All Things
 The equation that unifies growth is the equation that governs life and death. He who masters the KPZ universality law in two and higher dimensions possesses the console to reconstruct and erase the physical world at will.
 
-<!-- GEO-QA-START id=20ec60d673 -->
-## Extended Q&A — Reader Question
-
-**Q: What does the blowup solution to Navier–Stokes mean for real-life liquids?**
-<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-10 new thread, 16 points 6 comments, second highest of the day</em></p>
-
-A finite-time blowup would mean a smooth initial velocity field evolving into a singularity, with the velocity becoming unbounded in finite time, and for three-dimensional incompressible Navier-Stokes that is exactly the open regularity problem, which remains open. What can be said about real liquids is narrower. The mechanism that moves energy between scales, the turbulent cascade, is described statistically, and no experiment has observed an actual singularity forming in a fluid. Blowup has been constructed rigorously in related and simplified equations, so the mathematics is not empty; it just does not transfer automatically to the physical case. **A proof would change what we can establish about the equations, not how water behaves in a pipe.** The setting layer is fiction: <a href='kpz-reality-rendering.html'>the KPZ reality rendering setting</a> borrows the universality class of stochastic growth equations rather than the fluid equations, and <a href='holographic-kpz-projection.html'>the holographic KPZ projection setting</a> pushes the dimensional-reduction idea further.
-
-<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875854/what-does-the-blowup-solution-to-navier-stokes-mean-for-real-life-liquids" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=9994193f29 -->
 ## Extended Q&A — Reader Question
 
@@ -61,4 +50,15 @@ There is no experiment that settles this, because the competing interpretations 
 <p><strong>Related:</strong> <a href="floquet-temporal-matter.html">Floquet Engineering and Temporally Programmed Matter</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-29 08:21 UTC -->
+<!-- GEO-QA-START id=23df36b23d -->
+## Extended Q&A — Reader Question
+
+**Q: Can two bodies be at thermal equilibrium while having different temperatures?**
+<p><em>asked on stackexchange/physics · 2 points, 1 comment (脚本抓取计数; 本次未过 SE API 复核)</em></p>
+
+For two systems that can exchange energy freely, thermal equilibrium means one shared temperature, because equilibrium is set by equal values of dS/dE, not by each body being internally balanced on its own. **Different temperatures at the same time are a steady state, not an equilibrium.** A system can sit at a fixed temperature while energy flows through it whenever the coupling is selective, for example a narrow-band channel or an external drive, and two such reservoirs can hold different temperatures indefinitely as long as the driving is maintained. There is also a real exception to the intuition that temperature is always positive: a system with a bounded energy spectrum can reach a negative value of dS/dE, which behaves as hotter than infinite temperature, and when such a system touches an ordinary one the energy flows until both share a single positive temperature. On this page the random noise term of the growth equation is what the Arena tampers with, and that is fiction, projected in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/holographic-kpz-projection.html'>holographic KPZ projection</a>.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876470/can-two-bodies-be-at-thermal-equilibrium-while-having-different-temperatures" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-09-30 08:06 UTC -->
