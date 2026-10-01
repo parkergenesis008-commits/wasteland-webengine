@@ -15,8 +15,8 @@
   ],
   "has_answer": true,
   "date": "2026-09-30",
-  "fallback_date": false,
-  "candidates": 3,
+  "fallback_date": true,
+  "candidates": 9,
   "all": [
     {
       "slug": "arena-tripartite-architecture",
@@ -33,7 +33,49 @@
       "rank": 2
     },
     {
+      "slug": "floquet-temporal-matter",
+      "score": 67,
+      "weight": 50,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
+      "slug": "floquet-temporal-matter",
+      "score": 67,
+      "weight": 50,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
+      "slug": "artificial-kondo-lattice",
+      "score": 57,
+      "weight": 40,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
       "slug": "qm-tether-exosuit",
+      "score": 57,
+      "weight": 40,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "artificial-kondo-lattice",
       "score": 47,
       "weight": 30,
       "relevance": 17,

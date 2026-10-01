@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-01",
+ "entries": [
+  {
+   "slug": "floquet-temporal-matter",
+   "question": "Can Single Particles have Entropy?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+   "heat": "physics.SE 2026-09-26, 12 points, 5 answers, 1126 views (SE API 2026-10-01 复核)",
+   "answer_md": "Entropy is not a property of one particle in a definite state. **For a single particle in a pure state the von Neumann entropy is zero**, and entropy only appears once you specify an ensemble or coarse-grain the description. Include the environment and entropy returns as the entanglement entropy of the reduced state, which is why the heating of a driven system is usually read off from the diagonal entropy rather than from a single-particle quantity. Generic periodic driving keeps pumping energy in until the system saturates its energy shell, so the phases that survive instead, discrete time crystals among them, need a mechanism that blocks that absorption, with many-body localization as the standard example. The driven lattice described on this page is written as being held deliberately below that threshold, the same setting layer as the ordered lattice in <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the artificial Kondo lattice notes</a>, and that layer is fiction rather than a physical claim.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  },
+  {
+   "slug": "qm-tether-exosuit",
+   "question": "How would the human body change after 500 years in a confined area with artificial light?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274623/how-would-the-human-body-change-after-500-years-in-a-confined-area-with-artificial-light",
+   "heat": "worldbuilding.SE 2026-09-24, 6 points, 3 answers, 872 views (SE API 2026-10-01 复核)",
+   "answer_md": "A sealed habitat with fixed artificial light changes selection pressure rather than adding a new biology. **The spectrum matters first**: circadian entrainment runs on light input to the retina, while skin vitamin D synthesis needs ultraviolet B, which ordinary indoor lighting does not supply. Five hundred years is roughly twenty human generations, enough for drift and founder effects to shift allele frequencies in a small closed population, but that is microevolution, not a new species, and any visible change depends on which traits are actually under selection, pigmentation under low ultraviolet being the usual candidate. Reduced gravitational and activity loading plus a rigid day-night schedule are the other slow physiological candidates, and all of them are hypotheses to be tested against real closed-environment records such as Antarctic station data. This page takes a suit as the limiting case of a sealed habitat that holds its wearer in a maintained coupled state, and that reading is fiction, built on the same resonance-coupling logic as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/cooperative-resonance-torsion.html'>cooperative resonance torsion</a>.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}
