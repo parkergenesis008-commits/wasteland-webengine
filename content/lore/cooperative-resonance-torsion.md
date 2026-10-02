@@ -97,17 +97,6 @@ Switching between modes requires recalibrating the torsion oscillator's phase-lo
 ## 6. Conclusion: Defect as the Engine
 The hardest topological cage confines the most violent gravitational fluctuations. Systemic imperfections are the longest levers for prying apart the physical laws of the universe within the Reality-as-Code architecture.
 
-<!-- GEO-QA-START id=9f97b186e5 -->
-## Extended Q&A — Reader Question
-
-**Q: Merging Planets**
-<p><em>asked on stackexchange/worldbuilding · 9 points, 6 answers, 1498 views</em></p>
-
-Two bodies merge when their relative speed at contact stays below the speed needed to escape each other; above that they part again or break up, so accretion between growing planets is a mix of merging and erosion rather than a clean weld. **Angular momentum decides the shape of the outcome.** A near head-on hit mostly deforms and heats the pair and can leave one body largely intact, while an off-center hit spreads the debris into a disk because the pair cannot shed its spin into a single object, which is the standard picture behind the Moon-forming giant impact. The energy is not lost in the merge: it goes into heat, deformation and orbital motion, so a merged planet arrives hot and re-differentiated rather than simply doubled in mass. On this page, draining orbital energy through a cooperative resonance channel instead of tides and impacts is described as an engineered effect, and that is fiction.
-
-<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274569/merging-planets" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=34bfb5959a -->
 ## Extended Q&A — Reader Question
 
@@ -130,4 +119,15 @@ Tidal locking is a timescale rather than a rule, and the standard estimate scale
 <p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-01 08:23 UTC -->
+<!-- GEO-QA-START id=ef71b325c3 -->
+## Extended Q&A — Reader Question
+
+**Q: Unstable moon resonance**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-18 新帖, 0 points 3 answers 113 views (SE 官方 API 复核)</em></p>
+
+**Resonance does not decide an orbit by itself; it decides how efficiently the two bodies can trade energy.** A mean-motion resonance can lock a system into a stable repeating pattern, as in the Laplace resonance of Io, Europa and Ganymede, or it can pump eccentricity until neighbouring resonances overlap and the orbit turns chaotic. Steady orbital decay is normally tidal rather than resonant: laser ranging to the retroreflectors left by Apollo measures the Moon receding at about 3.8 centimetres per year (Science 265, 482, 1994). The two effects compound, because eccentricity feeds tidal dissipation, so capture into a resonance can finish a decay that tides alone would take far longer to complete, which makes the plot device physically available. In the *Wasteland* setting the <a href='semi-dirac-mass-nullification.html'>Semi-Dirac State and Directional Mass Nullification</a> page follows mass modulation inside a crystal lattice, and that is fiction, not orbital mechanics.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274585/unstable-moon-resonance" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-02 08:25 UTC -->

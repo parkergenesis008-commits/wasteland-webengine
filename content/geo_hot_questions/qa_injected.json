@@ -36,14 +36,14 @@
   },
   "81f19f5026": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-09-12T10:52:35.283838",
+    "ts": "2026-10-02T08:25:45.365407",
     "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single p",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-12.json"
   },
   "5c080da333": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-27T15:57:53.089879",
+    "ts": "2026-10-02T08:25:45.366295",
     "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
     "pruned": 1,
     "src": "qa_2026-09-13.json"
@@ -71,7 +71,7 @@
   },
   "fc002495d6": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-27T15:57:53.090614",
+    "ts": "2026-10-02T08:25:45.366942",
     "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
@@ -141,7 +141,7 @@
   },
   "ecbc6abd52": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-29T08:21:34.321819",
+    "ts": "2026-10-02T08:25:45.367343",
     "question": "Are astronauts permanently tethered during an EVA?",
     "pruned": 1,
     "src": "qa_2026-09-25.json"
@@ -169,16 +169,16 @@
   },
   "403112755b": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-09-25T08:41:40.071177",
+    "ts": "2026-10-02T08:25:45.364695",
     "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-24.json"
   },
   "9994193f29": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-09-25T08:41:40.071643",
+    "ts": "2026-10-02T08:25:45.367956",
     "question": "Is the quantum wavefunction physically real, or just a mathematical tool for predicting measurement outcomes?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-25.json"
   },
   "65f72ff33d": {
@@ -239,9 +239,9 @@
   },
   "ef71b325c3": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-09-29T08:21:34.326780",
+    "ts": "2026-10-02T08:25:45.369612",
     "question": "Unstable moon resonance",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-28.json"
   },
   "9f97b186e5": {
@@ -278,5 +278,19 @@
     "question": "How would the human body change after 500 years in a confined area with artificial light?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
+  },
+  "4a9752ad37": {
+    "slug": "holographic-kpz-projection",
+    "ts": "2026-10-02T08:25:45.370355",
+    "question": "How does artificial light cancel or dominate the light coming from stars?",
+    "pruned": 1,
+    "src": "qa_2026-10-02.json"
+  },
+  "aba3673f9d": {
+    "slug": "qm-tether-exosuit",
+    "ts": "2026-10-02T08:25:45.370779",
+    "question": "High-altitude blimp on Venus: shortsleeves weather?",
+    "pruned": 1,
+    "src": "qa_2026-10-02.json"
   }
 }

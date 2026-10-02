@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-09-30",
   "fallback_date": true,
-  "candidates": 9,
+  "candidates": 12,
   "all": [
     {
       "slug": "arena-tripartite-architecture",
@@ -47,6 +47,13 @@
       "rank": 1
     },
     {
+      "slug": "holographic-kpz-projection",
+      "score": 63,
+      "weight": 46,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
       "slug": "artificial-kondo-lattice",
       "score": 57,
       "weight": 40,
@@ -57,6 +64,13 @@
       "slug": "qm-tether-exosuit",
       "score": 57,
       "weight": 40,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 49,
+      "weight": 32,
       "relevance": 17,
       "rank": 2
     },
@@ -76,6 +90,13 @@
     },
     {
       "slug": "artificial-kondo-lattice",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "electromagnetic-theater-override",
       "score": 47,
       "weight": 30,
       "relevance": 17,
