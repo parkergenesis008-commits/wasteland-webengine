@@ -34,17 +34,6 @@ This is not traditional electromagnetic repulsion. By altering the geometric cur
 ## Conclusion
 Anyons forge an immortal brain, 48-dimensional light weaves a covert neural network, and the Quantum Metric engine twists the sinews of reality. This tripartite unity is the final engineering blueprint of "Reality-as-Code."
 
-<!-- GEO-QA-START id=8fcb4bf481 -->
-## Extended Q&A — Reader Question
-
-**Q: Is it possible for an atmosphere to orbit a planetary body?**
-<p><em>asked on stackexchange/space · space.SE, 6 votes / 3 answers, still collecting replies</em></p>
-
-A persistent ring of *gas* in orbit is a different object from an atmosphere: orbital material has to be collisionless enough to keep its angular momentum, while gas spreads viscously, damps through collisions and is stripped by photoionisation and Jeans escape, so any such ring is short-lived against the age of a solar system. The real examples that do exist are hybrids — Saturn's rings are overwhelmingly water ice with only a trace atmosphere, and the Enceladus water-vapour torus feeding the E ring is replenished continuously from the moon's plumes rather than surviving on its own. So the honest answer is that a bound, long-lived gas ring is not a stable equilibrium configuration; it is a transient that needs a source. In this project's setting, the idea survives only as an engineered artefact — a habitat ring that has to be actively held, which is exactly the premise behind <a href='electromagnetic-theater-override.html'>the field-containment layer of this setting</a> (fiction, not a physical result).
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70685/is-it-possible-for-an-atmosphere-to-orbit-a-planetary-body" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=403112755b -->
 ## Extended Q&A — Reader Question
 
@@ -67,4 +56,15 @@ Most of the perihelion advance can be fitted inside Newtonian mechanics: add a s
 <p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-03 08:55 UTC -->
+<!-- GEO-QA-START id=1b6cbd960a -->
+## Extended Q&A — Reader Question
+
+**Q: Where did Frames go in the geometric formulation of Newton's laws? (Schuller)**
+<p><em>asked on stackexchange/physics · 7 points, 2 comments (脚本抓取计数; 本次未过 SE API 复核)</em></p>
+
+In the geometric formulation the axioms of Newtonian mechanics are replaced by structure on a four-dimensional manifold: an absolute time function, a flat spatial metric on every level set of that time, and a flat connection that decides which worldlines are force free. **Frames do not disappear, they are demoted.** Once the laws are written in terms of that structure, an inertial frame is only a convenient section of a bundle or a choice of coordinates, and no frame is privileged because the structure is invariant under Galilean transformations. The reformulation is empirically equivalent to the original laws, so it adds no new prediction; what it buys is clarity, since absolute space and absolute time stop being unnamed assumptions and become explicit structure. On this page the spacetime metric is written as an engineered substrate assembled in pieces, which is fiction, in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a>.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-03 20:34 UTC -->

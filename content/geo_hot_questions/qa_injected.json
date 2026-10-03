@@ -43,7 +43,7 @@
   },
   "5c080da333": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-02T08:25:45.366295",
+    "ts": "2026-10-03T20:34:37.472391",
     "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
     "pruned": 1,
     "src": "qa_2026-09-13.json"
@@ -64,9 +64,9 @@
   },
   "ff0ce9a7ea": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-09-14T08:11:38.264767",
+    "ts": "2026-10-03T20:34:37.473712",
     "question": "Physical interpretation of the focusing theorem",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-14.json"
   },
   "fc002495d6": {
@@ -113,7 +113,7 @@
   },
   "34bfb5959a": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-09-30T08:06:54.158566",
+    "ts": "2026-10-03T20:34:37.476076",
     "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
     "pruned": 1,
     "src": "qa_2026-09-21.json"
@@ -141,7 +141,7 @@
   },
   "ecbc6abd52": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-02T08:25:45.367343",
+    "ts": "2026-10-03T20:34:37.477117",
     "question": "Are astronauts permanently tethered during an EVA?",
     "pruned": 1,
     "src": "qa_2026-09-25.json"
@@ -190,7 +190,7 @@
   },
   "da8233b90e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-30T08:06:54.159723",
+    "ts": "2026-10-03T20:34:37.478414",
     "question": "Snell's law in electrostatics",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
@@ -232,9 +232,9 @@
   },
   "130d6a68cb": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-09-29T08:21:34.325002",
+    "ts": "2026-10-03T20:34:37.479810",
     "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-28.json"
   },
   "ef71b325c3": {
@@ -253,14 +253,14 @@
   },
   "1b6cbd960a": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-09-30T08:06:54.155034",
+    "ts": "2026-10-03T20:34:37.470513",
     "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
   },
   "23df36b23d": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-09-30T08:06:54.160765",
+    "ts": "2026-10-03T20:34:37.481298",
     "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
@@ -288,7 +288,7 @@
   },
   "aba3673f9d": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-02T08:25:45.370779",
+    "ts": "2026-10-03T20:34:37.482165",
     "question": "High-altitude blimp on Venus: shortsleeves weather?",
     "pruned": 1,
     "src": "qa_2026-10-02.json"
