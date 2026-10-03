@@ -34,17 +34,6 @@ Macroscopically, the moment the boundary of an otherwise indestructible giant en
 ## 4. Conclusion: Creation Through Dimensional Reduction
 The most efficient high-dimensional creation is always low-dimensional computation. Through holographic mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.
 
-<!-- GEO-QA-START id=ff0ce9a7ea -->
-## Extended Q&A — Reader Question
-
-**Q: Physical interpretation of the focusing theorem**
-<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-05, 6 points 1 comment</em></p>
-
-The focusing theorem says that gravity makes a congruence of light rays or freely falling paths converge, because the expansion of those paths decreases along the flow once a positive energy condition holds, and this follows from the Raychaudhuri equation. The physical reading is blunt: focusing is why horizons and singularities are hard to avoid in general relativity, not a technical footnote. It is also where area and entropy enter the story, since the growth of a horizon area is governed by the same expansion, which is the thread that later work on holographic entropy follows. That accounting is real research; this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where boundary data is treated as a renderable store, and its growth-law counterpart is worked out in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.
-
-<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=bf6f910b9b -->
 ## Extended Q&A — Reader Question
 
@@ -67,4 +56,15 @@ Stars and streetlights do not cancel each other, because two independent lamps a
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-02 08:25 UTC -->
+<!-- GEO-QA-START id=11cab5b2a9 -->
+## Extended Q&A — Reader Question
+
+**Q: How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?**
+<p><em>asked on reddit/r/AskPhysics · r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)</em></p>
+
+Start with why the paradox exists: if Hawking radiation is exactly thermal, it carries no record of what fell in, so the black hole's formation history appears to be erased even though quantum mechanics demands unitary, information-preserving evolution. Later work on the gravitational path integral computes the entropy of the radiation and finds it follows the Page curve, rising and then falling, which is what unitarity requires; the price is that the interior and the emitted radiation have to be treated together rather than separately. Ordinary mass-to-energy conversion does not create this problem because the underlying microstates remain trackable in principle, whereas a horizon removes access to them. The holographic reading of that accounting is real research, while this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where the boundary is treated as the storage medium itself. The related interface-growth picture is developed in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1we4mn5/how_is_conservation_of_information_violated_when/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-03 08:55 UTC -->

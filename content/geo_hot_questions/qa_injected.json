@@ -1,7 +1,7 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-09-30T08:06:54.156370",
+    "ts": "2026-10-03T08:55:12.014531",
     "question": "What will robot soldiers really look like?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -15,7 +15,7 @@
   },
   "71b42c52c5": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-01T08:23:10.262304",
+    "ts": "2026-10-03T08:55:12.015324",
     "question": "What exactly would gravity-mediated entanglement prove?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
@@ -50,9 +50,9 @@
   },
   "11cab5b2a9": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-09-13T08:33:27.216121",
+    "ts": "2026-10-03T08:55:12.016624",
     "question": "How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mas",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-13.json"
   },
   "955a82ea71": {
@@ -120,7 +120,7 @@
   },
   "3154f869e5": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-09-29T08:21:34.320378",
+    "ts": "2026-10-03T08:55:12.017872",
     "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
     "pruned": 1,
     "src": "qa_2026-09-19.json"
@@ -162,9 +162,9 @@
   },
   "626f6a3115": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-09-25T08:41:40.070612",
+    "ts": "2026-10-03T08:55:12.019026",
     "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-24.json"
   },
   "403112755b": {
@@ -211,9 +211,9 @@
   },
   "69da7c73fd": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-09-29T08:21:34.318896",
+    "ts": "2026-10-03T08:55:12.012997",
     "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-29.json"
   },
   "7e938dc4c2": {
@@ -225,9 +225,9 @@
   },
   "6678e45d70": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-09-29T08:21:34.324089",
+    "ts": "2026-10-03T08:55:12.020088",
     "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-28.json"
   },
   "130d6a68cb": {
@@ -246,7 +246,7 @@
   },
   "9f97b186e5": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-09-29T08:21:34.327782",
+    "ts": "2026-10-03T08:55:12.023059",
     "question": "Merging Planets",
     "pruned": 1,
     "src": "qa_2026-09-29.json"
@@ -274,7 +274,7 @@
   },
   "fb189ddc6f": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-01T08:23:10.268270",
+    "ts": "2026-10-03T08:55:12.024112",
     "question": "How would the human body change after 500 years in a confined area with artificial light?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
