@@ -32,17 +32,6 @@ Only an extremely weak beam of anti-coherent magnetic field pulses needs to be f
 ## 5. Conclusion: Questioning Nature
 In the Computational Arena, physics has evolved from "describing nature" to "questioning nature and coercing a response." As long as the rhythm of computation does not stop, the laws of the universe can be arbitrarily rewritten, remixed, and rendered into physical reality.
 
-<!-- GEO-QA-START id=81f19f5026 -->
-## Extended Q&A — Reader Question
-
-**Q: If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?**
-<p><em>asked on stackexchange/physics · physics.SE 6 votes / 2 answers (2026-09-09)</em></p>
-
-Temperature is not a property of a particle, it is a property of a *distribution*: it is defined for a system in at least local thermal equilibrium, where the spread of energies is set by the Boltzmann factor. The familiar link to average kinetic energy is a statistical statement about an ensemble, so a single particle has kinetic energy and no temperature, and the fluctuation of an average taken over one sample is of order unity. That is why the equipartition shortcut quietly fails for very small systems, and why it is worth stating plainly rather than repeating the slogan. The idea survives in a weakened form for driven matter: a periodically driven system has no equilibrium at all, so one can only speak of an **effective temperature** or of Floquet heating toward a steady state, which is a real and active research area. This project's Floquet engineering setting treats time-periodic driving as a programmable material property, which is the fiction layer; the equilibrium thermodynamics above stays textbook, and the companion idea of a response that depends on direction rather than magnitude is developed in <a href='semi-dirac-mass-nullification.html'>the semi-Dirac setting</a>.
-
-<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=626f6a3115 -->
 ## Extended Q&A — Reader Question
 
@@ -65,4 +54,15 @@ Temperature is not a property of a particle, it is a property of a *distribution
 <p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-03 20:34 UTC -->
+<!-- GEO-QA-START id=1138e1943a -->
+## Extended Q&A — Reader Question
+
+**Q: Can Single Particles have Entropy?**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-26, 12 points, 5 answers, 1126 views (SE API 2026-10-01 复核)</em></p>
+
+Entropy is not a property of one particle in a definite state. **For a single particle in a pure state the von Neumann entropy is zero**, and entropy only appears once you specify an ensemble or coarse-grain the description. Include the environment and entropy returns as the entanglement entropy of the reduced state, which is why the heating of a driven system is usually read off from the diagonal entropy rather than from a single-particle quantity. Generic periodic driving keeps pumping energy in until the system saturates its energy shell, so the phases that survive instead, discrete time crystals among them, need a mechanism that blocks that absorption, with many-body localization as the standard example. The driven lattice described on this page is written as being held deliberately below that threshold, the same setting layer as the ordered lattice in <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the artificial Kondo lattice notes</a>, and that layer is fiction rather than a physical claim.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-05 08:44 UTC -->

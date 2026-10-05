@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-04",
+  "entries": [
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "question": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876547/justification-of-a-mu-0-for-the-vacuum-states-in-the-higgs-mechanism-and-its",
+      "heat": "physics.SE 2026-10-01, 3 points, 2 answers, 102 views (SE API 2026-10-04 复核)",
+      "answer_md": "**Setting a gauge field to zero is a choice of description, not a deletion of the field.** In the Higgs mechanism the Higgs field takes a nonzero vacuum expectation value, the would-be Goldstone modes are absorbed, and the gauge bosons coupled to the broken generators acquire a mass, while the combination that leaves the unbroken electromagnetic U(1) intact stays massless, which is why the photon is massless. Writing A_mu = 0 characterises the electroweak vacuum and picks a gauge such as unitary gauge for expanding around it, so the field still exists and fluctuates and physical results such as masses and cross sections stay gauge invariant. **The consequences of that choice are therefore bookkeeping, not new physics.** The project layer stays fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass-nullification setting</a> imagines a tunable gap that can be driven to zero as an engineering knob, which is not a claim about electroweak theory, and the correlated-electron side is developed in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a>.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us",
+      "heat": "worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)",
+      "answer_md": "**Rebuilding communications starts with radio, because it is the only channel that needs no fixed infrastructure.** Ionospheric HF skywave carries beyond the horizon with modest power, VHF and UHF are limited to line of sight, and satellites give the fastest wide-area coverage at the cost of launch, so the practical order is point-to-point radio, then relay or satellite, then fibre wherever the ground is intact. The physics sets the ceilings: free-space power falls with the square of distance, latency is bounded by the speed of light, and Shannon capacity ties data rate to bandwidth and signal-to-noise rather than to cleverness. Nothing exotic is required and no new physics is needed. The fiction layer is separate: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines sensing past the usual wavelength limit, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

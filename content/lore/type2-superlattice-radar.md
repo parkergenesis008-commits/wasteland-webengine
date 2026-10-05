@@ -32,17 +32,6 @@ In the context of Reality-as-Code, this **"Auger suppression" mechanism is trans
 ## 4. Conclusion: Scale-Free Horizon
 By precisely controlling the periodic thickness of atomic epitaxy, the visual system of advanced entities achieves continuously adjustable perception from zero to the limiting energy level. Bunkers, walls, and even the repulsive fog of electron clouds—within the scale-free vision of the Type-II superlattice—are all reduced to a naked cloud of tunneling quantum probabilities.
 
-<!-- GEO-QA-START id=a97dc724e5 -->
-## Extended Q&A — Reader Question
-
-**Q: How can a pre-industrial society fight underwater enemies?**
-<p><em>asked on stackexchange/worldbuilding · stackexchange/worldbuilding 2026-09-14 new thread, 7 points 9 comments</em></p>
-
-A pre-industrial defence against an underwater adversary is limited by the interface before any weapon matters: for sound crossing from air into water the acoustic impedance mismatch passes only about 0.1 percent of the intensity, roughly minus 30 dB, and radar in the usual sense does not work in salt water at all because the medium is conductive and the fields are absorbed within centimetres. What did work historically was passive listening, denial of access with nets and shore obstacles, and weapons that do not need to see the target. Those numbers are textbook acoustics and I have not measured them. <a href='type2-superlattice-radar.html'>The type-2 superlattice radar setting</a> takes the same mismatch as its design constraint and is fiction, not a claim about existing hardware, and <a href='electromagnetic-theater-override.html'>the electromagnetic override setting</a> covers the field-shaping side of the same problem.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274547/how-can-a-pre-industrial-society-fight-underwater-enemies" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=dba214ee7f -->
 ## Extended Q&A — Reader Question
 
@@ -65,4 +54,15 @@ Magnetoreception is real, but it is a heading sense rather than a ranging one, a
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-09-25 08:41 UTC -->
+<!-- GEO-QA-START id=f25b1e2b08 -->
+## Extended Q&A — Reader Question
+
+**Q: All existing communication infrastructure has vanished. What technology do we use to rebuild it?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)</em></p>
+
+**Rebuilding communications starts with radio, because it is the only channel that needs no fixed infrastructure.** Ionospheric HF skywave carries beyond the horizon with modest power, VHF and UHF are limited to line of sight, and satellites give the fastest wide-area coverage at the cost of launch, so the practical order is point-to-point radio, then relay or satellite, then fibre wherever the ground is intact. The physics sets the ceilings: free-space power falls with the square of distance, latency is bounded by the speed of light, and Shannon capacity ties data rate to bandwidth and signal-to-noise rather than to cleverness. Nothing exotic is required and no new physics is needed. The fiction layer is separate: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines sensing past the usual wavelength limit, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-05 08:44 UTC -->

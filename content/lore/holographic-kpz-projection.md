@@ -34,17 +34,6 @@ Macroscopically, the moment the boundary of an otherwise indestructible giant en
 ## 4. Conclusion: Creation Through Dimensional Reduction
 The most efficient high-dimensional creation is always low-dimensional computation. Through holographic mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.
 
-<!-- GEO-QA-START id=4a9752ad37 -->
-## Extended Q&A — Reader Question
-
-**Q: How does artificial light cancel or dominate the light coming from stars?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-10-01 帖, 4 points, 1 answer, 53 views (SE API 2026-10-02 复核)</em></p>
-
-Stars and streetlights do not cancel each other, because two independent lamps are incoherent sources: their intensities add, and true cancellation needs the fields to arrive in antiphase, which happens only for light that came from one coherent source. **The real reason a lit street hides the stars is the ratio of photon flux plus the eye's own adaptation**: the pupil and the photoreceptors rescale to the brightest object in the field, so the faint stellar signal falls below the usable contrast long before any light is 'destroyed'. Scattering adds a second, weaker effect, since aerosols and water droplets bounce lamp light across the whole sky and lift the background everywhere, which is why a small town still glows on the horizon. This page reads the night sky as a projected surface and treats that projection as a setting device, the same speculative layer as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html'>the reality rendering notes</a>, not as a claim about atmospheric optics.
-
-<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=11cab5b2a9 -->
 ## Extended Q&A — Reader Question
 
@@ -67,4 +56,15 @@ The focusing theorem says that gravity makes a congruence of light rays or freel
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-03 20:34 UTC -->
+<!-- GEO-QA-START id=bf6f910b9b -->
+## Extended Q&A — Reader Question
+
+**Q: How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this universe?**
+<p><em>asked on stackexchange/physics · physics.SE new thread 2026-09-22, 0 points, 0 comments</em></p>
+
+Gravity is the only interaction that could plausibly couple our universe to another one, because it is mediated by spacetime geometry rather than by a field confined to a brane, and in extra-dimensional models gravity is the one force allowed to spread into the additional dimensions. What those models predict is measurable rather than mystical: the inverse-square law acquires a short-range correction, which is why sub-millimetre torsion-balance tests and lunar laser ranging are the standard ways a gravitational leak is bounded. That framing also explains why a satellite cannot settle the question: high-precision orbital tracking of range and precession can only turn an inter-universe coupling into an upper limit, and a null result bounds the coupling instead of proving its absence. **The honest reading of the question is that it asks for a measurement that no satellite experiment can deliver, only a constraint.** The setting layer is fiction: <a href='kpz-reality-rendering.html'>the KPZ reality rendering setting</a> treats such a leak as a rendering channel rather than a force, and this page carries the projection side of the same idea.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876270" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-05 08:44 UTC -->

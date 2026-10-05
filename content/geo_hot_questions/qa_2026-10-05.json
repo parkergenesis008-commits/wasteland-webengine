@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "entries": [
+    {
+      "slug": "artificial-kondo-lattice",
+      "question": "Chern-Simons theory and the Jones Polynomial",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "heat": "physics.SE 2026-09-30, 8 points, 0 answers, 103 views (SE API 2026-10-05 复核)",
+      "answer_md": "**In three dimensions Chern-Simons theory is a topological field theory with no local degrees of freedom, so its content lives in loop observables rather than in propagating fields.** The action uses the gauge field and the antisymmetric symbol but no metric, which is why the theory is metric independent and its observables are Wilson loop expectation values that depend on the linking and knotting of the loops rather than on distances. For a compact gauge group with quantized coupling, those expectation values reproduce knot invariants, and in the SU(2) case they give the Jones polynomial, while on a torus the same theory predicts a finite degeneracy of ground states. In condensed matter this is not abstract bookkeeping, because Chern-Simons theory is the low-energy effective description of fractional quantum Hall states, where the excitations are anyons and their braiding furnishes the operations of topological quantum information. The project layer stays fiction: <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> imagines topological zero modes that host one-dimensional anyons as computing carriers, which is a story device and not a claim about any laboratory system, and the related interstitial-electronic idea is developed in <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a>.",
+      "links": [
+        "obstructed-atomic-phantom-grid"
+      ]
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "question": "What bunker materials are needed to protect against a microscopic neutron star explosion?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274670/what-bunker-materials-are-needed-to-protect-against-a-microscopic-neutron-star-explosion",
+      "heat": "worldbuilding.SE 2026-09-28, 7 points, 3 answers, 1334 views (SE API 2026-10-05 复核)",
+      "answer_md": "**The material is the wrong variable here, because near a compact object the outcome is set by distance and time, not by what the wall is made of.** A microscopic neutron star still packs a stellar mass into a tiny radius, so its gravity and the tidal stretch across a bunker scale as inverse distance and inverse distance cubed respectively, and any structure is torn apart long before its compressive strength matters. Radiation and particle flux add a second channel, falling off with the square of distance so that close in no achievable thickness of ordinary matter absorbs the load, while at a safe distance the shelter problem reduces to a conventional underground design. The honest engineering answer is therefore to move the bunker far away and to think in terms of three separate channels, gravitational, neutrino, and electromagnetic, each with its own coupling to matter. The fiction layer is explicit and separate: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a> posits armour whose energy network sits in the empty interstices between atoms and keeps running for a short window even after the lattice is pulverized, which is a story device and not a shielding claim, and the fragile-macro-equilibrium counterpoint lives in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

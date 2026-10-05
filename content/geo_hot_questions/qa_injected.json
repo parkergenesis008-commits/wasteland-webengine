@@ -1,28 +1,28 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-03T08:55:12.014531",
+    "ts": "2026-10-05T08:44:01.590919",
     "question": "What will robot soldiers really look like?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
   },
   "dd3876035e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-01T08:23:10.260895",
+    "ts": "2026-10-05T08:44:01.591531",
     "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
   },
   "71b42c52c5": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-03T08:55:12.015324",
+    "ts": "2026-10-05T08:44:01.591895",
     "question": "What exactly would gravity-mediated entanglement prove?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
   },
   "8fcb4bf481": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-10-01T08:23:10.259637",
+    "ts": "2026-10-05T08:44:01.590134",
     "question": "Is it possible for an atmosphere to orbit a planetary body?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
@@ -92,7 +92,7 @@
   },
   "20ec60d673": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-01T08:23:10.263509",
+    "ts": "2026-10-05T08:44:01.592450",
     "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
     "pruned": 1,
     "src": "qa_2026-09-17.json"
@@ -148,9 +148,9 @@
   },
   "bf6f910b9b": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-09-25T08:41:40.069094",
+    "ts": "2026-10-05T08:44:01.593040",
     "question": "How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this uni",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-23.json"
   },
   "57872b0406": {
@@ -197,7 +197,7 @@
   },
   "fe93a21260": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-01T08:23:10.266027",
+    "ts": "2026-10-05T08:44:01.594429",
     "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
     "pruned": 1,
     "src": "qa_2026-09-27.json"
@@ -267,14 +267,14 @@
   },
   "1138e1943a": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-01T08:23:10.267394",
+    "ts": "2026-10-05T08:44:01.595089",
     "question": "Can Single Particles have Entropy?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
   },
   "fb189ddc6f": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-03T08:55:12.024112",
+    "ts": "2026-10-05T08:44:01.595498",
     "question": "How would the human body change after 500 years in a confined area with artificial light?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
@@ -292,5 +292,33 @@
     "question": "High-altitude blimp on Venus: shortsleeves weather?",
     "pruned": 1,
     "src": "qa_2026-10-02.json"
+  },
+  "fd56ba8085": {
+    "slug": "semi-dirac-mass-nullification",
+    "ts": "2026-10-05T08:44:01.596133",
+    "question": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
+    "pruned": 1,
+    "src": "qa_2026-10-04.json"
+  },
+  "f25b1e2b08": {
+    "slug": "type2-superlattice-radar",
+    "ts": "2026-10-05T08:44:01.596908",
+    "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
+    "pruned": 1,
+    "src": "qa_2026-10-04.json"
+  },
+  "45d1661cfe": {
+    "slug": "artificial-kondo-lattice",
+    "ts": "2026-10-05T08:44:01.597640",
+    "question": "Chern-Simons theory and the Jones Polynomial",
+    "pruned": 1,
+    "src": "qa_2026-10-05.json"
+  },
+  "8ba3121459": {
+    "slug": "obstructed-atomic-phantom-grid",
+    "ts": "2026-10-05T08:44:01.598265",
+    "question": "What bunker materials are needed to protect against a microscopic neutron star explosion?",
+    "pruned": 1,
+    "src": "qa_2026-10-05.json"
   }
 }

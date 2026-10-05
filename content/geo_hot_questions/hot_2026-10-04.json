@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-04",
+  "generated": "2026-10-04T02:02:58",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "run_note": "X/TikTok 无平台级当日抓取: 2 次检索只命中二手综述页(nitter 镜像/第三方分析)与 2026-06/07 的旧榜单页, 发布日期与票数均不可核验, 未采纳任何数值, 未编造帖子。web_extract 本机被拦(判定目标为内网地址), 改用 StackExchange 官方 API 直连(api.stackexchange.com 直连 200)复核热度; 本次复核 18 条, 其中 physics 876572(Duplicate)、physics 876573(Not suitable)、physics 876541(Not suitable)三条已关闭, 均剔除出 12 条清单。",
+  "sources_health": {
+    "stackexchange": 60,
+    "reddit_rss": 30,
+    "hackernews": 8,
+    "dedup_total": 79,
+    "question_form": 66,
+    "errors": [
+      "reddit/r/booksuggestions: HTTP 429 Too Many Requests",
+      "reddit/r/suggestmeabook: HTTP 429 Too Many Requests"
+    ]
+  },
+  "lore_pages_staleness": {
+    "type2-superlattice-radar": "2026-09-25 (3 blocks)",
+    "artificial-kondo-lattice": "2026-09-26 (3 blocks)",
+    "semi-dirac-mass-nullification": "2026-09-27 (3 blocks)",
+    "obstructed-atomic-phantom-grid": "2026-09-29 (3 blocks)",
+    "floquet-temporal-matter": "2026-10-01 (4)",
+    "holographic-kpz-projection": "2026-10-02 (4)",
+    "arena-tripartite-architecture": "2026-10-03 (4)",
+    "electromagnetic-theater-override": "2026-10-03 (4)",
+    "cooperative-resonance-torsion": "2026-10-03 (4)",
+    "kpz-reality-rendering": "2026-10-03 (4)",
+    "qm-tether-exosuit": "2026-10-03 (6)"
+  },
+  "dedup_note": "与 10-01/10-02 清单交叉去重, 剔除此前注入过的 6 条(单粒子熵/人工光压制星光/牛顿力学是否主张力的成因/轨道衰变公式/双镜光子/人体 500 年)以及已在池中出现过的 3 条(中微子星地堡/液态二氧化硫海洋/轻质刚性骨骼生化)。12 条全部为未注入题; 其中 City of Gold 一条为跨日再热题(当日最高热度), 标注为 book 轨。",
+  "entries": [
+    {
+      "question": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876547/justification-of-a-mu-0-for-the-vacuum-states-in-the-higgs-mechanism-and-its",
+      "heat": "physics.SE 2026-10-01, 3 points, 2 answers, 102 views (SE API 2026-10-04 复核)",
+      "why": "希格斯机制里的'A_mu=0'常被误读成'把规范场删掉'; 真实答案是真空附近展开+规范选择, 物理量仍规范不变。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "先讲真空期望值破对称、Goldstone 模被吸收、规范玻色子获质量; A_mu=0 是幺正规范下的展开约定而不是删除场; 未破的 U(1) 组合对应无质量光子; 设定层明确 'mass nullification' 是可调能隙的虚构旋钮。",
+      "use": "今日注入 semi-dirac-mass-nullification 页; 可作'质量从哪来'科普长尾"
+    },
+    {
+      "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us",
+      "heat": "worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)",
+      "why": "灾后重建通讯是科幻常见场景; 答案层能讲清无线电为何是唯一不依赖固定基础设施的起点。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "重建顺序 = 点对点无线电(HF 电离层天波可超视距) → 中继/卫星 → 地面完整处铺光纤; 物理边界: 功率按距离平方衰减、时延受光速限、带宽受香农容量约束; 设定层点明超晶格感知矩阵是不可达波长极限的虚构。",
+      "use": "今日注入 type2-superlattice-radar 页; 世界构建轨短帖素材"
+    },
+    {
+      "question": "Could the City of Gold's gold export restrictions justify high gold world prices?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274675/could-the-city-of-golds-gold-export-restrictions-justify-high-gold-world-prices",
+      "heat": "worldbuilding.SE 2026-09-29, 7 points, 8 answers, 1426 views (SE API 2026-10-04 复核) — 今日候选池最高热度",
+      "why": "贸易限制 vs 价格的因果链是世界构建最常见的经济学硬伤, 读者参与度最高(8 回答 / 1426 浏览)。",
+      "map_to": "book",
+      "answer_angle": "真实经济学: 价格由边际供给与需求弹性决定, 单城邦出口限制只在占全球供给份额够大时才显著; 区分'垄断供给'与'禁令催生走私替代'; 设定层引《Alien Dimensions》异星政体经济作虚构对照。",
+      "use": "book 轨, 引 book.html 全 14 平台分销; 社群高互动题"
+    },
+    {
+      "question": "Energy, waves, wave packet, particles, and corpuscles",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876574/energy-waves-wave-packet-particles-and-corpuscles",
+      "heat": "physics.SE 2026-10-03, 3 points, 1 answer, 45 views (SE API 2026-10-04 复核)",
+      "why": "把波、波包、粒子、微粒四个词一次摊开, 是量子力学入门最容易被术语绊住的点。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "波是解的形式, 波包是局域化叠加, 粒子是场的量子化激发, 'corpuscle' 是历史用语; 设定层把 Floquet 时间晶体当作'被周期驱动改写的物质相', 明确虚构。",
+      "use": "floquet-temporal-matter 页科普长尾; 术语辨析类内容"
+    },
+    {
+      "question": "What is a sustainable population range for a civilization of rat-like creatures living in the walls of a giant's castle?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274685/what-is-a-sustainable-population-range-for-a-civilization-of-rat-like-creatures",
+      "heat": "worldbuilding.SE 2026-09-29, 3 points, 1 answer, 170 views (SE API 2026-10-04 复核)",
+      "why": "用生态承载力的真实算法约束'微型文明'设定, 数字可算, 硬科幻读者买账。",
+      "map_to": "book",
+      "answer_angle": "真实生态: 承载力 = 可获能量流 / 个体代谢率, 受食物链层级与可用面积限制; 城市鼠群研究给出真实密度区间作类比; 设定层引《Alien Dimensions》非人文明设计。",
+      "use": "book 轨 + 世界构建轨; species design 长尾"
+    },
+    {
+      "question": "Why are they wearing those black and orange suits in this video during water survival training?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70724/why-are-they-wearing-those-black-and-orange-suits-in-this-video-during-water-sur",
+      "heat": "space.SE 2026-10-01, 2 points, 1 answer, 344 views (SE API 2026-10-04 复核)",
+      "why": "航天服/救生装备的视觉细节题, 浏览高(344), 科普读者与航天迷双命中。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "橙色是搜救高可见度标准(与航空救生同源); 训练用水上生存服侧重浮力/保温而非真空防护, 与舱外服目的不同; 设定层把 qm-tether 外骨骼写成质能耦合支撑, 明确虚构。",
+      "use": "qm-tether-exosuit 页; 航天科普短帖"
+    },
+    {
+      "question": "How can I derive the intensity from two emitters?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876567/how-can-i-derive-the-intensity-from-two-emitters",
+      "heat": "physics.SE 2026-10-02, 2 points, 1 answer, 88 views (SE API 2026-10-04 复核)",
+      "why": "双源强度叠加是'相干 vs 非相干'的核心区分点, 计算型长尾稳定。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "先判相干性: 相干两源先叠加场再取模平方会出交叉项, 非相干只加强度; 讲清远场近似与相位差; 设定层点明'电磁剧场覆盖'是虚构的场整形。",
+      "use": "electromagnetic-theater-override 页; 科普 + 解题长尾"
+    },
+    {
+      "question": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+      "heat": "worldbuilding.SE 2026-10-03, 2 points, 3 answers, 80 views (SE API 2026-10-04 复核)",
+      "why": "轨道力学直觉题: 观众常以为'扔出去就会飞走', 其实逃逸需超过当地逃逸速度。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实力学: 脱离太阳系需大于该处逃逸速度(1 AU 处约 42 km/s), 行星际转移中的抛掷多为束缚轨道; 讲清比能量与轨道要素; 设定层把共振/扭力耦合写成虚构机制。",
+      "use": "cooperative-resonance-torsion 页; 轨道力学科普长尾"
+    },
+    {
+      "question": "Momentum versus force in physics education",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876538/momentum-versus-force-in-physics-education",
+      "heat": "physics.SE 2026-10-01, 2 points, 3 answers, 447 views (SE API 2026-10-04 复核)",
+      "why": "447 浏览 + 3 回答的教学向高参与题; 力与动量的概念区分是经典力学最大混淆源。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实力学: 力是动量变化率 F=dp/dt, 冲量=∫F dt=Δp; 讲清单位/因果层级与教学误区; 设定层把'三分竞技场架构'的帧结构明确为虚构。",
+      "use": "arena-tripartite-architecture 页; 教育向长尾"
+    },
+    {
+      "question": "What effects would a landmass distribution such as this have on the ocean currents and general climate of a world?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274622/what-effects-would-a-landmass-distribution-such-as-this-have-on-the-ocean-curren",
+      "heat": "worldbuilding.SE 2026-09-24, 1 point, 1 answer, 219 views (SE API 2026-10-04 复核)",
+      "why": "气候/洋流的因果链是世界构建硬需求, 219 浏览, 可挂复杂系统讲解。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实气候: 大陆分布决定洋流路径(西部边界流)与热量输运, 进而改纬向温差与降水带; 讲清科氏力+风生环流; 设定层把'现实渲染'写成虚构的随机 PDE 框架。",
+      "use": "kpz-reality-rendering 页; 世界构建/气候长尾"
+    },
+    {
+      "question": "Why haven't we designed a larger docking port?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70726/why-havent-we-designed-a-larger-docking-port",
+      "heat": "space.SE 2026-10-02, 1 point, 1 answer, 223 views (SE API 2026-10-04 复核)",
+      "why": "技术权衡型问题, 223 浏览; 答案是标准化收益而非物理极限, 反直觉点好。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实工程: 端口尺寸受标准化(国际对接系统)、结构质量、密封面与增压体积权衡制约, 非物理上限; 讲清标准化的网络效应; 设定层把 qm-tether 写成人机耦合界面, 虚构。",
+      "use": "qm-tether-exosuit 页; 航天工程科普"
+    },
+    {
+      "question": "AI improvements for SGP4 and other orbital propagation systems",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70729/ai-improvements-for-sgp4-and-other-orbital-propagation-systems",
+      "heat": "space.SE 2026-10-03, 0 points, 0 answers, 7 views (SE API 2026-10-04 复核) — 新帖, 热度未起",
+      "why": "AI + 轨道预报, 精准命中 AI/未来学读者; 新帖时效最新。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实: SGP4 是解析摄动模型, ML 只能做残差修正/代理模型, 受数据与泛化限制, 不能替代物理模型; 讲清'物理模型 + 数据同化'的边界; 设定层把人工 Kondo 晶格计算写成虚构关联电子平台。",
+      "use": "artificial-kondo-lattice 页; AI-for-physics 长尾"
+    }
+  ]
+}

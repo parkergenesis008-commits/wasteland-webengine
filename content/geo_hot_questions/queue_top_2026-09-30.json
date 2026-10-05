@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-09-30",
   "fallback_date": true,
-  "candidates": 12,
+  "candidates": 18,
   "all": [
     {
       "slug": "arena-tripartite-architecture",
@@ -47,9 +47,23 @@
       "rank": 1
     },
     {
+      "slug": "artificial-kondo-lattice",
+      "score": 67,
+      "weight": 50,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
       "slug": "holographic-kpz-projection",
       "score": 63,
       "weight": 46,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 59,
+      "weight": 42,
       "relevance": 17,
       "rank": 1
     },
@@ -62,6 +76,13 @@
     },
     {
       "slug": "qm-tether-exosuit",
+      "score": 57,
+      "weight": 40,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
       "score": 57,
       "weight": 40,
       "relevance": 17,
@@ -100,6 +121,27 @@
       "score": 47,
       "weight": 30,
       "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "book",
+      "score": 47,
+      "weight": 40,
+      "relevance": 7,
+      "rank": 3
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 41,
+      "weight": 24,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
       "rank": 3
     }
   ]
