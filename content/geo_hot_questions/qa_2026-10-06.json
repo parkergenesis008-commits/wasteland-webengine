@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-06",
+ "entries": [
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "Can Single Particles have Entropy?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+   "heat": "physics.SE 2026-09-26, 12 分 5 答 1188 浏览 (raw_2026-10-06.json; SE API 2026-10-06 复核 open)",
+   "answer_md": "**Strictly speaking entropy belongs to a distribution over states, not to one particle, so an isolated single microstate carries none by itself.** Boltzmann's prescription counts the microstates compatible with a macrostate, and with a single particle that count is one, so the entropy vanishes, while the familiar formula S = -k times the sum of p log p needs probabilities that only a collection can provide. A single quantum particle in a pure state likewise has zero von Neumann entropy, yet the moment you divide a system into a part and its environment the reduced state becomes mixed and its entanglement entropy is real and measurable. The project layer keeps this as fiction: in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> the local moments are accounted for by counting configurations, and <a href='obstructed-atomic-phantom-grid.html'>the phantom grid</a> treats that counting as an engineering dial, which is speculation rather than a thermodynamic claim.",
+   "links": [
+    "obstructed-atomic-phantom-grid"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other",
+   "heat": "physics.SE 2026-09-23, 8 分 3 答 1071 浏览 (raw_2026-10-06.json; SE API 2026-10-06 复核 open)",
+   "answer_md": "**A photon carries momentum and no charge, so it cannot charge a mirror, but it does push one.** On each reflection the photon reverses its momentum and the mirror absorbs the recoil, a transfer of twice the photon momentum, which is the ordinary radiation pressure that light sails are designed around. If the mirrors move, the reflection also shifts the photon frequency through the Doppler effect, so energy is exchanged as well as momentum and one mirror can drain energy from the other through the photon as intermediary. The fictional layer extrapolates from there: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> treats light as a momentum bus between surfaces, and <a href='type2-superlattice-radar.html'>the type-2 superlattice radar</a> is written as if that bookkeeping could be steered, all of which is speculative.",
+   "links": [
+    "type2-superlattice-radar"
+   ]
+  }
+ ]
+}

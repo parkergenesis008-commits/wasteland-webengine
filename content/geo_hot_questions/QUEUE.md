@@ -181,3 +181,20 @@
 今日 12 条清单与 qa 注入条目由 01:57 运行生成, 02:32 复核: hot_2026-10-05.json 12 条、map_to 全合法、source_url 全部可回溯到 raw_2026-10-05.json(注: raw 侧 URL 被采集器截断到约 110 字符, 其中 worldbuilding 274670 与 274614 两条按 ID 前缀比对确认同一题, 非两条不同记录); qa_2026-10-05.json 2 条 slug 合法(kondo / obstructed)、answer_md 无 markdown 链接语法。台账 qa_injected.json 显示 10-04/10-05 均未注入(最近一次落盘 10-03 批量), 故 10-04 的 semi-dirac+type2 与本次 kondo+obstructed 仍为在队列中状态。
 
 新增线索(不进条目): TikTok 'sound is faster than light' 实验段子二次爆红(2025-03 原片, 2026-09-14 起, meme.com 词条称单条改写 3.7M 播放) 与本机未复核的 'Friction Wall' 静摩擦趋势页, 两条均为二手聚合页, 无官方计数, 未采信任何数值。
+
+## 2026-10-06
+1. **[artificial-kondo-lattice] Can Single Particles have Entropy?** (source: stackexchange/physics, 2026-09-26, 12 分 5 答 1188 浏览) — 当日物理板块票数最高且概念澄清干净(熵属分布不属单个微观态); 已写入 qa_2026-10-06.json, 注入 artificial-kondo-lattice 页, 内链 obstructed-atomic-phantom-grid。
+2. **[electromagnetic-theater-override] A photon bouncing between two moving mirrors: does one mirror charge the other?** (source: stackexchange/physics, 2026-09-23, 8 分 3 答 1071 浏览) — 把辐射压误读成"充电", 可澄清误解且光帆实例真实; 已写入 qa_2026-10-06.json, 注入 electromagnetic-theater-override 页, 内链 type2-superlattice-radar。
+3. **[holographic-kpz-projection] How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?** (source: stackexchange/physics, 2026-09-26, 7 分 0 答 193 浏览) — 千禧年问题的"多久"问法是 KPZ 随机 PDE 的标准入口, 语义匹配最强但票数偏低; 只进 lore 轨, 不进 qa 注入。
+
+
+
+### 2026-10-06 补跑备注 (02:26 recovery_reissue)
+
+本跑为 sweeper 触发的 recovery_reissue。retry_queue/8a30034f417e.json 记 failed_at=2026-10-06T02:02:09, last_error=Interrupted by shutdown before terminal completion。01:56 调度跑已在 02:00 写出 hot_2026-10-06.json / hot_2026-10-06.md / qa_2026-10-06.json 并追加本日段落, 故本跑不改写 qa, 只做复核与修正。
+
+发现并修正一处缺陷: 首跑 heat_verification 声称"12 条全部 open, 无 closed_reason", 经 StackExchange 官方 API 逐条复测不成立。physics 876608 (Could the present quantum state contain enough information to reconstruct the past?) 实测 closed=Needs more focus, worldbuilding 274697 (Practicality of sail-powered airships in a fantasy setting?) 实测 closed=Duplicate。二者已分别换为 open 的 physics 876599 (Angular Frequency of SHM, 1 分 3 答 97 浏览, 映射 floquet-temporal-matter) 与 worldbuilding 274685 (rat-like 文明可持续人口区间, 3 分 1 答 185 浏览, 映射 arena-tripartite-architecture); heat_verification 字段与 hot_2026-10-06.md 对应两块已同步改写, JSON 内新增 recovery_note 字段自述本次修正。换入两条均不在首跑 dedup_note 的排除名单内, 也未见于 10-02/10-04/10-05 清单。
+
+复核结果: hot_2026-10-06.json 12 条字段齐全, map_to 全在白名单内; 其中 10 条 SE 源逐条 API 复测, 全部 open, 无 closed_reason。qa_2026-10-06.json 2 条 slug (artificial-kondo-lattice, electromagnetic-theater-override) 合法, answer_md 无 markdown 链接语法, 内链为原生 a 标签。QUEUE 本日段仍恰好 1 段, 未被重复追加。pipeline/geo_qa_inject.py --dry-run 确认今日 2 条会被受理, 另有 13 条自愈重注旧块。本跑 pre-script 重抓池 stackexchange 56 / reddit_rss 22 / hackernews 6, 去重 67, 问题形态 52; 失败源 2 条均为 Reddit 429 (r/AskScienceFiction, r/AskPhysics)。
+
+X/TikTok: 本跑 2 次 web_search 仅命中话题聚合页、算法解读页与 2025/2026-04 二手分析文; 其中一次命中 x.com 单帖 (tumzvintage 的 WHAT IF 黑洞修辞式提问), 无互动数、无平台级当日榜单, 均不可核验, 未采纳任何数值, 未编造帖子。

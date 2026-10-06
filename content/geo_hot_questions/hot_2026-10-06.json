@@ -1,0 +1,143 @@
+{
+ "date": "2026-10-06",
+ "generated": "2026-10-06T02:00:00",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "/Users/michaelray/webengine/content/geo_hot_questions/raw_2026-10-06.json",
+ "sources_health": {
+  "stackexchange": 56,
+  "reddit_rss": 22,
+  "hackernews": 6,
+  "questions": 52,
+  "total_dedup": 67,
+  "errors": [
+   "reddit/r/AskScienceFiction: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests"
+  ]
+ },
+ "x_tiktok": "X/TikTok 今日抓取失败: 2 次 web_search 只命中 TikTok 算法解读/话题聚合页与二手分析文, 无单帖发布日期与互动数, 均不可核验, 未采纳任何数值, 未编造帖子。",
+ "heat_verification": "raw_2026-10-06.json 已含 points/comments/ts; 用 StackExchange 官方 API (api.stackexchange.com, 直连) 逐条复核 12 条: 10 条 open。原 #7 physics 876608 实测 closed=Needs more focus, 原 #10 worldbuilding 274697 实测 closed=Duplicate, 二者已于 02:26 recovery_reissue 复跑中分别换为 open 的 physics 876599 与 worldbuilding 274685。",
+ "dedup_note": "已剔除近 4 日(10-02/10-04/10-05)重复题: 人工光遮蔽星光、中子星掩体、黄金出口、液态二氧化硫海洋、岩壳次表层海洋爆炸、轻质刚性骨骼生化、通信基础设施重建、行星际碎片留轨、陆块分布洋流、更大对接端口、SGP4 改进、Chern-Simons 与琼斯多项式、树栖文明演化、中世纪掩体、生死耦合人口。",
+ "entries": [
+  {
+   "question": "Can Single Particles have Entropy?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+   "heat": "stackexchange/physics | 2026-09-26T07:44 | 12 分 5 评论 (raw_2026-10-06.json)",
+   "why": "今日池中物理板块票数最高(12分, 5答, 1188浏览), 概念澄清型, 长尾搜索稳。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 熵属于状态分布而非单个微观态; Boltzmann 计数需系综, 单粒子纯态 von Neumann 熵为零, 但取环境迹后约化态混合, 纠缠熵非零且可测。设定层: 晶格局部矩按构型计数熵, 明确写成 fiction。",
+   "use": "首推注入 qa; 挂 artificial-kondo-lattice 页, 内链 obstructed-atomic-phantom-grid。"
+  },
+  {
+   "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radiation",
+   "heat": "来源:stackexchange/physics (raw 未命中, 热度不可核验)",
+   "why": "11分 1答 763浏览, 四极辐射公式之争, 参数化与近似阶次是干净的可解释点。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 差异来自四极公式的先导阶 vs 高阶 PN 修正、偏心轨道 vs 圆轨道、以及质量比近似; 引力波功率按 (5/32 类) 先导项标度, 差异不是\"谁错\"而是覆盖范围不同。设定层: 共振扭转设定里的轨道衰变账本属虚构。",
+   "use": "lore 轨, 不进 qa; 与 09-21 潮汐锁定题同簇。"
+  },
+  {
+   "question": "Does Newtonian mechanics make claims about how forces are created?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created",
+   "heat": "stackexchange/physics | 2026-09-24T11:47 | 8 分 6 评论 (raw_2026-10-06.json)",
+   "why": "8分 6答 1011浏览, 第二定律是运动描述还是因果机制, 方法论题命中物理科普受众。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 牛顿力学只把力当作给定量 F, 不解释起源; 力的机制留给场论与相互作用, 现代表述用最小作用量与几何化, 力成为坐标选择下的外观。设定层: floquet 时变介质的\"等效力\"是可调参数, 属虚构。",
+   "use": "lore 轨; 与 Schuller 几何化那题配对, 可做同一篇长文。"
+  },
+  {
+   "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other",
+   "heat": "stackexchange/physics | 2026-09-23T22:02 | 8 分 3 评论 (raw_2026-10-06.json)",
+   "why": "8分 3答 1071浏览, 用\"充电\"误读动量转移, 是干净的可澄清误解。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 光子带动量不带电荷; 每次反射转移 2p 的动量(辐射压, 光帆原理); 镜子运动时叠加多普勒频移交换能量, 但无电荷转移。设定层: 设定把光当动量总线来驱动表面, 是 speculative。",
+   "use": "注入 qa 备用; 挂 electromagnetic-theater-override 页, 内链 type2-superlattice-radar。"
+  },
+  {
+   "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+   "heat": "stackexchange/physics | 2026-09-26T14:54 | 7 分 2 评论 (raw_2026-10-06.json)",
+   "why": "7分 2答 610浏览, 几何化表述里\"框架\"消失, 是 GR 入门的干净接缝。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 几何化后惯性系不是外挂结构, 而是时空附加几何(仿射联络)的一部分; 牛顿力学对应伽利略结构(绝对时间叶层+类空间隔), 力项写成协变导数偏离测地线的部分。设定层: 质量归零设定的\"自由下落\"读法属 fiction。",
+   "use": "lore 轨; 与\"力从何而来\"同一主题簇。"
+  },
+  {
+   "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier-stokes-equations-take-to-occur",
+   "heat": "来源:stackexchange/physics (raw 未命中, 热度不可核验)",
+   "why": "7分 0答 193浏览, 千禧年问题的\"多久\"问法, 与 KPZ 随机 PDE 同源, 语义匹配最强。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 三维不可压 NS 的正则性未定; 已构造的自相似爆破解多为非物理或强边界驱动; 真湍流从未观测到奇点, 级串是统计描述, 含粘性耗散会在小尺度截断。设定层: 全息投影设想的\"渲染噪声\"是虚构, 不对应真实时间尺度。",
+   "use": "备选注入; 挂 holographic-kpz-projection 页, 内链 kpz-reality-rendering。"
+  },
+  {
+   "question": "Angular Frequency of SHM",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876599/angular-frequency-of-shm",
+   "heat": "stackexchange/physics | 2026-10-05T02:22 | 1 分 3 评论 (raw_2026-10-06.json; SE API 2026-10-06 复核实测 1 分 3 答 97 浏览, open)",
+   "why": "原 #7 (physics 876608) 经 SE API 复核已 closed=Needs more focus, 换入本条; 简谐振动角频率是最小可推导入门题, 语汇直通周期驱动。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: SHM 的角频率由回复力刚度与惯性之比决定, 等于 k/m 的平方根, 与振幅无关; 周期只依赖该频率, 大摆幅等非线性情形才会出现振幅依赖修正。设定层: floquet 时变介质把角频率当作可按周期调制的参数, 属虚构。",
+   "use": "lore 轨补位, 不进 qa; 挂 floquet-temporal-matter 页, 内链 artificial-kondo-lattice。"
+  },
+  {
+   "question": "Who first noticed that the bosonic Bogoliubov-De Gennes equation is non-Hermitian?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876618/who-first-noticed-that-the-bosonic-bogoliubov-de-gennes-equation-is-non-hermitian",
+   "heat": "来源:stackexchange/physics (raw 未命中, 热度不可核验)",
+   "why": "0分 0答 15浏览, 最新(2026-10-05), 非厄米物理的优先权史学题, 冷门但定位精准。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 玻色 BdG 在动量-频率对角化后出现非厄米结构, 源自粒子-空穴分量混叠, 与费米情形不同; 非厄米系统有例外点与 PT 对称破缺, 与拓扑分类相关。设定层: 受阻幻影栅设定利用非厄米零模, 属 fiction。",
+   "use": "lore 轨, 强热点可挖; 挂 obstructed-atomic-phantom-grid 页。"
+  },
+  {
+   "question": "How would the human body change after 500 years in a confined area with artificial light?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274623/how-would-the-human-body-change-after-500-years-in-a-confined-area-with-artificial-light",
+   "heat": "来源:stackexchange/worldbuilding (raw 未命中, 热度不可核验)",
+   "why": "6分 3答, 世界构建板块较新的高互动题, 长期隔离+人工光照的生理演化。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 缺 UV 影响维生素 D 合成与昼夜节律; 封闭小种群 500 年约 15-20 代, 遗传漂变与近交会累积, 但方向由选择压决定而非预设; 无重力/低重力另有骨密度与心血管去适应。设定层: 外骨骼设计的适应路径属虚构。",
+   "use": "lore 轨; 世界构建受众与《Alien Dimensions》读者重叠。"
+  },
+  {
+   "question": "What is a sustainable population range for a civilization of rat-like creatures living in the walls of a giant's castle?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274685/what-is-a-sustainable-population-range-for-a-civilization-of-rat-like-creatures",
+   "heat": "stackexchange/worldbuilding | 2026-09-29T18:32 | 3 分 1 评论 (raw_2026-10-06.json; SE API 2026-10-06 复核实测 3 分 1 答 185 浏览, open)",
+   "why": "原 #10 (worldbuilding 274697) 经 SE API 复核已 closed=Duplicate, 换入本条; 承载上限可套真实生态学的最小可行种群经验规则。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 承载量由可用能量与物质流决定, 不由意图决定; 长期存续受遗传漂变约束, 保护生物学常引 50/500 经验规则(短期 50、长期 500 个体), 但那是数量级估计而非定值, 封闭系统还须考虑资源循环与变异丢失。设定层: 竞技场三方架构里的封闭生态舱属设定。",
+   "use": "lore 轨; 与 10-05 树栖文明演化题同簇, 覆盖 arena-tripartite-architecture 页短板。"
+  },
+  {
+   "question": "Need a Solid-State Physics designed for Superconducting Spintronics",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1wxs579/need_a_solidstate_physics_designed_for/",
+   "heat": "reddit/r/physics | 2026-10-04T22:13 (RSS 不回传票数, 热度不可核验)",
+   "why": "r/Physics 新帖(2026-10-04), 超导自旋电子学教材需求, 与超晶格/雷达设定同域。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 超导自旋电子学依赖自旋三重态配对与自旋轨道耦合, 铁磁/超导界面是核心难题(交换场破坏自旋单态); 教材缺口真实存在。设定层: 2 型超晶格雷达的自旋输运读数属 fiction。",
+   "use": "lore 轨, 教材话题带购买意图长尾。"
+  },
+  {
+   "question": "Books with Beautiful Fantasy/Sci-Fi Illustrations",
+   "source": "reddit/r/suggestmeabook",
+   "source_url": "https://www.reddit.com/r/suggestmeabook/comments/1wxrffg/books_with_beautiful_fantasyscifi_illustrations/",
+   "heat": "reddit/r/suggestmeabook | 2026-10-04T21:41 (RSS 不回传票数, 热度不可核验)",
+   "why": "r/suggestmeabook 新帖(2026-10-04), 插画硬科幻求推荐, 购买意图形态。",
+   "map_to": "book",
+   "answer_angle": "真实层: 无物理内容, 纯购买意图轨。设定层: 直接引 book.html 与 14 平台分销。",
+   "use": "book 轨, 不进 lore 注入; 引 book.html。"
+  }
+ ],
+ "recovery_note": "02:26 recovery_reissue 复跑修正: 02:00 首跑产物字段完整、qa 两条 slug 合法(已过 geo_qa_inject.py --dry-run), 但 hot 清单中 2 条经 SE API 实测为 closed, 与首跑 heat_verification 声称的\"全部 open\"不符, 已换题并改写该字段。qa 文件本次未改动。"
+}
