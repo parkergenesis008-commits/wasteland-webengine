@@ -1,0 +1,691 @@
+{
+  "_ts": "2026-10-07T02:00:02.797248",
+  "_date": "2026-10-07",
+  "counts": {
+    "stackexchange": 54,
+    "reddit_rss": 28,
+    "hackernews": 7,
+    "questions": 55,
+    "total": 73
+  },
+  "errors": [
+    "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "Can Single Particles have Entropy?",
+      "url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 5,
+      "ts": "2026-09-26T07:44",
+      "is_question": true
+    },
+    {
+      "title": "How does artificial light cancel or dominate the light coming from stars?",
+      "url": "https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 10,
+      "comments": 6,
+      "ts": "2026-10-01T13:37",
+      "is_question": true
+    },
+    {
+      "title": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
+      "url": "https://physics.stackexchange.com/questions/876290/why-are-there-different-formulas-for-orbital-decay-times-via-gravitational-radia",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 11,
+      "comments": 1,
+      "ts": "2026-09-23T13:31",
+      "is_question": true
+    },
+    {
+      "title": "Could the City of Gold&#39;s gold export restrictions justify high gold world prices?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274675/could-the-city-of-golds-gold-export-restrictions-justify-high-gold-world-prices",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 8,
+      "ts": "2026-09-29T09:50",
+      "is_question": true
+    },
+    {
+      "title": "Does Newtonian mechanics make claims about how forces are created?",
+      "url": "https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 6,
+      "ts": "2026-09-24T11:47",
+      "is_question": true
+    },
+    {
+      "title": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 7,
+      "ts": "2026-10-03T02:09",
+      "is_question": true
+    },
+    {
+      "title": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
+      "url": "https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 3,
+      "ts": "2026-09-23T22:02",
+      "is_question": true
+    },
+    {
+      "title": "What bunker materials are needed to protect against a microscopic neutron star explosion?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274670/what-bunker-materials-are-needed-to-protect-against-a-microscopic-neutron-star-e",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 3,
+      "ts": "2026-09-28T22:51",
+      "is_question": true
+    },
+    {
+      "title": "Chern-Simons theory and the Jones Polynomial",
+      "url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 0,
+      "ts": "2026-09-30T11:30",
+      "is_question": true
+    },
+    {
+      "title": "Where did Frames go in the geometric formulation of Newton&#39;s laws? (Schuller)",
+      "url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-09-26T14:54",
+      "is_question": true
+    },
+    {
+      "title": "How would the human body change after 500 years in a confined area with artificial light?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274623/how-would-the-human-body-change-after-500-years-in-a-confined-area-with-artifici",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 3,
+      "ts": "2026-09-24T18:33",
+      "is_question": true
+    },
+    {
+      "title": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+      "url": "https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 0,
+      "ts": "2026-09-26T18:35",
+      "is_question": true
+    },
+    {
+      "title": "Would a planet with a rocky shell and a subsurface ocean explode if it were moved closer to its Sun due to the internal water &#39;boiling&#39; off?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274662/would-a-planet-with-a-rocky-shell-and-a-subsurface-ocean-explode-if-it-were-move",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-28T15:52",
+      "is_question": true
+    },
+    {
+      "title": "Evolution to an arboreal civilization",
+      "url": "https://worldbuilding.stackexchange.com/questions/274648/evolution-to-an-arboreal-civilization",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-09-27T15:33",
+      "is_question": true
+    },
+    {
+      "title": "What is the effect of a world&#39;s births being dependent on our world&#39;s deaths? Would the population be sustainable?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274614/what-is-the-effect-of-a-worlds-births-being-dependent-on-our-worlds-deaths-wo",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-09-22T22:55",
+      "is_question": true
+    },
+    {
+      "title": "How to build a medieval fantasy bunker?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274694/how-to-build-a-medieval-fantasy-bunker",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-10-01T03:46",
+      "is_question": true
+    },
+    {
+      "title": "Practicality of sail-powered airships in a fantasy setting?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274697/practicality-of-sail-powered-airships-in-a-fantasy-setting",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-10-01T06:47",
+      "is_question": true
+    },
+    {
+      "title": "How to interpret the permittivity of a conductive material?",
+      "url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-06T11:20",
+      "is_question": true
+    },
+    {
+      "title": "What is a sustainable population range for a civilization of rat-like creatures living in the walls of a giant&#39;s castle?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274685/what-is-a-sustainable-population-range-for-a-civilization-of-rat-like-creatures",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 2,
+      "ts": "2026-09-29T18:32",
+      "is_question": true
+    },
+    {
+      "title": "Could liquid sulfur dioxide oceans exist on a carbon based planet?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274617/could-liquid-sulfur-dioxide-oceans-exist-on-a-carbon-based-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-09-23T11:14",
+      "is_question": true
+    },
+    {
+      "title": "Why are they wearing those black and orange suits in this video during water survival training?",
+      "url": "https://space.stackexchange.com/questions/70724/why-are-they-wearing-those-black-and-orange-suits-in-this-video-during-water-sur",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-10-01T17:14",
+      "is_question": true
+    },
+    {
+      "title": "What effects would a landmass distribution such as this have on the ocean currents and general climate of a world?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274622/what-effects-would-a-landmass-distribution-such-as-this-have-on-the-ocean-curren",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-09-24T18:01",
+      "is_question": true
+    },
+    {
+      "title": "Why haven&#39;t we designed a larger docking port?",
+      "url": "https://space.stackexchange.com/questions/70726/why-havent-we-designed-a-larger-docking-port",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-02T00:30",
+      "is_question": true
+    },
+    {
+      "title": "Hamiltonian in momentum representation",
+      "url": "https://physics.stackexchange.com/questions/876648/hamiltonian-in-momentum-representation",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-06T15:58",
+      "is_question": true
+    },
+    {
+      "title": "Spin connection in Chern-Simons theory",
+      "url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-06T12:58",
+      "is_question": true
+    },
+    {
+      "title": "Time period of compensated pendulum",
+      "url": "https://physics.stackexchange.com/questions/876639/time-period-of-compensated-pendulum",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-06T12:53",
+      "is_question": true
+    },
+    {
+      "title": "How do I calculate the ($\\alpha$-$z$) mutual information for free fermions?",
+      "url": "https://physics.stackexchange.com/questions/876637/how-do-i-calculate-the-alpha-z-mutual-information-for-free-fermions",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-06T10:56",
+      "is_question": true
+    },
+    {
+      "title": "Need feedback on this world&#39;s climate",
+      "url": "https://worldbuilding.stackexchange.com/questions/274686/need-feedback-on-this-worlds-climate",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-29T21:43",
+      "is_question": true
+    },
+    {
+      "title": "What are some options for lightweight but rigid skeletal biochemistry?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274633/what-are-some-options-for-lightweight-but-rigid-skeletal-biochemistry",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-25T15:29",
+      "is_question": true
+    },
+    {
+      "title": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+      "url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-06T16:33",
+      "is_question": true
+    },
+    {
+      "title": "Geodesics on a surface of constant Gauss curvature. Any physics/mechanics relevance?",
+      "url": "https://physics.stackexchange.com/questions/876631/geodesics-on-a-surface-of-constant-gauss-curvature-any-physics-mechanics-releva",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-06T02:41",
+      "is_question": true
+    },
+    {
+      "title": "[Gears of war] after the pendulum wars, Locust wars and the arrival of the swarm, how many humans are left?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyih7f/gears_of_war_after_the_pendulum_wars_locust_wars/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-05T19:54",
+      "is_question": true
+    },
+    {
+      "title": "[DUNE] If I were to organize a cheer squad of Bene Gesserit Witches and they all used The Voice while doing their cheers; what kind of performance could I expect from the team they were cheering?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyqy5e/dune_if_i_were_to_organize_a_cheer_squad_of_bene/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T02:11",
+      "is_question": true
+    },
+    {
+      "title": "[MCU/Marvel] What were the odds of Thanos himself being zeroed by the snap?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyyqom/mcumarvel_what_were_the_odds_of_thanos_himself/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T10:05",
+      "is_question": true
+    },
+    {
+      "title": "[Ace Combat] Why is the transition to new aircraft generations progressing so slowly?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wz5m5a/ace_combat_why_is_the_transition_to_new_aircraft/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T15:31",
+      "is_question": true
+    },
+    {
+      "title": "[Asterix] What's the size of boar population around the Asterix' village to support such high boar meat consumption?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyjm9e/asterix_whats_the_size_of_boar_population_around/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-05T20:39",
+      "is_question": true
+    },
+    {
+      "title": "[Marvel] why did Dr Doom choose Thor to be His army during the events of secret wars?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wz52km/marvel_why_did_dr_doom_choose_thor_to_be_his_army/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T15:10",
+      "is_question": true
+    },
+    {
+      "title": "[FALLOUT] I'm intelligent, literate, and skilled at managing people and resources: Is there any way to become a civil bureacrat in Caesar's Legion or are all administrators members of the army?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyy5fb/fallout_im_intelligent_literate_and_skilled_at/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T09:27",
+      "is_question": true
+    },
+    {
+      "title": "[We Bare Bears] Why does Panda have such bad luck in love?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyxpxs/we_bare_bears_why_does_panda_have_such_bad_luck/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T08:59",
+      "is_question": true
+    },
+    {
+      "title": "[Star Fox] Can the Cornerian government request Star Fox to hand over the Arwing models?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wz1phm/star_fox_can_the_cornerian_government_request/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T12:47",
+      "is_question": true
+    },
+    {
+      "title": "[Dc comics] could there be a planet where humans gain supermans power set?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyvect/dc_comics_could_there_be_a_planet_where_humans/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T06:23",
+      "is_question": true
+    },
+    {
+      "title": "[Attack On Titan] What would happen if a cadet were to get pregnant?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyuekc/attack_on_titan_what_would_happen_if_a_cadet_were/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T05:22",
+      "is_question": true
+    },
+    {
+      "title": "[Harry Potter] Why aren't paired portraits used as an instant communication network?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wz5qdu/harry_potter_why_arent_paired_portraits_used_as/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T15:35",
+      "is_question": true
+    },
+    {
+      "title": "[Marvel Comics] Is there a clear distinction between \"cosmic power\" and other power like magic or psionics?",
+      "url": "https://www.reddit.com/r/AskScienceFiction/comments/1wyxpxn/marvel_comics_is_there_a_clear_distinction/",
+      "source": "reddit/r/AskScienceFiction",
+      "note": "科幻设定问答(天然 Q&A 形态)",
+      "ts": "2026-10-06T08:59",
+      "is_question": true
+    },
+    {
+      "title": "Ladies and gentlemen, make your bets, who do you think has a chance for the Nobel tomorrow?",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyhbsj/ladies_and_gentlemen_make_your_bets_who_do_you/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T19:10",
+      "is_question": true
+    },
+    {
+      "title": "Why does bringing a negative plate near a positive plate lower positive plate's potential, even though the negative plate attracts a positive charge?",
+      "url": "https://www.reddit.com/r/Physics/comments/1wywtns/why_does_bringing_a_negative_plate_near_a/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T07:57",
+      "is_question": true
+    },
+    {
+      "title": "As a college freshmen, should I go for a bachelors in physics or something else?",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyrily/as_a_college_freshmen_should_i_go_for_a_bachelors/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T02:41",
+      "is_question": true
+    },
+    {
+      "title": "Good Coffee Table Books?",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyma37/good_coffee_table_books/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T22:29",
+      "is_question": true
+    },
+    {
+      "title": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -2,
+      "comments": 3,
+      "ts": "2026-10-01T14:34",
+      "is_question": true
+    },
+    {
+      "title": "Does the fairings of Falcon-9 have attitude control thrusters?",
+      "url": "https://space.stackexchange.com/questions/70722/does-the-fairings-of-falcon-9-have-attitude-control-thrusters",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-28T05:08",
+      "is_question": true
+    },
+    {
+      "title": "A direct challenge to relativity: the speed of light as maximum speed of cause and effect is not correct in all situations",
+      "url": "https://physics.stackexchange.com/questions/876652/a-direct-challenge-to-relativity-the-speed-of-light-as-maximum-speed-of-cause-a",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-10-06T17:51",
+      "is_question": true
+    },
+    {
+      "title": "How can a person show/present a nonlinear time",
+      "url": "https://worldbuilding.stackexchange.com/questions/274674/how-can-a-person-show-present-a-nonlinear-time",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-09-29T09:40",
+      "is_question": true
+    },
+    {
+      "title": "How do astronauts prepare for spacewalks and maintain their EVA suits in the airlock",
+      "url": "https://space.stackexchange.com/questions/70727/how-do-astronauts-prepare-for-spacewalks-and-maintain-their-eva-suits-in-the-air",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-02T19:14",
+      "is_question": true
+    },
+    {
+      "title": "AI improvements for SGP4 and other orbital propagation systems",
+      "url": "https://space.stackexchange.com/questions/70729/ai-improvements-for-sgp4-and-other-orbital-propagation-systems",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-03T13:58",
+      "is_question": true
+    },
+    {
+      "title": "Any details on what the ARGOS classes look like in the Artemis program?",
+      "url": "https://space.stackexchange.com/questions/70721/any-details-on-what-the-argos-classes-look-like-in-the-artemis-program",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -4,
+      "comments": 0,
+      "ts": "2026-09-27T14:02",
+      "is_question": true
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 782,
+      "comments": 618,
+      "ts": "2026-10-05T05:37",
+      "is_question": false
+    },
+    {
+      "title": "Questions for believers in AI consciousness",
+      "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 47,
+      "comments": 226,
+      "ts": "2026-10-05T18:59",
+      "is_question": false
+    },
+    {
+      "title": "Florida woman used Claude as a diary, then Anthropic reported an entry to police",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-04T21:29",
+      "is_question": false
+    },
+    {
+      "title": "Predicting Peace",
+      "url": "https://entropicthoughts.com/forecasting-peace",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 4,
+      "comments": 0,
+      "ts": "2026-10-06T10:10",
+      "is_question": false
+    },
+    {
+      "title": "The Velocity of Bullshit",
+      "url": "https://blog.entropy.capital/p/the-velocity-of-bullshit",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-05T12:28",
+      "is_question": false
+    },
+    {
+      "title": "Recursive Generated Entropy",
+      "url": "https://jakebreams.substack.com/p/recursive-generated-entropy",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-05T22:01",
+      "is_question": false
+    },
+    {
+      "title": "No Model Required: Text Entropy Rate Filtering Mitigates Iterative Fine-Tuning",
+      "url": "https://arxiv.org/abs/2610.01493",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-04T02:07",
+      "is_question": false
+    },
+    {
+      "title": "2026 Nobel Prize awarded to Francis Halzen",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyyjam/2026_nobel_prize_awarded_to_francis_halzen/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T09:52",
+      "is_question": false
+    },
+    {
+      "title": "Francis won!",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyyl56/francis_won/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T09:55",
+      "is_question": false
+    },
+    {
+      "title": "2026 Nobel prize",
+      "url": "https://www.reddit.com/r/Physics/comments/1wz1usp/2026_nobel_prize/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T12:55",
+      "is_question": false
+    },
+    {
+      "title": "Researchers found that darker-pigmented skin required less laser energy to produce visible injury than lighter-pigmented skin, causing concern for laser safety in diverse patient populations.",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyjyro/researchers_found_that_darkerpigmented_skin/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T20:52",
+      "is_question": false
+    },
+    {
+      "title": "My first homemade crystal radio isn't receiving any AM stations",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radio_isnt_receiving/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T05:11",
+      "is_question": false
+    },
+    {
+      "title": "Hard problems to train on",
+      "url": "https://www.reddit.com/r/Physics/comments/1wykox6/hard_problems_to_train_on/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T21:21",
+      "is_question": false
+    },
+    {
+      "title": "The Unexpected Ubiquity of the Phonon Thermal Hall Effect",
+      "url": "https://www.reddit.com/r/Physics/comments/1wz58xy/the_unexpected_ubiquity_of_the_phonon_thermal/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T15:16",
+      "is_question": false
+    },
+    {
+      "title": "asking for help understanding a capacitors question",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyhdrd/asking_for_help_understanding_a_capacitors/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T19:12",
+      "is_question": false
+    },
+    {
+      "title": "Physics Questions - Weekly Discussion Thread - October 06, 2026",
+      "url": "https://www.reddit.com/r/Physics/comments/1wz1z4h/physics_questions_weekly_discussion_thread/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T13:00",
+      "is_question": false
+    },
+    {
+      "title": "Physics Major Advice? Should I change majors? Help please…",
+      "url": "https://www.reddit.com/r/Physics/comments/1wysn3n/physics_major_advice_should_i_change_majors_help/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-06T03:41",
+      "is_question": false
+    },
+    {
+      "title": "Masters or PhD",
+      "url": "https://www.reddit.com/r/Physics/comments/1wyly2p/masters_or_phd/",
+      "source": "reddit/r/physics",
+      "note": "物理科普",
+      "ts": "2026-10-05T22:14",
+      "is_question": false
+    }
+  ]
+}

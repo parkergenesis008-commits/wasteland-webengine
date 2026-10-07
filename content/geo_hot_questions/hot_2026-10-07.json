@@ -1,0 +1,143 @@
+{
+ "date": "2026-10-07",
+ "generated": "2026-10-07 02:00 CST",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "raw_2026-10-07.json",
+ "sources_health": {
+  "stackexchange": 54,
+  "reddit_rss": 28,
+  "hackernews": 7,
+  "questions": 55,
+  "total_dedup": 73,
+  "errors": [
+   "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests"
+  ]
+ },
+ "x_tiktok": "X/TikTok 今日抓取失败(无平台级当日榜单): 2 次 web_search 仅命中二手聚合页与镜像页。X 侧唯一带日期与计数的命中是 @CJHandmer 2026-10-05 帖(32.4K 浏览, 83 回 10 转 390 赞, 来自搜索结果摘要而非平台 API), 内容为\"齿轮+柴油也能模拟大脑物理\", 与本项目 lore 无直接映射, 未采纳其数值; TikTok 侧只命中 tikwm 镜像页(视频 2026-10-03 上传, @lunarcheeseee \"地球突然停转\"段子)与 genzhype 2026-10-04 二手词条页, 均无平台计数, 未编造任何帖子。",
+ "heat_verification": "38 条 StackExchange 候选经官方 API 逐条复核(api.stackexchange.com, 2026-10-07): closed 7 条已排除(worldbuilding 274697 Duplicate, 274674 Not suitable, physics 876631 Needs details, space 70722 Duplicate, 70729/70727/70721 Needs details/focus); 入选 12 条全部 open, 分数/回答数/浏览数取自本次 API 返回。",
+ "dedup_note": "剔除已注入题: 876387 单粒子熵(10-06 注入 kondo), 876302 光子双镜(10-06 注入 em), 876502 Chern-Simons(10-05 注入 kondo), 876401 Frames(注入 arena), 876532 人工光遮盖星光(注入 holographic), 876290 轨道衰变公式(注入 cooperative), 274670 中子星掩体(注入 obstructed), 274685 鼠类人口(10-06 注入 arena), 274704 通信设施重建(10-04 注入 type2), 274697 帆船飞艇(closed Duplicate)。12 条清单全部为本轮未注入题。",
+ "entries": [
+  {
+   "question": "Does Newtonian mechanics make claims about how forces are created?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created",
+   "heat": "stackexchange/physics | 2026-09-24 | 8 分 6 答 1014 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "物理板块今日未注入题里热度最高(8分6答1014浏览), 概念澄清型: 牛顿力学把力当输入而不解释来源, 正好接相对论与场论的分界。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 第二定律只给出力与加速度的关系, 力的起源留给万有引力或场描述; 相对论里力=动量变化率, 质量是场要克服的惯性, 并非被\"创造\"。设定层: 半狄拉克页把有效质量归零处当作账本失效的舞台, 必须写成 fiction。",
+   "use": "首推注入 qa; 挂 semi-dirac-mass-nullification 页, 内链 artificial-kondo-lattice。"
+  },
+  {
+   "question": "How to interpret the permittivity of a conductive material?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+   "heat": "stackexchange/physics | 2026-10-06 | 5 分 1 答 50 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "当日新帖(10-06 发), 复介电常数把欧姆损耗与极化混在一个量里, 是电磁科普最容易被问倒的点, 长尾搜索稳。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 导体里自由电荷的响应写成复介电常数或复电导率, 虚部代表损耗(焦耳热), 实部与极化同相; 低频下导体更像电阻, 高频下趋肤深度与弛豫才让介电描述有意义。设定层: 电磁剧场页的\"场覆盖\"是虚构设定, 不得说成可工程实现的真实器件。",
+   "use": "lore 轨, 不进 qa; 与 r/physics 激光皮肤题同簇(同为电磁量纲澄清)。"
+  },
+  {
+   "question": "[Harry Potter] Why aren't paired portraits used as an instant communication network?",
+   "source": "reddit/r/AskScienceFiction",
+   "source_url": "https://www.reddit.com/r/AskScienceFiction/comments/1wz5qdu/harry_potter_why_arent_paired_portraits_",
+   "heat": "reddit/r/AskScienceFiction | 2026-10-06T15:35 | RSS 未提供投票数(未采信任何数值; raw_2026-10-07.json)",
+   "why": "当池唯一的\"实时通信\"母题提问, 天生贴合超晶格雷达页; 讨论度靠设定一致性而非票数, 适合做对照型内容。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 无超光速通信, 量子不可克隆与无通信定理排除了靠纠缠瞬时传信; 任何\"成对即时\"装置都必须回到经典信道加一次测量。设定层: 超晶格雷达页的远距信道是 fiction, 明确写成本书设定而非预言。",
+   "use": "lore 轨, 不进 qa; 与今日 qa 的晶体收音机题互为\"能收到的与收不到的\"对照。"
+  },
+  {
+   "question": "Would a planet with a rocky shell and a subsurface ocean explode if it were moved closer to its Sun due to the ice melting?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274662/would-a-planet-with-a-rocky-shell-and-a-sub-surface-ocean-explode",
+   "heat": "stackexchange/worldbuilding | 2026-09-28 | 6 分 1 答 1175 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "池中世界构建类浏览最高一档(1175), 问的是相变膨胀与潮汐加热的叠加, 能给出定量推理链而不是\"看设定\"。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 冰变水体积收缩而非膨胀(水冰尤甚), 外壳破裂更多来自潮汐加热的熔融与热应力、以及轨道迁移后的离心/共振再分配, 不是\"膨胀炸开\"; 判据是束缚能与加热率之比。设定层: 共振扭转页的轨道账本属虚构。",
+   "use": "lore 轨, 不进 qa; 与 274710 轨道碎片题合成\"轨道再分配\"双条目。"
+  },
+  {
+   "question": "How would the human body change after 500 years in a confined area with artificial light?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274623/how-would-the-human-body-change-after-500-years-in-a-confined-area-with-artificial-light",
+   "heat": "stackexchange/worldbuilding | 2026-09-24 | 6 分 3 答 895 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "封闭栖息地题材与系绳外骨骼页同域, 且答案落在(光照周期→昼夜节律、维生素D、微生物组)这几条可核实的生理链上。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 可预期的是昼夜节律紊乱、维生素D 合成下降随之的骨密度变化、以及封闭微生物组贫化带来的免疫改变, 时间尺度上属可塑的生理调节而非快速定向演化; 演化需要选择性压力差, 固定环境反而降低选择压力。设定层: 系绳外骨骼页的生命维持闭环是 fiction。",
+   "use": "lore 轨, 不进 qa; 与 274633 轻质刚性骨生化题同簇。"
+  },
+  {
+   "question": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-between-planets-would-remain-in-orbit",
+   "heat": "stackexchange/worldbuilding | 2026-10-03 | 6 分 7 答 901 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "7 个回答的高互动题, 核心是逃逸速度判据与希尔球边界, 一句话就能给出可检验结论, 适合做成\"物理检验科幻\"样例。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 残留与否取决于抛射速度与当地逃逸速度之比、以及相对母体的希尔球; 慢于逃逸的碎片进入绕母体轨道并被摄动, 快于逃逸的进入日心轨道, 不存在\"自动留在原地\"。设定层: 叙事里的轨道残骸场是设定选择。",
+   "use": "lore 轨, 与 274662 同页互补。"
+  },
+  {
+   "question": "What is the effect of a world's births being dependent on our world's deaths? Would the population be sustainable?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274614/what-is-the-effect-of-a-worlds-births-being-dependent-on-our-worlds-deaths",
+   "heat": "stackexchange/worldbuilding | 2026-09-22 | 4 分 5 答 1131 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "把人口学做成耦合方程的好题, 天然引出\"源池有限则平衡点给定\"的结论, 适合展示模型化思维。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 出生率绑定另一世界的死亡数等于给人ロ加了一个外部源项, 稳态存量由源通量与死亡率之比决定; 源池有限时人口先升后饱和, 若源速率波功则人口振荡。设定层: 三方架构页的\"配额/席位\"是虚构机制。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Evolution to an arboreal civilization",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274648/evolution-to-an-arboreal-civilization",
+   "heat": "stackexchange/worldbuilding | 2026-09-27 | 5 分 3 答 881 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "演化路径题, 可给出的真实约束是能量预算与肢体力学(抓握、承重、工具持握的取舍), 避免\"随便演化\"式回答。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 树栖形态对文明化的阻力在于能量预算(攀爬耗能高)、解放双手的力学约束与材料可及性(无火/无炉), 可行路线通常需要先获得地面或岩壁的替代生态位。设定层: 项目里的建筑/竞技场设定是 fiction, 不作真实人类学结论。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Could the City of Gold's gold export restrictions justify high gold world prices?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274675/could-the-city-of-golds-gold-export-restrictions-justify-high-gold-world-prices",
+   "heat": "stackexchange/worldbuilding | 2026-09-29 | 7 分 8 答 1473 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)",
+   "why": "当日世界构建类票数与浏览双高(7分8答1473), 且是唯一带\"购买/贸易\"语境的题, 与书的分销购买意图同轨。",
+   "map_to": "book",
+   "answer_angle": "真实层: 价格由边际供给与需求弹性共同决定, 单一城邦的出口限制只有在它占全球供给份额足够大时才显著抬价, 并且要区分\"垄断供给抬价\"与\"禁令催生替代/走私\"; 库存释放与预期也会提前定价。设定层: 只用于引书, 不虚构任何真实黄金市场数据。",
+   "use": "book 轨: 引 book.html 全 14 平台分销, 不进 lore 注入。"
+  },
+  {
+   "question": "Researchers found that darker-pigmented skin required less laser energy to produce visible injury than lighter-pigmented skin",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1wyjyro/researchers_found_that_darkerp",
+   "heat": "reddit/r/physics | 2026-10-05 | RSS 未提供投票数(未采信任何数值; raw_2026-10-07.json)",
+   "why": "真实研究型帖, 强吸收峰(黑色素)反而降低阈值的\"反直觉\"是极好的科普钩子, 与电磁剧场页的激光损伤话题同域。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 损伤阈值取决于吸收密度而非总能量, 黑色素在可见与近红外强吸收, 能量被表层沉积导致更低通量就到损伤阈值; 波长、脉宽(热扩散时间)与光斑尺寸都会改写阈值, 引用须回到原始论文。设定层: 电磁剧场页的\"覆盖\"是 fiction, 不指任何真实武器指标。",
+   "use": "lore 轨, 不进 qa; 引用时必须指向原论文, 不得转述二手数字。"
+  },
+  {
+   "question": "My first homemade crystal radio isn't receiving any AM stations",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radi",
+   "heat": "reddit/r/physics | 2026-10-06 | RSS 未提供投票数(未采信任何数值; raw_2026-10-07.json)",
+   "why": "当天唯一\"接收端\"实操题, 与超晶格雷达页的感官/天线主题同构, 且答案完全落在可核实的工程约束上。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 天线远小于 AM 波长(约米级 vs 数百米)使俘获能量极低, 检波二极管有开启阈值, 无放大级时须靠长天线/大环路、良好接地与高阻耳机; 阻抗匹配与本地强台比电路图更重要。设定层: 页内\"晶格阵列聚拢微弱信号\"是 fiction。",
+   "use": "次推注入 qa(今日注入第二条); 挂 type2-superlattice-radar 页, 内链 electromagnetic-theater-override。"
+  },
+  {
+   "question": "The Unexpected Ubiquity of the Phonon Thermal Hall Effect",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1wz58xy/the_unexpected_ubiquity_of_the",
+   "heat": "reddit/r/physics | 2026-10-06 | RSS 未提供投票数(未采信任何数值; raw_2026-10-07.json)",
+   "why": "前沿综述型帖(声子热霍尔效应普遍性), 与人工近藤晶格页的晶格/输运主题直接对应, 可做\"晶格物理如何进科幻设定\"的桥梁。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 热霍尔信号需要破坏时间反演对称或存在有效磁场/贝里曲率贡献, 声子本身无电荷因此其霍尔型热输运依赖晶格机制(声子-磁子混合、缺陷散射等), 普遍性仍在讨论中; 不虚构任何测量值。设定层: 晶格页的\"局部矩工程\"是 fiction。",
+   "use": "lore 轨, 不进 qa; 与 876637 类自由费米子题同簇备选。"
+  }
+ ],
+ "url_note": "采集器将 reddit 源的 source_url 截断到约 110 字符(thread ID 前缀完整, slug 尾部被截断); 引用时按 ID 前缀回溯。StackExchange 侧 URL 完整。X/TikTok 未采信任何数值。"
+}
