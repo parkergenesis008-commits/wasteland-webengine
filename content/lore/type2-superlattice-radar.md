@@ -32,28 +32,6 @@ In the context of Reality-as-Code, this **"Auger suppression" mechanism is trans
 ## 4. Conclusion: Scale-Free Horizon
 By precisely controlling the periodic thickness of atomic epitaxy, the visual system of advanced entities achieves continuously adjustable perception from zero to the limiting energy level. Bunkers, walls, and even the repulsive fog of electron clouds—within the scale-free vision of the Type-II superlattice—are all reduced to a naked cloud of tunneling quantum probabilities.
 
-<!-- GEO-QA-START id=50b65534db -->
-## Extended Q&A — Reader Question
-
-**Q: My first homemade crystal radio isn't receiving any AM stations**
-<p><em>asked on reddit/r/physics · reddit/r/physics 2026-10-06, RSS 未提供投票数(未采信任何数值) (raw_2026-10-07.json)</em></p>
-
-**A crystal set usually hears almost nothing because its antenna is a small fraction of an AM wavelength and there is no amplifier, so the captured energy sits below the detector diode's threshold.** AM broadcast wavelengths run to hundreds of metres, so real receivers use a long wire or a tuned loop, and the antenna, coil and detector all have to be impedance matched for any power to reach the earphone. A solid earth connection and a nearby strong station matter more than the schematic, so the usual fixes are a longer antenna, a better coil and a high impedance earphone. The fictional layer extrapolates the same physics: on <a href='type2-superlattice-radar.html'>the type-2 superlattice radar page</a> the array is imagined as a lattice that gathers a signal the size of a whisper, which is a setting device and not a claim about real receivers.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radi" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=57872b0406 -->
-## Extended Q&A — Reader Question
-
-**Q: Using magnetoreception as a very long-distance sense?**
-<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE new thread 2026-09-20, 3 points, 2 comments</em></p>
-
-Magnetoreception is real, but it is a heading sense rather than a ranging one, and that distinction is what breaks the long-distance version. The geomagnetic field is a global background of roughly 25 to 65 microtesla, and animals that use it resolve changes of tens of nanotesla, which is a directional gradient read at the body, not a signal returning from a distant object. Two mechanisms are taken seriously, magnetite crystals acting as torque sensors and a radical-pair reaction in the cryptochrome protein whose outcome depends on field orientation, and both are local readings of a field that every object shares. **There is no emitted pulse and no echo, so distance and shape carry no information no matter how sensitive the detector gets.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> is where this page's own idea, an active fictive lattice that both emits and receives, departs from biology.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=f25b1e2b08 -->
 ## Extended Q&A — Reader Question
 
@@ -65,4 +43,26 @@ Magnetoreception is real, but it is a heading sense rather than a ranging one, a
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-08 08:41 UTC -->
+<!-- GEO-QA-START id=a97dc724e5 -->
+## Extended Q&A — Reader Question
+
+**Q: How can a pre-industrial society fight underwater enemies?**
+<p><em>asked on stackexchange/worldbuilding · stackexchange/worldbuilding 2026-09-14 new thread, 7 points 9 comments</em></p>
+
+A pre-industrial defence against an underwater adversary is limited by the interface before any weapon matters: for sound crossing from air into water the acoustic impedance mismatch passes only about 0.1 percent of the intensity, roughly minus 30 dB, and radar in the usual sense does not work in salt water at all because the medium is conductive and the fields are absorbed within centimetres. What did work historically was passive listening, denial of access with nets and shore obstacles, and weapons that do not need to see the target. Those numbers are textbook acoustics and I have not measured them. <a href='type2-superlattice-radar.html'>The type-2 superlattice radar setting</a> takes the same mismatch as its design constraint and is fiction, not a claim about existing hardware, and <a href='electromagnetic-theater-override.html'>the electromagnetic override setting</a> covers the field-shaping side of the same problem.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274547/how-can-a-pre-industrial-society-fight-underwater-enemies" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- GEO-QA-START id=dba214ee7f -->
+## Extended Q&A — Reader Question
+
+**Q: How do new spacecraft navigate around debris in space**
+<p><em>asked on stackexchange/space · stackexchange/space 2026-09-17 new thread, 3 points 1 comment, the newest space question of the day</em></p>
+
+Spacecraft avoid debris mainly by prediction rather than by seeing an object and swerving: ground radar and optical telescopes maintain a catalogue of objects above a few centimetres, conjunctions are computed days in advance, and vehicles are steered by changing when they arrive rather than by reactive dodging. Returned signal strength depends strongly on target size and material, so the catalogue is biased toward large metal objects with simple shapes, which means the small untrackable fraction is handled by shielding and by choosing where the vehicle flies. **Avoidance is therefore mostly a prediction problem, not a detection problem.** The setting layer is fiction: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines a sensor that is not limited by the usual wavelength and size constraints, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70705/how-do-new-spacecraft-navigate-around-debris-in-space" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-08 17:20 UTC -->

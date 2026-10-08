@@ -40,14 +40,6 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Temperature is not a property of a particle, it is a property of a *distribution*: it is defined for a system in at least local thermal equilibrium, where the spread of energies is set by the Boltzmann factor. The familiar link to average kinetic energy is a statistical statement about an ensemble, so a single particle has kinetic energy and no temperature, and the fluctuation of an average taken over one sample is of order unity. That is why the equipartition shortcut quietly fails for very small systems, and why it is worth stating plainly rather than repeating the slogan. The idea survives in a weakened form for driven matter: a periodically driven system has no equilibrium at all, so one can only speak of an **effective temperature** or of Floquet heating toward a steady state, which is a real and active research area. This project's Floquet engineering setting treats time-periodic driving as a programmable material property, which is the fiction layer; the equilibrium thermodynamics above stays textbook, and the companion idea of a response that depends on direction rather than magnitude is developed in <a href='semi-dirac-mass-nullification.html'>the semi-Dirac setting</a>."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -60,6 +52,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "**A mirror never hands over electric charge; the only currency between light and a mirror is momentum and energy.** Reflection reverses the photon's momentum, so each bounce delivers twice the photon momentum to the mirror, the same radiation pressure that pushes a fully reflective sail with roughly 9 micronewtons per square metre at Earth's distance from the Sun. A moving mirror makes that exchange asymmetric in the lab frame, because the photon is Doppler shifted: a mirror advancing on the light gains energy from it, a receding one gives energy up, and an accelerated mirror can pull photons out of the vacuum as the dynamical Casimir effect, measured in a superconducting circuit in 2011 (Nature 479, 376). In the two carts of the question the mirrors and the photon share one conserved total momentum, so any force felt by one mirror is balanced by the other and neither accumulates charge. In the *Wasteland* setting the <a href='cooperative-resonance-torsion.html'>Cooperative Resonance and Torsion Compression</a> page extends driven media into a programming layer for matter, and that layer is fiction rather than a claim about laboratory mirrors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Single Particles have Entropy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entropy is not a property of one particle in a definite state. **For a single particle in a pure state the von Neumann entropy is zero**, and entropy only appears once you specify an ensemble or coarse-grain the description. Include the environment and entropy returns as the entanglement entropy of the reduced state, which is why the heating of a driven system is usually read off from the diagonal entropy rather than from a single-particle quantity. Generic periodic driving keeps pumping energy in until the system saturates its energy shell, so the phases that survive instead, discrete time crystals among them, need a mechanism that blocks that absorption, with many-body localization as the standard example. The driven lattice described on this page is written as being held deliberately below that threshold, the same setting layer as the ordered lattice in <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the artificial Kondo lattice notes</a>, and that layer is fiction rather than a physical claim."
           }
         }
       ]
@@ -274,17 +274,6 @@
 <h2>5. Conclusion: Questioning Nature</h2>
 <p>In the Computational Arena, physics has evolved from "describing nature" to "questioning nature and coercing a response." As long as the rhythm of computation does not stop, the laws of the universe can be arbitrarily rewritten, remixed, and rendered into physical reality.</p>
 
-<p><!-- GEO-QA-START id=81f19f5026 --></p>
-<h2>Extended Q&A — Reader Question</h2>
-
-<p><strong>Q: If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single particle?</strong></p>
-<p><p><em>asked on stackexchange/physics · physics.SE 6 votes / 2 answers (2026-09-09)</em></p></p>
-
-<p>Temperature is not a property of a particle, it is a property of a <em>distribution</em>: it is defined for a system in at least local thermal equilibrium, where the spread of energies is set by the Boltzmann factor. The familiar link to average kinetic energy is a statistical statement about an ensemble, so a single particle has kinetic energy and no temperature, and the fluctuation of an average taken over one sample is of order unity. That is why the equipartition shortcut quietly fails for very small systems, and why it is worth stating plainly rather than repeating the slogan. The idea survives in a weakened form for driven matter: a periodically driven system has no equilibrium at all, so one can only speak of an <strong>effective temperature</strong> or of <span class="glossary-term" data-tip="Floquet: A time-periodic driving protocol that can synthesize effective Hamiltonians with novel topological phases absent in static systems — 'time as a tuning parameter'.">Floquet</span> heating toward a steady state, which is a real and active research area. This project's <span class="glossary-term" data-tip="Floquet: A time-periodic driving protocol that can synthesize effective Hamiltonians with novel topological phases absent in static systems — 'time as a tuning parameter'.">Floquet</span> engineering setting treats time-periodic driving as a programmable material property, which is the fiction layer; the equilibrium thermodynamics above stays textbook, and the companion idea of a response that depends on direction rather than magnitude is developed in <a href='semi-dirac-mass-nullification.html'>the semi-<span class="glossary-term" data-tip="Dirac fermion: A relativistic quasiparticle described by the Dirac equation, with linear dispersion and a pseudospin degree of freedom. Semi-Dirac refers to hybrid linear/quadratic dispersion.">Dirac</span> setting</a>.</p>
-
-<p><p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-<span class="glossary-term" data-tip="Dirac fermion: A relativistic quasiparticle described by the Dirac equation, with linear dispersion and a pseudospin degree of freedom. Semi-Dirac refers to hybrid linear/quadratic dispersion.">Dirac</span> State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875817/if-temperature-is-related-to-the-average-kinetic-energy-of-particles-what-does" target="_blank" rel="noopener">Original thread</a></p></p>
-<p><!-- GEO-QA-END --></p>
-
 <p><!-- GEO-QA-START id=626f6a3115 --></p>
 <h2>Extended Q&A — Reader Question</h2>
 
@@ -307,7 +296,18 @@
 <p><p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and <span class="glossary-term" data-tip="Torsion: In Einstein-Cartan theory, the antisymmetric part of the affine connection — spacetime's twist, coupled to intrinsic spin just as curvature couples to mass-energy.">Torsion</span> Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other" target="_blank" rel="noopener">Original thread</a></p></p>
 <p><!-- GEO-QA-END --></p>
 
-<p><!-- Last fresh: 2026-10-08 08:41 UTC --></p>
+<p><!-- GEO-QA-START id=1138e1943a --></p>
+<h2>Extended Q&A — Reader Question</h2>
+
+<p><strong>Q: Can Single Particles have Entropy?</strong></p>
+<p><p><em>asked on stackexchange/physics · physics.SE 2026-09-26, 12 points, 5 answers, 1126 views (SE API 2026-10-01 复核)</em></p></p>
+
+<p>Entropy is not a property of one particle in a definite state. <strong>For a single particle in a pure state the von Neumann entropy is zero</strong>, and entropy only appears once you specify an ensemble or coarse-grain the description. Include the environment and entropy returns as the entanglement entropy of the reduced state, which is why the heating of a driven system is usually read off from the diagonal entropy rather than from a single-particle quantity. Generic periodic driving keeps pumping energy in until the system saturates its energy shell, so the phases that survive instead, discrete time crystals among them, need a mechanism that blocks that absorption, with many-body localization as the standard example. The driven lattice described on this page is written as being held deliberately below that threshold, the same setting layer as the ordered lattice in <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the artificial <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> lattice notes</a>, and that layer is fiction rather than a physical claim.</p>
+
+<p><p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial <span class="glossary-term" data-tip="Kondo effect: Screening of a magnetic impurity by conduction electrons, producing a many-body singlet. The 'Kondo lattice' extends this to periodic arrays of magnetic moments.">Kondo</span> Lattice and Wasteland <span class="glossary-term" data-tip="Topological: A property of a system that remains invariant under continuous deformations — like the number of holes in a donut. In condensed matter, topological phases are robust against local perturbations.">Topological</span> Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy" target="_blank" rel="noopener">Original thread</a></p></p>
+<p><!-- GEO-QA-END --></p>
+
+<p><!-- Last fresh: 2026-10-08 17:20 UTC --></p>
                 <!-- Further Reading -->
                 
 <div class="further-reading">
