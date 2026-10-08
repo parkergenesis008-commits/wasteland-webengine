@@ -30,17 +30,6 @@ Once it hits an enemy entity, all covalent bond electrons within its material st
 ## 4. Conclusion: Vessels of the Vacuum
 When matter is no longer a necessary carrier for electrical charge, the energy storage limit of the universe is fundamentally shattered. The Computational Arena no longer uses chemical reactions to bind energy; it exploits the topological dead zones of mathematical laws to corral those never-returning phantom electrons within the void.
 
-<!-- GEO-QA-START id=8ba3121459 -->
-## Extended Q&A — Reader Question
-
-**Q: What bunker materials are needed to protect against a microscopic neutron star explosion?**
-<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-28, 7 points, 3 answers, 1334 views (SE API 2026-10-05 复核)</em></p>
-
-**The material is the wrong variable here, because near a compact object the outcome is set by distance and time, not by what the wall is made of.** A microscopic neutron star still packs a stellar mass into a tiny radius, so its gravity and the tidal stretch across a bunker scale as inverse distance and inverse distance cubed respectively, and any structure is torn apart long before its compressive strength matters. Radiation and particle flux add a second channel, falling off with the square of distance so that close in no achievable thickness of ordinary matter absorbs the load, while at a safe distance the shelter problem reduces to a conventional underground design. The honest engineering answer is therefore to move the bunker far away and to think in terms of three separate channels, gravitational, neutrino, and electromagnetic, each with its own coupling to matter. The fiction layer is explicit and separate: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a> posits armour whose energy network sits in the empty interstices between atoms and keeps running for a short window even after the lattice is pulverized, which is a story device and not a shielding claim, and the fragile-macro-equilibrium counterpoint lives in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274670/what-bunker-materials-are-needed-to-protect-against-a-microscopic-neutron-star-explosion" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=3fb1327682 -->
 ## Extended Q&A — Reader Question
 
@@ -63,4 +52,15 @@ Atomic orbitals are solutions of a model Hamiltonian rather than photographs, an
 <p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876208/experimental-evidence-of-qm-atomic-orbitals-shape" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-07 08:23 UTC -->
+<!-- GEO-QA-START id=7e938dc4c2 -->
+## Extended Q&A — Reader Question
+
+**Q: What would happen if size of Chip tech reaches atomic size?**
+<p><em>asked on reddit/r/AskPhysics · reddit/r/AskPhysics 2026-09-26 新帖, RSS 无票数, 热度不可核验</em></p>
+
+**At the smallest scales a transistor stops behaving like a scaled-down version of the previous one.** The barrier becomes thin enough that carriers tunnel straight through it, so leakage grows faster than the gate can switch it off, and the dopant and vacancy configuration of each device starts to shift its threshold individually instead of only on average. Heat density rises at the same time because the same power is squeezed into less material, which is why the industry moved sideways into fin, gate-all-around and stacked three-dimensional geometries rather than continuing to shrink laterally. In the *Wasteland* setting the phantom grid page treats a lattice in which a fraction of sites no longer communicate with the rest as a designed medium rather than a fabrication defect, and that layer is fiction. The <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page carries the companion argument for treating the lattice itself as the programmable element.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wqo5sv/what_would_happen_if_size_of_chip_tech_reaches/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-08 08:41 UTC -->

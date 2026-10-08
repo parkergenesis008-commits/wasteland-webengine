@@ -8,7 +8,7 @@
   },
   "dd3876035e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-05T08:44:01.591531",
+    "ts": "2026-10-08T08:41:34.439796",
     "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -43,7 +43,7 @@
   },
   "5c080da333": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-06T08:41:42.535179",
+    "ts": "2026-10-08T08:41:34.441492",
     "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
     "pruned": 1,
     "src": "qa_2026-09-13.json"
@@ -57,21 +57,21 @@
   },
   "955a82ea71": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-06T08:41:42.530695",
+    "ts": "2026-10-08T08:41:34.437837",
     "question": "Is AI affecting Physics as it is affecting Mathematics?",
     "pruned": 1,
     "src": "qa_2026-09-14.json"
   },
   "ff0ce9a7ea": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-03T20:34:37.473712",
+    "ts": "2026-10-08T08:41:34.442685",
     "question": "Physical interpretation of the focusing theorem",
     "pruned": 1,
     "src": "qa_2026-09-14.json"
   },
   "fc002495d6": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-06T08:41:42.536304",
+    "ts": "2026-10-08T08:41:34.443315",
     "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
@@ -113,7 +113,7 @@
   },
   "34bfb5959a": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-03T20:34:37.476076",
+    "ts": "2026-10-08T08:41:34.445630",
     "question": "Can I avoid having my planet become tidally locked to its star so quickly?",
     "pruned": 1,
     "src": "qa_2026-09-21.json"
@@ -141,7 +141,7 @@
   },
   "ecbc6abd52": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-06T08:41:42.541802",
+    "ts": "2026-10-08T08:41:34.447734",
     "question": "Are astronauts permanently tethered during an EVA?",
     "pruned": 1,
     "src": "qa_2026-09-25.json"
@@ -155,9 +155,9 @@
   },
   "57872b0406": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-09-25T08:41:40.070016",
+    "ts": "2026-10-08T08:41:34.447020",
     "question": "Using magnetoreception as a very long-distance sense?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-23.json"
   },
   "626f6a3115": {
@@ -204,9 +204,9 @@
   },
   "bb93ba9cc2": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-09-27T15:57:53.091516",
+    "ts": "2026-10-08T08:41:34.448865",
     "question": "Could a ship with Alcubierre drive escape out of a black hole?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-27.json"
   },
   "69da7c73fd": {
@@ -218,9 +218,9 @@
   },
   "7e938dc4c2": {
     "slug": "obstructed-atomic-phantom-grid",
-    "ts": "2026-09-29T08:21:34.323016",
+    "ts": "2026-10-08T08:41:34.450115",
     "question": "What would happen if size of Chip tech reaches atomic size?",
-    "pruned": 0,
+    "pruned": 1,
     "src": "qa_2026-09-28.json"
   },
   "6678e45d70": {
@@ -232,7 +232,7 @@
   },
   "130d6a68cb": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-03T20:34:37.479810",
+    "ts": "2026-10-08T08:41:34.451432",
     "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
     "pruned": 1,
     "src": "qa_2026-09-28.json"
@@ -253,14 +253,14 @@
   },
   "1b6cbd960a": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-10-03T20:34:37.470513",
+    "ts": "2026-10-08T08:41:34.454182",
     "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
   },
   "23df36b23d": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-03T20:34:37.481298",
+    "ts": "2026-10-08T08:41:34.452896",
     "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
@@ -288,28 +288,28 @@
   },
   "aba3673f9d": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-06T08:41:42.546784",
+    "ts": "2026-10-08T08:41:34.454896",
     "question": "High-altitude blimp on Venus: shortsleeves weather?",
     "pruned": 1,
     "src": "qa_2026-10-02.json"
   },
   "fd56ba8085": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-05T08:44:01.596133",
+    "ts": "2026-10-08T08:41:34.455524",
     "question": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
     "pruned": 1,
     "src": "qa_2026-10-04.json"
   },
   "f25b1e2b08": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-05T08:44:01.596908",
+    "ts": "2026-10-08T08:41:34.456104",
     "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
     "pruned": 1,
     "src": "qa_2026-10-04.json"
   },
   "45d1661cfe": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-05T08:44:01.597640",
+    "ts": "2026-10-08T08:41:34.438633",
     "question": "Chern-Simons theory and the Jones Polynomial",
     "pruned": 1,
     "src": "qa_2026-10-05.json"
@@ -348,5 +348,19 @@
     "question": "My first homemade crystal radio isn't receiving any AM stations",
     "pruned": 1,
     "src": "qa_2026-10-07.json"
+  },
+  "d347093313": {
+    "slug": "kpz-reality-rendering",
+    "ts": "2026-10-08T08:41:34.456950",
+    "question": "OpenAI publishes 722 mathematical proofs & manuscripts",
+    "pruned": 1,
+    "src": "qa_2026-10-08.json"
+  },
+  "fadeb2c062": {
+    "slug": "holographic-kpz-projection",
+    "ts": "2026-10-08T08:41:34.457692",
+    "question": "How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics",
+    "pruned": 1,
+    "src": "qa_2026-10-08.json"
   }
 }

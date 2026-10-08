@@ -1,0 +1,143 @@
+{
+ "date": "2026-10-08",
+ "generated": "2026-10-08T02:06:42",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "raw_2026-10-08.json",
+ "sources_health": {
+  "stackexchange": 52,
+  "reddit_rss": 24,
+  "hackernews": 9,
+  "questions": 42,
+  "total_dedup": 69,
+  "errors": [
+   "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests"
+  ]
+ },
+ "x_tiktok": "X 侧: 本跑 2 次 web_search, 其中 1 次因后端返回 403 失败, 成功 1 次仅命中新闻/主题聚合页(FLUX 3 宣称 Physics-IQ 榜首、OpenAI 722 篇数学稿等报道页), 无平台级当日榜单, 无带日期与互动计数的可核验 X 帖, 未采纳任何数值。TikTok 侧: 1 次 web_search 仅命中二手聚合页(wokewaves 科学假设段子盘点、genzhype 'sound vs light speed test' 词条页、fluxnote 选题清单), 均为二手分析页、无平台计数, 未编造任何帖子。本跑 X/TikTok 无平台级当日抓取。",
+ "heat_verification": "启用 4 条新 StackExchange 题 + 6 条未注入旧题, 经官方 API 逐条复核(api.stackexchange.com, 2026-10-08): physics 876650/876306/876663 与 worldbuilding 274686 均 open, 分数/回答数/浏览数取自本次 API 返回; 同批复核另剔除已关闭 5 条(physics 876665 Needs details, 876661 Needs details, 876659 Not suitable, 876673 Not suitable, 876657 Not suitable); worldbuilding 274697/274674 与 space 70722/70729/70727/70721 亦为 closed, 未入选。reddit/HN 条目的热度仅取自 raw 分值与评论数, RSS 不回传 reddit 票数故未采信。",
+ "dedup_note": "剔除已注入题(出现在任一 qa_*.json): 876387 单粒子熵(10-06 kondo/10-01 floquet), 876322 牛顿力来源(10-07 semi-dirac), 876302 光子双镜(10-06 em), 876502 Chern-Simons(10-05 kondo), 876401 Frames(09-30 arena), 876532 人工光遮星光(10-02 holographic), 274670 中子星掩体(10-05 obstructed), 274704 通信设施重建(10-04 type2); 并避开 10-07 已列题(274662/274623/274710/274614/274648/274675 等)。新入池未用题 4 条(876650/876306/876663/274686)全部入选; 另补 6 条\"曾列未注入\"题(70726/70724/274694/274622/274633 + OpenAI 与诺奖热点)以凑满 12 条。",
+ "entries": [
+  {
+   "question": "OpenAI publishes 722 mathematical proofs & manuscripts",
+   "source": "reddit/r/singularity",
+   "source_url": "https://www.reddit.com/r/singularity/comments/1wzio50/openai_publishes_722_mathematical_proofs/",
+   "heat": "reddit/r/singularity 2026-10-07 帖; 同源 r/physics 2026-10-06 另有同题帖; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)",
+   "why": "当日 AI/数学最大热点: 未公开内部门模型一次放出 722 篇手稿(372 个结果族), 部分主结果带 Lean 形式化; 数学界仍在复核, 与\"现实即代码\"最强共振。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 结果出自未发布内部门模型, 分组为结果族, 部分主结果用 Lean 机器可核验(每步可独立验证); 但机器核验不判断重要性, 非强制 3D Navier-Stokes 正则性仍未解, 社区尚在复核。设定层: kpz 页把物质边界写成由生长方程\"渲染\"生成, 属 fiction。",
+   "use": "首推注入 qa; 挂 kpz-reality-rendering 页, 内链 holographic-kpz-projection。"
+  },
+  {
+   "question": "How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1x006f2/how_can_a_cube_of_ice_see_across_the_universe_the/",
+   "heat": "reddit/r/physics 2026-10-07 帖; 2026 诺贝尔物理奖(Francis Halzen 与南极 IceCube 中微子天文)当日全球报道; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)",
+   "why": "借诺奖热度讲中微子天文, 天然接\"从稀疏投影重建宇宙图像\"; 公众理解度高。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: IceCube 以约 1 立方公里南极冰为介质, 中微子罕见作用产生的切伦科夫光被埋置光传感器记录并重建方向与能量, 由此把高能天体物理中微子回溯到远处星系; 2026 物理奖授予 Francis Halzen 表彰其构想与领导。设定层: holographic 页把高维现实写成由低维边界重建, 属 speculation。",
+   "use": "首推注入 qa; 挂 holographic-kpz-projection 页, 内链 kpz-reality-rendering。"
+  },
+  {
+   "question": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+   "heat": "stackexchange/physics | 2026-10-06 | 6 分 1 答 186 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "粒子本体论提问, 澄清\"探测器测的是渐近态/次级径迹而非一个小球\", 适合科普读者。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 散射实验测的是初末渐近态之间的跃迁振幅(截面), 探测器实际记录的是作用产生的带电次级粒子在介质里的电离与径迹; \"粒子\"是量子场的激发与表征, 裸态与穿衣态不同, 数学上是 Fock 空间里的态而非带确定轨道的点。设定层: kondo 页的准粒子逻辑核属虚构。",
+   "use": "lore 轨, 不进 qa; 挂 artificial-kondo-lattice, 内链 semi-dirac-mass-nullification。"
+  },
+  {
+   "question": "Why is the definition of enthalpy $U + PV$ and not $U + \\int P\\,dV$?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876306/why-is-the-definition-of-enthalpy-u-pv-and-not-u-%e2%88%abpdv",
+   "heat": "stackexchange/physics | 2026-09-24 | 6 分 5 答 297 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "热力学势经典概念题, 5 个回答显示争论点; 澄清 PV 与 ∫PdV 在非等压路径下的差异。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: H=U+PV 是为等压过程方便的勒让德变换式辅助量, 恒压下 ΔH=Q_p; ∫PdV 依赖路径而在非等压过程与 PV 不等, 且 H 是状态函数而 ∫PdV 不是。设定层: floquet 页对驱动非平衡介质的处理属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 floquet-temporal-matter, 内链 obstructed-atomic-phantom-grid。"
+  },
+  {
+   "question": "Dilemma of Dielectric",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876663/dilemma-of-dielectric",
+   "heat": "stackexchange/physics | 2026-10-07 | 2 分 1 答 86 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "介质极化概念澄清, 直接对应电磁屏蔽/场改写页; 新帖仍可参与。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 电介质在外场中产生束缚电荷, 内部宏观场被削弱(约 E0/εr), 极化率与介电常数由束缚电荷分布决定, 能量储存在电场与极化中; 区分自由电荷与束缚电荷是关键。设定层: EM 剧场页的场覆写属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 electromagnetic-theater-override, 内链 type2-superlattice-radar。"
+  },
+  {
+   "question": "Need feedback on this world's climate",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274686/need-feedback-on-this-worlds-climate",
+   "heat": "stackexchange/worldbuilding | 2026-09-29 | 0 分 0 答 97 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "世界构建气候题, 0 答=可提供未被回答的定量思路(环流/科氏力/洋流), 对应行星类 lore。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 行星气候由恒星输入、自转与科氏力、陆海分布与洋流热量输送共同决定; 缺海陆/自转参数时无法给出唯一气候, 只能给约束(如强科氏力→纬向急流与信风带)。设定层: 共振扭转页的轨道-气候账本属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 cooperative-resonance-torsion, 内链 arena-tripartite-architecture。"
+  },
+  {
+   "question": "Why haven't we designed a larger docking port?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70726/why-havent-we-designed-a-larger-docking-port",
+   "heat": "stackexchange/space | 2026-10-02 | 0 分 1 答 430 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "接口/架构标准化话题, 可接\"三方架构\"的接口分层与遗留兼容。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 对接口径受整流罩包络、结构质量预算、对接机构精度与既有标准(APAS/IDSS)约束; 放大端口意味着更大舱门与结构环, 质量与可靠性代价常超过收益。设定层: arena 页的三方架构属虚构。",
+   "use": "lore 轨, 不进 qa; 挂 arena-tripartite-architecture, 内链 qm-tether-exosuit。"
+  },
+  {
+   "question": "How to build a medieval fantasy bunker?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274694/how-to-build-a-medieval-fantasy-bunker",
+   "heat": "stackexchange/worldbuilding | 2026-10-01 | 4 分 5 答 866 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "当日世界构建类热度较高(866 浏览, 5 答), 与\"幻影晶格\"掩体设定直接对撞。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 前工业掩体靠覆土、拱券与石材受压, 抗的是静载与有限冲击; 通风、排水与出入通道才是可居住性短板, 深度与层数比墙体材料更决定生存。设定层: phantom grid 页把能量回路悬于原子间隙、晶格粉碎后仍短暂运行的设定属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 obstructed-atomic-phantom-grid, 内链 arena-tripartite-architecture。"
+  },
+  {
+   "question": "Why are they wearing those black and orange suits in this video during water survival training?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70724/why-are-they-wearing-those-black-and-orange-suits-in-this-video-during-water-sur",
+   "heat": "stackexchange/space | 2026-10-01 | 2 分 1 答 792 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "飞控/乘员装备话题浏览高(792); 从\"装备识别色与可见签名\"切入可接信号采集页。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 训练与救生装备按用途分族并做高对比配色, 目的是识别与水面搜索救援的可见性; 具体每种颜色含义须查该任务的装备说明, 不能仅凭视频观察推断。设定层: type2 雷达页把阵列写成能采集\"低语大小\"信号的设定属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 type2-superlattice-radar, 内链 electromagnetic-theater-override。"
+  },
+  {
+   "question": "What are some options for lightweight but rigid skeletal biochemistry?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274633/what-are-some-options-for-lightweight-but-rigid-skeletal-biochemistry",
+   "heat": "stackexchange/worldbuilding | 2026-09-25 | 0 分 0 答 119 浏览 (raw_2026-10-08.json; SE API 2026-10-08 复核 open)",
+   "why": "材料/轻量化问题 0 答, 可从比刚度(强度/密度)与几丁质-矿化复合材料切入, 接外骨骼页。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 轻且刚取决于比刚度与比强度, 天然方案是几丁质/纤维素基体加矿化(碳酸钙/二氧化硅)梯度复合、中空梁与层级构造; 单纯\"更硬的物质\"不如结构优化。设定层: qm-tether-exosuit 页的量子系绳外骨骼属 fiction。",
+   "use": "lore 轨, 不进 qa; 挂 qm-tether-exosuit, 内链 arena-tripartite-architecture。"
+  },
+  {
+   "question": "Questions for believers in AI consciousness",
+   "source": "hackernews",
+   "source_url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+   "heat": "hackernews | 2026-10-05 帖 | 48 分 231 评论 (raw_2026-10-08.json)",
+   "why": "AI 意识议题高讨论(231 评论), 契合硬科幻读者与 AI/未来学读者, 可引 book。",
+   "map_to": "book",
+   "answer_angle": "真实层: 目前没有检验机器意识的操作性判据, 功能主义与生物自然主义之争未决; 须区分\"表现得像有意识\"与\"有主观体验\", 后者不可从外部直接观测。",
+   "use": "book 轨, 不进 lore 注入; 引 book.html 全 14 平台分销。"
+  },
+  {
+   "question": "What's next that AI is coming for?",
+   "source": "reddit/r/singularity",
+   "source_url": "https://www.reddit.com/r/singularity/comments/1wzlz7t/whats_next_that_ai_is_coming_for/",
+   "heat": "reddit/r/singularity | 2026-10-07 帖; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)",
+   "why": "问句形态的开放讨论, AI/未来学读者入口; 可导到 book 的\"人机共处\"主线。",
+   "map_to": "book",
+   "answer_angle": "真实层: 已在重塑的是可验证、可批量化的白领任务(代码、检索、文案、部分设计), 前沿在测试科学假设生成与长链代理; 哪些岗位受影响取决于任务可验证性与责任归属, 不是\"全有全无\"。",
+   "use": "book 轨, 不进 lore 注入; 引 book.html。"
+  }
+ ],
+ "url_note": "采集器本跑 reddit 源 source_url 保留完整(thread ID + slug + 尾斜杠); StackExchange 侧 URL 完整。reddit/HN 无平台计数, 热度仅记 raw 回传的 points/comments 或\"RSS 未回传票数\"。X/TikTok 未采信任何数值。"
+}

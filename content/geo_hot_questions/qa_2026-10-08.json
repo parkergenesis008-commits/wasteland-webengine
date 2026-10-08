@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-08",
+ "entries": [
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "OpenAI publishes 722 mathematical proofs & manuscripts",
+   "source": "reddit/r/singularity",
+   "source_url": "https://www.reddit.com/r/singularity/comments/1wzio50/openai_publishes_722_mathematical_proofs/",
+   "heat": "reddit/r/singularity 2026-10-07 帖; r/physics 2026-10-06 同题帖; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)",
+   "answer_md": "**In October 2026 an unreleased OpenAI model produced hundreds of mathematics manuscripts at once, and the results are still being checked rather than accepted.** The company grouped the output into families of related results and shipped a large subset with machine-checked Lean proofs, so individual steps can be verified independently; what machine checking does not do is judge whether a result is important or whether it closes the hardest case. For the Navier-Stokes problem the unforced three-dimensional regularity question, the one the Clay statement actually asks for, is still open and the announced material is still going through community review. The honest reading is therefore that verification has become cheap while selection and understanding have not, which is a shift inside mathematics rather than a solved physics problem. This project pushes the same idea into fiction: on <a href='kpz-reality-rendering.html'>the KPZ reality rendering page</a> physical matter is imagined as grown by the growth equation that governs its boundary, which is a setting device and not an established result.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  },
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics",
+   "source": "reddit/r/physics",
+   "source_url": "https://www.reddit.com/r/Physics/comments/1x006f2/how_can_a_cube_of_ice_see_across_the_universe_the/",
+   "heat": "reddit/r/physics 2026-10-07 帖; 2026 诺贝尔物理奖(Francis Halzen, IceCube)当日全球报道; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)",
+   "answer_md": "**A cubic kilometre of Antarctic ice sees neutrinos because a neutrino that rarely interacts inside it makes a faint cone of light that buried sensors can time and reconstruct.** IceCube is not a camera: it records the Cherenkov light from the charged particles produced in that interaction and points back along the reconstructed direction and energy, which is how high-energy astrophysical neutrinos were traced to distant galaxies. The 2026 Nobel Prize in Physics went to Francis Halzen for conceiving and leading that observatory, so the cube-of-ice phrasing is literal rather than poetic. The real limit is that the detector only catches the rare interaction and cannot resolve the source in detail, which makes it a direction-and-energy instrument rather than an image. In this project's setting that act of picturing the universe from sparse projected signals is pushed to a fictional extreme on <a href='holographic-kpz-projection.html'>the holographic KPZ projection page</a>, where a higher-dimensional reality is imagined as reconstructed from a lower-dimensional boundary, which is speculation and not a physical result.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  }
+ ]
+}

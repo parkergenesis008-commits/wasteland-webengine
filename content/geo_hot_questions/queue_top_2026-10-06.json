@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-10-06",
   "fallback_date": true,
-  "candidates": 6,
+  "candidates": 9,
   "all": [
     {
       "slug": "artificial-kondo-lattice",
@@ -40,7 +40,21 @@
       "rank": 1
     },
     {
+      "slug": "kpz-reality-rendering",
+      "score": 40,
+      "weight": 30,
+      "relevance": 10,
+      "rank": 1
+    },
+    {
       "slug": "type2-superlattice-radar",
+      "score": 37,
+      "weight": 20,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
+      "slug": "holographic-kpz-projection",
       "score": 37,
       "weight": 20,
       "relevance": 17,
@@ -58,6 +72,13 @@
       "score": 27,
       "weight": 20,
       "relevance": 7,
+      "rank": 3
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
       "rank": 3
     }
   ]
