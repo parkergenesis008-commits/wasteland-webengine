@@ -1,7 +1,7 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T17:20:03.083041",
+    "ts": "2026-10-09T17:32:38.895015",
     "question": "What will robot soldiers really look like?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -15,7 +15,7 @@
   },
   "71b42c52c5": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T17:20:03.083699",
+    "ts": "2026-10-09T17:32:38.903371",
     "question": "What exactly would gravity-mediated entanglement prove?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
@@ -29,7 +29,7 @@
   },
   "f2d58a1f8f": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-08T17:20:03.087203",
+    "ts": "2026-10-09T17:32:38.904801",
     "question": "Lorentz transformation of force",
     "pruned": 1,
     "src": "qa_2026-09-12.json"
@@ -71,35 +71,35 @@
   },
   "fc002495d6": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-08T08:41:34.443315",
+    "ts": "2026-10-09T17:32:38.913574",
     "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
   },
   "a97dc724e5": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-08T17:20:03.091291",
+    "ts": "2026-10-09T17:32:38.915269",
     "question": "How can a pre-industrial society fight underwater enemies?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
   },
   "32921b5ca0": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-08T17:20:03.080034",
+    "ts": "2026-10-09T17:32:38.886234",
     "question": "What are ways that AI is affecting Physics similar to how it is affecting Mathematics?",
     "pruned": 1,
     "src": "qa_2026-09-17.json"
   },
   "20ec60d673": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-08T17:20:03.092336",
+    "ts": "2026-10-09T17:32:38.923661",
     "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
     "pruned": 1,
     "src": "qa_2026-09-17.json"
   },
   "dba214ee7f": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-08T17:20:03.092660",
+    "ts": "2026-10-09T17:32:38.924564",
     "question": "How do new spacecraft navigate around debris in space",
     "pruned": 1,
     "src": "qa_2026-09-18.json"
@@ -120,7 +120,7 @@
   },
   "3154f869e5": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-08T17:20:03.093515",
+    "ts": "2026-10-09T17:32:38.925345",
     "question": "Magnetization v/s Polarization: Why are they weirdly dissimilar?",
     "pruned": 1,
     "src": "qa_2026-09-19.json"
@@ -134,7 +134,7 @@
   },
   "e815afa1ba": {
     "slug": "obstructed-atomic-phantom-grid",
-    "ts": "2026-10-07T08:23:06.189090",
+    "ts": "2026-10-09T17:32:38.934201",
     "question": "Experimental evidence of QM atomic orbitals shape",
     "pruned": 1,
     "src": "qa_2026-09-21.json"
@@ -148,7 +148,7 @@
   },
   "bf6f910b9b": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-08T17:20:03.094512",
+    "ts": "2026-10-09T17:32:38.935636",
     "question": "How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this uni",
     "pruned": 1,
     "src": "qa_2026-09-23.json"
@@ -162,7 +162,7 @@
   },
   "626f6a3115": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-07T08:23:06.189650",
+    "ts": "2026-10-09T17:32:38.944193",
     "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
     "pruned": 1,
     "src": "qa_2026-09-24.json"
@@ -211,7 +211,7 @@
   },
   "69da7c73fd": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-10-07T08:23:06.191041",
+    "ts": "2026-10-09T17:32:38.948151",
     "question": "Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force",
     "pruned": 1,
     "src": "qa_2026-09-29.json"
@@ -232,7 +232,7 @@
   },
   "130d6a68cb": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-08T08:41:34.451432",
+    "ts": "2026-10-09T17:32:38.945189",
     "question": "A photon bouncing between two moving mirrors: does one mirror charge the other?",
     "pruned": 1,
     "src": "qa_2026-09-28.json"
@@ -246,7 +246,7 @@
   },
   "9f97b186e5": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-07T08:23:06.192312",
+    "ts": "2026-10-09T17:32:38.956474",
     "question": "Merging Planets",
     "pruned": 1,
     "src": "qa_2026-09-29.json"
@@ -274,7 +274,7 @@
   },
   "fb189ddc6f": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T17:20:03.097330",
+    "ts": "2026-10-09T17:32:38.965986",
     "question": "How would the human body change after 500 years in a confined area with artificial light?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
@@ -295,21 +295,21 @@
   },
   "fd56ba8085": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-08T08:41:34.455524",
+    "ts": "2026-10-09T17:32:38.967013",
     "question": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
     "pruned": 1,
     "src": "qa_2026-10-04.json"
   },
   "f25b1e2b08": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-08T08:41:34.456104",
+    "ts": "2026-10-09T17:32:38.967758",
     "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
     "pruned": 1,
     "src": "qa_2026-10-04.json"
   },
   "45d1661cfe": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-08T08:41:34.438633",
+    "ts": "2026-10-09T17:32:38.893328",
     "question": "Chern-Simons theory and the Jones Polynomial",
     "pruned": 1,
     "src": "qa_2026-10-05.json"
@@ -351,14 +351,14 @@
   },
   "d347093313": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-08T08:41:34.456950",
+    "ts": "2026-10-09T17:32:38.968455",
     "question": "OpenAI publishes 722 mathematical proofs & manuscripts",
     "pruned": 1,
     "src": "qa_2026-10-08.json"
   },
   "fadeb2c062": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-08T08:41:34.457692",
+    "ts": "2026-10-09T17:32:38.969115",
     "question": "How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics",
     "pruned": 1,
     "src": "qa_2026-10-08.json"

@@ -34,28 +34,6 @@ Macroscopically, the moment the boundary of an otherwise indestructible giant en
 ## 4. Conclusion: Creation Through Dimensional Reduction
 The most efficient high-dimensional creation is always low-dimensional computation. Through holographic mapping, the Computational Arena crossed the death valley of mathematical divergence. As long as the 2D boundary algorithm persists, the high-dimensional grand empire never collapses; but once the boundary is lost, reality vanishes like a bubble.
 
-<!-- GEO-QA-START id=4a9752ad37 -->
-## Extended Q&A — Reader Question
-
-**Q: How does artificial light cancel or dominate the light coming from stars?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-10-01 帖, 4 points, 1 answer, 53 views (SE API 2026-10-02 复核)</em></p>
-
-Stars and streetlights do not cancel each other, because two independent lamps are incoherent sources: their intensities add, and true cancellation needs the fields to arrive in antiphase, which happens only for light that came from one coherent source. **The real reason a lit street hides the stars is the ratio of photon flux plus the eye's own adaptation**: the pupil and the photoreceptors rescale to the brightest object in the field, so the faint stellar signal falls below the usable contrast long before any light is 'destroyed'. Scattering adds a second, weaker effect, since aerosols and water droplets bounce lamp light across the whole sky and lift the background everywhere, which is why a small town still glows on the horizon. This page reads the night sky as a projected surface and treats that projection as a setting device, the same speculative layer as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html'>the reality rendering notes</a>, not as a claim about atmospheric optics.
-
-<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=11cab5b2a9 -->
-## Extended Q&A — Reader Question
-
-**Q: How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mass to energy conversion do not have this problem?**
-<p><em>asked on reddit/r/AskPhysics · r/AskPhysics 2026-09-12 new thread (Reddit RSS did not return vote counts, so no heat figure is verified)</em></p>
-
-Start with why the paradox exists: if Hawking radiation is exactly thermal, it carries no record of what fell in, so the black hole's formation history appears to be erased even though quantum mechanics demands unitary, information-preserving evolution. Later work on the gravitational path integral computes the entropy of the radiation and finds it follows the Page curve, rising and then falling, which is what unitarity requires; the price is that the interior and the emitted radiation have to be treated together rather than separately. Ordinary mass-to-energy conversion does not create this problem because the underlying microstates remain trackable in principle, whereas a horizon removes access to them. The holographic reading of that accounting is real research, while this project's <a href='holographic-kpz-projection.html'>holographic projection setting</a> is the fiction layer, where the boundary is treated as the storage medium itself. The related interface-growth picture is developed in <a href='kpz-reality-rendering.html'>the KPZ rendering setting</a>.
-
-<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1we4mn5/how_is_conservation_of_information_violated_when/" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=ff0ce9a7ea -->
 ## Extended Q&A — Reader Question
 
@@ -67,4 +45,26 @@ The focusing theorem says that gravity makes a congruence of light rays or freel
 <p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875696/physical-interpretation-of-the-focusing-theorem" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-09 08:03 UTC -->
+<!-- GEO-QA-START id=bf6f910b9b -->
+## Extended Q&A — Reader Question
+
+**Q: How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this universe?**
+<p><em>asked on stackexchange/physics · physics.SE new thread 2026-09-22, 0 points, 0 comments</em></p>
+
+Gravity is the only interaction that could plausibly couple our universe to another one, because it is mediated by spacetime geometry rather than by a field confined to a brane, and in extra-dimensional models gravity is the one force allowed to spread into the additional dimensions. What those models predict is measurable rather than mystical: the inverse-square law acquires a short-range correction, which is why sub-millimetre torsion-balance tests and lunar laser ranging are the standard ways a gravitational leak is bounded. That framing also explains why a satellite cannot settle the question: high-precision orbital tracking of range and precession can only turn an inter-universe coupling into an upper limit, and a null result bounds the coupling instead of proving its absence. **The honest reading of the question is that it asks for a measurement that no satellite experiment can deliver, only a constraint.** The setting layer is fiction: <a href='kpz-reality-rendering.html'>the KPZ reality rendering setting</a> treats such a leak as a rendering channel rather than a force, and this page carries the projection side of the same idea.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876270" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- GEO-QA-START id=fadeb2c062 -->
+## Extended Q&A — Reader Question
+
+**Q: How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics**
+<p><em>asked on reddit/r/physics · reddit/r/physics 2026-10-07 帖; 2026 诺贝尔物理奖(Francis Halzen, IceCube)当日全球报道; RSS 未回传票数(未采信任何数值) (raw_2026-10-08.json)</em></p>
+
+**A cubic kilometre of Antarctic ice sees neutrinos because a neutrino that rarely interacts inside it makes a faint cone of light that buried sensors can time and reconstruct.** IceCube is not a camera: it records the Cherenkov light from the charged particles produced in that interaction and points back along the reconstructed direction and energy, which is how high-energy astrophysical neutrinos were traced to distant galaxies. The 2026 Nobel Prize in Physics went to Francis Halzen for conceiving and leading that observatory, so the cube-of-ice phrasing is literal rather than poetic. The real limit is that the detector only catches the rare interaction and cannot resolve the source in detail, which makes it a direction-and-energy instrument rather than an image. In this project's setting that act of picturing the universe from sparse projected signals is pushed to a fictional extreme on <a href='holographic-kpz-projection.html'>the holographic KPZ projection page</a>, where a higher-dimensional reality is imagined as reconstructed from a lower-dimensional boundary, which is speculation and not a physical result.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/Physics/comments/1x006f2/how_can_a_cube_of_ice_see_across_the_universe_the/" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-09 17:32 UTC -->
