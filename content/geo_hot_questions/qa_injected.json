@@ -8,7 +8,7 @@
   },
   "dd3876035e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-08T08:41:34.439796",
+    "ts": "2026-10-09T08:03:38.490589",
     "question": "How much energy would a laser gun need to deliver to a human target to deal lethal damage?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -36,35 +36,35 @@
   },
   "81f19f5026": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-06T08:41:42.533819",
+    "ts": "2026-10-09T08:03:38.491777",
     "question": "If temperature is related to the average kinetic energy of particles, what does temperature actually mean for a single p",
     "pruned": 1,
     "src": "qa_2026-09-12.json"
   },
   "5c080da333": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T08:41:34.441492",
+    "ts": "2026-10-09T08:03:38.493421",
     "question": "I know it’s fiction, but how much of Egan’s Kozuch Theory could be true in our current model?",
     "pruned": 1,
     "src": "qa_2026-09-13.json"
   },
   "11cab5b2a9": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-07T08:23:06.186831",
+    "ts": "2026-10-09T08:03:38.494617",
     "question": "How is conservation of information violated when black holes evaporate through Hawking radiation when other forms of mas",
     "pruned": 1,
     "src": "qa_2026-09-13.json"
   },
   "955a82ea71": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-08T08:41:34.437837",
+    "ts": "2026-10-09T08:03:38.488726",
     "question": "Is AI affecting Physics as it is affecting Mathematics?",
     "pruned": 1,
     "src": "qa_2026-09-14.json"
   },
   "ff0ce9a7ea": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-08T08:41:34.442685",
+    "ts": "2026-10-09T08:03:38.495270",
     "question": "Physical interpretation of the focusing theorem",
     "pruned": 1,
     "src": "qa_2026-09-14.json"
@@ -106,7 +106,7 @@
   },
   "3fb1327682": {
     "slug": "obstructed-atomic-phantom-grid",
-    "ts": "2026-10-06T08:41:42.539308",
+    "ts": "2026-10-09T08:03:38.496378",
     "question": "If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world",
     "pruned": 1,
     "src": "qa_2026-09-18.json"
@@ -141,7 +141,7 @@
   },
   "ecbc6abd52": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T08:41:34.447734",
+    "ts": "2026-10-09T08:03:38.499526",
     "question": "Are astronauts permanently tethered during an EVA?",
     "pruned": 1,
     "src": "qa_2026-09-25.json"
@@ -155,7 +155,7 @@
   },
   "57872b0406": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-08T08:41:34.447020",
+    "ts": "2026-10-09T08:03:38.497426",
     "question": "Using magnetoreception as a very long-distance sense?",
     "pruned": 1,
     "src": "qa_2026-09-23.json"
@@ -169,7 +169,7 @@
   },
   "403112755b": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-10-06T08:41:42.540843",
+    "ts": "2026-10-09T08:03:38.498675",
     "question": "Intuitive analogy for the Kerr metric: Can we model the event horizon as a rotating magnet?",
     "pruned": 1,
     "src": "qa_2026-09-24.json"
@@ -183,14 +183,14 @@
   },
   "65f72ff33d": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-07T08:23:06.185244",
+    "ts": "2026-10-09T08:03:38.489472",
     "question": "Does Newtonian mechanics make claims about how forces are created?",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
   },
   "da8233b90e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-07T08:23:06.189948",
+    "ts": "2026-10-09T08:03:38.500247",
     "question": "Snell's law in electrostatics",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
@@ -204,7 +204,7 @@
   },
   "bb93ba9cc2": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-08T08:41:34.448865",
+    "ts": "2026-10-09T08:03:38.501469",
     "question": "Could a ship with Alcubierre drive escape out of a black hole?",
     "pruned": 1,
     "src": "qa_2026-09-27.json"
@@ -225,7 +225,7 @@
   },
   "6678e45d70": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-07T08:23:06.190459",
+    "ts": "2026-10-09T08:03:38.502520",
     "question": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
     "pruned": 1,
     "src": "qa_2026-09-28.json"
@@ -239,7 +239,7 @@
   },
   "ef71b325c3": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-06T08:41:42.544946",
+    "ts": "2026-10-09T08:03:38.504966",
     "question": "Unstable moon resonance",
     "pruned": 1,
     "src": "qa_2026-09-28.json"
@@ -260,7 +260,7 @@
   },
   "23df36b23d": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-08T08:41:34.452896",
+    "ts": "2026-10-09T08:03:38.505771",
     "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
@@ -288,7 +288,7 @@
   },
   "aba3673f9d": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-08T08:41:34.454896",
+    "ts": "2026-10-09T08:03:38.506531",
     "question": "High-altitude blimp on Venus: shortsleeves weather?",
     "pruned": 1,
     "src": "qa_2026-10-02.json"
@@ -337,14 +337,14 @@
   },
   "5ebe353428": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-07T08:23:06.193071",
+    "ts": "2026-10-09T08:03:38.507190",
     "question": "Does Newtonian mechanics make claims about how forces are created?",
     "pruned": 1,
     "src": "qa_2026-10-07.json"
   },
   "50b65534db": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-07T08:23:06.193368",
+    "ts": "2026-10-09T08:03:38.508015",
     "question": "My first homemade crystal radio isn't receiving any AM stations",
     "pruned": 1,
     "src": "qa_2026-10-07.json"
@@ -362,5 +362,19 @@
     "question": "How Can a Cube of Ice See Across the Universe? The 2026 Nobel Prize in Physics",
     "pruned": 1,
     "src": "qa_2026-10-08.json"
+  },
+  "495aeda3c8": {
+    "slug": "type2-superlattice-radar",
+    "ts": "2026-10-09T08:03:38.508696",
+    "question": "How does artificial light cancel or dominate the light coming from stars?",
+    "pruned": 1,
+    "src": "qa_2026-10-09.json"
+  },
+  "4af7b5b300": {
+    "slug": "floquet-temporal-matter",
+    "ts": "2026-10-09T08:03:38.509342",
+    "question": "How can a person show/present a nonlinear time",
+    "pruned": 1,
+    "src": "qa_2026-10-09.json"
   }
 }

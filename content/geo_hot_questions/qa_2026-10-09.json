@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-09",
+  "entries": [
+    {
+      "slug": "type2-superlattice-radar",
+      "question": "How does artificial light cancel or dominate the light coming from stars?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars",
+      "heat": "stackexchange/physics snapshot 2026-10-08: 10 votes, 6 comments (live check unavailable 2026-10-09, sources unreachable)",
+      "answer_md": "Artificial light does not cancel starlight; it raises the sky background against which stars have to be seen. Scattering in the atmosphere spreads lamplight into a broad skyglow, so the contrast between a star and its surroundings falls, and faint stars disappear first because stars are near point sources while skyglow fills the whole field of view. A camera can partly recover the signal by narrowing its field of view and integrating longer, which is why observatories are sited far from cities. In our fiction, the <a href='type2-superlattice-radar.html'>Type-II superlattice perception matrix</a> treats that same contrast problem as solved by an artificial InAs/GaSb crystal with an engineered band structure; that architecture is a **setting**, not a demonstrated device.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    },
+    {
+      "slug": "floquet-temporal-matter",
+      "question": "How can a person show/present a nonlinear time",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274674/how-can-a-person-show-present-a-nonlinear-time",
+      "heat": "stackexchange/worldbuilding snapshot 2026-10-08: -2 votes, 1 comment (low-vote long tail; live check unavailable 2026-10-09)",
+      "answer_md": "Nonlinear time is not an established physical entity: in physics time is normally a coordinate or a parameter, and rewriting it is a change of description rather than a new substance. Relativity does make elapsed time observer-dependent, since proper time follows a worldline, but that is curvature and motion rather than a narrative loop. What is firmly real is that time can be used as a control knob: periodically driving a system is standard **Floquet engineering**, and the driven system acquires quasi-energy structure that static matter does not have. In our fiction, <a href='floquet-temporal-matter.html'>temporally programmed matter</a> is written as a phase a machine can set; that programmability is a **setting**, not an engineering capability.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    }
+  ]
+}

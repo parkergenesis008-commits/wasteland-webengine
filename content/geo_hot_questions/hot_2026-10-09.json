@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-09",
+  "generated": "2026-10-09T02:07:04",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "source_raw": "raw_2026-10-08.json (fallback)",
+  "sources_health": {
+    "stackexchange": 0,
+    "reddit_rss": 0,
+    "hackernews": 0,
+    "questions": 0,
+    "total_dedup": 0,
+    "errors": [
+      "28x URLError SSL: UNEXPECTED_EOF_WHILE_READING (全部源)"
+    ]
+  },
+  "x_tiktok": "X/TikTok 今日抓取失败: web_search 后端不可达(search.parallel.ai SSL UNEXPECTED_EOF_WHILE_READING), 无平台级当日榜单, 未编造任何帖子。",
+  "fetch_failure": "2026-10-09 01:57 与 02:1x 两次运行脚本均全源失败: stackexchange 0 / reddit_rss 0 / hackernews 0, 去重 0, 源错误 28 条(全部 URLError [SSL: UNEXPECTED_EOF_WHILE_READING])。根因非脚本: 本机海外出口自 2026-10-08 20:40 起全断(Nexus_Core/logs/okx_health.log: direct/p7688/p7897 全 ERR, 国内 baidu=200), 国内可达。",
+  "fallback_pool": "本清单为降级交付: 12 条全部取自最新真实快照 raw_2026-10-08.json(2026-10-08 02:00 抓取), 未使用任何记忆或想象补齐; 票数为快照值, 2026-10-09 无法经官方 API 复核。",
+  "heat_verification": "不可用: api.stackexchange.com 今日不可达, 票数为 raw_2026-10-08.json 快照值, 未做官方 API 复核。",
+  "dedup_note": "12 条均未出现在最近 5 日 hot_2026-10-0{4,5,6,7,8}.json 清单中(逐条比对标题前缀)。",
+  "entries": [
+    {
+      "question": "How does artificial light cancel or dominate the light coming from stars?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars",
+      "heat": "stackexchange/physics 快照 2026-10-08: 10 分 6 评论 (源 raw_2026-10-08.json; 2026-10-09 官方 API 复核不可用)",
+      "why": "反直觉但人人见过: 星光并非被抵消, 而是城市辉光抬高天空背景, 把暗星的对比度压到人眼阈值以下; 天然接人造超晶格感知与强背景取信号。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层: 大气散射把灯光抬成整片天空辉光, 星点与背景的亮度对比下降; 点源与面源之别决定先消失的是暗星; 仪器可借窄视场与长时间积分改善对比。设定层: type2 页把 InAs/GaSb 超晶格与 M 结构天线写成能在极强背景中取信号的人工晶体, 属 fiction。",
+      "use": "首推注入 qa; 挂 type2-superlattice-radar 页, 内链 electromagnetic-theater-override。"
+    },
+    {
+      "question": "Chern-Simons theory and the Jones Polynomial",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "heat": "stackexchange/physics 快照 2026-10-08: 8 分 0 评论",
+      "why": "拓扑场论与纽结不变量的桥; 硬核但能讲清\"拓扑量为何不依赖度规\", 接 Kondo 页的拓扑零模与任意子。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层: 三维 Chern-Simons 规范理论是拓扑场论, 其威尔逊环期望值给出纽结不变量, SU(2) 在特定能级下复现 Jones 多项式(Witten 1989), 结果不依赖背景度规。设定层: artificial-kondo-lattice 页的拓扑零模与任意子计算属虚构设定。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "Where did Frames go in the geometric formulation of Newton's laws? (Schuller)",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+      "heat": "stackexchange/physics 快照 2026-10-08: 7 分 2 评论",
+      "why": "教学向好题: 从\"坐标系\"过渡到\"仿射结构\", 可讲清参考系是物理结构而非记账工具; 接 arena 三方架构的自旋/任意子基底。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层: 几何表述里惯性系不再外加, 而由时空的仿射/惯性结构给出——存在一族首选直线(惯性轨迹), 牛顿定律是对这些结构的陈述。设定层: arena-tripartite-architecture 把计算基底写成三方任意子-光子架构, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "Is environmental quantum decoherence strictly isotropic, or can phase-space anisotropy emerge in open quantum systems?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876665/is-environmental-quantum-decoherence-strictly-isotropic-or-can-phase-space-anis",
+      "heat": "stackexchange/physics 快照 2026-10-08: 0 分 0 评论(冷门长尾)",
+      "why": "退相干各向异性是 Floquet 页的前置概念; 冷门但专业度高的长尾题, 适合硬核读者。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层: 退相干由系统-环境耦合与谱密度决定; 环境各向同性时退相干各向同性, 各向异性环境(如各向异性声子谱或受限几何)可在相空间留下各向异性退相干, 一般用主方程处理, 无普适常数结论。设定层: floquet 页把周期驱动下的有效相位结构写成可编程, 属 speculation。",
+      "use": "lore 轨, 下轮注入候选。"
+    },
+    {
+      "question": "An information-theoretic depth limit for epigenetic memory?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876659/an-information-theoretic-depth-limit-for-epigenetic-memory",
+      "heat": "stackexchange/physics 快照 2026-10-08: -2 分 0 评论(低票冷题)",
+      "why": "信息论界与\"边界编码信息\"同构, 接 holographic 页的边界-体对偶叙事。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层: 若标记在每次分裂存在非零误码率, 能可靠维持的代数与可编码比特数受信息论界约束; 具体界依赖所设误码模型与纠错机制, 不能给单一普适数字。设定层: holographic-kpz-projection 把信息写在低维边界上, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "How can a person show/present a nonlinear time",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274674/how-can-a-person-show-present-a-nonlinear-time",
+      "heat": "stackexchange/worldbuilding 快照 2026-10-08: -2 分 1 评论(世界构建向低票, 题材高度对口)",
+      "why": "叙事向提问, 直接对应\"用时间雕刻物质\"; 公众可读性最好的一条。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层: 物理里时间通常是坐标或参数, 相对论中固有时依赖观察者世界线; 所谓非线性时间多是把时间重新参数化的坐标变换, 不是新的物理时间。真实且成熟的是用时间当控制旋钮——周期驱动即 Floquet 工程, 驱动系统获得静态物质没有的准能结构。设定层: floquet-temporal-matter 页把时间可编程写成机器可设的相, 属 fiction。",
+      "use": "首推注入 qa #2; 挂 floquet-temporal-matter 页, 内链 kpz-reality-rendering。"
+    },
+    {
+      "question": "If a capacitor's electric field is between its 2 plates, how can the plate repel an incoming charge that's trying to reach it?",
+      "source": "reddit/r/Physics",
+      "source_url": "https://www.reddit.com/r/Physics/comments/1wzp9tn/if_a_capacitors_electric_field_is_between_its_2/",
+      "heat": "reddit/r/Physics 快照 2026-10-08 帖; RSS 未回传票数, 未采信任何数值",
+      "why": "经典\"场在哪里\"迷思, 澄清承担排斥的是板上感应面电荷; 接电磁剧场页的\"力来自何处\"叙事。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层: 板间近似均匀场只是内部解, 外部还有边缘场; 外部电荷接近时, 先由板上感应面电荷产生排斥, 力的来源与场的所在区域不必同一处。设定层: electromagnetic-theater-override 页把宏观碰撞写成可被电磁\"剧场\"改写, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "If there was one property of a sub atomic particle which could help us determine its position and velocity, what would it be?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876673/if-there-was-one-property-of-a-sub-atomic-particle-which-could-help-us-determine",
+      "heat": "stackexchange/physics 快照 2026-10-08: -5 分 0 评论",
+      "why": "直击不确定原理误区, 科普纠偏价值高; 接半狄拉克页\"惯性/质量可被方向性抹掉\"。",
+      "map_to": "semi-dirac-mass-nullification",
+      "answer_angle": "真实层: 位置与动量表示互为傅里叶变换, 不存在单一可观测量同时把两者编码到任意精度; 不确定关系是这对非对易可观测量的结构后果, 不是仪器不够好。设定层: semi-dirac-mass-nullification 页把方向性质量清零写成半狄拉克态的可工程性质, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "How do astronauts prepare for spacewalks and maintain their EVA suits in the airlock",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70727/how-do-astronauts-prepare-for-spacewalks-and-maintain-their-eva-suits-in-the-air",
+      "heat": "stackexchange/space 快照 2026-10-08: -3 分 0 评论",
+      "why": "具体工程流程题, 公众兴趣高; 接 QM-Tether 外骨骼页的穿戴与生命支持系统。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层: 出舱前执行预呼吸程序以降低减压病风险, 气闸内完成减压与服装检查(供电、供氧、通信、冷却), 服装按可维护清单定期保养与检漏。设定层: qm-tether-exosuit 页把量子度规织物写成无需推进剂的升力来源, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "AI improvements for SGP4 and other orbital propagation systems",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70729/ai-improvements-for-sgp4-and-other-orbital-propagation-systems",
+      "heat": "stackexchange/space 快照 2026-10-08: -3 分 0 评论",
+      "why": "AI 与轨道预报交叉, 受众重合(硬科幻+AI/未来学); 接协同共振页的共振与场调控。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层: SGP4 是由两行根数解析外推的模型, 精度受根数陈旧与大气/引力模型限制; 机器学习多被用于残差修正或代理加速, 公开来源未见被广泛接受的替代品。设定层: cooperative-resonance-torsion 页把晶格协同共振写成宏观力/场调控手段, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "Diffusion in thin film",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876661/diffusion-in-thin-film",
+      "heat": "stackexchange/physics 快照 2026-10-08: -2 分 0 评论",
+      "why": "有限厚度与边界条件改变菲克解, 接\"被阻挡的原子网格\"里的约束输运。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层: 薄膜内扩散受表面/界面与有限厚度边界条件影响, 剖面常偏离体相菲克解, 必须明示边界条件与源汇假设, 无普适数字。设定层: obstructed-atomic-phantom-grid 页把被拓扑约束排除在原子位点外的电子写成幽灵网格武器, 属 fiction。",
+      "use": "lore 轨, 不进 qa。"
+    },
+    {
+      "question": "Does anyone else IRL feel a little alone in knowing what is happening with intelligence right now?",
+      "source": "reddit/r/singularity",
+      "source_url": "https://www.reddit.com/r/singularity/comments/1wztxkb/does_anyone_else_irl_feel_a_little_alone_in/",
+      "heat": "reddit/r/singularity 快照 2026-10-08 帖; RSS 未回传票数, 未采信任何数值",
+      "why": "情绪向热帖, 互动潜力高; 可顺带纠偏\"能力曲线是预测不是事实\"; 接 KPZ 现实渲染页。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层: 关于 AI 能力路径的判断属预测, 学界无共识; 能被核实的是具体基准上的具体结果, 不是\"通用智能已在门口\"。设定层: kpz-reality-rendering 页把现实边界写成由生长方程渲染生成, 属 fiction。",
+      "use": "高互动引流帖, 不进 lore 注入。"
+    }
+  ],
+  "url_note": "source_url 均为快照内真实链接; 今日无法复测存活。"
+}

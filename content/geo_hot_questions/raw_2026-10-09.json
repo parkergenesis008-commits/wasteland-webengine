@@ -1,0 +1,42 @@
+{
+  "_ts": "2026-10-09T02:03:29.398336",
+  "_date": "2026-10-09",
+  "counts": {
+    "stackexchange": 0,
+    "reddit_rss": 0,
+    "hackernews": 0,
+    "questions": 0,
+    "total": 0
+  },
+  "errors": [
+    "stackexchange/worldbuilding[-·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/worldbuilding[-·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/worldbuilding[physics·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/worldbuilding[physics·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/worldbuilding[science-based·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/worldbuilding[science-based·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/space[-·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/space[-·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/physics[-·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/physics[-·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/scifi[hard-science·votes]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "stackexchange/scifi[hard-science·creation]: URLError <urlopen error [SSL: UNEXPECTED_EOF",
+    "reddit/r/AskPhysics: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHILE_REA",
+    "reddit/r/artificial: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHILE_REA",
+    "reddit/r/singularity: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHILE_REA",
+    "reddit/r/postapocalyptic: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHILE_REA",
+    "hn[entropy]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[second law of thermodynamics]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[time crystal]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[warp drive]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[quantum computing explained]: URLError <urlopen error timed out>",
+    "hn[fermi paradox]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[superconductor]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[simulation hypothesis]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[civilization collapse]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[hard sci-fi]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[AI consciousness]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL",
+    "hn[self-publishing sci-fi]: URLError <urlopen error [SSL: UNEXPECTED_EOF_WHIL"
+  ],
+  "candidates": []
+}

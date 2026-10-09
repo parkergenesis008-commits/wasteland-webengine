@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-10-06",
   "fallback_date": true,
-  "candidates": 9,
+  "candidates": 12,
   "all": [
     {
       "slug": "artificial-kondo-lattice",
@@ -31,6 +31,13 @@
       "weight": 20,
       "relevance": 40,
       "rank": 2
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 1
     },
     {
       "slug": "semi-dirac-mass-nullification",
@@ -61,6 +68,13 @@
       "rank": 2
     },
     {
+      "slug": "floquet-temporal-matter",
+      "score": 37,
+      "weight": 20,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
       "slug": "holographic-kpz-projection",
       "score": 27,
       "weight": 10,
@@ -72,6 +86,13 @@
       "score": 27,
       "weight": 20,
       "relevance": 7,
+      "rank": 3
+    },
+    {
+      "slug": "kpz-reality-rendering",
+      "score": 27,
+      "weight": 10,
+      "relevance": 17,
       "rank": 3
     },
     {

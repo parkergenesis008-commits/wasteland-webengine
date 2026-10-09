@@ -217,3 +217,10 @@ X/TikTok: 本跑 2 次 web_search 仅命中话题聚合页、算法解读页与 
 
 
 备注: 本次 02:06 调度运行。脚本池 stackexchange 52 / reddit_rss 24 / hackernews 9, 去重 69, 问题形态 42; 源错误 2 条均为 Reddit 429(r/AskPhysics, r/artificial)。热度经 StackExchange 官方 API 逐条复核(2026-10-08), 入选 SE 题全部 open, 另剔除已关闭 11 条(physics 876665/876661/876659/876673/876657, worldbuilding 274697/274674, space 70722/70729/70727/70721)。12 条清单中 4 条为入池未用新题(876650/876306/876663/274686), 其余为"曾列未注入"题与当日 AI 热点(OpenAI 722 篇数学、2026 物理奖 IceCube)。注入目标依据 = 逐页解析 content/lore/*.md 的 GEO-QA 块与 qa_injected.json, 按注入时间取各页最旧块: arena/kpz/holographic/cooperative/floquet/obstructed 六页最旧块同为 2026-10-05, 本次选热度最高的 kpz-reality-rendering 与 holographic-kpz-projection 两页刷新(arena-tripartite-architecture 与其余 2026-10-05 页留待下一轮)。X 侧本跑 2 次 web_search(1 次后端 403 失败, 1 次仅命中新闻页), TikTok 1 次仅命中二手聚合页, 无平台级当日榜单, 未采纳数值, 未编造帖子。
+
+## 2026-10-09（02:30 调度定稿 / 降级交付）
+
+⚠️ 本轮全部抓取源不可用(海外出口自 2026-10-08 20:40 全断, 28 条 SSL EOF), 清单取自真实快照 raw_2026-10-08.json, 未编造内容。
+1. **[type2-superlattice-radar] How does artificial light cancel or dominate the light coming from stars?** (stackexchange/physics 快照 2026-10-08, 10 分 6 评论, https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars) — 一句话: 星光没有被抵消, 是大气散射的辉光抬高了背景亮度、压掉对比度; 已写入 qa_2026-10-09.json, 注入 type2-superlattice-radar 页, 内链 electromagnetic-theater-override。
+2. **[floquet-temporal-matter] How can a person show/present a nonlinear time** (stackexchange/worldbuilding 快照 2026-10-08, -2 分 1 评论, https://worldbuilding.stackexchange.com/questions/274674/how-can-a-person-show-present-a-nonlinear-time) — 一句话: 物理里"非线性时间"多是坐标重参数化, 真正硬的是拿时间当旋钮的 Floquet 工程; 已写入 qa_2026-10-09.json, 注入 floquet-temporal-matter 页, 内链 kpz-reality-rendering。
+3. **[kpz-reality-rendering] Does anyone else IRL feel a little alone in knowing what is happening with intelligence right now?** (reddit/r/singularity 快照 2026-10-08, RSS 未回传票数未采信任何数值, https://www.reddit.com/r/singularity/comments/1wztxkb/does_anyone_else_irl_feel_a_little_alone_in/) — 一句话: 情绪向高互动帖, 可顺带纠偏"AI 能力曲线是预测不是事实"; 引流用, 不进 lore 注入。
