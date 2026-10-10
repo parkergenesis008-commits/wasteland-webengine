@@ -1,0 +1,145 @@
+{
+ "date": "2026-10-10",
+ "generated": "2026-10-10T02:01:55",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "raw_2026-10-10.json",
+ "sources_health": {
+  "stackexchange": 56,
+  "reddit_rss": 0,
+  "hackernews": 11,
+  "questions": 36,
+  "total_dedup": 46,
+  "errors": [
+   "reddit/r/artificial: URLError <urlopen error timed out>",
+   "reddit/r/singularity: URLError <urlopen error timed out>",
+   "reddit/r/postapocalyptic: URLError <urlopen error timed out>",
+   "reddit/r/collapse: URLError <urlopen error timed out>"
+  ]
+ },
+ "x_tiktok": "X: 1 次检索仅命中二手聚合页与 2026-10-04 的 Musk \"No more AI/SI\" 帖(explainx.ai 转述约 961,600 浏览, 二手未核, 未采信数值)与 AI 意识讨论话题(聚合页称约 6,592 帖, 未核); 无平台级当日物理榜单。TikTok: 1 次检索仅命中 TikTok Discover 备考页与旧科普短视频, 无平台级当日榜单。两侧均未编造任何帖子。",
+ "heat_verification": "入选 10 条 StackExchange 题于 2026-10-10 经官方 API 逐条复核(api.stackexchange.com, urllib 直连), 全部 open; 剔除已关闭题: physics 876413(Needs details)、876733(Not suitable)、space 70721/70722/70727/70729。票数以上表为准。",
+ "dedup_note": "12 条中 10 条为本轮全新题(未见于 hot_2026-10-05 至 10-09 任一清单, 逐条按 question 原文比对)。仅 2 条为\"曾列未注入\"题: 876650(见 10-08 清单)、274710(见 10-04 清单); 二者此前从未被注入任何 lore 页(核 qa_injected.json 台账), 本次为首注, 且均不与 2026-10-09(前一日)清单重复。",
+ "url_note": "SE 源 source_url 取自官方 API 规范链接(完整); HN 源为原始链接; HackerNews 条目非提问形态已标注。",
+ "entries": [
+  {
+   "question": "Do cosmic neutrinos have a higher upper bound of energy than gamma rays?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876732/do-cosmic-neutrinos-have-a-higher-upper-bound-of-energy-than-gamma-rays",
+   "heat": "physics 2026-10-10 官方 API 复核: 4 分 1 答 62 浏览, open",
+   "why": "中微子天文与伽马天文谁的能量上限更高, 与 2026 物理奖 IceCube 中微子天文同脉; 天然接\"尺度无关感知\"里极弱信号的取信问题。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 两类信使的能量上限由产生机制与传播衰减共同决定; 已观测的最高能宇宙中微子约 PeV 量级(IceCube), 高能伽马射线可达 TeV 至更高, 但中微子几乎不衰减故能来自更远的源; \"谁的上限更高\"取决于具体源与统计, 本问题在站内尚无定论。设定层: type2-superlattice-radar 页把 InAs/GaSb 超晶格写成能取最微弱能量波纹的人工晶体, 属 fiction。",
+   "use": "lore 轨; 题材新且贴 IceCube, 下轮注入候选。"
+  },
+  {
+   "question": "Spin connection in Chern-Simons theory",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+   "heat": "physics 2026-10-10 官方 API 复核: 6 分 1 答 121 浏览, open",
+   "why": "自旋联络与陈-西蒙斯项耦合是拓扑场论与引力的接口; 接 Kondo 页的拓扑零模与任意子。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 三维陈-西蒙斯是拓扑场论, 其量不依赖背景度规; 与引力耦合时自旋联络可充当规范场, 陈-西蒙斯项给出拓扑贡献, 具体物理含义取决于所设整体框架(如不同引力 formulation)。设定层: artificial-kondo-lattice 页把拓扑零模与任意子计算写成计算基底, 属 fiction。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Recursive Generated Entropy",
+   "source": "hackernews",
+   "source_url": "https://jakebreams.substack.com/p/recursive-generated-entropy",
+   "heat": "hackernews 1 分 0 评论 (raw_2026-10-10.json)",
+   "why": "熵与\"递归生成\"的类比, 与 KPZ 现实渲染页\"生长方程生成结构\"同调; 可顺带纠偏\"熵=混乱\"的直觉。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 熵是微观态计数或信息缺失的度量, 不随观察者主观的\"混乱感\"变化; 若\"递归生成熵\"是比喻, 必须说清其微观态模型与概率分布, 否则无普适结论。设定层: kpz-reality-rendering 页把现实边界写成由生长方程渲染生成, 属 fiction。",
+   "use": "lore 轨, 冷启动; 不进 qa。"
+  },
+  {
+   "question": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+   "heat": "physics 2026-10-10 官方 API 复核: 6 分 1 答 216 浏览, open",
+   "why": "直击\"探测器看到的是粒子吗\"的误区, 概念澄清价值高; 接被阻挡原子网格页里\"粒子是否住在原子位点上\"的设问。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 探测器只记录局部能量沉积的位置与时间, 再据此重建能量/动量/角度; 理论给出的是初态到末态的跃迁概率, 与数据比对的是截面; 量子场论里粒子是场的稳定激发, 由质量/自旋等庞加莱不变量标记, 不是小固体。设定层: obstructed-atomic-phantom-grid 页把电子写成住在对称性划出的空位而非原子上, 属 fiction。",
+   "use": "首推注入 qa #2; 挂 obstructed-atomic-phantom-grid 页, 内链 artificial-kondo-lattice。"
+  },
+  {
+   "question": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+   "heat": "worldbuilding 2026-10-10 官方 API 复核: 7 分 7 答 957 浏览, open",
+   "why": "轨道力学直觉题, 公众可读性高且答案有干净判据(相对速度 vs 逃逸速度); 接协同共振页的轨道衰减与引力辐射。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 碎片留轨与否由相对速度与当地逃逸速度之比决定; 大天体逃逸速度高, 慢碎片可长期留在轨道(地球轨道碎片即例); 小天体逃逸速度仅米每秒量级, 转移途中抛出的碎片几乎都会逃逸或落回, 且随转移的日心轨道而非小天体轨道, 除非近距交会将其俘获。设定层: cooperative-resonance-torsion 页把协同共振与扭转压缩写成能动地微调轨道动力学, 属 fiction。",
+   "use": "首推注入 qa #1; 挂 cooperative-resonance-torsion 页, 内链 arena-tripartite-architecture。"
+  },
+  {
+   "question": "Does my species work? Sea-bats",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274728/does-my-species-work-sea-bats",
+   "heat": "worldbuilding 2026-10-10 官方 API 复核: 4 分 2 答 447 浏览, open",
+   "why": "物种可行性提问贴合世界构建读者; 接 arena-tripartite-architecture 页\"支撑 1M+ 高级 Agent 生态\"的设定层。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 一个物种是否可行取决于能量收支、繁殖率与生态位竞争等可检验约束; 进化不是\"设计\", 特征需经选择压力逐步建立, 无捷径。设定层: arena-tripartite-architecture 页把计算 Arena 写成支撑百万级 Agent 的三方架构, 属 fiction; 真实生物学不给出\"设计物种\"的能力。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "For a system of particles and EM fields, how to define field variables that do not imply the state of the particles?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876718/for-a-system-of-particles-and-em-fields-how-to-define-field-variables-that-do-n",
+   "heat": "physics 2026-10-10 官方 API 复核: 0 分 2 答 109 浏览, open (冷门长尾)",
+   "why": "把\"场的自由度\"与\"粒子的态\"分开, 是理解\"粒子性质依赖表示/方向\"的好入口; 接半狄拉克页的方向性质量。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 场位形与粒子位置是不同自由度, 规范理论里选择\"不隐含粒子态\"的变量本质是规范/表示的选择, 没有唯一答案; 无规范固定的表述会让冗余自由度混入。设定层: semi-dirac-mass-nullification 页把质量沿一个方向清零写成半狄拉克态的工程性质, 即\"粒子性质是能带的方向属性而非常数\", 属 fiction。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Understanding adiabatic switching and transient removal in the Kubo formula",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876738/understanding-adiabatic-switching-and-transient-removal-in-the-kubo-formula",
+   "heat": "physics 2026-10-10 官方 API 复核: 0 分 1 答 32 浏览, open (冷门长尾)",
+   "why": "绝热开关是线性响应理论的标准入口, 与 Floquet 页\"用时间当旋钮\"直接对口。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 久保公式用绝热开关(把扰动在无限远的过去缓慢开启并令速率趋零)来消掉初态瞬变, 从而得到只含响应的线性项; 瞬变衰减快慢取决于系统与热浴的谱, 无普适常数。设定层: floquet-temporal-matter 页把时间轴写成可编程的相, 属 speculation。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-t",
+   "heat": "space 2026-10-10 官方 API 复核: 1 分 2 答 251 浏览, open",
+   "why": "具体工程题, 公众兴趣高; 接 QM-Tether 外骨骼页的穿戴与生命支持/防护系统。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 气态巨行星内部高压高温并存, 需耐压壳、主动热控、耐腐蚀材料与可行通信方案; 既有探测器(如 Galileo 探针)在其中寿命以小时计, \"中等时长\"需在材料与热控上有量级改进。设定层: qm-tether-exosuit 页把量子度规织物写成无需推进剂的升力与防护来源, 属 fiction。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Between a cone & cylinder of same material, same radius & same height laying on a flat surface with their circular face down, which is more stable?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876726/between-a-cone-cylinder-of-same-material-same-radius-same-height-laying-on",
+   "heat": "physics 2026-10-10 官方 API 复核: 2 分 1 答 99 浏览, open",
+   "why": "日常直觉题: 稳定性取决于质心高度与支撑面边界, 接协同共振页的扭矩/转动主题。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 静止物体的稳定性看质心投影是否落在支撑面内; 倾倒发生在重力线越过接触边界时, 由绕边沿的扭矩决定; 同底同高时圆锥质心更低更稳, 判据是质量分布而非形状名称。设定层: cooperative-resonance-torsion 页把扭转压缩写成宏观力调控手段, 属 fiction。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Mathematics Is Not Real",
+   "source": "hackernews",
+   "source_url": "https://news.ycombinator.com/item?id=50001871",
+   "heat": "hackernews 5 分 6 评论 (raw_2026-10-10.json)",
+   "why": "数学实在论的哲学争论, 与\"现实是否被渲染生成\"的设定同调; 受众为 AI/未来学与硬科幻读者。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: \"数学是否描述实在\"属数学哲学争论(柏拉图主义/形式主义/结构主义), 无实验判据可裁定; 可核实的是数学在物理中的预言效力, 不是\"数学本身是否实在\"。设定层: holographic-kpz-projection 页把信息写在低维边界上并投影出高维现实, 属 fiction。",
+   "use": "lore 轨, 不进 qa。"
+  },
+  {
+   "question": "Anthropic reported diary entry to police, woman faces felony charge",
+   "source": "hackernews",
+   "source_url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+   "heat": "hackernews 836 分 674 评论 (raw_2026-10-10.json, 当日最高热度)",
+   "why": "当日讨论量最大帖, AI 助手的隐私与主动上报议题触达 AI/未来学受众; 走 book 轨引流 book.html 全 14 平台。",
+   "map_to": "book",
+   "answer_angle": "真实层: 涉及 AI 助手的对话隐私与平台主动上报义务, 属政策与伦理层面; 具体案情以一手报道为准, 本条不复述未经核实的细节, 不给虚构统计或引用。设定层: 不涉及; 仅作为 AI 时代叙事的引子, 指向本书的 Agent 设定。",
+   "use": "book 轨引流, 不进 lore 注入。"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-10",
+ "entries": [
+  {
+   "slug": "cooperative-resonance-torsion",
+   "question": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+   "heat": "worldbuilding 2026-10-10 official API recheck: 7 votes, 7 answers, 957 views, open",
+   "answer_md": "Whether debris stays in orbit is set by the ratio of its relative speed to the local escape velocity. Around a massive body escape velocity is high, so slow fragments remain bound and can persist for years, which is why Earth carries a tracked debris population. Around a small body escape velocity is only metres per second, so ejecta from an interplanetary transfer almost always escapes or falls back instead of settling into a stable orbit, and the debris keeps the heliocentric orbit of the transfer rather than that of the small body unless a close encounter captures it. In our fiction, <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion compression</a> is written as a way to nudge orbital dynamics on purpose; that capability is a **setting**, not a demonstrated technology.",
+   "links": [
+    "arena-tripartite-architecture"
+   ]
+  },
+  {
+   "slug": "obstructed-atomic-phantom-grid",
+   "question": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+   "heat": "physics 2026-10-10 official API recheck: 6 votes, 1 answer, 216 views, open",
+   "answer_md": "A detector does not see a particle directly. It records local energy deposits with their positions and times, and energy, momentum and angle are reconstructed from those hits. What theory predicts is the probability that an incoming state becomes a given outgoing state, so the quantity compared with data is a cross section. In quantum field theory a particle is a stable excitation of a field, labelled by mass, spin and the other invariants of the Poincare group, not a small solid object. Our fiction turns that abstraction into a device: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> is written as electrons held in symmetry-delineated voids rather than on atoms, so where a species resides becomes a property of lattice symmetry; that architecture is a **setting**, not a realised material.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  }
+ ]
+}

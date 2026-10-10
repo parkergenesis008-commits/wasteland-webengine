@@ -1,0 +1,479 @@
+{
+  "_ts": "2026-10-10T01:57:46.718945",
+  "_date": "2026-10-10",
+  "counts": {
+    "stackexchange": 56,
+    "reddit_rss": 0,
+    "hackernews": 11,
+    "questions": 36,
+    "total": 46
+  },
+  "errors": [
+    "reddit/r/artificial: URLError <urlopen error timed out>",
+    "reddit/r/singularity: URLError <urlopen error timed out>",
+    "reddit/r/postapocalyptic: URLError <urlopen error timed out>",
+    "reddit/r/collapse: URLError <urlopen error timed out>"
+  ],
+  "candidates": [
+    {
+      "title": "Can Single Particles have Entropy?",
+      "url": "https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 5,
+      "ts": "2026-09-26T07:44",
+      "is_question": true
+    },
+    {
+      "title": "How does artificial light cancel or dominate the light coming from stars?",
+      "url": "https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 11,
+      "comments": 6,
+      "ts": "2026-10-01T13:37",
+      "is_question": true
+    },
+    {
+      "title": "Could the City of Gold&#39;s gold export restrictions justify high gold world prices?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274675/could-the-city-of-golds-gold-export-restrictions-justify-high-gold-world-prices",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 8,
+      "ts": "2026-09-29T09:50",
+      "is_question": true
+    },
+    {
+      "title": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 7,
+      "ts": "2026-10-03T02:09",
+      "is_question": true
+    },
+    {
+      "title": "What bunker materials are needed to protect against a microscopic neutron star explosion?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274670/what-bunker-materials-are-needed-to-protect-against-a-microscopic-neutron-star-e",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 3,
+      "ts": "2026-09-28T22:51",
+      "is_question": true
+    },
+    {
+      "title": "What is a sustainable population range for a civilization of rat-like creatures living in the walls of a giant&#39;s castle?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274685/what-is-a-sustainable-population-range-for-a-civilization-of-rat-like-creatures",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 4,
+      "ts": "2026-09-29T18:32",
+      "is_question": true
+    },
+    {
+      "title": "Chern-Simons theory and the Jones Polynomial",
+      "url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 0,
+      "ts": "2026-09-30T11:30",
+      "is_question": true
+    },
+    {
+      "title": "Where did Frames go in the geometric formulation of Newton&#39;s laws? (Schuller)",
+      "url": "https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-09-26T14:54",
+      "is_question": true
+    },
+    {
+      "title": "How long (in real time) would the proposed singularities in the Euler and Navier-Stokes equations take to occur?",
+      "url": "https://physics.stackexchange.com/questions/876407/how-long-in-real-time-would-the-proposed-singularities-in-the-euler-and-navier",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 0,
+      "ts": "2026-09-26T18:35",
+      "is_question": true
+    },
+    {
+      "title": "Would a planet with a rocky shell and a subsurface ocean explode if it were moved closer to its Sun due to the internal water &#39;boiling&#39; off?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274662/would-a-planet-with-a-rocky-shell-and-a-subsurface-ocean-explode-if-it-were-move",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-09-28T15:52",
+      "is_question": true
+    },
+    {
+      "title": "Evolution to an arboreal civilization",
+      "url": "https://worldbuilding.stackexchange.com/questions/274648/evolution-to-an-arboreal-civilization",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-09-27T15:33",
+      "is_question": true
+    },
+    {
+      "title": "How to build a medieval fantasy bunker?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274694/how-to-build-a-medieval-fantasy-bunker",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-10-01T03:46",
+      "is_question": true
+    },
+    {
+      "title": "Practicality of sail-powered airships in a fantasy setting?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274697/practicality-of-sail-powered-airships-in-a-fantasy-setting",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 5,
+      "ts": "2026-10-01T06:47",
+      "is_question": true
+    },
+    {
+      "title": "Spin connection in Chern-Simons theory",
+      "url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-10-06T12:58",
+      "is_question": true
+    },
+    {
+      "title": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+      "url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-10-06T16:33",
+      "is_question": true
+    },
+    {
+      "title": "How can the heat death of the Universe be undone via random thermodynamic/quantum fluctuations?",
+      "url": "https://physics.stackexchange.com/questions/876413/how-can-the-heat-death-of-the-universe-be-undone-via-random-thermodynamic-quantu",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-09-27T01:21",
+      "is_question": true
+    },
+    {
+      "title": "Does my species work? Sea-bats",
+      "url": "https://worldbuilding.stackexchange.com/questions/274728/does-my-species-work-sea-bats",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 2,
+      "ts": "2026-10-07T23:22",
+      "is_question": true
+    },
+    {
+      "title": "Do cosmic neutrinos have a higher upper bound of energy than gamma rays?",
+      "url": "https://physics.stackexchange.com/questions/876732/do-cosmic-neutrinos-have-a-higher-upper-bound-of-energy-than-gamma-rays",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-10-09T09:39",
+      "is_question": true
+    },
+    {
+      "title": "AI coding's Fermi paradox: where are the apps that last?",
+      "url": "https://medium.com/@giovambattista.fazioli/ai-codings-fermi-paradox-where-are-the-apps-that-last-c10b22fad263",
+      "source": "hn",
+      "note": "kw=fermi paradox",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-08T17:39",
+      "is_question": true
+    },
+    {
+      "title": "Why are they wearing those black and orange suits in this video during water survival training?",
+      "url": "https://space.stackexchange.com/questions/70724/why-are-they-wearing-those-black-and-orange-suits-in-this-video-during-water-sur",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-10-01T17:14",
+      "is_question": true
+    },
+    {
+      "title": "Between a cone &amp; cylinder of same material, same radius &amp; same height laying on a flat surface with their circular face down, which is more stable?",
+      "url": "https://physics.stackexchange.com/questions/876726/between-a-cone-cylinder-of-same-material-same-radius-same-height-laying-on",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-10-09T05:36",
+      "is_question": true
+    },
+    {
+      "title": "What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?",
+      "url": "https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-t",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-10-08T06:07",
+      "is_question": true
+    },
+    {
+      "title": "For a system of particles and EM fields, how to define field variables that do not imply the state of the particles?",
+      "url": "https://physics.stackexchange.com/questions/876718/for-a-system-of-particles-and-em-fields-how-to-define-field-variables-that-do-n",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-10-08T20:35",
+      "is_question": true
+    },
+    {
+      "title": "Why haven&#39;t we designed a larger docking port?",
+      "url": "https://space.stackexchange.com/questions/70726/why-havent-we-designed-a-larger-docking-port",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-02T00:30",
+      "is_question": true
+    },
+    {
+      "title": "Understanding adiabatic switching and transient removal in the Kubo formula",
+      "url": "https://physics.stackexchange.com/questions/876738/understanding-adiabatic-switching-and-transient-removal-in-the-kubo-formula",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-09T14:07",
+      "is_question": true
+    },
+    {
+      "title": "Would the convective heating on a rogue planet make life there any different?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274729/would-the-convective-heating-on-a-rogue-planet-make-life-there-any-different",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-08T01:00",
+      "is_question": true
+    },
+    {
+      "title": "Need feedback on this world&#39;s climate",
+      "url": "https://worldbuilding.stackexchange.com/questions/274686/need-feedback-on-this-worlds-climate",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-09-29T21:43",
+      "is_question": true
+    },
+    {
+      "title": "Derivation of Plancks radiation law, Plancks quantum theory",
+      "url": "https://physics.stackexchange.com/questions/876741/derivation-of-plancks-radiation-law-plancks-quantum-theory",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-09T17:37",
+      "is_question": true
+    },
+    {
+      "title": "How to apply Bernoullis&#39;s law to calculate the current pressure at one point in a pipe?",
+      "url": "https://physics.stackexchange.com/questions/876713/how-to-apply-bernoulliss-law-to-calculate-the-current-pressure-at-one-point-in",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-08T17:32",
+      "is_question": true
+    },
+    {
+      "title": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -2,
+      "comments": 3,
+      "ts": "2026-10-01T14:34",
+      "is_question": true
+    },
+    {
+      "title": "Does the fairings of Falcon-9 have attitude control thrusters?",
+      "url": "https://space.stackexchange.com/questions/70722/does-the-fairings-of-falcon-9-have-attitude-control-thrusters",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-09-28T05:08",
+      "is_question": true
+    },
+    {
+      "title": "Uncertainty in classical physics?",
+      "url": "https://physics.stackexchange.com/questions/876727/uncertainty-in-classical-physics",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-10-09T07:49",
+      "is_question": true
+    },
+    {
+      "title": "How do astronauts prepare for spacewalks and maintain their EVA suits in the airlock",
+      "url": "https://space.stackexchange.com/questions/70727/how-do-astronauts-prepare-for-spacewalks-and-maintain-their-eva-suits-in-the-air",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-02T19:14",
+      "is_question": true
+    },
+    {
+      "title": "AI improvements for SGP4 and other orbital propagation systems",
+      "url": "https://space.stackexchange.com/questions/70729/ai-improvements-for-sgp4-and-other-orbital-propagation-systems",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-03T13:58",
+      "is_question": true
+    },
+    {
+      "title": "Any details on what the ARGOS classes look like in the Artemis program?",
+      "url": "https://space.stackexchange.com/questions/70721/any-details-on-what-the-argos-classes-look-like-in-the-artemis-program",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -4,
+      "comments": 0,
+      "ts": "2026-09-27T14:02",
+      "is_question": true
+    },
+    {
+      "title": "new for discovery from chile",
+      "url": "https://physics.stackexchange.com/questions/876733/new-for-discovery-from-chile",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -6,
+      "comments": 0,
+      "ts": "2026-10-09T10:34",
+      "is_question": true
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 836,
+      "comments": 674,
+      "ts": "2026-10-05T05:37",
+      "is_question": false
+    },
+    {
+      "title": "Questions for believers in AI consciousness",
+      "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 48,
+      "comments": 231,
+      "ts": "2026-10-05T18:59",
+      "is_question": false
+    },
+    {
+      "title": "Tell HN: HN has lost the joy for me",
+      "url": "https://news.ycombinator.com/item?id=49989504",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 39,
+      "comments": 30,
+      "ts": "2026-10-07T07:32",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Musql, JIT-compiled SQL, up to 300x faster than SQLite, 1000x vs. Turso",
+      "url": "https://github.com/samyfodil/musql",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 11,
+      "comments": 5,
+      "ts": "2026-10-07T05:30",
+      "is_question": false
+    },
+    {
+      "title": "Mathematics Is Not Real",
+      "url": "https://news.ycombinator.com/item?id=50001871",
+      "source": "hn",
+      "note": "kw=superconductor",
+      "points": 5,
+      "comments": 6,
+      "ts": "2026-10-08T04:44",
+      "is_question": false
+    },
+    {
+      "title": "Predicting Peace",
+      "url": "https://entropicthoughts.com/forecasting-peace",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 5,
+      "comments": 0,
+      "ts": "2026-10-06T10:10",
+      "is_question": false
+    },
+    {
+      "title": "The looming AI consciousness trainwreck (2022)",
+      "url": "https://blog.plan99.net/the-looming-ai-consciousness-train-wreck-2e23165b3246",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-09T09:30",
+      "is_question": false
+    },
+    {
+      "title": "The Velocity of Bullshit",
+      "url": "https://blog.entropy.capital/p/the-velocity-of-bullshit",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-05T12:28",
+      "is_question": false
+    },
+    {
+      "title": "Topscan.me – a new security platform with a new approach to scanning",
+      "url": "https://news.ycombinator.com/item?id=49960159",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-05T02:44",
+      "is_question": false
+    },
+    {
+      "title": "Recursive Generated Entropy",
+      "url": "https://jakebreams.substack.com/p/recursive-generated-entropy",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-05T22:01",
+      "is_question": false
+    }
+  ]
+}

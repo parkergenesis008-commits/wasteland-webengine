@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-10-06",
   "fallback_date": true,
-  "candidates": 12,
+  "candidates": 15,
   "all": [
     {
       "slug": "artificial-kondo-lattice",
@@ -34,6 +34,13 @@
     },
     {
       "slug": "type2-superlattice-radar",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
       "score": 47,
       "weight": 30,
       "relevance": 17,
@@ -75,6 +82,13 @@
       "rank": 2
     },
     {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 37,
+      "weight": 20,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
       "slug": "holographic-kpz-projection",
       "score": 27,
       "weight": 10,
@@ -90,6 +104,13 @@
     },
     {
       "slug": "kpz-reality-rendering",
+      "score": 27,
+      "weight": 10,
+      "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "type2-superlattice-radar",
       "score": 27,
       "weight": 10,
       "relevance": 17,
