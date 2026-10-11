@@ -38,28 +38,6 @@ When an enemy's armor-piercing kinetic weapon strikes the armor's flank, it no l
 ## 5. Conclusion: Mass as a Variable
 In the high-dimensional engine of Reality-as-Code, mass is no longer an intrinsic property bestowed upon objects by God. It is merely a scalar parameter mounted on a three-dimensional grid. Having understood the crossing rules of topology, mass can be arbitrarily nullified to zero or endlessly multiplied.
 
-<!-- GEO-QA-START id=fd56ba8085 -->
-## Extended Q&A — Reader Question
-
-**Q: Justification of $A_\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-10-01, 3 points, 2 answers, 102 views (SE API 2026-10-04 复核)</em></p>
-
-**Setting a gauge field to zero is a choice of description, not a deletion of the field.** In the Higgs mechanism the Higgs field takes a nonzero vacuum expectation value, the would-be Goldstone modes are absorbed, and the gauge bosons coupled to the broken generators acquire a mass, while the combination that leaves the unbroken electromagnetic U(1) intact stays massless, which is why the photon is massless. Writing A_mu = 0 characterises the electroweak vacuum and picks a gauge such as unitary gauge for expanding around it, so the field still exists and fluctuates and physical results such as masses and cross sections stay gauge invariant. **The consequences of that choice are therefore bookkeeping, not new physics.** The project layer stays fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass-nullification setting</a> imagines a tunable gap that can be driven to zero as an engineering knob, which is not a claim about electroweak theory, and the correlated-electron side is developed in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a>.
-
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876547/justification-of-a-mu-0-for-the-vacuum-states-in-the-higgs-mechanism-and-its" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=ee9aa3f603 -->
-## Extended Q&A — Reader Question
-
-**Q: Why is GPS confirmation of Special Relativity?**
-<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-14, 15 points 5 comments, second highest physics score in today's candidate pool</em></p>
-
-GPS depends on two clock effects that pull in opposite directions, and the popular framing names only one of them. Because a satellite moves fast relative to the ground, the 1905 speed term would make its clock run slow, while the fact that it also sits higher in Earth's gravitational potential produces a blueshift term that makes the clock run fast. That second term is the larger of the two, so the net effect is a daily gain that the satellites are launched pre-offset to cancel. **That makes GPS a working operational check on the clock terms of general relativity rather than a clean single test of special relativity on its own.** The setting layer is fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass nullification setting</a> treats a relativistic dispersion relation as a tunable material property, and <a href='floquet-temporal-matter.html'>the Floquet temporal matter setting</a> pushes the same premise into a periodically driven lattice where time itself is the control knob.
-
-<p><strong>Related:</strong> <a href="floquet-temporal-matter.html">Floquet Engineering and Temporally Programmed Matter</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876009/why-is-gps-confirmation-of-special-relativity" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- GEO-QA-START id=bb93ba9cc2 -->
 ## Extended Q&A — Reader Question
 
@@ -71,4 +49,26 @@ GPS depends on two clock effects that pull in opposite directions, and the popul
 <p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1wqlsoy/could_a_ship_with_alcubierre_drive_escape_out_of/" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-10 08:37 UTC -->
+<!-- GEO-QA-START id=f2d58a1f8f -->
+## Extended Q&A — Reader Question
+
+**Q: Lorentz transformation of force**
+<p><em>asked on stackexchange/physics · physics.SE new thread, 7 votes / 2 answers (2026-09-10)</em></p>
+
+Force is not a four-vector, so it does not transform the way a displacement or a velocity does: what transforms cleanly is the momentum four-vector, and force is its derivative with respect to proper time. The practical consequence is that a boosted observer sees the **transverse and longitudinal parts of a force scale differently**, and for a body that is already moving the acceleration is in general *not* parallel to the applied force, because the relativistic factor gamma multiplies the inertial response. None of that is exotic: it is ordinary special relativity, and it is confirmed continuously in accelerator and particle-physics practice. This project's <a href='arena-tripartite-architecture.html'>quantum-metric architecture</a> is where the speculative layer begins, and the semi-Dirac setting it builds on turns that same intuition into fiction: an effective mass that vanishes along one axis, so that inertia becomes purely directional. The solid-state ingredient, an anisotropic effective mass with a semi-Dirac dispersion, is real condensed-matter physics; the directional mass nullification is the setting, not a demonstrated material.
+
+<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/875869/lorentz-transformation-of-force" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- GEO-QA-START id=5ebe353428 -->
+## Extended Q&A — Reader Question
+
+**Q: Does Newtonian mechanics make claims about how forces are created?**
+<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-24, 8 分 6 答 1014 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)</em></p>
+
+**Newtonian mechanics takes force as a primitive input and never asks where it comes from; the second law only fixes how a body responds.** In that framework the origin of a force is handed to a separate law, which is why gravity needed a mechanism and why field descriptions were introduced later. Relativity and field theory invert the question: a force is the rate of change of momentum that a field imposes, and mass appears as the inertia the field has to overcome rather than something the force creates. The project layer keeps this as fiction, so on <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass-nullification page</a> the point where the effective mass vanishes is imagined as a place where that bookkeeping breaks down, which is a setting device and not an established result.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+<!-- Last fresh: 2026-10-11 09:16 UTC -->

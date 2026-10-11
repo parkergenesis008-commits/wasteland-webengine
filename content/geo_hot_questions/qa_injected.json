@@ -1,7 +1,7 @@
 {
   "c9271c5a90": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-09T17:32:38.895015",
+    "ts": "2026-10-11T09:16:16.093582",
     "question": "What will robot soldiers really look like?",
     "pruned": 1,
     "src": "qa_2026-09-10.json"
@@ -15,21 +15,21 @@
   },
   "71b42c52c5": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-09T17:32:38.903371",
+    "ts": "2026-10-11T09:16:16.094408",
     "question": "What exactly would gravity-mediated entanglement prove?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
   },
   "8fcb4bf481": {
     "slug": "arena-tripartite-architecture",
-    "ts": "2026-10-08T17:20:03.084577",
+    "ts": "2026-10-11T09:16:16.095781",
     "question": "Is it possible for an atmosphere to orbit a planetary body?",
     "pruned": 1,
     "src": "qa_2026-09-11.json"
   },
   "f2d58a1f8f": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-09T17:32:38.904801",
+    "ts": "2026-10-11T09:16:16.097028",
     "question": "Lorentz transformation of force",
     "pruned": 1,
     "src": "qa_2026-09-12.json"
@@ -64,49 +64,49 @@
   },
   "ff0ce9a7ea": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-09T08:03:38.495270",
+    "ts": "2026-10-11T09:16:16.098212",
     "question": "Physical interpretation of the focusing theorem",
     "pruned": 1,
     "src": "qa_2026-09-14.json"
   },
   "fc002495d6": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-09T17:32:38.913574",
+    "ts": "2026-10-11T09:16:16.099672",
     "question": "Would a bird get fried if it stood on a microwave-frequency power line?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
   },
   "a97dc724e5": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-09T17:32:38.915269",
+    "ts": "2026-10-11T09:16:16.101232",
     "question": "How can a pre-industrial society fight underwater enemies?",
     "pruned": 1,
     "src": "qa_2026-09-16.json"
   },
   "32921b5ca0": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-09T17:32:38.886234",
+    "ts": "2026-10-11T09:16:16.090965",
     "question": "What are ways that AI is affecting Physics similar to how it is affecting Mathematics?",
     "pruned": 1,
     "src": "qa_2026-09-17.json"
   },
   "20ec60d673": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-09T17:32:38.923661",
+    "ts": "2026-10-11T09:16:16.102522",
     "question": "What does the blowup solution to Navier–Stokes mean for real-life liquids?",
     "pruned": 1,
     "src": "qa_2026-09-17.json"
   },
   "dba214ee7f": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-09T17:32:38.924564",
+    "ts": "2026-10-11T09:16:16.103247",
     "question": "How do new spacecraft navigate around debris in space",
     "pruned": 1,
     "src": "qa_2026-09-18.json"
   },
   "3fb1327682": {
     "slug": "obstructed-atomic-phantom-grid",
-    "ts": "2026-10-09T08:03:38.496378",
+    "ts": "2026-10-11T09:16:16.104577",
     "question": "If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world",
     "pruned": 1,
     "src": "qa_2026-09-18.json"
@@ -148,7 +148,7 @@
   },
   "bf6f910b9b": {
     "slug": "holographic-kpz-projection",
-    "ts": "2026-10-09T17:32:38.935636",
+    "ts": "2026-10-11T09:16:16.105265",
     "question": "How can a satellite prove that other universes (hypothetical theory of multiverse) had no gravitational pull on this uni",
     "pruned": 1,
     "src": "qa_2026-09-23.json"
@@ -162,7 +162,7 @@
   },
   "626f6a3115": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-09T17:32:38.944193",
+    "ts": "2026-10-11T09:16:16.106440",
     "question": "Deriving the Landauer Principle from the Quantum Shannon Entropy",
     "pruned": 1,
     "src": "qa_2026-09-24.json"
@@ -183,21 +183,21 @@
   },
   "65f72ff33d": {
     "slug": "artificial-kondo-lattice",
-    "ts": "2026-10-09T08:03:38.489472",
+    "ts": "2026-10-11T09:16:16.091819",
     "question": "Does Newtonian mechanics make claims about how forces are created?",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
   },
   "da8233b90e": {
     "slug": "electromagnetic-theater-override",
-    "ts": "2026-10-09T08:03:38.500247",
+    "ts": "2026-10-11T09:16:16.107316",
     "question": "Snell's law in electrostatics",
     "pruned": 1,
     "src": "qa_2026-09-26.json"
   },
   "fe93a21260": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-08T17:20:03.096175",
+    "ts": "2026-10-11T09:16:16.109689",
     "question": "Why are there different formulas for orbital decay times via gravitational radiation? And, which one is correct?",
     "pruned": 1,
     "src": "qa_2026-09-27.json"
@@ -239,7 +239,7 @@
   },
   "ef71b325c3": {
     "slug": "cooperative-resonance-torsion",
-    "ts": "2026-10-09T08:03:38.504966",
+    "ts": "2026-10-11T09:16:16.110629",
     "question": "Unstable moon resonance",
     "pruned": 1,
     "src": "qa_2026-09-28.json"
@@ -260,7 +260,7 @@
   },
   "23df36b23d": {
     "slug": "kpz-reality-rendering",
-    "ts": "2026-10-09T08:03:38.505771",
+    "ts": "2026-10-11T09:16:16.111267",
     "question": "Can two bodies be at thermal equilibrium while having different temperatures?",
     "pruned": 1,
     "src": "qa_2026-09-30.json"
@@ -274,7 +274,7 @@
   },
   "fb189ddc6f": {
     "slug": "qm-tether-exosuit",
-    "ts": "2026-10-09T17:32:38.965986",
+    "ts": "2026-10-11T09:16:16.112016",
     "question": "How would the human body change after 500 years in a confined area with artificial light?",
     "pruned": 1,
     "src": "qa_2026-10-01.json"
@@ -302,7 +302,7 @@
   },
   "f25b1e2b08": {
     "slug": "type2-superlattice-radar",
-    "ts": "2026-10-09T17:32:38.967758",
+    "ts": "2026-10-11T09:16:16.112606",
     "question": "All existing communication infrastructure has vanished. What technology do we use to rebuild it?",
     "pruned": 1,
     "src": "qa_2026-10-04.json"
@@ -316,7 +316,7 @@
   },
   "8ba3121459": {
     "slug": "obstructed-atomic-phantom-grid",
-    "ts": "2026-10-08T17:20:03.098218",
+    "ts": "2026-10-11T09:16:16.113240",
     "question": "What bunker materials are needed to protect against a microscopic neutron star explosion?",
     "pruned": 1,
     "src": "qa_2026-10-05.json"
@@ -337,7 +337,7 @@
   },
   "5ebe353428": {
     "slug": "semi-dirac-mass-nullification",
-    "ts": "2026-10-09T08:03:38.507190",
+    "ts": "2026-10-11T09:16:16.113888",
     "question": "Does Newtonian mechanics make claims about how forces are created?",
     "pruned": 1,
     "src": "qa_2026-10-07.json"
@@ -372,7 +372,7 @@
   },
   "4af7b5b300": {
     "slug": "floquet-temporal-matter",
-    "ts": "2026-10-09T08:03:38.509342",
+    "ts": "2026-10-11T09:16:16.114817",
     "question": "How can a person show/present a nonlinear time",
     "pruned": 1,
     "src": "qa_2026-10-09.json"
