@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-13",
+  "generated": "2026-10-13T02:0x+08:00",
+  "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+  "source_raw": "raw_2026-10-13.json",
+  "sources_health": {
+    "stackexchange": 60,
+    "reddit_rss": 0,
+    "hackernews": 11,
+    "dedup_total": 49,
+    "question_form": 40,
+    "errors": [
+      "reddit/r/collapse URLError timeout",
+      "reddit/r/selfpublish URLError timeout",
+      "reddit/r/printSF URLError timeout",
+      "reddit/r/scifi URLError timeout"
+    ]
+  },
+  "x_tiktok": {
+    "x": "X/TikTok 今日抓取失败(X 侧 3 次 web_search 无平台级当日榜单、无带互动数的当日帖)",
+    "tiktok": "命中 3 条真实带数帖: @man_ia_c \"What if electrons disappeared for 5 seconds?\" (2026-10-06, 11.8M 浏览/1.4M 赞), @what_if_space \"What if protons disappeared for 5 seconds?\" (2026-10-06, 471.8K 浏览), @flipping.physics 加速度科普 (2026-10-04, 5862 浏览); 数值来自搜索抓取页, 未经平台 API 二次核验"
+  },
+  "heat_verification": "StackExchange 官方 API(api.stackexchange.com, urllib 直连)逐条复核 2026-10-13; 剔除已关闭题: physics 876823(Not suitable)、876818(Duplicate); worldbuilding 274697(Duplicate); space 70729(Needs more focus)",
+  "dedup_note": "12 条全部为本轮未注入/未列入历史清单的新题(TikTok 条为首次采用源); 已回避 2026-10-12 清单的 12 条与历史 84 条问题",
+  "entries": [
+    {
+      "question": "Chern-Simons theory and the Jones Polynomial",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "heat": "physics 2026-10-13 official API recheck: 8 votes, 0 answers, 125 views, open (posted 2026-09-30); 当日 physics 最高分未答题",
+      "why": "把拓扑场论与扭结不变量直接连起来，是\"任何子/编织计算\"这一类设定的真实物理入口，且原帖 0 答，供给缺口大。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层讲 CS 作用量不含度规、可观测量是 Wilson 环、非阿贝尔 CS 在 level k 下的环期望值给出 Jones 多项式，并说明 2+1 维 CS 与任意子分数统计的关系；设定层说明本项目的\"竞技场三方架构\"把任意子编织当作运算基元，明写为 fiction。",
+      "use": "FAQ 注入 + lore 内链，答案内链 artificial-kondo-lattice"
+    },
+    {
+      "question": "How does a flat band sustain a non-zero superfluid density if the effective mass is infinite?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876817/how-does-a-flat-band-sustain-a-non-zero-superfluid-density-if-the-effective-mass",
+      "heat": "physics 2026-10-13 official API recheck: 1 vote, 0 answers, 14 views, open (posted 2026-10-12) 最新帖",
+      "why": "平带有效质量发散却仍有超流刚度，答案在量子度规几何而非动能，正是本项目多页设定的物理根基。",
+      "map_to": "artificial-kondo-lattice",
+      "answer_angle": "真实层指出平带色散近零使带质量发散，但超流刚度由 Bloch 态的量子度规(量子几何张量的实部)贡献，故有限超流权重可在动能被淬灭时存活，并提及带间项；设定层说明\"人工近藤晶格\"是被设计出几何主导输运的平带，明写为 setting。",
+      "use": "QA 注入 + lore 内链，答案内链 semi-dirac-mass-nullification"
+    },
+    {
+      "question": "Yang-Mills roadmap",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876766/yang-mills-roadmap",
+      "heat": "physics 2026-10-13 official API recheck: 6 votes, 2 answers, 381 views, open (posted 2026-10-11)",
+      "why": "非阿贝尔规范理论的量化路线图类提问长期高互动，天然承接\"把场论当工程\"的叙事。",
+      "map_to": "arena-tripartite-architecture",
+      "answer_angle": "真实层说明 Yang-Mills 的经典作用量、量子化路径(路径积分/格点)与质量间隙仍是开放问题，避免任何未经核实的数值或结论性宣称；设定层只做\"本项目把规范结构当作可编程基质\"的 fiction 表述。",
+      "use": "科普引流，暂不注入"
+    },
+    {
+      "question": "Will two oppositely charged Faraday cages kill the outer surface charge upon a spark?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876810/will-two-oppositely-charged-faraday-cages-kill-the-outer-surface-charge-upon-a-s",
+      "heat": "physics 2026-10-13 official API recheck: 1 vote, 1 answer, 56 views, open (posted 2026-10-12)",
+      "why": "法拉第笼\"外部零场\"是教科书共识，但叠加相反电荷后的边界情形问得很少，适合做\"静电屏蔽的边角\"科普。",
+      "map_to": "electromagnetic-theater-override",
+      "answer_angle": "真实层从导体静电平衡与 Gauss 定律出发，说明电荷只分布在外表面、腔体内部不受外场影响，若结构被拆解或放电击穿则屏蔽失效；设定层说明本项目\"电磁剧场覆写\"是从外部重写局域可观测量，明写为 setting。",
+      "use": "FAQ 注入候选，答案内链 electromagnetic-theater-override"
+    },
+    {
+      "question": "What if electrons disappeared for 5 seconds?",
+      "source": "tiktok/@man_ia_c",
+      "source_url": "https://tiktok.com/@man_ia_c/video/7693494009494342945",
+      "heat": "TikTok 2026-10-06 发布, 搜索摘要回传 11.8M 浏览 / 1.4M 赞 / 8129 评论 (数值来自搜索抓取页, 未经平台 API 二次核验)",
+      "why": "千万级播放的\"电子消失\"假设题，正是把电磁耦合与原子稳定性讲成人话的入口，且可直接纠偏视频里的夸张结论。",
+      "map_to": "obstructed-atomic-phantom-grid",
+      "answer_angle": "真实层只讲物理共识: 失去电子则正电荷失衡、库仑斥力主导、化学键与固体会解体, 但明确不采信视频中任何具体当量或速度数字; 设定层说明本项目\"受阻原子幻影栅格\"把电子束缚在对称性定义的格位而非原子周围，明写为 setting。",
+      "use": "短视频平台引流选题, 不进 FAQ 注入"
+    },
+    {
+      "question": "If body in free fall moves along a geodesic, how does it accelerates and moves downwards in a straight line?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876811/if-body-in-free-fall-moves-along-a-geodesic-how-does-it-accelerates-and-moves-d",
+      "heat": "physics 2026-10-13 official API recheck: 0 votes, 2 answers, 50 views, open (posted 2026-10-12)",
+      "why": "\"测地线\"与\"看起来在加速自由落体\"的张力是广义相对论最常被问的概念坎。",
+      "map_to": "kpz-reality-rendering",
+      "answer_angle": "真实层说明自由落体在广义相对论里是惯性运动、固有加速度为零, 坐标加速度来自参考系与度规, 局域内可以抹平引力；设定层说明本项目\"KPZ 普适类程序化现实渲染\"把坐标与观测量分离当作叙事装置，明写为 fiction。",
+      "use": "科普引流, 暂不注入"
+    },
+    {
+      "question": "How does the internet work in space without ground infrastructure?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70743/how-does-the-internet-work-in-space-without-ground-infrastructure",
+      "heat": "space 2026-10-13 official API recheck: 0 votes, 0 answers, 12 views, open (posted 2026-10-12)",
+      "why": "\"地面基础设施消失后通信怎么走\"与现实中的延迟容忍网络(DTN)直接对应，且 0 答。",
+      "map_to": "holographic-kpz-projection",
+      "answer_angle": "真实层讲深空通信依赖中继、深空网(DSN)地面站、延迟容忍网络与存储转发, 星际尺度上往返时延以分钟至小时计, 不存在实时互联网; 设定层说明本项目\"全息 KPZ 投影\"把远域信息重构成可观测画面，明写为 setting。",
+      "use": "FAQ 注入候选"
+    },
+    {
+      "question": "How To Make a Dark Sky on a Jovian Planet?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274754/how-to-make-a-dark-sky-on-a-jovian-planet",
+      "heat": "worldbuilding 2026-10-13 official API recheck: 2 votes, 1 answer, 26 views, open (posted 2026-10-12)",
+      "why": "天空亮度由大气散射与气辉决定，把这套换到气态巨行星就变成\"可观测性从哪来\"的问题。",
+      "map_to": "type2-superlattice-radar",
+      "answer_angle": "真实层说明白昼天空亮因 Rayleigh 散射, 夜间有一层气辉与星光背景, 要\"暗\"就需压低散射源与气辉; 设定层说明本项目\"第二类超晶格雷达/尺度无关感知\"把感知写成与背景对比度相关的设定，明写为 setting。",
+      "use": "科普引流, 暂不注入"
+    },
+    {
+      "question": "Constructing a scalar potential $V(\\phi)$ from a prescribed, density-dependent screening factor",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876812/constructing-a-scalar-potential-v-phi-from-a-prescribed-density-dependent-s",
+      "heat": "physics 2026-10-13 official API recheck: 0 votes, 0 answers, 43 views, open (posted 2026-10-12)",
+      "why": "\"先定屏蔽因子再反推势函数\"是标量-张量理论的典型反问题, 适合讲清楚理论构造不是拟合。",
+      "map_to": "floquet-temporal-matter",
+      "answer_angle": "真实层说明标量场屏蔽机制通常由势与耦合共同决定, 反推需满足运动方程与稳定性(无鬼)条件, 并非任意函数都可倒推; 设定层说明本项目\"Floquet 时间编程物质\"把势当作可被外部调制的时间函数，明写为 setting。",
+      "use": "科普引流, 暂不注入"
+    },
+    {
+      "question": "How Might I Change My Jupiter's Orbital History to Make it More Realistic?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274745/how-might-i-change-my-jupiters-orbital-history-to-make-it-more-realistic",
+      "heat": "worldbuilding 2026-10-13 official API recheck: 2 votes, 1 answer, 98 views, open (posted 2026-10-11)",
+      "why": "巨行星迁移是系外行星学里的真实机制，问\"怎么改设定才合理\"等于问行星迁移理论。",
+      "map_to": "cooperative-resonance-torsion",
+      "answer_angle": "真实层讲巨行星迁移由与原行星盘的角动量交换及共振驱动, 尼斯模型给出的构型需通过动力学稳定性检验, 不引用未核实数值; 设定层说明本项目\"协同共振与扭转压缩\"把轨道微调写成工程手段，明写为 setting。",
+      "use": "科普引流, 暂不注入"
+    },
+    {
+      "question": "Hexapodal Locomotion",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+      "heat": "worldbuilding 2026-10-13 official API recheck: 2 votes, 3 answers, 189 views, open (posted 2026-10-12)",
+      "why": "六足步态的真实生物力学与稳定性判据, 是外骨骼/穿戴装备设定最容易接的地基。",
+      "map_to": "qm-tether-exosuit",
+      "answer_angle": "真实层讲多足步态用静态稳定性与三角支撑判据, 昆虫靠被动力学与神经回路简化控制, 尺度放大后结构强度与能耗成为瓶颈; 设定层说明本项目\"量子系绳外骨骼\"把穿戴者与宏观实现层绑定，明写为 setting。",
+      "use": "科普引流, 暂不注入"
+    },
+    {
+      "question": "Taxing Entrepreneurial Wealth: Evidence from Norway, 2021-2025",
+      "source": "hackernews",
+      "source_url": "https://www.nber.org/papers/w35854",
+      "heat": "HackerNews 2026-10-09 帖, 52 分 69 评论 (当日 HN 分最高)",
+      "why": "当日 HN 讨论度第一, 且是硬科幻读者关心的\"制度与资源分配\"侧入口, 不与物理题争位。",
+      "map_to": "book",
+      "answer_angle": "只做书轨引流: 引 book.html 的 14 平台分销, 正文不改写论文结论、不转述任何具体弹性数字; 讨论\"资源分配制度如何塑造文明\"这一类虚构设定层话题。",
+      "use": "book 轨引流, 不进 lore 注入"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13",
+  "entries": [
+    {
+      "slug": "arena-tripartite-architecture",
+      "question": "Chern-Simons theory and the Jones Polynomial",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial",
+      "heat": "physics 2026-10-13 official API recheck: 8 votes, 0 answers, 125 views, open (posted 2026-09-30); highest-scoring unanswered physics question in today's pool",
+      "answer_md": "Chern-Simons theory in three spacetime dimensions is built from an action that does not use the metric, so its natural observables are Wilson loops rather than local field values. Witten showed that the expectation value of those loops in non-Abelian SU(2) Chern-Simons theory at level k reproduces the Jones polynomial of the knot, which is why the theory is treated as a physical route to knot invariants. The same structure appears in two-dimensional electron systems, where excitations called anyons have braiding-dependent statistics, so the phase collected when two of them are exchanged carries information. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as a substrate whose operations are braids of those excitations; that architecture is a **setting**, not a built device.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "artificial-kondo-lattice",
+      "question": "How does a flat band sustain a non-zero superfluid density if the effective mass is infinite?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876817/how-does-a-flat-band-sustain-a-non-zero-superfluid-density-if-the-effective-mass",
+      "heat": "physics 2026-10-13 official API recheck: 1 vote, 0 answers, 14 views, open (posted 2026-10-12), newest physics question in today's pool",
+      "answer_md": "A flat band has almost no dispersion, and the band mass is the inverse curvature of the Bloch energy, so an exactly flat band gives an infinite effective mass and any relation that ties superfluid density to a finite mass would predict nothing. The resolution is that superfluid stiffness in a flat band is carried largely by the geometry of the Bloch states rather than by their kinetic energy. The relevant quantity is the quantum metric, the real part of the quantum geometric tensor, and in flat-band superconductors its contribution lets a finite superfluid weight survive even when the kinetic energy is quenched, with interband terms adding to it. In our fiction, <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> is written as an engineered flat band whose behaviour is set by that geometry; the design is a **setting**, not a realised material.",
+      "links": [
+        "semi-dirac-mass-nullification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "entries": [
+    {
+      "slug": "electromagnetic-theater-override",
+      "question": "Electric and magnetic fields: why are they \"nearly the same but different\"?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876621/electric-and-magnetic-fields-why-are-they-nearly-the-same-but-different",
+      "heat": "physics 2026-10-12 official API recheck: 5 votes, 5 answers, 1704 views, open",
+      "answer_md": "In a vacuum the electric and magnetic fields look asymmetric only because electric charges exist while magnetic monopoles have never been observed. Special relativity removes the asymmetry: both are components of one antisymmetric field tensor, and a change of inertial frame mixes them, so one observer's magnetic field shows up in another's electric field. The real difference appears in how they couple to matter, where charges respond to **E** while currents and magnetic dipoles respond to **B**. In our fiction, <a href='electromagnetic-theater-override.html'>electromagnetic theater override</a> is written as a programmable medium that reshapes which field components a local observer detects; that capability is a **setting**, not a demonstrated technology.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "question": "2026 Status of Higgs coupling constants",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876776/2026-status-of-higgs-coupling-constants",
+      "heat": "physics 2026-10-12 official API recheck: 1 vote, 0 answers, 72 views, open (posted 2026-10-11)",
+      "answer_md": "In the Standard Model each Higgs coupling is fixed to be proportional to that particle's mass, so the live question is whether measured couplings agree with those predictions. At the LHC they are extracted from production and decay rates, and the pattern is that couplings to heavy bosons and the top quark are constrained to a few percent while couplings to light fermions remain poorly constrained. Public combinations keep reporting agreement with the Standard Model within uncertainties, with no confirmed deviation, so a \"2026 status\" is best read as an updated uncertainty table rather than a discovery claim. Anyone quoting this should take the current numbers from the Particle Data Group and the latest LHC combinations; this answer deliberately quotes no figures. In our fiction, <a href='semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a> is a speculative setting in which an engineered lattice makes an effective mass vanish; it is **not** a claim about real Higgs physics.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    }
+  ]
+}

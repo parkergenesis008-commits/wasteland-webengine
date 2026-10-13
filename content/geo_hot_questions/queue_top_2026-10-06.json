@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-10-06",
   "fallback_date": true,
-  "candidates": 15,
+  "candidates": 21,
   "all": [
     {
       "slug": "artificial-kondo-lattice",
@@ -27,6 +27,20 @@
     },
     {
       "slug": "electromagnetic-theater-override",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "artificial-kondo-lattice",
       "score": 60,
       "weight": 20,
       "relevance": 40,
@@ -41,6 +55,13 @@
     },
     {
       "slug": "cooperative-resonance-torsion",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 1
+    },
+    {
+      "slug": "arena-tripartite-architecture",
       "score": 47,
       "weight": 30,
       "relevance": 17,
@@ -89,6 +110,13 @@
       "rank": 2
     },
     {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 37,
+      "weight": 20,
+      "relevance": 17,
+      "rank": 2
+    },
+    {
       "slug": "holographic-kpz-projection",
       "score": 27,
       "weight": 10,
@@ -114,6 +142,20 @@
       "score": 27,
       "weight": 10,
       "relevance": 17,
+      "rank": 3
+    },
+    {
+      "slug": "book",
+      "score": 27,
+      "weight": 20,
+      "relevance": 7,
+      "rank": 3
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
       "rank": 3
     },
     {
