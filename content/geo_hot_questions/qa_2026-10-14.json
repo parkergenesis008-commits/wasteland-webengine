@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-14",
+ "entries": [
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer",
+   "heat": "stackexchange/physics official API recheck 2026-10-14: 12 votes, 3 answers, 605 views, open (posted 2026-10-12); highest-scoring question in today's pool",
+   "answer_md": "A receiver shorter than the wavelength hits a size mismatch: the radiation resistance of an electrically small antenna falls as the antenna shrinks while the loss resistance does not, so efficiency and usable bandwidth drop together, and the Chu-Harrington limit caps how much bandwidth a given antenna volume can buy. Real dongles fight this with resonant matching networks, near-field coupling and a low-noise front end. The arithmetic is friendlier than it looks, because 2.4 GHz corresponds to a wavelength of about 12 centimetres, so a 2 to 3 centimetre antenna is already a sizeable fraction of a wavelength instead of an infinitesimal one, and frequency choice is the main engineering lever. In our fiction, <a href='type2-superlattice-radar.html'>type-II superlattice radar</a> is written as a staggered-gap lattice used for sub-wavelength reception, which is a **setting**, not a realised device.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  },
+  {
+   "slug": "arena-tripartite-architecture",
+   "question": "Generic coordinates transformation to a free falling frame",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876869/generic-coordinates-transformation-to-a-free-falling-frame",
+   "heat": "stackexchange/physics official API recheck 2026-10-14: 1 vote, 0 answers, 15 views, open (posted 2026-10-13); newest general-relativity question in today's pool",
+   "answer_md": "A freely falling frame is the local inertial frame of general relativity, and the transformation to it is constructive: at any chosen event one can pick Riemann normal coordinates in which the connection coefficients vanish and the metric reduces to the Minkowski form to first order. Curvature does not vanish with them, it reappears at second order as the Riemann tensor, and the measurable residue is tidal: nearby test particles show relative acceleration that no choice of coordinates can remove. That pointwise locality is exactly why the equivalence principle holds locally and not globally. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as an engine that reprograms coordinates through a quantum metric coupling, and that is a **setting**, not a realised capability.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}
