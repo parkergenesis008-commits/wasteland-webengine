@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-15",
+ "entries": [
+  {
+   "slug": "arena-tripartite-architecture",
+   "question": "Universe versus Balloon",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876891/universe-versus-balloon",
+   "heat": "stackexchange/physics official API recheck 2026-10-15: 0 votes, 4 answers, 78 views, open (posted 2026-10-14); most-answered new physics question in today's pool",
+   "answer_md": "The balloon analogy puts galaxies on the surface of an inflating balloon, and it earns its keep on two points: that surface has no centre and no edge, and every dot recedes from every other dot. It breaks as soon as you ask what the balloon expands into, because what expands is the metric itself rather than matter flying through a pre-existing space, so recession is not a local velocity and can exceed the speed of light for very distant objects without violating local relativity. Redshift fits the same picture as wavelength stretching accumulated during propagation rather than a Doppler shift from motion through a medium, which is why the two descriptions are not interchangeable once distances get large. In our fiction the spacetime geometry is written as an addressable substrate that the setting perturbs on demand, which is a **setting** and not a physical result; the staging for that is described in <a href='holographic-kpz-projection.html'>the holographic projection layer</a>.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "How close could you get to the Sun and survive in a perfectly reflective spacesuit?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876900/how-close-could-you-get-to-the-sun-and-survive-in-a-perfectly-reflective-spacesu",
+   "heat": "stackexchange/physics official API recheck 2026-10-15: 0 votes, 0 answers, 23 views, open (posted 2026-10-14); newest thermal-shielding question in today's pool",
+   "answer_md": "Survival here is a radiative balance problem: the equilibrium temperature of a body in sunlight is set by how much flux it absorbs against how much it re-emits, so a coating with low absorptivity stays cool under flux that would cook a dark surface. A perfect reflector is an idealisation, and Kirchhoff's law ties strong reflection to weak emission, so a purely reflecting shell would also fail to radiate away the heat its wearer produces, which moves the design limit from blocking sunlight to dumping internal heat. Real suits therefore combine selective coatings with active cooling, and the coating itself degrades under ultraviolet and particle flux, so the survivable distance follows from the inverse-square falloff of the flux together with the finite lifetime of the material. In this setting the containment shell is written as an engineered field boundary, which is fiction, in the same family as <a href='qm-tether-exosuit.html'>the tethered exosuit</a>.",
+   "links": [
+    "qm-tether-exosuit"
+   ]
+  }
+ ]
+}

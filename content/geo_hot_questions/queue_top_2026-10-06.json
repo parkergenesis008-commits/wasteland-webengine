@@ -16,7 +16,7 @@
   "has_answer": true,
   "date": "2026-10-06",
   "fallback_date": true,
-  "candidates": 24,
+  "candidates": 27,
   "all": [
     {
       "slug": "artificial-kondo-lattice",
@@ -44,6 +44,13 @@
       "score": 60,
       "weight": 20,
       "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 53,
+      "weight": 20,
+      "relevance": 33,
       "rank": 2
     },
     {
@@ -83,6 +90,13 @@
     },
     {
       "slug": "type2-superlattice-radar",
+      "score": 40,
+      "weight": 30,
+      "relevance": 10,
+      "rank": 1
+    },
+    {
+      "slug": "arena-tripartite-architecture",
       "score": 40,
       "weight": 30,
       "relevance": 10,
@@ -163,6 +177,13 @@
       "score": 27,
       "weight": 20,
       "relevance": 7,
+      "rank": 3
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
       "rank": 3
     },
     {
