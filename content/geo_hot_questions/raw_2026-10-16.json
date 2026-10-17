@@ -1,0 +1,427 @@
+{
+  "_ts": "2026-10-16T02:45:43.787548",
+  "_date": "2026-10-16",
+  "counts": {
+    "stackexchange": 60,
+    "reddit_rss": 0,
+    "hackernews": 3,
+    "questions": 37,
+    "total": 40
+  },
+  "errors": [
+    "reddit/r/scifi: URLError <urlopen error timed out>",
+    "reddit/r/booksuggestions: URLError <urlopen error timed out>",
+    "reddit/r/suggestmeabook: URLError <urlopen error timed out>",
+    "reddit/r/AskScienceFiction: URLError <urlopen error timed out>",
+    "hn[entropy]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[second law of thermodynamics]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[time crystal]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[warp drive]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[quantum computing explained]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[fermi paradox]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[superconductor]: URLError <urlopen error [Errno 8] nodename nor se",
+    "hn[simulation hypothesis]: URLError <urlopen error [Errno 8] nodename nor se"
+  ],
+  "candidates": [
+    {
+      "title": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?",
+      "url": "https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 19,
+      "comments": 4,
+      "ts": "2026-10-12T20:49",
+      "is_question": true
+    },
+    {
+      "title": "World Wide Mycelium",
+      "url": "https://worldbuilding.stackexchange.com/questions/274764/world-wide-mycelium",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 11,
+      "comments": 4,
+      "ts": "2026-10-12T23:37",
+      "is_question": true
+    },
+    {
+      "title": "How realistic or efficient is a clockwork powered tank?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274739/how-realistic-or-efficient-is-a-clockwork-powered-tank",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 6,
+      "ts": "2026-10-09T22:54",
+      "is_question": true
+    },
+    {
+      "title": "Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 7,
+      "ts": "2026-10-03T02:09",
+      "is_question": true
+    },
+    {
+      "title": "What spacecraft are using the 2026 Mars launch window?",
+      "url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 8,
+      "comments": 2,
+      "ts": "2026-10-13T15:48",
+      "is_question": true
+    },
+    {
+      "title": "How close could you get to the Sun and survive in a perfectly reflective spacesuit?",
+      "url": "https://physics.stackexchange.com/questions/876900/how-close-could-you-get-to-the-sun-and-survive-in-a-perfectly-reflective-spacesu",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 3,
+      "ts": "2026-10-14T15:47",
+      "is_question": true
+    },
+    {
+      "title": "Yang-Mills roadmap",
+      "url": "https://physics.stackexchange.com/questions/876766/yang-mills-roadmap",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-11T00:14",
+      "is_question": true
+    },
+    {
+      "title": "Spin connection in Chern-Simons theory",
+      "url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-10-06T12:58",
+      "is_question": true
+    },
+    {
+      "title": "Justification of $A_\\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?",
+      "url": "https://physics.stackexchange.com/questions/876547/justification-of-a-mu-0-for-the-vacuum-states-in-the-higgs-mechanism-and-its",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-10-01T22:49",
+      "is_question": true
+    },
+    {
+      "title": "How to interpret the permittivity of a conductive material?",
+      "url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 2,
+      "ts": "2026-10-06T11:20",
+      "is_question": true
+    },
+    {
+      "title": "Hexapodal Locomotion",
+      "url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 3,
+      "ts": "2026-10-12T02:53",
+      "is_question": true
+    },
+    {
+      "title": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+      "url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-06T16:33",
+      "is_question": true
+    },
+    {
+      "title": "Do cosmic neutrinos have a higher upper bound of energy than gamma rays?",
+      "url": "https://physics.stackexchange.com/questions/876732/do-cosmic-neutrinos-have-a-higher-upper-bound-of-energy-than-gamma-rays",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-09T09:39",
+      "is_question": true
+    },
+    {
+      "title": "Does my species work? Sea-bats",
+      "url": "https://worldbuilding.stackexchange.com/questions/274728/does-my-species-work-sea-bats",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 2,
+      "ts": "2026-10-07T23:22",
+      "is_question": true
+    },
+    {
+      "title": "What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?",
+      "url": "https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-t",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-10-08T06:07",
+      "is_question": true
+    },
+    {
+      "title": "How might I change my Jupiter&#39;s orbital history to make it more realistic?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274745/how-might-i-change-my-jupiters-orbital-history-to-make-it-more-realistic",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 2,
+      "ts": "2026-10-11T05:53",
+      "is_question": true
+    },
+    {
+      "title": "Why Moment of Inertia have $r^2$ dependence without relying on circular definitions of torque/angular momentum?(by intuition and physical reason)",
+      "url": "https://physics.stackexchange.com/questions/876919/why-moment-of-inertia-have-r2-dependence-without-relying-on-circular-definiti",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 4,
+      "ts": "2026-10-15T11:33",
+      "is_question": true
+    },
+    {
+      "title": "How To Make a Dark Sky on a Jovian Planet?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274754/how-to-make-a-dark-sky-on-a-jovian-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-10-12T11:28",
+      "is_question": true
+    },
+    {
+      "title": "Would an organism that travels with rain be possible",
+      "url": "https://worldbuilding.stackexchange.com/questions/274755/would-an-organism-that-travels-with-rain-be-possible",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-10-12T11:50",
+      "is_question": true
+    },
+    {
+      "title": "STS Coefficients of Drag and Lift - How do I calculate reference area?",
+      "url": "https://space.stackexchange.com/questions/70751/sts-coefficients-of-drag-and-lift-how-do-i-calculate-reference-area",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-13T20:25",
+      "is_question": true
+    },
+    {
+      "title": "Is it possible to observe a distant object&#39;s past at $2&#215;$ or $3&#215;$ or more speed without moving toward it?",
+      "url": "https://physics.stackexchange.com/questions/876934/is-it-possible-to-observe-a-distant-objects-past-at-2%c3%97-or-3%c3%97-or-more-speed",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-15T17:48",
+      "is_question": true
+    },
+    {
+      "title": "Does a large mass change its entropy when its shape alters as it falls in a gravitational field?",
+      "url": "https://physics.stackexchange.com/questions/876932/does-a-large-mass-change-its-entropy-when-its-shape-alters-as-it-falls-in-a-grav",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-15T17:19",
+      "is_question": true
+    },
+    {
+      "title": "Parametrization of congruences in General relativity",
+      "url": "https://physics.stackexchange.com/questions/876926/parametrization-of-congruences-in-general-relativity",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-15T15:28",
+      "is_question": true
+    },
+    {
+      "title": "Why haven&#39;t we designed a larger docking port?",
+      "url": "https://space.stackexchange.com/questions/70726/why-havent-we-designed-a-larger-docking-port",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-02T00:30",
+      "is_question": true
+    },
+    {
+      "title": "What happens in 1 second if my calculation says I&#39;m creating 1/1000 photon per second?",
+      "url": "https://physics.stackexchange.com/questions/876928/what-happens-in-1-second-if-my-calculation-says-im-creating-1-1000-photon-per-s",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-15T16:24",
+      "is_question": true
+    },
+    {
+      "title": "Why doesn&#39;t radiation pressure cause some small amount of heating?",
+      "url": "https://physics.stackexchange.com/questions/876927/why-doesnt-radiation-pressure-cause-some-small-amount-of-heating",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-15T15:53",
+      "is_question": true
+    },
+    {
+      "title": "Naturally evolved organisms with propellers",
+      "url": "https://worldbuilding.stackexchange.com/questions/274762/naturally-evolved-organisms-with-propellers",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-12T20:18",
+      "is_question": true
+    },
+    {
+      "title": "How to make a theoretical model of a Blackburn pendulum more realistic and the apparatus more practical? Which phenomena affect it and which do not?",
+      "url": "https://physics.stackexchange.com/questions/876921/how-to-make-a-theoretical-model-of-a-blackburn-pendulum-more-realistic-and-the-a",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-15T13:20",
+      "is_question": true
+    },
+    {
+      "title": "How would rockets function in an atmosphere which has 100 % oxygen?",
+      "url": "https://space.stackexchange.com/questions/70742/how-would-rockets-function-in-an-atmosphere-which-has-100-oxygen",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -1,
+      "comments": 1,
+      "ts": "2026-10-12T14:10",
+      "is_question": true
+    },
+    {
+      "title": "Would the convective heating on a rogue planet make life there any different?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274729/would-the-convective-heating-on-a-rogue-planet-make-life-there-any-different",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-10-08T01:00",
+      "is_question": true
+    },
+    {
+      "title": "Uncertainty versus Accuracy versus Sensitivity",
+      "url": "https://space.stackexchange.com/questions/70750/uncertainty-versus-accuracy-versus-sensitivity",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-10-13T18:06",
+      "is_question": true
+    },
+    {
+      "title": "What is this in water survival training?",
+      "url": "https://space.stackexchange.com/questions/70739/what-is-this-in-water-survival-training",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-10-11T03:42",
+      "is_question": true
+    },
+    {
+      "title": "Work definition",
+      "url": "https://physics.stackexchange.com/questions/876918/work-definition",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -3,
+      "comments": 1,
+      "ts": "2026-10-15T11:27",
+      "is_question": true
+    },
+    {
+      "title": "How do astronauts prepare for spacewalks and maintain their EVA suits in the airlock",
+      "url": "https://space.stackexchange.com/questions/70727/how-do-astronauts-prepare-for-spacewalks-and-maintain-their-eva-suits-in-the-air",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-02T19:14",
+      "is_question": true
+    },
+    {
+      "title": "Why is JAXA astronaut Makoto Suwa wearing an olive flight suit instead of blue during NBL water survival training?",
+      "url": "https://space.stackexchange.com/questions/70747/why-is-jaxa-astronaut-makoto-suwa-wearing-an-olive-flight-suit-instead-of-blue-d",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-13T14:30",
+      "is_question": true
+    },
+    {
+      "title": "How does the internet work in space without ground infrastructure?",
+      "url": "https://space.stackexchange.com/questions/70743/how-does-the-internet-work-in-space-without-ground-infrastructure",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-12T16:46",
+      "is_question": true
+    },
+    {
+      "title": "When is CRS-35 supposed to dock with ISS?",
+      "url": "https://space.stackexchange.com/questions/70754/when-is-crs-35-supposed-to-dock-with-iss",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -6,
+      "comments": 1,
+      "ts": "2026-10-14T12:54",
+      "is_question": true
+    },
+    {
+      "title": "Arguments About AI Consciousness Remain Highly Motivated and Overconfident",
+      "url": "https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-14T17:57",
+      "is_question": false
+    },
+    {
+      "title": "Bad \"AI Consciousness Takes\" Bingo",
+      "url": "https://www.polytropolis.com/p/bad-ai-consciousness-takes-bingo",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-12T19:47",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Keep your eyes in one place while typing",
+      "url": "https://claude.ai/artifact/XrdjCJXgerVYbG75qzv3HB",
+      "source": "hn",
+      "note": "kw=AI consciousness",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-13T21:31",
+      "is_question": false
+    }
+  ]
+}

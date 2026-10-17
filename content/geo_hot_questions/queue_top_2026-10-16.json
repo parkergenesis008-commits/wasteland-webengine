@@ -1,0 +1,43 @@
+{
+  "slug": "holographic-kpz-projection",
+  "question": "Does a large mass change its entropy when its shape alters as it falls in a gravitational field?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/876932/does-a-large-mass-change-its-entropy-when-its-shape-alters-as-it-falls-in-a-gravitational-field, 2026-10-15 新帖, SE API 2026-10-16 复核 0 分 1 答 15 浏览 open, 本轮全新题",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(large,mass,change) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-16",
+  "fallback_date": true,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "holographic-kpz-projection",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "book",
+      "score": 20,
+      "weight": 20,
+      "relevance": 0,
+      "rank": 3
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "entries": [
+    {
+      "slug": "holographic-kpz-projection",
+      "question": "Does a large mass change its entropy when its shape alters as it falls in a gravitational field?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876932/does-a-large-mass-change-its-entropy-when-its-shape-alters-as-it-falls-in-a-gravitational-field",
+      "heat": "physics.SE 2026-10-15 新帖, 0 分 1 答 15 浏览 (raw_2026-10-16.json; SE API 2026-10-16 复核 open)",
+      "answer_md": "A falling body's entropy is not a function of its silhouette. **Entropy counts how many microscopic arrangements are compatible with the macrostate you actually measure**, so a change of shape moves it only when the deformation genuinely redistributes internal degrees of freedom: in a locally uniform gravitational field the object and everything inside it fall together, a smooth reshaping then does no thermodynamic work on the interior, and the count stays the same. What does raise entropy is any irreversible path, such as tidal dissipation, internal friction in the material, or gravitational radiation carrying energy away. For a black hole the statement becomes sharpest, because its entropy tracks the horizon area alone and shape never enters as a state variable. Our own <a href='holographic-kpz-projection.html'>holographic KPZ projection</a> treats geometry and entropy as two readouts of a single substrate, which is a speculative setting rather than a claim about gravitational thermodynamics.",
+      "links": [
+        "kpz-reality-rendering"
+      ]
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "question": "What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?",
+      "source": "stackexchange/space",
+      "source_url": "https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-time-within-the-atmosphere-of-a-gas-giant",
+      "heat": "space.SE 2026-10-08 帖, 4 分 1 答 630 浏览 (raw_2026-10-16.json; SE API 2026-10-16 复核 open)",
+      "answer_md": "Surviving a deliberate descent into a gas giant is an environment problem long before it is a propulsion problem. **Pressure, heat and chemistry arrive together**: the shell has to hold off the external atmosphere while its interior stays near ambient temperature, the gas is chemically aggressive, and the entry corridor makes aerothermal loads the driving structural case. Existing practice splits the problem in two, either accepting a short lived probe that returns data until it dies, or flying a balloon or airship that never descends far enough to be crushed. Power for a long stay is the binding constraint, because solar flux falls off steeply that far out and radioisotope sources carry a fixed inventory. In <a href='qm-tether-exosuit.html'>the qm-tether-exosuit setting</a> the protective envelope is written as a speculative field assisted layer, with <a href='electromagnetic-theater-override.html'>the electromagnetic theater override</a> as the fictional control surface behind it.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}
