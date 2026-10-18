@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "entries": [
+    {
+      "slug": "floquet-temporal-matter",
+      "question": "How might I change my Jupiter's orbital history to make it more realistic?",
+      "source": "stackexchange/worldbuilding",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274745/how-might-i-change-my-jupiters-orbital-history-to-make-it-more-realistic",
+      "heat": "3 points, 2 answers, 216 views (StackExchange API, 2026-10-18), open",
+      "answer_md": "Real orbital dynamics leaves you only a few legal moves. A giant planet's orbit changes through resonant torques: a protoplanetary gas disk can drive migration and damp eccentricity, while later scattering among the giants can pump eccentricity and inclination, and both the Grand Tack and the Nice model are competing reconstructions rather than settled history. If you rewrite Jupiter's past, keep energy and angular momentum conserved, name which resonance did the work, and let the other planets absorb the recoil, because the inner system's water delivery and impact record depend on it. **In this project's setting**, periodic forcing is the working metaphor: the Floquet engineering pages treat a system driven at a fixed rhythm as a way to program its effective behaviour inside the project's broader <a href='holographic-kpz-projection.html'>Reality-as-Code</a> framing, and an orbit nudged by repeating resonances is the gravitational echo of that idea, written as fiction rather than as history.",
+      "links": [
+        "cooperative-resonance-torsion"
+      ]
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "question": "How can the hydrogen ground state have zero angular momentum if the Bohr radius is nonzero?",
+      "source": "stackexchange/physics",
+      "source_url": "https://physics.stackexchange.com/questions/876992/how-can-the-hydrogen-ground-state-have-zero-angular-momentum-if-the-bohr",
+      "heat": "0 points, 3 answers, 103 views (StackExchange API, 2026-10-18), open",
+      "answer_md": "The ground state carries no orbital angular momentum because its wavefunction is spherically symmetric: no axis is singled out, so there is no rotation to quantize, and the electron's kinetic energy is radial instead. The Bohr radius is not the radius of a circular orbit but the most probable distance in a radial distribution, so a finite size and zero angular momentum are fully consistent. **In the setting of this page**, the point is about which quantity may be called mass: band curvature can drive the effective mass of a carrier to zero along chosen directions, a behaviour reported for semi-Dirac dispersions in a few materials and the same band-curvature logic that <a href='artificial-kondo-lattice.html'>engineered lattices</a> exploit, while inertial mass stays untouched and its nullification is speculative fiction.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    }
+  ]
+}
