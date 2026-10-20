@@ -1,0 +1,509 @@
+{
+  "_ts": "2026-10-20T01:59:23.290777",
+  "_date": "2026-10-20",
+  "counts": {
+    "stackexchange": 62,
+    "reddit_rss": 0,
+    "hackernews": 9,
+    "questions": 42,
+    "total": 49
+  },
+  "errors": [
+    "reddit/r/physics: HTTPError HTTP Error 403: Blocked",
+    "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/singularity: HTTPError HTTP Error 403: Blocked"
+  ],
+  "candidates": [
+    {
+      "title": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?",
+      "url": "https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 22,
+      "comments": 4,
+      "ts": "2026-10-12T20:49",
+      "is_question": true
+    },
+    {
+      "title": "World Wide Mycelium",
+      "url": "https://worldbuilding.stackexchange.com/questions/274764/world-wide-mycelium",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 14,
+      "comments": 4,
+      "ts": "2026-10-12T23:37",
+      "is_question": true
+    },
+    {
+      "title": "How realistic or efficient is a clockwork powered tank?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274739/how-realistic-or-efficient-is-a-clockwork-powered-tank",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 6,
+      "ts": "2026-10-09T22:54",
+      "is_question": true
+    },
+    {
+      "title": "How is total linear momentum conserved in the Sun-Earth system?",
+      "url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 6,
+      "ts": "2026-10-15T19:16",
+      "is_question": true
+    },
+    {
+      "title": "How close could you get to the Sun and survive in a perfectly reflective spacesuit?",
+      "url": "https://physics.stackexchange.com/questions/876900/how-close-could-you-get-to-the-sun-and-survive-in-a-perfectly-reflective-spacesu",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 4,
+      "ts": "2026-10-14T15:47",
+      "is_question": true
+    },
+    {
+      "title": "What spacecraft are using the 2026 Mars launch window?",
+      "url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 9,
+      "comments": 2,
+      "ts": "2026-10-13T15:48",
+      "is_question": true
+    },
+    {
+      "title": "Yang-Mills roadmap",
+      "url": "https://physics.stackexchange.com/questions/876766/yang-mills-roadmap",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-11T00:14",
+      "is_question": true
+    },
+    {
+      "title": "How Would Rings Affect Trade Winds?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-10-17T02:38",
+      "is_question": true
+    },
+    {
+      "title": "Why is the surface tension taken to act only on the perimeter?",
+      "url": "https://physics.stackexchange.com/questions/877020/why-is-the-surface-tension-taken-to-act-only-on-the-perimeter",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-10-18T10:14",
+      "is_question": true
+    },
+    {
+      "title": "Hexapodal Locomotion",
+      "url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-10-12T02:53",
+      "is_question": true
+    },
+    {
+      "title": "Spin connection in Chern-Simons theory",
+      "url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-10-06T12:58",
+      "is_question": true
+    },
+    {
+      "title": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+      "url": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 3,
+      "ts": "2026-10-19T08:33",
+      "is_question": true
+    },
+    {
+      "title": "Does my species work? Sea-bats",
+      "url": "https://worldbuilding.stackexchange.com/questions/274728/does-my-species-work-sea-bats",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 5,
+      "comments": 2,
+      "ts": "2026-10-07T23:22",
+      "is_question": true
+    },
+    {
+      "title": "How to interpret the permittivity of a conductive material?",
+      "url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 2,
+      "ts": "2026-10-06T11:20",
+      "is_question": true
+    },
+    {
+      "title": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 4,
+      "comments": 4,
+      "ts": "2026-10-18T14:34",
+      "is_question": true
+    },
+    {
+      "title": "What observable are particle detectors really measuring during scattering and what really are particles mathematically?",
+      "url": "https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-06T16:33",
+      "is_question": true
+    },
+    {
+      "title": "In an ideal battery, why is the electrostatic force and the nonelectrostatic force equal in magnitude and opposite in direction?",
+      "url": "https://physics.stackexchange.com/questions/877054/in-an-ideal-battery-why-is-the-electrostatic-force-and-the-nonelectrostatic-for",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 3,
+      "ts": "2026-10-19T16:50",
+      "is_question": true
+    },
+    {
+      "title": "How might I change my Jupiter&#39;s orbital history to make it more realistic?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274745/how-might-i-change-my-jupiters-orbital-history-to-make-it-more-realistic",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 2,
+      "ts": "2026-10-11T05:53",
+      "is_question": true
+    },
+    {
+      "title": "How To Make a Dark Sky on a Jovian Planet?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274754/how-to-make-a-dark-sky-on-a-jovian-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-10-12T11:28",
+      "is_question": true
+    },
+    {
+      "title": "What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?",
+      "url": "https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-t",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-10-08T06:07",
+      "is_question": true
+    },
+    {
+      "title": "One-Way Speed of Light and non-standard inertial coordinates",
+      "url": "https://physics.stackexchange.com/questions/877036/one-way-speed-of-light-and-non-standard-inertial-coordinates",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-10-19T06:38",
+      "is_question": true
+    },
+    {
+      "title": "Naturally evolved organisms with propellers",
+      "url": "https://worldbuilding.stackexchange.com/questions/274762/naturally-evolved-organisms-with-propellers",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-12T20:18",
+      "is_question": true
+    },
+    {
+      "title": "STS Coefficients of Drag and Lift - How do I calculate reference area?",
+      "url": "https://space.stackexchange.com/questions/70751/sts-coefficients-of-drag-and-lift-how-do-i-calculate-reference-area",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-13T20:25",
+      "is_question": true
+    },
+    {
+      "title": "Regarding Priming Notations in Local Lorentz Transformations",
+      "url": "https://physics.stackexchange.com/questions/877045/regarding-priming-notations-in-local-lorentz-transformations",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 2,
+      "ts": "2026-10-19T13:48",
+      "is_question": true
+    },
+    {
+      "title": "How hard would it be to locate the Apollo 11 launch abort subsystem?",
+      "url": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-19T12:45",
+      "is_question": true
+    },
+    {
+      "title": "will i break my bones if i jump from 15 feet on pillows?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274781/will-i-break-my-bones-if-i-jump-from-15-feet-on-pillows",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-10-17T12:09",
+      "is_question": true
+    },
+    {
+      "title": "Would an organism that travels with rain be possible",
+      "url": "https://worldbuilding.stackexchange.com/questions/274755/would-an-organism-that-travels-with-rain-be-possible",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-10-12T11:50",
+      "is_question": true
+    },
+    {
+      "title": "What is the physical meaning of raising the index of a force covector?",
+      "url": "https://physics.stackexchange.com/questions/877053/what-is-the-physical-meaning-of-raising-the-index-of-a-force-covector",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-19T16:45",
+      "is_question": true
+    },
+    {
+      "title": "Why wouldn&#39;t this osmotic siphon run forever?",
+      "url": "https://physics.stackexchange.com/questions/877047/why-wouldnt-this-osmotic-siphon-run-forever",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-19T14:09",
+      "is_question": true
+    },
+    {
+      "title": "Is Entry Level Dead?",
+      "url": "https://seeglassbox.com/market/entry-level-software/is-entry-level-dead",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-19T15:59",
+      "is_question": true
+    },
+    {
+      "title": "How would a large rotating payload mass affect spacecraft attitude control?",
+      "url": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 1,
+      "ts": "2026-10-18T23:43",
+      "is_question": true
+    },
+    {
+      "title": "requirements for a planet where 1 day is 100 hours",
+      "url": "https://worldbuilding.stackexchange.com/questions/274793/requirements-for-a-planet-where-1-day-is-100-hours",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-19T14:17",
+      "is_question": true
+    },
+    {
+      "title": "Can antigravity feasibly explain away these applications?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274777/can-antigravity-feasibly-explain-away-these-applications",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -1,
+      "comments": 2,
+      "ts": "2026-10-17T02:53",
+      "is_question": true
+    },
+    {
+      "title": "Uncertainty versus Accuracy versus Sensitivity",
+      "url": "https://space.stackexchange.com/questions/70750/uncertainty-versus-accuracy-versus-sensitivity",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-13T18:06",
+      "is_question": true
+    },
+    {
+      "title": "Problem in understanding Special Theory of Relativity on moving trains example?",
+      "url": "https://physics.stackexchange.com/questions/877049/problem-in-understanding-special-theory-of-relativity-on-moving-trains-example",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -1,
+      "comments": 2,
+      "ts": "2026-10-19T14:54",
+      "is_question": true
+    },
+    {
+      "title": "Will the displacement current between two mutually attracted electrets diminish their polarization as they move towards each other?",
+      "url": "https://physics.stackexchange.com/questions/877042/will-the-displacement-current-between-two-mutually-attracted-electrets-diminish",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-19T11:28",
+      "is_question": true
+    },
+    {
+      "title": "Would the convective heating on a rogue planet make life there any different?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274729/would-the-convective-heating-on-a-rogue-planet-make-life-there-any-different",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": -1,
+      "comments": 0,
+      "ts": "2026-10-08T01:00",
+      "is_question": true
+    },
+    {
+      "title": "What is this in water survival training?",
+      "url": "https://space.stackexchange.com/questions/70739/what-is-this-in-water-survival-training",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-10-11T03:42",
+      "is_question": true
+    },
+    {
+      "title": "How would rockets function in an atmosphere which has 100 % oxygen?",
+      "url": "https://space.stackexchange.com/questions/70742/how-would-rockets-function-in-an-atmosphere-which-has-100-oxygen",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-10-12T14:10",
+      "is_question": true
+    },
+    {
+      "title": "Why is JAXA astronaut Makoto Suwa wearing an olive flight suit instead of blue during NBL water survival training?",
+      "url": "https://space.stackexchange.com/questions/70747/why-is-jaxa-astronaut-makoto-suwa-wearing-an-olive-flight-suit-instead-of-blue-d",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -4,
+      "comments": 0,
+      "ts": "2026-10-13T14:30",
+      "is_question": true
+    },
+    {
+      "title": "How does the internet work in space without ground infrastructure?",
+      "url": "https://space.stackexchange.com/questions/70743/how-does-the-internet-work-in-space-without-ground-infrastructure",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -4,
+      "comments": 0,
+      "ts": "2026-10-12T16:46",
+      "is_question": true
+    },
+    {
+      "title": "When is CRS-35 supposed to dock with ISS?",
+      "url": "https://space.stackexchange.com/questions/70754/when-is-crs-35-supposed-to-dock-with-iss",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -7,
+      "comments": 0,
+      "ts": "2026-10-14T12:54",
+      "is_question": true
+    },
+    {
+      "title": "US Global Entry revoked for importing $12 of ESP32 boards",
+      "url": "https://www.reddit.com/r/esp32/comments/1x3bmjh/ordering_esp32_from_overseas_watch_out_global/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 31,
+      "comments": 2,
+      "ts": "2026-10-19T02:16",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+      "url": "https://3anddoneapp.com/try",
+      "source": "hn",
+      "note": "kw=warp drive",
+      "points": 20,
+      "comments": 15,
+      "ts": "2026-10-19T13:07",
+      "is_question": false
+    },
+    {
+      "title": "Magic state cultivation on a superconducting quantum processor",
+      "url": "https://www.science.org/doi/10.1126/science.aee7961",
+      "source": "hn",
+      "note": "kw=superconductor",
+      "points": 6,
+      "comments": 1,
+      "ts": "2026-10-15T21:25",
+      "is_question": false
+    },
+    {
+      "title": "The Geometric Model of Maintenance",
+      "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-14T18:51",
+      "is_question": false
+    },
+    {
+      "title": "Prediction and Entropy of Printed English",
+      "url": "https://archive.org/details/bstj30-1-50",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-16T19:40",
+      "is_question": false
+    },
+    {
+      "title": "Anthropic reports reducing recruitment of entry-level engineers",
+      "url": "https://angadh.com/ai-and-jobs-1",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 1,
+      "ts": "2026-10-18T02:12",
+      "is_question": false
+    },
+    {
+      "title": "Beyond \"Why the West Rules\": Modernity as Topological Superconductivity",
+      "url": "https://zenodo.org/records/23445726",
+      "source": "hn",
+      "note": "kw=superconductor",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-19T12:32",
+      "is_question": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-19",
+ "entries": [
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "Why is the Surface tension taken to act only on the perimeter?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877020/why-is-the-surface-tension-taken-to-act-only-on-the-perimeter",
+   "heat": "3 points, 1 answer, 64 views (StackExchange API, 2026-10-19), open",
+   "answer_md": "The tension is an energy per unit area of the interface, so the force it exerts appears only where the interface ends, along the contact line, and its magnitude is the surface tension times the length of that line. Molecules inside the pool are pulled equally in every direction and their net force cancels, so nothing is transmitted through the whole disc; only the meniscus at the rim is unbalanced. When the disc is lifted, the contact angle supplies the vertical component, which is where the 2 pi r term comes from, and for a curved interface the same bookkeeping becomes the Laplace pressure acting normal to the surface. In this project the Kardar-Parisi-Zhang equation is the fictional rendering primitive, and surface tension is the smoothing term in it, as described in <a href='kpz-reality-rendering.html'>the reality rendering layer</a>.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  },
+  {
+   "slug": "qm-tether-exosuit",
+   "question": "Can antigravity feasibly explain away these applications?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274777/can-antigravity-feasibly-explain-away-these-applications",
+   "heat": "-1 point, 2 answers, 74 views (StackExchange API, 2026-10-19), open",
+   "answer_md": "No known interaction lets a material screen or cancel gravity, because gravity couples to all energy and momentum and cannot be shielded the way a conductor shields an electric field. Every real way to make something float is a force balance: buoyancy, aerodynamic lift, magnetic or electrostatic levitation, or radiation pressure, and each of those needs a medium or a counter-force rather than a cancellation of weight. The nearest thing general relativity offers is metric engineering, where the Alcubierre solution requires negative energy density; the Casimir effect does produce small measured negative energy density, but far too little and too localized to lift a landmass, and quantum inequalities limit how much negative energy can be concentrated. A floating island therefore needs an explicit power and structural budget in the setting rather than one magic material. This project's <a href='qm-tether-exosuit.html'>QM-Tether exosuit</a> is exactly that speculative layer, written as fiction, while the physics above is textbook.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}

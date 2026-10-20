@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-20",
+ "entries": [
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "One-Way Speed of Light and non-standard inertial coordinates",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877036/one-way-speed-of-light-and-non-standard-inertial-coordinates",
+   "heat": "SE API 2026-10-20 recheck: 2 points, 2 answers, 184 views, open, posted 2026-10-19",
+   "answer_md": "Only a round trip speed of light is a convention free observable. A one way measurement needs clocks that are already synchronized, and the synchronization rule you adopt fixes the one way speed by construction, which is the epsilon freedom Reichenbach described. Taking epsilon equal to one half in every direction gives the standard isotropic convention and the textbook Lorentz transformations, while other choices give equally valid inertial coordinates in which the one way speed varies with direction and every round trip, interferometric and Doppler observable stays identical. So the argument is about coordinates and not about a physical anisotropy, and the light cone structure that causality depends on does not move. In this project the rendering frame is fiction: the KPZ projection layer is specified as choosing a foliation and a boundary schedule for its output, a speculative device that is described in <a href='holographic-kpz-projection.html'>the holographic projection page</a> and is not a claim about real spacetime.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  },
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "How to interpret the permittivity of a conductive material?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+   "heat": "SE API 2026-10-20 recheck: 5 points, 2 answers, 417 views, open, posted 2026-10-06",
+   "answer_md": "A conductor has no independent static permittivity, because free charge rearranges until the field inside vanishes and the only length left is a screening length, the Thomas-Fermi length in a metal or the Debye length in a plasma, which is sub-nanometre in good metals. What is quoted for a metal is a frequency dependent complex response: below the plasma frequency the real part is negative, and in the Drude regime the imaginary loss part dominates, which is why optics treats a metal as a dielectric with epsilon below zero. The bookkeeping must stay consistent, either keep the vacuum permittivity and put the conduction current in the current term, or fold that current into an effective complex permittivity, and both routes have to return the same fields at the same frequency. In this project the artificial Kondo lattice is fiction: it is described as a patterned array whose screening length is engineered in space rather than in frequency, a speculative extension of real correlated electron screening, with <a href='semi-dirac-mass-nullification.html'>the semi-Dirac layer</a> as its fictional companion structure.",
+   "links": [
+    "semi-dirac-mass-nullification"
+   ]
+  }
+ ]
+}

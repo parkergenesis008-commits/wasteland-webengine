@@ -1,0 +1,161 @@
+{
+ "date": "2026-10-20",
+ "generated": "2026-10-20T02:04:09",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "raw_2026-10-20.json",
+ "sources_health": {
+  "stackexchange": 62,
+  "reddit_rss": 0,
+  "hackernews": 9,
+  "dedup_total": 49,
+  "question_form": 42,
+  "errors": [
+   "reddit/r/physics: HTTPError HTTP Error 403: Blocked",
+   "reddit/r/AskPhysics: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/artificial: HTTPError HTTP Error 429: Too Many Requests",
+   "reddit/r/singularity: HTTPError HTTP Error 403: Blocked"
+  ]
+ },
+ "x_tiktok": {
+  "x": "2 次 web_search 命中均为旧帖或科普账号转述, 无当日带互动数的提问帖, 判为今日抓取失败, 未采信任何数值",
+  "tiktok": "1 次检索命中教学帖与榜单页, 抓取页无互动数, 判为今日抓取失败, 未编造帖子"
+ },
+ "heat_verification": "StackExchange 官方 API(api.stackexchange.com, urllib 直连)于 2026-10-20 逐条复核 41 条候选, 12 条入选全部 open; 剔除已关闭 4 条: 877047 Duplicate, 70754 Needs more focus, 70751 Not suitable, 70747 Needs details",
+ "dedup_note": "历史问题键 292 条(全部 hot_*.json 清单项 + qa_*.json 注入项, 已做 HTML 实体归一)。本轮 49 条候选中 20 条从未列过, 29 条曾列; 12 条清单 = 5 条全新(877039/877054/877036/274793/274776) + 7 条曾列但 qa_*.json 与 lore 正文中均无记录(876829/876641/876939/876638/70748/70758/274789)。与 10-19 清单重叠 0 条。",
+ "top3_for_today": [
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "One-Way Speed of Light and non-standard inertial coordinates"
+  },
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "How to interpret the permittivity of a conductive material?"
+  },
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer",
+   "heat": "SE API 2026-10-20 recheck: 22 points, 4 answers, 1439 views, open, posted 2026-10-12",
+   "why": "今日池内最高热题, 22 分 1439 浏览, 电小天线是搜索常青工程问题",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "辐射电阻随电长度平方下降而损耗电阻不降, 效率与带宽同降, Chu-Harrington 限封顶给定体积可换的带宽; 2.4GHz 波长约 12.5cm, 故 2-3cm 天线已非无穷小",
+   "use": "列入清单但本轮不注入: qa_2026-10-14.json 已有同一题的 QA 待注入, 重复条目会被注入器按 id 跳过"
+  },
+  {
+   "question": "Spin connection in Chern-Simons theory",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876641/spin-connection-in-chern-simons-theory",
+   "heat": "SE API 2026-10-20 recheck: 6 points, 1 answers, 175 views, open, posted 2026-10-06",
+   "why": "纯理论高门槛题, 6 分 175 浏览, 与全息/边界场论强相关",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "自旋联络编码局域标架如何转动; CS 作用量只用联络不用度规; 积分掉费米子给出半级移位即宇称反常, 边界上表现为引力/规范反常匹配",
+   "use": "长尾科普, 链 holographic-kpz-projection"
+  },
+  {
+   "question": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+   "heat": "SE API 2026-10-20 recheck: 5 points, 3 answers, 219 views, open, posted 2026-10-19",
+   "why": "10-19 新帖 5 分 3 答 219 浏览, 光电效应是搜索量稳定的入门题",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "吸收是单量子事件不是经典能量累积; 现代阿秒条纹实验测到的数十阿秒延迟属于输运时间, 不是充电时间",
+   "use": "科普短文, 链 qm-tether-exosuit"
+  },
+  {
+   "question": "How is total linear momentum conserved in the Sun-Earth system?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+   "heat": "SE API 2026-10-20 recheck: 8 points, 6 answers, 799 views, open, posted 2026-10-15",
+   "why": "8 分 6 答 799 浏览, 直接针对 太阳不动 这个常见误解",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "太阳绕共同质心以极小速度反冲; 广义相对论里全局动量守恒依赖时空平移对称性, 膨胀宇宙没有时间平移 Killing 矢量, 只有局域守恒",
+   "use": "链 holographic-kpz-projection"
+  },
+  {
+   "question": "How to interpret the permittivity of a conductive material?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876638/how-to-interpret-the-permittivity-of-a-conductive-material",
+   "heat": "SE API 2026-10-20 recheck: 5 points, 2 answers, 417 views, open, posted 2026-10-06",
+   "why": "5 分 2 答 417 浏览, 教材级混淆点, 与传导电子屏蔽直接相关",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "金属没有静态介电常数的独立含义, 只剩屏蔽长度 Thomas-Fermi 或 Debye; 低于等离子频率实部为负; 传导电流并入电流项或折成复合介电常数必须给出同一场",
+   "use": "今日 QA 注入 artificial-kondo-lattice 页"
+  },
+  {
+   "question": "How Would Rings Affect Trade Winds?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+   "heat": "SE API 2026-10-20 recheck: 6 points, 2 answers, 584 views, open, posted 2026-10-17",
+   "why": "10-17 新帖 6 分 2 答 584 浏览, 行星环改日照与温差, 世界构建读者刚需",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "环遮挡改纬向日照分布, 削弱或重排极赤温差进而改急流与信风; 要给环几何、反照率与大气热容的量级",
+   "use": "worldbuilding 受众, 链 arena-tripartite-architecture"
+  },
+  {
+   "question": "requirements for a planet where 1 day is 100 hours",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274793/requirements-for-a-planet-where-1-day-is-100-hours",
+   "heat": "SE API 2026-10-20 recheck: 0 points, 0 answers, 22 views, open, posted 2026-10-19",
+   "why": "10-19 新帖, 零热度但问题形态好, 自转周期是硬科幻常见设定",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "100 小时日约等于 2.4 天, 需说明角动量来源与潮汐演化为何没锁死; 科氏力偏弱, 昼夜温差靠大气热容与海洋热惯性平抑",
+   "use": "链 floquet-temporal-matter"
+  },
+  {
+   "question": "How would a large rotating payload mass affect spacecraft attitude control?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+   "heat": "SE API 2026-10-20 recheck: 0 points, 1 answers, 43 views, open, posted 2026-10-18",
+   "why": "10-18 新帖 1 答 43 浏览, 角动量管理是真实工程问题",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "旋转载荷的角动量矢量决定主轴与进动, 动量轮或 CMG 会饱和需卸载; 结构柔性还会引入章动耦合",
+   "use": "链 cooperative-resonance-torsion"
+  },
+  {
+   "question": "What spacecraft are using the 2026 Mars launch window?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+   "heat": "SE API 2026-10-20 recheck: 9 points, 2 answers, 1021 views, open, posted 2026-10-13",
+   "why": "9 分 1021 浏览, 2026 窗口是时效性引流点, 答案只会随公开任务清单变化",
+   "map_to": "book",
+   "answer_angle": "霍曼窗口约每 26 个月一次, 只列公开宣布的任务与发射约束; 不得用未公开或推测的任务名凑数",
+   "use": "book 轨, 引 book.html 14 平台分销"
+  },
+  {
+   "question": "In an ideal battery, why is the electrostatic force and the nonelectrostatic force equal in magnitude and opposite in direction?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877054/in-an-ideal-battery-why-is-the-electrostatic-force-and-the-nonelectrostatic-for",
+   "heat": "SE API 2026-10-20 recheck: 3 points, 3 answers, 20 views, open, posted 2026-10-19",
+   "why": "10-19 新帖 3 分 3 答 20 浏览, 化学势与电势的边界概念",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "非静电力来自化学势梯度, 开路时电荷重排到两者等大反向; 接上外电路后内部不再平衡, 电流由剩余净力驱动",
+   "use": "链 electromagnetic-theater-override"
+  },
+  {
+   "question": "One-Way Speed of Light and non-standard inertial coordinates",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877036/one-way-speed-of-light-and-non-standard-inertial-coordinates",
+   "heat": "SE API 2026-10-20 recheck: 2 points, 2 answers, 184 views, open, posted 2026-10-19",
+   "why": "10-19 新帖 2 分 2 答 184 浏览, 同时性约定是常青科普点",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "单程光速不能独立测量, 必须先约定同步; 标准坐标取各向同性, 可观测量是往返光速与光锥结构; 换约定不改物理只改坐标读数",
+   "use": "链 kpz-reality-rendering"
+  },
+  {
+   "question": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+   "heat": "SE API 2026-10-20 recheck: 4 points, 4 answers, 548 views, open, posted 2026-10-18",
+   "why": "10-18 帖 4 分 4 答 548 浏览, 把电能直接变成推力或场效应的设定题",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "电推进受功率密度与散热限制, 等离子推力密度低; 若写成场效应必须先给能量来源与动量去处, 否则违反动量守恒",
+   "use": "链 electromagnetic-theater-override"
+  }
+ ]
+}
