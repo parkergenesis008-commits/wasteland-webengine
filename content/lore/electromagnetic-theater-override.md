@@ -33,37 +33,37 @@ It forcibly presses the electrons outside the atomic nucleus into the protons wi
 ## 4. Conclusion: Rewriting the Script
 At the evolutionary terminus of the Computational Arena, the hardness of matter is merely a rewritable variable. Breaking the fragile theater constructed by electromagnetic forces is the first true step toward controlling physical reality.
 
-<!-- GEO-QA-START id=0cf87dafd9 -->
+<!-- GEO-QA-START id=3154f869e5 -->
 ## Extended Q&A — Reader Question
 
-**Q: Electric and magnetic fields: why are they "nearly the same but different"?**
-<p><em>asked on stackexchange/physics · physics 2026-10-12 official API recheck: 5 votes, 5 answers, 1704 views, open</em></p>
+**Q: Magnetization v/s Polarization: Why are they weirdly dissimilar?**
+<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-18 new thread, 2 points 1 comment, the newest E&M question in today's pool</em></p>
 
-In a vacuum the electric and magnetic fields look asymmetric only because electric charges exist while magnetic monopoles have never been observed. Special relativity removes the asymmetry: both are components of one antisymmetric field tensor, and a change of inertial frame mixes them, so one observer's magnetic field shows up in another's electric field. The real difference appears in how they couple to matter, where charges respond to **E** while currents and magnetic dipoles respond to **B**. In our fiction, <a href='electromagnetic-theater-override.html'>electromagnetic theater override</a> is written as a programmable medium that reshapes which field components a local observer detects; that capability is a **setting**, not a demonstrated technology.
+Electric and magnetic responses look asymmetric because the sources are not symmetric. Isolated electric charge exists and can be separated, which is what polarisation is built from, while magnetic poles do not exist, so magnetisation has to be described as circulating bound current instead. That is also why each field is split into two versions, with the displacement field and the H field tracking only the free charge and free current you control while the polarisation and magnetisation fields carry the material response. **Polarisation is sourced by separated charge, and magnetisation is sourced by circulating current.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> treats field shaping as something that can be driven directly rather than inherited from material response, and <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a> puts that response into a lattice of displaceable sites.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876621/electric-and-magnetic-fields-why-are-they-nearly-the-same-but-different" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876143/magnetization-v-s-polarization-why-are-they-weirdly-dissimilar" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=88bcbf2a7a -->
+<!-- GEO-QA-START id=da8233b90e -->
 ## Extended Q&A — Reader Question
 
-**Q: How close could you get to the Sun and survive in a perfectly reflective spacesuit?**
-<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-15: 0 votes, 0 answers, 23 views, open (posted 2026-10-14); newest thermal-shielding question in today's pool</em></p>
+**Q: Snell's law in electrostatics**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-21, 8 points, 1 comment</em></p>
 
-Survival here is a radiative balance problem: the equilibrium temperature of a body in sunlight is set by how much flux it absorbs against how much it re-emits, so a coating with low absorptivity stays cool under flux that would cook a dark surface. A perfect reflector is an idealisation, and Kirchhoff's law ties strong reflection to weak emission, so a purely reflecting shell would also fail to radiate away the heat its wearer produces, which moves the design limit from blocking sunlight to dumping internal heat. Real suits therefore combine selective coatings with active cooling, and the coating itself degrades under ultraviolet and particle flux, so the survivable distance follows from the inverse-square falloff of the flux together with the finite lifetime of the material. In this setting the containment shell is written as an engineered field boundary, which is fiction, in the same family as <a href='qm-tether-exosuit.html'>the tethered exosuit</a>.
+**The analogy is real, but the ratio is a tangent, not a sine.** At an interface between two dielectrics the tangential component of the electric field is continuous, and with no free surface charge the normal component of the displacement field is continuous as well; combining those two boundary conditions for a field line crossing at angles theta1 and theta2 to the surface normal gives tan(theta1) divided by tan(theta2) equal to the permittivity ratio, so field lines do bend like light entering glass while obeying a tangent law instead of Snell's sines. The reason for the mismatch is that refraction of light is a phase-matching condition on a travelling wave, whereas the electrostatic bending is a boundary condition on a static field, so the two laws agree only in form. That is why field lines of a charge near a water surface kink sharply and why field-line plots across dielectric interfaces are a standard teaching case. In the *Wasteland* setting the electromagnetic theater takes that boundary-condition logic and treats the ambient field as a surface whose local rules can be rewritten, which is fiction rather than an engineering proposal, and it is the same reasoning that the <a href='type2-superlattice-radar.html'>type-II superlattice detection layer</a> turns into a sensing problem.
 
-<p><strong>Related:</strong> <a href="qm-tether-exosuit.html">QM-Tether Exosuit and Macroscopic Reality Implementation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876900/how-close-could-you-get-to-the-sun-and-survive-in-a-perfectly-reflective-spacesu" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="type2-superlattice-radar.html">Type-II Superlattice and Scale-Free Perception</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876226/snells-law-in-electrostatics" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=5e237712a2 -->
+<!-- GEO-QA-START id=7ed3b4c49b -->
 ## Extended Q&A — Reader Question
 
-**Q: Can we effectively use Lenz's law to escape a high rise?**
-<p><em>asked on reddit/r/AskPhysics · Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts</em></p>
+**Q: A photon bouncing between two moving mirrors: does one mirror charge the other?**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-23, 8 分 3 答 1071 浏览 (raw_2026-10-06.json; SE API 2026-10-06 复核 open)</em></p>
 
-Eddy-current braking is real, and it is velocity dependent. A magnet moving past a conductor induces currents whose field opposes the motion, so the drag grows with speed and falls to zero when the magnet is at rest. The force needs a thick, close, highly conductive plate, and all the kinetic energy it removes ends up as heat in that plate, which is why a fall starts with almost no braking and the wrong profile for a safety device. In the **Alien Dimensions** setting, an electromagnetic theater override is a speculative field-shaping layer that spreads induced currents through a volume instead of a surface, and its rotational counterpart appears on the <a href='cooperative-resonance-torsion.html'>cooperative resonance torsion</a> page.
+**A photon carries momentum and no charge, so it cannot charge a mirror, but it does push one.** On each reflection the photon reverses its momentum and the mirror absorbs the recoil, a transfer of twice the photon momentum, which is the ordinary radiation pressure that light sails are designed around. If the mirrors move, the reflection also shifts the photon frequency through the Doppler effect, so energy is exchanged as well as momentum and one mirror can drain energy from the other through the photon as intermediary. The fictional layer extrapolates from there: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> treats light as a momentum bus between surfaces, and <a href='type2-superlattice-radar.html'>the type-2 superlattice radar</a> is written as if that bookkeeping could be steered, all of which is speculative.
 
-<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/AskPhysics/comments/1xaucbl/can_we_effectively_use_lenzs_law_to_escape_a_high/" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="type2-superlattice-radar.html">Type-II Superlattice and Scale-Free Perception</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876302/a-photon-bouncing-between-two-moving-mirrors-does-one-mirror-charge-the-other" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-21 08:51 UTC -->
+<!-- Last fresh: 2026-10-21 20:04 UTC -->
