@@ -1,0 +1,43 @@
+{
+  "slug": "semi-dirac-mass-nullification",
+  "question": "Why can't particle physicists predict the strength of Higgs field couplings that give particles mass?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/877078/why-cant-particle-physicists-predict-the-strength-of-higgs-field-couplings-that, SE API 2026-10-21 复核 1 分 0 答 50 浏览 open, 2026-10-20 新帖",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(particle,physicists,predict) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-21",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 20,
+      "weight": 10,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}

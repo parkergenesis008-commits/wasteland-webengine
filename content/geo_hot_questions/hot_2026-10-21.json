@@ -1,0 +1,159 @@
+{
+ "date": "2026-10-21",
+ "generated": "2026-10-21T01:59:10.007688",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-10-21.json",
+ "sources_health": {
+  "stackexchange": 66,
+  "reddit_rss": 20,
+  "hackernews": 9,
+  "dedup_total": 70,
+  "question_form": 52,
+  "failures": [
+   "reddit/r/artificial: HTTP 429",
+   "reddit/r/singularity: HTTP 429"
+  ]
+ },
+ "x_tiktok": "X 与 TikTok 今日抓取失败: web_search 命中均为 2023 年旧帖或考试预测页, 无当日帖面与互动数, 未采信任何数值",
+ "heat_verification": "api.stackexchange.com 于 2026-10-21 复核 41 条 SE 候选, 8 条已关闭被剔除; 12 条入选全部 open. Reddit RSS 无投票与评论字段, 热度只标发布时间",
+ "dedup_note": "历史问题键 318 条 (全部 hot_*.json + qa_*.json, HTML 实体归一); 70 条候选中 10 条今日新帖未列过; 12 条入选在全部 qa_*.json 中无记录, 与 10-20 清单 0 重叠",
+ "top3_for_today": [
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "map_to": "semi-dirac-mass-nullification",
+   "question": "Why can't particle physicists predict the strength of Higgs field couplings that give particles mass?"
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "map_to": "electromagnetic-theater-override",
+   "question": "Can we effectively use Lenz's law to escape a high rise?"
+  },
+  {
+   "slug": "type2-superlattice-radar",
+   "map_to": "type2-superlattice-radar",
+   "question": "How hard would it be to locate the Apollo 11 launch abort subsystem?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "How can a fluid element deform if its velocity is defined by averaging molecular motion over a finite volume?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877072/how-can-a-fluid-element-deform-if-its-velocity-is-defined-by-averaging-molecular",
+   "heat": "SE API 2026-10-21 recheck: 1 points, 1 answers, 49 views, open",
+   "why": "10-20 新帖, 连续介质与分子平均的经典混淆点, 与渲染/粗粒化设定直接对话",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "速度场是有限体积上的平均, 形变率来自速度场的空间梯度而不是单个分子位移; 体积元内部的速度差异就是剪切, 平均不消除梯度; Knudsen 数变大时连续介质本构失效",
+   "use": "科普短文, 链 kpz-reality-rendering"
+  },
+  {
+   "question": "Why can't particle physicists predict the strength of Higgs field couplings that give particles mass?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877078/why-cant-particle-physicists-predict-the-strength-of-higgs-field-couplings-that",
+   "heat": "SE API 2026-10-21 recheck: 1 points, 0 answers, 50 views, open",
+   "why": "10-20 新帖, 直击标准模型自由参数问题, 适合 质量从哪来 这类高搜索意图",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "汤川耦合是自由参数, 由实测费米子质量反定; 辐射修正正比于输入耦合, 不能自定值; 味对称性/额外维/景观属未验证提案",
+   "use": "今日主推, 写入 qa 注入 semi-dirac-mass-nullification 页"
+  },
+  {
+   "question": "Space Elevator and Potential Energy",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70763/space-elevator-and-potential-energy",
+   "heat": "SE API 2026-10-21 recheck: 0 points, 0 answers, 5 views, open",
+   "why": "10-20 新帖, 太空电梯势能是常青入门题, 与系绳设定强相关",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "沿绳的视重随半径线性变化, 同步轨道处为零; 攀爬器做功等于势能差加上科里奥利所需的切向推力; 绳的抗拉强度是真正瓶颈而不是能量",
+   "use": "长尾科普, 链 qm-tether-exosuit"
+  },
+  {
+   "question": "How would a large rotating payload mass affect spacecraft attitude control?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+   "heat": "SE API 2026-10-21 recheck: 0 points, 1 answers, 64 views, open",
+   "why": "10-18 帖, 64 浏览 1 答, 角动量管理与飞轮控制是工程真实问题",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "旋转载荷带角动量, 机动时通过轴承与结构耦合出陀螺力矩; 反作用轮饱和需要卸载; 双自旋方案把章动与进动分开处理",
+   "use": "工程科普, 链 cooperative-resonance-torsion"
+  },
+  {
+   "question": "in a nitrogen, ammonia and methane rich atmosphere how would flora and fauna adapt?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274798/in-a-nitrogen-ammonia-and-methane-rich-atmosphere-how-would-flora-and-fauna-ada",
+   "heat": "SE API 2026-10-21 recheck: 0 points, 0 answers, 20 views, open",
+   "why": "10-20 新帖, 大气成分改写生态是 worldbuilding 高互动题材",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "氨与甲烷的紫外光解寿命短, 需要持续源; 氨溶于水成碱性, 改变酶与膜通透性; 能量来源受限时化能合成比光合更可行",
+   "use": "worldbuilding 向短文, 链 arena-tripartite-architecture"
+  },
+  {
+   "question": "Proton vs parton centre of mass frames of hadron-hadron collisions",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877073/proton-vs-parton-centre-of-mass-frames-of-hadron-hadron-collisions",
+   "heat": "SE API 2026-10-21 recheck: 0 points, 0 answers, 23 views, open",
+   "why": "10-20 新帖, 部分子与强子参考系的区别是 QCD 入门硬点",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "强子碰撞没有唯一的部分子质心系, 因为部分子动量分数是分布; 观测量须对 PDF 积分并做因子化; 快度与赝快度之差在轻子侧才可忽略",
+   "use": "理论长尾, 链 holographic-kpz-projection"
+  },
+  {
+   "question": "How hard would it be to locate the Apollo 11 launch abort subsystem?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+   "heat": "SE API 2026-10-21 recheck: 2 points, 1 answers, 560 views, open",
+   "why": "2 分 560 浏览, 阿波罗硬件打捞是搜索稳定的航天考古题, 热度高于同池多数新帖",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "小推力器与钛壳在再入中多半烧蚀, 落点在海面; 定位靠声学与磁异常扫测; 可用残骸多为耐热结构件",
+   "use": "高意图科普, 链 type2-superlattice-radar"
+  },
+  {
+   "question": "Does “empty space” exist without matter, or is space just the relations between objects?",
+   "source": "reddit",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xavk4n/does_empty_space_exist_without_matter_or_is_space/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "why": "r/AskPhysics 10-20 帖, 关系论与实体论之争是科普长尾高点击题",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "广义相对论的度规是动力学场, 没有物质时仍有解如真空解与引力波; 关系论可重述为度规由物质分布与边界条件共同决定; 量子引力侧争论仍在",
+   "use": "哲学物理短文, 链 holographic-kpz-projection"
+  },
+  {
+   "question": "Where Does The Expansion Of Space Start?",
+   "source": "reddit",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xasnpp/where_does_the_expansion_of_space_start/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "why": "r/AskPhysics 10-20 帖, 膨胀从哪里开始 是常见坐标系误解题",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "膨胀不是从某点向外推, 而是度规标度因子随时间增大, 处处同时发生; 束缚系统内部不膨胀, 因为局域动力学压过哈勃流; 红移来自传播途中标度因子变化",
+   "use": "科普短文, 链 kpz-reality-rendering"
+  },
+  {
+   "question": "Which Polariton describes Birefringence in, for example, Calcite?",
+   "source": "reddit",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xadkgb/which_polariton_describes_birefringence_in_for/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "why": "r/AskPhysics 10-20 帖, 把双折射归到哪种极化激元是准粒子分类好题",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "双折射主要是各向异性介电张量的结果, 属于光子色散而非强耦合极化激元; 只有进入强耦合区才有上/下极化激元支; 术语混用是主要混淆源",
+   "use": "术语澄清短文, 链 obstructed-atomic-phantom-grid"
+  },
+  {
+   "question": "Can we effectively use Lenz's law to escape a high rise?",
+   "source": "reddit",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xaucbl/can_we_effectively_use_lenzs_law_to_escape_a_high/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "why": "r/AskPhysics 10-20 帖, 涡流制动救人设想, 有画面感且物理可讲透",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "涡流阻力随速度增大而在静止时为零, 对坠落场景起步最弱; 需要厚而近的高导板, 动能全变焦耳热; 磁体自身场强与极距决定可用力",
+   "use": "今日第二条 QA, 注入 electromagnetic-theater-override 页"
+  },
+  {
+   "question": "Calculating centrifugal force used to make artificial gravity in space",
+   "source": "reddit",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xapy5k/calculating_centrifugal_force_used_to_make/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "why": "r/AskPhysics 10-20 帖, 旋转人工重力是硬科幻最常被算错的一题",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "向心加速度等于角速度平方乘半径, 所需转速由半径定; 科里奥利效应在小半径高转速下明显, 造成抛体偏转与内耳不适; 半径越大所需转速越低, 体验越接近地面",
+   "use": "硬科幻工程科普, 链 cooperative-resonance-torsion"
+  }
+ ]
+}

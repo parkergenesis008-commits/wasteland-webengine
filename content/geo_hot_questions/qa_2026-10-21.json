@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-21",
+ "entries": [
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "question": "Why can't particle physicists predict the strength of Higgs field couplings that give particles mass?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877078/why-cant-particle-physicists-predict-the-strength-of-higgs-field-couplings-that",
+   "heat": "SE API 2026-10-21 recheck: 1 points, 0 answers, 50 views, open",
+   "answer_md": "The Standard Model has no mechanism that fixes fermion masses. Each Yukawa coupling is an independent free parameter, set by fitting the measured mass of the electron, the muon, the quarks or a neutrino, and the measured values span many orders of magnitude with no known pattern. Radiative corrections can be computed once a coupling is supplied, but they come out proportional to that same coupling, so a calculation cannot replace a measurement of it. Proposed derivations use flavor symmetries, extra dimensions, compositeness or landscape arguments, and none is experimentally confirmed. In the **Alien Dimensions** setting, semi-Dirac mass nullification is a speculative lattice device that tunes an effective gap to zero at a selected point in momentum space, so a mass-like response becomes addressable rather than fixed, and the lattice engineering behind that idea is described on the <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "Can we effectively use Lenz's law to escape a high rise?",
+   "source": "reddit/r/AskPhysics",
+   "source_url": "https://www.reddit.com/r/AskPhysics/comments/1xaucbl/can_we_effectively_use_lenzs_law_to_escape_a_high/",
+   "heat": "Reddit RSS 2026-10-20 published, RSS gives no vote or comment counts",
+   "answer_md": "Eddy-current braking is real, and it is velocity dependent. A magnet moving past a conductor induces currents whose field opposes the motion, so the drag grows with speed and falls to zero when the magnet is at rest. The force needs a thick, close, highly conductive plate, and all the kinetic energy it removes ends up as heat in that plate, which is why a fall starts with almost no braking and the wrong profile for a safety device. In the **Alien Dimensions** setting, an electromagnetic theater override is a speculative field-shaping layer that spreads induced currents through a volume instead of a surface, and its rotational counterpart appears on the <a href='cooperative-resonance-torsion.html'>cooperative resonance torsion</a> page.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}
