@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-22",
+ "entries": [
+  {
+   "slug": "floquet-temporal-matter",
+   "question": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+   "heat": "SE API 2026-10-22 recheck: 9 points, 3 answers, 1367 views, open, posted 2026-10-19",
+   "answer_md": "Photoelectric emission is a single-photon event, not a cumulative one. One photon whose energy exceeds the work function is absorbed by one electron, and that electron can leave within femtoseconds, so nothing has to build up over many optical cycles. Attosecond streaking experiments now resolve emission delays in the attosecond range, and those delays track the transit of the excited electron through the surface barrier rather than any waiting time for light to deposit energy. The argument that the lag must be one divided by infinity is unnecessary, because the emission time is set by quantum transition rates and time is not assumed to be discretized. In the **Alien Dimensions** setting, the Floquet armour is fiction: it assumes a driven lattice whose phase is reset every few picoseconds, which is a story device standing on periodic driving as a real research area, and it says nothing about the speed of a single optical transition; the lattice side of that fiction is developed on the <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "How can temporarily polarized dielectrics maintain attraction without displacement current losses?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877101/how-can-temporarily-polarized-dielectrics-maintain-attraction-without-displaceme",
+   "heat": "SE API 2026-10-22 recheck: 1 points, 0 answers, 25 views, open, posted 2026-10-21",
+   "answer_md": "Displacement current is not a loss channel by itself. It is the rate of change of electric flux, and in an ideal dielectric it stores energy that is returned when the field relaxes, which is why a capacitor can hold a charge on an open circuit. An electret keeps its frozen polarization for years because the trapped charge sits in deep localized states, and the losses that do appear come from finite conductivity, dielectric absorption and surface leakage, all of which grow with field, humidity and temperature rather than with the act of attracting. So a dielectric motor can hold an attraction while the circuit stays open, but the torque comes from the field gradient, and any charge that actually crosses the gap is a resistive loss that has to be supplied. In the **Alien Dimensions** setting, the electromagnetic theatre override is fiction: it describes a field-shaping layer that spreads an induced response through a volume instead of a surface, and the rotational counterpart of that idea is on the <a href='cooperative-resonance-torsion.html'>cooperative resonance torsion</a> page.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}

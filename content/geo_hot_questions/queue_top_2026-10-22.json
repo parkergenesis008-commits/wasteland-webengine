@@ -1,0 +1,44 @@
+{
+  "slug": "floquet-temporal-matter",
+  "question": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti, 9pts, 3 答, 1367 浏览, SE API 2026-10-22 复核 open, 2026-10-19 帖",
+  "weight": 50,
+  "relevance": 40,
+  "score": 90,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 9 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(there,time,between) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-22",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "floquet-temporal-matter",
+      "score": 90,
+      "weight": 50,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 57,
+      "weight": 24,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 47,
+      "weight": 30,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}
