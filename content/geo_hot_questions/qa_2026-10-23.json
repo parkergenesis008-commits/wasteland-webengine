@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-23",
+ "entries": [
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "How is the wavefunction renormalization related to the wavefunction?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877121/how-is-the-wavefunction-renormalization-related-to-the-wavefunction",
+   "heat": "SE API 2026-10-23 recheck: 5 points, 0 answers, 62 views, open, posted 2026-10-22",
+   "answer_md": "Wavefunction renormalization is not a correction applied to the Schrodinger wavefunction. In quantum field theory **Z** is the squared overlap between the bare field operator and the physical one particle state, equivalently the residue of the propagator at the physical pole, and the physical field is the bare field rescaled by Z to the minus one half so that canonical normalization is restored. Z falls below one because interactions dress the particle in a cloud of virtual excitations, and the missing spectral weight reappears in the multiparticle continuum, which is why Z close to one means a long lived quasiparticle and Z going to zero means the quasiparticle picture has failed. In the **Alien Dimensions** setting the holographic renderer is fiction: it treats Z as a fidelity budget spent on the two dimensional boundary membrane, and the boundary collapse vulnerability on the <a href='kpz-reality-rendering.html'>KPZ reality rendering</a> page is a story device, not a physical prediction.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  },
+  {
+   "slug": "qm-tether-exosuit",
+   "question": "Space Elevator and Potential Energy",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70763/space-elevator-and-potential-energy",
+   "heat": "SE API 2026-10-23 recheck: 0 points, 2 answers, 103 views, open, posted 2026-10-20",
+   "answer_md": "A space elevator does not beat gravity, it pays for altitude with energy delivered along the cable instead of with propellant, and the accounting is not m g h because both the gravitational field and the frame matter. In the frame rotating with the Earth the effective potential combines gravity with a centrifugal term that grows with the square of radius, so below geostationary altitude the climber must be supplied with energy, while above it the centrifugal term dominates and a released payload drifts outward, which is what keeps the counterweight taut. The energy per kilogram to geostationary altitude is therefore a large fraction of the escape energy, and the real engineering limit is the cable: tension peaks at geostationary altitude, the cross section must taper there, and no bulk material in production comes close to the required strength to density ratio, which only carbon nanotube theory approaches. In the **Alien Dimensions** setting the QM-Tether exosuit is fiction: it replaces a tapered cable with a speculative metric perturbation, the physically defensible part is the quantum metric and spin torque chain, and the amplification that makes it macroscopic is explicitly fictional on the <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion</a> page.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}

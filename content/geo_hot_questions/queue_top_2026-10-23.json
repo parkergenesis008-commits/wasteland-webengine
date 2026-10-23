@@ -1,0 +1,43 @@
+{
+  "slug": "holographic-kpz-projection",
+  "question": "How is the wavefunction renormalization related to the wavefunction?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/877121/how-is-the-wavefunction-renormalization-related-to-the-wavefunction, SE API 2026-10-23 复核 5 分 0 答 62 浏览 open, 2026-10-22 新帖",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(wavefunction,renormalization,related) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-23",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "holographic-kpz-projection",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "arena-tripartite-architecture",
+      "score": 20,
+      "weight": 10,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}
