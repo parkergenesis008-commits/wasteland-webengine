@@ -1,0 +1,44 @@
+{
+  "slug": "qm-tether-exosuit",
+  "question": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+  "rank": 1,
+  "source": "source: stackexchange/worldbuilding https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit, 9 points, 5 answers, 1492 views, open, posted 2026-10-18",
+  "weight": 50,
+  "relevance": 40,
+  "score": 90,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 9 → +20",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(would,airplanes,optimized) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-24",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 90,
+      "weight": 50,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 73,
+      "weight": 40,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 36,
+      "weight": 26,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}

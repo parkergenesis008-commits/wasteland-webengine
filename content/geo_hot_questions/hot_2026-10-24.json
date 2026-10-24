@@ -1,0 +1,158 @@
+{
+ "date": "2026-10-24",
+ "generated": "2026-10-24T02:0x CST",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-10-24.json",
+ "sources_health": {
+  "stackexchange": 64,
+  "reddit_rss": 0,
+  "hackernews": 10,
+  "dedup_total": 52,
+  "question_form": 42,
+  "failures": [
+   "reddit/r/postapocalyptic: URLError <urlopen error timed out>",
+   "reddit/r/collapse: URLError <urlopen error timed out>",
+   "reddit/r/selfpublish: URLError <urlopen error timed out>",
+   "reddit/r/printSF: URLError <urlopen error timed out>"
+  ]
+ },
+ "x_tiktok": "X 侧今日抓取失败: 1 次 web_search 只命中旧帖转述、2026-05 的旧调查转贴与无日期无互动数的账号主页, 未采信任何数值; TikTok 侧 1 次检索只命中考试复习页与第三方 discover 榜单页, 无当日物理类提问帖, 未采用, 未编造帖子",
+ "heat_verification": "SE API 2026-10-24 recheck by api.stackexchange.com (urllib 直连, 三次调用覆盖 physics 16 / worldbuilding 17 / space 9 共 42 条候选, filter=default): 36 条 open, 6 条已关闭并剔除 (physics 877146 与 877145 Not suitable, physics 877154 Needs details, physics 877152 与 space 70767 Duplicate, space 70754 Needs more focus); 12 条入选全部 open 且票数/答案数/浏览量逐条取自本次 API 返回",
+ "dedup_note": "历史问题键 276 条 (全部 hot_*.json + qa_*.json, HTML 实体归一; 计数口径同前几轮, 含本日写入前文件), 52 条候选中 26 条从未列过、26 条曾列; 扣除已在 qa_*.json 注入过的题后, 12 条 = 4 条全新 (274829/274806/877159/877160) + 8 条曾列但从未注入 (274789/274764/70760/274739/876766/876939/274751/877008); 与 10-23 清单重叠 0 条; 今日池内 1490-1690 浏览的三条高热题 (877039/877083/876829) 均已在 qa_*.json 注入过或昨日刚列, 按去重原则回避",
+ "top3_for_today": [
+  {
+   "slug": "qm-tether-exosuit",
+   "question": "How would airplanes be optimized if people could unleash kilowatts of electricity?"
+  },
+  {
+   "slug": "obstructed-atomic-phantom-grid",
+   "question": "World Wide Mycelium"
+  },
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "How hard would it be to locate the Apollo 11 launch abort subsystem?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+   "heat": "SE API 2026-10-24 recheck: 9 points, 5 answers, 1492 views, open, posted 2026-10-18",
+   "why": "今日池内已列未注入题中浏览量最高; 人体千瓦级功率预算与机甲/外骨骼页同题, 且不是单纯物理题而是工程权衡",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 航空器瓶颈是功率重量比, 航煤比能量约是锂电池的数十倍, 人体持续输出百瓦级, 千瓦级先撞热管理; 可行方向是分布式推进与吹升增升. 设定层: 外骨骼功率预算是叙事约束, 明确标 fiction.",
+   "use": "当日主推, 注入 qm-tether-exosuit 页 (现存最旧块 2026-09-17)"
+  },
+  {
+   "question": "World Wide Mycelium",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274764/world-wide-mycelium",
+   "heat": "SE API 2026-10-24 recheck: 14 points, 4 answers, 1118 views, open, posted 2026-10-12",
+   "why": "全球菌丝网是天然的无中心网状输运体, 与受阻原子幻影网格页(被刻意打断的晶格)同构, 且 14 分 4 答说明读者真在讨论",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 菌丝靠顶端生长和胞质压力流输运, 菌丝融合成环提供绕行冗余, 无全局中枢; 尺度放大到行星级卡在扩散时间随距离平方增长. 设定层: 行星级菌丝是人工超晶格, 断点是被设计出来的路由延迟, 明确标 fiction.",
+   "use": "当日次推, 注入 obstructed-atomic-phantom-grid 页 (现存最旧块 2026-09-17)"
+  },
+  {
+   "question": "How hard would it be to locate the Apollo 11 launch abort subsystem?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+   "heat": "SE API 2026-10-24 recheck: 4 points, 1 answers, 1334 views, open, posted 2026-10-19",
+   "why": "定位搜寻类题材与雷达页对口, 1334 浏览在今日池里排第四, 且只有 1 答留出补充空间",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 小推力器与薄壳多半在再入中烧蚀落海, 可行手段是声学与磁异常扫测, 能回收的多为耐热结构件. 设定层: 超晶格雷达的远程回溯扫描是虚构能力, 不能当成真实探测方案.",
+   "use": "备选, 本轮不注入 (type2-superlattice-radar 最旧块 09-17 但今日更贴题的两条已占名额)"
+  },
+  {
+   "question": "How realistic or efficient is a clockwork powered tank?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274739/how-realistic-or-efficient-is-a-clockwork-powered-tank",
+   "heat": "SE API 2026-10-24 recheck: 9 points, 6 answers, 1022 views, open, posted 2026-10-09",
+   "why": "机械储能与扭簧共振直接对口扭转共振页; 1022 浏览 9 分 6 答说明有真实读者盘",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 发条储能密度比化学燃料低一到两个数量级, 齿轮级联有背隙与摩擦损失, 装甲车辆需求在兆瓦级. 设定层: 协作共振扭转把储能写进晶格扭转模, 属于虚构机制.",
+   "use": "清单条目, 留作后续注入候选"
+  },
+  {
+   "question": "Yang-Mills roadmap",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876766/yang-mills-roadmap",
+   "heat": "SE API 2026-10-24 recheck: 7 points, 2 answers, 871 views, open, posted 2026-10-11",
+   "why": "10-19 轮就已标记为下一轮优先候选, 至今未注入; 规范场路线图与三方架构页的场论设定同源",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 路径是先经典场论与李群, 再 QFT 与重整化, 然后非阿贝尔规范理论与格点 QCD; 千禧问题要的是四维质量间隙的严格证明, 与算出符合实验的数不是一回事. 设定层: 三方架构的场论拼装是虚构设计.",
+   "use": "清单条目, 次选注入候选"
+  },
+  {
+   "question": "How is total linear momentum conserved in the Sun-Earth system?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+   "heat": "SE API 2026-10-24 recheck: 9 points, 6 answers, 866 views, open, posted 2026-10-15",
+   "why": "守恒律的记账问题, 与渲染页每格守恒量必须对账的设定同源; 866 浏览 6 答, 讨论密度高",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 封闭系统总动量守恒, 太阳绕日地质心摆动周期约 12 年, 辐射带走动量但总量不变, 实测靠恒星视向速度. 设定层: 渲染器逐帧对账守恒量是虚构设定.",
+   "use": "清单条目, kpz-reality-rendering 现存最旧块 2026-09-10 待下一轮贴题题换"
+  },
+  {
+   "question": "Hexapodal Locomotion",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+   "heat": "SE API 2026-10-24 recheck: 6 points, 3 answers, 850 views, open, posted 2026-10-12",
+   "why": "六足步态相位与能量最优是干净的科普切口, 850 浏览 6 分, 冷门但可长期挂",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 六足天然三角支撑, 静态稳定不需要主动平衡, 步态相位决定能耗与速度上限, 尺度放大后关节应力按体积增长而支撑面按面积增长. 设定层: 共振步态助推是虚构.",
+   "use": "清单条目"
+  },
+  {
+   "question": "How does enthalpy depend on pressure exactly?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877008/how-does-enthalpy-depend-on-pressure-exactly",
+   "heat": "SE API 2026-10-24 recheck: 5 points, 3 answers, 534 views, open, posted 2026-10-17",
+   "why": "焓对压强的依赖是晶格热力学的核心问题, 可直接接到人工近藤晶格的状态方程",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: H 等于 U 加 pV, 理想气体焓只依赖温度, 固体液体的焓随压强变是因为体积和相互作用随压缩变化, 可由状态方程加麦克斯韦关系算出. 设定层: 近藤晶格的压强响应曲线是虚构参数化.",
+   "use": "清单条目"
+  },
+  {
+   "question": "Planet with cycle: Day — Night — Dusk — Night",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+   "heat": "SE API 2026-10-24 recheck: 3 points, 2 answers, 42 views, open, posted 2026-10-23",
+   "why": "一天之内出现昼-夜-昏-夜的重复相位, 本质是周期驱动, 正是 Floquet 的本义; 10-23 新帖, 3 分 2 答",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 多次黄昏来自自转与轨道运动的叠加或双星系统中附加光源, 相位表需按观测者经度算, 稳定重复相位要求自转与轨道存在共振或近共振. 设定层: 该页把周期驱动写成时间晶格, 明确标 fiction.",
+   "use": "清单条目, 与 10-23 的日照时长题同题材, 本轮不重复注入"
+  },
+  {
+   "question": "Spectral Mapping Theorem for discrete Grover quantum walks on graphs with loops",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877159/spectral-mapping-theorem-for-discrete-grover-quantum-walks-on-graphs-with-loops",
+   "heat": "SE API 2026-10-24 recheck: 1 points, 0 answers, 19 views, open, posted 2026-10-23",
+   "why": "谱映射定理与晶格谱函数是同一套语言; 1 分 0 答, 无竞品答案",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 离散时间量子行走的演化算符可写成硬币算符加条件位移, 谱映射把演化算符的谱映到硬币算符的单位圆盘上, 图上的自环改变简并与边界条件. 设定层: 近藤晶格的谱工程是虚构能力.",
+   "use": "清单条目"
+  },
+  {
+   "question": "Ray Transfer Matrix and Gaussian Beams",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877160/ray-transfer-matrix-and-gaussian-beams",
+   "heat": "SE API 2026-10-24 recheck: 0 points, 0 answers, 12 views, open, posted 2026-10-23",
+   "why": "光线传输矩阵是光束整形的入门工具, 与电磁剧场的光束改写设定对口; 今日新帖 0 答",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: ABCD 矩阵描述近轴光线的线性传输, 高斯光束用复光束参数 q 变换, 透镜与自由空间各有一个矩阵, 束腰位置由 q 的虚部给出. 设定层: 剧场级光束改写是虚构.",
+   "use": "清单条目"
+  },
+  {
+   "question": "How would life on a earth like planet in a sol like solar system be different in dark matter poor galaxy?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274806/how-would-life-on-a-earth-like-planet-in-a-sol-like-solar-system-be-different-in",
+   "heat": "SE API 2026-10-24 recheck: -2 points, 1 answers, 156 views, open, posted 2026-10-20",
+   "why": "今日全新题里浏览量最高, 暗物质丰度改变结构形成, 可接到质量归零的设定层",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 暗物质少则结构形成慢, 星系盘更难稳定, 恒星形成历史与宇宙线环境都会变; 对已有生命短期影响小, 长期受伽马暴与银河系动力学影响. 设定层: 半狄拉克质量归零是虚构机制, 与暗物质丰度无因果链.",
+   "use": "清单条目"
+  }
+ ]
+}

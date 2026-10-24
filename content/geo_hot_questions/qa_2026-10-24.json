@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-24",
+ "entries": [
+  {
+   "slug": "qm-tether-exosuit",
+   "question": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+   "heat": "SE API 2026-10-24 recheck: 9 points, 5 answers, 1492 views, open, posted 2026-10-18",
+   "answer_md": "Aircraft are limited by power to weight ratio, not by total electrical power, so a person who can deliver kilowatts changes the power source but not the airframe budget. **Jet fuel carries roughly two orders of magnitude more energy per kilogram than a lithium ion pack**, and a human sustaining kilowatts of electrical output has to reject the same kilowatts as heat, which is already the sizing problem in every high power suit concept. The realistic optimisation directions are distributed electric propulsion with many small propulsors for boundary layer ingestion and blown lift, plus thermal management that lets the pack run hard for minutes rather than seconds. In the **Alien Dimensions** setting the <a href='qm-tether-exosuit.html'>QM tether exosuit</a> is fiction: its tether draws on a fictional vacuum coupling and its power budget is a narrative constraint, not a calculated engineering result.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  },
+  {
+   "slug": "obstructed-atomic-phantom-grid",
+   "question": "World Wide Mycelium",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274764/world-wide-mycelium",
+   "heat": "SE API 2026-10-24 recheck: 14 points, 4 answers, 1118 views, open, posted 2026-10-12",
+   "answer_md": "A mycelial network moves material by tip growth, diffusion and pressure driven cytoplasmic flow, and it has no centre that holds a map of the whole colony. **Hyphae extend toward nutrient gradients and fuse where they meet**, so loops form and the colony can reroute around damage, while long distance bulk transport needs a pump and a sealed conduit rather than a wire. Scaling that to a planet runs into transport time, because diffusion time grows with the square of distance and flow speed is limited by the pressure the tubes can hold. In the **Alien Dimensions** setting the planetary mycelium on <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> page is fiction: it is specified as an engineered lattice with deliberate obstructions that force signal detours, and that routing delay is a story device rather than an observed property of fungi.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  }
+ ]
+}
