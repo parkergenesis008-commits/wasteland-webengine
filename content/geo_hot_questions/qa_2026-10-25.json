@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-25",
+ "entries": [
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "Why is there no documented baseline control group using macroscopically unentangled, twin-polarized single-photon pulses in modern CHSH/Bell tests?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877168/why-is-there-no-documented-baseline-control-group-using-macroscopically-unentang",
+   "heat": "SE API 2026-10-25 recheck: 2 points, 2 answers, 117 views, open, posted 2026-10-24",
+   "answer_md": "A usable baseline for a Bell-type test has to reproduce the single-photon statistics of the source while removing the correlation between the two arms, and that is what separable states or attenuated coherent light with matching polarisation marginals provide. Those controls are normally reported inside the source characterisation rather than as a standalone experiment, which is why a search for a separate twin-beam control run turns up nothing. **What cannot exist is a pair that shares one macroscopic wave function and is still unentangled**, because a single wave function for the pair is exactly what entanglement is defined on. In the **Alien Dimensions** setting the <a href='kpz-reality-rendering.html'>KPZ reality rendering</a> page is fiction: it treats measurement outcomes as rendered by an underlying field, which is a story premise and not an experimental protocol.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  },
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "question": "Why do $Z=$119 and 120 decay bottlenecks coincide with the relativistic $6d^{10}$ (${\\rm Cn}, Z=112$) and $6d/5f^{14}$ (Rf/No) subshell boundaries?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877184/why-do-z-119-and-120-decay-bottlenecks-coincide-with-the-relativistic-6d10",
+   "heat": "SE API 2026-10-25 recheck: 2 points, 0 answers, 36 views, open, posted 2026-10-24",
+   "answer_md": "A superheavy nucleus survives only because shell effects build a fission barrier on top of the liquid drop, and that barrier thins as Coulomb repulsion from extra protons grows faster than the surface term that holds the drop together. Relativistic contraction of the 6d and 7p orbitals changes the level density near the Fermi surface, so subshell closures around copernicium and around rutherfordium appear as local changes in barrier height and in spontaneous fission half lives. **Neither element 119 nor element 120 has been confirmed synthesised**, so the bottlenecks in the question are extrapolations from barrier calculations rather than measured half lives. In the **Alien Dimensions** setting the <a href='semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a> page is fiction: it treats inertial mass as a tunable lattice property, which is a story premise and not a nuclear physics claim.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  }
+ ]
+}

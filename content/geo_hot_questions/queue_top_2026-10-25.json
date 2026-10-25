@@ -1,0 +1,44 @@
+{
+  "slug": "kpz-reality-rendering",
+  "question": "Why is there no documented baseline control group using macroscopically unentangled, twin-polarized single-photon pulses in modern CHSH/Bell tests?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/877168/why-is-there-no-documented-baseline-control-group, SE API 2026-10-25 复核 2 points 2 answers 117 views open, 2026-10-24 新帖, 今日\"从未注入\"题里浏览量最高",
+  "weight": 38,
+  "relevance": 40,
+  "score": 78,
+  "breakdown": [
+    "队列名次#1 +30",
+    "来源热度 2 → +8",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(there,documented,baseline) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-25",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "kpz-reality-rendering",
+      "score": 78,
+      "weight": 38,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 61,
+      "weight": 28,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 31,
+      "weight": 14,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}
