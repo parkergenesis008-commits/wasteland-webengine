@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-26",
+ "entries": [
+  {
+   "slug": "cooperative-resonance-torsion",
+   "question": "Most efficient material for a telekinetic to launch as a weapon?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon",
+   "heat": "11 points, 10 answers, 1291 views, open, posted 2026-10-21",
+   "answer_md": "**Real physics first: at a fixed energy budget, mass beats sharpness.** Kinetic energy goes as half m v squared while momentum goes as the square root of twice m times E, so a heavier slug carries more momentum for the same joules, and penetration then depends on density and toughness rather than on a sharp edge. A 100 g slug thrown at 100 m/s carries about 500 J, which is already lethal, and a human body can only sustain roughly 100 W, so a believable telekinetic has to work with a small energy budget and a heavy, dense object such as tungsten or steel rather than a fast light one. Air drag and the object's own strength cap the speed long before any relativistic effect matters. In this project's fiction, the <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion</a> setting adds an invented channel that lets a lattice share load across nodes, which is why the setting's weapons are written as slow, dense and short-ranged.",
+   "links": [
+    "qm-tether-exosuit"
+   ]
+  },
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "Is there any connection between magnetism and inertia?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877204/is-there-any-connection-between-magnetism-and-inertia",
+   "heat": "1 point, 0 answers, 51 views, open, posted 2026-10-25",
+   "answer_md": "**In the Standard Model the inertia of elementary particles comes from the Higgs coupling, not from magnetism.** Magnetization does store field energy, and that energy counts toward mass through E equals m c squared, but the shift is far below anything a scale can resolve. Magnetism and inertia do meet in condensed matter, where the effective mass of a charge carrier is set by band structure and by interactions, and in Kondo and heavy-fermion systems the coupling between conduction electrons and local magnetic moments produces quasiparticles whose masses are hundreds of times the bare electron mass. The coupling also runs the other way at the classical level, since the Einstein-de Haas and Barnett effects convert a change of magnetization into mechanical angular momentum. This project's <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page is fiction: it imagines that an arrangement of magnetic atoms can be tuned at will to pin computational states, and none of that is claimed as measured fact.",
+   "links": [
+    "semi-dirac-mass-nullification"
+   ]
+  }
+ ]
+}

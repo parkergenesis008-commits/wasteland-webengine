@@ -1,0 +1,43 @@
+{
+  "slug": "cooperative-resonance-torsion",
+  "question": "Most efficient material for a telekinetic to launch as a weapon?",
+  "rank": 1,
+  "source": "source: stackexchange/worldbuilding https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon, SE API 2026-10-26 复核 11 分 10 答 1291 浏览 open, 2026-10-21 帖, 今日池内浏览量第一",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(most,efficient,material) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-26",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "cooperative-resonance-torsion",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "artificial-kondo-lattice",
+      "score": 60,
+      "weight": 20,
+      "relevance": 40,
+      "rank": 2
+    },
+    {
+      "slug": "holographic-kpz-projection",
+      "score": 27,
+      "weight": 10,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}

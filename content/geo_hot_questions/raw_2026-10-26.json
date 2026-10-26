@@ -1,0 +1,661 @@
+{
+  "_ts": "2026-10-26T03:02:20.423902",
+  "_date": "2026-10-26",
+  "counts": {
+    "stackexchange": 62,
+    "reddit_rss": 23,
+    "hackernews": 6,
+    "questions": 56,
+    "total": 69
+  },
+  "errors": [
+    "reddit/r/printSF: HTTPError HTTP Error 429: Too Many Requests",
+    "reddit/r/scifi: HTTPError HTTP Error 429: Too Many Requests"
+  ],
+  "candidates": [
+    {
+      "title": "How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?",
+      "url": "https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 23,
+      "comments": 4,
+      "ts": "2026-10-12T20:49",
+      "is_question": true
+    },
+    {
+      "title": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+      "url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 16,
+      "comments": 1,
+      "ts": "2026-10-20T20:31",
+      "is_question": true
+    },
+    {
+      "title": "World Wide Mycelium",
+      "url": "https://worldbuilding.stackexchange.com/questions/274764/world-wide-mycelium",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 14,
+      "comments": 4,
+      "ts": "2026-10-12T23:37",
+      "is_question": true
+    },
+    {
+      "title": "Most efficient material for a telekinetic to launch as a weapon?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 11,
+      "comments": 10,
+      "ts": "2026-10-21T21:49",
+      "is_question": true
+    },
+    {
+      "title": "How is total linear momentum conserved in the Sun-Earth system?",
+      "url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 6,
+      "ts": "2026-10-15T19:16",
+      "is_question": true
+    },
+    {
+      "title": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 5,
+      "ts": "2026-10-18T14:34",
+      "is_question": true
+    },
+    {
+      "title": "Can a small dwarf star, roughly 0.075 solar masses, glow pink?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274804/can-a-small-dwarf-star-roughly-0-075-solar-masses-glow-pink",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 5,
+      "ts": "2026-10-20T18:31",
+      "is_question": true
+    },
+    {
+      "title": "How close could you get to the Sun and survive in a perfectly reflective spacesuit?",
+      "url": "https://physics.stackexchange.com/questions/876900/how-close-could-you-get-to-the-sun-and-survive-in-a-perfectly-reflective-spacesu",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 4,
+      "ts": "2026-10-14T15:47",
+      "is_question": true
+    },
+    {
+      "title": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+      "url": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 4,
+      "ts": "2026-10-19T08:33",
+      "is_question": true
+    },
+    {
+      "title": "What spacecraft are using the 2026 Mars launch window?",
+      "url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 9,
+      "comments": 2,
+      "ts": "2026-10-13T15:48",
+      "is_question": true
+    },
+    {
+      "title": "Why is the surface tension taken to act only on the perimeter?",
+      "url": "https://physics.stackexchange.com/questions/877020/why-is-the-surface-tension-taken-to-act-only-on-the-perimeter",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 2,
+      "ts": "2026-10-18T10:14",
+      "is_question": true
+    },
+    {
+      "title": "How Would Rings Affect Trade Winds?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-17T02:38",
+      "is_question": true
+    },
+    {
+      "title": "Why is a point mass on a rod whose ends slide freely on perpendicular rails equivalent to a simple pendulum?",
+      "url": "https://physics.stackexchange.com/questions/877116/why-is-a-point-mass-on-a-rod-whose-ends-slide-freely-on-perpendicular-rails-equi",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-22T05:43",
+      "is_question": true
+    },
+    {
+      "title": "If a black hole event horizon expands towards a clock, does the clock slow down just as it would if it was moving towards a hole with a fixed mass?",
+      "url": "https://physics.stackexchange.com/questions/877104/if-a-black-hole-event-horizon-expands-towards-a-clock-does-the-clock-slow-down",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 4,
+      "ts": "2026-10-21T16:01",
+      "is_question": true
+    },
+    {
+      "title": "Hexapodal Locomotion",
+      "url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 3,
+      "ts": "2026-10-12T02:53",
+      "is_question": true
+    },
+    {
+      "title": "Planet with cycle: Day — Night — Dusk — Night",
+      "url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 3,
+      "ts": "2026-10-23T09:54",
+      "is_question": true
+    },
+    {
+      "title": "The government has just injected massive amounts of cash into the economy via infrastructure spending. Why is the economy not inflating?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274825/the-government-has-just-injected-massive-amounts-of-cash-into-the-economy-via-in",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 5,
+      "ts": "2026-10-23T05:38",
+      "is_question": true
+    },
+    {
+      "title": "How hard would it be to locate the Apollo 11 launch abort subsystem?",
+      "url": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-10-19T12:45",
+      "is_question": true
+    },
+    {
+      "title": "Mathematical basis of a complex spacetime metric",
+      "url": "https://physics.stackexchange.com/questions/877214/mathematical-basis-of-a-complex-spacetime-metric",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 4,
+      "comments": 1,
+      "ts": "2026-10-25T17:11",
+      "is_question": true
+    },
+    {
+      "title": "How did NASA choose which orbiter would fly a given mission?",
+      "url": "https://space.stackexchange.com/questions/70769/how-did-nasa-choose-which-orbiter-would-fly-a-given-mission",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 4,
+      "comments": 0,
+      "ts": "2026-10-22T18:44",
+      "is_question": true
+    },
+    {
+      "title": "How does the water evaporation rate change if there is a larger surface area of water?",
+      "url": "https://physics.stackexchange.com/questions/877196/how-does-the-water-evaporation-rate-change-if-there-is-a-larger-surface-area-of",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 2,
+      "ts": "2026-10-25T03:03",
+      "is_question": true
+    },
+    {
+      "title": "How To Make a Dark Sky on a Jovian Planet?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274754/how-to-make-a-dark-sky-on-a-jovian-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-10-12T11:28",
+      "is_question": true
+    },
+    {
+      "title": "Why did GOES-19 go into safehold?",
+      "url": "https://space.stackexchange.com/questions/70771/why-did-goes-19-go-into-safehold",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-22T23:09",
+      "is_question": true
+    },
+    {
+      "title": "Speed of light and fields moving within fields",
+      "url": "https://physics.stackexchange.com/questions/877203/speed-of-light-and-fields-moving-within-fields",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-10-25T11:00",
+      "is_question": true
+    },
+    {
+      "title": "How would a large rotating payload mass affect spacecraft attitude control?",
+      "url": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 1,
+      "comments": 3,
+      "ts": "2026-10-18T23:43",
+      "is_question": true
+    },
+    {
+      "title": "STS Coefficients of Drag and Lift - How do I calculate reference area?",
+      "url": "https://space.stackexchange.com/questions/70751/sts-coefficients-of-drag-and-lift-how-do-i-calculate-reference-area",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-13T20:25",
+      "is_question": true
+    },
+    {
+      "title": "What effect would a “Starfish Prime” test have on Starlink?",
+      "url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-24T18:24",
+      "is_question": true
+    },
+    {
+      "title": "in a nitrogen, ammonia and methane rich atmosphere how would flora and fauna adapt?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274798/in-a-nitrogen-ammonia-and-methane-rich-atmosphere-how-would-flora-and-fauna-ada",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-20T10:48",
+      "is_question": true
+    },
+    {
+      "title": "Space Elevator and Potential Energy",
+      "url": "https://space.stackexchange.com/questions/70763/space-elevator-and-potential-energy",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-10-20T17:22",
+      "is_question": true
+    },
+    {
+      "title": "Is there any connection between magnetism and inertia?",
+      "url": "https://physics.stackexchange.com/questions/877204/is-there-any-connection-between-magnetism-and-inertia",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-25T11:16",
+      "is_question": true
+    },
+    {
+      "title": "How would genetics of a species with a rainbow-variety of hair colors work?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274824/how-would-genetics-of-a-species-with-a-rainbow-variety-of-hair-colors-work",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-23T04:40",
+      "is_question": true
+    },
+    {
+      "title": "Economic domestication of extraterrestrial fauna for interplanetary trade",
+      "url": "https://worldbuilding.stackexchange.com/questions/274797/economic-domestication-of-extraterrestrial-fauna-for-interplanetary-trade",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-20T03:07",
+      "is_question": true
+    },
+    {
+      "title": "Machine-learning corrections to SGP4 orbit propagation",
+      "url": "https://space.stackexchange.com/questions/70773/machine-learning-corrections-to-sgp4-orbit-propagation",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-25T13:29",
+      "is_question": true
+    },
+    {
+      "title": "Could a glider-like spaceplane with very high lift achieve a gentler atmospheric re-entry?",
+      "url": "https://space.stackexchange.com/questions/70767/could-a-glider-like-spaceplane-with-very-high-lift-achieve-a-gentler-atmospheric",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-21T08:15",
+      "is_question": true
+    },
+    {
+      "title": "Motion Ratio and General relationship between Force and Displacement, how does it work?",
+      "url": "https://physics.stackexchange.com/questions/877218/motion-ratio-and-general-relationship-between-force-and-displacement-how-does-i",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-25T18:05",
+      "is_question": true
+    },
+    {
+      "title": "Could a Black Hole Eventually Become a White Hole in a Separate Universe?",
+      "url": "https://physics.stackexchange.com/questions/877216/could-a-black-hole-eventually-become-a-white-hole-in-a-separate-universe",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-25T17:48",
+      "is_question": true
+    },
+    {
+      "title": "Quadratic Quintessence --&gt; ΛCDM?",
+      "url": "https://physics.stackexchange.com/questions/877206/quadratic-quintessence-%ce%9bcdm",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-25T15:01",
+      "is_question": true
+    },
+    {
+      "title": "Kindle or IngramSpark OR Getting a Literary Agent?",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xex1u0/kindle_or_ingramspark_or_getting_a_literary_agent/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-25T08:34",
+      "is_question": true
+    },
+    {
+      "title": "I need help advertising my book",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xemase/i_need_help_advertising_my_book/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-24T22:54",
+      "is_question": true
+    },
+    {
+      "title": "When submitting a short story for an anthology, what's to stop the recipients from 'stealing' your story?",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xexjc5/when_submitting_a_short_story_for_an_anthology/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-25T09:04",
+      "is_question": true
+    },
+    {
+      "title": "What should I read?",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xewvee/what_should_i_read/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T08:23",
+      "is_question": true
+    },
+    {
+      "title": "Fun history books?",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xeo7ll/fun_history_books/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T00:25",
+      "is_question": true
+    },
+    {
+      "title": "Requesting fantasy romance novels",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xemlfz/requesting_fantasy_romance_novels/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-24T23:08",
+      "is_question": true
+    },
+    {
+      "title": "Books for someone who used to love reading and is recovering from brain damage",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xejvw8/books_for_someone_who_used_to_love_reading_and_is/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-24T21:06",
+      "is_question": true
+    },
+    {
+      "title": "Recommend me a book that’ll get me out of my reading slump!",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xf9jxe/recommend_me_a_book_thatll_get_me_out_of_my/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T18:16",
+      "is_question": true
+    },
+    {
+      "title": "Books with Characters you want to Know.",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xetyfq/books_with_characters_you_want_to_know/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T05:27",
+      "is_question": true
+    },
+    {
+      "title": "college/uni setting romance books",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xesz8u/collegeuni_setting_romance_books/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T04:32",
+      "is_question": true
+    },
+    {
+      "title": "I am looking for militaristic books",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xeirm7/i_am_looking_for_militaristic_books/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-24T20:18",
+      "is_question": true
+    },
+    {
+      "title": "Book for a 3 hour flight",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xf0itm/book_for_a_3_hour_flight/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T11:59",
+      "is_question": true
+    },
+    {
+      "title": "Suggest me",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xez1gv/suggest_me/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T10:35",
+      "is_question": true
+    },
+    {
+      "title": "Books with stingy jack/jack o lantern as a character?",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xeq741/books_with_stingy_jackjack_o_lantern_as_a/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T02:05",
+      "is_question": true
+    },
+    {
+      "title": "Series Rankings and Rec Needed",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xep8ek/series_rankings_and_rec_needed/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T01:16",
+      "is_question": true
+    },
+    {
+      "title": "will i break my bones if i jump from 15 feet on pillows?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274781/will-i-break-my-bones-if-i-jump-from-15-feet-on-pillows",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": -2,
+      "comments": 2,
+      "ts": "2026-10-17T12:09",
+      "is_question": true
+    },
+    {
+      "title": "Implementing DOP853 from scratch in Python",
+      "url": "https://physics.stackexchange.com/questions/877195/implementing-dop853-from-scratch-in-python",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-10-25T00:28",
+      "is_question": true
+    },
+    {
+      "title": "How would life on a earth like planet in a sol like solar system be different in dark matter poor galaxy?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274806/how-would-life-on-a-earth-like-planet-in-a-sol-like-solar-system-be-different-in",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": -3,
+      "comments": 1,
+      "ts": "2026-10-20T20:19",
+      "is_question": true
+    },
+    {
+      "title": "World-building a super earth-like planet",
+      "url": "https://worldbuilding.stackexchange.com/questions/274796/world-building-a-super-earth-like-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-19T18:05",
+      "is_question": true
+    },
+    {
+      "title": "A Fix for Softmax and Cross-Entropy",
+      "url": "https://jonbarron.info/softmaxfix/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 19,
+      "comments": 1,
+      "ts": "2026-10-23T22:07",
+      "is_question": false
+    },
+    {
+      "title": "All existing implementations of softmax and cross-entropy have a subtle bug",
+      "url": "https://twitter.com/jon_barron/status/2113707875290042665",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-24T06:37",
+      "is_question": false
+    },
+    {
+      "title": "Buy into the Emacs Platform (2018)",
+      "url": "https://entropicthoughts.com/why-you-should-buy-into-the-emacs-platform",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-25T11:57",
+      "is_question": false
+    },
+    {
+      "title": "Swemak: Colemak for Swedish",
+      "url": "https://entropicthoughts.com/swemak",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-23T12:00",
+      "is_question": false
+    },
+    {
+      "title": "Script Dependencies with Nix",
+      "url": "https://entropicthoughts.com/python-dependencies-with-nix",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-22T15:02",
+      "is_question": false
+    },
+    {
+      "title": "mini rant: in-person sales bombed today because of another author",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xerhpg/mini_rant_inperson_sales_bombed_today_because_of/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-25T03:12",
+      "is_question": false
+    },
+    {
+      "title": "Review site results",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xehbwg/review_site_results/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-24T19:20",
+      "is_question": false
+    },
+    {
+      "title": "Those leaving KDP, where are you going? And why would it work out better over there ? (no shade)",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xehtdr/those_leaving_kdp_where_are_you_going_and_why/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-24T19:39",
+      "is_question": false
+    },
+    {
+      "title": "Advice for a fantasy- romance author",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xf6v2i/advice_for_a_fantasy_romance_author/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-25T16:30",
+      "is_question": false
+    },
+    {
+      "title": "Newbie Professional Writer",
+      "url": "https://www.reddit.com/r/selfpublish/comments/1xeq986/newbie_professional_writer/",
+      "source": "reddit/r/selfpublish",
+      "note": "独立出版(作者侧引流)",
+      "ts": "2026-10-25T02:08",
+      "is_question": false
+    },
+    {
+      "title": "Cowboy lit, action packed and meaningful.",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xeprnw/cowboy_lit_action_packed_and_meaningful/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T01:42",
+      "is_question": false
+    },
+    {
+      "title": "Dark setting with optimistic main character",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xf96fz/dark_setting_with_optimistic_main_character/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T18:01",
+      "is_question": false
+    },
+    {
+      "title": "New Dystopian Reccomendations",
+      "url": "https://www.reddit.com/r/booksuggestions/comments/1xf9nnm/new_dystopian_reccomendations/",
+      "source": "reddit/r/booksuggestions",
+      "note": "求书推荐(高购买意图)",
+      "ts": "2026-10-25T18:20",
+      "is_question": false
+    }
+  ]
+}

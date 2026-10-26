@@ -1,0 +1,156 @@
+{
+ "date": "2026-10-26",
+ "generated": "2026-10-26T02:06:47",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-10-26.json",
+ "sources_health": {
+  "stackexchange": 62,
+  "reddit_rss": 11,
+  "hackernews": 7,
+  "dedup_total": 58,
+  "question_form": 45,
+  "failures": [
+   "reddit/r/scifi: HTTPError HTTP 429",
+   "reddit/r/booksuggestions: HTTPError HTTP 429"
+  ]
+ },
+ "x_tiktok": "X 今日抓取失败: 一次 web_search 只返回无日期无互动数的旧帖转述 (含一条讲超人接飞机受压面积的长帖), 无可核验的当日提问帖与互动数, 未采信任何数值. TikTok 侧一次检索只命中第三方榜单页与旧实验视频聚合页, 无当日物理类问题帖, 判为抓取失败, 未编造帖子.",
+ "heat_verification": "SE API 2026-10-26 recheck via api.stackexchange.com (urllib 直连, 三次调用覆盖 physics 16 / worldbuilding 15 / space 10 共 41 条, filter=default): 入选 SE 题全部 open 且分数/答案数/浏览量逐条取自本次返回; 三条已关闭剔除 (physics 877196 Duplicate, space 70751 Not suitable, space 70767 Duplicate), 见 se_verified_2026-10-26.json.",
+ "dedup_note": "历史问题键 282 条 (全部 hot_*.json + qa_*.json, HTML 实体与符号归一) 加 difflib 近似匹配 (阈值 0.85, 用于抓住仅措辞微改的同题, 例如 877116 的 perpendicular rails 变体), 58 条候选中 30 条从未列、21 条曾列未注入、7 条已注入; 已注入的 7 条 (876829/274764/274789/876900/877039/877020/70763) 全部回避; 与前一日清单重叠 0 条 (877184/877168/877180/274825/70771/70769/274797 等 12 条全部不复用); 12 条全部经 qa 账本核对为从未注入.",
+ "top3_for_today": [
+  {
+   "slug": "cooperative-resonance-torsion",
+   "question": "Most efficient material for a telekinetic to launch as a weapon?"
+  },
+  {
+   "slug": "artificial-kondo-lattice",
+   "question": "Is there any connection between magnetism and inertia?"
+  },
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "If a black hole event horizon expands towards a clock, does the clock slow down just as it would if it was moving?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+   "heat": "SE API 2026-10-26 recheck: 16 points, 1 answers, 588 views, open, posted 2026-10-20",
+   "why": "池内分数最高的一条 16 分 588 浏览, 且是纯光学现象题: 同一束激光经同一块石头得到同心环, 读者会追问到底是成像、衍射还是干涉; 与本站周期阵列设定可自然对接",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: ulexite 是纤维状硼酸盐水合晶体, 纤维近乎平行并被天然包壳隔开, 单根纤维内靠全反射纵向导光, 所以整块石头能传像; 同心环有两条候选成因, 一是纤维束端面构成近二维周期阵列给出发散衍射环, 二是晶体本身的双折射在偏振光下的锥光干涉图; 判定办法是加偏振片并旋转, 干涉环随偏振变化, 纯衍射环不随. 设定层: 该页的阻碍式原子幻影栅格是虚构的周期阻碍结构.",
+   "use": "Top3 备选, 本轮未注入; 适合做光学长尾科普, 页内链 holographic-kpz-projection"
+  },
+  {
+   "question": "Most efficient material for a telekinetic to launch as a weapon?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon",
+   "heat": "SE API 2026-10-26 recheck: 11 points, 10 answers, 1291 views, open, posted 2026-10-21",
+   "why": "11 分 10 答 1291 浏览, 今日池内评论数与浏览量第一, 硬科幻读者最爱的设定工程题: 定能量预算下选什么材料",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 定能量下动能 0.5mv^2, 动量 sqrt(2mE), 所以重的块在同等焦耳下拿到更大动量, 穿透看密度与韧性而不是锋利度; 100 克以 100 m/s 出手约 500 焦耳已致命, 人体可持续功率只有百瓦级, 因此可信的超能力者只能慢速推重物. 设定层: 该页的协同共振与扭转压缩是虚构机制.",
+   "use": "当日主推, 写入 qa_2026-10-26.json 注入 cooperative-resonance-torsion 页; 内链 qm-tether-exosuit"
+  },
+  {
+   "question": "How is total linear momentum conserved in the Sun-Earth system?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+   "heat": "SE API 2026-10-26 recheck: 9 points, 6 answers, 882 views, open, posted 2026-10-15",
+   "why": "9 分 6 答 882 浏览, 常见误解型提问: 太阳看起来不动但系统总动量为零; 适合讲质心与反冲, 与三体架构设定同题",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 太阳与地球绕共同质心运动, 该质心在太阳内部约一个太阳半径以内, 地球的轨道动量被太阳的反向摆动抵消, 取太阳加地球为系统总动量守恒; 若把辐射算进来, 光子带走动量, 太阳质量缓慢下降, 二者仍须一起记账. 设定层: 三体式分配架构是虚构设定.",
+   "use": "备用, 本轮未注入; 内链 cooperative-resonance-torsion"
+  },
+  {
+   "question": "What spacecraft are using the 2026 Mars launch window?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+   "heat": "SE API 2026-10-26 recheck: 9 points, 2 answers, 1088 views, open, posted 2026-10-13",
+   "why": "9 分 1088 浏览, 时间敏感的真实航天清单题, 搜索意图强; 面向硬科幻读者的近未来任务盘点是天然引流点",
+   "map_to": "book",
+   "answer_angle": "真实层: 地火会合周期约 26 个月, 窗口发射需要把逃逸能量与到达相位配平, 具体任务清单以各机构公告为准, 本站不复述未核实的名单; 工程侧讨论集中在转移轨道选择与到达质量. 设定层: 只做书页引流, 不加虚构任务.",
+   "use": "书页引流, 本轮未注入; 回答不给未核实任务名"
+  },
+  {
+   "question": "Can a small dwarf star, roughly 0.075 solar masses, glow pink?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274804/can-a-small-dwarf-star-roughly-0-075-solar-masses-glow-pink",
+   "heat": "SE API 2026-10-26 recheck: 8 points, 5 answers, 1115 views, open, posted 2026-10-20",
+   "why": "8 分 5 答 1115 浏览, 恒星颜色的物理边界题: 0.075 太阳质量正好压在氢燃烧极限上, 颜色诉求与黑体谱冲突, 讨论度稳定",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 0.075 太阳质量落在氢燃烧极限附近, 这类天体有效温度约两千多开尔文, 黑体谱峰值在近红外, 可见光端偏橙红而不是粉; 粉是知觉词不是色温词, 要靠尘埃红化、散射混色或滤光才能得到. 设定层: 该页的电磁战场改写是虚构机制.",
+   "use": "备用, 本轮未注入; 内链 holographic-kpz-projection"
+  },
+  {
+   "question": "How Would Rings Affect Trade Winds?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+   "heat": "SE API 2026-10-26 recheck: 7 points, 2 answers, 858 views, open, posted 2026-10-17",
+   "why": "7 分 858 浏览, 行星环与大气环流的耦合题, 与本站行星工程设定直接同题, 已在 10-23 清单列过但从未注入",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 环按季节遮挡低纬日照并改变反照率, 把哈德莱环流改弱或改窄而不是关掉; 环只能稳定在洛希极限内, 且会向赤道面投影阴影. 定量要跑环流模式, 定性只说方向. 设定层: 三体式分配架构是虚构设定.",
+   "use": "复用候选, 本轮未注入; 内链 floquet-temporal-matter"
+  },
+  {
+   "question": "If a black hole event horizon expands towards a clock, does the clock slow down just as it would if it was moving?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877104/if-a-black-hole-event-horizon-expands-towards-a-clock-does-the-clock-slow-down",
+   "heat": "SE API 2026-10-26 recheck: 6 points, 4 answers, 1078 views, open, posted 2026-10-21",
+   "why": "6 分 4 答 1078 浏览, 等效原理的边界题: 视界移动是坐标描述还是局部物理, 是硬科幻读者最容易混淆的一点",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 局部自由落体参考系里时钟读数不变, 等效原理不允许局域实验区分引力与加速; 远处观测者看到的变慢是引力红移, 视界扩张改变的是表面引力与红移因子而不是时钟本身的走时率. 设定层: 该页的全息投影是虚构机制.",
+   "use": "Top3 备选, 本轮未注入; 内链 semi-dirac-mass-nullification"
+  },
+  {
+   "question": "Hexapodal Locomotion",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274751/hexapodal-locomotion",
+   "heat": "SE API 2026-10-26 recheck: 6 points, 3 answers, 861 views, open, posted 2026-10-12",
+   "why": "6 分 3 答 861 浏览, 六足步态与稳定性的经典设定题, 与本站外骨骼设定同题, 适合讲静态稳定与运输成本",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 六足可以做到任意时刻至少三足着地, 静态稳定不需要动态平衡, 代价是步频与单位距离能耗更高; 真实昆虫用三角步态, 高速时切换为动态步态. 设定层: 该页的量子系绳外骨骼是虚构装置.",
+   "use": "备用, 本轮未注入; 内链 cooperative-resonance-torsion"
+  },
+  {
+   "question": "Planet with cycle: Day — Night — Dusk — Night",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+   "heat": "SE API 2026-10-26 recheck: 6 points, 3 answers, 345 views, open, posted 2026-10-23",
+   "why": "6 分 3 答 345 浏览, 周期照明设定题, 与周期驱动物质设定可直接类比, 且是新帖",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 一个自转行星只有一个白昼与一个黑夜, 要出现昼-夜-昏-夜四段序列, 需要额外遮挡体或伴星形成二次食; 昏影长度由大气厚度与自转速率共同决定, 厚大气加慢自转可以拉出长昏影. 设定层: 该页的 Floquet 时相物质是虚构机制.",
+   "use": "备用, 本轮未注入; 内链 arena-tripartite-architecture"
+  },
+  {
+   "question": "Is there any connection between magnetism and inertia?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877204/is-there-any-connection-between-magnetism-and-inertia",
+   "heat": "SE API 2026-10-26 recheck: 1 point, 0 answers, 51 views, open, posted 2026-10-25",
+   "why": "今日全新帖, 1 分 0 答 51 浏览, 热度低但问题与人工近藤晶格页的磁性-有效质量机制完全同题, 适合做长尾科普; 分数低故不作为主推",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 基本粒子的惯性来自希格斯耦合而非磁性, 磁化储存的场能按 E=mc^2 计入质量但远低于可称量; 凝聚态里磁性确实改惯性, 近藤与重费米子体系中传导电子与局域磁矩耦合产生有效质量达裸电子数百倍的准粒子, 爱因斯坦-德哈斯与巴尼特效应则是磁化与机械角动量的互换. 设定层: 该页的可编排人工近藤晶格是虚构设定.",
+   "use": "写入 qa_2026-10-26.json 注入 artificial-kondo-lattice 页; 内链 semi-dirac-mass-nullification"
+  },
+  {
+   "question": "What effect would a “Starfish Prime” test have on Starlink?",
+   "source": "stackexchange/space",
+   "source_url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+   "heat": "SE API 2026-10-26 recheck: 2 points, 0 answers, 45 views, open, posted 2026-10-24",
+   "why": "2 分 0 答 45 浏览的新帖, 但题材是高空核爆对低轨巨型星座的影响, 与本站雷达/抗扰设定同题, 且 1962 年 Starfish Prime 有真实史料可讲",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 1962 年 7 月 9 日的 Starfish Prime 是约 1.4 百万吨当量、约 400 公里高度的空爆, 它造成人工辐射带并损伤当时多颗卫星; 今天的低轨巨型星座面对的是被捕获的高能电子、表面充电与单粒子翻转, 电子通量衰减以年计而不是小时计. 设定层: 该页的超晶格雷达是虚构装置.",
+   "use": "Top3 备选, 本轮未注入; 内链 artificial-kondo-lattice"
+  },
+  {
+   "question": "Kindle or IngramSpark OR Getting a Literary Agent?",
+   "source": "reddit/r/selfpublish",
+   "source_url": "https://www.reddit.com/r/selfpublish/comments/1xex1u0/kindle_or_ingramspark_or_getting_a_literary_agent/",
+   "heat": "Reddit RSS 2026-10-26 抓取: 2026-10-25T08:34 发帖, RSS 不带投票与评论数, 热度未量化",
+   "why": "今日 Reddit 唯一可用的出版路径提问, 与本书 14 平台分销的实操同题, 属于购买意图轨的转化入口",
+   "map_to": "book",
+   "answer_angle": "真实层: 三条路是不同生意, KDP 是自出版并拿平台版税, IngramSpark 提供书店与图书馆可订的批发渠道且通常可退货, 文学代理走的是传统出版社的预付金加版税; 硬科幻小众品类里, 自出版加精准投放常比传统投稿更快见到现金流. 设定层: 只做书页引流.",
+   "use": "书页引流, 本轮未注入; 不给未核实的费率数字"
+  }
+ ]
+}
