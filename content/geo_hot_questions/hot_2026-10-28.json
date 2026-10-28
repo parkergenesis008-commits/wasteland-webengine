@@ -1,0 +1,170 @@
+{
+ "date": "2026-10-28",
+ "generated": "2026-10-28T02:04:13",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "/Users/michaelray/webengine/content/geo_hot_questions/raw_2026-10-28.json",
+ "sources_health": {
+  "stackexchange": 62,
+  "reddit_rss": 27,
+  "hackernews": 7,
+  "dedup_total": 73,
+  "question_form": 62,
+  "failures": [
+   "reddit/r/booksuggestions: HTTP 429 Too Many Requests",
+   "reddit/r/suggestmeabook: HTTP 429 Too Many Requests"
+  ]
+ },
+ "x_tiktok": "X 今日抓取失败：2 次 web_search（一次主题检索、一次 site:x.com 检索）第二次返回空结果，第一次只命中 SciAm/TNW 类二手转述与无日期 hashtag 页，无当日提问帖与互动数，未采信任何数值。TikTok 今日抓取失败：2 次检索只命中搜索引擎索引的视频落地页（@neildegrassetyson 电子为何不塌缩、@projectfga 光速缝衣针 2.2M 赞），落地页无发布日期且互动数来自摘要而非页面本身，无法核实是否当日，未采信、未计入清单。",
+ "heat_verification": "全部 8 条 StackExchange heat 数字来自本次 api.stackexchange.com 2.3 questions 端点直连调用（3 次，quota 剩 285-287），逐条返回 score/answer_count/view_count/closed_reason，已存 se_recheck_2026-10-28.json；HN 17 分为本次脚本抓取；Reddit 3 条 RSS 未返回分数，如实标为拿不到。",
+ "dedup_note": "raw 池 73 条，与近 14 天热_*.json 账本比对：46 条从未列过，27 条曾列。今日 12 条中 11 条为 14 天内全新，1 条（HN 魔法态 17 分）10-18 曾列但从未注入，按可用回归。与前一日 hot_2026-10-27.json 重叠 0 条。剔除 2 条已关闭：physics 877235（Opinion-based）、space 70767（Duplicate）。",
+ "top3_for_today": [
+  {
+   "slug": "arena-tripartite-architecture",
+   "question": "High School Physics Doubt on Rotational Equilibrium"
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "I need food spoilage to be a consistent problem in a setting where techniques like vacuum packing, canning and freeze drying exist"
+  },
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "Can gravitational fields snap and reconnect like magnetic fields?"
+  }
+ ],
+ "entries": [
+  {
+   "question": "High School Physics Doubt on Rotational Equilibrium",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877191/high-school-physics-doubt-on-rotational-equilibrium",
+   "heat": "9 分 / 6 答 / 812 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "池内今日互动最高之一，6 个回答说明分歧真实存在。核心不是计算，而是两条判据为何必须同时成立。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "刚体静力平衡要合力为零且合力矩为零；合力为零时合力矩与取矩点无关，所以可选最省事的支点消掉未知反力；一对等大反向平行力合力为零却给出纯力偶，证明两条件是独立的。",
+   "use": "力学教学科普，注入 arena 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "Can gravitational fields snap and reconnect like magnetic fields?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877255/can-gravitational-fields-snap-and-reconnect-like-magnetic-fields",
+   "heat": "3 分 / 0 答 / 54 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "0 答的新题，科普空白最大。磁重联是成熟机制，引力没有对应结构，正好一次讲清场线只是记账工具。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "磁重联发生在非理想电阻区，改变拓扑并释放磁能，太阳耀斑与托卡马克锯齿都靠它；GR 里引力是曲率不是矢量场，引力电磁类比只在弱场慢动成立；可测的是曲率与潮汐，拓扑变化的真实对应物是视界合并，没有观测到引力重联。",
+   "use": "引力科普与注入 holographic 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "In absence of lowest potential energy law, will a water droplet still form a spherical shape?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877252/in-absence-of-lowest-potential-energy-law-will-a-water-droplet-still-form-a-sph",
+   "heat": "4 分 / 1 答 / 108 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "追问最小能量原理到底是公理还是结果，108 浏览 4 分。适合讲局部驱动力如何生出全局形状。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "球形来自表面张力使界面自由能取极小，而这条极小原理本身可由微观力加统计涨落推出；局部 Laplace 压差已经足以解释曲率均一，全局极小是结果不是前提；微米尺度热涨落会让界面明显起伏。",
+   "use": "统计物理科普，注入 kpz 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "Why is the compressor before the condenser in a fridge?",
+   "source": "stackexchange/physics",
+   "source_url": "https://physics.stackexchange.com/questions/877256/why-is-the-compressor-before-the-condenser-in-a-fridge",
+   "heat": "1 分 / 1 答 / 31 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "日常设备次序题，长尾搜索型。31 浏览但答案可一句话钉死，配图成本低。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "压缩机先把气态制冷剂压缩升温，冷凝器才能高于环境温度放热；随后节流降压吸热蒸发；把压缩机放到冷凝器之后就凑不出向环境排热所需的温差。",
+   "use": "热学科普，注入 type2 页连带探测器制冷链",
+   "repeat_14d": []
+  },
+  {
+   "question": "How would genetics of a species with a rainbow-variety of hair colors work?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274824/how-would-genetics-of-a-species-with-a-rainbow-variety-of-hair-colors-work",
+   "heat": "1 分 / 2 答 / 117 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "设定题，但真实抓手很强：哺乳动物毛色只有两类色素，彩虹色几乎只能靠结构色，正好接晶格/光子晶体。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实：哺乳动物毛色由真黑素与褐黑素比例决定，彩虹色更可能来自周期性纳米结构的结构色，实例在鸟类羽毛与甲虫外壳；遗传上需多个位点共同控制结构周期与观察角。设定层再谈人工晶格。",
+   "use": "注入 artificial-kondo-lattice 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "What different planet biome combinations are scientifically possible?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274866/what-different-planet-biome-combinations-are-scientifically-possible",
+   "heat": "0 分 / 0 答 / 53 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "0 答新题，开放但可答：群系由温度与降水的季节振幅和相位决定，天然对应周期驱动。",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实：科本分类按月均温与降水阈值划群系，振幅由自转倾角与轨道决定，大气环流再重新分配水汽；同一均温下季节振幅不同会长出完全不同的群系。设定层把周期驱动写成 Floquet 编程。",
+   "use": "注入 floquet 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "I need food spoilage to be a consistent problem in a setting where techniques like vacuum packing, canning and freeze drying exist",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274840/i-need-food-spoilage-to-be-a-consistent-problem-in-a-setting-where-techniques-li",
+   "heat": "6 分 / 7 答 / 858 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "今日池内浏览量最高一批，7 答说明这是设定硬伤高发区。真实食品科学给了清晰抓手：芽孢与厌氧菌。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实：腐败由微生物、水活度、pH、氧气与温度共同决定；罐头只杀灭营养体，芽孢耐热，真空包装反而筛选厌氧菌；脉冲电场与冷等离子体确有研究，但杀菌谱强依赖食品基质。设定层再谈电磁压制。",
+   "use": "注入 electromagnetic 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "How do the Guestarians know?",
+   "source": "stackexchange/worldbuilding",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274842/how-do-the-guestarians-know",
+   "heat": "6 分 / 9 答 / 722 浏览（SE API 2026-10-28 本次复核，open）",
+   "why": "9 答的高讨论设定题，本质是信息在不该出现的地方泄露，恰好对应阻挫原子绝缘体电荷不在原子位上的反直觉图像。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实：阻挫原子绝缘体的 Wannier 中心偏离原子坐标，电荷密度峰落在键间，这类被放错位置的电荷可用局域探针与角分辨谱测到。设定层把感知写成读取这种偏移。",
+   "use": "注入 obstructed 页",
+   "repeat_14d": []
+  },
+  {
+   "question": "Ender's Game criticisms: did I misunderstand the book?",
+   "source": "reddit/r/scifi",
+   "source_url": "https://www.reddit.com/r/scifi/comments/1xgokxu/enders_game_criticisms_did_i_misunderstand_the/",
+   "heat": "Reddit RSS 未返回分数与评论数（本次抓取）",
+   "why": "硬科幻读者在争设定自洽性与指挥伦理，人群与本书读者重合，适合导流书页。",
+   "map_to": "book",
+   "answer_angle": "不写答案，做书页导流：代理战争与指挥责任，对照本书的远程操控设定。",
+   "use": "书页引流",
+   "repeat_14d": []
+  },
+  {
+   "question": "What are your favorite sci-fi books?",
+   "source": "reddit/r/scifi",
+   "source_url": "https://www.reddit.com/r/scifi/comments/1xgxiyt/what_are_your_favorite_scifi_books/",
+   "heat": "Reddit RSS 未返回分数与评论数（本次抓取）",
+   "why": "高购买意图书单题，长期引流价值高于当日热度。",
+   "map_to": "book",
+   "answer_angle": "不写答案，做书页导流，突出硬科幻物理设定这一细分。",
+   "use": "书页引流",
+   "repeat_14d": []
+  },
+  {
+   "question": "How do we feel about fantasy-adjacent novels which have a sci-fi, plausible-ish underpinning?",
+   "source": "reddit/r/scifi",
+   "source_url": "https://www.reddit.com/r/scifi/comments/1xgwswx/how_do_we_feel_about_fantasyadjacent_novels_which/",
+   "heat": "Reddit RSS 未返回分数与评论数（本次抓取）",
+   "why": "直接讨论设定可信度的边界，正好是本书卖点，评论区天然是受众。",
+   "map_to": "book",
+   "answer_angle": "不写答案，做书页导流：什么程度的真实物理能撑住一个设定。",
+   "use": "书页引流",
+   "repeat_14d": []
+  },
+  {
+   "question": "Magic state cultivation on a superconducting quantum processor",
+   "source": "hackernews",
+   "source_url": "https://arxiv.org/abs/2512.13908",
+   "heat": "17 分 / 1 评论（HN 本次抓取）",
+   "why": "HN 当日科学类最高分条目。魔法态是通用量子计算的稀缺资源，与拓扑保护路线直接冲突也直接互补。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实：Clifford 门可经典模拟，非 Clifford 的魔法态才是稀缺资源，蒸馏与培育都在提高其保真度；超导处理器上的 cultivation 是用多个含噪态生长出高保真魔法态。设定层再谈任意子。",
+   "use": "注入 artificial-kondo-lattice 页，与彩虹发题二选一",
+   "repeat_14d": [
+    "2026-10-18"
+   ]
+  }
+ ]
+}

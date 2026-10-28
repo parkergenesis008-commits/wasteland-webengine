@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-28",
+ "entries": [
+  {
+   "slug": "arena-tripartite-architecture",
+   "question": "High School Physics Doubt on Rotational Equilibrium",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877191/high-school-physics-doubt-on-rotational-equilibrium",
+   "heat": "9 分 / 6 答 / 812 浏览（SE API 2026-10-28 本次复核，open）",
+   "answer_md": "**Real physics first: both conditions are needed, and the torque sum is origin-independent only when the net force is zero.** A rigid body is in static equilibrium when the vector sum of forces vanishes and the sum of torques about any single point also vanishes, and the second condition is not implied by the first, because two equal and opposite forces on different lines of action cancel as a force while still producing a pure couple. When the net force is zero the torque sum takes the same value about every point, which is why a solver may choose a pivot that removes unknown reaction forces from the equation. A body with zero net force but nonzero net torque still gains angular momentum, and a body with zero net torque but nonzero net force still accelerates linearly. This project's <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> page reuses that bookkeeping rule for a fictional three-way balance of forces, and that part is setting, not physics.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  },
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "Can gravitational fields snap and reconnect like magnetic fields?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877255/can-gravitational-fields-snap-and-reconnect-like-magnetic-fields",
+   "heat": "3 分 / 0 答 / 54 浏览（SE API 2026-10-28 本次复核，open）",
+   "answer_md": "**Real physics first: magnetic reconnection is a plasma process, and gravity has no confirmed counterpart.** Field lines in a magnetised plasma are frozen into the fluid while resistivity stays negligible, so topology can change only inside thin non-ideal regions where the field diffuses, reconnects and releases stored magnetic energy, which is what drives solar flares and the sawtooth crashes in tokamaks. Gravity in general relativity is spacetime curvature rather than a vector field, and the Maxwell-like gravitoelectromagnetic equations hold only in the weak-field slow-motion limit, where field lines are bookkeeping devices and not separately observable. The measurable quantities are curvature and tidal strain, and the closest real analogue of a topology change is the merger of two horizons, which happens, whereas classical area theorems forbid a horizon from splitting. No experiment has observed gravitational reconnection and there is no consensus mechanism for one. This project's <a href='holographic-kpz-projection.html'>holographic KPZ projection</a> page treats that stitching as boundary bookkeeping, which is fiction rather than a claim about general relativity.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-27",
+ "entries": [
+  {
+   "slug": "cooperative-resonance-torsion",
+   "question": "Why is a point mass on a rod whose ends slide freely on perpendicular rails equivalent to a simple pendulum?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877116/why-is-a-point-mass-on-a-rod-whose-ends-slide-freely-on-perpendicular-rails-equi",
+   "heat": "7 分 / 2 答 / 759 浏览（SE API 2026-10-27 本次复核）",
+   "answer_md": "**Real physics first: the equivalence comes from the constraint, not from the geometry.** Each rail can only push perpendicular to itself, so the two constraint forces do no work and the rod plus mass is left with a single degree of freedom, the rod's angle. With the mass at the midpoint the rod's midpoint traces a circle whose radius is half the rod length, so the kinetic energy is that of a point moving on that circle and the potential energy is the usual rise with height, which makes the Lagrangian identical to a simple pendulum of that half-length. Move the mass away from the midpoint and the path becomes an ellipse instead of a circle, so the pendulum mapping no longer holds and only a small-oscillation approximation survives. This project's <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion</a> page is fiction that stretches the same idea, imagining many constrained degrees of freedom locked into one collective oscillator, and that is a story premise rather than a measured effect.",
+   "links": [
+    "arena-tripartite-architecture"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "Does Actinium-225 glow due to Cherenkov radiation?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877220/does-actinium-225-glow-due-to-cherenkov-radiation",
+   "heat": "7 分 / 2 答 / 428 浏览（SE API 2026-10-27 本次复核）",
+   "answer_md": "**Real physics first: Cherenkov light needs a charged particle to move faster than light does in that medium, which in water is about three quarters of the speed of light in vacuum.** Alpha particles are heavy and lose their energy within a very short distance, so in water they drop below that threshold almost immediately and add little to the glow; the betas emitted by actinium-225 and its daughter nuclides are light enough to stay above threshold for a while and can produce a faint blue light in water or in glass. A glowing vial can also come from scintillation in the solution or from radioluminescence of the container, so the honest answer is that both channels may be present and that a measured spectrum, not a photograph, is what separates them. This project's <a href='electromagnetic-theater-override.html'>electromagnetic theater override</a> page is fiction that treats such faint light signatures as a readable fingerprint, and that detection story is invented for the setting.",
+   "links": [
+    "type2-superlattice-radar"
+   ]
+  }
+ ]
+}
