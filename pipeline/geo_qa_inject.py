@@ -153,12 +153,14 @@ def main():
         print("  QA 注入: 无待注入条目(幂等跳过)")
         return
 
-    # 🎯 当日主推置顶：优先注入、优先落 FAQ schema（run_geo 之后会优先 freshen 它）
+    # 🎯 当日主推置底：_prune_old_blocks(keep=3) 按文档序丢最早的块，若主推置顶
+    #    会在同批追加里变成该页最早的一块而被裁掉（2026-10-29 dry-run 实测：type2 页同批 5 条）。
+    #    "优先"由 run_geo 的 freshen 顺序保证，此处只需让主推块最后追加因而存活。
     if args.priority:
         head = [e for e in pending if e.get("slug") == args.priority]
         if head:
-            pending = head + [e for e in pending if e.get("slug") != args.priority]
-            print(f"  🎯 优先注入当日主推: [{args.priority}]")
+            pending = [e for e in pending if e.get("slug") != args.priority] + head
+            print(f"  🎯 当日主推最后追加(防裁剪): [{args.priority}] 共 {len(head)} 条")
         else:
             print(f"  ℹ️ 当日主推 [{args.priority}] 无待注入问答（可能已注入或未生成答案）")
 

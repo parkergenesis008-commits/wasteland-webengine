@@ -1,0 +1,41 @@
+{
+  "slug": "type2-superlattice-radar",
+  "question": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+  "rank": 1,
+  "source": "source: stackexchange/physics https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings, SE API 2026-10-29 复核 16 分 1 答 618 浏览 open",
+  "weight": 30,
+  "relevance": 25,
+  "score": 55,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10"
+  ],
+  "has_answer": true,
+  "date": "2026-10-29",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "type2-superlattice-radar",
+      "score": 55,
+      "weight": 30,
+      "relevance": 25,
+      "rank": 1
+    },
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 45,
+      "weight": 20,
+      "relevance": 25,
+      "rank": 2
+    },
+    {
+      "slug": "obstructed-atomic-phantom-grid",
+      "score": 20,
+      "weight": 10,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-29",
+ "entries": [
+  {
+   "slug": "type2-superlattice-radar",
+   "question": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+   "heat": "16 points, 1 answer, 618 views, open (SE API recheck 2026-10-29)",
+   "answer_md": "Ulexite is a naturally fibrous hydrated sodium calcium borate, and a polished face acts as a bundle of light pipes: each fibre guides light by total internal reflection, which is why the stone can carry an image from one face to the other. **A beam sent along the fibres comes out as a bright transmitted spot plus rings**, because part of the light strikes the cylindrical walls of the fibres at grazing angles and is redirected into a hollow cone; tilting the beam widens that cone, so the ring radius grows with incidence angle. The asker's own red and green test giving the same pattern is the giveaway that this is geometry, not dispersion. With the beam perpendicular to the fibre axis the guided path is gone and the light fans out in the plane perpendicular to the fibres. In the setting described on this page, an engineered **type-II superlattice is used the other way round**, turning a known incidence angle into a calibrated detector signature, and that device is fiction rather than a measured result.",
+   "links": [
+    "obstructed-atomic-phantom-grid"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "I need food spoilage to be a consistent problem in a setting where techniques like vacuum packing, canning and freeze drying exist",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274840/i-need-food-spoilage-to-be-a-consistent-problem-in-a-setting-where-techniques-li",
+   "heat": "9 points, 11 answers, 1276 views, open, top view count in today's pool (SE API recheck 2026-10-29)",
+   "answer_md": "Real food microbiology does not need invented limits: spoilage is set by water activity, pH, oxygen, temperature and which organisms arrive first, so removing one factor usually selects for the others. **Canning kills vegetative cells but not all spores**, which is why low-acid canned goods need a pressurised retort instead of boiling water, and vacuum packing strips oxygen and thereby favours anaerobes such as Clostridium and Listeria. Freeze-drying leaves a porous, hygroscopic matrix, so residual oxygen and moisture take-up during storage do the damage. Pulsed electric fields and cold plasma are real non-thermal candidates, but spore inactivation and shielding by the food matrix keep them narrow. The macroscopic field override discussed on this page is a **fictional device**, not a documented preservation technology.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,479 @@
+{
+  "_ts": "2026-10-29T01:58:27.637215",
+  "_date": "2026-10-29",
+  "counts": {
+    "stackexchange": 62,
+    "reddit_rss": 0,
+    "hackernews": 7,
+    "questions": 40,
+    "total": 46
+  },
+  "errors": [
+    "reddit/r/booksuggestions: URLError <urlopen error timed out>",
+    "reddit/r/suggestmeabook: URLError <urlopen error timed out>",
+    "reddit/r/AskScienceFiction: URLError <urlopen error timed out>",
+    "reddit/r/physics: URLError <urlopen error timed out>"
+  ],
+  "candidates": [
+    {
+      "title": "Most efficient material for a telekinetic to launch as a weapon?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 12,
+      "comments": 10,
+      "ts": "2026-10-21T21:49",
+      "is_question": true
+    },
+    {
+      "title": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+      "url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 16,
+      "comments": 1,
+      "ts": "2026-10-20T20:31",
+      "is_question": true
+    },
+    {
+      "title": "High school physics question on rotational equilibrium",
+      "url": "https://physics.stackexchange.com/questions/877191/high-school-physics-question-on-rotational-equilibrium",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 6,
+      "ts": "2026-10-24T19:41",
+      "is_question": true
+    },
+    {
+      "title": "How do the Guestarians know?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274842/how-do-the-guestarians-know",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 10,
+      "comments": 9,
+      "ts": "2026-10-25T22:03",
+      "is_question": true
+    },
+    {
+      "title": "I need food spoilage to be a consistent problem in a setting where techniques like; vacuum packing, canning and flash freezing all exist",
+      "url": "https://worldbuilding.stackexchange.com/questions/274840/i-need-food-spoilage-to-be-a-consistent-problem-in-a-setting-where-techniques-li",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 11,
+      "ts": "2026-10-25T20:43",
+      "is_question": true
+    },
+    {
+      "title": "Why are 2- and 3-body approximations useful?",
+      "url": "https://physics.stackexchange.com/questions/877225/why-are-2-and-3-body-approximations-useful",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 5,
+      "ts": "2026-10-26T07:24",
+      "is_question": true
+    },
+    {
+      "title": "Does Actinium-225 glow due to Cherenkov radiation?",
+      "url": "https://physics.stackexchange.com/questions/877220/does-actinium-225-glow-due-to-cherenkov-radiation",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 12,
+      "comments": 2,
+      "ts": "2026-10-25T20:01",
+      "is_question": true
+    },
+    {
+      "title": "The government has just injected massive amounts of cash into the economy via infrastructure spending. Why is the economy not inflating?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274825/the-government-has-just-injected-massive-amounts-of-cash-into-the-economy-via-in",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 10,
+      "ts": "2026-10-23T05:38",
+      "is_question": true
+    },
+    {
+      "title": "How is total linear momentum conserved in the Sun-Earth system?",
+      "url": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 9,
+      "comments": 6,
+      "ts": "2026-10-15T19:16",
+      "is_question": true
+    },
+    {
+      "title": "How would airplanes be optimized if people could unleash kilowatts of electricity?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 9,
+      "comments": 5,
+      "ts": "2026-10-18T14:34",
+      "is_question": true
+    },
+    {
+      "title": "Can a small dwarf star, roughly 0.075 solar masses, glow pink?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274804/can-a-small-dwarf-star-roughly-0-075-solar-masses-glow-pink",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 8,
+      "comments": 5,
+      "ts": "2026-10-20T18:31",
+      "is_question": true
+    },
+    {
+      "title": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?",
+      "url": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 4,
+      "ts": "2026-10-19T08:33",
+      "is_question": true
+    },
+    {
+      "title": "Why is the surface tension taken to act only on the perimeter?",
+      "url": "https://physics.stackexchange.com/questions/877020/why-is-the-surface-tension-taken-to-act-only-on-the-perimeter",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 2,
+      "ts": "2026-10-18T10:14",
+      "is_question": true
+    },
+    {
+      "title": "Can gravitational fields snap and reconnect like magnetic fields?",
+      "url": "https://physics.stackexchange.com/questions/877255/can-gravitational-fields-snap-and-reconnect-like-magnetic-fields",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 8,
+      "comments": 1,
+      "ts": "2026-10-27T15:11",
+      "is_question": true
+    },
+    {
+      "title": "How Would Rings Affect Trade Winds?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 7,
+      "comments": 2,
+      "ts": "2026-10-17T02:38",
+      "is_question": true
+    },
+    {
+      "title": "Planet with cycle: Day — Night — Dusk — Night",
+      "url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 4,
+      "ts": "2026-10-23T09:54",
+      "is_question": true
+    },
+    {
+      "title": "The legendary crossing of the strait: could it have actually happened?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274877/the-legendary-crossing-of-the-strait-could-it-have-actually-happened",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-10-28T00:41",
+      "is_question": true
+    },
+    {
+      "title": "How do I reduce charge on my glassware before weighing?",
+      "url": "https://physics.stackexchange.com/questions/877264/how-do-i-reduce-charge-on-my-glassware-before-weighing",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 6,
+      "comments": 2,
+      "ts": "2026-10-28T00:51",
+      "is_question": true
+    },
+    {
+      "title": "How hard would it be to locate the Apollo 11 launch abort subsystem?",
+      "url": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-19T12:45",
+      "is_question": true
+    },
+    {
+      "title": "How to physically interpret the crossed second derivative of the grand potential when a real gas is inside an external gravity field?",
+      "url": "https://physics.stackexchange.com/questions/877269/how-to-physically-interpret-the-crossed-second-derivative-of-the-grand-potential",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 5,
+      "comments": 1,
+      "ts": "2026-10-28T07:17",
+      "is_question": true
+    },
+    {
+      "title": "How did NASA choose which orbiter would fly a given mission?",
+      "url": "https://space.stackexchange.com/questions/70769/how-did-nasa-choose-which-orbiter-would-fly-a-given-mission",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 5,
+      "comments": 0,
+      "ts": "2026-10-22T18:44",
+      "is_question": true
+    },
+    {
+      "title": "Why is the compressor before the condenser in a fridge?",
+      "url": "https://physics.stackexchange.com/questions/877256/why-is-the-compressor-before-the-condenser-in-a-fridge",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 3,
+      "ts": "2026-10-27T16:27",
+      "is_question": true
+    },
+    {
+      "title": "Quantum Field Theory in Curved Space-times from the equivalence principle?",
+      "url": "https://physics.stackexchange.com/questions/877263/quantum-field-theory-in-curved-space-times-from-the-equivalence-principle",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 3,
+      "comments": 1,
+      "ts": "2026-10-27T23:27",
+      "is_question": true
+    },
+    {
+      "title": "Sustainability of eating an intelligent race",
+      "url": "https://worldbuilding.stackexchange.com/questions/274879/sustainability-of-eating-an-intelligent-race",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-10-28T03:05",
+      "is_question": true
+    },
+    {
+      "title": "Can I make power armor that is resistant to magnetic fields?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 2,
+      "comments": 2,
+      "ts": "2026-10-25T22:03",
+      "is_question": true
+    },
+    {
+      "title": "Why did GOES-19 go into safehold?",
+      "url": "https://space.stackexchange.com/questions/70771/why-did-goes-19-go-into-safehold",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-22T23:09",
+      "is_question": true
+    },
+    {
+      "title": "How would a large rotating payload mass affect spacecraft attitude control?",
+      "url": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 1,
+      "comments": 3,
+      "ts": "2026-10-18T23:43",
+      "is_question": true
+    },
+    {
+      "title": "Why magnetic field of the electromagnetic wave doesnt affect the dipole antenna?",
+      "url": "https://physics.stackexchange.com/questions/877271/why-magnetic-field-of-the-electromagnetic-wave-doesnt-affect-the-dipole-antenna",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": 2,
+      "comments": 1,
+      "ts": "2026-10-28T09:24",
+      "is_question": true
+    },
+    {
+      "title": "What effect would a “Starfish Prime” test have on Starlink?",
+      "url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-24T18:24",
+      "is_question": true
+    },
+    {
+      "title": "Ablatively Cooled Combustion Chambers for LOX-Based Liquid Rocket Engines",
+      "url": "https://space.stackexchange.com/questions/70774/ablatively-cooled-combustion-chambers-for-lox-based-liquid-rocket-engines",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-26T05:30",
+      "is_question": true
+    },
+    {
+      "title": "Space Elevator and Potential Energy",
+      "url": "https://space.stackexchange.com/questions/70763/space-elevator-and-potential-energy",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 2,
+      "ts": "2026-10-20T17:22",
+      "is_question": true
+    },
+    {
+      "title": "What different planet biome combinations are scientifically possible?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274866/what-different-planet-biome-combinations-are-scientifically-possible",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观设定问答(最相关: 设定物理可行性)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-27T03:04",
+      "is_question": true
+    },
+    {
+      "title": "Could a glider-like spaceplane with very high lift achieve a gentler atmospheric re-entry?",
+      "url": "https://space.stackexchange.com/questions/70767/could-a-glider-like-spaceplane-with-very-high-lift-achieve-a-gentler-atmospheric",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": 0,
+      "comments": 0,
+      "ts": "2026-10-21T08:15",
+      "is_question": true
+    },
+    {
+      "title": "will i break my bones if i jump from 15 feet on pillows?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274781/will-i-break-my-bones-if-i-jump-from-15-feet-on-pillows",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·科学依据类 · #science-based",
+      "points": -2,
+      "comments": 2,
+      "ts": "2026-10-17T12:09",
+      "is_question": true
+    },
+    {
+      "title": "How would life on a earth like planet in a sol like solar system be different in dark matter poor galaxy?",
+      "url": "https://worldbuilding.stackexchange.com/questions/274806/how-would-life-on-a-earth-like-planet-in-a-sol-like-solar-system-be-different-in",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": -2,
+      "comments": 1,
+      "ts": "2026-10-20T20:19",
+      "is_question": true
+    },
+    {
+      "title": "Machine-learning corrections to SGP4 orbit propagation",
+      "url": "https://space.stackexchange.com/questions/70773/machine-learning-corrections-to-sgp4-orbit-propagation",
+      "source": "stackexchange/space",
+      "note": "航天/天文问答(高票)",
+      "points": -2,
+      "comments": 0,
+      "ts": "2026-10-25T13:29",
+      "is_question": true
+    },
+    {
+      "title": "World-building a super earth-like planet",
+      "url": "https://worldbuilding.stackexchange.com/questions/274796/world-building-a-super-earth-like-planet",
+      "source": "stackexchange/worldbuilding",
+      "note": "世界观·物理可行性 · #physics",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-19T18:05",
+      "is_question": true
+    },
+    {
+      "title": "Can Negative Lengths and Imaginary Side Lengths Have a Geometric Interpretation, &amp; How Does This Relate to Physics?",
+      "url": "https://physics.stackexchange.com/questions/877268/can-negative-lengths-and-imaginary-side-lengths-have-a-geometric-interpretation",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -3,
+      "comments": 0,
+      "ts": "2026-10-28T06:10",
+      "is_question": true
+    },
+    {
+      "title": "Is there a threshold model where time-travel paradoxes only branch reality when causality conflict exceeds a critical value?",
+      "url": "https://physics.stackexchange.com/questions/877284/is-there-a-threshold-model-where-time-travel-paradoxes-only-branch-reality-when",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -5,
+      "comments": 0,
+      "ts": "2026-10-28T16:16",
+      "is_question": true
+    },
+    {
+      "title": "Is the space between two points A and B in the space finite?",
+      "url": "https://physics.stackexchange.com/questions/877279/is-the-space-between-two-points-a-and-b-in-the-space-finite",
+      "source": "stackexchange/physics",
+      "note": "物理问答(高票)",
+      "points": -6,
+      "comments": 0,
+      "ts": "2026-10-28T13:40",
+      "is_question": true
+    },
+    {
+      "title": "A Fix for Softmax and Cross-Entropy",
+      "url": "https://jonbarron.info/softmaxfix/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 19,
+      "comments": 1,
+      "ts": "2026-10-23T22:07",
+      "is_question": false
+    },
+    {
+      "title": "Magic state cultivation on a superconducting quantum processor",
+      "url": "https://arxiv.org/abs/2512.13908",
+      "source": "hn",
+      "note": "kw=superconductor",
+      "points": 18,
+      "comments": 1,
+      "ts": "2026-10-26T19:37",
+      "is_question": false
+    },
+    {
+      "title": "Buy into the Emacs Platform (2018)",
+      "url": "https://entropicthoughts.com/why-you-should-buy-into-the-emacs-platform",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 3,
+      "comments": 0,
+      "ts": "2026-10-25T11:57",
+      "is_question": false
+    },
+    {
+      "title": "All existing implementations of softmax and cross-entropy have a subtle bug",
+      "url": "https://twitter.com/jon_barron/status/2113707875290042665",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-24T06:37",
+      "is_question": false
+    },
+    {
+      "title": "MTL-Style Circuit Simulator",
+      "url": "https://entropicthoughts.com/mtl-style-circuit-simulator",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 2,
+      "comments": 0,
+      "ts": "2026-10-27T20:12",
+      "is_question": false
+    },
+    {
+      "title": "Show HN: Model Salt, fixing the pelican problem in LLMs by adding entropy",
+      "url": "https://modelsalt.com/",
+      "source": "hn",
+      "note": "kw=entropy",
+      "points": 1,
+      "comments": 0,
+      "ts": "2026-10-27T13:42",
+      "is_question": false
+    }
+  ]
+}

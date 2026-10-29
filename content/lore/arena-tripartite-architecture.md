@@ -34,37 +34,37 @@ This is not traditional electromagnetic repulsion. By altering the geometric cur
 ## Conclusion
 Anyons forge an immortal brain, 48-dimensional light weaves a covert neural network, and the Quantum Metric engine twists the sinews of reality. This tripartite unity is the final engineering blueprint of "Reality-as-Code."
 
-<!-- GEO-QA-START id=13f0dae958 -->
+<!-- GEO-QA-START id=69da7c73fd -->
 ## Extended Q&A — Reader Question
 
-**Q: Chern-Simons theory and the Jones Polynomial**
-<p><em>asked on stackexchange/physics · physics 2026-10-13 official API recheck: 8 votes, 0 answers, 125 views, open (posted 2026-09-30); highest-scoring unanswered physics question in today's pool</em></p>
+**Q: Can the relativistic effects on Mercury’s orbit be reproduced in Newtonian mechanics by modifying Newton's gravity force law?**
+<p><em>asked on stackexchange/physics · 10 points, 4 answers, 1150 views</em></p>
 
-Chern-Simons theory in three spacetime dimensions is built from an action that does not use the metric, so its natural observables are Wilson loops rather than local field values. Witten showed that the expectation value of those loops in non-Abelian SU(2) Chern-Simons theory at level k reproduces the Jones polynomial of the knot, which is why the theory is treated as a physical route to knot invariants. The same structure appears in two-dimensional electron systems, where excitations called anyons have braiding-dependent statistics, so the phase collected when two of them are exchanged carries information. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as a substrate whose operations are braids of those excitations; that architecture is a **setting**, not a built device.
+Most of the perihelion advance can be fitted inside Newtonian mechanics: add a small extra term to the force law, a 1/r^3 correction for instance, and a first-order perturbation of the orbit produces a steady precession whose size you can tune to the observed 43 arcseconds per century. **What such a fit cannot do is explain anything else.** The same curved spacetime that produces the Mercury precession also bends light by the observed amount, redshifts clocks and lets close binaries lose orbital energy to gravitational waves, while a modified Newtonian law has to introduce each of those effects separately and still cannot say what creates the extra term. It also keeps gravity instantaneous, which conflicts with a finite speed of light, and it gives no reason for the correction to have exactly the size Mercury needs. A modified force law is therefore a fit to one number, not a theory of the orbit. On this page the added term is written as an engineered correction to a synthetic metric, and that part is fiction.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876113/can-the-relativistic-effects-on-mercury-s-orbit-be-reproduced-in-newtonian-mecha" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=81866f4cc7 -->
+<!-- GEO-QA-START id=1b6cbd960a -->
 ## Extended Q&A — Reader Question
 
-**Q: Universe versus Balloon**
-<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-15: 0 votes, 4 answers, 78 views, open (posted 2026-10-14); most-answered new physics question in today's pool</em></p>
+**Q: Where did Frames go in the geometric formulation of Newton's laws? (Schuller)**
+<p><em>asked on stackexchange/physics · 7 points, 2 comments (脚本抓取计数; 本次未过 SE API 复核)</em></p>
 
-The balloon analogy puts galaxies on the surface of an inflating balloon, and it earns its keep on two points: that surface has no centre and no edge, and every dot recedes from every other dot. It breaks as soon as you ask what the balloon expands into, because what expands is the metric itself rather than matter flying through a pre-existing space, so recession is not a local velocity and can exceed the speed of light for very distant objects without violating local relativity. Redshift fits the same picture as wavelength stretching accumulated during propagation rather than a Doppler shift from motion through a medium, which is why the two descriptions are not interchangeable once distances get large. In our fiction the spacetime geometry is written as an addressable substrate that the setting perturbs on demand, which is a **setting** and not a physical result; the staging for that is described in <a href='holographic-kpz-projection.html'>the holographic projection layer</a>.
+In the geometric formulation the axioms of Newtonian mechanics are replaced by structure on a four-dimensional manifold: an absolute time function, a flat spatial metric on every level set of that time, and a flat connection that decides which worldlines are force free. **Frames do not disappear, they are demoted.** Once the laws are written in terms of that structure, an inertial frame is only a convenient section of a bundle or a choice of coordinates, and no frame is privileged because the structure is invariant under Galilean transformations. The reformulation is empirically equivalent to the original laws, so it adds no new prediction; what it buys is clarity, since absolute space and absolute time stop being unnamed assumptions and become explicit structure. On this page the spacetime metric is written as an engineered substrate assembled in pieces, which is fiction, in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a>.
 
-<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876891/universe-versus-balloon" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876401/where-did-frames-go-in-the-geometric-formulation-of-newtons-laws-schuller" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=b2cbf6bbb8 -->
+<!-- GEO-QA-START id=0dec1f95b9 -->
 ## Extended Q&A — Reader Question
 
-**Q: High School Physics Doubt on Rotational Equilibrium**
-<p><em>asked on Physics StackExchange · 9 分 / 6 答 / 812 浏览（SE API 2026-10-28 本次复核，open）</em></p>
+**Q: Generic coordinates transformation to a free falling frame**
+<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-14: 1 vote, 0 answers, 15 views, open (posted 2026-10-13); newest general-relativity question in today's pool</em></p>
 
-**Real physics first: both conditions are needed, and the torque sum is origin-independent only when the net force is zero.** A rigid body is in static equilibrium when the vector sum of forces vanishes and the sum of torques about any single point also vanishes, and the second condition is not implied by the first, because two equal and opposite forces on different lines of action cancel as a force while still producing a pure couple. When the net force is zero the torque sum takes the same value about every point, which is why a solver may choose a pivot that removes unknown reaction forces from the equation. A body with zero net force but nonzero net torque still gains angular momentum, and a body with zero net torque but nonzero net force still accelerates linearly. This project's <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> page reuses that bookkeeping rule for a fictional three-way balance of forces, and that part is setting, not physics.
+A freely falling frame is the local inertial frame of general relativity, and the transformation to it is constructive: at any chosen event one can pick Riemann normal coordinates in which the connection coefficients vanish and the metric reduces to the Minkowski form to first order. Curvature does not vanish with them, it reappears at second order as the Riemann tensor, and the measurable residue is tidal: nearby test particles show relative acceleration that no choice of coordinates can remove. That pointwise locality is exactly why the equivalence principle holds locally and not globally. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as an engine that reprograms coordinates through a quantum metric coupling, and that is a **setting**, not a realised capability.
 
-<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877191/high-school-physics-doubt-on-rotational-equilibrium" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876869/generic-coordinates-transformation-to-a-free-falling-frame" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-28 08:42 UTC -->
+<!-- Last fresh: 2026-10-29 08:55 UTC -->
