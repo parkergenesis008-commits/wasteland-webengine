@@ -32,37 +32,37 @@ In the context of Reality-as-Code, this **"Auger suppression" mechanism is trans
 ## 4. Conclusion: Scale-Free Horizon
 By precisely controlling the periodic thickness of atomic epitaxy, the visual system of advanced entities achieves continuously adjustable perception from zero to the limiting energy level. Bunkers, walls, and even the repulsive fog of electron clouds—within the scale-free vision of the Type-II superlattice—are all reduced to a naked cloud of tunneling quantum probabilities.
 
-<!-- GEO-QA-START id=495aeda3c8 -->
+<!-- GEO-QA-START id=57872b0406 -->
 ## Extended Q&A — Reader Question
 
-**Q: How does artificial light cancel or dominate the light coming from stars?**
-<p><em>asked on stackexchange/physics · stackexchange/physics snapshot 2026-10-08: 10 votes, 6 comments (live check unavailable 2026-10-09, sources unreachable)</em></p>
+**Q: Using magnetoreception as a very long-distance sense?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE new thread 2026-09-20, 3 points, 2 comments</em></p>
 
-Artificial light does not cancel starlight; it raises the sky background against which stars have to be seen. Scattering in the atmosphere spreads lamplight into a broad skyglow, so the contrast between a star and its surroundings falls, and faint stars disappear first because stars are near point sources while skyglow fills the whole field of view. A camera can partly recover the signal by narrowing its field of view and integrating longer, which is why observatories are sited far from cities. In our fiction, the <a href='type2-superlattice-radar.html'>Type-II superlattice perception matrix</a> treats that same contrast problem as solved by an artificial InAs/GaSb crystal with an engineered band structure; that architecture is a **setting**, not a demonstrated device.
+Magnetoreception is real, but it is a heading sense rather than a ranging one, and that distinction is what breaks the long-distance version. The geomagnetic field is a global background of roughly 25 to 65 microtesla, and animals that use it resolve changes of tens of nanotesla, which is a directional gradient read at the body, not a signal returning from a distant object. Two mechanisms are taken seriously, magnetite crystals acting as torque sensors and a radical-pair reaction in the cryptochrome protein whose outcome depends on field orientation, and both are local readings of a field that every object shares. **There is no emitted pulse and no echo, so distance and shape carry no information no matter how sensitive the detector gets.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> is where this page's own idea, an active fictive lattice that both emits and receives, departs from biology.
 
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876532/how-does-artificial-light-cancel-or-dominate-the-light-coming-from-stars" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=5227765156 -->
+<!-- GEO-QA-START id=f25b1e2b08 -->
 ## Extended Q&A — Reader Question
 
-**Q: How can a wireless mouse dongle efficiently receive a signal with a much longer wavelength?**
-<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-14: 12 votes, 3 answers, 605 views, open (posted 2026-10-12); highest-scoring question in today's pool</em></p>
+**Q: All existing communication infrastructure has vanished. What technology do we use to rebuild it?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)</em></p>
 
-A receiver shorter than the wavelength hits a size mismatch: the radiation resistance of an electrically small antenna falls as the antenna shrinks while the loss resistance does not, so efficiency and usable bandwidth drop together, and the Chu-Harrington limit caps how much bandwidth a given antenna volume can buy. Real dongles fight this with resonant matching networks, near-field coupling and a low-noise front end. The arithmetic is friendlier than it looks, because 2.4 GHz corresponds to a wavelength of about 12 centimetres, so a 2 to 3 centimetre antenna is already a sizeable fraction of a wavelength instead of an infinitesimal one, and frequency choice is the main engineering lever. In our fiction, <a href='type2-superlattice-radar.html'>type-II superlattice radar</a> is written as a staggered-gap lattice used for sub-wavelength reception, which is a **setting**, not a realised device.
+**Rebuilding communications starts with radio, because it is the only channel that needs no fixed infrastructure.** Ionospheric HF skywave carries beyond the horizon with modest power, VHF and UHF are limited to line of sight, and satellites give the fastest wide-area coverage at the cost of launch, so the practical order is point-to-point radio, then relay or satellite, then fibre wherever the ground is intact. The physics sets the ceilings: free-space power falls with the square of distance, latency is bounded by the speed of light, and Shannon capacity ties data rate to bandwidth and signal-to-noise rather than to cleverness. Nothing exotic is required and no new physics is needed. The fiction layer is separate: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines sensing past the usual wavelength limit, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876829/how-can-a-wireless-mouse-dongle-efficiently-receive-a-signal-with-a-much-longer" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=d4423953fa -->
+<!-- GEO-QA-START id=50b65534db -->
 ## Extended Q&A — Reader Question
 
-**Q: Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?**
-<p><em>asked on Physics StackExchange · 16 points, 1 answer, 618 views, open (SE API recheck 2026-10-29)</em></p>
+**Q: My first homemade crystal radio isn't receiving any AM stations**
+<p><em>asked on reddit/r/physics · reddit/r/physics 2026-10-06, RSS 未提供投票数(未采信任何数值) (raw_2026-10-07.json)</em></p>
 
-Ulexite is a naturally fibrous hydrated sodium calcium borate, and a polished face acts as a bundle of light pipes: each fibre guides light by total internal reflection, which is why the stone can carry an image from one face to the other. **A beam sent along the fibres comes out as a bright transmitted spot plus rings**, because part of the light strikes the cylindrical walls of the fibres at grazing angles and is redirected into a hollow cone; tilting the beam widens that cone, so the ring radius grows with incidence angle. The asker's own red and green test giving the same pattern is the giveaway that this is geometry, not dispersion. With the beam perpendicular to the fibre axis the guided path is gone and the light fans out in the plane perpendicular to the fibres. In the setting described on this page, an engineered **type-II superlattice is used the other way round**, turning a known incidence angle into a calibrated detector signature, and that device is fiction rather than a measured result.
+**A crystal set usually hears almost nothing because its antenna is a small fraction of an AM wavelength and there is no amplifier, so the captured energy sits below the detector diode's threshold.** AM broadcast wavelengths run to hundreds of metres, so real receivers use a long wire or a tuned loop, and the antenna, coil and detector all have to be impedance matched for any power to reach the earphone. A solid earth connection and a nearby strong station matter more than the schematic, so the usual fixes are a longer antenna, a better coil and a high impedance earphone. The fictional layer extrapolates the same physics: on <a href='type2-superlattice-radar.html'>the type-2 superlattice radar page</a> the array is imagined as a lattice that gathers a signal the size of a whisper, which is a setting device and not a claim about real receivers.
 
-<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radi" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-29 08:55 UTC -->
+<!-- Last fresh: 2026-10-30 08:53 UTC -->

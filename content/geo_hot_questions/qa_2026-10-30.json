@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-30",
+ "entries": [
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "What effect would a “Starfish Prime” test have on Starlink?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+   "heat": "2 points, 0 answers, 145 views, open (SE API recheck 2026-10-30)",
+   "answer_md": "Starfish Prime was a 1.4 megaton exoatmospheric test detonated at about 400 km in July 1962. **Its gamma rays produced Compton electrons that the geomagnetic field trapped into an artificial radiation belt**, and that belt persisted long enough to damage several satellites already in low orbit. A repeat over a megaconstellation would act through two channels: the prompt EMP that couples into unshielded electronics, and the long-lived trapped population that raises total dose and surface charging across the shell. Starlink sits near 550 km, below the core of the historical belt, so the realistic risk is dose, single-event upsets and charging rather than a single lightning-like blast; radiation-tolerant parts and prompt deorbit of failed units are the counters. On the <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/electromagnetic-theater-override.html'>electromagnetic theater</a> page, that same physics is pushed into fiction: the binding forces of matter are treated as an interface that can be locally rewritten, and a real EMP is only the physical edge of the idea.",
+   "links": [
+    "type2-superlattice-radar"
+   ]
+  },
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "What different planet biome combinations are scientifically possible?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274866/what-different-planet-biome-combinations-are-scientifically-possible",
+   "heat": "0 points, 0 answers, 90 views, open (SE API recheck 2026-10-30)",
+   "answer_md": "In real climatology a biome is set by mean temperature and moisture availability, so the space of possible combinations comes from how heat and water are distributed, not from a fixed catalogue. **Continents, rain shadows, ocean fraction, axial tilt and rotation rate create the gradients**, which is why one planet can hold hot desert beside temperate rainforest. Tidally locked and high-obliquity worlds rearrange those gradients instead of inventing new biomes: you get terminator rings, seasonal flips and banded deserts rather than latitude belts. Combinations that break the energy budget, such as a permanent night side with no heat transport, reduce diversity instead of adding to it. On this page the reasoning is inverted into fiction: biomes are the visible output of a growth equation, and the <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html'>KPZ</a> machinery is used to generate terrain procedurally, which is a setting device and not a measured result.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "electromagnetic-theater-override",
+  "question": "What effect would a “Starfish Prime” test have on Starlink?",
+  "rank": 1,
+  "source": "source: stackexchange/space https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink, SE API 2026-10-30 复核 2 分 0 答 145 浏览 open",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(effect,would,starfish) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-10-30",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "electromagnetic-theater-override",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "kpz-reality-rendering",
+      "score": 53,
+      "weight": 20,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "floquet-temporal-matter",
+      "score": 20,
+      "weight": 10,
+      "relevance": 10,
+      "rank": 3
+    }
+  ]
+}

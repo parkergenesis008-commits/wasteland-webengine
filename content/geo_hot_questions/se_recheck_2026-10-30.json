@@ -1,0 +1,863 @@
+{
+ "date": "2026-10-30",
+ "note": "SE API 2.3 questions 直连 3 次 (physics/worldbuilding/space)+1 次补查, 逐条取 score/answer_count/view_count/closed_reason",
+ "quota_remaining": 283,
+ "responses": {
+  "physics": [
+   {
+    "items": [
+     {
+      "tags": [
+       "homework-and-exercises",
+       "work",
+       "calculus",
+       "intuition"
+      ],
+      "migrated_from": {
+       "other_site": {
+        "aliases": [
+         "https://maths.stackexchange.com",
+         "https://mathematics.stackexchange.com"
+        ],
+        "styling": {
+         "tag_background_color": "#888888",
+         "tag_foreground_color": "#000",
+         "link_color": "#0077CC"
+        },
+        "related_sites": [
+         {
+          "relation": "meta",
+          "api_site_parameter": "math.meta",
+          "site_url": "https://math.meta.stackexchange.com",
+          "name": "Mathematics Meta Stack Exchange"
+         },
+         {
+          "relation": "chat",
+          "site_url": "https://chat.stackexchange.com?tab=site&host=math.stackexchange.com",
+          "name": "Chat Stack Exchange"
+         }
+        ],
+        "markdown_extensions": [
+         "MathJax"
+        ],
+        "launch_date": 1288038715,
+        "open_beta_date": 1280257200,
+        "closed_beta_date": 1279652400,
+        "site_state": "normal",
+        "high_resolution_icon_url": "https://math.stackexchange.com/Content/Sites/math/Img/apple-touch-icon@2.png",
+        "favicon_url": "https://math.stackexchange.com/Content/Sites/math/Img/favicon.ico",
+        "icon_url": "https://math.stackexchange.com/Content/Sites/math/Img/apple-touch-icon.png",
+        "audience": "people studying math at any level and professionals in related fields",
+        "site_url": "https://math.stackexchange.com",
+        "api_site_parameter": "math",
+        "logo_url": "https://math.stackexchange.com/Content/Sites/math/Img/logo.png",
+        "name": "Mathematics",
+        "site_type": "main_site"
+       },
+       "on_date": 1793214280,
+       "question_id": 5153052
+      },
+      "owner": {
+       "account_id": 2848458,
+       "reputation": 159,
+       "user_id": 331812,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/BOGaCwbz.jpg?s=256",
+       "display_name": "Mike Pierce",
+       "link": "https://physics.stackexchange.com/users/331812/mike-pierce"
+      },
+      "is_answered": true,
+      "view_count": 402,
+      "answer_count": 4,
+      "score": 4,
+      "last_activity_date": 1793288378,
+      "creation_date": 1793203864,
+      "last_edit_date": 1793288378,
+      "question_id": 877290,
+      "link": "https://physics.stackexchange.com/questions/877290/can-my-understanding-of-the-physics-on-this-total-work-done-pumping-water-from",
+      "title": "Can my understanding of the physics on this &quot;total work done pumping water from a tank&quot; problem be verified or corrected?"
+     },
+     {
+      "tags": [
+       "thermodynamics",
+       "reversibility",
+       "adiabatic",
+       "carnot-cycle"
+      ],
+      "owner": {
+       "account_id": 5307864,
+       "reputation": 486,
+       "user_id": 199245,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/lhMVg69F.jpg?s=256",
+       "display_name": "CarloC",
+       "link": "https://physics.stackexchange.com/users/199245/carloc"
+      },
+      "is_answered": false,
+      "view_count": 52,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1793281610,
+      "creation_date": 1793273408,
+      "last_edit_date": 1793281610,
+      "question_id": 877301,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/877301/breaking-down-a-reversible-process-into-multiple-carnot-cycles-in-order-to-appro",
+      "title": "Breaking down a reversible process into multiple Carnot cycles in order to approximate it"
+     },
+     {
+      "tags": [
+       "general-relativity",
+       "angular-momentum",
+       "orbital-motion",
+       "time-dilation",
+       "frame-dragging"
+      ],
+      "owner": {
+       "account_id": 15589613,
+       "reputation": 817,
+       "user_id": 226214,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/c69de5575bcfc7ef1c55d55d11930105?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Agerhell",
+       "link": "https://physics.stackexchange.com/users/226214/agerhell"
+      },
+      "is_answered": false,
+      "view_count": 61,
+      "answer_count": 0,
+      "score": 1,
+      "last_activity_date": 1793269710,
+      "creation_date": 1793264476,
+      "last_edit_date": 1793269710,
+      "question_id": 877299,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/877299/frame-dragging-and-two-point-masses-in-circular-motion",
+      "title": "Frame dragging and two point masses in circular motion"
+     },
+     {
+      "tags": [
+       "electrostatics",
+       "energy-conservation",
+       "potential-energy",
+       "capacitance",
+       "dissipation"
+      ],
+      "owner": {
+       "account_id": 23774118,
+       "reputation": 477,
+       "user_id": 324007,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/453a24b364c980e635c54835a9c3b346?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Haridev mohan",
+       "link": "https://physics.stackexchange.com/users/324007/haridev-mohan"
+      },
+      "is_answered": true,
+      "view_count": 85,
+      "closed_date": 1793254860,
+      "accepted_answer_id": 877287,
+      "answer_count": 3,
+      "score": 2,
+      "last_activity_date": 1793254743,
+      "creation_date": 1793212047,
+      "last_edit_date": 1793254743,
+      "question_id": 877286,
+      "link": "https://physics.stackexchange.com/questions/877286/decrease-in-potential-energy-while-connecting-two-conductors",
+      "closed_reason": "Duplicate",
+      "title": "Decrease in potential energy while connecting two conductors"
+     },
+     {
+      "tags": [
+       "quantum-mechanics",
+       "photoelectric-effect"
+      ],
+      "owner": {
+       "account_id": 47232832,
+       "reputation": 91,
+       "user_id": 592598,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/rUS33ZTk.webp?s=256",
+       "display_name": "The anonymous",
+       "link": "https://physics.stackexchange.com/users/592598/the-anonymous"
+      },
+      "is_answered": true,
+      "view_count": 1789,
+      "accepted_answer_id": 877043,
+      "answer_count": 4,
+      "score": 8,
+      "last_activity_date": 1792673762,
+      "creation_date": 1792398817,
+      "last_edit_date": 1792415637,
+      "question_id": 877039,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti",
+      "title": "How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?"
+     },
+     {
+      "tags": [
+       "quantum-mechanics",
+       "classical-mechanics",
+       "phase-space",
+       "semiclassical",
+       "wigner-transform"
+      ],
+      "owner": {
+       "account_id": 1370104,
+       "reputation": 139113,
+       "user_id": 8563,
+       "user_type": "registered",
+       "accept_rate": 56,
+       "profile_image": "https://i.sstatic.net/eUccf.png?s=256",
+       "display_name": "Emilio Pisanty",
+       "link": "https://physics.stackexchange.com/users/8563/emilio-pisanty"
+      },
+      "is_answered": true,
+      "view_count": 1199,
+      "answer_count": 5,
+      "score": 18,
+      "last_activity_date": 1530793855,
+      "creation_date": 1471444381,
+      "last_edit_date": 1472731955,
+      "question_id": 274879,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/274879/can-i-swap-quantum-mechanical-ground-state-for-some-classical-trajectory-distrib",
+      "title": "Can I swap quantum mechanical ground state for some classical trajectory distribution and have it sit still after the swap?"
+     },
+     {
+      "tags": [
+       "quantum-mechanics",
+       "electromagnetism",
+       "schroedinger-equation",
+       "gauge-invariance",
+       "covariance"
+      ],
+      "owner": {
+       "account_id": 6502823,
+       "reputation": 1661,
+       "user_id": 84150,
+       "user_type": "registered",
+       "accept_rate": 62,
+       "profile_image": "https://i.sstatic.net/6VGGH.jpg?s=256",
+       "display_name": "anon01",
+       "link": "https://physics.stackexchange.com/users/84150/anon01"
+      },
+      "is_answered": true,
+      "view_count": 1954,
+      "answer_count": 1,
+      "score": 4,
+      "last_activity_date": 1472023700,
+      "creation_date": 1471397164,
+      "last_edit_date": 1472016940,
+      "question_id": 274776,
+      "content_license": "CC BY-SA 3.0",
+      "link": "https://physics.stackexchange.com/questions/274776/gauge-invariance",
+      "title": "Gauge invariance"
+     }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 287
+   },
+   {
+    "items": [
+     {
+      "tags": [
+       "newtonian-mechanics",
+       "newtonian-gravity",
+       "momentum",
+       "orbital-motion",
+       "centrifugal-force"
+      ],
+      "owner": {
+       "account_id": 47222204,
+       "reputation": 99,
+       "user_id": 592428,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/c0691f9baefdeb237cd074d2dc2aac6d?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Lama Stady",
+       "link": "https://physics.stackexchange.com/users/592428/lama-stady"
+      },
+      "is_answered": true,
+      "view_count": 904,
+      "answer_count": 6,
+      "score": 9,
+      "last_activity_date": 1792197041,
+      "creation_date": 1792091793,
+      "last_edit_date": 1792197041,
+      "question_id": 876939,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://physics.stackexchange.com/questions/876939/how-is-total-linear-momentum-conserved-in-the-sun-earth-system",
+      "title": "How is total linear momentum conserved in the Sun-Earth system?"
+     }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 283
+   }
+  ],
+  "worldbuilding": [
+   {
+    "items": [
+     {
+      "tags": [
+       "science-based",
+       "atmosphere",
+       "firearms",
+       "airships"
+      ],
+      "owner": {
+       "account_id": 43009146,
+       "reputation": 1,
+       "user_id": 133014,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/f63e72924f22a32435ab2cd478c85ac4?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Ermenher",
+       "link": "https://worldbuilding.stackexchange.com/users/133014/ermenher"
+      },
+      "is_answered": false,
+      "view_count": 25,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1793284361,
+      "creation_date": 1793284361,
+      "question_id": 274893,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274893/what-effects-would-a-4-atm-atmosphere-have-on-airships-and-ranged-weapons",
+      "title": "What effects would a 4 atm atmosphere have on airships and ranged weapons?"
+     },
+     {
+      "tags": [
+       "xenobiology",
+       "population",
+       "insectoid",
+       "review-my-idea"
+      ],
+      "owner": {
+       "account_id": 47037198,
+       "reputation": 289,
+       "user_id": 147127,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/71f53b2a93d74957ea39769eac72180f?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Soso Woodbine",
+       "link": "https://worldbuilding.stackexchange.com/users/147127/soso-woodbine"
+      },
+      "is_answered": true,
+      "view_count": 669,
+      "answer_count": 2,
+      "score": 3,
+      "last_activity_date": 1793199263,
+      "creation_date": 1793156705,
+      "last_edit_date": 1793160138,
+      "question_id": 274879,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274879/sustainability-of-eating-an-intelligent-race",
+      "title": "Sustainability of eating an intelligent race"
+     }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 287
+   },
+   {
+    "items": [
+     {
+      "tags": [
+       "geology",
+       "ocean",
+       "alternate-earth",
+       "tidal-forces"
+      ],
+      "owner": {
+       "account_id": 45520926,
+       "reputation": 165,
+       "user_id": 142670,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/T3qSjlJj.jpg?s=256",
+       "display_name": "UncommonFrog",
+       "link": "https://worldbuilding.stackexchange.com/users/142670/uncommonfrog"
+      },
+      "is_answered": true,
+      "view_count": 1009,
+      "accepted_answer_id": 274878,
+      "answer_count": 4,
+      "score": 7,
+      "last_activity_date": 1793291569,
+      "creation_date": 1793148089,
+      "last_edit_date": 1793235899,
+      "question_id": 274877,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274877/the-legendary-crossing-of-the-strait-could-it-have-actually-happened",
+      "title": "The legendary crossing of the strait: could it have actually happened?"
+     },
+     {
+      "tags": [
+       "science-based",
+       "electromagnetism",
+       "armors"
+      ],
+      "owner": {
+       "account_id": 30071225,
+       "reputation": 755,
+       "user_id": 128855,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/A2BgiEI8.png?s=256",
+       "display_name": "Jason Blake",
+       "link": "https://worldbuilding.stackexchange.com/users/128855/jason-blake"
+      },
+      "is_answered": true,
+      "view_count": 813,
+      "answer_count": 3,
+      "score": 3,
+      "last_activity_date": 1793286515,
+      "creation_date": 1792965795,
+      "last_edit_date": 1793132306,
+      "question_id": 274841,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+      "title": "Can I make power armor that is resistant to magnetic fields?"
+     },
+     {
+      "tags": [
+       "biology",
+       "super-powers",
+       "food"
+      ],
+      "owner": {
+       "account_id": 8853673,
+       "reputation": 31379,
+       "user_id": 25822,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/66h1k.png?s=256",
+       "display_name": "Trish",
+       "link": "https://worldbuilding.stackexchange.com/users/25822/trish"
+      },
+      "is_answered": true,
+      "view_count": 1079,
+      "answer_count": 9,
+      "score": 11,
+      "last_activity_date": 1793113767,
+      "creation_date": 1792965822,
+      "last_edit_date": 1792975961,
+      "question_id": 274842,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274842/how-do-the-guestarians-know",
+      "title": "How do the Guestarians know?"
+     },
+     {
+      "tags": [
+       "economy",
+       "infrastructure",
+       "governance",
+       "finances",
+       "money"
+      ],
+      "owner": {
+       "account_id": 35769122,
+       "reputation": 4448,
+       "user_id": 127767,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/64f65ee3db8718c1077c3c2e328262b5?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "user119041",
+       "link": "https://worldbuilding.stackexchange.com/users/127767/user119041"
+      },
+      "is_answered": true,
+      "view_count": 1204,
+      "accepted_answer_id": 274833,
+      "answer_count": 10,
+      "score": 7,
+      "last_activity_date": 1793105528,
+      "creation_date": 1792733917,
+      "question_id": 274825,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274825/the-government-has-just-injected-massive-amounts-of-cash-into-the-economy-via-in",
+      "title": "The government has just injected massive amounts of cash into the economy via infrastructure spending. Why is the economy not inflating?"
+     },
+     {
+      "tags": [
+       "science-based",
+       "planets"
+      ],
+      "owner": {
+       "account_id": 11333202,
+       "reputation": 1,
+       "user_id": 40481,
+       "user_type": "registered",
+       "profile_image": "https://lh3.googleusercontent.com/-_Zbei-DDJaU/AAAAAAAAAAI/AAAAAAAABp0/qKwIxVFfysY/s256-rj/photo.jpg",
+       "display_name": "Ronja13",
+       "link": "https://worldbuilding.stackexchange.com/users/40481/ronja13"
+      },
+      "is_answered": false,
+      "view_count": 90,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1793096578,
+      "creation_date": 1793070241,
+      "last_edit_date": 1793096578,
+      "question_id": 274866,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274866/what-different-planet-biome-combinations-are-scientifically-possible",
+      "title": "What different planet biome combinations are scientifically possible?"
+     },
+     {
+      "tags": [
+       "space",
+       "orbital-mechanics",
+       "day-night"
+      ],
+      "owner": {
+       "account_id": 47258818,
+       "reputation": 61,
+       "user_id": 148709,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/57be93da8bc0de2366d9ef4d6d779fba?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Maksym Kobzar",
+       "link": "https://worldbuilding.stackexchange.com/users/148709/maksym-kobzar"
+      },
+      "is_answered": true,
+      "view_count": 704,
+      "answer_count": 4,
+      "score": 6,
+      "last_activity_date": 1793000829,
+      "creation_date": 1792749299,
+      "question_id": 274829,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+      "title": "Planet with cycle: Day — Night — Dusk — Night"
+     },
+     {
+      "tags": [
+       "stars",
+       "brown-dwarf"
+      ],
+      "owner": {
+       "account_id": 47243857,
+       "reputation": 81,
+       "user_id": 148656,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/oTzluuEA.png?s=256",
+       "display_name": "Gared",
+       "link": "https://worldbuilding.stackexchange.com/users/148656/gared"
+      },
+      "is_answered": true,
+      "view_count": 1140,
+      "answer_count": 5,
+      "score": 8,
+      "last_activity_date": 1792581926,
+      "creation_date": 1792521076,
+      "question_id": 274804,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274804/can-a-small-dwarf-star-roughly-0-075-solar-masses-glow-pink",
+      "title": "Can a small dwarf star, roughly 0.075 solar masses, glow pink?"
+     },
+     {
+      "tags": [
+       "magic",
+       "engineering",
+       "energy",
+       "electricity",
+       "aircraft"
+      ],
+      "owner": {
+       "account_id": 26057083,
+       "reputation": 6967,
+       "user_id": 97812,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/XIrL11Ec.jpg?s=256",
+       "display_name": "Rhymehouse",
+       "link": "https://worldbuilding.stackexchange.com/users/97812/rhymehouse"
+      },
+      "is_answered": true,
+      "view_count": 1538,
+      "accepted_answer_id": 274791,
+      "answer_count": 5,
+      "score": 9,
+      "last_activity_date": 1792575695,
+      "creation_date": 1792334091,
+      "last_edit_date": 1792410400,
+      "question_id": 274789,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274789/how-would-airplanes-be-optimized-if-people-could-unleash-kilowatts-of-electricit",
+      "title": "How would airplanes be optimized if people could unleash kilowatts of electricity?"
+     },
+     {
+      "tags": [
+       "climate",
+       "ocean",
+       "planetary-rings",
+       "wind"
+      ],
+      "owner": {
+       "account_id": 47227428,
+       "reputation": 71,
+       "user_id": 148593,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/60640580df81aba0818943379b90f278?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Ashley May",
+       "link": "https://worldbuilding.stackexchange.com/users/148593/ashley-may"
+      },
+      "is_answered": true,
+      "view_count": 873,
+      "answer_count": 2,
+      "score": 7,
+      "last_activity_date": 1792493533,
+      "creation_date": 1792204735,
+      "last_edit_date": 1792267370,
+      "question_id": 274776,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://worldbuilding.stackexchange.com/questions/274776/how-would-rings-affect-trade-winds",
+      "title": "How Would Rings Affect Trade Winds?"
+     }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 284
+   }
+  ],
+  "space": [
+   {
+    "items": [
+     {
+      "tags": [
+       "radiation",
+       "starlink",
+       "nuclear",
+       "military"
+      ],
+      "owner": {
+       "account_id": 23106509,
+       "reputation": 38147,
+       "user_id": 44272,
+       "user_type": "registered",
+       "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GgL4oX6BIdIG5o0BCKpwXAdTsTja49icGMr2KcO=k-s256",
+       "display_name": "Woody",
+       "link": "https://space.stackexchange.com/users/44272/woody"
+      },
+      "is_answered": false,
+      "view_count": 145,
+      "answer_count": 0,
+      "score": 2,
+      "last_activity_date": 1793116569,
+      "creation_date": 1792866261,
+      "last_edit_date": 1793116569,
+      "question_id": 70772,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+      "title": "What effect would a “Starfish Prime” test have on Starlink?"
+     },
+     {
+      "tags": [
+       "apollo-11",
+       "launch-escape-system"
+      ],
+      "owner": {
+       "account_id": 10741605,
+       "reputation": 4305,
+       "user_id": 52724,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/mLZddBGD.webp?s=256",
+       "display_name": "Miss Understands",
+       "link": "https://space.stackexchange.com/users/52724/miss-understands"
+      },
+      "is_answered": true,
+      "view_count": 1394,
+      "answer_count": 1,
+      "score": 5,
+      "last_activity_date": 1793110782,
+      "creation_date": 1792413918,
+      "last_edit_date": 1792646322,
+      "question_id": 70760,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70760/how-hard-would-it-be-to-locate-the-apollo-11-launch-abort-subsystem",
+      "title": "How hard would it be to locate the Apollo 11 launch abort subsystem?"
+     },
+     {
+      "tags": [
+       "engines",
+       "lox",
+       "ablative"
+      ],
+      "owner": {
+       "account_id": 29989272,
+       "reputation": 459,
+       "user_id": 52783,
+       "user_type": "registered",
+       "profile_image": "https://i.sstatic.net/5IzJC.jpg?s=256",
+       "display_name": "Mohiuddin Ahmed",
+       "link": "https://space.stackexchange.com/users/52783/mohiuddin-ahmed"
+      },
+      "is_answered": false,
+      "view_count": 79,
+      "answer_count": 0,
+      "score": 2,
+      "last_activity_date": 1792992629,
+      "creation_date": 1792992629,
+      "question_id": 70774,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70774/ablatively-cooled-combustion-chambers-for-lox-based-liquid-rocket-engines",
+      "title": "Ablatively Cooled Combustion Chambers for LOX-Based Liquid Rocket Engines"
+     },
+     {
+      "tags": [
+       "sgp4"
+      ],
+      "owner": {
+       "account_id": 47169555,
+       "reputation": 1,
+       "user_id": 81422,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/2fce8ecd09140c0dacf2db1bdfb4c4f5?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Sophia",
+       "link": "https://space.stackexchange.com/users/81422/sophia"
+      },
+      "is_answered": false,
+      "view_count": 53,
+      "answer_count": 0,
+      "score": -2,
+      "last_activity_date": 1792934993,
+      "creation_date": 1792934993,
+      "question_id": 70773,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70773/machine-learning-corrections-to-sgp4-orbit-propagation",
+      "title": "Machine-learning corrections to SGP4 orbit propagation"
+     },
+     {
+      "tags": [
+       "space-shuttle"
+      ],
+      "owner": {
+       "account_id": 6379999,
+       "reputation": 6590,
+       "user_id": 21424,
+       "user_type": "registered",
+       "profile_image": "https://lh5.googleusercontent.com/-a-UIp5V6iDM/AAAAAAAAAAI/AAAAAAAAABk/pXUQzjM0qCg/s256-rj/photo.jpg",
+       "display_name": "Michael Stachowsky",
+       "link": "https://space.stackexchange.com/users/21424/michael-stachowsky"
+      },
+      "is_answered": false,
+      "view_count": 92,
+      "answer_count": 0,
+      "score": 6,
+      "last_activity_date": 1792694678,
+      "creation_date": 1792694678,
+      "question_id": 70769,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70769/how-did-nasa-choose-which-orbiter-would-fly-a-given-mission",
+      "title": "How did NASA choose which orbiter would fly a given mission?"
+     },
+     {
+      "tags": [
+       "spacecraft",
+       "attitude-determination-and-control",
+       "reaction-wheel",
+       "gyroscope"
+      ],
+      "owner": {
+       "account_id": 47234948,
+       "reputation": 11,
+       "user_id": 81533,
+       "user_type": "unregistered",
+       "profile_image": "https://www.gravatar.com/avatar/978a8ca7b98a362333651a2b103e611b?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "jose roncero",
+       "link": "https://space.stackexchange.com/users/81533/jose-roncero"
+      },
+      "is_answered": true,
+      "view_count": 121,
+      "answer_count": 3,
+      "score": 1,
+      "last_activity_date": 1792686786,
+      "creation_date": 1792367028,
+      "question_id": 70758,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70758/how-would-a-large-rotating-payload-mass-affect-spacecraft-attitude-control",
+      "title": "How would a large rotating payload mass affect spacecraft attitude control?"
+     },
+     {
+      "tags": [
+       "space-elevator"
+      ],
+      "owner": {
+       "account_id": 154089,
+       "reputation": 325,
+       "user_id": 6061,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/fdc806d0a8834e57b2d9309849dea8cd?s=256&d=identicon&r=PG",
+       "display_name": "Jason Goemaat",
+       "link": "https://space.stackexchange.com/users/6061/jason-goemaat"
+      },
+      "is_answered": true,
+      "view_count": 155,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1792600626,
+      "creation_date": 1792516968,
+      "question_id": 70763,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://space.stackexchange.com/questions/70763/space-elevator-and-potential-energy",
+      "title": "Space Elevator and Potential Energy"
+     },
+     {
+      "tags": [
+       "reentry",
+       "design-alternative",
+       "launch-vehicle",
+       "heat-shield",
+       "spaceplane"
+      ],
+      "owner": {
+       "account_id": 22804365,
+       "reputation": 657,
+       "user_id": 52650,
+       "user_type": "registered",
+       "profile_image": "https://www.gravatar.com/avatar/010200daf64de47a4500c45fbc6fc267?s=256&d=identicon&r=PG&f=y&so-version=2",
+       "display_name": "Choroflorocarbon",
+       "link": "https://space.stackexchange.com/users/52650/choroflorocarbon"
+      },
+      "is_answered": false,
+      "view_count": 89,
+      "closed_date": 1792613134,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1792570504,
+      "creation_date": 1792570504,
+      "question_id": 70767,
+      "link": "https://space.stackexchange.com/questions/70767/could-a-glider-like-spaceplane-with-very-high-lift-achieve-a-gentler-atmospheric",
+      "closed_reason": "Duplicate",
+      "title": "Could a glider-like spaceplane with very high lift achieve a gentler atmospheric re-entry?"
+     }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 285
+   }
+  ]
+ },
+ "excluded": {
+  "877286": "closed: Duplicate",
+  "70767": "closed: Duplicate",
+  "877284": "closed: Not suitable (10-29 复核)",
+  "877279": "closed: Needs details (10-29 复核)",
+  "877307": "-2 分, 无答案, 低质",
+  "274796": "-3 分",
+  "70773": "-2 分"
+ },
+ "already_injected": [
+  "877039 floquet-temporal-matter (qa_2026-10-22)",
+  "70763 qm-tether-exosuit (qa_2026-10-23)",
+  "274789 qm-tether-exosuit (qa_2026-10-24)",
+  "877020 holographic-kpz-projection (qa_2026-10-19)",
+  "877083 type2-superlattice-radar (qa_2026-10-29)",
+  "877191 arena-tripartite-architecture (qa_2026-10-28)",
+  "877220 electromagnetic-theater-override (qa_2026-10-27)",
+  "877255 holographic-kpz-projection (qa_2026-10-28)",
+  "274815 cooperative-resonance-torsion (qa_2026-10-26)",
+  "274840 electromagnetic-theater-override (qa_2026-10-29)"
+ ],
+ "listed_yesterday_skipped": [
+  "877083",
+  "274842",
+  "274840",
+  "877225",
+  "274841",
+  "274829",
+  "274877"
+ ]
+}
