@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-31",
+ "entries": [
+  {
+   "slug": "cooperative-resonance-torsion",
+   "question": "In absence of lowest potential energy law, will a water droplet still form a spherical shape?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877252/in-absence-of-lowest-potential-energy-law-will-a-water-droplet-still-form-a-sph",
+   "heat": "7 points, 2 answers, 752 views, open (SE API recheck 2026-10-31)",
+   "answer_md": "Surface tension is an energy cost per unit area, so a free droplet at fixed volume minimises area, and the isoperimetric inequality makes the sphere the unique minimum. The so called lowest potential energy law is not a separate rule, it is the same statement written as a force balance: the Young-Laplace pressure jump across a curved interface is exactly what the energy derivative gives. In microgravity nothing flattens the drop, so surface tension wins, while on a bench gravity and contact line pinning dominate. In this book's setting, treated as fiction, **the shell of a torsion cavity is set by its surface term rather than its internal pressure, so it rounds itself the same way a droplet does**.",
+   "links": [
+    "floquet-temporal-matter"
+   ]
+  },
+  {
+   "slug": "floquet-temporal-matter",
+   "question": "How to find the generators of the group of spacetime translations?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877241/how-to-find-the-generators-of-the-group-of-spacetime-translations",
+   "heat": "5 points, 1 answer, 281 views, open (SE API recheck 2026-10-31)",
+   "answer_md": "Spacetime translations form an abelian subgroup of the Poincare group, and Noether's theorem gives their conserved generators as the four components of momentum, so P generates a shift of the coordinates. Because those generators commute with each other, they can be diagonalised together, which is why momentum labels one particle states and why the Poincare algebra is a semi direct product of Lorentz transformations and translations. Replace the continuous shift by a discrete one, one step per drive period, and the same construction yields quasi energy and a Brillouin zone in time. In this setting, explicitly speculative, **a Floquet lattice treats each drive period as one lattice site, so its clock is a translation operator and not a mechanism**.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  }
+ ]
+}

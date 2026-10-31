@@ -1,0 +1,145 @@
+{
+ "date": "2026-10-31",
+ "generated": "2026-10-31T02:03+0800",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-10-31.json",
+ "sources_health": {
+  "stackexchange": 62,
+  "reddit_rss": 0,
+  "hackernews": 6,
+  "dedup_total": 46,
+  "question_form": 42,
+  "failures": [
+   "reddit/r/AskScienceFiction: URLError <urlopen error timed out>",
+   "reddit/r/physics: URLError <urlopen error timed out>",
+   "reddit/r/AskPhysics: URLError <urlopen error timed out>",
+   "reddit/r/artificial: URLError <urlopen error timed out>"
+  ]
+ },
+ "x_tiktok": "X 今日抓取失败: 2 次 web_search 只命中 10-15 至 10-20 的泛化帖与个人主页, 无 2026-10-30/31 的当日提问帖, 无可核对互动数, 未采信任何数值. TikTok 今日抓取失败: 检索只回 2021 至 2026-08 的旧视频与 discover 聚合页, 无当日视频 ID 与播放点赞数, 未采信, 未编造帖子, 该侧 0 条进入清单.",
+ "heat_verification": "api.stackexchange.com 2.3 questions 直连 8 次, 逐条读 score/answer_count/view_count/closed_reason, 12 条全部 open, 数据落盘 se_recheck_2026-10-31.json, quota 299 降至 291.",
+ "dedup_note": "账本 = 全部 hot_*.json + qa_*.json + qa_injected.json. 与 10-30 清单重叠 0 条; 已注入题全部回避. 12 条构成 = 4 条今日首次出现 (877309, 877327, 70748 首次被列, 877252 首次被列) 加 8 条更早日期列出但从未注入的 backlog (274842, 274877, 877241, 877269, 877240, 877271, 274841, 877263). 今日新题供给偏薄: 近 5 天 physics 高票题里可用新题仅 5 条, worldbuilding 2 条, space 0 条, 其余为负分或已关闭.",
+ "entries": [
+  {
+   "question": "How do the Guestarians know?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274842/how-do-the-guestarians-know",
+   "heat": "13 points, 11 answers, 1136 views, open (SE API 2026-10-31)",
+   "why": "今日世界构建池最高分题, 11 个回答说明设定内部逻辑有争议, 讨论核心是餐厅如何预知食客想要什么, 天然对应信息可得性与推断边界.",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "先讲真实共识: 没有任何物理机制让一方无需采样就获知另一方的内部状态, 只能靠观察历史行为做贝叶斯推断. 再进设定层: 写明这是虚构设定里的预读协议, 用 KPZ 界面的信息流解释为何预读总有分辨率上限.",
+   "use": "科普长答 + 引向 kpz 页, 适合 FAQ 注入备选"
+  },
+  {
+   "question": "The legendary crossing of the strait: could it have actually happened?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274877/the-legendary-crossing-of-the-strait-could-it-have-actually-happened",
+   "heat": "9 points, 5 answers, 1334 views, open (SE API 2026-10-31)",
+   "why": "今日浏览最高题, 问骑兵涉渡海峡的传说是否可信, 是硬科幻读者最爱的可行性审题.",
+   "map_to": "book",
+   "answer_angle": "真实层给出可核对的约束: 马匹游泳时间, 潮流速度, 部队补给与涉渡宽度, 不给具体数字除非有据. 再落到书里同类传说如何被写成被后人夸大的战史.",
+   "use": "长答 + 引向 book.html, 吸引历史向读者"
+  },
+  {
+   "question": "What spacecraft are using the 2026 Mars launch window?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70748/what-spacecraft-are-using-the-2026-mars-launch-window",
+   "heat": "9 points, 2 answers, 1124 views, open (SE API 2026-10-31)",
+   "why": "时效性最强的一条, 2026 火星窗口正在发生, 搜索流量会持续爬升, 且此前从未注入.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层只陈述窗口机理与公开任务列表来源, 不臆测未公开任务. 设定层讲多国同时压窗口时的发射台调度与测控冲突.",
+   "use": "时效科普, 可做社媒预告"
+  },
+  {
+   "question": "In absence of lowest potential energy law, will a water droplet still form a spherical shape?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877252/in-absence-of-lowest-potential-energy-law-will-a-water-droplet-still-form-a-sph",
+   "heat": "7 points, 2 answers, 752 views, open (SE API 2026-10-31)",
+   "why": "问法直接, 空间站水滴是大众可感知的例子, 与曲面/张力类 lore 页完美契合, 今日注入首选.",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 表面张力即单位面积能量, 自由液滴在定体积下最小化面积, 等周不等式给出球是唯一极小, 所谓最低势能定律只是同一力平衡的另一种说法, 杨拉普拉斯压强跃变可直接算. 设定层: 写清这是虚构设定中壳体由表面项而非内压定形.",
+   "use": "★ 今日注入 qa 条目一"
+  },
+  {
+   "question": "How to find the generators of the group of spacetime translations?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877241/how-to-find-the-generators-of-the-group-of-spacetime-translations",
+   "heat": "5 points, 1 answer, 281 views, open (SE API 2026-10-31)",
+   "why": "庞加莱群基础题, 平移生成元即四动量, 与 Floquet 页的时间平移驱动同构, 该页已 9 天未获注入.",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 平移子群阿贝尔, 诺特定理给出生成元为四动量, 与洛伦兹部分构成半直积, 生成元互相对易所以可同时对角化. 设定层: 把驱动周期当作离散时间平移, 引出准能量与时间布里渊区, 标注为虚构外推.",
+   "use": "★ 今日注入 qa 条目二"
+  },
+  {
+   "question": "How to physically interpret the crossed second derivative of the grand potential when a real gas is inside an external gravity field?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877269/how-to-physically-interpret-the-crossed-second-derivative-of-the-grand-potential",
+   "heat": "5 points, 1 answer, 106 views, open (SE API 2026-10-31)",
+   "why": "把麦克斯韦关系用在非均匀外场, 问题是教科书均衡假设失效, 适合写长答做权威信号.",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 外场下体元不等价, 广延量不再齐次, 混合偏导对应响应系数在梯度中的修正, 需用局域热力学或密度泛函处理, 不编数字. 设定层: 讲全息投影如何把梯度当成边界数据.",
+   "use": "深度长答, 引向全息页"
+  },
+  {
+   "question": "Advanced and retarded Green functions",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877240/advanced-and-retarded-green-functions",
+   "heat": "4 points, 2 answers, 392 views, open (SE API 2026-10-31)",
+   "why": "无序系统格林函数, 因果结构与谱表示, 是读者查得最多的一类技术题.",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: G(E±i0) 的 i0 决定边界条件, 推迟与超前互为复共轭, 谱函数由虚部给出. 设定层: 无序格点上的局域格林函数如何被写成虚构的可编程晶格响应.",
+   "use": "技术长答, 引向 kondo 页"
+  },
+  {
+   "question": "Why magnetic field of the electromagnetic wave doesnt affect the dipole antenna?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877271/why-magnetic-field-of-the-electromagnetic-wave-doesnt-affect-the-dipole-antenna",
+   "heat": "3 points, 3 answers, 199 views, open (SE API 2026-10-31)",
+   "why": "常见误解题, 磁力与电子漂移速度成正比所以量级极小, 解释干净, 适合科普双轨.",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 洛伦兹磁力项为 qv×B, 电子漂移速度远小于光速, 故磁力比电场力小约 v/c, 天线设计按电场耦合为主. 设定层: 讲虚构的超晶格感知矩阵为何仍以电场为主通道.",
+   "use": "科普短答, 引向雷达页"
+  },
+  {
+   "question": "Can I make power armor that is resistant to magnetic fields?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+   "heat": "3 points, 3 answers, 831 views, open (SE API 2026-10-31)",
+   "why": "动力装甲与磁屏蔽是书的核心意象, 回答里可逐部件拆解哪些要动用科幻豁免.",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 高导磁合金屏蔽只挡静磁与低频, 高频靠良导体涡流, 但执行器, 电源与传感器仍是漏洞. 设定层: 明确写成虚构的量子度规外骨骼如何在设定内回避这些约束.",
+   "use": "★ 备选注入, 引向 exosuit 页"
+  },
+  {
+   "question": "How can symmetry alone determine the spatial dependence of the electric field induced by a uniform time-dependent magnetic field?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877309/how-can-symmetry-alone-determine-the-spatial-dependence-of-the-electric-field-in",
+   "heat": "2 points, 3 answers, 115 views, open (SE API 2026-10-31)",
+   "why": "今日新题, 对称性论证与规范自由度的边界, 3 个回答已形成分歧, 适合做概念澄清.",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 均匀时变磁场只有平移与绕轴旋转对称, 法拉第定律给旋度不给散度, 因此 E 的径向部分由边界条件与规范选择决定, 不是对称性单独定死. 设定层: 讲虚构的 phantom grid 如何把被对称性放过的自由度当作设计通道.",
+   "use": "概念澄清长答, 引向 phantom grid 页"
+  },
+  {
+   "question": "Why do physics textbooks treat work & energy as a scalar? (plus alternative vector formalisation)",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877327/why-do-physics-textbooks-treat-work-energy-as-a-scalar-alternative-vector-f",
+   "heat": "1 point, 1 answer, 176 views, open (SE API 2026-10-31)",
+   "why": "今日新题, 提问者自己给出了矢量化的替代形式, 讨论能标与守恒量计数, 适合教学向内容.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 能量是时间平移的诺特荷, 天然是标量, 分轴做功只是把标量拆成三项再相加, 不是新守恒律. 设定层: 讲虚构竞技场为何以标量收支记账而不是矢量账本.",
+   "use": "教学向答复, 引向竞技场页"
+  },
+  {
+   "question": "Quantum field theory in curved space-times from the equivalence principle",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877263/quantum-field-theory-in-curved-space-times-from-the-equivalence-principle",
+   "heat": "3 points, 2 answers, 359 views, open (SE API 2026-10-31)",
+   "why": "等效原理能否推出弯曲时空量子场论, 是硬科幻读者最常问的桥接问题.",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 等效原理只保证局域平坦, 弯曲时空的量子场论需要选取真空与时间片, 导致邦戈洛维真空与粒子概念非局域, 等效原理不足以唯一指定理论. 设定层: 讲虚构的方向性质量归零态如何被写成局域平坦拼接的极限.",
+   "use": "桥接长答, 引向 semi-dirac 页"
+  }
+ ],
+ "link_fix": "4 条 URL 原标题被截断, 已按 api.stackexchange link 字段替换为规范 URL (877252, 877269, 877309, 877327)"
+}
