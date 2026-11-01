@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-01",
+ "entries": [
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "question": "What exactly is an electron?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/868360/what-exactly-is-an-electron",
+   "heat": "21 points, 9 answers, 4407 views, open (SE API 2026-11-01; asked 2026-01-26)",
+   "answer_md": "An electron is neither a small ball nor a smeared cloud. In the Standard Model it is a point-like excitation of one fermion field: every electron carries the same charge, spin one half, and a rest mass that is among the most precisely measured constants in physics, and no experiment has yet resolved an internal structure. The wavefunction is a probability amplitude rather than a physical fog, which is why a single electron still lands at one place per shot while the interference pattern builds up over many shots. Inside a crystal the object you track is different: the electron dresses itself in the lattice potential and becomes a quasiparticle whose **effective mass is set by band curvature**, so the same field can produce carriers that behave as if they had no mass at all. In this book's setting, treated as fiction, **a semi-Dirac lattice makes that effective mass direction dependent, so a carrier is heavy along one axis and massless along another**.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  },
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "How quickly does light fall in a hall of mirrors?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/871958/how-quickly-does-light-fall-in-a-hall-of-mirrors",
+   "heat": "27 points, 5 answers, 2612 views, open (SE API 2026-11-01; asked 2026-05-03)",
+   "answer_md": "A photon has no rest frame, so how fast light falls is not a property of the light, it is a property of the frame you measure in. In the freely falling frame the pulse travels in a straight line and the mirrors fall with it, so nothing drops. In the supported frame the same pulse follows a null geodesic, each reflection only redirects it, and the drift accumulates over the whole flight, which is why the counter argument for the larger figure appears once spacetime curvature is included. The mirrors add no gravity and no shielding, they only lengthen the path, so the effect scales with total flight time rather than with the number of bounces. In this book's setting, treated as fiction, **the projection layer builds geometry from boundary conditions, so a mirrored cavity is a cheap way to sample a curved path without moving any emitter**.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  }
+ ]
+}

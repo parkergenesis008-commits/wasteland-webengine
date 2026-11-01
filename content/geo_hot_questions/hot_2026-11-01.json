@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-01",
+ "generated": "2026-11-01T02:04+0800",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-11-01.json",
+ "sources_health": {
+  "stackexchange": 60,
+  "reddit_rss": 0,
+  "hackernews": 6,
+  "dedup": 46,
+  "question_form": 42,
+  "errors": [
+   "reddit/r/physics timeout",
+   "reddit/r/AskPhysics timeout",
+   "reddit/r/artificial timeout",
+   "reddit/r/singularity timeout"
+  ],
+  "note": "Reddit 今日不可用, 4 个板块全部超时"
+ },
+ "x_tiktok": "X 今日抓取失败: 1 次 web_search 只回无日期泛化帖与个人主页, 唯一带 2026-10-31 日期的帖子是 QFT 重整化讨论串(247 浏览), 不是提问形态且互动数不可核对, 未采信. TikTok 今日抓取失败: 检索只回 2026-08 的 Project Anchor 失重谣言与趋势聚合页, 无当日视频 ID 与播放点赞数, 未编造帖子, 该侧 0 条进入清单.",
+ "heat_verification": "12 条全部经 api.stackexchange.com 2.3 questions 直连复核, 逐条取 score/answer_count/view_count/closed_reason, 落盘 se_recheck_2026-11-01.json, quota 299→288",
+ "dedup_note": "账本覆盖全部 hot_*.json 与 qa_*.json, 已注入 76 条全部回避. 近 7 天新题供给实测只有 8 条可用(SE API sort=votes 与 sort=activity 双通道核过), 因此 9 条取自同源常青高流量题(创建于 2025-11 至 2026-05, 每条标注真实创建日), 3 条为 10-23 至 10-28 榜单遗留未注入题.",
+ "entries": [
+  {
+   "question": "Air pressure on Noah's Ark",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/870148/air-pressure-on-noahs-ark",
+   "heat": "51 points, 2 answers, 3009 views, open (SE API 2026-11-01; asked 2026-03-16)",
+   "why": "今日池内最高分题(51 分/3009 浏览), 问封闭木壳里一年航行的空气压强与含氧量能不能撑住, 正是硬科幻读者最爱挑的可行性漏洞.",
+   "map_to": "book",
+   "answer_angle": "真实层只讲机理: 可用氧由分压决定而不是总压, 木壳漏率与树脂密封决定补充量, CO2 与湿气必须主动清除否则先毒后闷, 给出量纲关系不给具体数字. 设定层写明这是虚构: 书里同类封闭栖息地按同一套约束设计, 不靠奇迹.",
+   "use": "长答 + 引向 book.html, 把设定考据读者转成购书页访客"
+  },
+  {
+   "question": "How far does a submarine need to dive to not feel a storm?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/870973/how-far-does-a-submarine-need-to-dive-to-not-feel-a-storm",
+   "heat": "33 points, 3 answers, 4746 views, open (SE API 2026-11-01; asked 2026-04-06)",
+   "why": "4746 浏览的常青题, 问压强扰动随深度怎么衰减, 是感知极限类问题的天然入口, 与本项目雷达页同一逻辑.",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层: 表面波是重力波, 压力振幅随深度按指数衰减, 衰减长度由波长决定, 长周期涌浪比短风浪穿得深, 所以是滤掉而不是挡住. 设定层: 虚构里把这条衰减曲线当成传感器下限的物理来源.",
+   "use": "科普长答, 可拆成配图短文"
+  },
+  {
+   "question": "What is the physics behind how welding works?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/870560/what-is-the-physics-behind-how-welding-works",
+   "heat": "28 points, 2 answers, 2395 views, open (SE API 2026-11-01; asked 2026-03-25)",
+   "why": "2395 浏览, 问两块金属凭什么变成一块, 答案直指原子级接触与金属键重建, 与本页接触即电磁博弈的论点同源.",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层: 焊接靠破除氧化层与吸附层后原子靠近到金属键作用程, 局部熔化或固态扩散让晶粒跨界面连续生长, 冷却后是一个整体, 焊剂与保护气都在管这一步. 设定层: 虚构的碰撞覆盖协议就是把必须接触才能键合这条规则推到极限.",
+   "use": "长答, 适合引向 lore 页"
+  },
+  {
+   "question": "How quickly does light fall in a hall of mirrors?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/871958/how-quickly-does-light-fall-in-a-hall-of-mirrors",
+   "heat": "27 points, 5 answers, 2612 views, open (SE API 2026-11-01; asked 2026-05-03)",
+   "why": "5 个回答仍无共识的争议题, 9.8 与 19.6 两派各执一词, 2612 浏览, 科普爆款题材: 光到底会不会掉下来.",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层: 光子没有静止系, 下落速率只在选定参考系里有意义; 自由落体系里光走直线, 支撑系里看到的是零测地线弯曲, 镜面只改方向不改测地线, 效应随总飞行时间累积而不是随反射次数. 设定层: 虚构的投影层用边界条件渲染几何.",
+   "use": "已选为今日主推问答之一, 注入 holographic-kpz-projection"
+  },
+  {
+   "question": "Why does LIGO use an IR laser?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/871783/why-does-ligo-use-an-ir-laser",
+   "heat": "25 points, 2 answers, 1617 views, open (SE API 2026-11-01; asked 2026-04-28)",
+   "why": "1617 浏览, 问引力波探测器为何不用可见光, 答案落在熔石英损耗, 镀层反射率与散粒噪声的取舍, 是用低噪声读出微弱信号的实例.",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层: 波长选择由光学元件吸收与散射, 光电二极管量子效率, 散粒噪声随波长的标定共同决定, 压缩光能重分配量子噪声到正交分量; 不给具体损耗数字. 设定层: 虚构的扭转腔读出沿同一逻辑.",
+   "use": "技术向长答, 强化硬科幻可信度"
+  },
+  {
+   "question": "What exactly is an electron?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/868360/what-exactly-is-an-electron",
+   "heat": "21 points, 9 answers, 4407 views, open (SE API 2026-11-01; asked 2026-01-26)",
+   "why": "9 个回答, 4407 浏览, 常青概念题, 读者带着不是球也不是波的困惑来, 与质量到底是什么直接对接.",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层: 电子是费米场的点状激发, 电荷与自旋固定, 静止质量测得很准, 至今没有测到内部结构; 波函数是概率幅不是雾; 晶体里追踪的是准粒子, 有效质量来自能带曲率. 设定层: 虚构的半狄拉克晶格让有效质量变成方向相关.",
+   "use": "已选为今日主推问答之一, 注入 semi-dirac-mass-nullification"
+  },
+  {
+   "question": "Is it feasible at all to build data centers in space?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70174/is-it-feasible-at-all-to-build-data-centers-in-space",
+   "heat": "21 points, 3 answers, 5872 views, open (SE API 2026-11-01; asked 2025-12-11)",
+   "why": "今日池内浏览量最高(5872), 问太空机房到底可不可行, 散热与发射质量的现实账本正好对撞本项目的计算竞技场设定.",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层: 真空中只能辐射散热, 单位面积散热功率受温度四次方限制, 太阳能充裕但辐射面积, 发射质量, 链路延迟与在轨维护才是瓶颈. 设定层: 虚构的竞技场算力密度把散热面积当成硬上限来设计.",
+   "use": "长答, 适合做社媒讨论引子"
+  },
+  {
+   "question": "Why do interpretations of quantum phenomena focus on QM rather than QFT?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/864789/why-do-interpretations-of-quantum-phenomena-focus-on-qm-rather-than-qft",
+   "heat": "21 points, 10 answers, 2284 views, open (SE API 2026-11-01; asked 2025-11-22)",
+   "why": "10 个回答的讨论题, 2284 浏览, 问诠释争论为何停在量子力学层面, 答案绕不开有效理论与退相干, 与晶格模型里什么算基本的问题同构.",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层: 凝聚态里用有效哈密顿量与开放系统描述退相干, 诠释问题在场论里没有消失, 只是被重整化与有效场论的语言盖住, 能标决定哪些自由度值得追踪. 设定层: 虚构的 Kondo 晶格把哪些自由度算基本变成设计参数.",
+   "use": "深度长答, 面向物理科普读者"
+  },
+  {
+   "question": "What geography would justify a large body of water much hotter than its surroundings?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/273133/what-geography-would-justify-a-large-body-of-water-much-hotter-than-its-surroundings",
+   "heat": "20 points, 5 answers, 2132 views, open (SE API 2026-11-01; asked 2026-04-08)",
+   "why": "2132 浏览的世界构建高赞题, 问什么地理能长期维持一片明显更热的大水体, 本质是边界条件如何决定一个区域的气候输出.",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层: 热收支必须闭合, 热容决定升温降温的时间常数, 持续热源只能是地热, 洋流或工业余热, 蒸发与盐度提供负反馈, 少一环就撑不住. 设定层: 虚构的渲染引擎改的是边界条件而不是调温度参数.",
+   "use": "世界构建向长答, 吸引设定党"
+  },
+  {
+   "question": "Can I make power armor that is resistant to magnetic fields?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+   "heat": "3 points, 3 answers, 837 views, open (SE API 2026-11-01; asked 2026-10-25)",
+   "why": "榜单遗留未注入题, 837 浏览, 问装甲如何抗磁场, 正确答案是逐部件让步而不是整体豁免, 与薄壳场效应思路同源.",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层: 高导磁合金只挡静磁与低频, 良导体靠涡流挡高频, 超导屏蔽要低温, 真正的漏洞是电源, 传感器与接缝. 设定层: 虚构的 QM-Tether 把场效应做在薄壳上, 屏蔽与驱动互相牵制.",
+   "use": "设定向答, 适合引向 exosuit 页"
+  },
+  {
+   "question": "Planet with cycle: Day - Night - Dusk - Night",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+   "heat": "6 points, 4 answers, 710 views, open (SE API 2026-11-01; asked 2026-10-23)",
+   "why": "710 浏览的世界构建题, 问一颗行星为何能有昼-夜-暮-夜的四段循环, 正是周期外场驱动系统的宏观类比, 也是榜单遗留未注入题.",
+   "map_to": "floquet-temporal-matter",
+   "answer_angle": "真实层: 多光源或多遮挡体可以在一个轨道周期内造出多个亮度台阶, 关键参数是每段持续时间与地壳或大气的热时间常数, 几何上要有伴星, 环系或大卫星. 设定层: 虚构的 Floquet 物质被这种周期驱动改写性质.",
+   "use": "设定向答, 强化 floquet 页入口"
+  },
+  {
+   "question": "How do I reduce charge on my glassware before weighing?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877264/how-do-i-reduce-charge-on-my-glassware-before-weighing",
+   "heat": "11 points, 3 answers, 905 views, open (SE API 2026-11-01; asked 2026-10-28)",
+   "why": "905 浏览的实操题, 问称量前怎么消掉玻璃器皿的静电, 核心是电荷待在你以为没有电荷的地方, 正是 phantom grid 的日常版.",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层: 摩擦起电与环境湿度决定表面电荷量, 静电计读数漂移来自静电力作用在天平上, 可用电离吹风, 接地导体或法拉第杯处理, 消电后要等弛豫. 设定层: 虚构的受阻原子绝缘体把电荷中心挪到原子之外, 看见原子不等于看见电荷.",
+   "use": "实操科普, 可做短答"
+  }
+ ]
+}

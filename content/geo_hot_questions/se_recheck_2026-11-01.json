@@ -1,0 +1,233 @@
+{
+ "274841": {
+  "id": "274841",
+  "site": "worldbuilding",
+  "title": "Can I make power armor that is resistant to magnetic fields?",
+  "score": 3,
+  "answers": 3,
+  "views": 837,
+  "closed": null,
+  "created": "2026-10-25",
+  "link": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+  "tags": [
+   "science-based",
+   "electromagnetism",
+   "armors"
+  ],
+  "is_answered": true
+ },
+ "274829": {
+  "id": "274829",
+  "site": "worldbuilding",
+  "title": "Planet with cycle: Day — Night — Dusk — Night",
+  "score": 6,
+  "answers": 4,
+  "views": 710,
+  "closed": null,
+  "created": "2026-10-23",
+  "link": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+  "tags": [
+   "space",
+   "orbital-mechanics",
+   "day-night"
+  ],
+  "is_answered": true
+ },
+ "877264": {
+  "id": "877264",
+  "site": "physics",
+  "title": "How do I reduce charge on my glassware before weighing?",
+  "score": 11,
+  "answers": 3,
+  "views": 905,
+  "closed": null,
+  "created": "2026-10-28",
+  "link": "https://physics.stackexchange.com/questions/877264/how-do-i-reduce-charge-on-my-glassware-before-weighing",
+  "tags": [
+   "electrostatics",
+   "electricity",
+   "charge",
+   "mass",
+   "scales"
+  ],
+  "is_answered": true
+ },
+ "871958": {
+  "id": "871958",
+  "site": "physics",
+  "title": "How quickly does light fall in a hall of mirrors?",
+  "score": 27,
+  "answers": 5,
+  "views": 2612,
+  "closed": null,
+  "created": "2026-05-03",
+  "link": "https://physics.stackexchange.com/questions/871958/how-quickly-does-light-fall-in-a-hall-of-mirrors",
+  "tags": [
+   "general-relativity",
+   "newtonian-gravity",
+   "visible-light",
+   "reflection",
+   "free-fall"
+  ],
+  "is_answered": true
+ },
+ "871783": {
+  "id": "871783",
+  "site": "physics",
+  "title": "Why does LIGO use an IR laser?",
+  "score": 25,
+  "answers": 2,
+  "views": 1617,
+  "closed": null,
+  "created": "2026-04-28",
+  "link": "https://physics.stackexchange.com/questions/871783/why-does-ligo-use-an-ir-laser",
+  "tags": [
+   "material-science",
+   "reflection",
+   "laser",
+   "gravitational-waves",
+   "interferometry"
+  ],
+  "is_answered": true
+ },
+ "870973": {
+  "id": "870973",
+  "site": "physics",
+  "title": "How far does a submarine need to dive to not feel a storm?",
+  "score": 33,
+  "answers": 3,
+  "views": 4746,
+  "closed": null,
+  "created": "2026-04-06",
+  "link": "https://physics.stackexchange.com/questions/870973/how-far-does-a-submarine-need-to-dive-to-not-feel-a-storm",
+  "tags": [
+   "fluid-dynamics",
+   "waves"
+  ],
+  "is_answered": true
+ },
+ "870560": {
+  "id": "870560",
+  "site": "physics",
+  "title": "What is the physics behind how welding works?",
+  "score": 28,
+  "answers": 2,
+  "views": 2395,
+  "closed": null,
+  "created": "2026-03-25",
+  "link": "https://physics.stackexchange.com/questions/870560/what-is-the-physics-behind-how-welding-works",
+  "tags": [
+   "phase-transition",
+   "metals"
+  ],
+  "is_answered": true
+ },
+ "870148": {
+  "id": "870148",
+  "site": "physics",
+  "title": "Air pressure on Noah&#39;s Ark",
+  "score": 51,
+  "answers": 2,
+  "views": 3009,
+  "closed": null,
+  "created": "2026-03-16",
+  "link": "https://physics.stackexchange.com/questions/870148/air-pressure-on-noahs-ark",
+  "tags": [
+   "pressure",
+   "fluid-statics",
+   "atmospheric-science"
+  ],
+  "is_answered": true
+ },
+ "868360": {
+  "id": "868360",
+  "site": "physics",
+  "title": "What exactly is an electron?",
+  "score": 21,
+  "answers": 9,
+  "views": 4407,
+  "closed": null,
+  "created": "2026-01-26",
+  "link": "https://physics.stackexchange.com/questions/868360/what-exactly-is-an-electron",
+  "tags": [
+   "quantum-mechanics",
+   "particle-physics",
+   "electrons",
+   "wave-particle-duality",
+   "orbitals"
+  ],
+  "is_answered": true
+ },
+ "868099": {
+  "id": "868099",
+  "site": "physics",
+  "title": "Why does skin-sparing occur in photon travel through material?",
+  "score": 19,
+  "answers": 3,
+  "views": 1353,
+  "closed": null,
+  "created": "2026-01-19",
+  "link": "https://physics.stackexchange.com/questions/868099/why-does-skin-sparing-occur-in-photon-travel-through-material",
+  "tags": [
+   "photons",
+   "atomic-physics",
+   "absorption",
+   "x-rays",
+   "medical-physics"
+  ],
+  "is_answered": true
+ },
+ "864789": {
+  "id": "864789",
+  "site": "physics",
+  "title": "Why do interpretations of quantum phenomena focus on QM rather than QFT?",
+  "score": 21,
+  "answers": 10,
+  "views": 2284,
+  "closed": null,
+  "created": "2025-11-22",
+  "link": "https://physics.stackexchange.com/questions/864789/why-do-interpretations-of-quantum-phenomena-focus-on-qm-rather-than-qft",
+  "tags": [
+   "quantum-mechanics",
+   "quantum-field-theory",
+   "quantum-information",
+   "quantum-interpretations"
+  ],
+  "is_answered": true
+ },
+ "70174": {
+  "id": "70174",
+  "site": "space",
+  "title": "Is it feasible at all to build data centers in space?",
+  "score": 21,
+  "answers": 3,
+  "views": 5872,
+  "closed": null,
+  "created": "2025-12-11",
+  "link": "https://space.stackexchange.com/questions/70174/is-it-feasible-at-all-to-build-data-centers-in-space",
+  "tags": [
+   "artificial-satellite",
+   "heat"
+  ],
+  "is_answered": true
+ },
+ "273133": {
+  "id": "273133",
+  "site": "worldbuilding",
+  "title": "What geography would justify a large body of water much hotter than its surroundings?",
+  "score": 20,
+  "answers": 5,
+  "views": 2132,
+  "closed": null,
+  "created": "2026-04-08",
+  "link": "https://worldbuilding.stackexchange.com/questions/273133/what-geography-would-justify-a-large-body-of-water-much-hotter-than-its-surround",
+  "tags": [
+   "climate",
+   "geography",
+   "geology",
+   "ocean",
+   "volcanoes"
+  ],
+  "is_answered": true
+ }
+}

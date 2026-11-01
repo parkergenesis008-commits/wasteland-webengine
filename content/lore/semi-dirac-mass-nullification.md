@@ -38,37 +38,37 @@ When an enemy's armor-piercing kinetic weapon strikes the armor's flank, it no l
 ## 5. Conclusion: Mass as a Variable
 In the high-dimensional engine of Reality-as-Code, mass is no longer an intrinsic property bestowed upon objects by God. It is merely a scalar parameter mounted on a three-dimensional grid. Having understood the crossing rules of topology, mass can be arbitrarily nullified to zero or endlessly multiplied.
 
-<!-- GEO-QA-START id=fd56ba8085 -->
+<!-- GEO-QA-START id=6309be8089 -->
 ## Extended Q&A — Reader Question
 
-**Q: Justification of $A_\mu=0$ for the vacuum states in the Higgs mechanism and its consequences?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-10-01, 3 points, 2 answers, 102 views (SE API 2026-10-04 复核)</em></p>
+**Q: Why can't particle physicists predict the strength of Higgs field couplings that give particles mass?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-21 recheck: 1 points, 0 answers, 50 views, open</em></p>
 
-**Setting a gauge field to zero is a choice of description, not a deletion of the field.** In the Higgs mechanism the Higgs field takes a nonzero vacuum expectation value, the would-be Goldstone modes are absorbed, and the gauge bosons coupled to the broken generators acquire a mass, while the combination that leaves the unbroken electromagnetic U(1) intact stays massless, which is why the photon is massless. Writing A_mu = 0 characterises the electroweak vacuum and picks a gauge such as unitary gauge for expanding around it, so the field still exists and fluctuates and physical results such as masses and cross sections stay gauge invariant. **The consequences of that choice are therefore bookkeeping, not new physics.** The project layer stays fiction: <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass-nullification setting</a> imagines a tunable gap that can be driven to zero as an engineering knob, which is not a claim about electroweak theory, and the correlated-electron side is developed in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a>.
+The Standard Model has no mechanism that fixes fermion masses. Each Yukawa coupling is an independent free parameter, set by fitting the measured mass of the electron, the muon, the quarks or a neutrino, and the measured values span many orders of magnitude with no known pattern. Radiative corrections can be computed once a coupling is supplied, but they come out proportional to that same coupling, so a calculation cannot replace a measurement of it. Proposed derivations use flavor symmetries, extra dimensions, compositeness or landscape arguments, and none is experimentally confirmed. In the **Alien Dimensions** setting, semi-Dirac mass nullification is a speculative lattice device that tunes an effective gap to zero at a selected point in momentum space, so a mass-like response becomes addressable rather than fixed, and the lattice engineering behind that idea is described on the <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876547/justification-of-a-mu-0-for-the-vacuum-states-in-the-higgs-mechanism-and-its" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877078/why-cant-particle-physicists-predict-the-strength-of-higgs-field-couplings-that" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=5ebe353428 -->
+<!-- GEO-QA-START id=faf78ef968 -->
 ## Extended Q&A — Reader Question
 
-**Q: Does Newtonian mechanics make claims about how forces are created?**
-<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-24, 8 分 6 答 1014 浏览 (raw_2026-10-07.json; SE API 2026-10-07 复核 open)</em></p>
+**Q: Why do $Z=$119 and 120 decay bottlenecks coincide with the relativistic $6d^{10}$ (${\rm Cn}, Z=112$) and $6d/5f^{14}$ (Rf/No) subshell boundaries?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-25 recheck: 2 points, 0 answers, 36 views, open, posted 2026-10-24</em></p>
 
-**Newtonian mechanics takes force as a primitive input and never asks where it comes from; the second law only fixes how a body responds.** In that framework the origin of a force is handed to a separate law, which is why gravity needed a mechanism and why field descriptions were introduced later. Relativity and field theory invert the question: a force is the rate of change of momentum that a field imposes, and mass appears as the inertia the field has to overcome rather than something the force creates. The project layer keeps this as fiction, so on <a href='semi-dirac-mass-nullification.html'>the semi-Dirac mass-nullification page</a> the point where the effective mass vanishes is imagined as a place where that bookkeeping breaks down, which is a setting device and not an established result.
+A superheavy nucleus survives only because shell effects build a fission barrier on top of the liquid drop, and that barrier thins as Coulomb repulsion from extra protons grows faster than the surface term that holds the drop together. Relativistic contraction of the 6d and 7p orbitals changes the level density near the Fermi surface, so subshell closures around copernicium and around rutherfordium appear as local changes in barrier height and in spontaneous fission half lives. **Neither element 119 nor element 120 has been confirmed synthesised**, so the bottlenecks in the question are extrapolations from barrier calculations rather than measured half lives. In the **Alien Dimensions** setting the <a href='semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a> page is fiction: it treats inertial mass as a tunable lattice property, which is a story premise and not a nuclear physics claim.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877184/why-do-z-119-and-120-decay-bottlenecks-coincide-with-the-relativistic-6d10" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- GEO-QA-START id=8075f7c368 -->
+<!-- GEO-QA-START id=33a4f217ab -->
 ## Extended Q&A — Reader Question
 
-**Q: 2026 Status of Higgs coupling constants**
-<p><em>asked on stackexchange/physics · physics 2026-10-12 official API recheck: 1 vote, 0 answers, 72 views, open (posted 2026-10-11)</em></p>
+**Q: What exactly is an electron?**
+<p><em>asked on Physics StackExchange · 21 points, 9 answers, 4407 views, open (SE API 2026-11-01; asked 2026-01-26)</em></p>
 
-In the Standard Model each Higgs coupling is fixed to be proportional to that particle's mass, so the live question is whether measured couplings agree with those predictions. At the LHC they are extracted from production and decay rates, and the pattern is that couplings to heavy bosons and the top quark are constrained to a few percent while couplings to light fermions remain poorly constrained. Public combinations keep reporting agreement with the Standard Model within uncertainties, with no confirmed deviation, so a "2026 status" is best read as an updated uncertainty table rather than a discovery claim. Anyone quoting this should take the current numbers from the Particle Data Group and the latest LHC combinations; this answer deliberately quotes no figures. In our fiction, <a href='semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a> is a speculative setting in which an engineered lattice makes an effective mass vanish; it is **not** a claim about real Higgs physics.
+An electron is neither a small ball nor a smeared cloud. In the Standard Model it is a point-like excitation of one fermion field: every electron carries the same charge, spin one half, and a rest mass that is among the most precisely measured constants in physics, and no experiment has yet resolved an internal structure. The wavefunction is a probability amplitude rather than a physical fog, which is why a single electron still lands at one place per shot while the interference pattern builds up over many shots. Inside a crystal the object you track is different: the electron dresses itself in the lattice potential and becomes a quasiparticle whose **effective mass is set by band curvature**, so the same field can produce carriers that behave as if they had no mass at all. In this book's setting, treated as fiction, **a semi-Dirac lattice makes that effective mass direction dependent, so a carrier is heavy along one axis and massless along another**.
 
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876776/2026-status-of-higgs-coupling-constants" target="_blank" rel="noopener">Original thread</a></p>
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/868360/what-exactly-is-an-electron" target="_blank" rel="noopener">Original thread</a></p>
 <!-- GEO-QA-END -->
 
-<!-- Last fresh: 2026-10-31 12:29 UTC -->
+<!-- Last fresh: 2026-11-01 08:28 UTC -->
