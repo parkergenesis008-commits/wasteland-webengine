@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-02",
+ "entries": [
+  {
+   "slug": "arena-tripartite-architecture",
+   "question": "Why are 2- and 3-body approximations useful?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877225/why-are-2-and-3-body-approximations-useful",
+   "heat": "13 points, 5 answers, 1299 views, open (SE API 2026-11-02; asked 2026-10-26)",
+   "answer_md": "Because the two-body problem has an exact closed solution and every extra mass enters only as a perturbation, weighted by the mass ratio. Jupiter is about a thousandth of the Sun and Earth about three millionths, so a single-planet orbit stays a good first approximation, and the correction terms can be added one at a time. The restricted three-body problem works the same way when one body is light enough to feel the other two without moving them, which is exactly the case for a spacecraft near a Lagrange point. Three bodies of comparable mass are a different problem: no general closed form exists, the coupling terms are no longer small, and the motion becomes sensitive to initial conditions. In this setting the **tripartite architecture** couples three subsystems as one designed unit; that is a fictional engineering premise and its stability margins are invented specifications, not measured results.",
+   "links": [
+    "cooperative-resonance-torsion"
+   ]
+  },
+  {
+   "slug": "kpz-reality-rendering",
+   "question": "Can a small dwarf star, roughly 0.075 solar masses, glow pink?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274804/can-a-small-dwarf-star-roughly-0-075-solar-masses-glow-pink",
+   "heat": "8 points, 5 answers, 1145 views, open (SE API 2026-11-02; asked 2026-10-20)",
+   "answer_md": "At 0.075 solar masses an object sits right at the hydrogen-burning limit, and the coolest stars that still fuse are M dwarfs with surface temperatures around 2,300 to 2,800 K. A blackbody that cool peaks in the near infrared and puts only a small tail into the visible band, and that tail falls off toward the blue, so the star reads as deep orange-red rather than pink. Pink needs a second ingredient: line emission or scattering that adds a little blue-violet light to the red continuum, which flares and chromospheric activity can supply, or the desaturation human vision applies to very dim red sources. **In the setting**, the pink cast of a low-mass primary is an explicit rendering choice tied to how the local sky is projected, and it is labeled fiction rather than presented as an observed stellar class.",
+   "links": [
+    "holographic-kpz-projection"
+   ]
+  }
+ ]
+}
