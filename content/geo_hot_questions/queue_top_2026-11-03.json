@@ -1,0 +1,43 @@
+{
+  "slug": "floquet-temporal-matter",
+  "question": "Planet with cycle: Day — Night — Dusk — Night",
+  "rank": 1,
+  "source": "source: stackexchange/worldbuilding https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night, 6 分 / 4 答 / 726 浏览, SE API 2026-11-03 复核, asked 2026-10-23",
+  "weight": 30,
+  "relevance": 40,
+  "score": 70,
+  "breakdown": [
+    "队列名次#1 +30",
+    "已有问答答案 +15",
+    "lore 页存在 +10",
+    "答案含站内内链 +8",
+    "问题关键词命中 lore(planet,cycle,night) +7"
+  ],
+  "has_answer": true,
+  "date": "2026-11-03",
+  "fallback_date": false,
+  "candidates": 3,
+  "all": [
+    {
+      "slug": "floquet-temporal-matter",
+      "score": 70,
+      "weight": 30,
+      "relevance": 40,
+      "rank": 1
+    },
+    {
+      "slug": "semi-dirac-mass-nullification",
+      "score": 53,
+      "weight": 20,
+      "relevance": 33,
+      "rank": 2
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "score": 27,
+      "weight": 10,
+      "relevance": 17,
+      "rank": 3
+    }
+  ]
+}

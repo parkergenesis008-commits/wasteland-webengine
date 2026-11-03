@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-03",
+ "entries": [
+  {
+   "slug": "floquet-temporal-matter",
+   "question": "Planet with cycle: Day — Night — Dusk — Night",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night",
+   "heat": "6 points, 4 answers, 726 views, open (SE API 2026-11-03; asked 2026-10-23)",
+   "answer_md": "A planet orbiting both stars of a close binary sees two eclipses per binary period, so its light curve runs full light, a dip, a short return to full light, and a second dip. That pattern is stable only outside the circumbinary stability limit, a few times the separation of the two stars, and the dips differ in depth only when the stars differ in brightness or size. The dark phases are eclipses rather than a rotation-driven night, so their length follows orbital speed and stellar radii, not the planet's spin. In this setting the repeating illumination is treated as a periodic drive that can lock a world into a fixed sequence of light and dark phases, and the <a href='kpz-reality-rendering.html'>rendering layer</a> draws that sequence as a scripted sky. That lock is fiction; the eclipse geometry underneath it is standard orbital mechanics.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  },
+  {
+   "slug": "semi-dirac-mass-nullification",
+   "question": "Why Is the Magnitude of the 4-Vector Velocity Constant?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877402/why-is-the-magnitude-of-the-4-vector-velocity-constant",
+   "heat": "1 point, 1 answer, 61 views, open (SE API 2026-11-03; asked 2026-11-02)",
+   "answer_md": "The four-velocity is the tangent to a worldline parametrized by proper time, and proper time is defined by the spacetime interval along that worldline, so its norm comes out as c identically rather than as a separate dynamical law. Reparametrize the curve and the components change, but the normalized tangent does not, which is why the statement survives any choice of coordinates. The popular line that everything moves through spacetime at the speed of light is a restatement of that normalization for massive particles; photons follow null worldlines and have zero norm instead. In condensed matter the effective mass is set by band curvature and can shrink near a band crossing, which is why a **semi-Dirac** sheet can behave as if mass were switched off. Here that nullification is a band-structure effect driven by a fictional <a href='artificial-kondo-lattice.html'>Kondo lattice</a> control grid, not a change to any particle's rest mass.",
+   "links": [
+    "artificial-kondo-lattice"
+   ]
+  }
+ ]
+}
