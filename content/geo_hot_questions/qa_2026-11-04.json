@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-04",
+ "entries": [
+  {
+   "slug": "holographic-kpz-projection",
+   "question": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+   "heat": "16 points, 1 answer, 658 views (SE API 2026-11-04)",
+   "answer_md": "Ulexite is a borate mineral that grows as a dense bundle of micron-scale parallel fibres, and each fibre guides light by total internal reflection the way a step-index optical fibre does, which is why a polished slice carries an image from one face to the other. A laser aimed along the fibres is accepted by many fibres at slightly different angles, and their exit cones overlap into two or three concentric rings whose radii grow as the beam tilts away from the normal. Aimed across the fibres, the same beam spreads in the plane perpendicular to the fibre axis, so the pattern changes shape instead of vanishing. In this setting the bundle is treated as a passive projection medium that can be tuned to carry a structured image into a room, and that use is fiction, while the guided-light behaviour is ordinary fibre optics and biaxial crystal optics.",
+   "links": [
+    "kpz-reality-rendering"
+   ]
+  },
+  {
+   "slug": "electromagnetic-theater-override",
+   "question": "What effect would a “Starfish Prime” test have on Starlink?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+   "heat": "4 points, 0 answers, 186 views (SE API 2026-11-04)",
+   "answer_md": "Starfish Prime was a **1.4 megaton** device detonated roughly 400 km above Johnston Atoll in July 1962, and its gamma rays stripped electrons from air molecules, driving a brief electromagnetic pulse and injecting a long-lived artificial radiation belt. The pulse coupled into conductors thousands of kilometres away, and the belt is the part that damaged satellites, several of which failed within months of the test. A Starlink shell near 550 km sits below the core of that injected belt, so the plausible damage path is radiation-induced electronics faults and solar-array degradation on passes through the South Atlantic Anomaly rather than a Hawaii-style ground blackout, though the pulse footprint at that altitude still reaches a very large ground area. In this setting the same ionospheric disturbance is written as a deliberate **theatre-wide electromagnetic override**, and that weaponisation is fiction while the pulse and belt physics are documented.",
+   "links": [
+    "type2-superlattice-radar"
+   ]
+  }
+ ]
+}

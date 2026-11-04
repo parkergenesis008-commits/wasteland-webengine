@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04T02:01:15",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "/Users/michaelray/webengine/content/geo_hot_questions/raw_2026-11-04.json",
+ "sources_health": {
+  "stackexchange": 58,
+  "reddit_rss": 0,
+  "hackernews": 8,
+  "dedup": 51,
+  "question_form": 43,
+  "errors": [
+   "reddit/r/singularity: URLError <urlopen error timed out>",
+   "reddit/r/postapocalyptic: URLError <urlopen error timed out>",
+   "reddit/r/collapse: URLError <urlopen error timed out>",
+   "reddit/r/selfpublish: URLError <urlopen error timed out>"
+  ],
+  "note": "Reddit 全部超时，reddit_rss 今日 0 条；HackerNews 8 条中仅 2 条为问题/话题形态可用"
+ },
+ "x_tiktok": {
+  "x": "今日 web_search 两次检索到的 X 结果均为低热度宣传/科普帖（最高 5 views），无可核验的热门提问，记为抓取失败",
+  "tiktok": "命中「What if X disappeared for 5 seconds」系列，取中子篇 4,400,000 views（2026-10-06 发布，非今日）",
+  "verified": true
+ },
+ "heat_verification": "12 条中 11 条热度来自本次 StackExchange API 实测（score/answers/views，2026-11-04 调用，quota 283）；1 条 TikTok 来自搜索摘要，播放量未二次打开页面确认",
+ "dedup_note": "已剔除 11-01/11-02/11-03 已用条目：Planet with cycle、4-vector velocity、GOES-19、power armor、horsehair worms、Guestarians、2-/3-body、electrons disappeared 等；今日 12 条中 10 条为三日内未用过的新题",
+ "entries": [
+  {
+   "question": "Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings",
+   "heat": "16 points, 1 answer, 658 views (SE API 2026-11-04)",
+   "why": "Ulexite 是天然纤维束矿物，平行纤维就是百万级微米波导。激光沿纤维入射时，不同纤维的接受角不同，出射锥叠加成同心环；横向入射则变成平面散射。罕见矿物光学，长尾搜索稳，物理链条干净（全内反射 + 接受角），可讲清且不需要编数。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层：全内反射光纤束 + 入射角改变接受模式 + 出射锥叠加成环。设定层：把纤维束写成可调投影介质，明确标 fiction。",
+   "use": "qa 注入主条，内链 holographic-kpz-projection；回答里放原生 <a> 内链到 kpz-reality-rendering。"
+  },
+  {
+   "question": "What effect would a “Starfish Prime” test have on Starlink?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink",
+   "heat": "4 points, 0 answers, 186 views (SE API 2026-11-04; asked 2026-10-24)",
+   "why": "1962 年真实核试验 vs 今日低轨巨型星座，是电磁脉冲与人工辐射带的现实对照。提问者已给出 1.4 Mt/400 km/3500 km 足迹，事实底座牢；中文与英文搜索词（Starfish Prime + 卫星）长期有量。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层：康普顿电子 - 电磁脉冲 - 人工辐射带 - 卫星失效史。设定层：同一电离层扰动写成“战区级电磁压制”，明确标 fiction。",
+   "use": "qa 注入第二条，注入 electromagnetic-theater-override 页；内链 type2-superlattice-radar。"
+  },
+  {
+   "question": "Most efficient material for a telekinetic to launch as a weapon?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274815/most-efficient-material-for-a-telekinetic-to-launch-as-a-weapon",
+   "heat": "12 points, 11 answers, 1725 views (SE API 2026-11-04)",
+   "why": "今日世界构建板块浏览量最高的一条，11 个答案说明争议大、讨论活跃。题干给了 400 N / 1 km 的硬参数，能直接算功的上界，材料强度与大气烧蚀是真实约束，不靠编数。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层：W = F·d 给能量上界，小质量高速受材料强度、气动加热、烧蚀三重限制；钨/钢/陶瓷各有取舍。设定层：力传递介质与感知约束写成 fiction。",
+   "use": "QUEUE 推荐条，走世界构建轨；解答可引 book.html。"
+  },
+  {
+   "question": "Can you hide a dwarf planet/planet in the Solar System?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274920/can-you-hide-a-dwarf-planet-planet-in-the-solar-system",
+   "heat": "5 points, 3 answers, 365 views (SE API 2026-11-04; asked 2026-11-03，当日最新)",
+   "why": "Rubin/LSST 上线后真实可探测性话题，遮掩、热辐射、轨道摄动是三条独立泄漏路径，正好对应雷达/传感 lore 页。时效最新。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层：掩星计时、红外热辐射、外行星摄动三类探测手段，为什么“藏不住”是工程问题不是保密问题。设定层：超晶格雷达改写发现曲线，标注 speculative。",
+   "use": "lore 轨条目，内链 type2-superlattice-radar。"
+  },
+  {
+   "question": "How to stop a bacteriophage naturally evolving",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274911/how-to-stop-a-bacteriophage-naturally-evolving",
+   "heat": "7 points, 3 answers, 657 views (SE API 2026-11-04)",
+   "why": "噬菌体疗法回潮的背景真实（抗药菌常态化），宿主-噬菌体共演化是成熟生物学。设定问“能否冻结自然选择”，答题空间大且不涉编数。",
+   "map_to": "book",
+   "answer_angle": "真实层：噬菌体-宿主军备竞赛、CRISPR 与受体突变、鸡尾酒疗法为何要轮换。设定层：受控进化写成设定制度，标 fiction。",
+   "use": "购买意图轨，引 book.html 全平台；《Alien Dimensions》物种设计话题同调。"
+  },
+  {
+   "question": "Does Actinium-225 glow due to Cherenkov radiation?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877220/does-actinium-225-glow-due-to-cherenkov-radiation",
+   "heat": "14 points, 3 answers, 1092 views (SE API 2026-11-04)",
+   "why": "靶向 α 治疗核素，Cherenkov 阈值判据清晰（介质中相速度），能讲清“发光”与“辐照”的区别。科普长尾强。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层：Cherenkov 阈值条件、α 粒子射程短、容器与剂量现实；不要给未核实的发光照片结论。设定层：把能带交叉处的等效质量归零写成 fiction。",
+   "use": "lore 轨，内链 semi-dirac-mass-nullification。"
+  },
+  {
+   "question": "Why is a point mass on a rod whose ends slide freely on perpendicular rails equivalent to a simple pendulum?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877116/why-is-a-point-mass-on-a-rod-whose-ends-slide-freely-on-perpendicular-rails-equivalent-to-a-simple-pendulum",
+   "heat": "7 points, 2 answers, 800 views (SE API 2026-11-04)",
+   "why": "约束力学的经典反直觉题，瞬时转动中心 + 小振动展开两句能讲透；标题即问句，适合做内链锚文本。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层：约束把 2 自由度耦合成单一振动模态，小角度下回复力线性化。设定层：把多体约束共振写成驱动机制，标 speculation。",
+   "use": "lore 轨，内链 cooperative-resonance-torsion。"
+  },
+  {
+   "question": "Can gravitational fields snap and reconnect like magnetic fields?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877255/can-gravitational-fields-snap-and-reconnect-like-magnetic-fields",
+   "heat": "12 points, 1 answer, 699 views (SE API 2026-11-04)",
+   "why": "提问者自己指出“只有一篇 arXiv 论文”，是典型单一论文外推。可正面讲清磁重联依赖矢量场拓扑与电阻，而广义相对论里没有可断可接的场线，纠错即价值。",
+   "map_to": "holographic-kpz-projection",
+   "answer_angle": "真实层：磁重联拓扑机制、引力由度规描述、引力电磁类比只在弱场线性区成立。设定层：把场线拓扑重写写成 lore，明确标 fiction；不给未经核实的论文结论。",
+   "use": "lore 轨纠错型条目，内链 holographic-kpz-projection。"
+  },
+  {
+   "question": "If you shatter a pane of glass, will it result in a unique set of shards?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877431/if-you-shatter-a-pane-of-glass-will-it-result-in-unique-set-of-shards",
+   "heat": "1 point, 0 answers, 53 views (SE API 2026-11-04; asked 2026-11-03)",
+   "why": "确定性混沌 + 裂纹扩展的入口题，短问句适合长尾；热度弱，只进 lore 轨不进 qa。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层：裂纹路径对初始缺陷与应力场极敏感，宏观不可重复；不宣称“绝对唯一”的数学定理。设定层：把不可复现的碎裂写成渲染层的随机性来源。",
+   "use": "lore 轨，内链 kpz-reality-rendering；不注入 qa。"
+  },
+  {
+   "question": "What if neutrons disappeared for 5 seconds?",
+   "source": "TikTok (@man_ia_c)",
+   "source_url": "https://tiktok.com/@man_ia_c/video/7693617402180881697",
+   "heat": "4,400,000 views, 340,300 likes, 2,593 comments (search snippet, video dated 2026-10-06)",
+   "why": "「元素消失 5 秒」系列是真实在跑的爆款模板，同系列电子篇 1760 万播放。中子版直接落在核束缚与原子结构，正好对原子晶格页。注意：帖子是 10-06，不是今日新帖。",
+   "map_to": "obstructed-atomic-phantom-grid",
+   "answer_angle": "真实层：中子持核、β 稳定线、同位素为何存在；视频里的当量数字不可引用，只能 qualitatively 谈失稳。设定层：晶格“空位化”设为剧情机制，标 fiction。",
+   "use": "短视频引流轨，做 question 形态的站点条目，不写具体当量。"
+  },
+  {
+   "question": "Machine-learning corrections to SGP4 orbit propagation",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70773/machine-learning-corrections-to-sgp4-orbit-propagation",
+   "heat": "-1 points, 0 answers, 58 views (SE API 2026-11-04)",
+   "why": "AI + 轨道预报交叉，命中 AI/未来学读者；热度低但话题有搜索量，适合做方法学澄清（残差学习 vs 端到端）。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层：SGP4 的解析假设、残差学习的适用边界、训练数据与误差传播。设定层：把超晶格雷达的跟踪修正写成 fiction。",
+   "use": "lore 轨次要条目，内链 type2-superlattice-radar。"
+  },
+  {
+   "question": "I need food spoilage to be a consistent problem in a setting where techniques like vacuum packing, canning and freezing exist",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274840/i-need-food-spoilage-to-be-a-consistent-problem-in-a-setting-where-techniques-like-vacuum-packing-canning-and-freezing-exist",
+   "heat": "10 points, 11 comments (raw JSON 2026-11-04)",
+   "why": "评论数高、讨论热，是世界观设计里最实用的一类问题；能引到储存史与微生物学，不靠编数。",
+   "map_to": "book",
+   "answer_angle": "真实层：罐藏/冷冻/真空各自的失效模式（芽孢、脂肪氧化、冷链断点）。设定层：把“技术可用但不可靠”写成社会约束，标 fiction。",
+   "use": "购买意图轨，引 book.html；不做 qa 注入。"
+  }
+ ]
+}
