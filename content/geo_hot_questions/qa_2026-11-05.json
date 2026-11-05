@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "entries": [
+    {
+      "slug": "cooperative-resonance-torsion",
+      "question": "Why can horsehair worms untie themselves?",
+      "source": "Physics StackExchange",
+      "source_url": "https://physics.stackexchange.com/questions/877343/why-can-horsehair-worms-untie-themselves",
+      "heat": "18 points, 2 answers, 1,326 views (SE API 2026-11-05)",
+      "answer_md": "A horsehair worm is a fraction of a millimetre thick and it is wriggling in water, so the friction that would lock a shoelace knot is almost absent, and a knot with a free end can lose its crossings one at a time. With very low friction the crossing points move almost randomly, so every extra wiggle raises the chance of reaching the unknotted state, which is why the motion does not simply pull the knot tighter. The animal also does something a passive string cannot: local muscles bend one segment without loading the rest, which widens a tight loop instead of cinching it. In this project the same idea is pushed into a **synthetic filament lattice** whose segments negotiate curvature with each other so that a tangled state can relax out, and that lattice is fiction while the friction and topology argument is ordinary mechanics. Related reading: <a href='artificial-kondo-lattice.html'>Artificial Kondo Lattice</a>.",
+      "links": [
+        "artificial-kondo-lattice"
+      ]
+    },
+    {
+      "slug": "qm-tether-exosuit",
+      "question": "Can I make power armor that is resistant to magnetic fields?",
+      "source": "Worldbuilding StackExchange",
+      "source_url": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+      "heat": "3 points, 3 answers, 863 views (SE API 2026-11-05)",
+      "answer_md": "The hard constraint is material choice rather than field strength: iron, cobalt and nickel are ferromagnetic, so a steel frame becomes a magnet in a stray field and is dragged toward the source, while aluminium, titanium or a composite frame removes that attraction for all but extreme static fields. Changing fields are a separate problem, because they induce currents, so sensitive electronics need a conductive shell or mesh and a continuous metal skin turns into a resistive heater once the field oscillates, which makes heat rejection the real design driver. Joints, connectors, cabling and sensor windows stay leaky, so protection is always granted part by part instead of to the suit as a whole. In this project that trade-off is written into the **field-aware exosuit** spec, where actuator power and sensor returns run through shielded channels and the joints are accepted as loss points, and that specification is fiction layered on ordinary shielding practice. See also <a href='electromagnetic-theater-override.html'>Electromagnetic Theater Override</a>.",
+      "links": [
+        "electromagnetic-theater-override"
+      ]
+    }
+  ]
+}

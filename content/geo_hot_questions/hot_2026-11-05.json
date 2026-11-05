@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-05",
+ "generated": "2026-11-05T02:04:18",
+ "site": "https://parkergenesis008-commits.github.io/wasteland-webengine/",
+ "source_raw": "content/geo_hot_questions/raw_2026-11-05.json",
+ "sources_health": {
+  "stackexchange": 58,
+  "reddit_rss": 0,
+  "hackernews": 8,
+  "dedup": 51,
+  "question_form": 43,
+  "errors": [
+   "reddit/r/postapocalyptic: URLError <urlopen error timed out>",
+   "reddit/r/collapse: URLError <urlopen error timed out>",
+   "reddit/r/selfpublish: URLError <urlopen error timed out>",
+   "reddit/r/printSF: URLError <urlopen error timed out>"
+  ],
+  "note": "Reddit 4 个板块全部超时, reddit_rss 今日 0 条 → 该源今日不可用; HackerNews 8 条均为工程/统计类非物理向, 未入选"
+ },
+ "x_tiktok": {
+  "x": "2 次 web_search 只回泛化 AI 帖, 个人主页与营销贴, 无当日提问形态, 互动数不可核对 → 判今日抓取失败, 未采信任何数值, 未编造帖子",
+  "tiktok": "命中 @man_ia_c 'What if electrons disappeared for 5 seconds' 页面摘要显示 13,400,000 播放 / 1,600,000 赞 / 8,970 评论, 2026-10-06 发布, 非今日帖; 未打开视频页二次核验",
+  "verified": "partial"
+ },
+ "heat_verification": "12 条中 11 条热度为本次 api.stackexchange.com 2.3 逐条实测 (score/answer_count/view_count, 2026-11-05 调用), 全部 open 无 closed_reason; 1 条 TikTok 来自搜索摘要, 播放量未二次核验",
+ "dedup_note": "与 2026-11-04 清单重叠 0 条; 12 条 = 6 条首见 (877448, 877452, 877447, 70787, 274931, 70783) + 6 条从未注入的历史列出题 (877343, 274841, 877264, 70774, 274909, TikTok 电子); 逐条核对 qa_20*.json 与 qa_injected.json, 今日 12 条无一曾进入 qa 文件; 剔除 877184 (10-25 已注入), 877191 (10-28 已注入), 274866 与 274898 (closed=Needs more focus / Needs details)",
+ "entries": [
+  {
+   "question": "Why can horsehair worms untie themselves?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877343/why-can-horsehair-worms-untie-themselves",
+   "heat": "18 points, 2 answers, 1,326 views (SE API 2026-11-05; asked 2026-10-31)",
+   "why": "今日 physics 最高分。提问者自带反例：拉紧绳只会打死结，所以抖动一定在做别的事。答案落在低摩擦、交叉点随机迁移、局部肌肉单独拉直某一段，全部可讲清且不需要编数；多段协同解开拓扑约束与本项目 torsion 页同构。",
+   "map_to": "cooperative-resonance-torsion",
+   "answer_angle": "真实层：开放结有自由端，低摩擦下交叉点近似做自避随机游走，解结概率随抖动次数单调上升；肌肉能单独改变某段曲率从而放大松环，被动细丝做不到。设定层：合成丝束按段协商曲率，明确标 fiction。",
+   "use": "qa 注入主条 1，目标页 cooperative-resonance-torsion，内链 artificial-kondo-lattice。"
+  },
+  {
+   "question": "Can I make power armor that is resistant to magnetic fields?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields",
+   "heat": "3 points, 3 answers, 863 views (SE API 2026-11-05; asked 2026-10-25)",
+   "why": "提问者已把问题拆成受热、无法计算、被吸附三条，天然适合逐项回答。铁钴镍是唯一硬约束，其余是工程让步；与 qm-tether-exosuit 页的供能与屏蔽设定直接同构，是购买意图最强的一条。",
+   "map_to": "qm-tether-exosuit",
+   "answer_angle": "真实层：铁钴镍铁磁体是静态吸附的唯一根因，换铝钛或复合材料即消除；交变场靠良导体涡流，金属外壳反而变成发热体，散热成为真正瓶颈。设定层：把 exosuit 的屏蔽通道写成规格，标 fiction。",
+   "use": "qa 注入主条 2，目标页 qm-tether-exosuit，内链 electromagnetic-theater-override。"
+  },
+  {
+   "question": "Fine&#39;s theorem for CHSH inequality - existence theorem",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877447/fines-theorem-for-chsh-inequality-existence-theorem",
+   "heat": "2 points, 0 answers, 38 views (SE API 2026-11-05; asked 2026-11-04)",
+   "why": "今日新帖零回答，问的是为什么 CHSH 不 violated 等价于存在一个联合概率分布。这是 '现实能不能被一套隐变量规则渲染出来' 的严格版本，和 kpz 页的设定前提是同一个数学问题。",
+   "map_to": "kpz-reality-rendering",
+   "answer_angle": "真实层：Fine 定理给出，对两体两测量情形，CHSH 不等式成立与存在一个非负联合分布复现全部成对关联是等价命题；量子力学违反不等式，因此不存在这样的联合分布，也不需要假设定域性之外的额外机制。设定层：把渲染器写成必须维护联合分布的对象，标 fiction，不说成物理结论。",
+   "use": "概念硬题，内链 kpz-reality-rendering；不注入。"
+  },
+  {
+   "question": "How do I reduce charge on my glassware before weighing?",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877264/how-do-i-reduce-charge-on-my-glassware-before-weighing",
+   "heat": "13 points, 4 answers, 983 views (SE API 2026-11-05; asked 2026-10-28)",
+   "why": "实验室实操题，静电荷让读数漂移，答案是可复现的操作序列：接地、离子源中和、提高湿度、避免摩擦。属于 EMB 场控制类最接地气的入口，适合做 '为什么你的秤在漂' 的科普钩子。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层：绝缘体表面电荷无法靠接地泄放，需要离子化空气提供载流子中和，湿度提高表面电导，称量前避免擦拭摩擦。设定层：把场控制写成 theater override 的降级模式，标 fiction。",
+   "use": "备选注入，目标页 electromagnetic-theater-override；实操步骤可截图做长图。"
+  },
+  {
+   "question": "Question about the condition of spontaneous symmetry breaking:",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877448/question-about-the-condition-of-spontaneous-symmetry-breaking",
+   "heat": "3 points, 1 answer, 71 views (SE API 2026-11-05; asked 2026-11-04)",
+   "why": "昨天新帖，问的是 ⟨0|[Q,φ]|0⟩≠0 为什么等价于真空不在 Q 生成的希尔伯特空间里。概念题，答对与否可验证，正好支撑 semi-dirac 页里 '质量项符号翻转' 的设定前提。",
+   "map_to": "semi-dirac-mass-nullification",
+   "answer_angle": "真实层：对称性自发破缺的判据是基态在生成元下不被固定，Fabri-Picasso 定理把真空不不变性与荷算符无定义联系起来；经典层面就是势能极小偏离原点、二阶导变号。设定层：把质量项写成可调参数是虚构机制。",
+   "use": "科普长尾，讲清 '破缺不是破坏' 这一常见误解；不注入。"
+  },
+  {
+   "question": "Help with proof of probability of induced emission of photons in $n$ photon state",
+   "source": "Physics StackExchange",
+   "source_url": "https://physics.stackexchange.com/questions/877452/help-with-proof-of-probability-of-induced-emission-of-photons-in-n-photon-state",
+   "heat": "4 points, 0 answers, 39 views (SE API 2026-11-05; asked 2026-11-04)",
+   "why": "受激辐射概率正比于 n+1 是激光与协同辐射的共同数学根，本项目的 cooperative resonance 页整段建立在这个因子之上。今日零回答，属于可抢先占位的空白题。",
+   "map_to": "artificial-kondo-lattice",
+   "answer_angle": "真实层：玻色增强因子 n+1 来自产生算符作用在 n 光子态上的模方，自发辐射是 n=0 的特例，两者不是两套机制。设定层：晶格节点的集体辐射写成同一因子的放大，标 fiction。",
+   "use": "占位型回答，适合内链 artificial-kondo-lattice；不注入。"
+  },
+  {
+   "question": "How is the Apoapsis and Periapsis calculated for a gaseous planet?",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70787/how-is-the-apoapsis-and-periapsis-calculated-for-a-gaseous-planet",
+   "heat": "0 points, 1 answer, 12 views (SE API 2026-11-05; asked 2026-11-04)",
+   "why": "今日新帖，问气态行星没有固体表面时拱点怎么定义。真实答案是用参考椭球或 1 bar 等压面代替表面，属于定义题不是计算题，正好纠正 '行星半径' 这个隐含假设。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层：拱点由轨道六根数与天体中心、参考半径决定，气态行星取约定等压面或扁球体作为零高度，几何扁率使同一轨道在不同纬度有不同高度。设定层：雷达测距按同一约定换算，标 fiction。",
+   "use": "定义纠错类短文，内链 type2-superlattice-radar；不注入。"
+  },
+  {
+   "question": "How does water temperature vary with depth on a water world?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274909/how-does-water-temperature-vary-with-depth-on-a-water-world",
+   "heat": "6 points, 4 answers, 973 views (SE API 2026-11-05; asked 2026-11-01)",
+   "why": "全海洋行星的热结构只有一条主线：太阳能只加热表层，盐度与压力接管深层，温跃层把两层隔开。真实物理清楚且在声学上有直接后果，适合接感知类页面。",
+   "map_to": "type2-superlattice-radar",
+   "answer_angle": "真实层：表层混合层由风与日照维持，温跃层以下温度缓慢升至接近冰点或受地热影响，盐度决定密度稳定度；声速随温度变化，跃层会造成声影区。设定层：探测阵列按同一温跃层模型布点，标 fiction。",
+   "use": "海洋行星设定素材，内链 type2-superlattice-radar 的感知矩阵；不注入。"
+  },
+  {
+   "question": "Would life that used sulfuric acid in place of water also have to be silicon based?",
+   "source": "Worldbuilding StackExchange",
+   "source_url": "https://worldbuilding.stackexchange.com/questions/274931/would-life-that-used-sulfuric-acid-in-place-of-water-also-have-to-be-silicon-based",
+   "heat": "2 points, 2 answers, 91 views (SE API 2026-11-05; asked 2026-11-04)",
+   "why": "溶剂与骨架被混为一谈是硬科幻常见错误，本题正好拆开：溶剂决定反应窗口，骨架决定成键几何，两者可以独立选择。适合作为 book.html 的引流题。",
+   "map_to": "book",
+   "answer_angle": "真实层：硫酸的介电常数与质子活度决定了离子化学的可行区间，碳在浓硫酸中并非不可用，硅的问题是与氧成键过于牢固导致代谢产物难溶。设定层：书里外星溶剂生化只作设定推演。",
+   "use": "购书导流题，直接引 book.html 全平台分销；不注入。"
+  },
+  {
+   "question": "What if electrons disappeared for 5 seconds?",
+   "source": "TikTok (@man_ia_c)",
+   "source_url": "https://tiktok.com/@man_ia_c/video/7693494009494342945",
+   "heat": "13,400,000 views, 1,600,000 likes, 8,970 comments (搜索摘要显示, 2026-10-06 发布, 非今日)",
+   "why": "同类 'what if X disappeared' 系列里播放最高的一支，问题形态极适合做两步回答：先讲电磁束缚真实后果，再讲本项目里场被改写后的虚构设定。",
+   "map_to": "electromagnetic-theater-override",
+   "answer_angle": "真实层：电子提供化学键与物质刚性，移除后所有正离子互斥，静电势能释放的量级足以摧毁结构；光与物质的相互作用同时失效。设定层：局部场改写不等于物质消失，是虚构装置行为。",
+   "use": "社交侧唯一采用条目，标注非当日帖；可做短视频脚本，不注入。"
+  },
+  {
+   "question": "Ablatively Cooled Combustion Chambers for LOX-Based Liquid Rocket Engines",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70774/ablatively-cooled-combustion-chambers-for-lox-based-liquid-rocket-engines",
+   "heat": "2 points, 0 answers, 113 views (SE API 2026-11-05; asked 2026-10-26)",
+   "why": "烧蚀冷却为什么在固推与小型液机上常见却难上大液机，本题零回答，是可补的工程空白。回答能落在热流密度与烧蚀率的质量预算上，不需要任何编造数据。",
+   "map_to": "book",
+   "answer_angle": "真实层：烧蚀冷却靠材料分解吸热与边界层气体注入降低热流，代价是腔体尺寸随工作时间变化，长时间工作质量代价不可接受，所以大推力长程发动机改用再生冷却。设定层：书中单次任务飞行器按同一预算设计。",
+   "use": "工程向长答，引 book.html；不注入。"
+  },
+  {
+   "question": "Engine Orientation and clustering in Multi-Engine First-Stage Configurations",
+   "source": "Space StackExchange",
+   "source_url": "https://space.stackexchange.com/questions/70783/engine-orientation-and-clustering-in-multi-engine-first-stage-configurations",
+   "heat": "0 points, 0 answers, 34 views (SE API 2026-11-05; asked 2026-11-03)",
+   "why": "今日新帖且零回答，问的是多机并联时发动机如何排布、倾角与铰链如何分配控制权。可补的工程空白，回答落在推力矢量备份与结构载荷上，恰好对应三分架构的冗余逻辑。",
+   "map_to": "arena-tripartite-architecture",
+   "answer_angle": "真实层：并联发动机的排布决定推力线与质心偏置，外圈发动机做推力矢量可在单机失效时维持控制，代价是万向节与结构载荷增加；铰链数量与冗余不是越多越好。设定层：三分架构的冗余预算写成虚构规格。",
+   "use": "占位型工程回答，内链 arena-tripartite-architecture；不注入。"
+  }
+ ]
+}
