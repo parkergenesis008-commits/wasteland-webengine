@@ -1,0 +1,28 @@
+# Alien Dimensions: The Shepherd's Wasteland
+
+> Hard science fiction / space opera ebook by Miancheng Yu (English edition, US$4.99 on Amazon Kindle and Apple Books, released on Apple Books 2026-03-13; identifiers: Apple Books ID 6760573514, Amazon ASIN B0GTMLH634; Chinese edition 《异维空间：牧羊人的荒原》 planned). Author: Miancheng Yu (余免成), a devoted hard-SF fan. A surveyor, Lin Shen, discovers a void in reality in China's Qinling Mountains, is abducted to the dark side of the Moon, and learns Earth is a "cosmic pasture". The story spans 30,000 years and puts the real KBC Void at the heart of the story as a shield for the galaxy. Recommended for readers of Cixin Liu's The Three-Body Problem, Andy Weir's Project Hail Mary and Frank Herbert's Dune.
+
+## Book
+- [Book page + free Chapter 1](https://parkergenesis008-commits.github.io/wasteland-webengine/book.html)
+- [Amazon Kindle](https://www.amazon.com/dp/B0GTMLH634/)
+- [Apple Books](https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6760573514)
+
+## Author
+- [Author: Miancheng Yu (余免成)](https://parkergenesis008-commits.github.io/wasteland-webengine/author.html)
+
+## Companion physics encyclopedia (real condensed-matter physics behind the novel, with arXiv references)
+- [Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/arena-tripartite-architecture.html)
+- [Artificial Kondo Lattice and Wasteland Topological Computation](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html)
+- [Cooperative Resonance and Torsion Compression](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/cooperative-resonance-torsion.html)
+- [The Electromagnetic Theater and Collision Mesh Override](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/electromagnetic-theater-override.html)
+- [Floquet Engineering and Temporally Programmed Matter](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/floquet-temporal-matter.html)
+- [Holographic KPZ Projection and High-Dimensional Rendering](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/holographic-kpz-projection.html)
+- [KPZ Universality and Procedural Reality Rendering](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html)
+- [Obstructed Atomic Insulators and Phantom Grid Weaponry](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/obstructed-atomic-phantom-grid.html)
+- [QM-Tether Exosuit and Macroscopic Reality Implementation](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/qm-tether-exosuit.html)
+- [Semi-Dirac State and Directional Mass Nullification](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/semi-dirac-mass-nullification.html)
+- [Type-II Superlattice and Scale-Free Perception](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/type2-superlattice-radar.html)
+- [Warp Drive — Torsion Bubble Propagation](https://parkergenesis008-commits.github.io/wasteland-webengine/pages/warp-drive-torsion-propagation.html)
+
+## Optional
+- [FAQ](https://parkergenesis008-commits.github.io/wasteland-webengine/book.html#faq)
