@@ -77,17 +77,13 @@ BOOK_SAMPLE = (
 #     · Fable           200 但为纯 JS 壳，页面无本书信息
 #   复核脚本与原始输出: ~/Downloads/bookstore_link_audit_2026-09-11.md
 BOOK_RETAILERS = [
-    # Direct product pages (stable per-title deep links):
+    # 2026-11-06: 只保留两个自营渠道（Amazon 直链 + Apple Books 直链，$4.99）
     ("Amazon", AMAZON_URL),
     ("Apple Books", APPLE_BOOKS_URL),
-    ("Everand", EVERAND_URL),
-    # Storefront search pages（点进去即能看到本书，已实测）:
-    ("Google Play", "https://play.google.com/store/search?q=alien%20dimensions%20shepherd%27s%20wasteland&c=books"),
-    ("OverDrive (Library)", "https://www.overdrive.com/search?q=alien+dimensions+shepherd"),
-    ("Hoopla (Library)", "https://www.hoopladigital.com/search?q=alien+dimensions+shepherd"),
 ]
 # Distributor-submitted library channels (read via local library apps):
-BOOK_LIBRARY_CHANNELS = "Also available through your local library via OverDrive/Libby, Hoopla, BorrowBox, cloudLibrary and Gardners."
+BOOK_LIBRARY_CHANNELS = ""
+LIB_NOTE_HTML = ('<div class="lib-note">' + BOOK_LIBRARY_CHANNELS + '</div>') if BOOK_LIBRARY_CHANNELS else ''
 
 # ── Glossary definitions for interactive hover tooltips ──
 GLOSSARY = {
@@ -425,7 +421,7 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "about": ["Topological metamaterials", "Quantum gravity", "Einstein-Cartan theory"],
                 "offers": {
                     "@type": "Offer",
-                    "price": "9.99",
+                    "price": "4.99",
                     "priceCurrency": "USD",
                     "availability": "https://schema.org/InStock",
                     "url": "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
@@ -797,9 +793,8 @@ def build_book_page():
          f"{AUTHOR_NAME} is the author of Alien Dimensions: The Shepherd's Wasteland, a hard sci-fi novel built "
          "on the Reality-as-Code physics framework."),
         ("Where can I buy the book?",
-         "The ebook is published across 14 retailers — Amazon Kindle, Apple Books, Kobo, Barnes & Noble, "
-         "Smashwords, Bookshop.org, Everand, Tolino, Vivlio, Fable — and it is available through your local "
-         "library via OverDrive/Libby, Hoopla, BorrowBox and cloudLibrary. Purchase links are on this page."),
+         "The ebook is published on Amazon Kindle ($4.99) and Apple Books ($4.99). "
+         "Purchase links are on this page."),
     ]
     faq_json = json.dumps({
         "@context": "https://schema.org",
@@ -958,7 +953,7 @@ def build_book_page():
         <div class="retailer-grid">
             {retailers_block}
         </div>
-        <div class="lib-note">{BOOK_LIBRARY_CHANNELS}</div>
+        {LIB_NOTE_HTML}
     </div>
 
     <div class="footer-cta">
@@ -1110,7 +1105,7 @@ def build_index_page(all_slugs):
                 <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
                 <a href="{AMAZON_URL}" target="_blank" rel="noopener" class="buy-link">Amazon</a>
                 <a href="{APPLE_BOOKS_URL}" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
-                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">All {len(BOOK_RETAILERS)} Stores →</a>
+                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">Buy on Amazon / Apple Books →</a>
             </div>
         </div>
         <div class="grid">{cards_html}</div>
