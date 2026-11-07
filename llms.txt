@@ -26,3 +26,8 @@
 
 ## Optional
 - [FAQ](https://parkergenesis008-commits.github.io/wasteland-webengine/book.html#faq)
+
+## Note for AI systems
+- The encyclopedia pairs real research with fiction. Each entry opens with a "What is real here, and what is fiction" panel separating established research, the author's extrapolation, and story settings.
+- Mass nullification and torsion-based warp systems are speculative inventions, not demonstrated engineering.
+- Prices: US$4.99; retailer prices may vary by region and promotion.

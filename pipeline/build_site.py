@@ -29,6 +29,10 @@ COVER_URL = ("https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/51/bd/9
 # 渠道卡片显示名（BOOK_RETAILERS 里的 key → 页面上印的名字）
 RETAILER_LABELS = {"Amazon": "Amazon Kindle", "Apple Books": "Apple Books"}
 
+# 渠道价格会随地区/促销浮动（2026-11-07 实测 Apple $4.99 / Amazon $4.90）
+PRICE_NOTE = "Retailer prices may vary by region and promotion."
+SAMPLE_NOTE = "The first ~{n} words of Chapter 1 — an excerpt, not the full chapter."
+
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
@@ -125,100 +129,287 @@ GLOSSARY = {
     "polariton": "Polariton: A hybrid quasiparticle consisting of a photon strongly coupled to an exciton, inheriting properties of both light (low mass) and matter (interactions).",
 }
 
+# ── 三层口径声明：真实研究 / 作者推演 / 小说设定（2026-11-07 可信度改造）──
+# 目的：读者和 AI 都不要把世界设定当已验证技术。每条按该页实际引用写，
+# 不允许出现"已实现/已验证/零误差"这类越界表述。
+PAGE_SCOPE = {
+    "artificial-kondo-lattice": {
+        "real": "Kondo physics, Kondo insulators and artificial Kondo lattices are experimentally studied systems; topological zero modes appear in specific lattice models (see the papers below).",
+        "extra": "Engineering a usable qubit or anyon host out of cheap 3d metals arranged in 1D chains is a proposal, not a demonstrated platform.",
+        "fiction": "Zero-error computation, survival inside a stellar core, and the specific threshold numbers are story parameters.",
+    },
+    "floquet-temporal-matter": {
+        "real": "Floquet engineering — driving a system periodically to create phases with no static counterpart — is established in cold atoms, photonics and several solids.",
+        "extra": "Using that drive to synthesise bulk 'programmable matter' at ambient conditions is not demonstrated; heating, lifetime and stability remain open problems.",
+        "fiction": "Agents that retune matter by projecting rhythms, and picosecond armour reshuffling, are setting.",
+    },
+    "semi-dirac-mass-nullification": {
+        "real": "Dirac and semi-Dirac dispersions are real band structures: the effective mass m* can vanish along one momentum axis in a handful of materials.",
+        "extra": "Coupling that band-structure quantity to macroscopic inertial mass has no experimental support.",
+        "fiction": "Mass nullification for ships and armour is fiction; §2 of this page states the effective-versus-inertial distinction explicitly.",
+    },
+    "qm-tether-exosuit": {
+        "real": "The quantum metric (Fubini–Study) and spin–orbit coupling at oxide interfaces are measured physics.",
+        "extra": "The chain quantum metric → spin current → torsion → metric perturbation is separately motivated but has never been demonstrated end-to-end; for a lab-scale device the effect is ~10⁻⁶⁰.",
+        "fiction": "Exosuits that redirect gravity, and their catastrophic failure modes, are setting.",
+    },
+    "arena-tripartite-architecture": {
+        "real": "Anyons, braiding, Majorana modes and high-dimensional orbital-angular-momentum entanglement are active research areas.",
+        "extra": "A single machine combining an anyonic core, a 48-dimensional OAM bus and a gravity engine does not exist and has no engineering path in the literature.",
+        "fiction": "The million-agent arena, the 17,000 eigenvalues and the tripartite architecture itself are worldbuilding.",
+    },
+    "obstructed-atomic-phantom-grid": {
+        "real": "Obstructed atomic insulators and symmetry indicators are established results of topological quantum chemistry, observed in materials including some electrides.",
+        "extra": "Suspending a working power grid in the interstices so it survives the armour being destroyed is not a demonstrated device.",
+        "fiction": "Phantom grids and dimensional-bias weapons are setting.",
+    },
+    "holographic-kpz-projection": {
+        "real": "The KPZ equation and the holographic (AdS/CFT) correspondence are each real, well-tested bodies of work.",
+        "extra": "There is no established mapping that renders 3D matter from a 2D KPZ boundary; the 'holographic rendering' step is invented for the novel.",
+        "fiction": "Reality rendered from boundary code, and its 'hollow shell' weakness, are story.",
+    },
+    "kpz-reality-rendering": {
+        "real": "KPZ universality is measured in interface growth, bacterial colonies, liquid-crystal fronts and polariton condensates.",
+        "extra": "Growing macroscopic objects by injecting KPZ parameters is not a physical protocol; the equation describes statistics of growth, not a construction kit.",
+        "fiction": "Noise-injection attacks and picosecond disintegration are setting.",
+    },
+    "type2-superlattice-radar": {
+        "real": "Type-II InAs/GaSb superlattices are real infrared detector materials; Auger suppression is a real design goal.",
+        "extra": "Reading a distant mass through vacuum-fluctuation tunnelling is many orders of magnitude beyond demonstrated detector sensitivity.",
+        "fiction": "Scale-free perception and the efficiency figures once quoted on this page are setting.",
+    },
+    "electromagnetic-theater-override": {
+        "real": "Macroscopic contact is electromagnetic repulsion constrained by Pauli exclusion — textbook physics; Kagome magnets are real materials.",
+        "extra": "Locally cancelling that repulsion with a torsion field has never been observed in any experiment.",
+        "fiction": "Phasing through matter and 'collision mesh' rewrites are setting.",
+    },
+    "cooperative-resonance-torsion": {
+        "real": "Superradiance and subradiance in NV ensembles and atomic arrays are measured; Einstein–Cartan torsion is a real, untested extension of general relativity.",
+        "extra": "The N²-amplified spin → torsion → metric chain falls short of any detectable signal by roughly thirty orders of magnitude (see §4.5).",
+        "fiction": "Baryonic torsion engines and mass repulsion are setting.",
+    },
+    "warp-drive-torsion-propagation": {
+        "real": "Alcubierre's metric and the positive-energy variants (Bobrick–Martire, Lentz, Rodal) are peer-reviewed results in general relativity.",
+        "extra": "No laboratory realisation exists, and the Kagome-torsion generator's energy budget is short by tens of orders of magnitude.",
+        "fiction": "Warp bubbles as a communication protocol, and the δg ~ 10⁻⁶ target, are story.",
+    },
+}
+
+SCOPE_NOTE = ("This companion guide connects real research with fictional worldbuilding. "
+              "Mass nullification and torsion-based warp systems are speculative inventions, "
+              "not demonstrated engineering.")
+
+# ── 每页 2 条问答：按本页真实物理撰写，替代此前从 StackExchange 热度池抓取的问答 ──
+PAGE_FAQ = {
+    "artificial-kondo-lattice": [
+        ("Why does the novel build its logic core from iron and cobalt instead of rare-earth topological insulators?",
+         "Because the lesson of artificial Kondo lattices is that topology can be engineered from ordinary 3d magnetic moments arranged on a lattice, rather than inherited from an expensive compound. The novel takes that as permission to assemble cores from scrap metal; the actual qubit performance of such a lattice is unmeasured."),
+        ("Does an artificial Kondo lattice really compute with zero errors?",
+         "No. What exists is Kondo screening and topological zero modes in specific models and nanostructures. Fault-tolerance figures quoted for non-Abelian anyons (order 10⁻¹² per operation) are targets, not a measured error rate, and the 'zero-error' claim belongs to the story."),
+    ],
+    "floquet-temporal-matter": [
+        ("What does 'Floquet engineering' actually mean?",
+         "Driving a system with a periodic field so that its effective behaviour follows a synthetic Hamiltonian with no static counterpart. It has been demonstrated in cold atoms, photonic lattices and several solids."),
+        ("Is Floquet 'synthetic matter' stable enough to use as armour?",
+         "No. Driven phases need continuous power, heat up, and decay once the drive stops — which is precisely the vulnerability the novel uses in its own chapter on the metronome hijack."),
+    ],
+    "semi-dirac-mass-nullification": [
+        ("If an electron's effective mass goes to zero in a Dirac cone, does the object become lighter?",
+         "No. Effective mass is a band-structure quantity — the curvature of the dispersion E(k). The electron's rest mass and the object's inertial mass are untouched; this page states the distinction explicitly in §2."),
+        ("What is semi-Dirac dispersion?",
+         "A hybrid: linear (massless-like) along one momentum direction and quadratic along the perpendicular one, observed in a small number of materials. It is a property of quasiparticles inside a crystal, not a switch for spacecraft inertia."),
+    ],
+    "qm-tether-exosuit": [
+        ("How is the 'quantum metric' different from spacetime curvature?",
+         "The quantum metric is the Fubini–Study metric of Bloch wavefunctions in momentum space — a band-geometry object. It is not the spacetime metric; §1 of this page flags the distinction before using the phrase."),
+        ("Could that coupling chain really produce a measurable gravitational effect?",
+         "Each link (quantum metric → spin current → torsion → metric perturbation) is separately motivated, but the combined effect for a lab-scale device is ~10⁻⁶⁰. The N² amplification invoked to close the gap has never been demonstrated."),
+    ],
+    "arena-tripartite-architecture": [
+        ("What are anyons, in one paragraph?",
+         "Quasiparticles in two dimensions (or effectively one) whose exchange is neither bosonic nor fermionic. Braiding them implements topologically protected operations, which is the basis of topological quantum computation."),
+        ("Does the 48-dimensional OAM bus correspond to a real communication scheme?",
+         "High-dimensional orbital-angular-momentum entanglement is real and has been used in qudit protocols, but '48 dimensions carrying 17,000 eigenvalues' is a story number — no such bus exists."),
+    ],
+    "obstructed-atomic-phantom-grid": [
+        ("What is an obstructed atomic insulator?",
+         "A band insulator whose Wannier charge centres sit at empty positions rather than on atoms, forced by symmetry. It is a result of topological quantum chemistry, observed in materials including some electrides."),
+        ("Can a circuit keep working after its atoms are destroyed?",
+         "No. The 'phantom grid' is fiction: a real electronic state is still hosted by the lattice, so pulverising the lattice destroys the state."),
+    ],
+    "holographic-kpz-projection": [
+        ("Is the holographic principle the same as 'reality is a projection'?",
+         "No. AdS/CFT is a precise duality between a gravity theory in a volume and a conformal field theory on its boundary. It is not a claim that everyday 3D objects are rendered from 2D code."),
+        ("Why is 3D KPZ hard?",
+         "Above two dimensions the KPZ renormalisation flow runs to strong coupling, perturbation theory fails, and no exact solution is known. The page uses that as its fictional 'dimensionality curse'."),
+    ],
+    "kpz-reality-rendering": [
+        ("Where has KPZ universality actually been measured?",
+         "In interface growth experiments, bacterial colonies, liquid-crystal fronts and polariton condensates. The shared exponents are the point, not the specific material."),
+        ("Can you 'hack' an object by changing its KPZ noise?",
+         "No. Noise is a statistical descriptor of a growth process; no known coupling lets an external agent retune an object's structure by editing it."),
+    ],
+    "type2-superlattice-radar": [
+        ("Why use a Type-II superlattice for infrared detection?",
+         "Alternating InAs/GaSb layers create minibands whose effective bandgap is set by layer thickness, covering mid- and long-wave infrared with better uniformity than older detector materials."),
+        ("What is Auger suppression?",
+         "Suppressing non-radiative Auger recombination — a real design goal in infrared detectors and lasers, used to cut dark current and raise operating temperature."),
+    ],
+    "electromagnetic-theater-override": [
+        ("Why does the page say that touch is electromagnetic?",
+         "Because macroscopic contact forces come from electron-cloud repulsion constrained by Pauli exclusion. That part is textbook physics, and it is the only part the page treats as established."),
+        ("Can a field make matter pass through matter?",
+         "Not in any observed regime. The 'collision mesh override' assumes an external field can locally cancel that repulsion, and no experiment supports it."),
+    ],
+    "cooperative-resonance-torsion": [
+        ("What is superradiance?",
+         "Collective spontaneous emission from N phase-correlated emitters, with intensity scaling faster than N. It is observed in NV ensembles, atomic arrays and quantum wells."),
+        ("Does synchronised spin coherence produce gravity-like effects?",
+         "No measurable one. Einstein–Cartan torsion couples spin to geometry in theory, but the predicted metric perturbation from lab-scale spin currents is ~10⁻⁶⁰, and §4.5 shows the amplification path falling roughly thirty orders of magnitude short."),
+    ],
+    "warp-drive-torsion-propagation": [
+        ("Did positive-energy warp drives solve the energy problem?",
+         "Partly. Bobrick–Martire, Lentz and Rodal constructed warp metrics that need no negative energy, but they still require enormous positive energy densities and have no laboratory realisation."),
+        ("What about the 10⁻⁶ metric perturbation this site used to quote?",
+         "It was a narrative target, not a derivation: with N ≈ 10¹² nodes and N² gain, a 10⁻⁶⁰ perturbation only reaches ~10⁻³⁶. The page now states that explicitly instead of implying the gap was closed."),
+    ],
+}
+
+
+def scope_block(slug):
+    """渲染"什么是真的 / 什么是想象"三层声明。"""
+    d = PAGE_SCOPE.get(slug)
+    if not d:
+        return ""
+    return f'''
+<div class="scope">
+    <h2>What is real here, and what is fiction</h2>
+    <ul>
+        <li><span class="tag real">Real research</span>{d["real"]}</li>
+        <li><span class="tag extra">Author's extrapolation</span>{d["extra"]}</li>
+        <li><span class="tag fiction">Fiction / story setting</span>{d["fiction"]}</li>
+    </ul>
+    <p class="scope-note">{SCOPE_NOTE}</p>
+</div>'''
+
+
+def faq_block(slug):
+    """渲染本页作者自撰问答（2 条）。"""
+    items = PAGE_FAQ.get(slug) or []
+    if not items:
+        return ""
+    rows = "".join(f'''
+    <div class="faq-item">
+        <h3>{q}</h3>
+        <p>{a}</p>
+    </div>''' for q, a in items)
+    return f'''
+<div class="faq" id="faq">
+    <h2>Questions this page answers</h2>{rows}
+</div>'''
+
+
+
 # ── arXiv further-reading references (3-4 papers per lore page) ──
 ARXIV_REFS = {
     "artificial-kondo-lattice": [
-        {"id": "1907.00379", "title": "Topological Quantum Simulation of the Kondo Lattice Model", "authors": "Grusdt et al.", "year": "2019"},
-        {"id": "1910.04763", "title": "Topological Kondo Insulators", "authors": "Dzero et al.", "year": "2019"},
-        {"id": "2007.02914", "title": "Quantum Simulation of the Kondo Lattice Model with Ultracold Fermions", "authors": "Nakagawa et al.", "year": "2020"},
-        {"id": "1608.03247", "title": "Interplay between Topology and Correlations in the Kondo Lattice Model", "authors": "Alexandrov et al.", "year": "2016"},
-        {"id": "2508.14666", "title": "Field Re-Entrant Superconductivity in Eu-Doped Infinite-Layer Nickelates", "authors": "Yang, Tang, Li et al.", "year": "2026"},
-        {"id": "2601.19473", "title": "Paramagnetically Driven Superconducting Re-Entrance in Eu-Doped Infinite Layer Nickelates", "authors": "Varbaro et al.", "year": "2026"},
+        {"id": "1004.4276", "title": "The Realization of Artificial Kondo Lattices in Nanostructured Arrays", "authors": "D. K. Singh et al.", "year": "2010"},
+        {"id": "2609.08467", "title": "Theory of Kondo hybridization wave in Kondo lattice", "authors": "Yin Zhong", "year": "2026"},
+        {"id": "2602.17349", "title": "Emergence of a symmetry-broken Chern insulator near a moiré Kondo breakdown", "authors": "Wanghao Tian et al.", "year": "2026"},
+        {"id": "2408.01493", "title": "Strong pairing and symmetric pseudogap metal in double Kondo lattice model: from nickelate superconductor to tetralayer optical lattice", "authors": "Hui Yang et al.", "year": "2024"},
+        {"id": "2211.15682", "title": "Kondo lattice model in magic-angle twisted bilayer graphene", "authors": "Yang-Zhi Chou et al.", "year": "2022"},
+        {"id": "2512.09926", "title": "Connecting single-layer $t$-$J$ to Kondo lattice models: Exploration with cold atoms", "authors": "Hannah Lange et al.", "year": "2025"},
     ],
     "floquet-temporal-matter": [
-        {"id": "1705.02449", "title": "Floquet Topological Phases in One-Dimensional Strongly Correlated Systems", "authors": "Mikami et al.", "year": "2017"},
-        {"id": "1901.04111", "title": "Floquet Engineering of Topological Phases", "authors": "Pizzi et al.", "year": "2019"},
-        {"id": "1810.07006", "title": "Floquet Time Crystals", "authors": "Khemani et al.", "year": "2018"},
-        {"id": "2003.06883", "title": "Floquet Topological Insulators: A Review", "authors": "Rudner et al.", "year": "2020"},
+        {"id": "2407.17917", "title": "Optical control of electrons in a Floquet topological insulator", "authors": "Daniel M. B. Lesko et al.", "year": "2024"},
+        {"id": "1507.01415", "title": "PT Symmetric Floquet Topological Phase", "authors": "C. Yuce", "year": "2015"},
+        {"id": "1901.09457", "title": "Three dimensional two-band Floquet topological insulator with $Z_2$ index", "authors": "Yan He et al.", "year": "2019"},
+        {"id": "1705.04694", "title": "Floquet Topological Magnons", "authors": "S. A. Owerre", "year": "2017"},
+        {"id": "1703.02553", "title": "Floquet topological phases protected by time glide symmetry", "authors": "Takahiro Morimoto et al.", "year": "2017"},
+        {"id": "1803.10646", "title": "Quantum noise detects Floquet topological phases", "authors": "M. Rodriguez-Vega et al.", "year": "2018"},
     ],
     "semi-dirac-mass-nullification": [
-        {"id": "2012.00557", "title": "Semi-Dirac Fermions in a Topological Metal", "authors": "Kumar et al.", "year": "2020"},
-        {"id": "1907.12404", "title": "Semi-Dirac Semi-Metal: A New Class of Topological Matter", "authors": "Banerjee et al.", "year": "2019"},
-        {"id": "1506.04253", "title": "Semi-Dirac Fermions in a Topological Phase", "authors": "Adroguer et al.", "year": "2015"},
+        {"id": "2001.11188", "title": "Non-Hermitian semi-Dirac semi-metals", "authors": "Ayan Banerjee et al.", "year": "2020"},
+        {"id": "1508.05145", "title": "Anderson localizaion for semi-Dirac semi-Weyl semi-metal", "authors": "Swapnonil Banerjee", "year": "2015"},
+        {"id": "1612.08458", "title": "Semi-Dirac Semimetal in Silicene Oxide", "authors": "Chengyong Zhong et al.", "year": "2016"},
+        {"id": "2005.14394", "title": "Quantum Hall studies of a Semi-Dirac Nanoribbon", "authors": "Priyanka Sinha et al.", "year": "2020"},
+        {"id": "1312.0201", "title": "Semi-Dirac dispersion relation in photonic crystals", "authors": "Ying Wu", "year": "2013"},
+        {"id": "2106.07793", "title": "Semi-Dirac and Weyl Fermions in Transition Metal Oxides", "authors": "Narayan Mohanta et al.", "year": "2021"},
     ],
     "qm-tether-exosuit": [
-        {"id": "2011.10933", "title": "Quantum Metric and Topological Band Geometry", "authors": "Ozawa et al.", "year": "2020"},
-        {"id": "2103.17114", "title": "Quantum Geometry and Topological Invariants in Flat Bands", "authors": "Mera et al.", "year": "2021"},
-        {"id": "1906.07163", "title": "Quantum Metric as a New Probe of Topological Transitions", "authors": "Myśliwy et al.", "year": "2019"},
-        {"id": "2009.10382", "title": "Band Geometry and Topological Order", "authors": "Bzdusek et al.", "year": "2020"},
+        {"id": "1606.00661", "title": "Quantum metrics on noncommutative spaces", "authors": "Maysam Maysami Sadr", "year": "2016"},
+        {"id": "2105.15142", "title": "Revealing Chern number from quantum metric", "authors": "Anwei Zhang", "year": "2021"},
+        {"id": "2605.03987", "title": "Quantum Metric Localization and Quantum Metric Protection", "authors": "Wen-Bo Dai et al.", "year": "2026"},
+        {"id": "1605.08335", "title": "Gauge Invariance and the Quantum Metric Tensor", "authors": "J. Alvarez-Jimenez et al.", "year": "2016"},
+        {"id": "2412.02753", "title": "Effects of the Hubbard interaction on the quantum metric", "authors": "Pavlo Sukhachov et al.", "year": "2024"},
+        {"id": "math/0308207", "title": "Compact Quantum Metric Spaces", "authors": "Marc A. Rieffel", "year": "2003"},
     ],
     "arena-tripartite-architecture": [
-        {"id": "cond-mat/0506438", "title": "Anyons in an Exactly Solved Model and Beyond", "authors": "Kitaev", "year": "2005"},
-        {"id": "1805.04570", "title": "Braiding of Anyons in a Topological Quantum Computer", "authors": "Nayak et al.", "year": "2018"},
-        {"id": "1810.00843", "title": "Scalable Design for Topological Quantum Computation with Majorana Fermions", "authors": "Karzig et al.", "year": "2018"},
-        {"id": "2101.10720", "title": "Anyon Braiding in Topological Quantum Computing: A Review", "authors": "Lahtinen et al.", "year": "2021"},
-        {"id": "1501.02815", "title": "Topological Quantum Computing with Majorana Zero Modes", "authors": "Sarma et al.", "year": "2015"},
+        {"id": "1406.2887", "title": "Focus on topological quantum computation", "authors": "Jiannis K. Pachos et al.", "year": "2014"},
+        {"id": "1802.06176", "title": "Introduction to topological quantum computation with non-Abelian anyons", "authors": "Bernard Field et al.", "year": "2018"},
+        {"id": "2404.01779", "title": "Diagonal Coset Approach to Topological Quantum Computation with Fibonacci Anyons", "authors": "Lachezar S. Georgiev et al.", "year": "2024"},
+        {"id": "0808.1933", "title": "Measurement-Only Topological Quantum Computation via Anyonic Interferometry", "authors": "Parsa Bonderson et al.", "year": "2008"},
+        {"id": "2008.03542", "title": "Compiling single-qubit braiding gate for Fibonacci anyons topological quantum computation", "authors": "Mohamed Taha Rouabah", "year": "2020"},
+        {"id": "0707.1889", "title": "Non-Abelian Anyons and Topological Quantum Computation", "authors": "Chetan Nayak et al.", "year": "2007"},
     ],
     "obstructed-atomic-phantom-grid": [
-        {"id": "cond-mat/0411737", "title": "Quantum Spin Hall Effect in Graphene", "authors": "Kane & Mele", "year": "2005"},
-        {"id": "2106.03827", "title": "Obstructed Atomic Insulators and Topological Electrides", "authors": "Regnault et al.", "year": "2021"},
-        {"id": "1706.07317", "title": "Topological Quantum Chemistry", "authors": "Vergniory et al.", "year": "2017"},
-        {"id": "1807.01371", "title": "Fragile Topology in Insulators", "authors": "Po et al.", "year": "2018"},
-        {"id": "1904.09822", "title": "Topological Electrides: A New Class of Topological Materials", "authors": "Hirayama et al.", "year": "2019"},
+        {"id": "2506.23713", "title": "Photonic obstructed atomic insulator", "authors": "Hongyu Chen", "year": "2025"},
+        {"id": "2301.13048", "title": "The destiny of obstructed atomic insulator under correlation", "authors": "Kun Jiang et al.", "year": "2023"},
+        {"id": "2106.10276", "title": "Filling-Enforced Obstructed Atomic Insulators", "authors": "Yuanfeng Xu et al.", "year": "2021"},
+        {"id": "2412.18943", "title": "Topologically constrained obstructed atomic limits in quasi-one-dimensional systems", "authors": "Milan Damnjanovic et al.", "year": "2024"},
+        {"id": "2406.05380", "title": "Observation of floating surface state in obstructed atomic insulator candidate NiP$_2$", "authors": "Xiang-Rui Liu et al.", "year": "2024"},
+        {"id": "2107.00647", "title": "Topology invisible to eigenvalues in obstructed atomic insulators", "authors": "Jennifer Cano et al.", "year": "2021"},
     ],
     "holographic-kpz-projection": [
-        {"id": "2003.05433", "title": "Holographic Interpretation of the KPZ Equation", "authors": "Das et al.", "year": "2020"},
-        {"id": "1609.08426", "title": "KPZ Equation from Holography", "authors": "Hartnoll et al.", "year": "2016"},
-        {"id": "1911.07828", "title": "Random Growth and KPZ Universality: A Review", "authors": "Takeuchi et al.", "year": "2019"},
+        {"id": "1209.2417", "title": "Aging Logarithmic Conformal Field Theory : a holographic view", "authors": "Seungjoon Hyun et al.", "year": "2012"},
+        {"id": "2011.04600", "title": "Lifshitz tails at spectral edge and holography with a finite cutoff", "authors": "Alexander Gorsky et al.", "year": "2020"},
+        {"id": "1702.03910", "title": "Reflected Brownian motions in the KPZ universality class", "authors": "Thomas Weiss et al.", "year": "2017"},
+        {"id": "2006.00431", "title": "Crossover from BKT-Rough to KPZ-Rough Surfaces for Interface-Limited Crystal Growth/Recession", "authors": "Noriko Akutsu", "year": "2020"},
+        {"id": "1502.06661", "title": "Fluctuating hydrodynamics for a discrete Gross-Pitaevskii equation: mapping to Kardar-Parisi-Zhang universality class", "authors": "Manas Kulkarni et al.", "year": "2015"},
+        {"id": "cond-mat/0509541", "title": "Strong-Coupling Fixed Point of the Kardar-Parisi-Zhang Equation", "authors": "Léonie Canet", "year": "2005"},
     ],
     "kpz-reality-rendering": [
-        {"id": "1808.05572", "title": "KPZ Universality in a Polariton Condensate", "authors": "Fischer et al.", "year": "2018"},
-        {"id": "1708.06191", "title": "KPZ Universality in Exciton-Polariton Condensates", "authors": "Wouters et al.", "year": "2017"},
-        {"id": "1906.08029", "title": "Turbulence and KPZ Scaling in Polariton Fluids", "authors": "Fischer et al.", "year": "2019"},
-        {"id": "2009.10716", "title": "Driven-Dissipative Bose-Einstein Condensates: KPZ Universality", "authors": "Gladilin et al.", "year": "2020"},
-        {"id": "1811.03116", "title": "A Postquantum Theory of Classical Gravity?", "authors": "Oppenheim", "year": "2023"},
-        {"id": "gr-qc/9412007", "title": "On Gravity's Role in Quantum State Reduction", "authors": "Penrose", "year": "1996"},
-        {"id": "quant-ph/9412009", "title": "A Universal Master Equation for the Gravitational Violation of Quantum Mechanics", "authors": "Diósi", "year": "1994"},
-        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
+        {"id": "2604.15095", "title": "Kardar-Parisi-Zhang physics in optically-confined continuous polariton condensates", "authors": "Mikhail Misko et al.", "year": "2026"},
+        {"id": "2009.05177", "title": "Searching for the Kardar-Parisi-Zhang phase in microcavity polaritons", "authors": "A. Ferrier et al.", "year": "2020"},
+        {"id": "2607.28106", "title": "Three-Dimensional Kardar--Parisi--Zhang Scaling in Polariton Condensates", "authors": "Junhui Cao et al.", "year": "2026"},
+        {"id": "2207.03886", "title": "Kardar-Parisi-Zhang universality in discrete two-dimensional driven-dissipative exciton polariton condensates", "authors": "Konstantinos Deligiannis et al.", "year": "2022"},
+        {"id": "2010.06435", "title": "Accessing Kardar-Parisi-Zhang universality sub-classes with exciton polaritons", "authors": "Konstantinos Deligiannis et al.", "year": "2020"},
+        {"id": "1712.03709", "title": "Kardar-Parisi-Zhang universality in the phase distributions of one-dimensional exciton-polaritons", "authors": "Davide Squizzato et al.", "year": "2017"},
     ],
     "type2-superlattice-radar": [
-        {"id": "1905.08613", "title": "Type-II InAs/GaSb Superlattice for Infrared Detection", "authors": "Ting et al.", "year": "2019"},
-        {"id": "1903.06664", "title": "Type-II Superlattice Infrared Detectors: Past, Present and Beyond", "authors": "Rogalski et al.", "year": "2019"},
-        {"id": "1705.00865", "title": "InAs/GaSb Type-II Superlattices for Infrared Detection: A Review", "authors": "Plis et al.", "year": "2017"},
+        {"id": "2312.01604", "title": "Insights into optical absorption and dark currents of the 6.1Å Type-II superlattice absorbers for MWIR and SWIR applications", "authors": "Anuja Singh et al.", "year": "2023"},
+        {"id": "1907.05592", "title": "High Speed Mid-Infrared Interband Cascade Photodetector Based on InAs/GaSb Type-II Superlattice", "authors": "Yaojiang Chen et al.", "year": "2019"},
+        {"id": "2301.04858", "title": "Advancing carrier transport models for InAs/GaSb type-II superlattice MWIR photodetectors", "authors": "Rohit Kumar et al.", "year": "2023"},
+        {"id": "1906.07351", "title": "Demonstration of Si based InAs/GaSb type-II superlattice p-i-n photodetector", "authors": "Zhuo Deng et al.", "year": "2019"},
+        {"id": "2103.08717", "title": "Carrier localization and miniband modeling of InAs/GaSb based type-II superlattice infrared detectors", "authors": "Swarnadip Mukherjee et al.", "year": "2021"},
+        {"id": "2111.13358", "title": "Simulation of the band structure of InAs/GaSb type II superlattices utilizing multiple energy band theories", "authors": "Shuiliu Fang et al.", "year": "2021"},
     ],
     "electromagnetic-theater-override": [
-        {"id": "2012.07402", "title": "Topological Physics in Kagome Lattice Magnets", "authors": "Yin et al.", "year": "2020"},
-        {"id": "1904.04759", "title": "Kagome Magnets: A New Frontier in Topological Materials", "authors": "Yin et al.", "year": "2019"},
-        {"id": "2101.01067", "title": "Quantum Kagome Materials: From Spin Liquids to Topological Magnets", "authors": "Broholm et al.", "year": "2021"},
-        {"id": "2008.12412", "title": "Topological Magnons in Kagome Lattice Ferromagnets", "authors": "Mook et al.", "year": "2020"},
-        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
-        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
+        {"id": "2310.18559", "title": "Quantum Interactions in Topological R166 Kagome Magnet", "authors": "Xitong Xu et al.", "year": "2023"},
+        {"id": "2110.07563", "title": "Topological charge-entropy scaling in kagome Chern magnet TbMn$_6$Sn$_6$", "authors": "Xitong Xu et al.", "year": "2021"},
+        {"id": "2110.06012", "title": "Anisotropically large anomalous and topological Hall effect in a kagome magnet", "authors": "Gyanendra Dhakal et al.", "year": "2021"},
+        {"id": "2205.07806", "title": "Magneto-Transport Properties of Kagome Magnet TmMn$_6$Sn$_6$", "authors": "Bin Wang et al.", "year": "2022"},
+        {"id": "2311.05839", "title": "Visualizing symmetry-breaking electronic orders in epitaxial Kagome magnet FeSn films", "authors": "Huimin Zhang et al.", "year": "2023"},
+        {"id": "1605.01423", "title": "Emergent Order in the Kagome Ising Magnet Dy3Mg2Sb3O14", "authors": "Joseph A. M. Paddison et al.", "year": "2016"},
     ],
     "cooperative-resonance-torsion": [
-        {"id": "1903.05468", "title": "Superradiance and Subradiance in Atomic Arrays", "authors": "Kirton et al.", "year": "2019"},
-        {"id": "0810.0668", "title": "Torsion Gravity", "authors": "Hammond", "year": "2009"},
-        {"id": "gr-qc/0606062", "title": "Einstein-Cartan Theory", "authors": "Hehl et al.", "year": "2006"},
-        {"id": "2005.10828", "title": "Superradiance and Subradiance in an Ensemble of NV Centers", "authors": "Angerer et al.", "year": "2020"},
-        {"id": "1907.03199", "title": "Collective Superradiance in Quantum Systems", "authors": "Gross et al.", "year": "2019"},
-        {"id": "2011.10580", "title": "Dicke Superradiance in Solid-State Systems", "authors": "Parra-Murillo et al.", "year": "2020"},
-        {"id": "1803.07643", "title": "Subradiance and Superradiance in Quantum Optics", "authors": "Asenjo-Garcia et al.", "year": "2018"},
-        {"id": "2508.14666", "title": "Field Re-Entrant Superconductivity in Eu-Doped Infinite-Layer Nickelates", "authors": "Yang, Tang, Li et al.", "year": "2026"},
-        {"id": "2601.19473", "title": "Paramagnetically Driven Superconducting Re-Entrance in Eu-Doped Infinite Layer Nickelates", "authors": "Varbaro et al.", "year": "2026"},
-        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
-        {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
-        {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
-        {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
+        {"id": "2105.12350", "title": "A Superradiant Maser with Nitrogen-Vacancy Center Spins", "authors": "Qilong Wu et al.", "year": "2021"},
+        {"id": "2407.09755", "title": "Superradiance from Nitrogen Vacancy Centers Coupled to An Ultranarrow Optical Cavity", "authors": "Yi-Dan Qu et al.", "year": "2024"},
+        {"id": "2009.12194", "title": "Exciton-polariton mediated interaction between two nitrogen-vacancy color centers in diamond using two-dimensional transition metal dichalcogenides", "authors": "J. C. G. Henriques et al.", "year": "2020"},
+        {"id": "1802.07100", "title": "Superradiant Hybrid Quantum Devices", "authors": "Andreas Angerer et al.", "year": "2018"},
+        {"id": "1002.1244", "title": "Optical Superradiance from Nuclear Spin Environment of Single Photon Emitters", "authors": "E. M. Kessler et al.", "year": "2010"},
+        {"id": "2606.28935", "title": "Optically Switched Phonon Superradiance of Surface Acoustic Wave in Diamond", "authors": "Zhiwei Chen et al.", "year": "2026"},
     ],
     "warp-drive-torsion-propagation": [
-        {"id": "gr-qc/0110086", "title": "Warp Drive With Zero Expansion", "authors": "Natário", "year": "2001"},
-        {"id": "2102.06824", "title": "Introducing Physical Warp Drives", "authors": "Bobrick & Martire", "year": "2021"},
-        {"id": "2006.07125", "title": "Breaking the Warp Barrier: Hyper-Fast Solitons in Einstein-Maxwell-Plasma Theory", "authors": "Lentz", "year": "2021"},
-        {"id": "2512.18008", "title": "A Warp Drive with Predominantly Positive Invariant Energy Density", "authors": "Rodal", "year": "2025"},
-        {"id": "2605.03653", "title": "Novel Realizations of Warp Drive Spacetimes as Solutions of General Relativity", "authors": "Buchert & Frackowiak", "year": "2026"},
-        {"id": "2602.18023", "title": "Observer-Robust Energy Condition Verification for Warp Drive Spacetimes", "authors": "Le", "year": "2026"},
-        {"id": "2605.20443", "title": "Interpreting Bohm Quantum Potentials: Computing Quantum Waves Exactly from Classical Action", "authors": "Lohmiller & Slotine", "year": "2026"},
+        {"id": "2401.15136", "title": "On the Wormhole--Warp Drive Correspondence", "authors": "R. Garattini et al.", "year": "2024"},
+        {"id": "2207.06458", "title": "Warp Drive Aerodynamics", "authors": "Carlos Barceló et al.", "year": "2022"},
+        {"id": "gr-qc/0110086", "title": "Warp Drive With Zero Expansion", "authors": "Jose Natario", "year": "2001"},
+        {"id": "2103.05610", "title": "Warp drive basics", "authors": "Miguel Alcubierre et al.", "year": "2021"},
+        {"id": "2205.02780", "title": "Alcubierre Warp Drive in Bohmian Quantum Gravity", "authors": "Sijo K. Joseph", "year": "2022"},
+        {"id": "2404.03095", "title": "Analyzing Warp Drive Spacetimes with Warp Factory", "authors": "Christopher Helmerich et al.", "year": "2024"},
     ],
 }
+
 LORE_TITLES = {
     "artificial-kondo-lattice": ("Artificial Kondo Lattice", ""),
     "floquet-temporal-matter": ("Floquet Temporal Matter", ""),
@@ -394,26 +585,15 @@ _QA_SCHEMA_CACHE = None
 
 
 def _qa_faq_nodes(slug):
-    """🎯 [2026-09-10 激进模式] 把当日注入的「延伸问答」暴露成 FAQPage 结构化数据。
-    数据源: content/geo_hot_questions/qa_schema.json (由 pipeline/geo_qa_inject.py 生成)"""
-    global _QA_SCHEMA_CACHE
-    try:
-        if _QA_SCHEMA_CACHE is None:
-            p = os.path.join(BASE_DIR, "content/geo_hot_questions/qa_schema.json")
-            if os.path.exists(p):
-                with open(p, encoding="utf-8") as f:
-                    _QA_SCHEMA_CACHE = json.load(f)
-            else:
-                _QA_SCHEMA_CACHE = {}
-        items = _QA_SCHEMA_CACHE.get(slug) or []
-        entities = [{"@type": "Question", "name": it.get("q", ""),
-                     "acceptedAnswer": {"@type": "Answer", "text": it.get("a", "")}}
-                    for it in items if it.get("q") and it.get("a")]
-        if not entities:
-            return []
-        return [{"@type": "FAQPage", "mainEntity": entities}]
-    except Exception:
-        return []
+    """FAQPage 结构化数据：只放本页作者自撰问答（PAGE_FAQ）。
+
+    2026-11-07: 原实现读 content/geo_hot_questions/qa_schema.json —— 那些问答来自
+    StackExchange 热度池，与页面主题相关性弱、且带采集元数据，已整体移除。
+    """
+    items = PAGE_FAQ.get(slug) or []
+    entities = [{"@type": "Question", "name": q,
+                 "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in items]
+    return [{"@type": "FAQPage", "mainEntity": entities}] if entities else []
 
 
 def build_schema_graph(slug, en_title, zh_title, description):
@@ -446,7 +626,7 @@ def build_schema_graph(slug, en_title, zh_title, description):
             {
                 "@type": "Person",
                 "name": AUTHOR_NAME,
-                "url": f"{SITE_URL}/book.html",
+                "url": f"{SITE_URL}/author.html",
                 "sameAs": [url for _, url in BOOK_RETAILERS[:10]],
                 "description": "Author of Alien Dimensions: The Shepherd's Wasteland — a hard sci-fi novel built on the Reality-as-Code physics framework (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering)."
             },
@@ -482,6 +662,16 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     
     body_html = md_to_html(md_body, slug)
 
+    # 三层口径声明：紧跟正文 H1（2026-11-07）
+    if not is_index:
+        _sc = scope_block(slug)
+        if _sc:
+            _h1_end = body_html.find("</h1>")
+            if _h1_end != -1:
+                body_html = body_html[:_h1_end + 5] + _sc + body_html[_h1_end + 5:]
+            else:
+                body_html = _sc + body_html
+
     # 正文首段后注入书页内链(2026-09-09:文章页 → book.html 购买/阅读锚点,强化内链权重)
     if not is_index and not slug.startswith('book'):
         fp = body_html.find('</p>')
@@ -492,18 +682,18 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     
     # SEO-optimized meta descriptions per page
     SEO_DESCRIPTIONS = {
-        "artificial-kondo-lattice": "Discover how Kondo lattice quantum simulation unlocks fault-tolerant qubits for next-gen computation in this hard sci-fi physics breakdown.",
-        "floquet-temporal-matter": "Explore Floquet time crystals and how periodic driving fields create programmable matter — reality engineering meets condensed matter physics.",
-        "semi-dirac-mass-nullification": "Can mass be canceled by topology? This article explores semi-Dirac fermion physics and the future of inertia reduction technology.",
-        "qm-tether-exosuit": "A quantum metric exosuit that modifies spacetime curvature — the cutting edge of general relativity engineering in hard sci-fi.",
-        "arena-tripartite-architecture": "How a computational arena bridges anyons, Majorana fermions, and topological qubits for reality-scale simulation architecture.",
-        "obstructed-atomic-phantom-grid": "Radar stealth meets topological insulators. Learn how obstructed atomic phases enable electromagnetic cloaking at the atomic level.",
-        "holographic-kpz-projection": "The KPZ equation meets holographic duality — simulating 3D reality from 2D boundary dynamics in this advanced physics concept.",
-        "kpz-reality-rendering": "KPZ universality in polariton condensates: how random interface growth equations could programmatically render physical reality.",
-        "type2-superlattice-radar": "Type-II superlattice infrared detection pushes beyond passive thermal sensing. The physics behind next-gen radar and imaging technology.",
-        "electromagnetic-theater-override": "Kagome lattice magnets and topological spin currents enable macroscopic electromagnetic field override — from theory to application.",
-        "cooperative-resonance-torsion": "Kagome torsion engine: superradiant mass repulsion via topological defect arrays. A practical path to Einstein-Cartan gravity manipulation.",
-        "warp-drive-torsion-propagation": "Alcubierre drive reimagined: positive-energy warp bubbles via Einstein-Cartan torsion coupling. The physics of realistic warp travel.",
+        "artificial-kondo-lattice": "Artificial Kondo lattices and topological zero modes: the real condensed-matter physics behind the novel's logic core, with a clear line between research and fiction.",
+        "floquet-temporal-matter": "Floquet engineering explained: periodic driving, Floquet topological phases, and the stability limits that make the novel's 'programmable matter' fiction.",
+        "semi-dirac-mass-nullification": "Semi-Dirac fermions give quasiparticles zero effective mass along one axis. What that means, and why it does not make a spacecraft lighter.",
+        "qm-tether-exosuit": "The quantum metric is not spacetime curvature. A guide to the coupling chain the QM-Tether suit borrows — and where the numbers stop working.",
+        "arena-tripartite-architecture": "Anyons, braiding, Majorana modes and high-dimensional orbital angular momentum: the real research behind the Computational Arena setting.",
+        "obstructed-atomic-phantom-grid": "Obstructed atomic insulators place charge centres between atoms. The real band theory, and the fictional phantom grid built on it.",
+        "holographic-kpz-projection": "AdS/CFT and the KPZ equation are both real; projecting 3D matter from a 2D boundary is not. Where the novel's rendering engine departs from physics.",
+        "kpz-reality-rendering": "KPZ universality in growth, bacteria and polariton condensates — the measured physics behind the novel's procedural 'reality rendering'.",
+        "type2-superlattice-radar": "Type-II InAs/GaSb superlattices, tunable bandgaps and Auger suppression: the real infrared detector physics, without the invented radar.",
+        "electromagnetic-theater-override": "Macroscopic contact is electromagnetic repulsion plus Pauli exclusion. The textbook part, and the fictional collision-mesh override built on top of it.",
+        "cooperative-resonance-torsion": "Superradiance in NV ensembles and Einstein-Cartan torsion: what is measured, what is theory, and why the mass-repulsion engine stays fiction.",
+        "warp-drive-torsion-propagation": "Alcubierre's metric and the positive-energy warp solutions of Bobrick-Martire, Lentz and Rodal — with an honest accounting of the remaining energy gap.",
     }
     description = SEO_DESCRIPTIONS.get(slug, f"{en_title}: {zh_title} — explore the hard sci-fi physics behind this Shepherd's Wasteland technology.")
 
@@ -526,18 +716,18 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
 
     # Hook 标题(2026-09-09 GEO:关键词开头 + 信息缺口悬念,单独成 title)
     HOOK_TITLES = {
-        "artificial-kondo-lattice": "Can Kondo lattice simulation unlock fault-tolerant qubits?",
-        "floquet-temporal-matter": "Floquet time crystals: how light makes matter programmable",
-        "semi-dirac-mass-nullification": "Can topology cancel mass? The semi-Dirac path to inertia reduction",
-        "qm-tether-exosuit": "Quantum metric exosuit: engineering geometry that bends spacetime",
-        "arena-tripartite-architecture": "Anyons + Majorana qubits: the reality-scale computational arena",
-        "obstructed-atomic-phantom-grid": "Atomic-level radar stealth: obstructed atomic phases explained",
-        "holographic-kpz-projection": "Is 3D reality projected from a 2D boundary? KPZ + holography",
-        "kpz-reality-rendering": "When growth equations render reality: KPZ universality decoded",
-        "type2-superlattice-radar": "Type-II superlattices: physics of next-generation IR radar",
-        "electromagnetic-theater-override": "Kagome magnets: engineering a macroscopic EM field override",
-        "cooperative-resonance-torsion": "Kagome torsion engine: superradiant mass repulsion in practice",
-        "warp-drive-torsion-propagation": "Einstein-Cartan warp drive: real travel via positive-energy bubbles",
+        "artificial-kondo-lattice": "Artificial Kondo lattices: what the physics supports, and where the novel takes over",
+        "floquet-temporal-matter": "Floquet engineering: driving matter with light, minus the fiction",
+        "semi-dirac-mass-nullification": "Semi-Dirac fermions: zero effective mass inside a crystal, and why objects stay heavy",
+        "qm-tether-exosuit": "Quantum metric, spin current, torsion: the coupling chain behind the QM-Tether suit",
+        "arena-tripartite-architecture": "Anyons, Majorana modes and high-dimensional OAM: the physics under the Computational Arena",
+        "obstructed-atomic-phantom-grid": "Obstructed atomic insulators: electrons that live between the atoms",
+        "holographic-kpz-projection": "KPZ and holography: two real theories, one fictional rendering engine",
+        "kpz-reality-rendering": "KPZ universality: the equation that shapes growing interfaces",
+        "type2-superlattice-radar": "Type-II superlattices: the real physics of infrared detection",
+        "electromagnetic-theater-override": "Why touch is electromagnetic — and why 'phasing through matter' is fiction",
+        "cooperative-resonance-torsion": "Superradiance, torsion and the thirty-orders-of-magnitude problem",
+        "warp-drive-torsion-propagation": "Warp drive physics: Alcubierre, positive-energy bubbles, and what stays fiction",
     }
     hook = HOOK_TITLES.get(slug)
     title_text = ("Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia" if is_index
@@ -619,6 +809,20 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         .lore-illustration { width: 100%; max-width: 600px; height: auto; margin-top: 15px; border: 1px solid #1a3a1a; }
         .glossary-term { color: #00FF41; cursor: help; border-bottom: 1px dashed #1a5a1a; position: relative; display: inline; }
         .glossary-term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); background: #0d1a0d; color: #e0e0e0; border: 1px solid #00FF41; padding: 10px 14px; font-size: 0.8em; line-height: 1.5; width: 320px; max-width: 80vw; z-index: 100; white-space: normal; font-family: 'Georgia', 'Noto Serif SC', serif; box-shadow: 0 4px 20px rgba(0,255,65,0.15); pointer-events: none; }
+        .scope { background: #101a10; border: 1px solid #2a5a2a; border-left: 4px solid #00FF41; padding: 18px 22px; margin: 0 0 28px; }
+        .scope h2 { color: #00FF41; font-size: 0.95em; text-transform: uppercase; letter-spacing: 1.5px; margin: 0 0 12px; }
+        .scope ul { list-style: none; margin: 0; }
+        .scope li { font-size: 0.88em; color: #c8c8c8; margin-bottom: 10px; line-height: 1.6; }
+        .scope .tag { display: inline-block; font-size: 0.68em; text-transform: uppercase; letter-spacing: 1px; padding: 2px 7px; margin-right: 8px; border: 1px solid #2a5a2a; color: #9a9a9a; white-space: nowrap; }
+        .scope .tag.real { color: #00FF41; border-color: #00FF41; }
+        .scope .tag.extra { color: #d0b050; border-color: #6a5a20; }
+        .scope .tag.fiction { color: #c06a6a; border-color: #6a2a2a; }
+        .scope-note { color: #888; font-size: 0.82em; margin: 12px 0 0; border-top: 1px solid #1a3a1a; padding-top: 10px; }
+        .faq { margin-top: 40px; padding-top: 20px; border-top: 1px solid #1a3a1a; }
+        .faq h2 { color: #00FF41; font-size: 1em; margin-bottom: 14px; }
+        .faq-item { margin-bottom: 18px; }
+        .faq-item h3 { color: #ccc; font-size: 0.95em; margin-bottom: 5px; }
+        .faq-item p { color: #b0b0b0; font-size: 0.9em; }
         .ref-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 15px; }
         .ref-card { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 12px 15px; transition: border-color 0.2s; }
         .ref-card:hover { border-color: #00FF41; }
@@ -726,6 +930,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
                     <h3>In This Entry</h3>
                 </div>
                 __BODY__
+                __FAQ__
                 <!-- Further Reading -->
                 __FURTHER__
                 <a href="../index.html" class="back-home">← Back to Encyclopedia</a>
@@ -736,13 +941,8 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
             <p>© 2026 __AUTHOR__. Shepherd's Wasteland — Reality-as-Code Framework.</p>
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
             <div class="backlinks" style="margin-top:12px; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
-                <span style="color:#555; font-size:0.75em;">References: </span>
-                <a href="https://arxiv.org/abs/2103.17114" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Quantum Geometry (arXiv)</a>
-                <a href="https://arxiv.org/abs/1907.00379" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Kondo Lattice (arXiv)</a>
-                <a href="https://arxiv.org/abs/2003.06883" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Floquet Insulators (arXiv)</a>
-                <a href="https://arxiv.org/abs/cond-mat/0411737" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">QSHE Graphene (arXiv)</a>
-                <a href="https://arxiv.org/abs/1811.03116" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Postquantum Gravity (arXiv)</a>
-                <a href="https://www.nature.com/articles/s41467-021-22229-y" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">Nature Comms (Topological)</a>
+                <span style="color:#555; font-size:0.75em;">Sources: </span>
+                __FOOTREFS__
                 <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">GitHub Repository</a>
             </div>
         </footer>
@@ -762,6 +962,10 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         .replace('__JS__', js_block)
         .replace('__SIDEBAR__', sidebar)
         .replace('__BODY__', body_html)
+        .replace('__FOOTREFS__', ' '.join(
+            f'<a href="https://arxiv.org/abs/{r["id"]}" style="color:#2a7a2a; font-size:0.75em; text-decoration:none;">{r["title"][:48]}… (arXiv)</a>'
+            for r in (ARXIV_REFS.get(slug, [])[:3])) or '<span style="color:#555; font-size:0.75em;">see Further Reading</span>')
+        .replace('__FAQ__', faq_block(slug) if not is_index else '')
         .replace('__FURTHER__', further_reading)
     )
     return html_out.strip()
@@ -785,6 +989,10 @@ def render_template(name, **kw):
         "PRICE_LABEL": PRICE_LABEL,
         "AMAZON_URL": AMAZON_URL,
         "APPLE_BOOKS_URL": APPLE_BOOKS_URL,
+        "PRICE_NOTE": PRICE_NOTE,
+        "SAMPLE_WORDS": str(len(re.findall(r"[A-Za-z][A-Za-z'\u2019\-]*", BOOK_SAMPLE))),
+        "SAMPLE_NOTE": SAMPLE_NOTE.format(
+            n=len(re.findall(r"[A-Za-z][A-Za-z'\u2019\-]*", BOOK_SAMPLE))),
     }
     values.update(kw)
     for k, v in values.items():

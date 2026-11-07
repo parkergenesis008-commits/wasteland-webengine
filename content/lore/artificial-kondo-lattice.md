@@ -23,7 +23,7 @@ The ultimate reorganization of garbage is the miracle of computation.
 
 ## 3. Absolute Pinning: Resilience to Physical-Level Perturbations
 The energy of topological zero modes is always anchored at zero, granting them extraordinary "perturbation resilience."
-During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences phase error below topological fault-tolerance thresholds (~10⁻¹² per operation for non-Abelian anyons). This artificial topological state, based on magnetic interactions, allows the logic core of high-dimensional warships to maintain zero-error computation in environments as harsh as the core of a star.
+During extreme combat in the Arena, regardless of the intensity of localized temperature spikes, electromagnetic pulse (EMP) bombardment, or gravitational distortion inflicted by the enemy, as long as the macroscopic topology of the artificial lattice remains unbroken, the internal quantum information flow experiences phase error below topological fault-tolerance thresholds (~10⁻¹² per operation for non-Abelian anyons). In the novel this is why a warship's logic core is written as holding coherence under combat conditions. Two honest caveats: the ~10⁻¹² figure is the order-of-magnitude fault-tolerance target quoted for non-Abelian anyons in the literature, not a measured error rate of any built device and certainly not "zero-error"; and no lattice — artificial or natural — is claimed here to survive stellar-core temperatures (~10⁷ K), where any condensed-matter order parameter is destroyed. Both are story parameters, not engineering specifications.
 
 ### 3.5 The 2026 Breakthrough: Magnetic Field as Catalyst, Not Killer
 A seemingly unrelated discovery in Earth laboratories in 2026 has profound implications for the Kondo-lattice computing architecture. Li et al. (Nature 653, 1052, 2026) and Varbaro et al. (arXiv:2601.19473) independently observed **field-induced re-entrant superconductivity** in Eu-doped infinite-layer nickelates—a material system whose electronic structure (Ni¹⁺ 3d⁹) is isoelectronic to the Cu²⁺ in high-Tc cuprates.
@@ -42,38 +42,5 @@ For the Wasteland topological computing framework, the implication is direct:
 
 ## 4. Conclusion: Algorithm Surpasses Material
 The emergence of the artificial Kondo lattice marks the final material transition in the Reality-as-Code architecture. The intrinsic properties of matter no longer matter; what truly determines power is the algorithmic arrangement of atoms and the design of many-body interactions. The most common carbon and iron in the universe, woven into the correct topological geometry, can bear the godlike computational power to overturn reality.
-
-<!-- GEO-QA-START id=65f72ff33d -->
-## Extended Q&A — Reader Question
-
-**Q: Does Newtonian mechanics make claims about how forces are created?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-09-24, 9 points, 5 comments</em></p>
-
-**No, and this is the usual misreading.** The second law defines force operationally as mass times acceleration, so the formalism predicts motion only after a force law is supplied; the inverse-square law of gravity and Coulomb's law of charge electrostatics are separate empirical inputs, and Newton was explicit that he framed no hypothesis about the cause of gravity itself. Modern physics pushes this further by treating many forces as **effective descriptions rather than fundamentals**: the exchange coupling between localized magnetic moments and conduction electrons inside a solid is not written into the vacuum, it emerges from Coulomb repulsion plus the Pauli exclusion principle and is then renormalized by the surrounding lattice. In the *Wasteland* setting, the Kondo lattice engine exploits exactly that gap and treats interaction strength as an engineering dial rather than a fixed law of nature, which is why its topological zero modes survive perturbation. That last layer is fiction, and what the <a href='obstructed-atomic-phantom-grid.html'>obstructed atomic phantom grid</a> adds is a lattice geometry that hides its electrons from the surrounding field entirely.
-
-<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=d0ff4fe5d5 -->
-## Extended Q&A — Reader Question
-
-**Q: Can Single Particles have Entropy?**
-<p><em>asked on stackexchange/physics · physics.SE 2026-09-26, 12 分 5 答 1188 浏览 (raw_2026-10-06.json; SE API 2026-10-06 复核 open)</em></p>
-
-**Strictly speaking entropy belongs to a distribution over states, not to one particle, so an isolated single microstate carries none by itself.** Boltzmann's prescription counts the microstates compatible with a macrostate, and with a single particle that count is one, so the entropy vanishes, while the familiar formula S = -k times the sum of p log p needs probabilities that only a collection can provide. A single quantum particle in a pure state likewise has zero von Neumann entropy, yet the moment you divide a system into a part and its environment the reduced state becomes mixed and its entanglement entropy is real and measurable. The project layer keeps this as fiction: in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> the local moments are accounted for by counting configurations, and <a href='obstructed-atomic-phantom-grid.html'>the phantom grid</a> treats that counting as an engineering dial, which is speculation rather than a thermodynamic claim.
-
-<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=715be084a7 -->
-## Extended Q&A — Reader Question
-
-**Q: How does a flat band sustain a non-zero superfluid density if the effective mass is infinite?**
-<p><em>asked on stackexchange/physics · physics 2026-10-13 official API recheck: 1 vote, 0 answers, 14 views, open (posted 2026-10-12), newest physics question in today's pool</em></p>
-
-A flat band has almost no dispersion, and the band mass is the inverse curvature of the Bloch energy, so an exactly flat band gives an infinite effective mass and any relation that ties superfluid density to a finite mass would predict nothing. The resolution is that superfluid stiffness in a flat band is carried largely by the geometry of the Bloch states rather than by their kinetic energy. The relevant quantity is the quantum metric, the real part of the quantum geometric tensor, and in flat-band superconductors its contribution lets a finite superfluid weight survive even when the kinetic energy is quenched, with interband terms adding to it. In our fiction, <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> is written as an engineered flat band whose behaviour is set by that geometry; the design is a **setting**, not a realised material.
-
-<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876817/how-does-a-flat-band-sustain-a-non-zero-superfluid-density-if-the-effective-mass" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
 
 <!-- Last fresh: 2026-11-05 08:43 UTC -->

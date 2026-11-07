@@ -44,37 +44,4 @@ The electrical power consumed by the piezoelectric crystals is minuscule (microw
 ## Conclusion
 Whether it is high-dimensional gravitational nullification or laboratory kinetic energy deflection, the physical truth is singular: do not use brute force to oppose force; instead, modify the geometric metric of the spacetime through which the force is transmitted. This is the most feasible physics dimensionality reduction strike of Reality-as-Code in the real world.
 
-<!-- GEO-QA-START id=aba3673f9d -->
-## Extended Q&A — Reader Question
-
-**Q: High-altitude blimp on Venus: shortsleeves weather?**
-<p><em>asked on stackexchange/space · space.SE 2026-09-17 帖, 3 points, 1 answer, 161 views (SE API 2026-10-02 复核)</em></p>
-
-At the Venus altitude where the atmosphere reaches about one bar of pressure, roughly 50 to 55 km up, the temperature sits near the range a person finds comfortable, which is where the 'shirtsleeves' figure comes from. **That is a pressure and temperature match rather than a habitable atmosphere**: the gas is almost pure carbon dioxide carrying sulfuric acid cloud droplets, so a visitor still needs a breathable supply and protection against the acid aerosol. The same cloud layer carries the planet's strongest super-rotating winds, so a balloon drifts with the atmosphere instead of fighting it, which helps station-keeping but makes the platform a moving one. This page treats a suit as something closer to a wearable habitat, and that sustained-coupling reading is fiction rather than real hardware, in the same setting layer as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the ordered-lattice coupling notes</a>.
-
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70710/high-altitude-blimp-on-venus-shortsleeves-weather" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=ceab2b3ad2 -->
-## Extended Q&A — Reader Question
-
-**Q: What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?**
-<p><em>asked on stackexchange/space · space.SE 2026-10-08 帖, 4 分 1 答 630 浏览 (raw_2026-10-16.json; SE API 2026-10-16 复核 open)</em></p>
-
-Surviving a deliberate descent into a gas giant is an environment problem long before it is a propulsion problem. **Pressure, heat and chemistry arrive together**: the shell has to hold off the external atmosphere while its interior stays near ambient temperature, the gas is chemically aggressive, and the entry corridor makes aerothermal loads the driving structural case. Existing practice splits the problem in two, either accepting a short lived probe that returns data until it dies, or flying a balloon or airship that never descends far enough to be crushed. Power for a long stay is the binding constraint, because solar flux falls off steeply that far out and radioisotope sources carry a fixed inventory. In <a href='qm-tether-exosuit.html'>the qm-tether-exosuit setting</a> the protective envelope is written as a speculative field assisted layer, with <a href='electromagnetic-theater-override.html'>the electromagnetic theater override</a> as the fictional control surface behind it.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-time-within-the-atmosphere-of-a-gas-giant" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=c21bebaff8 -->
-## Extended Q&A — Reader Question
-
-**Q: Can I make power armor that is resistant to magnetic fields?**
-<p><em>asked on Worldbuilding StackExchange · 3 points, 3 answers, 863 views (SE API 2026-11-05)</em></p>
-
-The hard constraint is material choice rather than field strength: iron, cobalt and nickel are ferromagnetic, so a steel frame becomes a magnet in a stray field and is dragged toward the source, while aluminium, titanium or a composite frame removes that attraction for all but extreme static fields. Changing fields are a separate problem, because they induce currents, so sensitive electronics need a conductive shell or mesh and a continuous metal skin turns into a resistive heater once the field oscillates, which makes heat rejection the real design driver. Joints, connectors, cabling and sensor windows stay leaky, so protection is always granted part by part instead of to the suit as a whole. In this project that trade-off is written into the **field-aware exosuit** spec, where actuator power and sensor returns run through shielded channels and the joints are accepted as loss points, and that specification is fiction layered on ordinary shielding practice. See also <a href='electromagnetic-theater-override.html'>Electromagnetic Theater Override</a>.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- Last fresh: 2026-11-05 08:43 UTC -->

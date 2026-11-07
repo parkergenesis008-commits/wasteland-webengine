@@ -20,7 +20,7 @@ To pierce this cloaking barrier, the Computational Arena introduced the **M-Type
 
 Based on the principle of the real-world M-structure superlattice, this radar inserts an extremely wide-bandgap barrier layer within the GaSb layer, creating a macroscopic band blockage. It no longer detects photons or infrared thermal radiation, but directly senses quantum vacuum fluctuations (miniband tunneling anomalies) caused by the presence of mass in space.
 
-Even if the target conceals all electromagnetic signatures, the microscopic gravitational perturbation its mass exerts on spacetime triggers the tunneling collapse of effective electron mass within the superlattice, achieving quantum perception efficiency exceeding 70% and realizing absolute physical stealth-breaking.
+Even if the target conceals all electromagnetic signatures, the microscopic gravitational perturbation its mass exerts on spacetime would, in the novel's setting, shift the tunneling current of the superlattice enough to be read out as a mass signature. The "70% detection efficiency" figure that appeared in earlier drafts had no measurement behind it and has been removed; no such radar exists, and the sensitivity chain from a distant mass to a superlattice tunneling current is many orders of magnitude beyond demonstrated devices.
 
 ## 3. Auger Recombination Suppression and Anti-Logic Decay
 At extremely low temperatures and in high-dimensional confrontations, "noise" is lethal.
@@ -31,38 +31,5 @@ In the context of Reality-as-Code, this **"Auger suppression" mechanism is trans
 
 ## 4. Conclusion: Scale-Free Horizon
 By precisely controlling the periodic thickness of atomic epitaxy, the visual system of advanced entities achieves continuously adjustable perception from zero to the limiting energy level. Bunkers, walls, and even the repulsive fog of electron clouds—within the scale-free vision of the Type-II superlattice—are all reduced to a naked cloud of tunneling quantum probabilities.
-
-<!-- GEO-QA-START id=57872b0406 -->
-## Extended Q&A — Reader Question
-
-**Q: Using magnetoreception as a very long-distance sense?**
-<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE new thread 2026-09-20, 3 points, 2 comments</em></p>
-
-Magnetoreception is real, but it is a heading sense rather than a ranging one, and that distinction is what breaks the long-distance version. The geomagnetic field is a global background of roughly 25 to 65 microtesla, and animals that use it resolve changes of tens of nanotesla, which is a directional gradient read at the body, not a signal returning from a distant object. Two mechanisms are taken seriously, magnetite crystals acting as torque sensors and a radical-pair reaction in the cryptochrome protein whose outcome depends on field orientation, and both are local readings of a field that every object shares. **There is no emitted pulse and no echo, so distance and shape carry no information no matter how sensitive the detector gets.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> is where this page's own idea, an active fictive lattice that both emits and receives, departs from biology.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=f25b1e2b08 -->
-## Extended Q&A — Reader Question
-
-**Q: All existing communication infrastructure has vanished. What technology do we use to rebuild it?**
-<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)</em></p>
-
-**Rebuilding communications starts with radio, because it is the only channel that needs no fixed infrastructure.** Ionospheric HF skywave carries beyond the horizon with modest power, VHF and UHF are limited to line of sight, and satellites give the fastest wide-area coverage at the cost of launch, so the practical order is point-to-point radio, then relay or satellite, then fibre wherever the ground is intact. The physics sets the ceilings: free-space power falls with the square of distance, latency is bounded by the speed of light, and Shannon capacity ties data rate to bandwidth and signal-to-noise rather than to cleverness. Nothing exotic is required and no new physics is needed. The fiction layer is separate: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines sensing past the usual wavelength limit, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=50b65534db -->
-## Extended Q&A — Reader Question
-
-**Q: My first homemade crystal radio isn't receiving any AM stations**
-<p><em>asked on reddit/r/physics · reddit/r/physics 2026-10-06, RSS 未提供投票数(未采信任何数值) (raw_2026-10-07.json)</em></p>
-
-**A crystal set usually hears almost nothing because its antenna is a small fraction of an AM wavelength and there is no amplifier, so the captured energy sits below the detector diode's threshold.** AM broadcast wavelengths run to hundreds of metres, so real receivers use a long wire or a tuned loop, and the antenna, coil and detector all have to be impedance matched for any power to reach the earphone. A solid earth connection and a nearby strong station matter more than the schematic, so the usual fixes are a longer antenna, a better coil and a high impedance earphone. The fictional layer extrapolates the same physics: on <a href='type2-superlattice-radar.html'>the type-2 superlattice radar page</a> the array is imagined as a lattice that gathers a signal the size of a whisper, which is a setting device and not a claim about real receivers.
-
-<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radi" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
 
 <!-- Last fresh: 2026-11-05 08:43 UTC -->

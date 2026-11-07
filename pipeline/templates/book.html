@@ -50,6 +50,8 @@
         .buy-link.alt { background: transparent; color: #00FF41; border: 1px solid #00FF41; }
         .buy-link.alt:hover { background: #1a3a1a; }
         .note { color: #777; font-size: 0.78em; margin-top: 8px; }
+        .price-note { color: #666; font-size: 0.78em; margin-top: 6px; }
+        .excerpt-note { color: #777; font-size: 0.82em; margin: -6px 0 16px; }
         .sample { background: #0d1a0d; border: 1px solid #1a3a1a; padding: 30px; margin: 25px 0; }
         .sample h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 15px; }
         .sample p { font-size: 0.92em; color: #bbb; margin-bottom: 14px; text-indent: 0; }
@@ -98,15 +100,17 @@
             <div class="sub">A hard sci-fi novel by Miancheng Yu (余免成) · {{PRICE_LABEL}} · Chinese title 《异维空间：牧羊人的荒原》 (planned)</div>
             <p>A geological surveyor in the Qinling Mountains stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code. Hard sci-fi where every speculative technology is anchored in real condensed-matter physics.</p>
             <div class="cta-row">
-                <a href="{{AMAZON_URL}}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon · {{PRICE_LABEL}} →</a>
-                <a href="{{APPLE_BOOKS_URL}}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books · {{PRICE_LABEL}}</a>
+                <a href="{{AMAZON_URL}}" class="buy-link" rel="noopener" target="_blank" data-cta="buy_amazon">Buy on Amazon · {{PRICE_LABEL}} →</a>
+                <a href="{{APPLE_BOOKS_URL}}" class="buy-link alt" rel="noopener" target="_blank" data-cta="buy_apple">Buy on Apple Books · {{PRICE_LABEL}}</a>
             </div>
-            <div class="note">Read a free sample below — no account needed.</div>
+            <div class="note">Read the opening excerpt below — no account needed. Every technology in the book is documented on the <a href="./" style="color:#00FF41;">companion encyclopedia</a>, which marks what is real research and what is invention.</div>
+            <div class="price-note">{{PRICE_NOTE}}</div>
         </div>
     </div>
 
     <div class="sample">
-        <h2>📖 Free Sample — Chapter 1: The Singularity Descends</h2>
+        <h2>📖 Opening excerpt — Chapter 1: The Singularity Descends</h2>
+        <p class="excerpt-note">{{SAMPLE_NOTE}}</p>
         <p>{{SAMPLE_P1}}</p>
         <p>{{SAMPLE_P2}}</p>
         <p>{{SAMPLE_P3}}</p>
@@ -114,7 +118,8 @@
     </div>
 
     <div class="chapters">
-        <h2>Contents</h2>
+        <h2>Contents — four parts of one book</h2>
+        <p class="excerpt-note">The four "Volumes" are parts of a single novel, not four separate books.</p>
         {{CHAPTERS}}
     </div>
 
@@ -164,7 +169,7 @@
         </div>
         <div class="why-card" style="grid-column:1/-1;">
             <h3>How long is it, and when was it released?</h3>
-            <p>It's a short English ebook, {{PRICE_LABEL}}. It was first released on Apple Books on 2026-03-13; other stores list their own dates.</p>
+            <p>It is novella-length: about 16,000 words (roughly 42 pages in the author's PDF), divided into four parts — not four separate books. It was first released on Apple Books on 2026-03-13; other stores list their own dates.</p>
         </div>
         <div class="why-card" style="grid-column:1/-1;">
             <h3>Where can I buy it?</h3>
@@ -188,12 +193,23 @@
     <div class="footer-cta">
         <h2>Reality is code. Start compiling.</h2>
         <div class="cta-row" style="justify-content:center;">
-            <a href="{{AMAZON_URL}}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon · {{PRICE_LABEL}} →</a>
-            <a href="{{APPLE_BOOKS_URL}}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books · {{PRICE_LABEL}}</a>
+            <a href="{{AMAZON_URL}}" class="buy-link" rel="noopener" target="_blank" data-cta="buy_amazon">Buy on Amazon · {{PRICE_LABEL}} →</a>
+            <a href="{{APPLE_BOOKS_URL}}" class="buy-link alt" rel="noopener" target="_blank" data-cta="buy_apple">Buy on Apple Books · {{PRICE_LABEL}}</a>
         </div>
     </div>
 
     <a class="back" href="./">← Back to the Official Site</a> · <a class="back" href="author.html" style="display:inline;">Author: Miancheng Yu</a>
 </div>
+<script>
+document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-cta]');
+    if (!a || typeof gtag !== 'function') return;
+    gtag('event', 'select_content', {
+        content_type: 'cta',
+        item_id: a.getAttribute('data-cta'),
+        page_location: 'book'
+    });
+});
+</script>
 </body>
 </html>

@@ -188,6 +188,23 @@
         .book-links { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
         .buy-link { display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }
         .buy-link:hover { background: #00FF41; color: #0a0a0a; }
+        .book-hero { display: flex; gap: 34px; align-items: flex-start; border-bottom: 2px solid #1a3a1a; padding: 40px 0 32px; margin-bottom: 30px; flex-wrap: wrap; }
+        .book-hero-cover img { width: 230px; border: 1px solid #1a3a1a; box-shadow: 0 10px 40px rgba(0,255,65,0.10); }
+        .book-hero-text { flex: 1; min-width: 320px; }
+        .book-hero-text h1 { color: #00FF41; font-size: 2.1em; line-height: 1.2; font-family: 'Georgia', serif; }
+        .book-hero-text .subtitle { color: #8a8a8a; font-size: 0.95em; margin: 12px 0 16px; }
+        .book-hero-text .pitch { color: #d0d0d0; font-size: 1.02em; line-height: 1.75; margin-bottom: 20px; }
+        .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 12px 22px; border: 1px solid #1a5a1a; color: #00FF41; text-decoration: none; font-size: 0.92em; background: transparent; transition: all .2s; }
+        .btn:hover { border-color: #00FF41; background: #102010; }
+        .btn.primary { background: #00FF41; color: #0a0a0a; border-color: #00FF41; font-weight: bold; }
+        .btn.primary:hover { background: #7dff9e; }
+        .price-note { color: #666; font-size: 0.78em; margin-top: 12px; }
+        .about-book { margin-bottom: 30px; }
+        .about-book h2, .encyclopedia h2 { color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }
+        .about-book p { color: #b8b8b8; font-size: 0.95em; margin-bottom: 12px; }
+        .encyclopedia { margin-top: 10px; }
+        .section-intro { color: #8a8a8a; font-size: 0.9em; margin-bottom: 20px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
         .card { background: #111; border: 1px solid #1a3a1a; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; display: block; }
         .card:hover { border-color: #00FF41; background: #151515; transform: translateY(-2px); }
@@ -207,47 +224,55 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>⟁ Shepherd's Wasteland</h1>
-            <div class="subtitle">Reality-as-Code — Hard Sci-Fi Physics Encyclopedia</div>
-            <div class="author">By Miancheng Yu (余免成) · Author of "Alien Dimensions: The Shepherd's Wasteland" / 《异维空间：牧羊人的荒原》</div>
+        <header class="book-hero">
+            <div class="book-hero-cover">
+                <a href="book.html"><img src="{{COVER_URL}}" alt="Alien Dimensions: The Shepherd's Wasteland — book cover"></a>
+            </div>
+            <div class="book-hero-text">
+                <h1>Alien Dimensions:<br>The Shepherd's Wasteland</h1>
+                <div class="subtitle">A hard science fiction novel by Miancheng Yu (余免成) · {{PRICE_LABEL}}</div>
+                <p class="pitch">A geological surveyor in the Qinling Mountains finds a rift in spacetime, and walks into a war between civilizations that treat reality as source code. Every technology in the book is built on a real result in condensed-matter physics — and this site shows you exactly where the physics ends and the fiction begins.</p>
+                <div class="hero-cta">
+                    <a href="book.html" class="btn primary" data-cta="opening_excerpt">Read the opening excerpt →</a>
+                    <a href="{{AMAZON_URL}}" class="btn" target="_blank" rel="noopener" data-cta="buy_amazon">Amazon Kindle · {{PRICE_LABEL}}</a>
+                    <a href="{{APPLE_BOOKS_URL}}" class="btn" target="_blank" rel="noopener" data-cta="buy_apple">Apple Books · {{PRICE_LABEL}}</a>
+                </div>
+                <div class="price-note">{{PRICE_NOTE}}</div>
+            </div>
         </header>
-        <div class="hero">
-            <h2>About the Encyclopedia</h2>
-            <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
-        </div>
+
+        <section class="about-book">
+            <h2>About the book</h2>
+            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> is a novella-length hard science fiction story — about 16,000 words, four parts in one volume — in which Lin Shen, a contractor mapping a nameless valley, discovers that the emptiness he is measuring is not empty. What follows is first contact, a dark-forest bargain, and a debt that comes due thirty thousand years later.</p>
+            <p>It is written for readers of <em>The Three-Body Problem</em> who want the physics taken seriously: the companion encyclopedia below documents the real research behind each device, and labels the rest as invention.</p>
+        </section>
+
         <!-- About the Author (E-E-A-T 2026-09-09:真实可核验信息,不编造资历) -->
         <div class="author-card">
             <h2>About the Author</h2>
             <p>Miancheng Yu (余免成) is the author of <em>Alien Dimensions: The Shepherd's Wasteland</em> (Chinese title 《异维空间：牧羊人的荒原》, planned) — a hard science fiction novel where a geological surveyor discovers a rift in spacetime and is pulled into a war between civilizations that treat reality as source code.</p>
-            <p>This encyclopedia is the companion to the novel: every entry translates a real condensed-matter physics principle (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering) into speculative technology, and each page lists the genuine arXiv papers it is grounded in.</p>
+            <p>This encyclopedia is the companion to the novel: every entry translates a real condensed-matter physics principle (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering) into speculative technology, and each page separates established research from the author's extrapolation and from pure setting.</p>
             <div class="author-links">
                 <a href="author.html">Author page →</a>
-                <a href="book.html">Read a Free Sample →</a>
+                <a href="book.html">Opening excerpt →</a>
                 <a href="{{AMAZON_URL}}" target="_blank" rel="noopener">Amazon ({{PRICE_LABEL}})</a>
                 <a href="{{APPLE_BOOKS_URL}}" target="_blank" rel="noopener">Apple Books ({{PRICE_LABEL}})</a>
                 <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" target="_blank" rel="noopener">Source Repository (GitHub)</a>
             </div>
         </div>
-        <!-- Book CTA → book.html landing [P0 2026-09-02] -->
-        <div class="book-cta">
-            <a href="{{SITE_URL}}/book.html"><img src="{{COVER_URL}}" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy"></a>
-            <h2>📖 The Book</h2>
-            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by Miancheng Yu (余免成). {{PRICE_LABEL}} on Amazon Kindle and Apple Books. A surveyor stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code.</p>
-            <div class="book-links">
-                <a href="book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
-                <a href="{{AMAZON_URL}}" target="_blank" rel="noopener" class="buy-link">Amazon · {{PRICE_LABEL}}</a>
-                <a href="{{APPLE_BOOKS_URL}}" target="_blank" rel="noopener" class="buy-link">Apple Books · {{PRICE_LABEL}}</a>
-            </div>
-        </div>
-        <div class="grid">{{CARDS}}</div>
+
+        <section class="encyclopedia">
+            <h2>The companion encyclopedia</h2>
+            <p class="section-intro">Twelve entries, one real physics idea each — Kondo lattices, Floquet driving, KPZ universality, Einstein–Cartan torsion — showing how the novel turns research into hardware. Every page opens with a plain statement of what is established, what is the author's extrapolation, and what is story.</p>
+            <div class="grid">{{CARDS}}</div>
 
         <div class="glossary" id="faq" style="margin-top:40px;">
             <h2>FAQ</h2>
             <table>
                 <tr><td style="vertical-align:top;">What is the book?</td><td>Hard sci-fi / space opera by Miancheng Yu (余免成). Lin Shen finds a void in the Qinling Mountains and learns Earth is a cosmic pasture. Chinese title 《异维空间：牧羊人的荒原》 (planned).</td></tr>
                 <tr><td style="vertical-align:top;">Where to buy?</td><td>Amazon Kindle and Apple Books, {{PRICE_LABEL}}. <a href="book.html#faq" style="color:#00FF41;">Full FAQ →</a></td></tr>
-                <tr><td style="vertical-align:top;">Free sample?</td><td>Yes — Chapter 1 on the <a href="book.html" style="color:#00FF41;">book page</a>.</td></tr>
+                <tr><td style="vertical-align:top;">Free excerpt?</td><td>Yes — the opening ~240 words of Chapter 1 are on the <a href="book.html" style="color:#00FF41;">book page</a> (an excerpt, not the full chapter).</td></tr>
+                <tr><td style="vertical-align:top;">How long is it?</td><td>Novella length: about 16,000 words, four parts in one volume.</td></tr>
                 <tr><td style="vertical-align:top;">Chinese edition?</td><td>Not yet; English is out now. 《异维空间：牧羊人的荒原》 planned.</td></tr>
             </table>
         </div>
@@ -266,5 +291,16 @@
             <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
         </footer>
     </div>
+<script>
+document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-cta]');
+    if (!a || typeof gtag !== 'function') return;
+    gtag('event', 'select_content', {
+        content_type: 'cta',
+        item_id: a.getAttribute('data-cta'),
+        page_location: 'index'
+    });
+});
+</script>
 </body>
 </html>

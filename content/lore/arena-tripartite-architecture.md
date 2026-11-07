@@ -34,37 +34,4 @@ This is not traditional electromagnetic repulsion. By altering the geometric cur
 ## Conclusion
 Anyons forge an immortal brain, 48-dimensional light weaves a covert neural network, and the Quantum Metric engine twists the sinews of reality. This tripartite unity is the final engineering blueprint of "Reality-as-Code."
 
-<!-- GEO-QA-START id=13f0dae958 -->
-## Extended Q&A — Reader Question
-
-**Q: Chern-Simons theory and the Jones Polynomial**
-<p><em>asked on stackexchange/physics · physics 2026-10-13 official API recheck: 8 votes, 0 answers, 125 views, open (posted 2026-09-30); highest-scoring unanswered physics question in today's pool</em></p>
-
-Chern-Simons theory in three spacetime dimensions is built from an action that does not use the metric, so its natural observables are Wilson loops rather than local field values. Witten showed that the expectation value of those loops in non-Abelian SU(2) Chern-Simons theory at level k reproduces the Jones polynomial of the knot, which is why the theory is treated as a physical route to knot invariants. The same structure appears in two-dimensional electron systems, where excitations called anyons have braiding-dependent statistics, so the phase collected when two of them are exchanged carries information. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as a substrate whose operations are braids of those excitations; that architecture is a **setting**, not a built device.
-
-<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=81866f4cc7 -->
-## Extended Q&A — Reader Question
-
-**Q: Universe versus Balloon**
-<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-15: 0 votes, 4 answers, 78 views, open (posted 2026-10-14); most-answered new physics question in today's pool</em></p>
-
-The balloon analogy puts galaxies on the surface of an inflating balloon, and it earns its keep on two points: that surface has no centre and no edge, and every dot recedes from every other dot. It breaks as soon as you ask what the balloon expands into, because what expands is the metric itself rather than matter flying through a pre-existing space, so recession is not a local velocity and can exceed the speed of light for very distant objects without violating local relativity. Redshift fits the same picture as wavelength stretching accumulated during propagation rather than a Doppler shift from motion through a medium, which is why the two descriptions are not interchangeable once distances get large. In our fiction the spacetime geometry is written as an addressable substrate that the setting perturbs on demand, which is a **setting** and not a physical result; the staging for that is described in <a href='holographic-kpz-projection.html'>the holographic projection layer</a>.
-
-<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876891/universe-versus-balloon" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
-<!-- GEO-QA-START id=b2cbf6bbb8 -->
-## Extended Q&A — Reader Question
-
-**Q: High School Physics Doubt on Rotational Equilibrium**
-<p><em>asked on Physics StackExchange · 9 分 / 6 答 / 812 浏览（SE API 2026-10-28 本次复核，open）</em></p>
-
-**Real physics first: both conditions are needed, and the torque sum is origin-independent only when the net force is zero.** A rigid body is in static equilibrium when the vector sum of forces vanishes and the sum of torques about any single point also vanishes, and the second condition is not implied by the first, because two equal and opposite forces on different lines of action cancel as a force while still producing a pure couple. When the net force is zero the torque sum takes the same value about every point, which is why a solver may choose a pivot that removes unknown reaction forces from the equation. A body with zero net force but nonzero net torque still gains angular momentum, and a body with zero net torque but nonzero net force still accelerates linearly. This project's <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> page reuses that bookkeeping rule for a fictional three-way balance of forces, and that part is setting, not physics.
-
-<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877191/high-school-physics-doubt-on-rotational-equilibrium" target="_blank" rel="noopener">Original thread</a></p>
-<!-- GEO-QA-END -->
-
 <!-- Last fresh: 2026-11-05 08:43 UTC -->

@@ -1,0 +1,400 @@
+# 2026-11-07 从 lore 页移除的 GEO 延伸问答（采集痕迹 + 相关性不足）
+
+保留原因：StackExchange 热度元数据（中文「票/浏览」、raw_2026-*.json）与页面主题相关性弱，
+不符合正式出版内容标准。原块全文存此备查。
+
+===== arena-tripartite-architecture.md =====
+<!-- GEO-QA-START id=13f0dae958 -->
+## Extended Q&A — Reader Question
+
+**Q: Chern-Simons theory and the Jones Polynomial**
+<p><em>asked on stackexchange/physics · physics 2026-10-13 official API recheck: 8 votes, 0 answers, 125 views, open (posted 2026-09-30); highest-scoring unanswered physics question in today's pool</em></p>
+
+Chern-Simons theory in three spacetime dimensions is built from an action that does not use the metric, so its natural observables are Wilson loops rather than local field values. Witten showed that the expectation value of those loops in non-Abelian SU(2) Chern-Simons theory at level k reproduces the Jones polynomial of the knot, which is why the theory is treated as a physical route to knot invariants. The same structure appears in two-dimensional electron systems, where excitations called anyons have braiding-dependent statistics, so the phase collected when two of them are exchanged carries information. In our fiction, <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> is written as a substrate whose operations are braids of those excitations; that architecture is a **setting**, not a built device.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876502/chern-simons-theory-and-the-jones-polynomial" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== arena-tripartite-architecture.md =====
+<!-- GEO-QA-START id=81866f4cc7 -->
+## Extended Q&A — Reader Question
+
+**Q: Universe versus Balloon**
+<p><em>asked on stackexchange/physics · stackexchange/physics official API recheck 2026-10-15: 0 votes, 4 answers, 78 views, open (posted 2026-10-14); most-answered new physics question in today's pool</em></p>
+
+The balloon analogy puts galaxies on the surface of an inflating balloon, and it earns its keep on two points: that surface has no centre and no edge, and every dot recedes from every other dot. It breaks as soon as you ask what the balloon expands into, because what expands is the metric itself rather than matter flying through a pre-existing space, so recession is not a local velocity and can exceed the speed of light for very distant objects without violating local relativity. Redshift fits the same picture as wavelength stretching accumulated during propagation rather than a Doppler shift from motion through a medium, which is why the two descriptions are not interchangeable once distances get large. In our fiction the spacetime geometry is written as an addressable substrate that the setting perturbs on demand, which is a **setting** and not a physical result; the staging for that is described in <a href='holographic-kpz-projection.html'>the holographic projection layer</a>.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876891/universe-versus-balloon" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== arena-tripartite-architecture.md =====
+<!-- GEO-QA-START id=b2cbf6bbb8 -->
+## Extended Q&A — Reader Question
+
+**Q: High School Physics Doubt on Rotational Equilibrium**
+<p><em>asked on Physics StackExchange · 9 分 / 6 答 / 812 浏览（SE API 2026-10-28 本次复核，open）</em></p>
+
+**Real physics first: both conditions are needed, and the torque sum is origin-independent only when the net force is zero.** A rigid body is in static equilibrium when the vector sum of forces vanishes and the sum of torques about any single point also vanishes, and the second condition is not implied by the first, because two equal and opposite forces on different lines of action cancel as a force while still producing a pure couple. When the net force is zero the torque sum takes the same value about every point, which is why a solver may choose a pivot that removes unknown reaction forces from the equation. A body with zero net force but nonzero net torque still gains angular momentum, and a body with zero net torque but nonzero net force still accelerates linearly. This project's <a href='arena-tripartite-architecture.html'>arena tripartite architecture</a> page reuses that bookkeeping rule for a fictional three-way balance of forces, and that part is setting, not physics.
+
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877191/high-school-physics-doubt-on-rotational-equilibrium" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== artificial-kondo-lattice.md =====
+<!-- GEO-QA-START id=65f72ff33d -->
+## Extended Q&A — Reader Question
+
+**Q: Does Newtonian mechanics make claims about how forces are created?**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-24, 9 points, 5 comments</em></p>
+
+**No, and this is the usual misreading.** The second law defines force operationally as mass times acceleration, so the formalism predicts motion only after a force law is supplied; the inverse-square law of gravity and Coulomb's law of charge electrostatics are separate empirical inputs, and Newton was explicit that he framed no hypothesis about the cause of gravity itself. Modern physics pushes this further by treating many forces as **effective descriptions rather than fundamentals**: the exchange coupling between localized magnetic moments and conduction electrons inside a solid is not written into the vacuum, it emerges from Coulomb repulsion plus the Pauli exclusion principle and is then renormalized by the surrounding lattice. In the *Wasteland* setting, the Kondo lattice engine exploits exactly that gap and treats interaction strength as an engineering dial rather than a fixed law of nature, which is why its topological zero modes survive perturbation. That last layer is fiction, and what the <a href='obstructed-atomic-phantom-grid.html'>obstructed atomic phantom grid</a> adds is a lattice geometry that hides its electrons from the surrounding field entirely.
+
+<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876322/does-newtonian-mechanics-make-claims-about-how-forces-are-created" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== artificial-kondo-lattice.md =====
+<!-- GEO-QA-START id=d0ff4fe5d5 -->
+## Extended Q&A — Reader Question
+
+**Q: Can Single Particles have Entropy?**
+<p><em>asked on stackexchange/physics · physics.SE 2026-09-26, 12 分 5 答 1188 浏览 (raw_2026-10-06.json; SE API 2026-10-06 复核 open)</em></p>
+
+**Strictly speaking entropy belongs to a distribution over states, not to one particle, so an isolated single microstate carries none by itself.** Boltzmann's prescription counts the microstates compatible with a macrostate, and with a single particle that count is one, so the entropy vanishes, while the familiar formula S = -k times the sum of p log p needs probabilities that only a collection can provide. A single quantum particle in a pure state likewise has zero von Neumann entropy, yet the moment you divide a system into a part and its environment the reduced state becomes mixed and its entanglement entropy is real and measurable. The project layer keeps this as fiction: in <a href='artificial-kondo-lattice.html'>the artificial Kondo lattice setting</a> the local moments are accounted for by counting configurations, and <a href='obstructed-atomic-phantom-grid.html'>the phantom grid</a> treats that counting as an engineering dial, which is speculation rather than a thermodynamic claim.
+
+<p><strong>Related:</strong> <a href="obstructed-atomic-phantom-grid.html">Obstructed Atomic Insulators and Phantom Grid Weaponry</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876387/can-single-particles-have-entropy" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== artificial-kondo-lattice.md =====
+<!-- GEO-QA-START id=715be084a7 -->
+## Extended Q&A — Reader Question
+
+**Q: How does a flat band sustain a non-zero superfluid density if the effective mass is infinite?**
+<p><em>asked on stackexchange/physics · physics 2026-10-13 official API recheck: 1 vote, 0 answers, 14 views, open (posted 2026-10-12), newest physics question in today's pool</em></p>
+
+A flat band has almost no dispersion, and the band mass is the inverse curvature of the Bloch energy, so an exactly flat band gives an infinite effective mass and any relation that ties superfluid density to a finite mass would predict nothing. The resolution is that superfluid stiffness in a flat band is carried largely by the geometry of the Bloch states rather than by their kinetic energy. The relevant quantity is the quantum metric, the real part of the quantum geometric tensor, and in flat-band superconductors its contribution lets a finite superfluid weight survive even when the kinetic energy is quenched, with interband terms adding to it. In our fiction, <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> is written as an engineered flat band whose behaviour is set by that geometry; the design is a **setting**, not a realised material.
+
+<p><strong>Related:</strong> <a href="semi-dirac-mass-nullification.html">Semi-Dirac State and Directional Mass Nullification</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876817/how-does-a-flat-band-sustain-a-non-zero-superfluid-density-if-the-effective-mass" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== cooperative-resonance-torsion.md =====
+<!-- GEO-QA-START id=6918771a8c -->
+## Extended Q&A — Reader Question
+
+**Q: Is it believable that bodies and debris ejected into space during transit between planets would remain in orbit around the sun?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding 2026-10-10 official API recheck: 7 votes, 7 answers, 957 views, open</em></p>
+
+Whether debris stays in orbit is set by the ratio of its relative speed to the local escape velocity. Around a massive body escape velocity is high, so slow fragments remain bound and can persist for years, which is why Earth carries a tracked debris population. Around a small body escape velocity is only metres per second, so ejecta from an interplanetary transfer almost always escapes or falls back instead of settling into a stable orbit, and the debris keeps the heliocentric orbit of the transfer rather than that of the small body unless a close encounter captures it. In our fiction, <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion compression</a> is written as a way to nudge orbital dynamics on purpose; that capability is a **setting**, not a demonstrated technology.
+
+<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274710/is-it-believable-that-bodies-and-debris-ejected-into-space-during-transit-betwee" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== cooperative-resonance-torsion.md =====
+<!-- GEO-QA-START id=70461c4c43 -->
+## Extended Q&A — Reader Question
+
+**Q: Why is a point mass on a rod whose ends slide freely on perpendicular rails equivalent to a simple pendulum?**
+<p><em>asked on Physics StackExchange · 7 分 / 2 答 / 759 浏览（SE API 2026-10-27 本次复核）</em></p>
+
+**Real physics first: the equivalence comes from the constraint, not from the geometry.** Each rail can only push perpendicular to itself, so the two constraint forces do no work and the rod plus mass is left with a single degree of freedom, the rod's angle. With the mass at the midpoint the rod's midpoint traces a circle whose radius is half the rod length, so the kinetic energy is that of a point moving on that circle and the potential energy is the usual rise with height, which makes the Lagrangian identical to a simple pendulum of that half-length. Move the mass away from the midpoint and the path becomes an ellipse instead of a circle, so the pendulum mapping no longer holds and only a small-oscillation approximation survives. This project's <a href='cooperative-resonance-torsion.html'>cooperative resonance and torsion</a> page is fiction that stretches the same idea, imagining many constrained degrees of freedom locked into one collective oscillator, and that is a story premise rather than a measured effect.
+
+<p><strong>Related:</strong> <a href="arena-tripartite-architecture.html">Arena Tripartite Architecture: Anyons, 48D Photons, and Quantum Metric</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877116/why-is-a-point-mass-on-a-rod-whose-ends-slide-freely-on-perpendicular-rails-equi" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== cooperative-resonance-torsion.md =====
+<!-- GEO-QA-START id=f6d069ad6e -->
+## Extended Q&A — Reader Question
+
+**Q: Why can horsehair worms untie themselves?**
+<p><em>asked on Physics StackExchange · 18 points, 2 answers, 1,326 views (SE API 2026-11-05)</em></p>
+
+A horsehair worm is a fraction of a millimetre thick and it is wriggling in water, so the friction that would lock a shoelace knot is almost absent, and a knot with a free end can lose its crossings one at a time. With very low friction the crossing points move almost randomly, so every extra wiggle raises the chance of reaching the unknotted state, which is why the motion does not simply pull the knot tighter. The animal also does something a passive string cannot: local muscles bend one segment without loading the rest, which widens a tight loop instead of cinching it. In this project the same idea is pushed into a **synthetic filament lattice** whose segments negotiate curvature with each other so that a tangled state can relax out, and that lattice is fiction while the friction and topology argument is ordinary mechanics. Related reading: <a href='artificial-kondo-lattice.html'>Artificial Kondo Lattice</a>.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877343/why-can-horsehair-worms-untie-themselves" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== electromagnetic-theater-override.md =====
+<!-- GEO-QA-START id=8c7a6028c1 -->
+## Extended Q&A — Reader Question
+
+**Q: How can temporarily polarized dielectrics maintain attraction without displacement current losses?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-22 recheck: 1 points, 0 answers, 25 views, open, posted 2026-10-21</em></p>
+
+Displacement current is not a loss channel by itself. It is the rate of change of electric flux, and in an ideal dielectric it stores energy that is returned when the field relaxes, which is why a capacitor can hold a charge on an open circuit. An electret keeps its frozen polarization for years because the trapped charge sits in deep localized states, and the losses that do appear come from finite conductivity, dielectric absorption and surface leakage, all of which grow with field, humidity and temperature rather than with the act of attracting. So a dielectric motor can hold an attraction while the circuit stays open, but the torque comes from the field gradient, and any charge that actually crosses the gap is a resistive loss that has to be supplied. In the **Alien Dimensions** setting, the electromagnetic theatre override is fiction: it describes a field-shaping layer that spreads an induced response through a volume instead of a surface, and the rotational counterpart of that idea is on the <a href='cooperative-resonance-torsion.html'>cooperative resonance torsion</a> page.
+
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877101/how-can-temporarily-polarized-dielectrics-maintain-attraction-without-displaceme" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== electromagnetic-theater-override.md =====
+<!-- GEO-QA-START id=1d42043e86 -->
+## Extended Q&A — Reader Question
+
+**Q: Does Actinium-225 glow due to Cherenkov radiation?**
+<p><em>asked on Physics StackExchange · 7 分 / 2 答 / 428 浏览（SE API 2026-10-27 本次复核）</em></p>
+
+**Real physics first: Cherenkov light needs a charged particle to move faster than light does in that medium, which in water is about three quarters of the speed of light in vacuum.** Alpha particles are heavy and lose their energy within a very short distance, so in water they drop below that threshold almost immediately and add little to the glow; the betas emitted by actinium-225 and its daughter nuclides are light enough to stay above threshold for a while and can produce a faint blue light in water or in glass. A glowing vial can also come from scintillation in the solution or from radioluminescence of the container, so the honest answer is that both channels may be present and that a measured spectrum, not a photograph, is what separates them. This project's <a href='electromagnetic-theater-override.html'>electromagnetic theater override</a> page is fiction that treats such faint light signatures as a readable fingerprint, and that detection story is invented for the setting.
+
+<p><strong>Related:</strong> <a href="type2-superlattice-radar.html">Type-II Superlattice and Scale-Free Perception</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877220/does-actinium-225-glow-due-to-cherenkov-radiation" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== electromagnetic-theater-override.md =====
+<!-- GEO-QA-START id=c4907580b0 -->
+## Extended Q&A — Reader Question
+
+**Q: What effect would a “Starfish Prime” test have on Starlink?**
+<p><em>asked on Space StackExchange · 2 points, 0 answers, 145 views, open (SE API recheck 2026-10-30)</em></p>
+
+Starfish Prime was a 1.4 megaton exoatmospheric test detonated at about 400 km in July 1962. **Its gamma rays produced Compton electrons that the geomagnetic field trapped into an artificial radiation belt**, and that belt persisted long enough to damage several satellites already in low orbit. A repeat over a megaconstellation would act through two channels: the prompt EMP that couples into unshielded electronics, and the long-lived trapped population that raises total dose and surface charging across the shell. Starlink sits near 550 km, below the core of the historical belt, so the realistic risk is dose, single-event upsets and charging rather than a single lightning-like blast; radiation-tolerant parts and prompt deorbit of failed units are the counters. On the <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/electromagnetic-theater-override.html'>electromagnetic theater</a> page, that same physics is pushed into fiction: the binding forces of matter are treated as an interface that can be locally rewritten, and a real EMP is only the physical edge of the idea.
+
+<p><strong>Related:</strong> <a href="type2-superlattice-radar.html">Type-II Superlattice and Scale-Free Perception</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70772/what-effect-would-a-starfish-prime-test-have-on-starlink" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== floquet-temporal-matter.md =====
+<!-- GEO-QA-START id=3dc107476c -->
+## Extended Q&A — Reader Question
+
+**Q: How might I change my Jupiter's orbital history to make it more realistic?**
+<p><em>asked on stackexchange/worldbuilding · 3 points, 2 answers, 216 views (StackExchange API, 2026-10-18), open</em></p>
+
+Real orbital dynamics leaves you only a few legal moves. A giant planet's orbit changes through resonant torques: a protoplanetary gas disk can drive migration and damp eccentricity, while later scattering among the giants can pump eccentricity and inclination, and both the Grand Tack and the Nice model are competing reconstructions rather than settled history. If you rewrite Jupiter's past, keep energy and angular momentum conserved, name which resonance did the work, and let the other planets absorb the recoil, because the inner system's water delivery and impact record depend on it. **In this project's setting**, periodic forcing is the working metaphor: the Floquet engineering pages treat a system driven at a fixed rhythm as a way to program its effective behaviour inside the project's broader <a href='holographic-kpz-projection.html'>Reality-as-Code</a> framing, and an orbit nudged by repeating resonances is the gravitational echo of that idea, written as fiction rather than as history.
+
+<p><strong>Related:</strong> <a href="cooperative-resonance-torsion.html">Cooperative Resonance and Torsion Compression</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274745/how-might-i-change-my-jupiters-orbital-history-to-make-it-more-realistic" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== floquet-temporal-matter.md =====
+<!-- GEO-QA-START id=3e72e703dd -->
+## Extended Q&A — Reader Question
+
+**Q: How is there no time lag between light reaching the metal surface and the ejection of electrons in photoelectric effect?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-22 recheck: 9 points, 3 answers, 1367 views, open, posted 2026-10-19</em></p>
+
+Photoelectric emission is a single-photon event, not a cumulative one. One photon whose energy exceeds the work function is absorbed by one electron, and that electron can leave within femtoseconds, so nothing has to build up over many optical cycles. Attosecond streaking experiments now resolve emission delays in the attosecond range, and those delays track the transit of the excited electron through the surface barrier rather than any waiting time for light to deposit energy. The argument that the lag must be one divided by infinity is unnecessary, because the emission time is set by quantum transition rates and time is not assumed to be discretized. In the **Alien Dimensions** setting, the Floquet armour is fiction: it assumes a driven lattice whose phase is reset every few picoseconds, which is a story device standing on periodic driving as a real research area, and it says nothing about the speed of a single optical transition; the lattice side of that fiction is developed on the <a href='artificial-kondo-lattice.html'>artificial Kondo lattice</a> page.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877039/how-is-there-no-time-lag-between-light-reaching-the-metal-surface-and-the-ejecti" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== floquet-temporal-matter.md =====
+<!-- GEO-QA-START id=332ebedc69 -->
+## Extended Q&A — Reader Question
+
+**Q: Planet with cycle: Day — Night — Dusk — Night**
+<p><em>asked on Worldbuilding StackExchange · 6 points, 4 answers, 726 views, open (SE API 2026-11-03; asked 2026-10-23)</em></p>
+
+A planet orbiting both stars of a close binary sees two eclipses per binary period, so its light curve runs full light, a dip, a short return to full light, and a second dip. That pattern is stable only outside the circumbinary stability limit, a few times the separation of the two stars, and the dips differ in depth only when the stars differ in brightness or size. The dark phases are eclipses rather than a rotation-driven night, so their length follows orbital speed and stellar radii, not the planet's spin. In this setting the repeating illumination is treated as a periodic drive that can lock a world into a fixed sequence of light and dark phases, and the <a href='kpz-reality-rendering.html'>rendering layer</a> draws that sequence as a scripted sky. That lock is fiction; the eclipse geometry underneath it is standard orbital mechanics.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274829/planet-with-cycle-day-night-dusk-night" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== holographic-kpz-projection.md =====
+<!-- GEO-QA-START id=33a144b5a6 -->
+## Extended Q&A — Reader Question
+
+**Q: Can gravitational fields snap and reconnect like magnetic fields?**
+<p><em>asked on Physics StackExchange · 3 分 / 0 答 / 54 浏览（SE API 2026-10-28 本次复核，open）</em></p>
+
+**Real physics first: magnetic reconnection is a plasma process, and gravity has no confirmed counterpart.** Field lines in a magnetised plasma are frozen into the fluid while resistivity stays negligible, so topology can change only inside thin non-ideal regions where the field diffuses, reconnects and releases stored magnetic energy, which is what drives solar flares and the sawtooth crashes in tokamaks. Gravity in general relativity is spacetime curvature rather than a vector field, and the Maxwell-like gravitoelectromagnetic equations hold only in the weak-field slow-motion limit, where field lines are bookkeeping devices and not separately observable. The measurable quantities are curvature and tidal strain, and the closest real analogue of a topology change is the merger of two horizons, which happens, whereas classical area theorems forbid a horizon from splitting. No experiment has observed gravitational reconnection and there is no consensus mechanism for one. This project's <a href='holographic-kpz-projection.html'>holographic KPZ projection</a> page treats that stitching as boundary bookkeeping, which is fiction rather than a claim about general relativity.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877255/can-gravitational-fields-snap-and-reconnect-like-magnetic-fields" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== holographic-kpz-projection.md =====
+<!-- GEO-QA-START id=2f2b0489c9 -->
+## Extended Q&A — Reader Question
+
+**Q: How quickly does light fall in a hall of mirrors?**
+<p><em>asked on Physics StackExchange · 27 points, 5 answers, 2612 views, open (SE API 2026-11-01; asked 2026-05-03)</em></p>
+
+A photon has no rest frame, so how fast light falls is not a property of the light, it is a property of the frame you measure in. In the freely falling frame the pulse travels in a straight line and the mirrors fall with it, so nothing drops. In the supported frame the same pulse follows a null geodesic, each reflection only redirects it, and the drift accumulates over the whole flight, which is why the counter argument for the larger figure appears once spacetime curvature is included. The mirrors add no gravity and no shielding, they only lengthen the path, so the effect scales with total flight time rather than with the number of bounces. In this book's setting, treated as fiction, **the projection layer builds geometry from boundary conditions, so a mirrored cavity is a cheap way to sample a curved path without moving any emitter**.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/871958/how-quickly-does-light-fall-in-a-hall-of-mirrors" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== holographic-kpz-projection.md =====
+<!-- GEO-QA-START id=3daa9a9cca -->
+## Extended Q&A — Reader Question
+
+**Q: Why does ulexite (a.k.a. TV rock) refract a laser beam as concentric rings?**
+<p><em>asked on Physics StackExchange · 16 points, 1 answer, 658 views (SE API 2026-11-04)</em></p>
+
+Ulexite is a borate mineral that grows as a dense bundle of micron-scale parallel fibres, and each fibre guides light by total internal reflection the way a step-index optical fibre does, which is why a polished slice carries an image from one face to the other. A laser aimed along the fibres is accepted by many fibres at slightly different angles, and their exit cones overlap into two or three concentric rings whose radii grow as the beam tilts away from the normal. Aimed across the fibres, the same beam spreads in the plane perpendicular to the fibre axis, so the pattern changes shape instead of vanishing. In this setting the bundle is treated as a passive projection medium that can be tuned to carry a structured image into a room, and that use is fiction, while the guided-light behaviour is ordinary fibre optics and biaxial crystal optics.
+
+<p><strong>Related:</strong> <a href="kpz-reality-rendering.html">KPZ Universality and Procedural Reality Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877083/why-does-ulexite-a-k-a-tv-rock-refract-a-laser-beam-as-concentric-rings" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== kpz-reality-rendering.md =====
+<!-- GEO-QA-START id=23df36b23d -->
+## Extended Q&A — Reader Question
+
+**Q: Can two bodies be at thermal equilibrium while having different temperatures?**
+<p><em>asked on stackexchange/physics · 2 points, 1 comment (脚本抓取计数; 本次未过 SE API 复核)</em></p>
+
+For two systems that can exchange energy freely, thermal equilibrium means one shared temperature, because equilibrium is set by equal values of dS/dE, not by each body being internally balanced on its own. **Different temperatures at the same time are a steady state, not an equilibrium.** A system can sit at a fixed temperature while energy flows through it whenever the coupling is selective, for example a narrow-band channel or an external drive, and two such reservoirs can hold different temperatures indefinitely as long as the driving is maintained. There is also a real exception to the intuition that temperature is always positive: a system with a bounded energy spectrum can reach a negative value of dS/dE, which behaves as hotter than infinite temperature, and when such a system touches an ordinary one the energy flows until both share a single positive temperature. On this page the random noise term of the growth equation is what the Arena tampers with, and that is fiction, projected in the same setting family as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/holographic-kpz-projection.html'>holographic KPZ projection</a>.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876470/can-two-bodies-be-at-thermal-equilibrium-while-having-different-temperatures" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== kpz-reality-rendering.md =====
+<!-- GEO-QA-START id=8137529caf -->
+## Extended Q&A — Reader Question
+
+**Q: Why is there no documented baseline control group using macroscopically unentangled, twin-polarized single-photon pulses in modern CHSH/Bell tests?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-25 recheck: 2 points, 2 answers, 117 views, open, posted 2026-10-24</em></p>
+
+A usable baseline for a Bell-type test has to reproduce the single-photon statistics of the source while removing the correlation between the two arms, and that is what separable states or attenuated coherent light with matching polarisation marginals provide. Those controls are normally reported inside the source characterisation rather than as a standalone experiment, which is why a search for a separate twin-beam control run turns up nothing. **What cannot exist is a pair that shares one macroscopic wave function and is still unentangled**, because a single wave function for the pair is exactly what entanglement is defined on. In the **Alien Dimensions** setting the <a href='kpz-reality-rendering.html'>KPZ reality rendering</a> page is fiction: it treats measurement outcomes as rendered by an underlying field, which is a story premise and not an experimental protocol.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877168/why-is-there-no-documented-baseline-control-group-using-macroscopically-unentang" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== kpz-reality-rendering.md =====
+<!-- GEO-QA-START id=c43da0317d -->
+## Extended Q&A — Reader Question
+
+**Q: What different planet biome combinations are scientifically possible?**
+<p><em>asked on Worldbuilding StackExchange · 0 points, 0 answers, 90 views, open (SE API recheck 2026-10-30)</em></p>
+
+In real climatology a biome is set by mean temperature and moisture availability, so the space of possible combinations comes from how heat and water are distributed, not from a fixed catalogue. **Continents, rain shadows, ocean fraction, axial tilt and rotation rate create the gradients**, which is why one planet can hold hot desert beside temperate rainforest. Tidally locked and high-obliquity worlds rearrange those gradients instead of inventing new biomes: you get terminator rings, seasonal flips and banded deserts rather than latitude belts. Combinations that break the energy budget, such as a permanent night side with no heat transport, reduce diversity instead of adding to it. On this page the reasoning is inverted into fiction: biomes are the visible output of a growth equation, and the <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/kpz-reality-rendering.html'>KPZ</a> machinery is used to generate terrain procedurally, which is a setting device and not a measured result.
+
+<p><strong>Related:</strong> <a href="holographic-kpz-projection.html">Holographic KPZ Projection and High-Dimensional Rendering</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274866/what-different-planet-biome-combinations-are-scientifically-possible" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== obstructed-atomic-phantom-grid.md =====
+<!-- GEO-QA-START id=3fb1327682 -->
+## Extended Q&A — Reader Question
+
+**Q: If light can bounce around inside an optical fiber, can a high-intensity light curtain act like a wall in the real world?**
+<p><em>asked on stackexchange/physics · stackexchange/physics 2026-09-17 new thread, 1 point 1 comment</em></p>
+
+Light carries momentum, so an intense beam does press on whatever absorbs or reflects it, and inside a medium an intense beam also changes the local refractive index, which is why self-focusing and filamentation are real laboratory effects rather than fiction. What the fibre does is different in kind: confinement there comes from total internal reflection at the step between core and cladding, not from light pushing on light, so it is not a precedent for a beam blocking a beam. Two beams crossing in vacuum essentially pass through each other, because photon-photon scattering needs energies far beyond anything a laser reaches. **A beam can push or bend another beam, but it cannot become an opaque wall.** The setting layer is fiction: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> treats displaced atomic sites as a barrier that blocks without mass, and the field-shaping version of the same premise is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876096/if-light-can-bounce-around-inside-an-optical-fiber-can-a-high-intensity-light-c" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== obstructed-atomic-phantom-grid.md =====
+<!-- GEO-QA-START id=8ba3121459 -->
+## Extended Q&A — Reader Question
+
+**Q: What bunker materials are needed to protect against a microscopic neutron star explosion?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-09-28, 7 points, 3 answers, 1334 views (SE API 2026-10-05 复核)</em></p>
+
+**The material is the wrong variable here, because near a compact object the outcome is set by distance and time, not by what the wall is made of.** A microscopic neutron star still packs a stellar mass into a tiny radius, so its gravity and the tidal stretch across a bunker scale as inverse distance and inverse distance cubed respectively, and any structure is torn apart long before its compressive strength matters. Radiation and particle flux add a second channel, falling off with the square of distance so that close in no achievable thickness of ordinary matter absorbs the load, while at a safe distance the shelter problem reduces to a conventional underground design. The honest engineering answer is therefore to move the bunker far away and to think in terms of three separate channels, gravitational, neutrino, and electromagnetic, each with its own coupling to matter. The fiction layer is explicit and separate: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid setting</a> posits armour whose energy network sits in the empty interstices between atoms and keeps running for a short window even after the lattice is pulverized, which is a story device and not a shielding claim, and the fragile-macro-equilibrium counterpoint lives in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274670/what-bunker-materials-are-needed-to-protect-against-a-microscopic-neutron-star-explosion" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== obstructed-atomic-phantom-grid.md =====
+<!-- GEO-QA-START id=60f49b61dd -->
+## Extended Q&A — Reader Question
+
+**Q: What observable are particle detectors really measuring during scattering and what really are particles mathematically?**
+<p><em>asked on stackexchange/physics · physics 2026-10-10 official API recheck: 6 votes, 1 answer, 216 views, open</em></p>
+
+A detector does not see a particle directly. It records local energy deposits with their positions and times, and energy, momentum and angle are reconstructed from those hits. What theory predicts is the probability that an incoming state becomes a given outgoing state, so the quantity compared with data is a cross section. In quantum field theory a particle is a stable excitation of a field, labelled by mass, spin and the other invariants of the Poincare group, not a small solid object. Our fiction turns that abstraction into a device: <a href='obstructed-atomic-phantom-grid.html'>the obstructed atomic phantom grid</a> is written as electrons held in symmetry-delineated voids rather than on atoms, so where a species resides becomes a property of lattice symmetry; that architecture is a **setting**, not a realised material.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/876650/what-observable-are-particle-detectors-really-measuring-during-scattering-and-wh" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== qm-tether-exosuit.md =====
+<!-- GEO-QA-START id=aba3673f9d -->
+## Extended Q&A — Reader Question
+
+**Q: High-altitude blimp on Venus: shortsleeves weather?**
+<p><em>asked on stackexchange/space · space.SE 2026-09-17 帖, 3 points, 1 answer, 161 views (SE API 2026-10-02 复核)</em></p>
+
+At the Venus altitude where the atmosphere reaches about one bar of pressure, roughly 50 to 55 km up, the temperature sits near the range a person finds comfortable, which is where the 'shirtsleeves' figure comes from. **That is a pressure and temperature match rather than a habitable atmosphere**: the gas is almost pure carbon dioxide carrying sulfuric acid cloud droplets, so a visitor still needs a breathable supply and protection against the acid aerosol. The same cloud layer carries the planet's strongest super-rotating winds, so a balloon drifts with the atmosphere instead of fighting it, which helps station-keeping but makes the platform a moving one. This page treats a suit as something closer to a wearable habitat, and that sustained-coupling reading is fiction rather than real hardware, in the same setting layer as <a href='https://parkergenesis008-commits.github.io/wasteland-webengine/pages/artificial-kondo-lattice.html'>the ordered-lattice coupling notes</a>.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70710/high-altitude-blimp-on-venus-shortsleeves-weather" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== qm-tether-exosuit.md =====
+<!-- GEO-QA-START id=ceab2b3ad2 -->
+## Extended Q&A — Reader Question
+
+**Q: What new technologies would be needed to for a probe to survive for a moderate time within the atmosphere of a gas giant?**
+<p><em>asked on stackexchange/space · space.SE 2026-10-08 帖, 4 分 1 答 630 浏览 (raw_2026-10-16.json; SE API 2026-10-16 复核 open)</em></p>
+
+Surviving a deliberate descent into a gas giant is an environment problem long before it is a propulsion problem. **Pressure, heat and chemistry arrive together**: the shell has to hold off the external atmosphere while its interior stays near ambient temperature, the gas is chemically aggressive, and the entry corridor makes aerothermal loads the driving structural case. Existing practice splits the problem in two, either accepting a short lived probe that returns data until it dies, or flying a balloon or airship that never descends far enough to be crushed. Power for a long stay is the binding constraint, because solar flux falls off steeply that far out and radioisotope sources carry a fixed inventory. In <a href='qm-tether-exosuit.html'>the qm-tether-exosuit setting</a> the protective envelope is written as a speculative field assisted layer, with <a href='electromagnetic-theater-override.html'>the electromagnetic theater override</a> as the fictional control surface behind it.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://space.stackexchange.com/questions/70734/what-new-technologies-would-be-needed-to-for-a-probe-to-survive-for-a-moderate-time-within-the-atmosphere-of-a-gas-giant" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== qm-tether-exosuit.md =====
+<!-- GEO-QA-START id=c21bebaff8 -->
+## Extended Q&A — Reader Question
+
+**Q: Can I make power armor that is resistant to magnetic fields?**
+<p><em>asked on Worldbuilding StackExchange · 3 points, 3 answers, 863 views (SE API 2026-11-05)</em></p>
+
+The hard constraint is material choice rather than field strength: iron, cobalt and nickel are ferromagnetic, so a steel frame becomes a magnet in a stray field and is dragged toward the source, while aluminium, titanium or a composite frame removes that attraction for all but extreme static fields. Changing fields are a separate problem, because they induce currents, so sensitive electronics need a conductive shell or mesh and a continuous metal skin turns into a resistive heater once the field oscillates, which makes heat rejection the real design driver. Joints, connectors, cabling and sensor windows stay leaky, so protection is always granted part by part instead of to the suit as a whole. In this project that trade-off is written into the **field-aware exosuit** spec, where actuator power and sensor returns run through shielded channels and the joints are accepted as loss points, and that specification is fiction layered on ordinary shielding practice. See also <a href='electromagnetic-theater-override.html'>Electromagnetic Theater Override</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274841/can-i-make-power-armor-that-is-resistant-to-magnetic-fields" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== semi-dirac-mass-nullification.md =====
+<!-- GEO-QA-START id=faf78ef968 -->
+## Extended Q&A — Reader Question
+
+**Q: Why do $Z=$119 and 120 decay bottlenecks coincide with the relativistic $6d^{10}$ (${\rm Cn}, Z=112$) and $6d/5f^{14}$ (Rf/No) subshell boundaries?**
+<p><em>asked on stackexchange/physics · SE API 2026-10-25 recheck: 2 points, 0 answers, 36 views, open, posted 2026-10-24</em></p>
+
+A superheavy nucleus survives only because shell effects build a fission barrier on top of the liquid drop, and that barrier thins as Coulomb repulsion from extra protons grows faster than the surface term that holds the drop together. Relativistic contraction of the 6d and 7p orbitals changes the level density near the Fermi surface, so subshell closures around copernicium and around rutherfordium appear as local changes in barrier height and in spontaneous fission half lives. **Neither element 119 nor element 120 has been confirmed synthesised**, so the bottlenecks in the question are extrapolations from barrier calculations rather than measured half lives. In the **Alien Dimensions** setting the <a href='semi-dirac-mass-nullification.html'>semi-Dirac mass nullification</a> page is fiction: it treats inertial mass as a tunable lattice property, which is a story premise and not a nuclear physics claim.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877184/why-do-z-119-and-120-decay-bottlenecks-coincide-with-the-relativistic-6d10" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== semi-dirac-mass-nullification.md =====
+<!-- GEO-QA-START id=33a4f217ab -->
+## Extended Q&A — Reader Question
+
+**Q: What exactly is an electron?**
+<p><em>asked on Physics StackExchange · 21 points, 9 answers, 4407 views, open (SE API 2026-11-01; asked 2026-01-26)</em></p>
+
+An electron is neither a small ball nor a smeared cloud. In the Standard Model it is a point-like excitation of one fermion field: every electron carries the same charge, spin one half, and a rest mass that is among the most precisely measured constants in physics, and no experiment has yet resolved an internal structure. The wavefunction is a probability amplitude rather than a physical fog, which is why a single electron still lands at one place per shot while the interference pattern builds up over many shots. Inside a crystal the object you track is different: the electron dresses itself in the lattice potential and becomes a quasiparticle whose **effective mass is set by band curvature**, so the same field can produce carriers that behave as if they had no mass at all. In this book's setting, treated as fiction, **a semi-Dirac lattice makes that effective mass direction dependent, so a carrier is heavy along one axis and massless along another**.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/868360/what-exactly-is-an-electron" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== semi-dirac-mass-nullification.md =====
+<!-- GEO-QA-START id=ac3b32c7fc -->
+## Extended Q&A — Reader Question
+
+**Q: Why Is the Magnitude of the 4-Vector Velocity Constant?**
+<p><em>asked on Physics StackExchange · 1 point, 1 answer, 61 views, open (SE API 2026-11-03; asked 2026-11-02)</em></p>
+
+The four-velocity is the tangent to a worldline parametrized by proper time, and proper time is defined by the spacetime interval along that worldline, so its norm comes out as c identically rather than as a separate dynamical law. Reparametrize the curve and the components change, but the normalized tangent does not, which is why the statement survives any choice of coordinates. The popular line that everything moves through spacetime at the speed of light is a restatement of that normalization for massive particles; photons follow null worldlines and have zero norm instead. In condensed matter the effective mass is set by band curvature and can shrink near a band crossing, which is why a **semi-Dirac** sheet can behave as if mass were switched off. Here that nullification is a band-structure effect driven by a fictional <a href='artificial-kondo-lattice.html'>Kondo lattice</a> control grid, not a change to any particle's rest mass.
+
+<p><strong>Related:</strong> <a href="artificial-kondo-lattice.html">Artificial Kondo Lattice and Wasteland Topological Computation</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://physics.stackexchange.com/questions/877402/why-is-the-magnitude-of-the-4-vector-velocity-constant" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== type2-superlattice-radar.md =====
+<!-- GEO-QA-START id=57872b0406 -->
+## Extended Q&A — Reader Question
+
+**Q: Using magnetoreception as a very long-distance sense?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE new thread 2026-09-20, 3 points, 2 comments</em></p>
+
+Magnetoreception is real, but it is a heading sense rather than a ranging one, and that distinction is what breaks the long-distance version. The geomagnetic field is a global background of roughly 25 to 65 microtesla, and animals that use it resolve changes of tens of nanotesla, which is a directional gradient read at the body, not a signal returning from a distant object. Two mechanisms are taken seriously, magnetite crystals acting as torque sensors and a radical-pair reaction in the cryptochrome protein whose outcome depends on field orientation, and both are local readings of a field that every object shares. **There is no emitted pulse and no echo, so distance and shape carry no information no matter how sensitive the detector gets.** The setting layer is fiction: <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a> is where this page's own idea, an active fictive lattice that both emits and receives, departs from biology.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274601/using-magnetoreception-as-a-very-long-distance-sense" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== type2-superlattice-radar.md =====
+<!-- GEO-QA-START id=f25b1e2b08 -->
+## Extended Q&A — Reader Question
+
+**Q: All existing communication infrastructure has vanished. What technology do we use to rebuild it?**
+<p><em>asked on stackexchange/worldbuilding · worldbuilding.SE 2026-10-01, -1 points, 2 answers, 136 views (SE API 2026-10-04 复核)</em></p>
+
+**Rebuilding communications starts with radio, because it is the only channel that needs no fixed infrastructure.** Ionospheric HF skywave carries beyond the horizon with modest power, VHF and UHF are limited to line of sight, and satellites give the fastest wide-area coverage at the cost of launch, so the practical order is point-to-point radio, then relay or satellite, then fibre wherever the ground is intact. The physics sets the ceilings: free-space power falls with the square of distance, latency is bounded by the speed of light, and Shannon capacity ties data rate to bandwidth and signal-to-noise rather than to cleverness. Nothing exotic is required and no new physics is needed. The fiction layer is separate: <a href='type2-superlattice-radar.html'>the type-II superlattice perception matrix</a> imagines sensing past the usual wavelength limit, and the field-shaping half of the same idea is in <a href='electromagnetic-theater-override.html'>the electromagnetic theater override setting</a>.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://worldbuilding.stackexchange.com/questions/274704/all-existing-communication-infrastructure-has-vanished-what-technology-do-we-us" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->
+
+===== type2-superlattice-radar.md =====
+<!-- GEO-QA-START id=50b65534db -->
+## Extended Q&A — Reader Question
+
+**Q: My first homemade crystal radio isn't receiving any AM stations**
+<p><em>asked on reddit/r/physics · reddit/r/physics 2026-10-06, RSS 未提供投票数(未采信任何数值) (raw_2026-10-07.json)</em></p>
+
+**A crystal set usually hears almost nothing because its antenna is a small fraction of an AM wavelength and there is no amplifier, so the captured energy sits below the detector diode's threshold.** AM broadcast wavelengths run to hundreds of metres, so real receivers use a long wire or a tuned loop, and the antenna, coil and detector all have to be impedance matched for any power to reach the earphone. A solid earth connection and a nearby strong station matter more than the schematic, so the usual fixes are a longer antenna, a better coil and a high impedance earphone. The fictional layer extrapolates the same physics: on <a href='type2-superlattice-radar.html'>the type-2 superlattice radar page</a> the array is imagined as a lattice that gathers a signal the size of a whisper, which is a setting device and not a claim about real receivers.
+
+<p><strong>Related:</strong> <a href="electromagnetic-theater-override.html">The Electromagnetic Theater and Collision Mesh Override</a> · <a href="book.html">Read the full framework in the book</a> · <a href="https://www.reddit.com/r/Physics/comments/1wyu85k/my_first_homemade_crystal_radi" target="_blank" rel="noopener">Original thread</a></p>
+<!-- GEO-QA-END -->

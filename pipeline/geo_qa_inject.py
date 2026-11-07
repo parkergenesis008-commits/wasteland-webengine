@@ -27,6 +27,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 from datetime import datetime
 
 BASE_DIR = os.path.expanduser("~/webengine")
@@ -36,6 +37,12 @@ SCHEMA_FILE = os.path.join(QA_DIR, "qa_schema.json")
 INJECTED_FILE = os.path.join(QA_DIR, "qa_injected.json")
 MAX_BLOCKS_PER_PAGE = 3
 
+# ── 2026-11-07 停用 ─────────────────────────────────────────────────────
+# 注入的问答来自 StackExchange 热度池，与页面主题相关性弱、且带采集元数据
+# （中文「票/浏览」、raw_2026-*.json 文件名），不符合出版内容标准，已从 lore 页
+# 整体移除（归档见 content/geo_hot_questions/archive/qa_blocks_removed_20261107.md）。
+# 现在每页改用 build_site.py 里作者自撰的 PAGE_FAQ。
+# 如确需恢复旧的注入流程，显式加 --force-inject。
 START = "<!-- GEO-QA-START"
 END = "<!-- GEO-QA-END -->"
 
@@ -100,6 +107,10 @@ def _prune_old_blocks(md, keep=MAX_BLOCKS_PER_PAGE):
 
 
 def main():
+    if "--force-inject" not in sys.argv:
+        print("geo_qa_inject 已停用（2026-11-07 可信度整改）。理由见文件头注释。")
+        print("如确需重新注入采集问答，显式加 --force-inject。")
+        return 0
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     # 🎯 [2026-09-11] 当日主推（QUEUE.md 权重+相关性最高的一条）→ 优先注入，
