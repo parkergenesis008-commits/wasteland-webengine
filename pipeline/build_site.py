@@ -7,17 +7,33 @@ Converts 11 lore MD files into standalone HTML pages + sitemap + robots.txt.
 import json, os, re, hashlib, subprocess
 from datetime import datetime
 
-BASE_DIR = os.path.expanduser("~/webengine")
+# 允许沙箱/回归检查用环境变量改根目录（不改仓库文件即可渲染到临时目录）
+BASE_DIR = os.environ.get("WASTELAND_BASE_DIR") or os.path.expanduser("~/webengine")
 LORES_DIR = os.path.join(BASE_DIR, "content/lore")
 PAGES_DIR = os.path.join(BASE_DIR, "pages")
 SITE_URL = "https://parkergenesis008-commits.github.io/wasteland-webengine"
 ASSETS_URL = f"{SITE_URL}/assets"
 
+# ── 页面模板（2026-11-07 模板并回）──────────────────────────────────────
+# 线上定稿的 index/book/author/llms/robots 已抽成 pipeline/templates/*，
+# 生成器只替换占位符，重新生成不会再回退到旧文案（"12 retailers"、$9.99 等）。
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATES_DIR = os.path.join(REPO_ROOT, "pipeline", "templates")
+
+BOOK_PRICE = "4.99"
+PRICE_LABEL = f"US${BOOK_PRICE}"
+# 封面：Apple Books 官方 1200x1200 图（线上 OG/hero 一直在用这个源）
+COVER_URL = ("https://is1-ssl.mzstatic.com/image/thumb/Publication221/v4/51/bd/94/"
+             "51bd9468-a006-ecc7-e881-9d0f559ed182/0004166571.jpg/1200x1200wz.jpg")
+
+# 渠道卡片显示名（BOOK_RETAILERS 里的 key → 页面上印的名字）
+RETAILER_LABELS = {"Amazon": "Amazon Kindle", "Apple Books": "Apple Books"}
+
 AUTHOR_NAME = "Miancheng Yu"
 BOOK_TITLE = "Alien Dimensions: The Shepherd's Wasteland"
 
 # ── Book metadata for the sales landing page [P0 2026-09-02 GEO推广改进] ──
-AMAZON_URL = "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
+AMAZON_URL = "https://www.amazon.com/dp/B0GTMLH634/"   # 短链；长 slug 同 ASIN，两个都 200
 # 🍎 [2026-09-11] Apple Books 深链**换了 id**（旧 id6479860641 已 404）。
 #   新 id 通过 Apple 官方检索 API 取回: itunes.apple.com/search?term=…&entity=ebook&country=US
 #   → trackViewUrl = .../id6760573514。经海外出口实测 200 且页面含书名+作者。
@@ -750,9 +766,44 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
     )
     return html_out.strip()
 
+def render_template(name, **kw):
+    """Render pipeline/templates/<name> by replacing {{PLACEHOLDER}} tokens.
+
+    模板里只允许出现纯占位符；渲染后若残留 {{XXX}} 直接报错（防止静默输出坏页面）。
+    """
+    path = os.path.join(TEMPLATES_DIR, name)
+    with open(path, encoding="utf-8") as f:
+        tpl = f.read()
+    values = {
+        "SITE_URL": SITE_URL,
+        "ASSETS_URL": ASSETS_URL,
+        "BOOK_TITLE": BOOK_TITLE,
+        "AUTHOR_NAME": AUTHOR_NAME,
+        "BOOK_HOOK": BOOK_HOOK,
+        "COVER_URL": COVER_URL,
+        "PRICE": BOOK_PRICE,
+        "PRICE_LABEL": PRICE_LABEL,
+        "AMAZON_URL": AMAZON_URL,
+        "APPLE_BOOKS_URL": APPLE_BOOKS_URL,
+    }
+    values.update(kw)
+    for k, v in values.items():
+        tpl = tpl.replace("{{%s}}" % k, v)
+    leftover = re.findall(r"\{\{[A-Z0-9_]+\}\}", tpl)
+    if leftover:
+        raise RuntimeError(f"{name}: unrendered placeholders {sorted(set(leftover))}")
+    if "{{" in tpl:
+        raise RuntimeError(f"{name}: stray '{{{{' left in output")
+    return tpl
+
+
 def build_book_page():
-    """Sales landing page for the book — designed to convert browsers into buyers.
-    [P0 2026-09-02 GEO推广改进: 从百科站转向卖书店]"""
+    """Book sales landing page — 正文全部来自 pipeline/templates/book.html。
+
+    [2026-11-07] 旧版函数里内联的文案是 9 月版本（12 retailers / 无 FAQ / $9.99 残留），
+    与线上定稿页差 148 行，直接跑会把新内容覆盖掉。现在模板 = 线上定稿页，
+    动态部分只剩章节列表、渠道卡片、样章三段和占位符。
+    """
     chapters_html = []
     for vol, vol_title, chs in BOOK_CHAPTERS:
         ch_items = "".join(f"<li>{c}</li>" for c in chs)
@@ -763,370 +814,116 @@ def build_book_page():
 
     retailer_cells = []
     for name, url in BOOK_RETAILERS:
-        tag = "Direct" if name in ("Amazon", "Apple Books") else ("Library" if "Library" in name else "Store")
+        label = RETAILER_LABELS.get(name, name)
         retailer_cells.append(
-            f'<a href="{url}" class="retailer" rel="noopener" target="_blank">{name}<span class="tag">{tag}</span></a>'
+            f'            <a href="{url}" class="retailer" rel="noopener" target="_blank">{label}'
+            f'<span class="tag">{PRICE_LABEL}</span></a>'
         )
     retailers_block = "\n".join(retailer_cells)
 
-    sample_paras = " ".join(
-        [p for p in BOOK_SAMPLE.split("\u201c")[0].split(". ")][:3]
-    )  # fallback; real split below
-
-    # Split sample into presentable paragraphs at sentence boundaries (~2 short paras)
     sentences = BOOK_SAMPLE.replace("\n", " ").split(". ")
     para1 = ". ".join(sentences[:3]) + "."
     para2 = ". ".join(sentences[3:7]) + "."
     para3 = ". ".join(sentences[7:])
 
-    faq = [
-        ("What is Alien Dimensions: The Shepherd's Wasteland?",
-         f"Alien Dimensions: The Shepherd's Wasteland is a hard science fiction novel by {AUTHOR_NAME}. "
-         "It follows a geological surveyor who discovers a rift in spacetime in the Qinling Mountains and is "
-         "pulled into a war between civilizations that treat reality as source code."),
-        ("Is the science in the book real?",
-         "Yes — the book is anchored in real condensed-matter physics: topological metamaterials, "
-         "Einstein-Cartan torsion theory, Kagome-lattice quantum engineering, and the broader Reality-as-Code "
-         "framework. Each speculative technology is grounded in a genuine physics principle, explained on the "
-         "companion encyclopedia pages of this site."),
-        ("Who is the author?",
-         f"{AUTHOR_NAME} is the author of Alien Dimensions: The Shepherd's Wasteland, a hard sci-fi novel built "
-         "on the Reality-as-Code physics framework."),
-        ("Where can I buy the book?",
-         "The ebook is published on Amazon Kindle ($4.99) and Apple Books ($4.99). "
-         "Purchase links are on this page."),
-    ]
-    faq_json = json.dumps({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
-            for q, a in faq
-        ],
-    }, ensure_ascii=False)
+    return render_template(
+        "book.html",
+        CHAPTERS=chapters_block,
+        RETAILER_CARDS=retailers_block,
+        SAMPLE_P1=para1,
+        SAMPLE_P2=para2,
+        SAMPLE_P3=para3,
+    )
 
-    book_schema = json.dumps({
-        "@context": "https://schema.org",
-        "@type": "Book",
-        "name": BOOK_TITLE,
-        "author": {"@type": "Person", "name": AUTHOR_NAME},
-        "url": f"{SITE_URL}/book.html",
-        "sameAs": [url for _, url in BOOK_RETAILERS],
-        "description": BOOK_HOOK,
-        "genre": "Science Fiction",
-        "inLanguage": "en",
-    }, ensure_ascii=False)
 
-    html = f'''<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{BOOK_TITLE} — Hard Sci-Fi Novel by {AUTHOR_NAME} | Shepherd's Wasteland</title>
-    <meta name="description" content="Read a free sample of Alien Dimensions: The Shepherd's Wasteland — a hard sci-fi novel by {AUTHOR_NAME} where topological metamaterials, Einstein-Cartan torsion and the Reality-as-Code framework meet a war for reality itself.">
-    <meta name="author" content="{AUTHOR_NAME}">
-    <meta name="google-site-verification" content="Fv0VnknT4HV64X5p3phBFitifk5WKSvRFb9XcdQdtII" />
-    <meta property="og:type" content="book">
-    <meta property="og:title" content="{BOOK_TITLE}">
-    <meta property="og:description" content="{BOOK_HOOK}">
-    <meta property="og:url" content="{SITE_URL}/book.html">
-    <meta property="og:image" content="{ASSETS_URL}/bookcover.webp">
-    <meta property="og:site_name" content="Shepherd's Wasteland">
-    <meta property="og:locale" content="en_US">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{BOOK_TITLE}">
-    <meta name="twitter:description" content="{BOOK_HOOK}">
-    <meta name="twitter:image" content="{ASSETS_URL}/bookcover.webp">
-    <link rel="canonical" href="{SITE_URL}/book.html">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERCP39C12Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){{dataLayer.push(arguments);}}
-      gtag('js', new Date());
-      gtag('config', 'G-ERCP39C12Y', {{'page_title': '{BOOK_TITLE}', 'page_path': '{SITE_URL}/book.html'}});
-    </script>
-    <script type="application/ld+json">{faq_json}</script>
-    <script type="application/ld+json">{book_schema}</script>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
-    <style>
-        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{ background: #0a0a0a; color: #ccc; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; line-height: 1.7; }}
-        .wrap {{ max-width: 900px; margin: 0 auto; padding: 20px; }}
-        .topbar {{ display: flex; justify-content: space-between; align-items: center; padding: 12px 0 20px; border-bottom: 1px solid #1a3a1a; margin-bottom: 25px; }}
-        .topbar a {{ color: #00FF41; text-decoration: none; font-size: 0.9em; }}
-        .topbar a:hover {{ text-decoration: underline; }}
-        .hero {{ display: flex; gap: 40px; align-items: flex-start; padding: 30px 0 40px; flex-wrap: wrap; }}
-        .hero img {{ width: 260px; border: 1px solid #1a3a1a; box-shadow: 0 8px 40px rgba(0,255,65,0.08); }}
-        .hero-text {{ flex: 1; min-width: 300px; }}
-        .hero-text h1 {{ color: #00FF41; font-size: 1.8em; line-height: 1.3; margin-bottom: 10px; }}
-        .hero-text .sub {{ color: #888; font-size: 0.95em; margin-bottom: 18px; font-style: italic; }}
-        .hero-text p {{ font-size: 0.95em; margin-bottom: 15px; }}
-        .cta-row {{ display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; }}
-        .buy-link {{ display: inline-block; background: #00FF41; color: #0a0a0a; padding: 13px 28px; text-decoration: none; font-weight: bold; font-size: 0.95em; transition: all 0.2s; }}
-        .buy-link:hover {{ background: #7dff9e; }}
-        .buy-link.alt {{ background: transparent; color: #00FF41; border: 1px solid #00FF41; }}
-        .buy-link.alt:hover {{ background: #1a3a1a; }}
-        .note {{ color: #777; font-size: 0.78em; margin-top: 8px; }}
-        .sample {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 30px; margin: 25px 0; }}
-        .sample h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 15px; }}
-        .sample p {{ font-size: 0.92em; color: #bbb; margin-bottom: 14px; text-indent: 0; }}
-        .sample .more {{ text-align: right; font-size: 0.85em; margin-top: 8px; }}
-        .chapters {{ margin: 25px 0; }}
-        .chapters h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 15px; }}
-        .vol {{ margin-bottom: 16px; }}
-        .vol-head {{ color: #eee; font-weight: bold; font-size: 0.92em; border-left: 3px solid #00FF41; padding-left: 10px; margin-bottom: 5px; }}
-        .vol ul {{ list-style: none; margin-left: 13px; }}
-        .vol li {{ color: #999; font-size: 0.85em; padding: 1px 0; }}
-        .vol li::before {{ content: "▸ "; color: #00FF41; }}
-        .why {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin: 25px 0; }}
-        .why-card {{ background: #111; border: 1px solid #1a3a1a; padding: 18px; }}
-        .why-card h3 {{ color: #00FF41; font-size: 0.95em; margin-bottom: 6px; }}
-        .why-card p {{ font-size: 0.85em; color: #999; }}
-        .footer-cta {{ text-align: center; padding: 30px 0 40px; border-top: 1px solid #1a3a1a; margin-top: 30px; }}
-        .footer-cta h2 {{ color: #eee; font-size: 1.15em; margin-bottom: 15px; }}
-        .back {{ display: block; text-align: center; margin: 25px 0; color: #666; font-size: 0.85em; text-decoration: none; }}
-        .back:hover {{ color: #00FF41; }}
-        .retailers {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin: 25px 0; }}
-        .retailers h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 6px; }}
-        .retailers .sub {{ color: #888; font-size: 0.8em; margin-bottom: 15px; }}
-        .retailer-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }}
-        .retailer {{ display: block; background: #111; border: 1px solid #1a3a1a; color: #ccc; text-decoration: none; padding: 10px 14px; font-size: 0.85em; transition: all 0.2s; }}
-        .retailer:hover {{ border-color: #00FF41; color: #00FF41; }}
-        .retailer .tag {{ display: block; color: #666; font-size: 0.72em; margin-top: 2px; }}
-        .lib-note {{ color: #777; font-size: 0.78em; margin-top: 12px; text-align: center; }}
-        @media (max-width: 640px) {{ .hero img {{ width: 180px; margin: 0 auto; display: block; }} .hero {{ flex-direction: column; align-items: center; text-align: center; }} .cta-row {{ justify-content: center; }} }}
-    </style>
-</head>
-<body>
-<div class="wrap">
-    <div class="topbar">
-        <a href="{SITE_URL}/">⟁ Shepherd's Wasteland — Reality-as-Code Encyclopedia</a>
-        <a href="{SITE_URL}/">All Physics Entries →</a>
-    </div>
+def frontmatter_title(md):
+    """YAML frontmatter 的 title（长标题），用于 llms.txt 与首页卡片副标题。"""
+    m = re.match(r"^---\n(.*?)\n---\n", md, flags=re.S)
+    if not m:
+        return ""
+    for line in m.group(1).split("\n"):
+        if line.startswith("title:"):
+            return line.split(":", 1)[1].strip()
+    return ""
 
-    <div class="hero">
-        <img src="{ASSETS_URL}/bookcover.webp" alt="{BOOK_TITLE} — cover" loading="eager">
-        <div class="hero-text">
-            <h1>{BOOK_TITLE}</h1>
-            <div class="sub">A hard sci-fi novel by {AUTHOR_NAME}</div>
-            <p>{BOOK_HOOK}</p>
-            <div class="cta-row">
-                <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-                <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
-            </div>
-            <div class="note">Read a free sample below — no account needed.</div>
-        </div>
-    </div>
 
-    <div class="sample">
-        <h2>📖 Free Sample — Chapter 1: The Singularity Descends</h2>
-        <p>{para1}</p>
-        <p>{para2}</p>
-        <p>{para3}</p>
-        <div class="more"><a href="{AMAZON_URL}" style="color:#00FF41;">Continue reading on Amazon →</a></div>
-    </div>
+def first_body_paragraph(md, limit=200):
+    """正文小节首段（跳过 frontmatter/标题/列表），用于首页卡片摘要。
 
-    <div class="chapters">
-        <h2>Contents</h2>
-        {chapters_block}
-    </div>
-
-    <h2 style="color:#00FF41;font-size:1.1em;margin:25px 0 15px;">Why readers pick this book</h2>
-    <div class="why">
-        <div class="why-card">
-            <h3>Physics you can verify</h3>
-            <p>Every technology in the novel maps to a real research area — topological insulators, Einstein-Cartan torsion, Kagome lattices. The companion encyclopedia pages explain the science behind each invention.</p>
-        </div>
-        <div class="why-card">
-            <h3>Scale: canyon to cosmos</h3>
-            <p>From a nameless valley in the Qinling Mountains to Orion trade routes and the throne of a collapsed cosmos — four volumes of escalating stakes.</p>
-        </div>
-        <div class="why-card">
-            <h3>Civilization as source code</h3>
-            <p>A warden race that edits reality, a shepherd protocol that encrypts coordinates, and a human who refuses to be a subroutine in someone else's program.</p>
-        </div>
-    </div>
-
-    <div class="retailers">
-        <h2>🛒 Buy in your preferred store</h2>
-        <div class="sub">Published across 12 major ebook retailers — plus library lending.</div>
-        <div class="retailer-grid">
-            {retailers_block}
-        </div>
-        {LIB_NOTE_HTML}
-    </div>
-
-    <div class="footer-cta">
-        <h2>Reality is code. Start compiling.</h2>
-        <div class="cta-row" style="justify-content:center;">
-            <a href="{AMAZON_URL}" class="buy-link" rel="noopener" target="_blank">Buy on Amazon →</a>
-            <a href="{APPLE_BOOKS_URL}" class="buy-link alt" rel="noopener" target="_blank">Buy on Apple Books</a>
-        </div>
-    </div>
-
-    <a class="back" href="{SITE_URL}/">← Back to the Encyclopedia</a>
-</div>
-</body>
-</html>'''
-    return html.strip()
+    2026-11-07 修复：旧实现取 md_to_html() 的首个 <p>，命中的是 frontmatter 的
+    "title: ..." 行 —— 线上首页 12 张卡片摘要全是 "title: XXX"，不是正文。
+    这里按"紧跟在 heading 后面的第一段散文"取，读起来才是导语；
+    注意 lore 正文里标题与正文常无空行分隔，必须逐行处理而不是按空行切块。
+    """
+    body = re.sub(r"^---\n.*?\n---\n", "", md, count=1, flags=re.S)
+    buf, after_heading, intro, fallback = [], False, None, None
+    def flush():
+        nonlocal buf, after_heading, intro, fallback
+        para = " ".join(buf).strip()
+        buf = []
+        if not para:
+            after_heading = False
+            return
+        if after_heading and len(para) >= 60 and intro is None:
+            intro = para
+        if fallback is None and len(para) >= 60:
+            fallback = para
+        after_heading = False
+    for line in body.split("\n"):
+        st = line.strip()
+        if not st:
+            flush()
+        elif st.startswith("#"):
+            flush()
+            after_heading = True
+        elif st.startswith(("- ", "* ", "|", ">", "![", "```")):
+            flush()
+        else:
+            buf.append(st)
+    flush()
+    para = intro or fallback or ""
+    para = re.sub(r"\*\*(.+?)\*\*", r"\1", para)
+    para = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"\1", para)
+    para = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", para)
+    para = re.sub(r"\s+", " ", para).strip()
+    if len(para) > limit:
+        para = para[:limit].rsplit(" ", 1)[0] + "…"
+    return para
 
 
 def build_index_page(all_slugs):
-    """Generate the homepage with full article index and glossary."""
+    """Homepage — 版式/文案来自 pipeline/templates/index.html，卡片由 lore 生成。"""
     cards = []
     for slug in sorted(all_slugs):
-        en_title, zh_title = LORE_TITLES[slug]
-        zh_title = en_title  # 🌐 [2026-08-20] 全站英文化
+        en_title, _zh = LORE_TITLES[slug]
         md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
-        # Get first real paragraph for excerpt
-        excerpt_match = re.search(r'<p>(.+?)</p>', md_to_html(md_body, slug))
-        excerpt = ""
-        if excerpt_match:
-            excerpt = re.sub(r'<[^>]+>', '', excerpt_match.group(1))[:200]
+        long_title = frontmatter_title(md_body) or en_title
+        excerpt = first_body_paragraph(md_body)
+        en_line = (f'\n            <div class="card-en">{long_title}</div>'
+                   if long_title != en_title else "")
         cards.append(f'''
         <a href="pages/{slug}.html" class="card">
-            <h2>{zh_title}</h2>
-            <div class="card-en">{en_title}</div>
+            <h2>{en_title}</h2>{en_line}
             <p>{excerpt}</p>
             <span class="card-tag">Topological Physics</span>
         </a>''')
+    return render_template("index.html", CARDS="\n".join(cards))
 
-    cards_html = '\n'.join(cards)
 
-    schema = build_schema_graph("index", "Shepherd's Wasteland", "Shepherd's Wasteland", "Comprehensive hard sci-fi physics encyclopedia covering topological metamaterials, Kagome lattices, and the Reality-as-Code framework.")
-    schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
+def build_author_page():
+    """Author page — 2026-11-06 定稿版，模板化后不再依赖手工维护。"""
+    return render_template("author.html")
 
-    html = f'''<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia | {AUTHOR_NAME}</title>
-    <meta name="description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering, and the Reality-as-Code framework by {AUTHOR_NAME}.">
-    <meta name="keywords" content="Shepherd's Wasteland, hard sci-fi, topological metamaterials, Kagome lattice, Reality-as-Code, Miancheng Yu, Alien Dimensions, quantum gravity, torsion field">
-    <meta name="author" content="{AUTHOR_NAME}">
-    <!-- Google Search Console verification -->
-    <meta name="google-site-verification" content="Fv0VnknT4HV64X5p3phBFitifk5WKSvRFb9XcdQdtII" />
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
-    <meta property="og:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering and the Reality-as-Code framework.">
-    <meta property="og:url" content="{SITE_URL}/">
-    <meta property="og:site_name" content="Shepherd's Wasteland">
-    <meta property="og:locale" content="en_US">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia">
-    <meta name="twitter:description" content="Definitive hard sci-fi physics encyclopedia: topological metamaterials and the Reality-as-Code framework.">
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ERCP39C12Y"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){{dataLayer.push(arguments);}}
-      gtag('js', new Date());
-      gtag('config', 'G-ERCP39C12Y', {{
-        'page_title': "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",
-        'page_path': '{SITE_URL}/'
-      }});
-    </script>
-    <!-- Favicon (inline SVG) -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>⟁</text></svg>">
-    <link rel="canonical" href="{SITE_URL}/">
-    <script type="application/ld+json">{schema_json}</script>
-    <style>
-        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-        body {{ background: #0a0a0a; color: #e0e0e0; font-family: 'Georgia', 'Noto Serif SC', serif; line-height: 1.8; }}
-        .container {{ max-width: 1100px; margin: 0 auto; padding: 20px; }}
-        header {{ border-bottom: 2px solid #1a3a1a; padding: 40px 0 25px; margin-bottom: 30px; }}
-        header h1 {{ color: #00FF41; font-size: 2.2em; font-family: 'Courier New', monospace; }}
-        header .subtitle {{ color: #666; font-size: 1em; margin-top: 8px; }}
-        header .author {{ color: #888; font-size: 0.9em; margin-top: 5px; }}
-        .hero {{ background: #111; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }}
-        .hero h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
-        .hero p {{ color: #aaa; font-size: 0.9em; }}
-        .author-card {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; }}
-        .author-card h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 10px; }}
-        .author-card p {{ color: #aaa; font-size: 0.9em; margin-bottom: 10px; }}
-        .author-card a {{ color: #00FF41; }}
-        .author-links {{ display: flex; gap: 18px; flex-wrap: wrap; margin-top: 6px; }}
-        .book-cta {{ background: #0d1a0d; border: 1px solid #1a3a1a; padding: 25px; margin-bottom: 30px; text-align: center; }}
-        .book-cover-img {{ width: 200px; height: auto; margin-bottom: 12px; border: 1px solid #1a3a1a; }}
-        .book-cta h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 8px; }}
-        .book-cta p {{ color: #ccc; font-size: 0.9em; margin-bottom: 15px; }}
-        .book-links {{ display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }}
-        .buy-link {{ display: inline-block; background: #1a3a1a; color: #00FF41; padding: 10px 25px; text-decoration: none; font-size: 0.9em; transition: all 0.2s; }}
-        .buy-link:hover {{ background: #00FF41; color: #0a0a0a; }}
-        .grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }}
-        .card {{ background: #111; border: 1px solid #1a3a1a; padding: 20px; text-decoration: none; color: inherit; transition: all 0.2s; display: block; }}
-        .card:hover {{ border-color: #00FF41; background: #151515; transform: translateY(-2px); }}
-        .card h2 {{ color: #00FF41; font-size: 1em; margin-bottom: 4px; }}
-        .card-en {{ color: #666; font-size: 0.8em; margin-bottom: 10px; }}
-        .card p {{ color: #999; font-size: 0.85em; line-height: 1.5; }}
-        .card-tag {{ display: inline-block; background: #1a3a1a; color: #00FF41; font-size: 0.7em; padding: 2px 8px; margin-top: 10px; }}
-        .glossary {{ margin-top: 40px; }}
-        .glossary h2 {{ color: #00FF41; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1a3a1a; padding-bottom: 8px; }}
-        .glossary table {{ width: 100%; border-collapse: collapse; }}
-        .glossary td {{ padding: 10px; border-bottom: 1px solid #1a1a1a; font-size: 0.9em; }}
-        .glossary td:first-child {{ color: #00FF41; width: 200px; }}
-        .glossary td:last-child {{ color: #aaa; }}
-        footer {{ border-top: 1px solid #1a3a1a; padding: 20px 0; margin-top: 50px; text-align: center; color: #444; font-size: 0.8em; }}
-        @media (max-width: 768px) {{ .grid {{ grid-template-columns: 1fr; }} }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>⟁ Shepherd's Wasteland</h1>
-            <div class="subtitle">Reality-as-Code — Hard Sci-Fi Physics Encyclopedia</div>
-            <div class="author">By {AUTHOR_NAME} · Author of "{BOOK_TITLE}"</div>
-        </header>
-        <div class="hero">
-            <h2>About the Encyclopedia</h2>
-            <p>A systematic exploration of the <strong>Reality-as-Code</strong> framework — where topological metamaterials, Einstein-Cartan torsion fields, and Kagome-lattice quantum engineering converge. Each entry translates cutting-edge condensed matter physics into speculative technology grounded in real physical principles. This is not fantasy. This is physics as source code, waiting to be compiled.</p>
-        </div>
-        <!-- About the Author (E-E-A-T 2026-09-09:真实可核验信息,不编造资历) -->
-        <div class="author-card">
-            <h2>About the Author</h2>
-            <p>{AUTHOR_NAME} is the author of <em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard science fiction novel where a geological surveyor discovers a rift in spacetime and is pulled into a war between civilizations that treat reality as source code.</p>
-            <p>This encyclopedia is the companion to the novel: every entry translates a real condensed-matter physics principle (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering) into speculative technology, and each page lists the genuine arXiv papers it is grounded in.</p>
-            <div class="author-links">
-                <a href="{SITE_URL}/book.html" target="_blank" rel="noopener">Read a Free Sample →</a>
-                <a href="{AMAZON_URL}" target="_blank" rel="noopener">Amazon</a>
-                <a href="{APPLE_BOOKS_URL}" target="_blank" rel="noopener">Apple Books</a>
-                <a href="https://github.com/parkergenesis008-commits/wasteland-webengine" target="_blank" rel="noopener">Source Repository (GitHub)</a>
-            </div>
-        </div>
-        <!-- Book CTA → book.html landing [P0 2026-09-02] -->
-        <div class="book-cta">
-            <a href="{SITE_URL}/book.html"><img src="{ASSETS_URL}/bookcover.webp" alt="Alien Dimensions: The Shepherd&apos;s Wasteland - hard sci-fi novel by Miancheng Yu" class="book-cover-img" loading="lazy"></a>
-            <h2>📖 The Book</h2>
-            <p><em>Alien Dimensions: The Shepherd's Wasteland</em> — a hard sci-fi novel by {AUTHOR_NAME}. A surveyor stumbles onto a rift in spacetime — and into a war between civilizations that treat reality as source code.</p>
-            <div class="book-links">
-                <a href="{SITE_URL}/book.html" class="buy-link" style="background:#00FF41;color:#0a0a0a;">Read Free Sample →</a>
-                <a href="{AMAZON_URL}" target="_blank" rel="noopener" class="buy-link">Amazon</a>
-                <a href="{APPLE_BOOKS_URL}" target="_blank" rel="noopener" class="buy-link">Apple Books</a>
-                <a href="{SITE_URL}/book.html" class="buy-link" style="background:transparent;border:1px solid #00FF41;">Buy on Amazon / Apple Books →</a>
-            </div>
-        </div>
-        <div class="grid">{cards_html}</div>
-        <div class="glossary">
-            <h2>Core Glossary</h2>
-            <table>
-                <tr><td>Dimension-Shearing</td><td>Torsion-induced atomic-level spacetime tearing, the physical anchor for cross-dimensional movement</td></tr>
-                <tr><td>Vacuum Zero-Point Energy Leakage</td><td>A local rupture of the spacetime continuum caused by zero-point energy extraction</td></tr>
-                <tr><td>The Shepherd Protocol</td><td>Encryption logic for stabilizing coordinate displacement during dimension-shearing</td></tr>
-                <tr><td>Topological Metamaterials</td><td>Engineered lattices where quantum geometry replaces chemical composition as the source of material properties</td></tr>
-                <tr><td>Baryonic Mass-Torsion</td><td>The modulation of inertial mass via spin-current interaction in curved spacetime (Einstein-Cartan framework)</td></tr>
-            </table>
-        </div>
-        <footer>
-            <p>© 2026 {AUTHOR_NAME}. Shepherd's Wasteland — Reality-as-Code Framework.</p>
-            <p style="margin-top:3px;">Hard sci-fi physics grounded in topological metamaterials, Einstein-Cartan theory, and Kagome-lattice quantum engineering.</p>
-        </footer>
-    </div>
-</body>
-</html>'''
-    return html.strip()
+
+def build_llms(all_slugs):
+    """llms.txt（LLM 抓取入口）：书/作者 + 全部百科条目，条目列表由 lore 生成。"""
+    lines = []
+    for slug in sorted(all_slugs):
+        md = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
+        title = frontmatter_title(md) or LORE_TITLES[slug][0]
+        lines.append(f"- [{title}]({SITE_URL}/pages/{slug}.html)")
+    return render_template("llms.txt", ENTRIES="\n".join(lines))
+
 
 def git_lastmod(rel_path):
     """该文件"内容最后一次真正变化"的日期（YYYY-MM-DD），用于 sitemap <lastmod>。
@@ -1138,11 +935,11 @@ def git_lastmod(rel_path):
     """
     try:
         dirty = subprocess.run(["git", "status", "--porcelain", "--", rel_path],
-                               cwd=BASE_DIR, capture_output=True, text=True, timeout=15)
+                               cwd=REPO_ROOT, capture_output=True, text=True, timeout=15)
         if dirty.stdout.strip():
             return datetime.now().strftime("%Y-%m-%d")
         out = subprocess.run(["git", "log", "-1", "--format=%cs", "--", rel_path],
-                             cwd=BASE_DIR, capture_output=True, text=True, timeout=15)
+                             cwd=REPO_ROOT, capture_output=True, text=True, timeout=15)
         d = out.stdout.strip()
         return d if re.match(r"^\d{4}-\d{2}-\d{2}$", d or "") else None
     except Exception:
@@ -1165,14 +962,14 @@ def build_sitemap(all_slugs):
     for slug in all_slugs:
         lines.append(_url_entry(f"{SITE_URL}/pages/{slug}.html", "monthly", "0.8",
                                 f"pages/{slug}.html"))
+    lines.append(_url_entry(f"{SITE_URL}/author.html", "monthly", "0.7", "author.html"))
     lines.append('</urlset>')
     return '\n'.join(lines)
 
 def build_robots():
-    return f"""User-agent: *
-Allow: /
-Sitemap: {SITE_URL}/sitemap.xml
-"""
+    """robots.txt — 模板含 AI 爬虫白名单与 Pages 项目站说明。"""
+    return render_template("robots.txt")
+
 
 def main():
     os.makedirs(PAGES_DIR, exist_ok=True)
@@ -1201,6 +998,18 @@ def main():
             f.write(page_html)
         print(f"[OK] pages/{slug}.html ({len(page_html)} chars)")
     
+    # Author page（2026-11-06 定稿，模板化）
+    author_html = build_author_page()
+    with open(os.path.join(BASE_DIR, "author.html"), "w", encoding="utf-8") as f:
+        f.write(author_html)
+    print(f"[OK] author.html ({len(author_html)} chars)")
+
+    # llms.txt（LLM 抓取入口）
+    llms_txt = build_llms(all_slugs)
+    with open(os.path.join(BASE_DIR, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(llms_txt)
+    print(f"[OK] llms.txt ({len(llms_txt)} chars)")
+
     # Sitemap
     sitemap = build_sitemap(all_slugs)
     with open(os.path.join(BASE_DIR, "sitemap.xml"), "w", encoding="utf-8") as f:
@@ -1217,8 +1026,9 @@ def main():
     with open(os.path.join(BASE_DIR, ".nojekyll"), "w") as f:
         f.write("")
     
-    print(f"\n✅ Build complete: {1 + len(all_slugs)} pages + sitemap + robots.txt")
-    print(f"Pages generated: {1 + len(all_slugs)}")
+    total = 2 + len(all_slugs)
+    print(f"\n✅ Build complete: {total} HTML pages + sitemap + robots.txt + llms.txt")
+    print(f"Pages generated: {total}")
 
 if __name__ == "__main__":
     main()
