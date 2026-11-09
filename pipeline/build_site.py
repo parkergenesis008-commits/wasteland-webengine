@@ -43,6 +43,13 @@ AMAZON_URL = "https://www.amazon.com/dp/B0GTMLH634/"   # 短链；长 slug 同 A
 #   → trackViewUrl = .../id6760573514。经海外出口实测 200 且页面含书名+作者。
 #   ⚠️ 直连（中国 IP）对该域返回 404 = Apple 地域拒绝，不代表链接失效。
 APPLE_BOOKS_URL = "https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6760573514"
+# [2026-11-09] 实体分工：作者节点只关联**作者身份页**（Apple artist / Goodreads author）；
+#   Amazon·Apple·Goodreads 的**书页**一律归 Book 节点。不要把分销链接塞进 Person.sameAs。
+APPLE_ARTIST_URL = "https://books.apple.com/us/artist/miancheng-yu/1885090334"
+GOODREADS_AUTHOR_URL = "https://www.goodreads.com/author/show/69489573.Miancheng_Yu"
+GOODREADS_BOOK_URL = "https://www.goodreads.com/book/show/250137600-alien-dimensions"
+AUTHOR_SAMEAS = [APPLE_ARTIST_URL, GOODREADS_AUTHOR_URL]
+BOOK_SAMEAS = [AMAZON_URL, APPLE_BOOKS_URL, GOODREADS_BOOK_URL]
 # 📖 Everand（Scribd）深链，实测可用（原为搜索页，2026-09-11 升级）
 EVERAND_URL = "https://www.everand.com/book/1012259893/Alien-Dimensions-The-Shepherd-s-Wasteland"
 
@@ -607,44 +614,55 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "name": "Shepherd's Wasteland — Hard Sci-Fi Physics Encyclopedia",
                 "url": SITE_URL,
                 "description": "Topological metamaterials, Einstein-Cartan torsion fields, Kagome-lattice quantum engineering — the definitive hard sci-fi physics reference by Miancheng Yu.",
-                "author": {"@type": "Person", "name": AUTHOR_NAME}
+                "author": {"@id": f"{SITE_URL}/#author"}
             },
             {
                 "@type": "Book",
+                "@id": f"{SITE_URL}/book.html#book",
                 "name": BOOK_TITLE,
-                "author": {"@type": "Person", "name": AUTHOR_NAME},
-                "url": f"{SITE_URL}/",
+                "alternateName": "异维空间：牧羊人的荒原",
+                "author": {"@id": f"{SITE_URL}/#author"},
+                "url": f"{SITE_URL}/book.html",
+                "datePublished": "2026-03-13",
+                "inLanguage": "en-US",
+                "bookFormat": "https://schema.org/EBook",
+                "identifier": [
+                    {"@type": "PropertyValue", "propertyID": "Apple Books ID", "value": "6760573514"},
+                    {"@type": "PropertyValue", "propertyID": "ASIN", "value": "B0GTMLH634"},
+                ],
                 "about": ["Topological metamaterials", "Quantum gravity", "Einstein-Cartan theory"],
-                "offers": {
-                    "@type": "Offer",
-                    "price": "4.99",
-                    "priceCurrency": "USD",
-                    "availability": "https://schema.org/InStock",
-                    "url": "https://www.amazon.com/Alien-Dimensions-Shepherds-Wasteland-Miancheng-ebook/dp/B0GTMLH634/"
-                }
+                "offers": [
+                    {"@type": "Offer", "seller": {"@type": "Organization", "name": "Amazon"},
+                     "url": AMAZON_URL, "price": BOOK_PRICE, "priceCurrency": "USD",
+                     "availability": "https://schema.org/InStock"},
+                    {"@type": "Offer", "seller": {"@type": "Organization", "name": "Apple Books"},
+                     "url": APPLE_BOOKS_URL, "price": BOOK_PRICE, "priceCurrency": "USD",
+                     "availability": "https://schema.org/InStock"},
+                ],
+                # 书页链接（分销 + 读者社区）只挂 Book，不挂 Person
+                "sameAs": BOOK_SAMEAS
             },
             {
                 "@type": "Person",
+                "@id": f"{SITE_URL}/#author",
                 "name": AUTHOR_NAME,
+                "alternateName": "余免成",
                 "url": f"{SITE_URL}/author.html",
-                "sameAs": [url for _, url in BOOK_RETAILERS[:10]],
-                "description": "Author of Alien Dimensions: The Shepherd's Wasteland — a hard sci-fi novel built on the Reality-as-Code physics framework (topological metamaterials, Einstein-Cartan torsion, Kagome-lattice engineering)."
+                # 只关联作者身份页；书页链接归 Book 节点
+                "sameAs": AUTHOR_SAMEAS,
+                "description": "Hard science fiction author and devoted sci-fi fan."
             },
             {
                 "@type": "Article",
                 "headline": f"{en_title}: {zh_title}",
                 "name": f"{en_title} — Hard Sci-Fi Physics Concept",
-                "author": {"@type": "Person", "name": AUTHOR_NAME},
+                "author": {"@id": f"{SITE_URL}/#author"},
                 "datePublished": "2026-01-15",
                 "dateModified": datetime.now().strftime("%Y-%m-%d"),
                 "url": f"{SITE_URL}/pages/{slug}.html",
                 "about": ["Topological physics", en_title, zh_title],
                 "description": description[:300],
-                "isPartOf": {
-                    "@type": "Book",
-                    "name": BOOK_TITLE,
-                    "url": f"{SITE_URL}/"
-                }
+                "isPartOf": {"@id": f"{SITE_URL}/book.html#book"}
             }
         ]
     }
