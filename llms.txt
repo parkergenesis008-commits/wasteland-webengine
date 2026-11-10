@@ -7,6 +7,7 @@
 - [Amazon Kindle](https://www.amazon.com/dp/B0GTMLH634/)
 - [Apple Books](https://books.apple.com/us/book/alien-dimensions-the-shepherds-wasteland/id6760573514)
 - [Goodreads book page (reader shelf and reviews; not a store)](https://www.goodreads.com/book/show/250137600-alien-dimensions)
+- StoryGraph: https://app.thestorygraph.com/books/b0949f84-7af8-4f9e-9e0c-4e923398c07d
 
 ## Author
 - [Author: Miancheng Yu (余免成)](https://parkergenesis008-commits.github.io/wasteland-webengine/author.html)
