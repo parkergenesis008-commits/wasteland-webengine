@@ -603,8 +603,13 @@ def _qa_faq_nodes(slug):
     return [{"@type": "FAQPage", "mainEntity": entities}] if entities else []
 
 
-def build_schema_graph(slug, en_title, zh_title, description):
-    """Generate rich multi-entity JSON-LD."""
+def build_schema_graph(slug, en_title, zh_title, description, date_modified=None):
+    """Generate rich multi-entity JSON-LD.
+
+    date_modified: 页面内容"真正最后一次变化"的日期（YYYY-MM-DD）。
+    不再无脑取 datetime.now()：调用方（main）会把上一版页面里的 dateModified 传进来，
+    只有渲染结果与磁盘上的旧页不一致时，才用今天重渲染一次。
+    """
     return {
         "@context": "https://schema.org",
         "@graph": [
@@ -658,7 +663,7 @@ def build_schema_graph(slug, en_title, zh_title, description):
                 "name": f"{en_title} — Hard Sci-Fi Physics Concept",
                 "author": {"@id": f"{SITE_URL}/#author"},
                 "datePublished": "2026-01-15",
-                "dateModified": datetime.now().strftime("%Y-%m-%d"),
+                "dateModified": date_modified or datetime.now().strftime("%Y-%m-%d"),
                 "url": f"{SITE_URL}/pages/{slug}.html",
                 "about": ["Topological physics", en_title, zh_title],
                 "description": description[:300],
@@ -667,7 +672,8 @@ def build_schema_graph(slug, en_title, zh_title, description):
         ]
     }
 
-def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=False):
+def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=False,
+                    date_modified=None):
     zh_title = en_title  # 🌐 [2026-08-20] 全站英文化：强制中文标题回退为英文
     md_body = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
     # Skip YAML frontmatter
@@ -691,10 +697,12 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
                 body_html = _sc + body_html
 
     # 正文首段后注入书页内链(2026-09-09:文章页 → book.html 购买/阅读锚点,强化内链权重)
+    # [2026-11-12] 内页在 pages/ 下，指向根目录的 book.html 必须带 ../，否则是死链
+    #   （commit 75db733 手工修过 12 页的死链，这里改为生成器本身正确，避免重建回退）。
     if not is_index and not slug.startswith('book'):
         fp = body_html.find('</p>')
         if fp != -1:
-            intext = (f'<p class="body-link"><a href="book.html" class="intext">📖 Read this concept in '
+            intext = (f'<p class="body-link"><a href="../book.html" class="intext">📖 Read this concept in '
                       f'<em>{BOOK_TITLE}</em></a> — the hard sci-fi novel where this physics becomes story.</p>')
             body_html = body_html[:fp + 4] + intext + body_html[fp + 4:]
     
@@ -729,7 +737,7 @@ def build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=Fa
         nav_html = ' | '.join(related[:5])
 
     # Schema
-    schema = build_schema_graph(slug, en_title, zh_title, description)
+    schema = build_schema_graph(slug, en_title, zh_title, description, date_modified)
     schema_json = json.dumps(schema, ensure_ascii=False, indent=2)
 
     # Hook 标题(2026-09-09 GEO:关键词开头 + 信息缺口悬念,单独成 title)
@@ -1151,6 +1159,16 @@ def build_llms(all_slugs):
     return render_template("llms.txt", ENTRIES="\n".join(lines))
 
 
+def existing_date_modified(path):
+    """读磁盘上旧页 JSON-LD 里的 dateModified（YYYY-MM-DD）；没有/读不到返回 None。"""
+    try:
+        with open(path, encoding="utf-8") as f:
+            m = re.search(r'"dateModified":\s*"(\d{4}-\d{2}-\d{2})"', f.read())
+        return m.group(1) if m else None
+    except (OSError, UnicodeDecodeError):
+        return None
+
+
 def git_lastmod(rel_path):
     """该文件"内容最后一次真正变化"的日期（YYYY-MM-DD），用于 sitemap <lastmod>。
 
@@ -1215,11 +1233,31 @@ def main():
     print(f"[OK] book.html ({len(book_html)} chars)")
     
     # Build lore pages
+    # ── dateModified 只在"内容真变"时刷新（2026-11-12）───────────────────
+    # 旧行为：每跑一次 build 都把 12 篇内页的 dateModified 刷成今天，导致
+    #   (a) 向 Google 虚报全站当天更新；(b) git_lastmod() 见文件有改动 → sitemap
+    #   15 个 URL 的 lastmod 全被洗成当天。现在先按"沿用旧日期"渲染一遍：
+    #   与磁盘旧页逐字节相同 → 直接不动（文件不写、git 干净、sitemap 保持真实日期）；
+    #   不同 → 确属内容变化，再按今天重渲染并写入。
+    today = datetime.now().strftime("%Y-%m-%d")
     for slug in all_slugs:
         en_title, zh_title = LORE_TITLES[slug]
         md_content = read_md(os.path.join(LORES_DIR, f"{slug}.md"))
-        page_html = build_page_html(slug, en_title, zh_title, md_content, all_slugs, is_index=False)
         out_path = os.path.join(PAGES_DIR, f"{slug}.html")
+        prev = None
+        if os.path.exists(out_path):
+            with open(out_path, encoding="utf-8") as f:
+                prev = f.read()
+        prev_date = existing_date_modified(out_path)
+        page_html = build_page_html(slug, en_title, zh_title, md_content, all_slugs,
+                                    is_index=False, date_modified=prev_date or today)
+        if prev is not None and page_html == prev:
+            print(f"[KEEP] pages/{slug}.html unchanged (dateModified = {prev_date or today})")
+            continue
+        if prev_date != today:
+            page_html = build_page_html(slug, en_title, zh_title, md_content, all_slugs,
+                                        is_index=False, date_modified=today)
+            print(f"[BUMP] pages/{slug}.html dateModified {prev_date or '(none)'} -> {today}")
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(page_html)
         print(f"[OK] pages/{slug}.html ({len(page_html)} chars)")
